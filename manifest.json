@@ -116,9 +116,8 @@
       "id": "2020_p1",
       "title": "JEE Advanced 2020 - Paper 1",
       "year": 2020,
-      "description": "Previous year paper.",
-      "filename": "",
-      "comingSoon": true,
+      "description": "Full syllabus paper based on JEE Advanced 2020 pattern.",
+      "filename": "2020_paper_1/2020_paper_1.json",
       "version": 1
     }
   ]
