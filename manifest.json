@@ -9,11 +9,35 @@
       "version": 2
     },
     {
+      "id": "2022_mains_jun_24_s2",
+      "title": "JEE Main 2022 - 24 June Shift 2",
+      "year": 2022,
+      "filename": "jee_mains_24_jun_2022_shift_2/jee_mains_24_jun_2022_shift_2.json",
+      "description": "JEE Main 2022 24 June Evening Shift.",
+      "version": 1
+    },
+    {
       "id": "2025_mains_apr_02_s1",
       "title": "JEE Main 2025 Session-2 - 2 April Shift 1",
       "year": 2025,
       "filename": "jee_mains_02_apr_2025_shift_1/jee_mains_02_apr_2025_shift_1.json",
       "description": "JEE Main 2025 Session-2 2 April Shift 1.",
+      "version": 1
+    },
+    {
+      "id": "2025_mains_apr_02_s2",
+      "title": "JEE Main 2025 Session-2 - 2 April Shift 2",
+      "year": 2025,
+      "filename": "jee_mains_02_apr_2025_shift_2/jee_mains_02_apr_2025_shift_2.json",
+      "description": "JEE Main 2025 Session-2 2 April Shift 2.",
+      "version": 1
+    },
+    {
+      "id": "2025_mains_apr_04_s1",
+      "title": "JEE Main 2025 Session-2 - 4 April Shift 1",
+      "year": 2025,
+      "filename": "jee_mains_04_apr_2025_shift_1/jee_mains_04_apr_2025_shift_1.json",
+      "description": "JEE Main 2025 Session-2 4 April Shift 1.",
       "version": 1
     },
     {
