@@ -3,7 +3,7 @@ import json
 import re
 import sys
 
-# Dynamically resolve backend directory relative to this script
+# Dynamically resolve backend directory relative to this script 
 BACKEND_DIR = os.path.dirname(os.path.abspath(__file__))
 MANIFEST_PATH = os.path.join(BACKEND_DIR, "manifest.json")
 
