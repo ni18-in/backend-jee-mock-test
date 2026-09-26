@@ -61,7 +61,7 @@
       "title": "JEE Advanced 2023 - Paper 1",
       "year": 2023,
       "filename": "2023_paper_1/2023_paper_1.json",
-      "description": "Full syllabus mock test based on 2024 pattern.",
+      "description": "Full syllabus mock test based on 2023 pattern.",
       "version": 1
     },
     {
@@ -76,9 +76,8 @@
       "id": "2022_p1",
       "title": "JEE Advanced 2022 - Paper 1",
       "year": 2022,
-      "description": "Previous year paper.",
-      "filename": "",
-      "comingSoon": true,
+      "description": "Full syllabus paper based on JEE Advanced 2022 pattern.",
+      "filename": "2022_paper_1/2022_paper_1.json",
       "version": 1
     },
     {
