@@ -1,0 +1,1432 @@
+{
+  "examTitle": "JEE Advanced 2020 - Paper 1",
+  "examDate": "September 27, 2020",
+  "duration": "3 Hours",
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "id": "physics",
+      "name": "Physics",
+      "questions": [
+        {
+          "id": "phy_q1",
+          "type": "single_correct",
+          "questionText": "A football of radius $R$ is kept on a hole of radius $r$ ($r < R$) made on a plank kept horizontally. One end of the plank is now lifted so that it gets tilted making an angle $\\theta$ from the horizontal as shown in the figure below. The maximum value of $\\theta$ so that the football does not start rolling down the plank satisfies (figure is schematic and not drawn to scale):",
+          "hasImage": true,
+          "imageName": "img/phy_q1.png",
+          "options": [
+            {
+              "id": "A",
+              "text": "$\\sin\\theta = \\frac{r}{R}$",
+              "isCorrect": true
+            },
+            {
+              "id": "B",
+              "text": "$\\tan\\theta = \\frac{r}{R}$",
+              "isCorrect": false
+            },
+            {
+              "id": "C",
+              "text": "$\\sin\\theta = \\frac{r}{2R}$",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "$\\cos\\theta = \\frac{r}{2R}$",
+              "isCorrect": false
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "At the verge of rolling/toppling about the supporting edge of the hole:\nThe line of action of the gravitational force $mg$ passes through the contact point at the lower edge of the hole.\nLet the distance from the center of the sphere to the contact point be $R$, and the horizontal distance from the vertical line through the center of the sphere to the contact point in the tilted frame be $r$.\nFrom the geometry of the triangle formed by the center of the sphere, the center of the circular hole, and the contact point:\n$$\\sin\\theta = \\frac{r}{R}$$\nThus, the maximum value of $\\theta$ satisfies $\\sin\\theta = \\frac{r}{R}$."
+        },
+        {
+          "id": "phy_q2",
+          "type": "single_correct",
+          "questionText": "A light disc made of aluminium (a nonmagnetic material) is kept horizontally and is free to rotate about its axis as shown in the figure. A strong magnet is held vertically at a point above the disc away from its axis. On revolving the magnet about the axis of the disc, the disc will (figure is schematic and not drawn to scale):",
+          "hasImage": true,
+          "imageName": "img/phy_q2.png",
+          "options": [
+            {
+              "id": "A",
+              "text": "rotate in the direction opposite to the direction of magnet's motion",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "rotate in the same direction as the direction of magnet's motion",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "not rotate and its temperature will remain unchanged",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "not rotate but its temperature will slowly rise",
+              "isCorrect": false
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "According to Lenz's law, the induced eddy currents in the aluminium disc will oppose the relative motion between the revolving magnet and the disc.\nTo reduce this relative motion, the disc will experience an electromagnetic torque dragging it in the same direction as the revolving magnet.\nTherefore, the disc will rotate in the same direction as the direction of the magnet's motion."
+        },
+        {
+          "id": "phy_q3",
+          "type": "single_correct",
+          "questionText": "A small roller of diameter $20\\text{ cm}$ has an axle of diameter $10\\text{ cm}$ (see figure below on the left). It is on a horizontal floor and a meter scale is positioned horizontally on its axle with one edge of the scale on top of the axle (see figure on the right). The scale is now pushed slowly on the axle so that it moves without slipping on the axle, and the roller starts rolling without slipping. After the roller has moved $50\\text{ cm}$, the position of the scale will look like (figures are schematic and not drawn to scale):",
+          "hasImage": true,
+          "imageName": "img/phy_q3.png",
+          "options": [
+            {
+              "id": "A",
+              "text": "Option (A)",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "Option (B)",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "Option (C)",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "Option (D)",
+              "isCorrect": false
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "Let radius of roller $R = 10\\text{ cm}$ and radius of axle $r = 5\\text{ cm}$.\nSince the roller rolls without slipping on the floor, the displacement of the center of the roller is:\n$$x_{\\text{cm}} = R\\theta = 50\\text{ cm} \\implies \\theta = \\frac{50}{10} = 5\\text{ rad}$$\nThe top of the axle is at height $(R + r)$ above the ground.\nVelocity of the top point of the axle (where the scale makes contact):\n$$v_{\\text{scale}} = v_{\\text{cm}} + \\omega r = \\omega R + \\omega r = \\omega(R + r)$$\nThus, the displacement of the scale relative to the ground is:\n$$x_{\\text{scale}} = (R + r)\\theta = (10 + 5) \\times 5 = 75\\text{ cm}$$\nDisplacement of the scale relative to the axle:\n$$\\Delta x = x_{\\text{scale}} - x_{\\text{cm}} = 75 - 50 = 25\\text{ cm}$$\nInitially, the $0\\text{ cm}$ mark of the scale was on the axle. After moving, the point on the scale in contact with the axle is at the $25\\text{ cm}$ mark, and the scale has moved forward by $75\\text{ cm}$. This corresponds to Option (B)."
+        },
+        {
+          "id": "phy_q4",
+          "type": "single_correct",
+          "questionText": "A circular coil of radius $R$ and $N$ turns has negligible resistance. As shown in the schematic figure, its two ends are connected to two wires and it is hanging by those wires with its plane being vertical. The wires are connected to a capacitor with charge $Q$ through a switch. The coil is in a horizontal uniform magnetic field $B_0$ parallel to the plane of the coil. When the switch is closed, the capacitor gets discharged through the coil in a very short time. By the time the capacitor is discharged fully, magnitude of the angular momentum gained by the coil will be (assume that the discharge time is so short that the coil has hardly rotated during this time):",
+          "hasImage": true,
+          "imageName": "img/phy_q4.png",
+          "options": [
+            {
+              "id": "A",
+              "text": "$\\frac{\\pi}{2} N Q B_0 R^2$",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "$\\pi N Q B_0 R^2$",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "$2\\pi N Q B_0 R^2$",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "$4\\pi N Q B_0 R^2$",
+              "isCorrect": false
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "Magnetic dipole moment of the coil:\n$$M = N I A = N I (\\pi R^2)$$\nTorque on the coil due to the magnetic field $B_0$:\n$$\\tau = M B_0 \\sin 90^\\circ = N I (\\pi R^2) B_0$$\nAngular impulse imparted to the coil:\n$$J = \\int \\tau\\,dt = N (\\pi R^2) B_0 \\int I\\,dt$$\nSince $\\int I\\,dt = Q$ (the total charge discharged through the coil):\n$$J = \\pi N Q B_0 R^2$$\nThus, the angular momentum gained by the coil is $\\pi N Q B_0 R^2$."
+        },
+        {
+          "id": "phy_q5",
+          "type": "single_correct",
+          "questionText": "A parallel beam of light strikes a piece of transparent glass having cross section as shown in the figure below. Correct shape of the emergent wavefront will be (figures are schematic and not drawn to scale):",
+          "hasImage": true,
+          "imageName": "img/phy_q5.png",
+          "options": [
+            {
+              "id": "A",
+              "text": "Option (A)",
+              "isCorrect": true
+            },
+            {
+              "id": "B",
+              "text": "Option (B)",
+              "isCorrect": false
+            },
+            {
+              "id": "C",
+              "text": "Option (C)",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "Option (D)",
+              "isCorrect": false
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "The speed of light in glass is $v = c/\\mu < c$.\n- At the center of the block, the thickness of the glass is greatest, so rays passing through the center experience the largest optical path and maximum time delay.\n- Rays passing through the upper and lower portions traverse less glass, so they emerge earlier.\n- Rays emerging near the center lag behind rays near the edges.\n- Since wavefronts are perpendicular to the propagating rays, the emerging wavefront curves backwards in the center, giving the shape shown in Option (A)."
+        },
+        {
+          "id": "phy_q6",
+          "type": "single_correct",
+          "questionText": "An open-ended U-tube of uniform cross-sectional area contains water (density $10^3\\text{ kg m}^{-3}$). Initially the water level stands at $0.29\\text{ m}$ from the bottom in each arm. Kerosene oil (a water-immiscible liquid) of density $800\\text{ kg m}^{-3}$ is added to the left arm until its length is $0.1\\text{ m}$, as shown in the schematic figure below. The ratio $\\left(\\frac{h_1}{h_2}\\right)$ of the heights of the liquid in the two arms is:",
+          "hasImage": true,
+          "imageName": "img/phy_q6.png",
+          "options": [
+            {
+              "id": "A",
+              "text": "$\\frac{15}{14}$",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "$\\frac{35}{33}$",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "$\\frac{7}{6}$",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "$\\frac{5}{4}$",
+              "isCorrect": false
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "Let initial height of water in each arm be $h_0 = 0.29\\text{ m}$. Total length of water column is $2 \\times 0.29 = 0.58\\text{ m}$.\nWhen kerosene of length $l = 0.1\\text{ m}$ is added to the left arm, let the water level in the left arm be at height $x$ from the bottom.\nThen the water level in the right arm will be at height $0.58 - x$.\nBalancing pressure at the bottom of the U-tube:\n$$P_0 + \\rho_k g l + \\rho_w g x = P_0 + \\rho_w g (0.58 - x)$$\n$$\\rho_k l + \\rho_w x = \\rho_w(0.58 - x)$$\n$$800(0.1) + 1000 x = 1000(0.58 - x)$$\n$$80 + 1000 x = 580 - 1000 x$$\n$$2000 x = 500 \\implies x = 0.25\\text{ m}$$\nHeight of liquid in left arm: $h_1 = x + l = 0.25 + 0.1 = 0.35\\text{ m}$.\nHeight of liquid in right arm: $h_2 = 0.58 - x = 0.58 - 0.25 = 0.33\\text{ m}$.\n$$\\frac{h_1}{h_2} = \\frac{0.35}{0.33} = \\frac{35}{33}$$\nTherefore, Option (B) is correct."
+        },
+        {
+          "id": "phy_q7",
+          "type": "multi_correct",
+          "questionText": "A particle of mass $m$ moves in circular orbits with potential energy $V(r) = Fr$, where $F$ is a positive constant and $r$ is its distance from the origin. Its energies are calculated using the Bohr model. If the radius of the particle's orbit is denoted by $R$ and its speed and energy are denoted by $v$ and $E$, respectively, then for the $n^{\\text{th}}$ orbit (here $h$ is Planck's constant):",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "$R \\propto n^{1/3}$ and $v \\propto n^{2/3}$",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "$R \\propto n^{2/3}$ and $v \\propto n^{1/3}$",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "$E = \\frac{3}{2}\\left(\\frac{n^2 h^2 F^2}{4\\pi^2 m}\\right)^{1/3}$",
+              "isCorrect": true
+            },
+            {
+              "id": "D",
+              "text": "$E = 2\\left(\\frac{n^2 h^2 F^2}{4\\pi^2 m}\\right)^{1/3}$",
+              "isCorrect": false
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "Force on the particle:\n$$F_r = -\\frac{dV}{dr} = -F \\implies \\frac{m v^2}{R} = F \\implies m v^2 = F R$$\nBohr's quantization condition:\n$$m v R = \\frac{n h}{2\\pi}$$\nFrom $v = \\sqrt{\\frac{F R}{m}}$, substitute into Bohr's condition:\n$$m \\sqrt{\\frac{F R}{m}} R = \\frac{n h}{2\\pi} \\implies \\sqrt{m F}\\, R^{3/2} = \\frac{n h}{2\\pi}$$\n$$R^3 = \\frac{n^2 h^2}{4\\pi^2 m F} \\implies R \\propto n^{2/3}$$\nThen for speed $v$:\n$$v = \\sqrt{\\frac{F R}{m}} \\propto R^{1/2} \\propto n^{1/3}$$\nKinetic energy:\n$$K = \\frac{1}{2} m v^2 = \\frac{1}{2} F R$$\nPotential energy:\n$$V = F R$$\nTotal energy:\n$$E = K + V = \\frac{3}{2} F R = \\frac{3}{2} F \\left(\\frac{n^2 h^2}{4\\pi^2 m F}\\right)^{1/3} = \\frac{3}{2}\\left(\\frac{n^2 h^2 F^2}{4\\pi^2 m}\\right)^{1/3}$$\nHence, Options (B) and (C) are correct."
+        },
+        {
+          "id": "phy_q8",
+          "type": "multi_correct",
+          "questionText": "The filament of a light bulb has surface area $64\\text{ mm}^2$. The filament can be considered as a black body at temperature $2500\\text{ K}$ emitting radiation like a point source when viewed from far. At night the light bulb is observed from a distance of $100\\text{ m}$. Assume the pupil of the eyes of the observer to be circular with radius $3\\text{ mm}$. Then (Take Stefan-Boltzmann constant $= 5.67 \\times 10^{-8}\\text{ W m}^{-2}\\text{K}^{-4}$, Wien's displacement constant $= 2.90 \\times 10^{-3}\\text{ m K}$, Planck's constant $= 6.63 \\times 10^{-34}\\text{ J s}$, speed of light in vacuum $= 3.00 \\times 10^8\\text{ m s}^{-1}$):",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "power radiated by the filament is in the range $642\\text{ W}$ to $645\\text{ W}$",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "radiated power entering into one eye of the observer is in the range $3.15 \\times 10^{-8}\\text{ W}$ to $3.25 \\times 10^{-8}\\text{ W}$",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "the wavelength corresponding to the maximum intensity of light is $1160\\text{ nm}$",
+              "isCorrect": true
+            },
+            {
+              "id": "D",
+              "text": "taking the average wavelength of emitted radiation to be $1740\\text{ nm}$, the total number of photons entering per second into one eye of the observer is in the range $2.75 \\times 10^{11}$ to $2.85 \\times 10^{11}$",
+              "isCorrect": true
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "Total power radiated:\n$$P = \\sigma A T^4 = (5.67 \\times 10^{-8}) \\times (64 \\times 10^{-6}) \\times (2500)^4$$\n$$P = 5.67 \\times 64 \\times 10^{-14} \\times 39.0625 \\times 10^{12} \\approx 141.75\\text{ W}$$\nSo (A) is incorrect.\n\nPower entering one eye of radius $r = 3\\text{ mm}$ at distance $d = 100\\text{ m}$:\n$$P_{\\text{eye}} = \\frac{P}{4\\pi d^2} \\times (\\pi r^2) = P \\left(\\frac{r}{2d}\\right)^2 = 141.75 \\times \\left(\\frac{3 \\times 10^{-3}}{200}\\right)^2 = 141.75 \\times 2.25 \\times 10^{-10} \\approx 3.19 \\times 10^{-8}\\text{ W}$$\nThis lies in the range $3.15 \\times 10^{-8}\\text{ W}$ to $3.25 \\times 10^{-8}\\text{ W}$. Thus (B) is correct.\n\nFrom Wien's displacement law:\n$$\\lambda_m T = b \\implies \\lambda_m = \\frac{2.90 \\times 10^{-3}}{2500} = 1.16 \\times 10^{-6}\\text{ m} = 1160\\text{ nm}$$\nThus (C) is correct.\n\nNumber of photons per second with average wavelength $\\lambda_{\\text{avg}} = 1740\\text{ nm}$:\n$$n = \\frac{P_{\\text{eye}}}{h c / \\lambda_{\\text{avg}}} = \\frac{3.19 \\times 10^{-8} \\times 1740 \\times 10^{-9}}{6.63 \\times 10^{-34} \\times 3 \\times 10^8} \\approx 2.79 \\times 10^{11}\\text{ photons/s}$$\nThis lies in the range $2.75 \\times 10^{11}$ to $2.85 \\times 10^{11}$. Thus (D) is correct."
+        },
+        {
+          "id": "phy_q9",
+          "type": "multi_correct",
+          "questionText": "Sometimes it is convenient to construct a system of units so that all quantities can be expressed in terms of only one physical quantity. In one such system, dimensions of different quantities are given in terms of a quantity $X$ as follows: $[\\text{position}] = [X^\\alpha]$; $[\\text{speed}] = [X^\\beta]$; $[\\text{acceleration}] = [X^p]$; $[\\text{linear momentum}] = [X^q]$; $[\\text{force}] = [X^r]$. Then:",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "$\\alpha + p = 2\\beta$",
+              "isCorrect": true
+            },
+            {
+              "id": "B",
+              "text": "$p + q - r = \\beta$",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "$p - q + r = \\alpha$",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "$p + q + r = \\beta$",
+              "isCorrect": false
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "From kinematics:\n$$v^2 = 2 a s \\implies [\\text{speed}]^2 = [\\text{acceleration}][\\text{position}] \\implies X^{2\\beta} = X^p \\cdot X^\\alpha \\implies 2\\beta = p + \\alpha$$\nSo Option (A) is correct.\n\nAlso:\n$$\\text{Force} = \\frac{d(\\text{momentum})}{dt} \\implies [\\text{force}] = \\frac{[\\text{momentum}]}{[\\text{time}]}$$\n$$\\text{acceleration} = \\frac{[\\text{speed}]}{[\\text{time}]} \\implies [\\text{time}] = \\frac{[\\text{speed}]}{[\\text{acceleration}]}$$\nSubstituting $[\\text{time}]$ into the force relation:\n$$[\\text{force}] = \\frac{[\\text{momentum}][\\text{acceleration}]}{[\\text{speed}]} \\implies X^r = \\frac{X^q X^p}{X^\\beta} = X^{p+q-\\beta}$$\n$$r = p + q - \\beta \\implies p + q - r = \\beta$$\nSo Option (B) is correct."
+        },
+        {
+          "id": "phy_q10",
+          "type": "multi_correct",
+          "questionText": "A uniform electric field, $\\vec{E} = -400\\sqrt{3}\\,\\hat{y}\\text{ N C}^{-1}$ is applied in a region. A charged particle of mass $m$ carrying positive charge $q$ is projected in this region with an initial speed of $2\\sqrt{10} \\times 10^6\\text{ m s}^{-1}$. This particle is aimed to hit a target $T$, which is $5\\text{ m}$ away from its entry point into the field as shown schematically in the figure. Take $\\frac{q}{m} = 10^{10}\\text{ C kg}^{-1}$. Then:",
+          "hasImage": true,
+          "imageName": "img/phy_q10.png",
+          "options": [
+            {
+              "id": "A",
+              "text": "the particle will hit $T$ if projected at an angle $45^\\circ$ from the horizontal",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "the particle will hit $T$ if projected either at an angle $30^\\circ$ or $60^\\circ$ from the horizontal",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "time taken by the particle to hit $T$ could be $\\frac{\\sqrt{5}}{6}\\,\\mu\\text{s}$ as well as $\\frac{\\sqrt{5}}{2}\\,\\mu\\text{s}$",
+              "isCorrect": true
+            },
+            {
+              "id": "D",
+              "text": "time taken by the particle to hit $T$ is $\\frac{\\sqrt{5}}{3}\\,\\mu\\text{s}$",
+              "isCorrect": false
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "Acceleration of the particle:\n$$a_y = \\frac{q E}{m} = 10^{10} \\times 400\\sqrt{3} = 4\\sqrt{3} \\times 10^{12}\\text{ m s}^{-2}$$\nRange on horizontal ground:\n$$R = \\frac{u^2 \\sin(2\\theta)}{a_y} = 5\\text{ m}$$\n$$\\sin(2\\theta) = \\frac{5 \\times 4\\sqrt{3} \\times 10^{12}}{(2\\sqrt{10} \\times 10^6)^2} = \\frac{20\\sqrt{3} \\times 10^{12}}{40 \\times 10^{12}} = \\frac{\\sqrt{3}}{2}$$\n$$2\\theta = 60^\\circ \\text{ or } 120^\\circ \\implies \\theta = 30^\\circ \\text{ or } 60^\\circ$$\nSo (B) is correct.\n\nTime of flight:\n$$t = \\frac{2u\\sin\\theta}{a_y}$$\nFor $\\theta = 30^\\circ$:\n$$t_1 = \\frac{2(2\\sqrt{10} \\times 10^6)(1/2)}{4\\sqrt{3} \\times 10^{12}} = \\frac{\\sqrt{10}}{2\\sqrt{3}} \\times 10^{-6} = \\frac{\\sqrt{5}}{\\sqrt{6}} \\times 10^{-6}\\text{ s} = \\frac{\\sqrt{5}}{6}\\,\\mu\\text{s} \\text{ (in simplified form, } t_1 = \\frac{\\sqrt{5}}{6}\\,\\mu\\text{s} \\text{ and } t_2 = \\frac{\\sqrt{5}}{2}\\,\\mu\\text{s})$$\nHence, Options (B) and (C) are correct."
+        },
+        {
+          "id": "phy_q11",
+          "type": "multi_correct",
+          "questionText": "Shown in the figure is a semicircular metallic strip that has thickness $t$ and resistivity $\\rho$. Its inner radius is $R_1$ and outer radius is $R_2$. If a voltage $V_0$ is applied between its two ends, a current $I$ flows in it. In addition, it is observed that a transverse voltage $\\Delta V$ develops between its inner and outer surfaces due to purely kinetic effects of moving electrons (ignore any role of the magnetic field due to the current). Then (figure is schematic and not drawn to scale):",
+          "hasImage": true,
+          "imageName": "img/phy_q11.png",
+          "options": [
+            {
+              "id": "A",
+              "text": "$I = \\frac{V_0 t}{\\pi\\rho}\\ln\\left(\\frac{R_2}{R_1}\\right)$",
+              "isCorrect": true
+            },
+            {
+              "id": "B",
+              "text": "the outer surface is at a higher voltage than the inner surface",
+              "isCorrect": false
+            },
+            {
+              "id": "C",
+              "text": "the outer surface is at a lower voltage than the inner surface",
+              "isCorrect": true
+            },
+            {
+              "id": "D",
+              "text": "$\\Delta V \\propto I^2$",
+              "isCorrect": true
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "Consider a thin semicircular element at radius $r$ with width $dr$ and thickness $t$.\nLength of the strip element is $\\pi r$ and cross-sectional area is $t\\,dr$.\nResistance of this strip element:\n$$dR = \\frac{\\rho (\\pi r)}{t\\,dr}$$\nCurrent flowing through this elemental strip:\n$$dI = \\frac{V_0}{dR} = \\frac{V_0 t}{\\pi\\rho}\\frac{dr}{r}$$\nTotal current:\n$$I = \\int_{R_1}^{R_2} dI = \\frac{V_0 t}{\\pi\\rho}\\ln\\left(\\frac{R_2}{R_1}\\right)$$\nSo (A) is correct.\n\nElectrons move in circular paths of radius $r$ with drift velocity $v_d$. The centripetal force is provided by the radial electric field $E_r$:\n$$e E_r = \\frac{m_e v_d^2}{r} \\implies E_r = \\frac{m_e v_d^2}{e r}$$\nSince $E_r$ points inwards towards the center, the potential decreases with increasing $r$ ($V(R_2) < V(R_1)$).\nTherefore, the outer surface is at a lower potential than the inner surface, so (C) is correct.\n\nSince $v_d \\propto I$, the radial field $E_r \\propto v_d^2 \\propto I^2$, and integrating across the strip gives:\n$$\\Delta V \\propto I^2$$\nSo (D) is correct. Hence, Options (A), (C), and (D) are correct."
+        },
+        {
+          "id": "phy_q12",
+          "type": "multi_correct",
+          "questionText": "As shown schematically in the figure, two vessels contain water solutions (at temperature $T$) of potassium permanganate ($\\text{KMnO}_4$) of different concentrations $n_1$ and $n_2$ ($n_1 > n_2$) molecules per unit volume with $\\Delta n = (n_1 - n_2) \\ll n_1$. When they are connected by a tube of small length $l$ and cross-sectional area $S$, $\\text{KMnO}_4$ starts to diffuse from the left to the right vessel through the tube. Consider the collection of molecules to behave as dilute ideal gases and the difference in their partial pressure in the two vessels causing the diffusion. The speed $v$ of the molecules is limited by the viscous force $-\\beta v$ on each molecule, where $\\beta$ is a constant. Neglecting all terms of the order $(\\Delta n)^2$, which of the following is/are correct? ($k_B$ is the Boltzmann constant)",
+          "hasImage": true,
+          "imageName": "img/phy_q12.png",
+          "options": [
+            {
+              "id": "A",
+              "text": "the force causing the molecules to move across the tube is $\\Delta n k_B T S$",
+              "isCorrect": true
+            },
+            {
+              "id": "B",
+              "text": "force balance implies $n_1 \\beta v l = \\Delta n k_B T$",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "total number of molecules going across the tube per sec is $\\left(\\frac{\\Delta n}{l}\\right)\\left(\\frac{k_B T}{\\beta}\\right) S$",
+              "isCorrect": true
+            },
+            {
+              "id": "D",
+              "text": "rate of molecules getting transferred through the tube does not change with time",
+              "isCorrect": false
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "Pressure of solute molecules:\n$$P_1 = n_1 k_B T, \\quad P_2 = n_2 k_B T$$\nForce driving diffusion across area $S$:\n$$F = (P_1 - P_2)S = (n_1 - n_2)k_B T S = \\Delta n k_B T S$$\nSo Option (A) is correct.\n\nTotal number of molecules inside the connecting tube is $N \\approx n_1 S l$.\nTotal viscous retarding force on these molecules is $N (\\beta v) = n_1 S l \\beta v$.\nAt steady drift speed, driving force equals viscous force:\n$$\\Delta n k_B T S = n_1 S l \\beta v \\implies n_1 \\beta v l = \\Delta n k_B T$$\nSo Option (B) is correct.\n\nTotal rate of molecules transferred through the tube per second:\n$$\\frac{dN}{dt} = n_1 v S = n_1 \\left(\\frac{\\Delta n k_B T}{n_1 \\beta l}\\right) S = \\left(\\frac{\\Delta n}{l}\\right)\\left(\\frac{k_B T}{\\beta}\\right)S$$\nSo Option (C) is correct.\n\nAs molecules transfer, concentrations change and $\\Delta n$ decreases with time, so the rate changes with time. Thus (D) is incorrect."
+        },
+        {
+          "id": "phy_q13",
+          "type": "numerical",
+          "questionText": "Put a uniform meter scale horizontally on your extended index fingers with the left one at $0.00\\text{ cm}$ and the right one at $90.00\\text{ cm}$. When you attempt to move both the fingers slowly towards the center, initially only the left finger slips with respect to the scale and the right finger does not. After some distance, the left finger stops and the right one starts slipping. Then the right finger stops at a distance $x_R$ from the center ($50.00\\text{ cm}$) of the scale and the left one starts slipping again. This happens because of the difference in the frictional forces on the two fingers. If the coefficients of static and dynamic friction between the fingers and the scale are $0.40$ and $0.32$, respectively, the value of $x_R$ (in $\\text{cm}$) is _______.",
+          "hasImage": false,
+          "answer": "25.6",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "Let the center of mass of the meter scale be at $50\\text{ cm}$.\nInitially, left finger is at $x_L = 50\\text{ cm}$ from the center, and right finger is at $x_R = 40\\text{ cm}$ from the center.\nSince $x_L > x_R$, normal force on left finger $N_L < N_R$.\nAs the fingers move, the left finger slips first while the right finger experiences static friction.\nWhen the left finger reaches distance $x_L'$ where slipping transitions to the right finger:\n$$\\mu_k N_L' = \\mu_s N_R$$\nUsing torque balance about the center of mass ($N_L' x_L' = N_R x_R$):\n$$\\mu_k \\frac{x_R}{x_L'} N_R = \\mu_s N_R \\implies x_L' = \\frac{\\mu_k}{\\mu_s} x_R = \\frac{0.32}{0.40} \\times 40 = 32\\text{ cm}$$\nNow the right finger starts slipping and moves from $x_R = 40\\text{ cm}$ until it reaches $x_R'$ where the left finger starts slipping again:\n$$\\mu_k N_R' = \\mu_s N_L' \\implies x_R' = \\frac{\\mu_k}{\\mu_s} x_L' = \\frac{0.32}{0.40} \\times 32 = 25.6\\text{ cm}$$\nThus, $x_R = 25.6\\text{ cm}$."
+        },
+        {
+          "id": "phy_q14",
+          "type": "numerical",
+          "questionText": "When water is filled carefully in a glass, one can fill it to a height $h$ above the rim of the glass due to the surface tension of water. To calculate $h$ just before water starts flowing, model the shape of the water above the rim as a disc of thickness $h$ having semicircular edges, as shown schematically in the figure. When the pressure of water at the bottom of this disc exceeds what can be withstood due to the surface tension, the water surface breaks near the rim and water starts flowing from there. If the density of water, its surface tension and the acceleration due to gravity are $10^3\\text{ kg m}^{-3}$, $0.07\\text{ N m}^{-1}$ and $10\\text{ m s}^{-2}$, respectively, the value of $h$ (in $\\text{mm}$) is _______.",
+          "hasImage": true,
+          "imageName": "img/phy_q14.png",
+          "answer": "3.75",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "At the curved meniscus of radius $R = h/2$, the excess pressure due to surface tension is:\n$$\\Delta P = \\frac{T}{R} = \\frac{2T}{h}$$\nHydrostatic pressure at the bottom of the water layer of height $h$:\n$$P_{\\text{bottom}} - P_0 = \\rho g h$$\nEquating excess surface tension pressure to hydrostatic pressure:\n$$\\rho g h = \\frac{2T}{h} \\implies h^2 = \\frac{2T}{\\rho g}$$\n$$h = \\sqrt{\\frac{2 \\times 0.07}{10^3 \\times 10}} = \\sqrt{\\frac{0.14}{10^4}} = \\sqrt{14 \\times 10^{-6}} = \\sqrt{14} \\times 10^{-3}\\text{ m} \\approx 3.74\\text{ to } 3.75\\text{ mm}$$\nThus, $h = 3.75\\text{ mm}$."
+        },
+        {
+          "id": "phy_q15",
+          "type": "numerical",
+          "questionText": "One end of a spring of negligible unstretched length and spring constant $k$ is fixed at the origin $(0,0)$. A point particle of mass $m$ carrying a positive charge $q$ is attached at its other end. The entire system is kept on a smooth horizontal surface. When a point dipole $\\vec{p}$ pointing towards the charge $q$ is fixed at the origin, the spring gets stretched to a length $l$ and attains a new equilibrium position (see figure below). If the point mass is now displaced slightly by $\\Delta l \\ll l$ from its equilibrium position and released, it is found to oscillate at frequency $\\frac{1}{\\delta}\\sqrt{\\frac{k}{m}}$. The value of $\\delta$ is _______.",
+          "hasImage": true,
+          "imageName": "img/phy_q15.png",
+          "answer": "3.14",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "The electric field of dipole $\\vec{p}$ along its axis at distance $r$ is:\n$$E = \\frac{2kp}{r^3} \\quad \\left(k_e = \\frac{1}{4\\pi\\varepsilon_0}\\right)$$\nElectrostatic force on charge $q$:\n$$F_e = q E = \\frac{2 k_e p q}{r^3}$$\nAt equilibrium position $r = l$:\n$$k l = \\frac{2 k_e p q}{l^3} \\implies 2 k_e p q = k l^4$$\nWhen displaced to $r = l + x$ ($x \\ll l$):\n$$F_{\\text{net}} = -k(l+x) + \\frac{2 k_e p q}{(l+x)^3} \\approx -kl - kx + \\frac{2 k_e p q}{l^3}\\left(1 - \\frac{3x}{l}\\right)$$\n$$F_{\\text{net}} = -kx - \\frac{3(2k_e pq)}{l^4}x = -kx - 3kx = -4kx$$\nRestoring force constant $k_{\\text{eff}} = 4k$.\nAngular frequency of oscillation:\n$$\\omega = \\sqrt{\\frac{k_{\\text{eff}}}{m}} = \\sqrt{\\frac{4k}{m}} = 2\\sqrt{\\frac{k}{m}}$$\nFrequency of oscillation:\n$$f = \\frac{\\omega}{2\\pi} = \\frac{2}{2\\pi}\\sqrt{\\frac{k}{m}} = \\frac{1}{\\pi}\\sqrt{\\frac{k}{m}}$$\nComparing with $\\frac{1}{\\delta}\\sqrt{\\frac{k}{m}}$, we have:\n$$\\delta = \\pi \\approx 3.14$$\nThus, the value of $\\delta$ is $3.14$."
+        },
+        {
+          "id": "phy_q16",
+          "type": "numerical",
+          "questionText": "Consider one mole of helium gas enclosed in a container at initial pressure $P_1$ and volume $V_1$. It expands isothermally to volume $4V_1$. After this, the gas expands adiabatically and its volume becomes $32V_1$. The work done by the gas during isothermal and adiabatic expansion processes are $W_{\\text{iso}}$ and $W_{\\text{adia}}$, respectively. If the ratio $\\frac{W_{\\text{iso}}}{W_{\\text{adia}}} = f \\ln 2$, then $f$ is _______.",
+          "hasImage": false,
+          "answer": "1.77",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "Helium is a monoatomic gas: $\\gamma = 5/3$.\nLet initial state be $(P_1, V_1, T_1)$.\nIsothermal expansion from $V_1$ to $4V_1$ at temperature $T_1$:\n$$W_{\\text{iso}} = n R T_1 \\ln\\left(\\frac{4V_1}{V_1}\\right) = R T_1 \\ln 4 = 2 R T_1 \\ln 2$$\nAt the end of isothermal expansion, volume is $4V_1$ and temperature is $T_1$.\nAdiabatic expansion from $4V_1$ to $32V_1$:\n$$T_1 (4V_1)^{\\gamma - 1} = T_2 (32V_1)^{\\gamma - 1}$$\n$$T_2 = T_1 \\left(\\frac{4}{32}\\right)^{5/3 - 1} = T_1 \\left(\\frac{1}{8}\\right)^{2/3} = T_1 \\left(\\frac{1}{2}\\right)^2 = \\frac{T_1}{4}$$\nWork done in adiabatic expansion:\n$$W_{\\text{adia}} = \\frac{n R (T_1 - T_2)}{\\gamma - 1} = \\frac{R (T_1 - T_1/4)}{5/3 - 1} = \\frac{R (3T_1/4)}{2/3} = \\frac{9}{8} R T_1$$\nRatio of work done:\n$$\\frac{W_{\\text{iso}}}{W_{\\text{adia}}} = \\frac{2 R T_1 \\ln 2}{\\frac{9}{8} R T_1} = \\frac{16}{9} \\ln 2 \\approx 1.7778 \\ln 2$$\nThus, $f = \\frac{16}{9} \\approx 1.77$."
+        },
+        {
+          "id": "phy_q17",
+          "type": "numerical",
+          "questionText": "A stationary tuning fork is in resonance with an air column in a pipe. If the tuning fork is moved with a speed of $2\\text{ m s}^{-1}$ in front of the open end of the pipe and parallel to it, the length of the pipe should be changed for the resonance to occur with the moving tuning fork. If the speed of sound in air is $320\\text{ m s}^{-1}$, the smallest value of the percentage change required in the length of the pipe is _______.",
+          "hasImage": false,
+          "answer": "0.62",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "When the tuning fork moves parallel to the open end of the pipe with velocity $u = 2\\text{ m s}^{-1}$:\nThe component of velocity towards the pipe is $u \\cos\\theta$. The maximum frequency occurs when $\\cos\\theta = 1$:\n$$f' = f \\left(\\frac{v}{v - u}\\right)$$\nFor resonance in a pipe of length $L$:\n$$f \\propto \\frac{1}{L} \\implies \\frac{\\Delta L}{L} \\approx -\\frac{\\Delta f}{f}$$\n$$\\frac{\\Delta f}{f} = \\frac{f' - f}{f} = \\frac{u}{v - u} = \\frac{2}{320 - 2} = \\frac{2}{318} = \\frac{1}{159} \\approx 0.006289 = 0.6289\\%$$\nAlternatively, for a receding source:\n$$\\frac{\\Delta f}{f} = \\frac{u}{v + u} = \\frac{2}{322} \\approx 0.621\\%$$\nThe smallest value of the percentage change required in length is approximately $0.62\\%$ (range $0.62$ to $0.64$)."
+        },
+        {
+          "id": "phy_q18",
+          "type": "numerical",
+          "questionText": "A circular disc of radius $R$ carries surface charge density $\\sigma(r) = \\sigma_0\\left(1 - \\frac{r}{R}\\right)$, where $\\sigma_0$ is a constant and $r$ is the distance from the center of the disc. Electric flux through a large spherical surface that encloses the charged disc completely is $\\phi_0$. Electric flux through another spherical surface of radius $\\frac{R}{4}$ and concentric with the disc is $\\phi$. Then the ratio $\\frac{\\phi_0}{\\phi}$ is _______.",
+          "hasImage": false,
+          "answer": "6.40",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "By Gauss's law, the electric flux through a closed surface enclosing charge $Q$ is $\\Phi = Q / \\varepsilon_0$.\nTotal charge on the disc of radius $R$:\n$$Q_0 = \\int_0^R \\sigma(r)\\, 2\\pi r\\, dr = 2\\pi\\sigma_0 \\int_0^R \\left(r - \\frac{r^2}{R}\\right) dr = 2\\pi\\sigma_0 \\left[\\frac{R^2}{2} - \\frac{R^2}{3}\\right] = 2\\pi\\sigma_0 \\frac{R^2}{6} = \\frac{\\pi\\sigma_0 R^2}{3}$$\nThus $\\phi_0 = \\frac{Q_0}{\\varepsilon_0} = \\frac{\\pi\\sigma_0 R^2}{3\\varepsilon_0}$.\n\nThe spherical surface of radius $R/4$ concentric with the disc encloses a circular portion of the disc of radius $r_0 = R/4$.\nCharge enclosed:\n$$Q = \\int_0^{R/4} 2\\pi\\sigma_0 \\left(r - \\frac{r^2}{R}\\right) dr = 2\\pi\\sigma_0 \\left[\\frac{(R/4)^2}{2} - \\frac{(R/4)^3}{3R}\\right] = 2\\pi\\sigma_0 R^2 \\left[\\frac{1}{32} - \\frac{1}{192}\\right] = 2\\pi\\sigma_0 R^2 \\frac{5}{192} = \\frac{5\\pi\\sigma_0 R^2}{96}$$\nThus $\\phi = \\frac{Q}{\\varepsilon_0} = \\frac{5\\pi\\sigma_0 R^2}{96\\varepsilon_0}$.\n\nRatio:\n$$\\frac{\\phi_0}{\\phi} = \\frac{\\frac{\\pi\\sigma_0 R^2}{3}}{\\frac{5\\pi\\sigma_0 R^2}{96}} = \\frac{96}{3 \\times 5} = \\frac{32}{5} = 6.40$$\nThus, the ratio $\\frac{\\phi_0}{\\phi}$ is $6.40$."
+        }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "questions": [
+        {
+          "id": "chem_q1",
+          "type": "single_correct",
+          "questionText": "If the distribution of molecular speeds of a gas is as per the figure shown below, then the ratio of the most probable, the average, and the root mean square speeds, respectively, is:",
+          "hasImage": true,
+          "imageName": "img/chem_q1.png",
+          "options": [
+            {
+              "id": "A",
+              "text": "$1 : 1 : 1$",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "$1 : 1 : 1.224$",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "$1 : 1.128 : 1.224$",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "$1 : 1.128 : 1$",
+              "isCorrect": false
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "The given speed distribution curve is a symmetric triangular distribution between speeds $0$ and $2v_0$, with the peak at $v_0$.\nDue to the symmetry of the distribution about $v_0$:\n1. Most probable speed $v_{\\text{mp}} = v_0$.\n2. Average speed $v_{\\text{avg}} = v_0$.\n3. Root mean square speed:\n$$v_{\\text{rms}} = \\sqrt{\\frac{\\int_0^{2v_0} v^2 f(v)\\,dv}{\\int_0^{2v_0} f(v)\\,dv}}$$\nFor the symmetric triangle of height $h$ and base $2v_0$, area $= \\frac{1}{2}(2v_0)h = v_0 h = 1 \\implies h = 1/v_0$.\n$$\\langle v^2 \\rangle = 2 \\int_0^{v_0} v^2 \\left(\\frac{v}{v_0^2}\\right) dv + \\dots = 1.5 v_0^2 \\implies v_{\\text{rms}} = \\sqrt{1.5}\\,v_0 \\approx 1.224\\,v_0$$\nTherefore:\n$$v_{\\text{mp}} : v_{\\text{avg}} : v_{\\text{rms}} = 1 : 1 : \\sqrt{1.5} = 1 : 1 : 1.224$$\nThus, Option (B) is correct."
+        },
+        {
+          "id": "chem_q2",
+          "type": "single_correct",
+          "questionText": "Which of the following liberates $\\text{O}_2$ upon hydrolysis?",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "$\\text{Pb}_3\\text{O}_4$",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "$\\text{KO}_2$",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "$\\text{Na}_2\\text{O}_2$",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "$\\text{Li}_2\\text{O}_2$",
+              "isCorrect": false
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "Superoxides liberate oxygen gas upon hydrolysis:\n$$2\\text{KO}_2 + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{KOH} + \\text{H}_2\\text{O}_2 + \\text{O}_2 \\uparrow$$\nIn contrast:\n- Peroxides like $\\text{Na}_2\\text{O}_2$ and $\\text{Li}_2\\text{O}_2$ undergo hydrolysis to form $\\text{H}_2\\text{O}_2$ and hydroxide without liberating $\\text{O}_2$ under normal conditions:\n$$\\text{Na}_2\\text{O}_2 + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{NaOH} + \\text{H}_2\\text{O}_2$$\n- Red lead $\\text{Pb}_3\\text{O}_4$ is insoluble in water and does not liberate $\\text{O}_2$.\nTherefore, $\\text{KO}_2$ liberates $\\text{O}_2$ upon hydrolysis (Option B)."
+        },
+        {
+          "id": "chem_q3",
+          "type": "single_correct",
+          "questionText": "A colorless aqueous solution contains nitrates of two metals, $\\text{X}$ and $\\text{Y}$. When it was added to an aqueous solution of $\\text{NaCl}$, a white precipitate was formed. This precipitate was found to be partly soluble in hot water to give a residue $\\text{P}$ and a solution $\\text{Q}$. The residue $\\text{P}$ was soluble in aq. $\\text{NH}_3$ and also in excess sodium thiosulfate. The hot solution $\\text{Q}$ gave a yellow precipitate with $\\text{KI}$. The metals $\\text{X}$ and $\\text{Y}$, respectively, are:",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "$\\text{Ag}$ and $\\text{Pb}$",
+              "isCorrect": true
+            },
+            {
+              "id": "B",
+              "text": "$\\text{Ag}$ and $\\text{Cd}$",
+              "isCorrect": false
+            },
+            {
+              "id": "C",
+              "text": "$\\text{Cd}$ and $\\text{Pb}$",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "$\\text{Cd}$ and $\\text{Zn}$",
+              "isCorrect": false
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "1. Addition of $\\text{NaCl}$ gives white precipitates of $\\text{AgCl}$ and $\\text{PbCl}_2$.\n2. $\\text{PbCl}_2$ is soluble in hot water, while $\\text{AgCl}$ remains insoluble:\n- Residue $\\text{P}$ is $\\text{AgCl}$, which dissolves in aq. $\\text{NH}_3$ forming $[\\text{Ag}(\\text{NH}_3)_2]^+$ and in excess sodium thiosulfate forming $[\\text{Ag}(\\text{S}_2\\text{O}_3)_2]^{3-}$.\n- Solution $\\text{Q}$ contains $\\text{Pb}^{2+}$, which reacts with $\\text{KI}$ to precipitate yellow $\\text{PbI}_2$.\nTherefore, metals $\\text{X}$ and $\\text{Y}$ are $\\text{Ag}$ and $\\text{Pb}$ (Option A)."
+        },
+        {
+          "id": "chem_q4",
+          "type": "single_correct",
+          "questionText": "Newman projections P, Q, R and S are shown below. Which one of the following options represents identical molecules?",
+          "hasImage": true,
+          "imageName": "img/chem_q4.png",
+          "options": [
+            {
+              "id": "A",
+              "text": "P and Q",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "Q and S",
+              "isCorrect": false
+            },
+            {
+              "id": "C",
+              "text": "Q and R",
+              "isCorrect": true
+            },
+            {
+              "id": "D",
+              "text": "R and S",
+              "isCorrect": false
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "Assigning absolute stereochemical configurations $(R/S)$ to the chiral carbon centers C2 and C3 of the four Newman projections:\n- For P: $(2R, 3R)$\n- For Q: $(2R, 3S)$\n- For R: $(2R, 3S)$\n- For S: $(2S, 3R)$\nSince both Q and R have the identical configuration $(2R, 3S)$, they represent identical molecules.\nTherefore, Option (C) is correct."
+        },
+        {
+          "id": "chem_q5",
+          "type": "single_correct",
+          "questionText": "Which one of the following structures has the IUPAC name 3-ethynyl-2-hydroxy-4-methylhex-3-en-5-ynoic acid?",
+          "hasImage": true,
+          "imageName": "img/chem_q5.png",
+          "options": [
+            {
+              "id": "A",
+              "text": "Option (A)",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "Option (B)",
+              "isCorrect": false
+            },
+            {
+              "id": "C",
+              "text": "Option (C)",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "Option (D)",
+              "isCorrect": true
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "Let's analyze the IUPAC name: 3-ethynyl-2-hydroxy-4-methylhex-3-en-5-ynoic acid.\n- Principal functional group: carboxylic acid $(-\\text{COOH})$ at C1.\n- C2 has an $-\\text{OH}$ group (2-hydroxy).\n- C3 has a double bond (3-en) and an ethynyl group $(-\\text{C}\\equiv\\text{CH})$ substituent.\n- C4 has a methyl group $(-\\text{CH}_3)$ and a triple bond extending to C5 and C6 (hex-3-en-5-ynoic acid).\nEvaluating structure (D):\n- Numbering starts from the carboxyl carbon as C1.\n- C2 has $-\\text{OH}$.\n- C3 has double bond to C4 and substituent $-\\text{C}\\equiv\\text{CH}$ (3-ethynyl).\n- C4 has methyl group and triple bond to C5-C6.\nThis matches the structure shown in Option (D)."
+        },
+        {
+          "id": "chem_q6",
+          "type": "single_correct",
+          "questionText": "The Fischer projection of D-erythrose is shown below. D-Erythrose and its isomers are listed as P, Q, R, and S in Column-I. Choose the correct relationship of P, Q, R, and S with D-erythrose from Column II.\n\n**Column-II:**\n1. Diastereomer\n2. Identical\n3. Enantiomer",
+          "hasImage": true,
+          "imageName": "img/chem_q6.png",
+          "options": [
+            {
+              "id": "A",
+              "text": "$\\text{P}\\rightarrow 2, \\text{Q}\\rightarrow 3, \\text{R}\\rightarrow 2, \\text{S}\\rightarrow 2$",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "$\\text{P}\\rightarrow 3, \\text{Q}\\rightarrow 1, \\text{R}\\rightarrow 1, \\text{S}\\rightarrow 2$",
+              "isCorrect": false
+            },
+            {
+              "id": "C",
+              "text": "$\\text{P}\\rightarrow 2, \\text{Q}\\rightarrow 1, \\text{R}\\rightarrow 1, \\text{S}\\rightarrow 3$",
+              "isCorrect": true
+            },
+            {
+              "id": "D",
+              "text": "$\\text{P}\\rightarrow 2, \\text{Q}\\rightarrow 3, \\text{R}\\rightarrow 3, \\text{S}\\rightarrow 1$",
+              "isCorrect": false
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "D-Erythrose is $(2R, 3R)$-2,3,4-trihydroxybutanal (both OH groups on the right side in standard vertical Fischer projection with CHO at top):\n- Compound P: Rotating the projection by $180^\\circ$ in the plane of the paper gives the identical molecule (D-erythrose) $\\implies \\text{P} \\rightarrow 2$.\n- Compound Q: One chiral center has inverted configuration (threose), making it a diastereomer of D-erythrose $\\implies \\text{Q} \\rightarrow 1$.\n- Compound R: Also a threose diastereomer $\\implies \\text{R} \\rightarrow 1$.\n- Compound S: Both chiral centers are inverted, representing L-erythrose, which is the non-superimposable mirror image (enantiomer) $\\implies \\text{S} \\rightarrow 3$.\nTherefore, $\\text{P}\\rightarrow 2, \\text{Q}\\rightarrow 1, \\text{R}\\rightarrow 1, \\text{S}\\rightarrow 3$ (Option C)."
+        },
+        {
+          "id": "chem_q7",
+          "type": "multi_correct",
+          "questionText": "In thermodynamics, the $P-V$ work done is given by $w = -\\int dV\\,P_{\\text{ext}}$. For a system undergoing a particular process, the work done is $w = -\\int dV \\left(\\frac{RT}{V-b} - \\frac{a}{V^2}\\right)$. This equation is applicable to a:",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "system that satisfies the van der Waals equation of state.",
+              "isCorrect": true
+            },
+            {
+              "id": "B",
+              "text": "process that is reversible and isothermal.",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "process that is reversible and adiabatic.",
+              "isCorrect": true
+            },
+            {
+              "id": "D",
+              "text": "process that is irreversible and at constant pressure.",
+              "isCorrect": false
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "The van der Waals equation for 1 mole of gas is:\n$$\\left(P + \\frac{a}{V^2}\\right)(V - b) = RT \\implies P = \\frac{RT}{V-b} - \\frac{a}{V^2}$$\nIn a reversible process, the external pressure equals the internal pressure of the gas at every instant:\n$$P_{\\text{ext}} = P_{\\text{gas}} = \\frac{RT}{V-b} - \\frac{a}{V^2}$$\nHence, $w = -\\int dV\\,P_{\\text{ext}} = -\\int dV \\left(\\frac{RT}{V-b} - \\frac{a}{V^2}\\right)$.\nThis equation is valid for:\n- Any system following the van der Waals equation of state undergoing a reversible process, including reversible isothermal and reversible adiabatic processes.\nFor irreversible processes, $P_{\\text{ext}}$ is not equal to the internal gas pressure, so (D) is incorrect.\nTherefore, Options (A), (B), and (C) are correct."
+        },
+        {
+          "id": "chem_q8",
+          "type": "multi_correct",
+          "questionText": "With respect to the compounds I-V, choose the correct statement(s).",
+          "hasImage": true,
+          "imageName": "img/chem_q8.png",
+          "options": [
+            {
+              "id": "A",
+              "text": "The acidity of compound I is due to delocalization in the conjugate base.",
+              "isCorrect": true
+            },
+            {
+              "id": "B",
+              "text": "The conjugate base of compound IV is aromatic.",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "Compound II becomes more acidic, when it has a $-\\text{NO}_2$ substituent.",
+              "isCorrect": true
+            },
+            {
+              "id": "D",
+              "text": "The acidity of compounds follows the order I > IV > V > II > III.",
+              "isCorrect": false
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "Structures in image:\n- Compound I: Cyclopentadiene (upon losing a proton, the cyclopentadienyl anion has $6\\pi$ electrons and is aromatic, highly stable due to cyclic delocalization) $\\implies$ (A) is correct.\n- Compound IV: Cycloheptatriene (tropylium system): loss of proton from cyclopentadiene vs cycloheptatriene: cyclopentadienyl anion is aromatic, and conjugate base of cyclopentadiene derivatives gives aromatic stabilization $\\implies$ (B) is correct.\n- Compound II: Phenol: introduction of electron-withdrawing $-\\text{NO}_2$ group stabilizes the phenoxide conjugate base by $-M$ and $-I$ effects, increasing acidity $\\implies$ (C) is correct.\n- Comparing overall acidities, carboxylic acid/phenol/hydrocarbons: carboxylic acid (V) is much more acidic than cyclopentadiene, so the order in (D) is incorrect.\nTherefore, Options (A), (B), and (C) are correct."
+        },
+        {
+          "id": "chem_q9",
+          "type": "multi_correct",
+          "questionText": "In the reaction scheme shown below, Q, R, and S are the major products. The correct structure of:",
+          "hasImage": true,
+          "imageName": "img/chem_q9.png",
+          "options": [
+            {
+              "id": "A",
+              "text": "S is Option (A)",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "Q is Option (B)",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "R is Option (C)",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "S is Option (D)",
+              "isCorrect": true
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "From the reaction scheme:\n1. Aniline is reacted with $\\text{NaNO}_2 / \\text{HCl}$ at $0-5^\\circ\\text{C}$ followed by coupling or nucleophilic substitution to yield product Q.\n2. Further transformations via R lead to product S.\n- Option (B) correctly shows the structure of intermediate Q.\n- Option (D) correctly depicts the final structure S.\nHence, Options (B) and (D) are correct."
+        },
+        {
+          "id": "chem_q10",
+          "type": "multi_correct",
+          "questionText": "Choose the correct statement(s) among the following:",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "$[\\text{FeCl}_4]^-$ has tetrahedral geometry.",
+              "isCorrect": true
+            },
+            {
+              "id": "B",
+              "text": "$[\\text{Co}(\\text{en})(\\text{NH}_3)_2\\text{Cl}_2]^+$ has 2 geometrical isomers.",
+              "isCorrect": false
+            },
+            {
+              "id": "C",
+              "text": "$[\\text{FeCl}_4]^-$ has higher spin-only magnetic moment than $[\\text{Co}(\\text{en})(\\text{NH}_3)_2\\text{Cl}_2]^+$.",
+              "isCorrect": true
+            },
+            {
+              "id": "D",
+              "text": "The cobalt ion in $[\\text{Co}(\\text{en})(\\text{NH}_3)_2\\text{Cl}_2]^+$ has $sp^3d^2$ hybridization.",
+              "isCorrect": false
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "- For $[\\text{FeCl}_4]^-$: $\\text{Fe}^{3+}$ has $3d^5$ configuration. $\\text{Cl}^-$ is a weak-field ligand, so it forms a high-spin tetrahedral complex with $sp^3$ hybridization and 5 unpaired electrons ($n = 5$, $\\mu = \\sqrt{35} \\approx 5.92\\text{ BM}$). Thus (A) is correct.\n- For $[\\text{Co}(\\text{en})(\\text{NH}_3)_2\\text{Cl}_2]^+$: it is of type $[M(AA)b_2 c_2]$, which has 3 geometrical isomers (cis-trans configurations for the two pairs of unidentate ligands), so (B) is incorrect.\n- In $[\\text{Co}(\\text{en})(\\text{NH}_3)_2\\text{Cl}_2]^+$, $\\text{Co}^{3+}$ is $3d^6$. The strong chelating ligand $\\text{en}$ and $\\text{NH}_3$ cause pairing, forming a low-spin diamagnetic complex ($d^2sp^3$, $n = 0$). Thus $[\\text{FeCl}_4]^-$ has a much higher magnetic moment $\\implies$ (C) is correct.\n- The hybridization of $\\text{Co}^{3+}$ is $d^2sp^3$ (inner orbital), not $sp^3d^2 \\implies$ (D) is incorrect.\nHence, Options (A) and (C) are correct."
+        },
+        {
+          "id": "chem_q11",
+          "type": "multi_correct",
+          "questionText": "With respect to hypochlorite, chlorate and perchlorate ions, choose the correct statement(s):",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "The hypochlorite ion is the strongest conjugate base.",
+              "isCorrect": true
+            },
+            {
+              "id": "B",
+              "text": "The molecular shape of only chlorate ion is influenced by the lone pair of electrons of $\\text{Cl}$.",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "The hypochlorite and chlorate ions disproportionate to give rise to identical set of ions.",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "The hypochlorite ion oxidizes the sulfite ion.",
+              "isCorrect": true
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "- Oxoacids of chlorine: acidity order is $\\text{HClO} < \\text{HClO}_2 < \\text{HClO}_3 < \\text{HClO}_4$. The conjugate base strength is inverse: $\\text{ClO}^- > \\text{ClO}_3^- > \\text{ClO}_4^-$. Thus hypochlorite ion is the strongest conjugate base $\\implies$ (A) is correct.\n- Structures:\n  - $\\text{ClO}^-$: linear diatomic.\n  - $\\text{ClO}_3^-$: pyramidal shape due to one lone pair on chlorine (steric number = 4: 3 bond pairs + 1 lone pair) $\\implies$ shape influenced by lone pair.\n  - $\\text{ClO}_4^-$: regular tetrahedral (no lone pair on chlorine).\n  Thus only $\\text{ClO}_3^-$ is influenced by a central atom lone pair $\\implies$ (B) is correct.\n- Hypochlorite disproportionates to $\\text{Cl}^-$ and $\\text{ClO}_3^-$, while chlorate disproportionates to $\\text{Cl}^-$ and $\\text{ClO}_4^-$. The sets of ions are different $\\implies$ (C) is incorrect.\n- Hypochlorite is a strong oxidizing agent and oxidizes sulfite ($\\text{SO}_3^{2-}$) to sulfate ($\\text{SO}_4^{2-}$):\n$$\\text{ClO}^- + \\text{SO}_3^{2-} \\rightarrow \\text{Cl}^- + \\text{SO}_4^{2-}$$\nThus (D) is correct. Hence, Options (A), (B), and (D) are correct."
+        },
+        {
+          "id": "chem_q12",
+          "type": "multi_correct",
+          "questionText": "The cubic unit cell structure of a compound containing cation M and anion X is shown below. When compared to the anion, the cation has smaller ionic radius. Choose the correct statement(s):",
+          "hasImage": true,
+          "imageName": "img/chem_q12.png",
+          "options": [
+            {
+              "id": "A",
+              "text": "The empirical formula of the compound is $\\text{MX}$.",
+              "isCorrect": true
+            },
+            {
+              "id": "B",
+              "text": "The cation $\\text{M}$ and anion $\\text{X}$ have different coordination geometries.",
+              "isCorrect": false
+            },
+            {
+              "id": "C",
+              "text": "The ratio of $\\text{M-X}$ bond length to the cubic unit cell edge length is $0.866$.",
+              "isCorrect": true
+            },
+            {
+              "id": "D",
+              "text": "The ratio of the ionic radii of cation $\\text{M}$ to anion $\\text{X}$ is $0.414$.",
+              "isCorrect": false
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "- From the unit cell structure (CsCl type):\n  - Anions X occupy the 8 corners: $8 \\times (1/8) = 1$.\n  - Cation M occupies the body center: $1 \\times 1 = 1$.\n  Empirical formula is $\\text{MX} \\implies$ (A) is correct.\n- Both cation and anion have cubic coordination geometry with coordination number 8 $\\implies$ (B) is incorrect.\n- In the body-centered arrangement, cation and anion touch along the body diagonal of length $\\sqrt{3}a$:\n$$d_{\\text{M-X}} = \\frac{\\sqrt{3}a}{2} = \\frac{1.732}{2} a = 0.866 a \\implies \\frac{d_{\\text{M-X}}}{a} = 0.866$$\nThus (C) is correct.\n- For 8-coordination (cubic), the limiting radius ratio is $0.732$, not $0.414$ (which is for octahedral) $\\implies$ (D) is incorrect.\nHence, Options (A) and (C) are correct."
+        },
+        {
+          "id": "chem_q13",
+          "type": "numerical",
+          "questionText": "5.00 mL of 0.10 M oxalic acid solution taken in a conical flask is titrated against NaOH from a burette using phenolphthalein indicator. The volume of NaOH required for the appearance of permanent faint pink color is tabulated below for five experiments. What is the concentration, in molarity, of the NaOH solution?\n\n| Exp. No. | Vol. of NaOH (mL) |\n| :---: | :---: |\n| 1 | 12.5 |\n| 2 | 10.5 |\n| 3 | 9.0 |\n| 4 | 9.0 |\n| 5 | 9.0 |",
+          "hasImage": false,
+          "answer": "0.11",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "Oxalic acid $(\\text{H}_2\\text{C}_2\\text{O}_4)$ is a dibasic acid ($n$-factor $= 2$).\nConcordant burette reading from experiments 3, 4, 5 is $V_{\\text{NaOH}} = 9.0\\text{ mL}$.\nAt the equivalence point:\n$$\\text{Milli-equivalents of acid} = \\text{Milli-equivalents of base}$$\n$$V_{\\text{acid}} \\times M_{\\text{acid}} \\times n_1 = V_{\\text{base}} \\times M_{\\text{base}} \\times n_2$$\n$$5.00\\text{ mL} \\times 0.10\\text{ M} \\times 2 = 9.0\\text{ mL} \\times M_{\\text{NaOH}} \\times 1$$\n$$1.0 = 9.0 \\times M_{\\text{NaOH}}$$\n$$M_{\\text{NaOH}} = \\frac{1.0}{9.0} = 0.111\\text{ M} \\approx 0.11\\text{ M}$$\nThus, the concentration of the $\\text{NaOH}$ solution is $0.11\\text{ M}$."
+        },
+        {
+          "id": "chem_q14",
+          "type": "numerical",
+          "questionText": "Consider the reaction $\\text{A} \\rightleftharpoons \\text{B}$ at $1000\\text{ K}$. At time $t'$, the temperature of the system was increased to $2000\\text{ K}$ and the system was allowed to reach equilibrium. Throughout this experiment the partial pressure of $\\text{A}$ was maintained at $1\\text{ bar}$. Given below is the plot of the partial pressure of $\\text{B}$ with time. What is the ratio of the standard Gibbs energy of the reaction at $1000\\text{ K}$ to that at $2000\\text{ K}$?",
+          "hasImage": true,
+          "imageName": "img/chem_q14.png",
+          "answer": "0.25",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "From the plot:\n- At $T_1 = 1000\\text{ K}$, the equilibrium partial pressure of B is $p_B = 10\\text{ bar}$.\nSince $p_A = 1\\text{ bar}$ throughout:\n$$K_{p,1} = \\frac{p_B}{p_A} = \\frac{10}{1} = 10$$\n$$\\Delta G_1^\\circ = -R T_1 \\ln K_{p,1} = -R(1000) \\ln 10$$\n\n- At $T_2 = 2000\\text{ K}$, the new equilibrium partial pressure of B is $p_B = 100\\text{ bar}$.\n$$K_{p,2} = \\frac{p_B}{p_A} = \\frac{100}{1} = 100$$\n$$\\Delta G_2^\\circ = -R T_2 \\ln K_{p,2} = -R(2000) \\ln 100 = -R(2000)(2 \\ln 10) = -4000 R \\ln 10$$\n\nRatio of standard Gibbs energies:\n$$\\frac{\\Delta G_{1000\\text{ K}}^\\circ}{\\Delta G_{2000\\text{ K}}^\\circ} = \\frac{-1000 R \\ln 10}{-4000 R \\ln 10} = \\frac{1000}{4000} = 0.25$$\nThus, the ratio is $0.25$."
+        },
+        {
+          "id": "chem_q15",
+          "type": "numerical",
+          "questionText": "Consider a 70% efficient hydrogen-oxygen fuel cell working under standard conditions at $1\\text{ bar}$ and $298\\text{ K}$. Its cell reaction is:\n$$\\text{H}_2(g) + \\frac{1}{2}\\text{O}_2(g) \\rightarrow \\text{H}_2\\text{O}(l)$$\nThe work derived from the cell on the consumption of $1.0 \\times 10^{-3}\\text{ mol}$ of $\\text{H}_2(g)$ is used to compress $1.00\\text{ mol}$ of a monoatomic ideal gas in a thermally insulated container. What is the change in the temperature (in $\\text{K}$) of the ideal gas? The standard reduction potentials for the two half-cells are given below:\n$$\\text{O}_2(g) + 4\\text{H}^+(aq) + 4e^- \\rightarrow 2\\text{H}_2\\text{O}(l), \\quad E^0 = 1.23\\text{ V}$$\n$$2\\text{H}^+(aq) + 2e^- \\rightarrow \\text{H}_2(g), \\quad E^0 = 0.00\\text{ V}$$\nUse $F = 96500\\text{ C mol}^{-1}$, $R = 8.314\\text{ J mol}^{-1}\\text{K}^{-1}$.",
+          "hasImage": false,
+          "answer": "13.32",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "Standard cell potential:\n$$E_{\\text{cell}}^0 = E_{\\text{cathode}}^0 - E_{\\text{anode}}^0 = 1.23 - 0.00 = 1.23\\text{ V}$$\nFor the reaction $\\text{H}_2 + \\frac{1}{2}\\text{O}_2 \\rightarrow \\text{H}_2\\text{O}$, $n = 2$ electrons per mole of $\\text{H}_2$.\nMaximum electrical work obtainable per mole of $\\text{H}_2$:\n$$-\\Delta G^0 = n F E^0 = 2 \\times 96500 \\times 1.23 = 237390\\text{ J mol}^{-1}$$\nFor $1.0 \\times 10^{-3}\\text{ mol}$ of $\\text{H}_2$ with $70\\%$ efficiency:\n$$W = 0.70 \\times (1.0 \\times 10^{-3}) \\times 237390 = 166.173\\text{ J}$$\nThis work is done on $1.00\\text{ mol}$ of a monoatomic ideal gas in an insulated container ($q = 0$):\n$$\\Delta U = W = 166.173\\text{ J}$$\nFor $n = 1.00\\text{ mol}$ of monoatomic gas, $C_v = \\frac{3}{2}R$:\n$$\\Delta U = n C_v \\Delta T = 1 \\times \\frac{3}{2}(8.314) \\Delta T = 12.471 \\Delta T$$\n$$\\Delta T = \\frac{166.173}{12.471} \\approx 13.32\\text{ K}$$\nThus, the change in temperature is $13.32\\text{ K}$."
+        },
+        {
+          "id": "chem_q16",
+          "type": "numerical",
+          "questionText": "Aluminium reacts with sulfuric acid to form aluminium sulfate and hydrogen. What is the volume of hydrogen gas in liters (L) produced at $300\\text{ K}$ and $1.0\\text{ atm}$ pressure, when $5.4\\text{ g}$ of aluminium and $50.0\\text{ mL}$ of $5.0\\text{ M}$ sulfuric acid are combined for the reaction? (Use molar mass of aluminium as $27.0\\text{ g mol}^{-1}$, $R = 0.082\\text{ atm L mol}^{-1}\\text{K}^{-1}$)",
+          "hasImage": false,
+          "answer": "6.15",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "Balanced chemical equation:\n$$2\\text{Al} + 3\\text{H}_2\\text{SO}_4 \\rightarrow \\text{Al}_2(\\text{SO}_4)_3 + 3\\text{H}_2$$\nMoles of reactants:\n$$\\text{Moles of Al} = \\frac{5.4\\text{ g}}{27.0\\text{ g mol}^{-1}} = 0.20\\text{ mol}$$\n$$\\text{Moles of } \\text{H}_2\\text{SO}_4 = 5.0\\text{ M} \\times 0.050\\text{ L} = 0.25\\text{ mol}$$\nStoichiometric requirement:\n$0.20\\text{ mol}$ of $\\text{Al}$ requires $\\frac{3}{2} \\times 0.20 = 0.30\\text{ mol}$ of $\\text{H}_2\\text{SO}_4$.\nSince only $0.25\\text{ mol}$ of $\\text{H}_2\\text{SO}_4$ is present, $\\text{H}_2\\text{SO}_4$ is the limiting reagent.\nMoles of $\\text{H}_2$ produced:\n$$n_{\\text{H}_2} = n_{\\text{H}_2\\text{SO}_4} = 0.25\\text{ mol}$$\nVolume of $\\text{H}_2$ gas at $T = 300\\text{ K}$ and $P = 1.0\\text{ atm}$:\n$$V = \\frac{n R T}{P} = \\frac{0.25 \\times 0.082 \\times 300}{1.0} = 6.15\\text{ L}$$\nThus, the volume of hydrogen gas produced is $6.15\\text{ L}$."
+        },
+        {
+          "id": "chem_q17",
+          "type": "numerical",
+          "questionText": "$^{238}_{92}\\text{U}$ is known to undergo radioactive decay to form $^{206}_{82}\\text{Pb}$ by emitting alpha and beta particles. A rock initially contained $68 \\times 10^{-6}\\text{ g}$ of $^{238}_{92}\\text{U}$. If the number of alpha particles that it would emit during its radioactive decay of $^{238}_{92}\\text{U}$ to $^{206}_{82}\\text{Pb}$ in three half-lives is $Z \\times 10^{18}$, then what is the value of $Z$?",
+          "hasImage": false,
+          "answer": "1.20",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "Nuclear decay reaction:\n$$^{238}_{92}\\text{U} \\rightarrow ^{206}_{82}\\text{Pb} + 8\\,^4_2\\text{He} + 6\\,^0_{-1}\\beta$$\nEach decaying nucleus of $^{238}\\text{U}$ emits $8$ alpha particles.\nInitial number of moles of $^{238}\\text{U}$:\n$$n_0 = \\frac{68 \\times 10^{-6}\\text{ g}}{238\\text{ g mol}^{-1}} = \\frac{68}{238} \\times 10^{-6}\\text{ mol}$$\nIn three half-lives, the fraction of nuclei decayed is:\n$$1 - \\left(\\frac{1}{2}\\right)^3 = 1 - \\frac{1}{8} = \\frac{7}{8}$$\nMoles of $^{238}\\text{U}$ that decayed:\n$$n_{\\text{decayed}} = \\frac{7}{8} \\times \\frac{68}{238} \\times 10^{-6} = \\frac{7}{8} \\times \\frac{2}{7} \\times 10^{-6} = \\frac{1}{4} \\times 10^{-6} = 0.25 \\times 10^{-6}\\text{ mol}$$\nMoles of alpha particles emitted:\n$$n_\\alpha = 8 \\times n_{\\text{decayed}} = 8 \\times (0.25 \\times 10^{-6}) = 2.0 \\times 10^{-6}\\text{ mol}$$\nNumber of alpha particles:\n$$N_\\alpha = 2.0 \\times 10^{-6} \\times 6.022 \\times 10^{23} = 1.2044 \\times 10^{18}$$\nComparing with $Z \\times 10^{18}$, we get $Z = 1.20$."
+        },
+        {
+          "id": "chem_q18",
+          "type": "numerical",
+          "questionText": "In the following reaction, compound Q is obtained from compound P via an ionic intermediate. What is the degree of unsaturation of Q?",
+          "hasImage": true,
+          "imageName": "img/chem_q18.png",
+          "answer": "18",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "From the reaction sequence:\nCompound P undergoes acid-catalyzed cyclization via carbocation intermediates to form the polycyclic aromatic compound Q.\nDetermining the degree of unsaturation (Double Bond Equivalent, DBE) of Q:\n- The structure of Q contains 4 aromatic benzene rings and additional rings/double bonds, yielding a total of 18 degrees of unsaturation:\n$$\\text{DBE} = C + 1 - \\frac{H}{2} = 18$$\nThus, the degree of unsaturation of compound Q is $18$."
+        }
+      ]
+    },
+    {
+      "id": "math",
+      "name": "Mathematics",
+      "questions": [
+        {
+          "id": "math_q1",
+          "type": "single_correct",
+          "questionText": "Suppose $a, b$ denote the distinct real roots of the quadratic polynomial $x^2 + 20x - 2020$ and suppose $c, d$ denote the distinct complex roots of the quadratic polynomial $x^2 - 20x + 2020$. Then the value of\n$$ac(a-c) + ad(a-d) + bc(b-c) + bd(b-d)$$\nis:",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "$0$",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "$8000$",
+              "isCorrect": false
+            },
+            {
+              "id": "C",
+              "text": "$8080$",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "$16000$",
+              "isCorrect": true
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "For $x^2 + 20x - 2020 = 0$, roots are $a, b$:\n$$a + b = -20, \\quad ab = -2020$$\n$$a^2 + b^2 = (a+b)^2 - 2ab = (-20)^2 - 2(-2020) = 400 + 4040 = 4440$$\n\nFor $x^2 - 20x + 2020 = 0$, roots are $c, d$:\n$$c + d = 20, \\quad cd = 2020$$\n$$c^2 + d^2 = (c+d)^2 - 2cd = (20)^2 - 2(2020) = 400 - 4040 = -3640$$\n\nThe given expression is:\n$$E = ac(a-c) + ad(a-d) + bc(b-c) + bd(b-d)$$\n$$= a^2 c - a c^2 + a^2 d - a d^2 + b^2 c - b c^2 + b^2 d - b d^2$$\n$$= (a^2 + b^2)(c + d) - (a + b)(c^2 + d^2)$$\nSubstitute the values:\n$$E = (4440)(20) - (-20)(-3640) = 88800 - 72800 = 16000$$\nThus, Option (D) is correct."
+        },
+        {
+          "id": "math_q2",
+          "type": "single_correct",
+          "questionText": "If the function $f: \\mathbb{R} \\to \\mathbb{R}$ is defined by $f(x) = |x|(x - \\sin x)$, then which of the following statements is TRUE?",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "$f$ is one-one, but NOT onto",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "$f$ is onto, but NOT one-one",
+              "isCorrect": false
+            },
+            {
+              "id": "C",
+              "text": "$f$ is BOTH one-one and onto",
+              "isCorrect": true
+            },
+            {
+              "id": "D",
+              "text": "$f$ is NEITHER one-one NOR onto",
+              "isCorrect": false
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "For $x \\ge 0$:\n$$f(x) = x(x - \\sin x)$$\nSince $x > \\sin x$ for $x > 0$, $f(x) > 0$ for all $x > 0$, and $f(0) = 0$.\nDerivative for $x > 0$:\n$$f'(x) = (x - \\sin x) + x(1 - \\cos x)$$\nFor $x > 0$, $x - \\sin x > 0$ and $1 - \\cos x \\ge 0$, so $f'(x) > 0$. Thus $f(x)$ is strictly increasing on $[0, \\infty)$.\n\nFor $x < 0$:\n$$f(x) = -x(x - \\sin x) = x(\\sin x - x)$$\nNotice that $f(-x) = |-x|(-x - \\sin(-x)) = |x|(\\sin x - x) = -|x|(x - \\sin x) = -f(x)$.\nSo $f(x)$ is an odd function!\nSince $f$ is strictly increasing on $[0, \\infty)$ and odd, it is strictly increasing on all of $\\mathbb{R}$.\nTherefore, $f$ is strictly monotonic, hence one-one.\nFurthermore, $\\lim_{x \\to \\infty} f(x) = \\infty$ and $\\lim_{x \\to -\\infty} f(x) = -\\infty$, and $f(x)$ is continuous on $\\mathbb{R}$, so its range is $\\mathbb{R}$, which means $f$ is onto.\nThus, $f$ is BOTH one-one and onto (Option C)."
+        },
+        {
+          "id": "math_q3",
+          "type": "single_correct",
+          "questionText": "Let the functions $f: \\mathbb{R} \\to \\mathbb{R}$ and $g: \\mathbb{R} \\to \\mathbb{R}$ be defined by\n$$f(x) = e^{x-1} - e^{-|x-1|} \\quad \\text{and} \\quad g(x) = \\frac{1}{2}(e^{x-1} + e^{1-x}).$$\nThen the area of the region in the first quadrant bounded by the curves $y = f(x)$, $y = g(x)$ and $x = 0$ is:",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "$(2 - \\sqrt{3}) + \\frac{1}{2}(e - e^{-1})$",
+              "isCorrect": true
+            },
+            {
+              "id": "B",
+              "text": "$(2 + \\sqrt{3}) + \\frac{1}{2}(e - e^{-1})$",
+              "isCorrect": false
+            },
+            {
+              "id": "C",
+              "text": "$(2 - \\sqrt{3}) + \\frac{1}{2}(e + e^{-1})$",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "$(2 + \\sqrt{3}) + \\frac{1}{2}(e + e^{-1})$",
+              "isCorrect": false
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "Let $t = x - 1$. When $x = 0$, $t = -1$.\nIn the first quadrant, we need the area bounded by $y = f(x)$, $y = g(x)$, and $x = 0$.\nFor $x \\in [0, 1]$, $x - 1 \\le 0$, so $|x - 1| = 1 - x$:\n$$f(x) = e^{x-1} - e^{-(1-x)} = e^{x-1} - e^{x-1} = 0$$\nFor $x \\ge 1$, $x - 1 \\ge 0$, so $|x - 1| = x - 1$:\n$$f(x) = e^{x-1} - e^{-(x-1)}$$\nCurve $g(x) = \\frac{1}{2}(e^{x-1} + e^{-(x-1)})$.\n\nFind intersection of $f(x)$ and $g(x)$ for $x \\ge 1$:\n$$e^{x-1} - e^{-(x-1)} = \\frac{1}{2}(e^{x-1} + e^{-(x-1)})$$\nLet $u = e^{x-1} \\ge 1$:\n$$u - \\frac{1}{u} = \\frac{1}{2}\\left(u + \\frac{1}{u}\\right) \\implies \\frac{1}{2} u = \\frac{3}{2} \\frac{1}{u} \\implies u^2 = 3 \\implies u = \\sqrt{3}$$\n$$e^{x-1} = \\sqrt{3} \\implies x - 1 = \\ln\\sqrt{3} \\implies x = 1 + \\frac{1}{2}\\ln 3$$\n\nThus, the area is split into two parts:\nFrom $x = 0$ to $x = 1$, $f(x) = 0$, so the boundary is the $x$-axis:\n$$A_1 = \\int_0^1 g(x)\\,dx = \\int_0^1 \\frac{1}{2}(e^{x-1} + e^{1-x})\\,dx = \\frac{1}{2}\\left[ e^{x-1} - e^{1-x} \\right]_0^1 = \\frac{1}{2}\\left[(1 - 1) - (e^{-1} - e)\\right] = \\frac{1}{2}(e - e^{-1})$$\n\nFrom $x = 1$ to $x = 1 + \\ln\\sqrt{3}$:\n$$A_2 = \\int_1^{1+\\ln\\sqrt{3}} (g(x) - f(x))\\,dx = \\int_0^{\\ln\\sqrt{3}} \\left[\\frac{1}{2}(e^t + e^{-t}) - (e^t - e^{-t})\\right] dt = \\int_0^{\\ln\\sqrt{3}} \\left[\\frac{3}{2} e^{-t} - \\frac{1}{2} e^t\\right] dt$$\n$$= \\left[ -\\frac{3}{2} e^{-t} - \\frac{1}{2} e^t \\right]_0^{\\ln\\sqrt{3}} = \\left(-\\frac{3}{2\\sqrt{3}} - \\frac{\\sqrt{3}}{2}\\right) - \\left(-\\frac{3}{2} - \\frac{1}{2}\\right) = -\\sqrt{3} + 2 = 2 - \\sqrt{3}$$\n\nTotal Area:\n$$A = A_1 + A_2 = (2 - \\sqrt{3}) + \\frac{1}{2}(e - e^{-1})$$\nThus, Option (A) is correct."
+        },
+        {
+          "id": "math_q4",
+          "type": "single_correct",
+          "questionText": "Let $a, b$ and $\\lambda$ be positive real numbers. Suppose $P$ is an end point of the latus rectum of the parabola $y^2 = 4\\lambda x$, and suppose the ellipse $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ passes through the point $P$. If the tangents to the parabola and the ellipse at the point $P$ are perpendicular to each other, then the eccentricity of the ellipse is:",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "$\\frac{1}{\\sqrt{2}}$",
+              "isCorrect": true
+            },
+            {
+              "id": "B",
+              "text": "$\\frac{1}{2}$",
+              "isCorrect": false
+            },
+            {
+              "id": "C",
+              "text": "$\\frac{1}{3}$",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "$\\frac{2}{5}$",
+              "isCorrect": false
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "An endpoint of the latus rectum of $y^2 = 4\\lambda x$ is $P(\\lambda, 2\\lambda)$.\nSlope of the tangent to the parabola at $P$:\n$$2y \\frac{dy}{dx} = 4\\lambda \\implies m_1 = \\frac{2\\lambda}{y} = \\frac{2\\lambda}{2\\lambda} = 1$$\nSince the tangents are perpendicular, the slope of the tangent to the ellipse at $P$ is:\n$$m_2 = -\\frac{1}{m_1} = -1$$\nEquation of the tangent to the ellipse $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ at $P(\\lambda, 2\\lambda)$:\n$$\\frac{x\\lambda}{a^2} + \\frac{y(2\\lambda)}{b^2} = 1 \\implies \\text{slope } m_2 = -\\frac{\\lambda/a^2}{2\\lambda/b^2} = -\\frac{b^2}{2a^2}$$\nSetting $m_2 = -1$:\n$$-\\frac{b^2}{2a^2} = -1 \\implies b^2 = 2a^2$$\nSince $b^2 > a^2$, the ellipse has its major axis along the $y$-axis ($b > a$):\nEccentricity $e$:\n$$e = \\sqrt{1 - \\frac{a^2}{b^2}} = \\sqrt{1 - \\frac{1}{2}} = \\frac{1}{\\sqrt{2}}$$\nThus, Option (A) is correct."
+        },
+        {
+          "id": "math_q5",
+          "type": "single_correct",
+          "questionText": "Let $C_1$ and $C_2$ be two biased coins such that the probabilities of getting head in a single toss are $\\frac{2}{3}$ and $\\frac{1}{3}$, respectively. Suppose $\\alpha$ is the number of heads that appear when $C_1$ is tossed twice, independently, and suppose $\\beta$ is the number of heads that appear when $C_2$ is tossed twice, independently. Then the probability that the roots of the quadratic polynomial $x^2 - \\alpha x + \\beta$ are real and equal, is:",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "$\\frac{40}{81}$",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "$\\frac{20}{81}$",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "$\\frac{1}{2}$",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "$\\frac{1}{4}$",
+              "isCorrect": false
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "Roots of $x^2 - \\alpha x + \\beta = 0$ are real and equal if and only if discriminant $D = 0$:\n$$D = \\alpha^2 - 4\\beta = 0 \\implies \\alpha^2 = 4\\beta$$\nSince $C_1$ and $C_2$ are each tossed twice:\n$$\\alpha \\in \\{0, 1, 2\\}, \\quad \\beta \\in \\{0, 1, 2\\}$$\nPossible pairs $(\\alpha, \\beta)$ satisfying $\\alpha^2 = 4\\beta$:\n1. $\\alpha = 0 \\implies \\beta = 0$\n2. $\\alpha = 2 \\implies 4 = 4\\beta \\implies \\beta = 1$\n(For $\\alpha = 1$, $\\beta = 1/4$, which is not possible).\n\nProbability distribution for $\\alpha \\sim \\text{Bin}(2, 2/3)$:\n$$P(\\alpha = 0) = \\left(\\frac{1}{3}\\right)^2 = \\frac{1}{9}$$\n$$P(\\alpha = 2) = \\left(\\frac{2}{3}\\right)^2 = \\frac{4}{9}$$\n\nProbability distribution for $\\beta \\sim \\text{Bin}(2, 1/3)$:\n$$P(\\beta = 0) = \\left(\\frac{2}{3}\\right)^2 = \\frac{4}{9}$$\n$$P(\\beta = 1) = 2 \\left(\\frac{1}{3}\\right)\\left(\\frac{2}{3}\\right) = \\frac{4}{9}$$\n\nTotal probability:\n$$P = P(\\alpha = 0, \\beta = 0) + P(\\alpha = 2, \\beta = 1)$$\n$$= P(\\alpha = 0)P(\\beta = 0) + P(\\alpha = 2)P(\\beta = 1)$$\n$$= \\left(\\frac{1}{9} \\times \\frac{4}{9}\\right) + \\left(\\frac{4}{9} \\times \\frac{4}{9}\\right) = \\frac{4}{81} + \\frac{16}{81} = \\frac{20}{81}$$\nThus, Option (B) is correct."
+        },
+        {
+          "id": "math_q6",
+          "type": "single_correct",
+          "questionText": "Consider all rectangles lying in the region\n$$\\left\\{(x, y) \\in \\mathbb{R} \\times \\mathbb{R} : 0 \\le x \\le \\frac{\\pi}{2} \\text{ and } 0 \\le y \\le 2\\sin(2x)\\right\\}$$\nand having one side on the $x$-axis. The area of the rectangle which has the maximum perimeter among all such rectangles, is:",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "$\\frac{3\\pi}{2}$",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "$\\pi$",
+              "isCorrect": false
+            },
+            {
+              "id": "C",
+              "text": "$\\frac{\\pi}{2\\sqrt{3}}$",
+              "isCorrect": true
+            },
+            {
+              "id": "D",
+              "text": "$\\frac{\\pi\\sqrt{3}}{2}$",
+              "isCorrect": false
+            }
+          ],
+          "marks": 3,
+          "negativeMarks": -1,
+          "explanation": "The curve $y = 2\\sin(2x)$ is symmetric about $x = \\pi/4$ in the interval $[0, \\pi/2]$.\nLet the vertices of the rectangle on the curve be $(x_1, y)$ and $(x_2, y)$ where $x_1 = \\frac{\\pi}{4} - \\theta$ and $x_2 = \\frac{\\pi}{4} + \\theta$ with $\\theta \\in (0, \\pi/4)$.\nWidth of the rectangle is $w = x_2 - x_1 = 2\\theta$.\nHeight is $h = 2\\sin(2x_1) = 2\\sin\\left(\\frac{\\pi}{2} - 2\\theta\\right) = 2\\cos(2\\theta)$.\nPerimeter of the rectangle:\n$$P(\\theta) = 2(w + h) = 2(2\\theta + 2\\cos(2\\theta)) = 4\\theta + 4\\cos(2\\theta)$$\nTo maximize perimeter:\n$$P'(\\theta) = 4 - 8\\sin(2\\theta) = 0 \\implies \\sin(2\\theta) = \\frac{1}{2} \\implies 2\\theta = \\frac{\\pi}{6} \\implies \\theta = \\frac{\\pi}{12}$$\nAt $\\theta = \\frac{\\pi}{12}$:\n$$w = 2\\theta = \\frac{\\pi}{6}$$\n$$h = 2\\cos(2\\theta) = 2\\cos\\left(\\frac{\\pi}{6}\\right) = 2 \\times \\frac{\\sqrt{3}}{2} = \\sqrt{3}$$\nArea of the rectangle:\n$$\\text{Area} = w \\times h = \\frac{\\pi}{6} \\times \\sqrt{3} = \\frac{\\pi}{2\\sqrt{3}}$$\nThus, Option (C) is correct."
+        },
+        {
+          "id": "math_q7",
+          "type": "multi_correct",
+          "questionText": "Let the function $f: \\mathbb{R} \\to \\mathbb{R}$ be defined by $f(x) = x^3 - x^2 + (x-1)\\sin x$ and let $g: \\mathbb{R} \\to \\mathbb{R}$ be an arbitrary function. Let $fg: \\mathbb{R} \\to \\mathbb{R}$ be the product function defined by $(fg)(x) = f(x)g(x)$. Then which of the following statements is/are TRUE?",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "If $g$ is continuous at $x = 1$, then $fg$ is differentiable at $x = 1$",
+              "isCorrect": true
+            },
+            {
+              "id": "B",
+              "text": "If $fg$ is differentiable at $x = 1$, then $g$ is continuous at $x = 1$",
+              "isCorrect": false
+            },
+            {
+              "id": "C",
+              "text": "If $g$ is differentiable at $x = 1$, then $fg$ is differentiable at $x = 1$",
+              "isCorrect": true
+            },
+            {
+              "id": "D",
+              "text": "If $fg$ is differentiable at $x = 1$, then $g$ is differentiable at $x = 1$",
+              "isCorrect": false
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "We have $f(x) = x^2(x-1) + (x-1)\\sin x = (x-1)(x^2 + \\sin x)$.\nNote that $f(1) = 0$.\nDerivative of $fg$ at $x = 1$ by definition:\n$$(fg)'(1) = \\lim_{x \\to 1} \\frac{(fg)(x) - (fg)(1)}{x - 1} = \\lim_{x \\to 1} \\frac{f(x)g(x) - 0}{x - 1} = \\lim_{x \\to 1} \\frac{(x-1)(x^2 + \\sin x)g(x)}{x - 1} = \\lim_{x \\to 1} (x^2 + \\sin x)g(x)$$\n\n- Statement (A): If $g$ is continuous at $x = 1$, then $\\lim_{x \\to 1} g(x) = g(1)$, so the limit exists and equals $(1 + \\sin 1)g(1)$. Thus $fg$ is differentiable at $x = 1$. (A is TRUE)\n- Statement (C): If $g$ is differentiable at $x = 1$, it is necessarily continuous at $x = 1$, hence $fg$ is differentiable at $x = 1$. (C is TRUE)\n- Statement (B): $fg$ being differentiable at $x = 1$ does not require $g$ to be continuous; for instance, if $(1 + \\sin 1)g(x)$ approaches a finite limit, but $g(1)$ is assigned a different value, $g$ is discontinuous at $x = 1$ while the limit for $(fg)'(1)$ still exists because $(fg)(1) = f(1)g(1) = 0$ independent of $g(1)$. Thus (B) is FALSE.\n- Statement (D): Counterexample shows $g$ need not be differentiable. Thus (D) is FALSE.\nHence, Options (A) and (C) are TRUE."
+        },
+        {
+          "id": "math_q8",
+          "type": "multi_correct",
+          "questionText": "Let $M$ be a $3 \\times 3$ invertible matrix with real entries and let $I$ denote the $3 \\times 3$ identity matrix. If $M^{-1} = \\text{adj}(\\text{adj } M)$, then which of the following statements is/are ALWAYS TRUE?",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "$M = I$",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "$\\det M = 1$",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "$M^2 = I$",
+              "isCorrect": true
+            },
+            {
+              "id": "D",
+              "text": "$(\\text{adj } M)^2 = I$",
+              "isCorrect": true
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "For an $n \\times n$ matrix $M$, $\\text{adj}(\\text{adj } M) = (\\det M)^{n-2} M$.\nFor $n = 3$:\n$$\\text{adj}(\\text{adj } M) = (\\det M) M$$\nGiven $M^{-1} = \\text{adj}(\\text{adj } M)$:\n$$M^{-1} = (\\det M) M$$\nTaking the determinant on both sides:\n$$\\det(M^{-1}) = \\det((\\det M) M) = (\\det M)^3 \\det M = (\\det M)^4$$\n$$\\frac{1}{\\det M} = (\\det M)^4 \\implies (\\det M)^5 = 1$$\nSince $M$ has real entries, $\\det M$ is real:\n$$\\det M = 1$$\nSo Option (B) is always TRUE.\n\nNow substitute $\\det M = 1$ back:\n$$M^{-1} = 1 \\cdot M = M \\implies M^2 = I$$\nSo Option (C) is always TRUE.\n\nAlso, $\\text{adj } M = (\\det M) M^{-1} = 1 \\cdot M = M$.\nTherefore, $(\\text{adj } M)^2 = M^2 = I$.\nSo Option (D) is always TRUE.\n\nHowever, $M = -I$ also has $\\det(-I) = (-1)^3 = -1 \\neq 1$, but other orthogonal symmetric matrices like $\\text{diag}(1, -1, -1)$ have $\\det = 1$ and $M^2 = I$ with $M \\neq I$. Thus (A) is NOT always true.\nHence, Options (B), (C), and (D) are TRUE."
+        },
+        {
+          "id": "math_q9",
+          "type": "multi_correct",
+          "questionText": "Let $S$ be the set of all complex numbers $z$ satisfying $|z^2 + z + 1| = 1$. Then which of the following statements is/are TRUE?",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "$\\left|z + \\frac{1}{2}\\right| \\le \\frac{1}{2}$ for all $z \\in S$",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "$|z| \\le 2$ for all $z \\in S$",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "$\\left|z + \\frac{1}{2}\\right| \\ge \\frac{1}{2}$ for all $z \\in S$",
+              "isCorrect": true
+            },
+            {
+              "id": "D",
+              "text": "The set $S$ has exactly four elements",
+              "isCorrect": false
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "We are given $\\left|z^2 + z + 1\\right| = 1$.\nWrite $z^2 + z + 1 = \\left(z + \\frac{1}{2}\\right)^2 + \\frac{3}{4}$:\n$$1 = \\left|\\left(z + \\frac{1}{2}\\right)^2 + \\frac{3}{4}\\right| \\ge \\left|\\left|z + \\frac{1}{2}\\right|^2 - \\frac{3}{4}\\right|$$\n$$-1 \\le \\left|z + \\frac{1}{2}\\right|^2 - \\frac{3}{4} \\le 1$$\n$$\\left|z + \\frac{1}{2}\\right|^2 \\le 1 + \\frac{3}{4} = \\frac{7}{4} \\implies \\left|z + \\frac{1}{2}\\right| \\le \\frac{\\sqrt{7}}{2}$$\nAlso:\n$$\\left|z + \\frac{1}{2}\\right|^2 \\ge \\frac{3}{4} - 1 = -\\frac{1}{4} \\implies \\text{using } \\left|\\left(z+\\frac{1}{2}\\right)^2\\right| + \\frac{3}{4} \\ge 1 \\implies \\left|z + \\frac{1}{2}\\right|^2 \\ge \\frac{1}{4} \\implies \\left|z + \\frac{1}{2}\\right| \\ge \\frac{1}{2}$$\nThus Statement (C) is TRUE, and (A) is FALSE.\n\nFor $|z|$:\n$$|z| = \\left|z + \\frac{1}{2} - \\frac{1}{2}\\right| \\le \\left|z + \\frac{1}{2}\\right| + \\frac{1}{2} \\le \\frac{\\sqrt{7}}{2} + \\frac{1}{2} = \\frac{\\sqrt{7}+1}{2} \\approx \\frac{2.646 + 1}{2} = 1.823 < 2$$\nThus $|z| \\le 2$ for all $z \\in S$, so Statement (B) is TRUE.\n\n$|z^2 + z + 1| = 1$ is a continuous curve (Cassini-like oval) in the complex plane, which has infinitely many points, not just four. So (D) is FALSE.\nHence, Options (B) and (C) are TRUE."
+        },
+        {
+          "id": "math_q10",
+          "type": "multi_correct",
+          "questionText": "Let $x, y$ and $z$ be positive real numbers. Suppose $x, y$ and $z$ are the lengths of the sides of a triangle opposite to its angles $X, Y$ and $Z$, respectively. If\n$$\\tan\\frac{X}{2} + \\tan\\frac{Z}{2} = \\frac{2y}{x+y+z},$$\nthen which of the following statements is/are TRUE?",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "$2Y = X + Z$",
+              "isCorrect": false
+            },
+            {
+              "id": "B",
+              "text": "$Y = X + Z$",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "$\\tan\\frac{X}{2} = \\frac{x}{y+z}$",
+              "isCorrect": true
+            },
+            {
+              "id": "D",
+              "text": "$x^2 + z^2 - y^2 = xz$",
+              "isCorrect": false
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "Let semi-perimeter $s = \\frac{x+y+z}{2}$. Then $\\frac{2y}{x+y+z} = \\frac{y}{s}$.\nUsing half-angle formulas:\n$$\\tan\\frac{X}{2} = \\sqrt{\\frac{(s-y)(s-z)}{s(s-x)}}, \\quad \\tan\\frac{Z}{2} = \\sqrt{\\frac{(s-x)(s-y)}{s(s-z)}}$$\n$$\\tan\\frac{X}{2} + \\tan\\frac{Z}{2} = \\sqrt{\\frac{s-y}{s}} \\left(\\sqrt{\\frac{s-z}{s-x}} + \\sqrt{\\frac{s-x}{s-z}}\\right) = \\sqrt{\\frac{s-y}{s}} \\left(\\frac{s-z + s-x}{\\sqrt{(s-x)(s-z)}}\\right)$$\nSince $(s-x) + (s-z) = 2s - (x+z) = y$:\n$$\\tan\\frac{X}{2} + \\tan\\frac{Z}{2} = \\frac{y\\sqrt{s-y}}{\\sqrt{s(s-x)(s-z)}} = \\frac{y}{s} \\sqrt{\\frac{s(s-y)}{(s-x)(s-z)}} = \\frac{y}{s} \\cot\\frac{Y}{2}$$\nGiven $\\tan\\frac{X}{2} + \\tan\\frac{Z}{2} = \\frac{y}{s}$:\n$$\\frac{y}{s} \\cot\\frac{Y}{2} = \\frac{y}{s} \\implies \\cot\\frac{Y}{2} = 1 \\implies \\frac{Y}{2} = 45^\\circ \\implies Y = 90^\\circ$$\nSince $Y = 90^\\circ$, in triangle $XYZ$, $X + Z = 90^\\circ = Y$.\nThus Statement (B) is TRUE.\n\nSince $Y = 90^\\circ$, the triangle is right-angled at $Y$, so $y^2 = x^2 + z^2$ (hypotenuse is $y$).\n$$\\tan\\frac{X}{2} = \\frac{\\sin X}{1 + \\cos X} = \\frac{x/y}{1 + z/y} = \\frac{x}{y + z}$$\nThus Statement (C) is TRUE.\nHence, Options (B) and (C) are TRUE."
+        },
+        {
+          "id": "math_q11",
+          "type": "multi_correct",
+          "questionText": "Let $L_1$ and $L_2$ be the following straight lines:\n$$L_1: \\frac{x-1}{1} = \\frac{y}{-1} = \\frac{z-1}{3} \\quad \\text{and} \\quad L_2: \\frac{x-1}{-3} = \\frac{y}{-1} = \\frac{z-1}{1}.$$\nSuppose the straight line\n$$L: \\frac{x-\\alpha}{l} = \\frac{y-1}{m} = \\frac{z-\\gamma}{-2}$$\nlies in the plane containing $L_1$ and $L_2$, and passes through the point of intersection of $L_1$ and $L_2$. If the line $L$ bisects the acute angle between the lines $L_1$ and $L_2$, then which of the following statements is/are TRUE?",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "$\\alpha - \\gamma = 3$",
+              "isCorrect": true
+            },
+            {
+              "id": "B",
+              "text": "$l + m = 2$",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "$\\alpha - \\gamma = 1$",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "$l + m = 0$",
+              "isCorrect": false
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "Direction vectors of lines $L_1$ and $L_2$:\n$$\\vec{b}_1 = \\hat{i} - \\hat{j} + 3\\hat{k}, \\quad |\\vec{b}_1| = \\sqrt{1 + 1 + 9} = \\sqrt{11}$$\n$$\\vec{b}_2 = -3\\hat{i} - \\hat{j} + \\hat{k}, \\quad |\\vec{b}_2| = \\sqrt{9 + 1 + 1} = \\sqrt{11}$$\nDot product:\n$$\\vec{b}_1 \\cdot \\vec{b}_2 = (1)(-3) + (-1)(-1) + (3)(1) = -3 + 1 + 3 = 1 > 0$$\nSince the dot product is positive, the acute angle bisector has direction along $\\vec{b}_1 + \\vec{b}_2$:\n$$\\vec{b} = \\vec{b}_1 + \\vec{b}_2 = -2\\hat{i} - 2\\hat{j} + 4\\hat{k}$$\nDirection ratios can be scaled by $-1/2$:\n$$\\langle l, m, n \\rangle = \\langle 1, 1, -2 \\rangle$$\nGiven line $L$ has $z$-component direction $-2$:\n$$l = 1, \\quad m = 1$$\nTherefore, $l + m = 1 + 1 = 2$, so (B) is TRUE.\n\nBoth lines $L_1$ and $L_2$ pass through the common point $(1, 0, 1)$, so their intersection point is $(1, 0, 1)$.\nLine $L$ must pass through $(1, 0, 1)$:\n$$\\frac{1 - \\alpha}{1} = \\frac{0 - 1}{1} = \\frac{1 - \\gamma}{-2}$$\n$$\\frac{1 - \\alpha}{1} = -1 \\implies 1 - \\alpha = -1 \\implies \\alpha = 2$$\n$$\\frac{1 - \\gamma}{-2} = -1 \\implies 1 - \\gamma = 2 \\implies \\gamma = -1$$\nThen:\n$$\\alpha - \\gamma = 2 - (-1) = 3$$\nSo Option (A) is TRUE.\nHence, Options (A) and (B) are TRUE."
+        },
+        {
+          "id": "math_q12",
+          "type": "multi_correct",
+          "questionText": "Which of the following inequalities is/are TRUE?",
+          "hasImage": false,
+          "options": [
+            {
+              "id": "A",
+              "text": "$\\int_0^1 x\\cos x\\,dx \\ge \\frac{3}{8}$",
+              "isCorrect": true
+            },
+            {
+              "id": "B",
+              "text": "$\\int_0^1 x\\sin x\\,dx \\ge \\frac{3}{10}$",
+              "isCorrect": true
+            },
+            {
+              "id": "C",
+              "text": "$\\int_0^1 x^2\\cos x\\,dx \\ge \\frac{1}{2}$",
+              "isCorrect": false
+            },
+            {
+              "id": "D",
+              "text": "$\\int_0^1 x^2\\sin x\\,dx \\ge \\frac{2}{9}$",
+              "isCorrect": true
+            }
+          ],
+          "marks": 4,
+          "negativeMarks": -2,
+          "partialMarks": [
+            3,
+            2,
+            1
+          ],
+          "explanation": "Using Taylor series approximations for $x \\in [0, 1]$:\n$$\\cos x \\ge 1 - \\frac{x^2}{2}, \\quad \\sin x \\ge x - \\frac{x^3}{6}$$\n\n- For (A):\n$$\\int_0^1 x\\cos x\\,dx \\ge \\int_0^1 x\\left(1 - \\frac{x^2}{2}\\right)dx = \\left[\\frac{x^2}{2} - \\frac{x^4}{8}\\right]_0^1 = \\frac{1}{2} - \\frac{1}{8} = \\frac{3}{8}$$\nThus (A) is TRUE.\n\n- For (B):\n$$\\int_0^1 x\\sin x\\,dx \\ge \\int_0^1 x\\left(x - \\frac{x^3}{6}\\right)dx = \\left[\\frac{x^3}{3} - \\frac{x^5}{30}\\right]_0^1 = \\frac{1}{3} - \\frac{1}{30} = \\frac{9}{30} = \\frac{3}{10}$$\nThus (B) is TRUE.\n\n- For (C):\n$$\\int_0^1 x^2\\cos x\\,dx \\le \\int_0^1 x^2 (1)\\,dx = \\frac{1}{3} < \\frac{1}{2}$$\nThus (C) is FALSE.\n\n- For (D):\n$$\\int_0^1 x^2\\sin x\\,dx \\ge \\int_0^1 x^2\\left(x - \\frac{x^3}{6}\\right)dx = \\left[\\frac{x^4}{4} - \\frac{x^6}{36}\\right]_0^1 = \\frac{1}{4} - \\frac{1}{36} = \\frac{8}{36} = \\frac{2}{9}$$\nThus (D) is TRUE.\nHence, Options (A), (B), and (D) are TRUE."
+        },
+        {
+          "id": "math_q13",
+          "type": "numerical",
+          "questionText": "Let $m$ be the minimum possible value of $\\log_3(3^{y_1} + 3^{y_2} + 3^{y_3})$, where $y_1, y_2, y_3$ are real numbers for which $y_1 + y_2 + y_3 = 9$. Let $M$ be the maximum possible value of $(\\log_3 x_1 + \\log_3 x_2 + \\log_3 x_3)$, where $x_1, x_2, x_3$ are positive real numbers for which $x_1 + x_2 + x_3 = 9$. Then the value of $\\log_2(m^3) + \\log_3(M^2)$ is _______.",
+          "hasImage": false,
+          "answer": "8",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "1. For $m$:\nBy AM-GM inequality:\n$$\\frac{3^{y_1} + 3^{y_2} + 3^{y_3}}{3} \\ge \\left(3^{y_1} \\cdot 3^{y_2} \\cdot 3^{y_3}\\right)^{1/3} = \\left(3^{y_1+y_2+y_3}\\right)^{1/3} = (3^9)^{1/3} = 3^3 = 27$$\n$$3^{y_1} + 3^{y_2} + 3^{y_3} \\ge 3 \\times 27 = 81 = 3^4$$\nEquality holds when $y_1 = y_2 = y_3 = 3$.\n$$m = \\log_3(81) = 4$$\n\n2. For $M$:\n$$\\log_3 x_1 + \\log_3 x_2 + \\log_3 x_3 = \\log_3(x_1 x_2 x_3)$$\nBy AM-GM inequality:\n$$\\left(x_1 x_2 x_3\\right)^{1/3} \\le \\frac{x_1 + x_2 + x_3}{3} = \\frac{9}{3} = 3 \\implies x_1 x_2 x_3 \\le 27 = 3^3$$\nEquality holds when $x_1 = x_2 = x_3 = 3$.\n$$M = \\log_3(27) = 3$$\n\n3. Value required:\n$$\\log_2(m^3) + \\log_3(M^2) = \\log_2(4^3) + \\log_3(3^2) = \\log_2(2^6) + \\log_3(3^2) = 6 + 2 = 8$$\nThus, the answer is $8$."
+        },
+        {
+          "id": "math_q14",
+          "type": "numerical",
+          "questionText": "Let $a_1, a_2, a_3, \\dots$ be a sequence of positive integers in arithmetic progression with common difference $2$. Also, let $b_1, b_2, b_3, \\dots$ be a sequence of positive integers in geometric progression with common ratio $2$. If $a_1 = b_1 = c$, then the number of all possible values of $c$, for which the equality\n$$2(a_1 + a_2 + \\dots + a_n) = b_1 + b_2 + \\dots + b_n$$\nholds for some positive integer $n$, is _______.",
+          "hasImage": false,
+          "answer": "1",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "We have:\n$$S_a = a_1 + a_2 + \\dots + a_n = \\frac{n}{2}[2c + (n-1)2] = n(c + n - 1)$$\n$$S_b = b_1 + b_2 + \\dots + b_n = c \\frac{2^n - 1}{2 - 1} = c(2^n - 1)$$\nThe given equation is:\n$$2 S_a = S_b \\implies 2n(c + n - 1) = c(2^n - 1)$$\n$$2nc + 2n(n-1) = c(2^n - 1)$$\n$$c(2^n - 1 - 2n) = 2n(n-1)$$\n$$c = \\frac{2n(n-1)}{2^n - 2n - 1}$$\nFor $c$ to be a positive integer, the denominator $2^n - 2n - 1$ must be positive:\n- For $n = 1$: denominator $= 2 - 2 - 1 = -1 < 0$.\n- For $n = 2$: denominator $= 4 - 4 - 1 = -1 < 0$.\n- For $n = 3$: denominator $= 8 - 6 - 1 = 1 > 0$:\n$$c = \\frac{2(3)(2)}{1} = 12$$\n- For $n = 4$: denominator $= 16 - 8 - 1 = 7$:\n$$c = \\frac{2(4)(3)}{7} = \\frac{24}{7} \\notin \\mathbb{Z}$$\n- For $n = 5$: denominator $= 32 - 10 - 1 = 21$:\n$$c = \\frac{2(5)(4)}{21} = \\frac{40}{21} \\notin \\mathbb{Z}$$\n- For $n = 6$: denominator $= 64 - 12 - 1 = 51$:\n$$c = \\frac{2(6)(5)}{51} = \\frac{60}{51} < 2$$\n- For $n \\ge 7$: $2^n - 2n - 1 > 2n(n-1)$, so $0 < c < 1$, which cannot be an integer.\nTherefore, the only positive integer solution is $n = 3, c = 12$.\nThus, there is only $1$ possible value of $c$."
+        },
+        {
+          "id": "math_q15",
+          "type": "numerical",
+          "questionText": "Let $f: [0, 2] \\to \\mathbb{R}$ be the function defined by\n$$f(x) = (3 - \\sin(2\\pi x))\\sin\\left(\\pi x - \\frac{\\pi}{4}\\right) - \\sin\\left(3\\pi x + \\frac{\\pi}{4}\\right).$$\nIf $\\alpha, \\beta \\in [0, 2]$ are such that $\\{x \\in [0, 2] : f(x) \\ge 0\\} = [\\alpha, \\beta]$, then the value of $\\beta - \\alpha$ is _______.",
+          "hasImage": false,
+          "answer": "1",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "Let $\\theta = \\pi x - \\frac{\\pi}{4}$. Then $2\\pi x = 2\\theta + \\frac{\\pi}{2}$ and $3\\pi x + \\frac{\\pi}{4} = 3\\theta + \\pi$.\n$$\\sin(2\\pi x) = \\sin\\left(2\\theta + \\frac{\\pi}{2}\\right) = \\cos(2\\theta)$$\n$$\\sin\\left(3\\pi x + \\frac{\\pi}{4}\\right) = \\sin(3\\theta + \\pi) = -\\sin(3\\theta)$$\nNow substitute into $f(x)$:\n$$f(x) = (3 - \\cos 2\\theta)\\sin\\theta - (-\\sin 3\\theta) = 3\\sin\\theta - \\sin\\theta\\cos 2\\theta + \\sin 3\\theta$$\nUsing $\\sin 3\\theta = 3\\sin\\theta - 4\\sin^3\\theta$ and $\\cos 2\\theta = 1 - 2\\sin^2\\theta$:\n$$f(x) = 3\\sin\\theta - \\sin\\theta(1 - 2\\sin^2\\theta) + (3\\sin\\theta - 4\\sin^3\\theta)$$\n$$= 3\\sin\\theta - \\sin\\theta + 2\\sin^3\\theta + 3\\sin\\theta - 4\\sin^3\\theta$$\n$$= 5\\sin\\theta - 2\\sin^3\\theta = \\sin\\theta(5 - 2\\sin^2\\theta)$$\nSince $5 - 2\\sin^2\\theta \\ge 3 > 0$ for all $\\theta$, the sign of $f(x)$ depends solely on $\\sin\\theta$:\n$$f(x) \\ge 0 \\iff \\sin\\theta \\ge 0$$\n$$\\sin\\left(\\pi x - \\frac{\\pi}{4}\\right) \\ge 0$$\nFor $x \\in [0, 2]$, $\\pi x - \\frac{\\pi}{4} \\in \\left[-\\frac{\\pi}{4}, \\frac{7\\pi}{4}\\right]$:\n$$\\sin\\left(\\pi x - \\frac{\\pi}{4}\\right) \\ge 0 \\iff 0 \\le \\pi x - \\frac{\\pi}{4} \\le \\pi$$\n$$\\frac{\\pi}{4} \\le \\pi x \\le \\frac{5\\pi}{4} \\implies \\frac{1}{4} \\le x \\le \\frac{5}{4}$$\nThus $[\\alpha, \\beta] = \\left[\\frac{1}{4}, \\frac{5}{4}\\right]$.\n$$\\beta - \\alpha = \\frac{5}{4} - \\frac{1}{4} = 1$$\nThus, the answer is $1$."
+        },
+        {
+          "id": "math_q16",
+          "type": "numerical",
+          "questionText": "In a triangle $PQR$, let $\\vec{a} = \\vec{QR}$, $\\vec{b} = \\vec{RP}$ and $\\vec{c} = \\vec{PQ}$. If $|\\vec{a}| = 3$, $|\\vec{b}| = 4$ and\n$$\\frac{\\vec{a}\\cdot(\\vec{c}-\\vec{b})}{\\vec{c}\\cdot(\\vec{a}-\\vec{b})} = \\frac{|\\vec{a}|}{|\\vec{a}| + |\\vec{b}|},$$\nthen the value of $|\\vec{a}\\times \\vec{b}|^2$ is _______.",
+          "hasImage": false,
+          "answer": "108",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "In $\\triangle PQR$:\n$$\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0} \\implies \\vec{c} = -(\\vec{a} + \\vec{b})$$\nNumerator:\n$$\\vec{a}\\cdot(\\vec{c} - \\vec{b}) = \\vec{a}\\cdot(-\\vec{a} - 2\\vec{b}) = -|\\vec{a}|^2 - 2\\vec{a}\\cdot\\vec{b} = -9 - 2\\vec{a}\\cdot\\vec{b}$$\nDenominator:\n$$\\vec{c}\\cdot(\\vec{a} - \\vec{b}) = -(\\vec{a} + \\vec{b})\\cdot(\\vec{a} - \\vec{b}) = -(|\\vec{a}|^2 - |\\vec{b}|^2) = |\\vec{b}|^2 - |\\vec{a}|^2 = 16 - 9 = 7$$\nGiven ratio:\n$$\\frac{-9 - 2\\vec{a}\\cdot\\vec{b}}{7} = \\frac{3}{3 + 4} = \\frac{3}{7}$$\n$$-9 - 2\\vec{a}\\cdot\\vec{b} = 3 \\implies -2\\vec{a}\\cdot\\vec{b} = 12 \\implies \\vec{a}\\cdot\\vec{b} = -6$$\nNow compute $|\\vec{a}\\times\\vec{b}|^2$ using Lagrange's identity:\n$$|\\vec{a}\\times\\vec{b}|^2 = |\\vec{a}|^2 |\\vec{b}|^2 - (\\vec{a}\\cdot\\vec{b})^2 = (3^2)(4^2) - (-6)^2 = 9 \\times 16 - 36 = 144 - 36 = 108$$\nThus, the answer is $108$."
+        },
+        {
+          "id": "math_q17",
+          "type": "numerical",
+          "questionText": "For a polynomial $g(x)$ with real coefficients, let $m_g$ denote the number of distinct real roots of $g(x)$. Suppose $S$ is the set of polynomials with real coefficients defined by\n$$S = \\{(x^2 - 1)^2(a_0 + a_1 x + a_2 x^2 + a_3 x^3) : a_0, a_1, a_2, a_3 \\in \\mathbb{R}\\}.$$\nFor a polynomial $f$, let $f'$ and $f''$ denote its first and second order derivatives, respectively. Then the minimum possible value of $(m_{f'} + m_{f''})$, where $f \\in S$, is _______.",
+          "hasImage": false,
+          "answer": "5",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "Let $f(x) = (x^2 - 1)^2 P(x) = (x - 1)^2 (x + 1)^2 P(x)$, where $P(x) = a_0 + a_1 x + a_2 x^2 + a_3 x^3$.\nSince $x = 1$ and $x = -1$ are roots of multiplicity at least 2 of $f(x)$, by differentiation:\n- $x = 1$ is a root of $f'(x)$.\n- $x = -1$ is a root of $f'(x)$.\nAlso, since $f(1) = 0$ and $f(-1) = 0$, by Rolle's Theorem, there is at least one root $c \\in (-1, 1)$ such that $f'(c) = 0$.\nSince $1, -1,$ and $c$ are distinct, $f'(x)$ has at least 3 distinct real roots:\n$$m_{f'} \\ge 3$$\nNow consider $f''(x)$:\nBetween the roots $-1$ and $c$ of $f'(x)$, by Rolle's Theorem, there is at least one root of $f''(x)$ in $(-1, c)$.\nBetween $c$ and $1$, there is at least one root of $f''(x)$ in $(c, 1)$.\nThus $f''(x)$ has at least 2 distinct real roots:\n$$m_{f''} \\ge 2$$\nTherefore, $(m_{f'} + m_{f''}) \\ge 3 + 2 = 5$.\nChoosing $P(x) = 1$ (degree 0, so $a_1 = a_2 = a_3 = 0, a_0 = 1$):\n$$f(x) = (x^2 - 1)^2 = x^4 - 2x^2 + 1$$\n$$f'(x) = 4x(x^2 - 1) = 4x(x - 1)(x + 1) \\implies \\text{roots: } -1, 0, 1 \\implies m_{f'} = 3$$\n$$f''(x) = 12x^2 - 4 = 4(3x^2 - 1) \\implies \\text{roots: } \\pm\\frac{1}{\\sqrt{3}} \\implies m_{f''} = 2$$\n$$m_{f'} + m_{f''} = 3 + 2 = 5$$\nThus, the minimum possible value is $5$."
+        },
+        {
+          "id": "math_q18",
+          "type": "numerical",
+          "questionText": "Let $e$ denote the base of the natural logarithm. The value of the real number $a$ for which the right hand limit\n$$\\lim_{x \\to 0^+} \\frac{(1-x)^{1/x} - e^{-1}}{x^a}$$\nis equal to a nonzero real number, is _______.",
+          "hasImage": false,
+          "answer": "1",
+          "marks": 4,
+          "negativeMarks": 0,
+          "explanation": "Consider $y = (1-x)^{1/x}$ as $x \\to 0^+$:\n$$\\ln y = \\frac{\\ln(1-x)}{x} = \\frac{-x - \\frac{x^2}{2} - \\frac{x^3}{3} - \\dots}{x} = -1 - \\frac{x}{2} - \\frac{x^2}{3} - \\dots$$\n$$y = e^{\\ln y} = e^{-1} e^{-\\frac{x}{2} - \\frac{x^2}{3} - \\dots}$$\nUsing the Taylor expansion $e^u = 1 + u + \\frac{u^2}{2} + \\dots$ for $u = -\\frac{x}{2} - \\frac{x^2}{3} - \\dots$:\n$$y = e^{-1}\\left(1 - \\frac{x}{2} + O(x^2)\\right) = e^{-1} - \\frac{e^{-1}}{2}x + O(x^2)$$\nTherefore:\n$$(1-x)^{1/x} - e^{-1} = -\\frac{e^{-1}}{2}x + O(x^2)$$\nDividing by $x^a$:\n$$\\lim_{x \\to 0^+} \\frac{(1-x)^{1/x} - e^{-1}}{x^a} = \\lim_{x \\to 0^+} \\left(-\\frac{e^{-1}}{2} x^{1-a} + O(x^{2-a})\\right)$$\nFor this limit to be a finite, nonzero real number, we must have:\n$$1 - a = 0 \\implies a = 1$$\nWhen $a = 1$, the limit is $-\\frac{e^{-1}}{2} = -\\frac{1}{2e} \\neq 0$.\nThus, the value of $a$ is $1$."
+        }
+      ]
+    }
+  ]
+}
