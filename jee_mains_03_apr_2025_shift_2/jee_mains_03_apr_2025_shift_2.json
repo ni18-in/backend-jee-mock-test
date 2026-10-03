@@ -1,0 +1,2081 @@
+{
+  "examTitle": "JEE Main 2025 Session-2 - 3 April Shift 2",
+  "examDate": "03 April 2025",
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "id": "physics",
+      "name": "Physics",
+      "subsections": [
+        {
+          "id": "physics_sec_a",
+          "name": "Section-A (Single Correct)",
+          "questions": [
+            {
+              "id": "q1",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "A magnetic dipole experiences a torque of\n80\n N m\n3–\n√\nwhen placed in uniform magnetic\nfield in such a way that dipole moment makes\nangle of \n with magnetic field. The potential\n60°\nenergy of the dipole is :\n80 J\n−40\n J\n3–\n√\n−60 J\n−80 J",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "(B)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q2",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "In the resonance experiment, two air columns\n(closed at one end) of \n cm and \n cm long,\n100\n120\n15\ngive \n beats per second when each one is\nsounding in the respective fundamental modes.\nThe velocity of sound in the air column is :",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "335 m/s\n370 m/s\n340 m/s\n360 m/s",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q3",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Two cylindrical vessels of equal cross sectional\n2 m2\n10\narea of \n contain water upto height \n m\nand 6 m , respectively. If the vessels are\nconnected at their bottom then the work done\nby the force of gravity is :\nkg /\n103\nm3\n(Density of water is \n and\ng = 10 m/s2\n)\n1 ×\n J\n105",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "4 ×\n J\n104",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "6 ×\n J\n104",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "8 ×\n J\n104",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q4",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Width of one of the two slits in a Young's double\nslit interference experiment is half of the other\nslit. The ratio of the maximum to the minimum\nintensity in the interference pattern is :\n(2\n+ 1) : (2\n2–\n√\n2–\n√\n(3 + 2\n)\n2–\n√",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": ": (3 −2\n)\n2–\n√\n9 : 1\n3 : 1\n−1)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (B)."
+            },
+            {
+              "id": "q5",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "An ideal gas exists in a state with pressure \n,\nP0\nV0\nvolume \n.It is isothermally expanded to 4 times\nof its initial volume \n, then isobarically\n(\n)\nV0\ncompressed to its original volume. Finally the\nsystem is heated isochorically to bring it to its\ninitial state. The amount of heat exchanged in\nthis process is :",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(2 ln 2 −0. 75)\nP0 V0",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2",
+                  "text": "(ln 2 −0. 75)\nP0 V0",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(ln 2 −0. 25)\nP0 V0",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(2 ln 2 −0. 25)\nP0V0",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (A)."
+            },
+            {
+              "id": "q6",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Two monochromatic light beams have intensities\nin the ratio 1:9. An interference pattern is\nobtained  by these beams. The ratio of the\nintensities of  maximum to minimum is",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "8 : 1\n9 : 1\n3 : 1\n4 : 1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q7",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Given below are two statements : one is labelled\nas  Assertion A and the other is labelled as\nReason R.\nAssertion A : The Bohr model is applicable to\nhydrogen and hydrogen-like atoms only.\nReason R : The formulation of Bohr model does\nnot include repulsive force between electrons.\nIn the light of the above statements, choose the\ncorrect answer from the options given below :",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "Both A and R are true but R is NOT the\ncorrect  explanation of A.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "A is false but R is true.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "Both A and R are true and R is the correct\nexplanation of A.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "4",
+                  "text": "A is true but R is false.",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (C)."
+            },
+            {
+              "id": "q8",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Using a battery, a \n pF capacitor is charged to\n100\n60  V and then the battery is removed. After\nthat, a  second uncharged capacitor is connected\nto the  first capacitor in parallel. If the final\nvoltage across  the second capacitor is 20 V, its\ncapacitance is :   (in pF)",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "600\n200\n400\n100",
+                  "isCorrect": true
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (B)."
+            },
+            {
+              "id": "q9",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "1080\n1134\n1026\n1188\n, \n, is:",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2",
+                  "text": "(B)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "∫π\n8xdx\n4\nx+\nx\ncos2\nsin2\n2π2\n4π2",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (A)."
+            },
+            {
+              "id": "q10",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": true,
+              "imageName": "img/phys_q10.png",
+              "type": "single_correct",
+              "questionText": "Consider two blocks A and B of masses\nand \n that are placed\n= 10  kg\nm1\n= 5  kg\nm2\non a frictionless table. The block A moves with a\nconstant speed \n towards the block B\nv = 3 m/s\nkept at rest. A spring with spring constant\nis attached with the block B as\nk = 3000 N/m\nshown in the figure. After the collision, suppose\nthat the blocks A and B, along with the spring in\nconstant compression state, move together, then\nthe compression in the spring is, (Neglect the\nmass of the spring)",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "0. 2 m\n0. 4 m\n0. 1 m\n0. 3 m",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (C)."
+            },
+            {
+              "id": "q11",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "A particle is projected with velocity u so that its\nhorizontal range is three times the maximum\nheight attained by it. The horizontal range of the\nnu2\nprojectile is given as \n, where value of n  is :\n25g\n(Given ' g ' is the acceleration due to gravity).",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "6\n18\n12\n24",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q12",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "A solid steel ball of diameter \nmm acquired\n3. 6 \n2. 45 ×\n m/s\n10−2\nterminal velocity \n while falling\nunder gravity through an oil of density\n925  kg  m−3\n. Take density of steel as\n7825  kg  m−3\n9. 8 m/s2\nand g as \n . The\nviscosity of the oil in SI unit is",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "2. 18\n2. 38\n1. 68\n1. 99",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q13",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": true,
+              "imageName": "img/phys_q13.png",
+              "type": "single_correct",
+              "questionText": "The truth table corresponding to the circuit given\nbelow is",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "(B)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (B)."
+            },
+            {
+              "id": "q14",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "A particle moves along the x-axis and has its\ndisplacement x varying with time t  according to\nthe equation\n2\nx =\n(\n−2) + c(t −2\nc0 t2\n)\nwhere \n and c are constants of appropriate\nc0\ndimensions. Then, which of the following\nstatements is correct?",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "the acceleration of the particle is\n2c0\n2c",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "the acceleration of the particle is",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "the initial velocity of the particle is\n4c",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "the acceleration of the particle is\n2 (c +\n)\nc0",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q15",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "An electric bulb rated as 100 W-220 V is\nconnected to an ac source of rms voltage 220 V.\nThe peak value of current through  the bulb is :",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2",
+                  "text": "0. 64 A\n0. 45 A\n2. 2 A\n0. 32A",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (A)."
+            },
+            {
+              "id": "q16",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": true,
+              "imageName": "img/phys_q16.png",
+              "type": "single_correct",
+              "questionText": "Match the LIST-I with LIST-II\nChoose the correct answer from the options\ngiven  below :",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "A-III, B-IV, C-I, D-II",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2",
+                  "text": "A-II, B-III, C-IV, D-I",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "A-III, B-II, C-I, D-IV",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "A-III, B-IV, C-II, D-I",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (A)."
+            },
+            {
+              "id": "q17",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Pressure of an ideal gas, contained in a closed\nvessel, is increased by 0.4% when heated by 1°C.\nIts initial temperature must be :",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "25°C",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "2500 K",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "250 K",
+                  "isCorrect": true
+                },
+                {
+                  "id": "4",
+                  "text": "250°C",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (C)."
+            },
+            {
+              "id": "q18",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "A motor operating on 100 V draws a current of   1\nA. If the efficiency of the motor is 91.6%, then\nthe loss of power in units of cal/s is",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "4\n8. 4\n2\n6. 2",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (C)."
+            },
+            {
+              "id": "q19",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "A block of mass   kg , moving along x with\n1\n= 10 m/s\nvi\nspeed \n enters a rough region\nranging from \n to \n. The\nx = 0. 1 m\nx = 1. 9 m\nretarding force acting on the block in this range is\n, with \n. Then the final\n= −kxN\nFr\nk = 10 N/m\nspeed of the block as it crosses rough region is",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "10 m/s\n4 m/s\n6 m/s\n8 m/s",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q20",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Given below are two statements: one is labelled\nas Assertion A and the other is labelled as\nReason R.\n(\n)\nO−2\nAssertion A : If oxygen ion \n and\n(\n)\nH+\nHydrogen ion \nenter normal to the magnetic\nfield with equal momentum, then the path of\nO−2\nH+\nion has a smaller curvature than that of \n.\nReason R:A proton with same linear momentum\nas an electron will form a path of smaller radius\nof curvature on entering a uniform magnetic field\nperpendicularly.\nIn the light of the above statement, choose the\ncorrect answer from the options given below",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "A is true but R is false",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2",
+                  "text": "Both A and R are true but R is NOT the\ncorrect  explanation of A",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "A is false but R is true",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "Both A and R are true and R is the correct\nexplanation of A",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (A)."
+            }
+          ]
+        },
+        {
+          "id": "physics_sec_b",
+          "name": "Section-B (Numerical)",
+          "questions": [
+            {
+              "id": "q21",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "numerical",
+              "questionText": "4",
+              "answer": 4.0,
+              "explanation": "Correct answer is 4."
+            },
+            {
+              "id": "q22",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "numerical",
+              "questionText": "8",
+              "answer": 8.0,
+              "explanation": "Correct answer is 8."
+            },
+            {
+              "id": "q23",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "numerical",
+              "questionText": "4",
+              "answer": 4.0,
+              "explanation": "Correct answer is 4."
+            },
+            {
+              "id": "q24",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "numerical",
+              "questionText": "2",
+              "answer": 2.0,
+              "explanation": "Correct answer is 2."
+            },
+            {
+              "id": "q25",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "numerical",
+              "questionText": "15\nQ26   (B)\nQ27   (B)\nQ28   (D)\nQ29   (B)\nQ30   (D)\nQ31   (D)\nQ32   (B)\nQ33   (B)\nQ34   (A)\nQ35   (D)\nQ36   (A)\nQ37   (C)\nQ38   (B)\nQ39   (B)\nQ40   (C)\nQ41   (C)\nQ42   (C)\nQ43   (A)\nQ44   (A)\nQ45   (C)",
+              "answer": 15.0,
+              "explanation": "Correct answer is 15."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "subsections": [
+        {
+          "id": "chemistry_sec_a",
+          "name": "Section-A (Single Correct)",
+          "questions": [
+            {
+              "id": "q26",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": true,
+              "imageName": "img/chem_q26.png",
+              "type": "single_correct",
+              "questionText": "mL of a mixture of \n and\n40\nCOOH\nCH3\nHCl\n 0. 1 \nM  NaOH\n(aqueous solution) is titrated against\nsolution conductometrically. Which of\nthe following statement is correct?",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "The concentration of \n in the\nCOOH\nCH3\n0. 005 M\noriginal mixture is",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "The concentration of HCl in the original\nmixture is\n0. 005 M\nCOOH\nCH3",
+                  "isCorrect": true
+                },
+                {
+                  "id": "3",
+                  "text": "is neutralised first followed by\nneutralisation of\nHCl",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "Point ' C ' indicates the complete\nneutralisation\nHCl",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (B)."
+            },
+            {
+              "id": "q27",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "10 mL of 2 M NaOH solution is added to 20 mL\nof 1 M HCl solution kept in a beaker. Now, 10 mL\nof this mixture is poured into a volumetric flask\nof 100 mL containing 2 moles of HCl and made\nthe volume upto the mark with distilled water.\nThe solution in this flask is :",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "0.2 M NaCl solution",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "20 M HCl solution",
+                  "isCorrect": true
+                },
+                {
+                  "id": "3",
+                  "text": "10 M HCl solution",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "Neutral solution",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (B)."
+            },
+            {
+              "id": "q28",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Fat soluble vitamins are :\nA. Vitamin\nB1\nB. Vitamin C\nC. Vitamin E\nD. Vitamin\nB12\nE. Vitamin K\nChoose the correct answer from the options\ngiven below:",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "C and D Only",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "A and B only",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "B and C only",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "C and E only",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q29",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": true,
+              "imageName": "img/chem_q29.png",
+              "type": "single_correct",
+              "questionText": "Match the LIST-I with LIST-II.\nChoose the correct answer from the options\ngiven  below :",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "A-IV, B-I, C-II, D-III",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "A-IV, B-III, C-I, D-II",
+                  "isCorrect": true
+                },
+                {
+                  "id": "3",
+                  "text": "A-III, B-I, C-IV, D-II",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "A-II, B-III, C-IV, D-I",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (B)."
+            },
+            {
+              "id": "q30",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "For electron in ' 2 s ' and ' 2 p ' orbitals, the\norbital angular momentum values, respectively\nare :\n2–\n√\n h\n2π\n0\nh\n2π\n2–\n√\n h\n2π\n0\n6–\n√\n h\n2π\n0\n2–\n√\nh\n2π",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "and",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "and",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "and",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "and",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q31",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Compounds that should not be used as primary\nstandards in titrimetric analysis are\nA.\nNa2 Cr2 O7\nB. Oxalic acid\nC.\nNaOH\nD.\n⋅6\nO\nFeSO4\nH2\nE. Sodium tetraborate\nChoose the most appropriate answer from the\noptions given below:",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "B and D Only",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "D and E Only",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "C, D and E Only",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "A, C and D Only",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q32",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": true,
+              "imageName": "img/chem_q32.png",
+              "type": "single_correct",
+              "questionText": "The major product (P) in the following reaction is\n:",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "(B)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (B)."
+            },
+            {
+              "id": "q33",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": true,
+              "imageName": "img/chem_q33.png",
+              "type": "single_correct",
+              "questionText": "In the following series of reactions identify the\nmajor products A & B respectively.",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "(B)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (B)."
+            },
+            {
+              "id": "q34",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "The standard cell potential \n of a fuel cell\ncell\nbased on the oxidation of methanol in air that\nhas been used to power television relay station is\nmeasured as \n . The standard half cell\n1. 21 V\n(\n)\nO2\nEO\nreduction potential for \n is\n/\nO\nO2 H2\n 1. 229 V\n.Choose the correct statement:",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "The standard half cell reduction potential for\n(\n)\nCO2\nEo\nthe reduction of \n is\n/\nOH\nCO2\nCH3\n19\nmV",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2",
+                  "text": "Oxygen is formed at the anode.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "Reactants are fed at one go to each\nelectrode.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "Reduction of methanol takes place at the\ncathode.",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (A)."
+            },
+            {
+              "id": "q35",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Identify the diamagnetic octahedral complex\nions from below\n3−\nA.\n[Mn(CN\n]\n)6\n3+\nB.\n[Co\n]\n(\n)\nNH3 6\n4−\nC.\n[Fe(CN\n]\n)6\nD.\n[Co\n]\n(\nO)\nH2\n3 F3\nChoose the correct answer from the options\ngiven below :",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "B and D Only",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "A and D Only",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "A and C Only",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "B and C Only",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q36",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "In Dumas’ method for estimation of nitrogen\nof an organic compound gave \n of\n0. 4 g\n60  mL\n300 K\n715  mm\nnitrogen  collected at \n temperature and\nHg  pressure. The percentage\ncomposition of nitrogen  in the compound is\n(Given : Aqueous tension at\n)\n300 K  =  15  mm   Hg",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2",
+                  "text": "15. 71%\n20. 95%\n17. 46%\n7. 85%",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (A)."
+            },
+            {
+              "id": "q37",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Mass of magnesium required to produce\nof hydrogen gas at STP on reaction\n220  mL\nwith excess of dil. HCl is\n24 g  mol−1\nGiven : Molar mass of Mg is \n.",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "235. 7 g\n0. 24  mg\n236  mg\n2. 444 g",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (C)."
+            },
+            {
+              "id": "q38",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Given below are two statements :\nStatement I : Wet cotton clothes made of\ncellulose based carbohydrate takes\ncomparatively longer time to get dried than wet\nnylon polymer based clothes.\nStatement II : Intermolecular hydrogen bonding\nwith water molecule is more in nylon-based\nclothes than in the case of cotton clothes.\nIn the light of above statements, choose the\nCorrect answer from the options given below",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "Statement I is false but Statement II is true",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "Statement I is true but Statement II is false",
+                  "isCorrect": true
+                },
+                {
+                  "id": "3",
+                  "text": "Both Statement I and Statement II are true",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "Both Statement I and Statement II are false",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (B)."
+            },
+            {
+              "id": "q39",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Given below are two statements :\nStatement I : \n is a stronger oxidizing agent\nCrO3\nMoO3\nthan\nStatement II : \nis more stable than\nCr(VI)\nMo(VI)\nIn the light of the above statements, choose the\ncorrect answer from the options given below",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "Statement I is false but Statement II is true",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "Statement I is true but Statement II is false",
+                  "isCorrect": true
+                },
+                {
+                  "id": "3",
+                  "text": "Both Statement I and Statement II are true",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "Both Statement I and Statement II are false",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (B)."
+            },
+            {
+              "id": "q40",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Given below are two statements :\nStatement I : Hyperconjugation is not a\npermanent effect.\nStatement II : In general, greater the number of\nalkyl groups attached to a positively charged C -\natom, greater is the hyperconjugation interaction\nand stabilization of the cation.\nIn the light of the above statements, choose the\ncorrect answer from the options given below",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "Statement I is true but Statement II is false",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "Both Statement I and Statement II are false",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "Statement I is false but Statement II is true",
+                  "isCorrect": true
+                },
+                {
+                  "id": "4",
+                  "text": "Both Statement I and Statement II are true",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (C)."
+            },
+            {
+              "id": "q41",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Given below are two statements :\nStatement I : When a system containing ice in\nequilibrium with water (liquid) is heated, heat is\nabsorbed by the system and there is no change\nin the temperature of the system until whole ice\ngets melted.\nStatement II : At melting point of ice, there is\nabsorption of heat in order to overcome\nintermolecular forces of attraction within the\nmolecules of water in ice and kinetic energy of\nmolecules is not increased at melting point.\nIn the light of the above statements, choose the\ncorrect answer from the options given below:",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "Statement I is true but Statement II is false",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "Both Statement I and Statement II are false",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "Both Statement I and Statement II are true",
+                  "isCorrect": true
+                },
+                {
+                  "id": "4",
+                  "text": "Statement I is false but Statement II is true",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (C)."
+            },
+            {
+              "id": "q42",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": true,
+              "imageName": "img/chem_q42.png",
+              "type": "single_correct",
+              "questionText": "The sequence from the following that would\nresult in giving predominantly 3, 4, 5 –\nTribromoaniline is",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "(B)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (C)."
+            },
+            {
+              "id": "q43",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "The correct orders among the following are\nAtomic radius :\nB < Al < Ga < In < Tl\nElectronegativity :\nAl < Ga < In < Tl < B\nTl < In < Ga < Al < B\nDensity :\n1st Ionisation Energy :\nIn < Al < Ga < Tl < B\nChoose the correct answer from the options\ngiven below :",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "B and D Only",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2",
+                  "text": "A and C Only",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "C and D Only",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "A and B Only",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (A)."
+            },
+            {
+              "id": "q44",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": true,
+              "imageName": "img/chem_q44.png",
+              "type": "single_correct",
+              "questionText": "What is the correct IUPAC name of",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "3-Bromo-2-hydroxy-5-nitrobenzoic acid",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2",
+                  "text": "3-Bromo-4-hydroxy-1-nitrobenzoic acid",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "2-Hydroxy-3-bromo-5-nitrobenzoic acid",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "5-Nitro-3-bromo-2-hydroxybenzoic acid",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (A)."
+            },
+            {
+              "id": "q45",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Consider the following statements related to\ntemperature dependence of rate constants.\nIdentify the correct statements,\nA. The Arrhenius equation holds true only for an\nelementary homogenous reaction.\nB.  The unit of A is same as that of k in Arrhenius\nequation.\nC.  At a given temperature, a low activation\nenergy  means a fast reaction.\nD.  A and Ea as used in Arrhenius equation\ndepend  on temperature.\nE.  When Ea >> RT. A and Ea become\ninterdependent.\nChoose the correct answer from the options\ngiven  below :",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "A, C and D Only",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "B, D and E Only",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "B and C Only",
+                  "isCorrect": true
+                },
+                {
+                  "id": "4",
+                  "text": "A and B Only",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (C)."
+            }
+          ]
+        },
+        {
+          "id": "chemistry_sec_b",
+          "name": "Section-B (Numerical)",
+          "questions": [
+            {
+              "id": "q46",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "numerical",
+              "questionText": "3",
+              "answer": 3.0,
+              "explanation": "Correct answer is 3."
+            },
+            {
+              "id": "q47",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": true,
+              "imageName": "img/chem_q47.png",
+              "type": "numerical",
+              "questionText": "304",
+              "answer": 304.0,
+              "explanation": "Correct answer is 304."
+            },
+            {
+              "id": "q48",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "numerical",
+              "questionText": "2500",
+              "answer": 2500.0,
+              "explanation": "Correct answer is 2500."
+            },
+            {
+              "id": "q49",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "numerical",
+              "questionText": "4",
+              "answer": 4.0,
+              "explanation": "Correct answer is 4."
+            },
+            {
+              "id": "q50",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "numerical",
+              "questionText": "8\nQ51  \n(B)\nQ52   (A)\nQ53   (D)\nQ54   (D)\nQ55   (A)\nQ56   (A)\nQ57   (A)\nQ58   (B)\nQ59   (A)\nQ60   (A)",
+              "answer": 8.0,
+              "explanation": "Correct answer is 8."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "subsections": [
+        {
+          "id": "mathematics_sec_a",
+          "name": "Section-A (Single Correct)",
+          "questions": [
+            {
+              "id": "q51",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Let \n be a function defined by\nf : R →R\nf(x) = ∥x + 2| −2|x∥\n m \nn\nf\nm  +  n\n5\n3\n2\n4\n. If \nis the number of\npoints of local minima and is the number of\npoints of local maxima of , then \n is",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "(B)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (B)."
+            },
+            {
+              "id": "q52",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Each of the angles   and   that a given line\nβ\nγ\ny−\nz−\nmakes with the positive \n and \naxes,\nrespectively, is half of the angle that this line\nmakes with the positive \naxes. Then the sum of\nx−\nall possible values of the angle   is\nβ\n3π",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2",
+                  "text": "4\nπ\nπ\n3π",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "2\n2",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (A)."
+            },
+            {
+              "id": "q53",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "If the four distinct points\n(4, 6),  (−1, 5),  (0, 0)\n(k,  3k)\nr \n10k + r2\nand \n lie on a circle of radius \n, then\nis equal to",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "32\n33\n34\n35",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q54",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Let the Mean and Variance of five observations\nand\n= 1,\n= 3,\n= a,\n= 7\nx1\nx2\nx3\nx4\n= b, a > b\nx5\n5\n10\n, be   and \n respectively. Then\nthe Variance of the observations\nis\nn +\n, n = 1, 2, … … . . 5\nxn\n17\n16. 4\n17. 4\n16",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "(B)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q55",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Consider the lines\n,   being a\nx(3λ + 1) + y(7λ + 2) = 17λ + 5 λ\nparameter, all passing through a point \n. One\nP \nL\n L \n(3, 6)\nd\nd2\nof these lines (say \n) is farthest from the origin. If\nthe distance of \nfrom the point\n is , then\nthe value of \n is",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2",
+                  "text": "20\n30\n10\n15",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (A)."
+            },
+            {
+              "id": "q56",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Let \n. let R be a relation\nA = {−2, −1, 0, 1, 2, 3}\non A defined by \n if and only if\nxRy\ny = max{x, 1}\nl\nR\nm\nn\n. Let   be the number of\nelements in \n. Let \n and \nbe the minimum\nnumber of elements required to be added in\nR\nto make it reflexive and symmetric relations,\nrespectively. Then \n is equal to\nl + m + n",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "12",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2",
+                  "text": "11",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "13",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "14",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (A)."
+            },
+            {
+              "id": "q57",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "let the equation \n have\nx(x + 2)(12 −k) = 2\nequal roots. Then the distance of the point\n(k,\n)\nk\nfrom the line \n is\n2\n3x + 4y + 5 = 0\n15\n5\n3–\n√\n15\n5–\n√\n12",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2",
+                  "text": "(B)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "1\n2",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (A)."
+            },
+            {
+              "id": "q58",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Line \n of slope   and line \n of slope\nL1\n2\nL2\nintersect at the origin O . In the first quadrant,\nare 12 points on line \n and\n,\n, … .\nP1 P2\nP12\nL1\n,\n, … . .\nQ1 Q2",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "(B)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (B)."
+            },
+            {
+              "id": "q59",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "The integral \n is equal to\n0",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2",
+                  "text": "π2\n3π2",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "2\nf(x) + 3f (\n)\n24",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (A)."
+            },
+            {
+              "id": "q60",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Let f be a function such that\nx\n= 4x, x ≠0\nf(3) + f(8)\n. Then \n is equal to",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "11",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2",
+                  "text": "10",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "12",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "13",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (A)."
+            },
+            {
+              "id": "q61",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "The area of the region\n{(x, y) : |x −y| ≤y ≤4\n}\nx−\n√\n512\n1024\nis",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "3\n512\n2048",
+                  "isCorrect": true
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "3\n3",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (B)."
+            },
+            {
+              "id": "q62",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "If the domain of the function\nf(x) =\n(1 −\n(\n−9x + 18))\nlog7\nlog4 x2\nis\n, then \n is equal to\n(α, β) ∪(γ, δ)\nα + β + γ + δ",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "18",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2",
+                  "text": "16",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "15",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "17",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (A)."
+            },
+            {
+              "id": "q63",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "If the probability that the random variable X\ntakes the value x is given by\nP(X = x) = k(x + 1)3−x\n,\n, where k is a constant, then\nx = 0, 1, 2, 3 … . .\nP (X ≥3)\nis equal to\n4\n9\n8\n27\n7\n27",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "1\n9",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q64",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Let \n be the solution of the differential\ny = y(x)\n+ 3 (\nx)y + 3y =\nx\ndy\ndx\ntan2\nsec2\nequation \n,\ny(0) =\n+\n1\n3\ne3\ny ( )\nπ\n. Then \n is equal to\n4\n2\n3\n4\n3\n+\n4\n3\ne3\n+\n2\n3\ne3",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "(B)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (B)."
+            },
+            {
+              "id": "q65",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "If \n are the vertices of an\n,\n,\n∈C\nz1 z2 z3\nequilateral triangle, whose centroid is \n, then\nz0\n∑3\n2\nis equal to\nk=1 (\n−\n)\nzk\nz0",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2",
+                  "text": "0\n1\ni\n−i",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (A)."
+            },
+            {
+              "id": "q66",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "The number of solutions of equation\n(4 −\n) sin x\n3–\n√\n−2\nx = −\n, x ∈[−2π,\n]\n3–\n√cos2\n4\n1+\n3\n√\n\n5π\nis\n2",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "4",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "3",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "6",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "5",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q67",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "Let C be the circle of minimum area enclosing the\ny2\nE :\n+\n= 1\nx2\n1\n2\n(±2, 0)\nellipse \n with eccentricity \n and\nb2\na2\nfoci \n. Let PQR be a variable triangle,\nwhose vertex P is on the circle C and the side QR\nof length \n is parallel to the major axis of E and\n29\ncontains the point of intersection of E with the\nnegative y-axis. Then the maximum area of the\ntriangle PQR is :\n6(3 +\n)\n2–\n√\n8(3 +\n)\n2–\n√\n6 (2 +\n)\n3–\n√\n8 (2 +\n)\n3–\n√",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "(B)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q68",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "The shortest distance between the curves\n= 8x\ny2\n+\n+ 12y + 35 = 0\nx2\ny2\nand \nis :\n2\n−1\n3–\n√\n2–\n√\n3\n−1\n2–\n√\n2\n−1\n2–\n√",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "(A)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "(B)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "(C)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "(D)",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            },
+            {
+              "id": "q69",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "The distance of the point \n from the\n(7, 10, 11)\n=\n=\nx−4\ny−4\nz−2\nline \n along the line\n3\n=\n=\nx−9\n1\n0\ny−13\nz−17\nis\n2\n3\n6",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "18",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "14",
+                  "isCorrect": true
+                },
+                {
+                  "id": "3",
+                  "text": "12",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "16\n1 +\n+\n+\n+ …\n1+3\n1+3+5\n1+3+5+7",
+                  "isCorrect": false
+                }
+              ],
+              "explanation": "Correct option is (B)."
+            },
+            {
+              "id": "q70",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "single_correct",
+              "questionText": "The sum\n4!\n∞\n2!\n3!\nupto \n terms, is equal to",
+              "options": [
+                {
+                  "id": "1",
+                  "text": "6e",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2",
+                  "text": "4e",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3",
+                  "text": "3e",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4",
+                  "text": "2e",
+                  "isCorrect": true
+                }
+              ],
+              "explanation": "Correct option is (D)."
+            }
+          ]
+        },
+        {
+          "id": "mathematics_sec_b",
+          "name": "Section-B (Numerical)",
+          "questions": [
+            {
+              "id": "q71",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "numerical",
+              "questionText": "Let   be the identity matrix of order \n and\nI\n3 × 3\n2\n5\n−1\n3\n6\n2\nA =\n,   |A| = −1\n⎡\n⎤\nλ\n⎣\n⎢\n⎦\n⎥\nfor the matrix \n.\n4\n7\nLet B be the inverse of the matrix\nadj (A adj (\n)\nA2\n|(λB + I)|\n). Then \n is equal to\n______",
+              "answer": 38.0,
+              "explanation": "Correct answer is 38."
+            },
+            {
+              "id": "q72",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "numerical",
+              "questionText": "Let\n=\n+\nx +\n+ … .\n(1 + x +\n)\nx2 10\na0\na1\na2x2\n. If\n+a20x20\n,\n(\n+\n+\n+ … . +\n) −11\n= 121k\na1\na3\na5\na19\na2\nthen k is equal to _______.\n1",
+              "answer": 239.0,
+              "explanation": "Correct answer is 239."
+            },
+            {
+              "id": "q73",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "numerical",
+              "questionText": "If \n, then \n is\n= p\nLimx→0 (\n)\ntan x\nx2\n96\np\nloge\nx\nequal to ̱______\n=\n+ 2 + ,\n= 3 −3 + 3\na→\niˆ\njˆ\nkˆ b",
+              "answer": 32.0,
+              "explanation": "Correct answer is 32."
+            },
+            {
+              "id": "q74",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "numerical",
+              "questionText": "Let \n,\niˆ\njˆ\nkˆ\n= 2 −\n+ 2\nc→\niˆ\njˆ\nkˆ\nd\n→\nand \n be a vector such\n×\n=\n×\nb→\nd→\nc→\nd→\n⋅\n= 4\na→\nd→\nthat \n and \n. Then\n2\n(\n×\n)\n∣\n∣∣\na→\nd\n→∣\nis equal to _______.\n∣∣",
+              "answer": 128.0,
+              "explanation": "Correct answer is 128."
+            },
+            {
+              "id": "q75",
+              "marks": 4,
+              "negativeMarks": -1,
+              "hasImage": false,
+              "type": "numerical",
+              "questionText": "If the equation of the hyperbola with foci\n(4, 2)\n(8, 2)\n3\n−\n−αx + βy + γ = 0\nx2\ny2\nand \n is \n,\nthen \n is equal to _________ .\nα + β + γ\n\n\nAnswer Key\nQ1  \n(D)\nQ2  \n(D)\nQ3  \n(D)\nQ4  \n(B)\nQ5  \n(A)\nQ6  \n(D)\nQ7  \n(C)\nQ8  \n(B)\nQ9  \n(A)\nQ10   (C)\nQ11  \n(D)\nQ12   (D)\nQ13   (B)\nQ14   (D)\nQ15   (A)\nQ16   (A)\nQ17  \n(C)\nQ18   (C)\nQ19   (D)\nQ20   (A)",
+              "answer": 141.0,
+              "explanation": "Correct answer is 141."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

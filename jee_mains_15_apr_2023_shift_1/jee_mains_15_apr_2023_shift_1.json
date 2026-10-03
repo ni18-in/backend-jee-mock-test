@@ -1,0 +1,2230 @@
+{
+    "examTitle": "JEE Main 2023 Phase-2 - 15 April Morning Shift",
+    "examDate": "15 April 2023",
+    "durationMinutes": 180,
+    "sections": [
+        {
+            "id": "math",
+            "name": "Mathematics",
+            "subsections": [
+                {
+                    "id": "math_sec_a",
+                    "name": "Section-A (Single Correct)",
+                    "questions": [
+                        {
+                            "id": "math_q1",
+                            "type": "single_correct",
+                            "questionText": "Let S be the set of all (\\lambda, \\mu) for which the vectors ˆ ˆ ˆ ˆ ˆ ˆ , 2 i j k i j k \\lambda- + + + \\mu and ˆ ˆ ˆ 3 4 5 , i j k - + where \\lambda - \\mu = 5, are coplanar, then ( ) ( ) 2 2 , 80 S \\lambda\\mu\\in \\lambda+ \\mu \\sum is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "2210",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "2130",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "2290",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "2370",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": " 1 1 1 2 0 3 5 4 \\lambda - \\mu = - \\implies \\lambda[10 + 4\\mu] + 1 [5 - 3\\mu] + 1 [-10] = 0 \\implies 4\\lambda\\mu + 10\\lambda - 3\\mu = 5 ...(i) And \\lambda - \\mu = 5 So, by (1) 4(5 + \\mu)\\mu + 10(5 + \\mu) - 3\\mu = 5 \\implies 4\\mu2 + 27\\mu + 45 = 0 \\implies 4\\mu2 + 15\\mu + 12\\mu + 45 = 0 \\implies (4\\mu + 15) - (\\mu + 3) = 0 \\therefore 15 3, 4 - \\mu= - 5 2, 4 \\lambda= \\therefore ( ) ( ) 2 2 225 25 80 80 9 4 16 16 s \\lambda\\mu\\in [ ] \\lambda+ \\mu = + + + [ ] [ ] \\sum 125 80 13 10 229 8 [ ] = + = \\times [ ] [ ] = 2290",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q2",
+                            "type": "single_correct",
+                            "questionText": "Let the determinant of a square matrix A of order m be m - n, where m and n satisfy 4m + n = 22 and 17m + 4n = 93. If det(n adj(adj (mA))) = 3a5b6c, then a + b + c is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "84",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "96",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "101",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "109",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "|A| = m - n, where 4m + n = 22 ...(i) and 17m + 4n = 93 ...(ii) Solving (i) and (ii) m = 5, n = 2 Order = 5 |A| = 3 \\therefore det (n adj (adj(mA))) = |2adj (adj (5A))| = 25 |5A|16 = 25 580 |A|16 = 25· 316· 580 = 311 580 65 So, a + b + c = 96",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q3",
+                            "type": "single_correct",
+                            "questionText": "If (\\alpha, \\beta) is the orthocenter of the triangle ABC with vertices A(3, -7), B(-1, 2) and C(4, 5), then 9\\alpha - 6\\beta + 60 is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "25",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "35",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "30",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "40",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "( ) 5 : 7 3 3 AD y x - + = - \\implies 3y + 21 = -5x + 15 5x + 3y + 6 = 0 ...(i) BE : ( ) 1 2 1 12 y x - - = + \\implies 12y - 24 = -x - 1 \\implies x = 23 - 12y by (ii) 115 - 60y + 3y + 6 = 0 57y = 121 121 121 , 23 12 57 57 y x = = - \\times \\therefore 9\\alpha - 6\\beta + 60 = 9 × 23 - 121 121 108 6 60 57 57 \\times - \\times + = 207 - 242 + 60 = 25",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q4",
+                            "type": "single_correct",
+                            "questionText": "Let ABCD be a quadrilateral. If E and F are the mid points of the diagonals AC and BD respectively and ( ) ( ) - - AB BC AD DC k FE + = , then k is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "4",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "-2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "-4",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "Let position vector of A, B, C and D are , , and a b c d respectively \\therefore Position vector of 2 2 OC OA c a E + + = = Position vector of 2 b d F + = Now, ( ) AB BC AD DC - + - ( ) ( ) b a c b d a c d \\implies - - - + - - - 2 2 2 2 b a c d \\implies - - + ( ) ( ) 2 2 b d a c \\implies + - + 4 4 2 2 b d a c OF OE [ ] + + [ ] \\implies - = - [ ] [ ] [ ] [ ] 4 4 EF FE \\implies = - \\therefore k = -4",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q5",
+                            "type": "single_correct",
+                            "questionText": "Let the foot of perpendicular of the point P(3, -2, -9) on the plane passing through the points (-1, -2, -3), (9, 3, 4), (9, -2, 1) be Q(\\alpha, \\beta, ). Then the distance Q from the origin is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "42",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "38",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "35",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "29",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "10 4 AC i k = + 10 5 7 AB i j k = + + 10 0 4 10 5 7 i j k AC AB \\times = = -20i - 30j + 50k Equation of plane 2x + 3y - 5z = d Put (-1, -2, -3) -2 - 6 + 15 = d d = 7 \\therefore 2x + 3y - 5z = 7 Foot of ⊥r 3 2 9 38 2 3 5 38 x y z - + + ( ) = = = -( ) - ( ) x = 1, y = -5, z = -4 Q(1, -5, -4) Distance from origin 1 25 16 = + + 42 =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q6",
+                            "type": "single_correct",
+                            "questionText": "The number of common tangents, to the circles x2 + y2 - 18x -15y + 131 = 0 and x2 + y2 - 6x - 6y - 7 = 0, is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "3",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "1",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "4",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "2",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "2 2 18 15 131 0 x y x y + - - + = 1 1 15 225 5 9, , 81 131 2 4 2 C r ( ) = + - = ( ) ( ) 2 2 6 6 7 0 x y x y + - - - = 2 2 (3, 3), 9 9 7 5 C r = + + = 2 2 1 2 15 81 15 (9 3) 3 36 2 4 2 d C C ( ) = = - + - = + = ( ) ( ) 1 2 5 15 5 2 2 r r + = + = 1 2 1 2 C C r r \\implies = + \\therefore Circles touch each other externally, 3 common tangents. A B D C A(-1, -2, -3) B(9, 3, 4) C(9, -2, 1)",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q7",
+                            "type": "single_correct",
+                            "questionText": "The total number of three-digit numbers, divisible by 3, which can be formed using the digits 1, 3, 5, 8, if repetition of digits is allowed, is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "21",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "20",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "22",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "18",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Sum of digits 3 : (1, 1, 1) Sum of digits 9 : (1, 3, 5) or (3, 3, 3) Sum of digits 12 : (1, 3, 8) Sum of digits 15 : (5, 5, 5) Sum of digits 18 : (5, 5, 8) Sum of digits 21 : (5, 8, 8) Sum of digits 24 : (8, 8, 8) Possible numbers are 3! 3! 1 3! 1 3! 1 1 2! 2! = + + + + + + + = 22",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q8",
+                            "type": "single_correct",
+                            "questionText": "If the set : , Re Re 2 3 5 3 z z zz z z z z is equal to the interval (\\alpha, \\beta], then 24(\\beta - \\alpha) is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "36",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "27",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "30",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "42",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Re 2 3 5 z z zz z z ( ) - + ( ) ( ) - + ( ) ( ) ( ) ( ) 2 2 Re 2 3 5 x iy x iy x y x iy x iy ( ) + - - + + ( ) ( ) - + + - ( ) ( ) 2 2 2 Re 2 2 8 x y i y x iy ( ) + + ( ) ( ) + - ( ) ( ) ( ) ( ) ( ) ( ) ( ) 2 2 2 2 2 2 1 8 Re 2 1 8 x y yi x iy x y ( ) + + + + ( ) ( ) ( ) + + ( ) ( )( ) ( ) ( ) 2 2 2 2 2 2 1 16 4 1 8 x y x y x y + + - = + + Put x = 3 ( ) 2 2 2 8 9 16 64 64 y y y + - = + ( ) ( ) 2 2 9 1 8 1 y f y y - = + Range of f(y) = (- 0.125, 1.125] \\alpha = - 0.125 \\beta = 1.125 \\beta - \\alpha = 1.25 24(\\beta - \\alpha) = 30",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q9",
+                            "type": "single_correct",
+                            "questionText": "Let ( ) 20 10 2 10 , , , i i i a bx cx p x a b c = + + = \\in \\sum . If p1 = 20 and p2 = 210, then 2(a + b + c) is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "6",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "15",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "12",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "8",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "General term : ( ) ( ) ( ) 3 1 2 2 1 2 3 10! ! ! ! r r r a bx cx r r r For coeff. of x : r2 + 2r3 = 1 1 2 3 9 1 0 r r r \\therefore coff of 9 1 10! 20 9! x a b = = \\implies a9 \\cdot b = 2 ...(i) Coff of x2 : 8 2 9 10! 10! 210 8!2!0! 9!0!1! a b a c \\cdot + \\cdot \\cdot = \\implies 45a8 \\cdot b2 + 10 \\cdot a9 \\cdot c = 210 \\implies 9a8b2 + 2a9 \\cdot c = 42 as a, b, c \\in N \\therefore a = 1, b = 2, c = 3 2(a + b + c) = 2(3 + 2 + 1) = 12",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q10",
+                            "type": "single_correct",
+                            "questionText": "The number of real roots of the equation 5 2 6 0, x x x is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "5",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "4",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "6",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "3",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "x|x| - 5|x + 2| + 6 = 0 Case-I : x < -2 -x2 + 5(x + 2) + 6 = 0 \\implies x2 - 5x - 16 = 0 \\implies 5 25 64 2 x \\therefore 5 89 2 x is accepted Case-II : -2 \\le x < 0 -x2 - 5(x + 2) + 6 = 0 \\implies x2 + 5x + 4 = 0 \\implies (x + 1) (x + 4) = 0 x = -1 is accepted Case-III : x \\ge 0 x2 - 5(x + 2) + 6 = 0 \\implies x2 - 5x - 4 = 0 5 25 16 2 x 5 41 2 5 41 2 x is accepted \\therefore 3 real roots are possible. Option (4) is correct.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q11",
+                            "type": "single_correct",
+                            "questionText": "Let A1 and A2 be two arithmetic means and G1, G2 and G3 be three geometric means of two distinct positive numbers. Then 4 4 4 2 2 1 2 3 1 3 G G G G G is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(A1 + A2)2 G1G3",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "2(A1 + A2) G1G3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "( ) 2 2 1 2 1 3 A A G G +",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "( ) 2 2 1 2 1 3 2 A A G G +",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Let the two numbers are a, b. 1 2 3 3 b a a b A a 2 2 2 3 3 b a a b A a 1 4 1 b G a a ( ) = ( ) ( ) 2 4 2 b G a a ( ) = ( ) ( ) 3 4 3 b G a a ( ) = ( ) ( ) ( ) ( ) ( ) ( ) ( ) 4 2 4 4 2 1 2 3 1 3 G G G G G + + + \\cdot \\implies 2 3 2 4 4 4 4 2 3 2 b b b b a a a a a a a a \\cdot + \\cdot + \\cdot + \\cdot = ba3 + b2a2 + b3a + a2b2 = ab(a2 + b2 + 2ab) = ab(a + b)2 ( ) ( ) 2 2 1 3 1 3 A A G G a b ab + \\cdot = + \\cdot \\therefore Option (1) is correct.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q12",
+                            "type": "single_correct",
+                            "questionText": "Let [x] denote the greatest integer function and ( ) [] [] { } max 1 , 2 , 2 f x x x x x x = + + + + , 0 \\le x \\le 2. Let m be the number of points in [0, 2], where f is not continuous and n be the number of points in (0, 2), where f is not differentiable. Then (m + n)2 + 2 is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "11",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "6",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "3",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "( ) { } { } { } max 1, 2, 0 1 max 2, 2, 2 1 2 max 5, 4, 6 2 x x x x f x x x x x x  + + \\le <  = + + + \\le <   =  \\implies ( ) 2 0 1 2 1 2 6 2 x x f x x x x + \\le <   = + \\le <   =  \\implies ( ) 2 0 2 6 2 x x f x x + \\le <  =  =  f is not continuous at x = 2 f is differentiable in (0, 2) \\therefore m = 1, n = 0 (m + n)2 + 2 = 1 + 2 = 3. Option (4) is correct",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q13",
+                            "type": "single_correct",
+                            "questionText": "Let S be the set of all values of \\lambda, for which the shortest distance between the lines 3 6 0 4 1 x y z and 6 3 4 0 x y z is 13. Then 8 S is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "306",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "304",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "308",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "302",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "- - 3 6 0 4 1 x y z \\lambda + = = - 6 3 -4 0 x y z + \\lambda= = ( ) ( ) 2 1 1 2 1 2 - 13 a a n n d n n \\cdot \\times = = \\times 1 2 ˆ ˆ ˆ 0 4 1 3 -4 0 i j k n n \\times = ˆ ˆ ˆ 4 3 - 12 i j k = + ( ) ( ) ˆ ˆ ˆ ˆ ˆ ˆ 2 3 -12 4 3 -12 8 16 9 144 i j k i j k \\cdot \\lambda+ + = + + 104 8 9 144 = \\lambda+ + 104 8 153 = \\lambda+ 8\\lambda = ±104 - 153 -49 -257 , 8 8 \\lambda= 49 257 8 8 306 8 8 s \\lambda\\in [ ] \\lambda= = + [ ] [ ] \\sum",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q14",
+                            "type": "single_correct",
+                            "questionText": "Negation of ( ) ( ) p q p q \\land \\land  \\land is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "( ) ( ) p q p  \\land \\lor",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "p q \\lor",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "( ) p q  \\lor",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "( ) ( ) p q q  \\land \\land",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "( ) ( )) p q p q [ ] \\land \\land \\land [ ] ( ) ( ) p q p q [ ] \\land \\land \\lor [ ] ( ) ( ) ( ) p q p q q [ ] \\land \\lor \\land \\land [ ] ( ) p q p \\land [ ] \\land [ ] ( ) p q p \\lor \\land ( ) p q p \\lor \\lor ( ) p p p q \\lor \\land",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q15",
+                            "type": "single_correct",
+                            "questionText": "Let the system of linear equations - x + 2y - 9z = 7 - x + 3y + 7z = 9 - 2x + y + 5z = 8 - 3x + y + 13z = \\lambda has a unique solution x = \\alpha, y = \\beta, z = . Then the distance of the point (\\alpha, \\beta, ) from the plane 2x - 2y + z = \\lambda is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "11",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "7",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "9",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "13",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "-x + 2y - 9z = 7 ...(i) -x + 3y + 7z = 9 ...(ii) -2x + y + 5z = 8 ...(iii) -3x + y + 13z = \\lambda ...(iv) From (i), (ii), (iii) x = -3, y = 2, z = 0 Substitute in (iv) 3 × 3 + 2 = \\lambda \\lambda= 11 Point: (-3, 2, 0) Plane: 2x - 2y + z = 11 2 2 -6 - 4 -11 21 7 3 2 2 1 d = = = + +",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q16",
+                            "type": "single_correct",
+                            "questionText": "A bag contains 6 white and 4 black balls. A die is rolled once and the number of balls equal to the number obtained on the die are drawn from the bag at random. The probability that all the balls drawn are white is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "1 4",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "11 50",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "1 5",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "9 50",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Bag have 6 white and 4 black balls Probability all drawn balls are white 6 6 6 6 6 6 3 5 6 1 2 4 10 10 10 10 10 10 1 2 3 4 5 6 1 6 C C C C C C C C C C C C [ ] = + + + + + [ ] [ ] [ ] 504 1 2520 5 = =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q17",
+                            "type": "single_correct",
+                            "questionText": "If ( )( ) 1 0 2 (2 4 ) 1 1 1 log 5 2 2 1 - ( ) \\alpha+ = ( ) \\alpha \\beta ( ) + - + \\int e x dx x x e , \\alpha, \\beta > 0, then \\alpha4 - \\beta4 is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "19",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "-21",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "0",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "21",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "( ) 1 1 4 0 2 2 1 1 2 5 1 2 x I dx x x e ( ) - - ( ) ( ) = ( ) ( )( ) - - + ( )( ) ( )( ) \\int 1 1 2 4 0 2 1 1 2 11 1 1 4 2 x dx x e ( ) - - ( ) ( ) = ( ) ( ) ( ) ( ) ( ) ( ) - - + ( ) ( ) ( )( ) ( ) ( ) ( )( ) \\int Let 1 , 2 x t dx dt - = = ( ) 1 2 2 1 2 4 2 1 1 2 11 1 2 t dt t e - - = ( ) ( ) ( ) - + ( ) ( ) ( ) ( ) ( ) \\int ( ) ( ) 1 2 2 2 0 2 4 2 4 1 1 1 2 11 11 1 1 2 2 t t t e t e - = + ( ) ( ) ( ) ( ) ( ) ( ) - + - + ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) \\int 1 2 1 2 2 0 2 0 11 1 1 1 1 2 ln 2 2 11 11 11 2 2 2 2 t dt t t ] + ] ] = = \\times ( ) ] ( ) - ( ) ] - ( ) ( ) ( ) ] ( ) ( ) \\int ( ) 2 11 1 1 11 1 1 ln ln 10 2 11 11 1 2 11 ( ) + ( ) + ( ) = = ( ) ( ) ( ) - ( ) ( ) ( ) 1 11 1 ln 11 10 ( ) + = ( ) ( ) ( ) \\implies 4 4 11, 10 21 \\alpha= \\beta= \\implies \\alpha-\\beta =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q18",
+                            "type": "single_correct",
+                            "questionText": "If the domain of the function ( ) 2 1 ( ) log 4 11 6 sin (4 3) - = + + + + e f x x x x + 1 10 6 cos 3 - + ( ) ( ) ( ) x is (\\alpha, \\beta], then 36 \\alpha+ \\betais equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "54",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "72",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "63",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "45",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "( )( ) 2 4 11 6 0 4 3 2 0 x x x x + + > \\implies + + > \\implies ( ) 3 , 2 , 4 x - [ ) \\in -\\infty -  \\infty ) [[ ) ...(i) 1 4 3 1 4 4 2 x x -\\le + \\le \\implies - \\le \\le - 1 1 2 x -\\le \\le - ...(ii) 10 6 1 1 3 10 6 3 3 x x + -\\le \\le \\implies - \\le + \\le \\implies 9 10 3 x - \\le \\le - 9 3 10 10 x - - \\le \\le ...(iii) (i), (ii), (iii) \\implies 3 1 4 2 x - - < \\le 3 1 , 4 2 - - \\alpha= \\beta= 5 36 36 45 4 \\alpha+ \\beta= \\times =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q19",
+                            "type": "single_correct",
+                            "questionText": "Let x = x(y) be the solution of the differential equation ( ) ( ) 2 2 log 2 ( 4 2log ( 2)) 0, e e y y dx x y dy + + + + - + = y > -1 with ( ) 4 2 1 - = x e . Then ( ) 9 2 - x e is equal to",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "4 9",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "32 9",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "10 3",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Let x + 4 = u, y + 2 = v dx = du, dy = dv (2v lnv)du = -(u - 2 lnv)dv 2 ln 2ln du v v u v dv + = 1 1 2 ln du u dv v v v + \\cdot = IF ( ) ( ) 1 1 1 1 ln ln 2 ln 2 2 ln v v v e e v \\int = = = ( ) ( ) 1 1 2 2 1 ln ln u v v dv v \\cdot = \\cdot \\int ( ) ( ) 1 3 2 2 2 ln ln 3 u v v c \\cdot = + ...(i) y = e4 - 2 \\implies x = 1 \\therefore v = e4 \\implies u = 5 ( ) 1 3 2 2 2 5 4 4 3 c ( ) ( ) \\cdot = \\cdot + ( ) ( ) 16 10 3 c = + 14 3 c = y = e9 - 2 \\implies v = y + 2 = e9 (i) \\implies 2 14 14 3 27 18 3 3 3 u \\cdot = \\times + = + 14 4 6 9 x u + = = + 14 32 2 9 9 x = + =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q20",
+                            "type": "single_correct",
+                            "questionText": "The mean and standard deviation of 10 observations are 20 and 8 respectively. Later on, it was observed that one observation was recorded as 50 instead of 40. Then the correct variance is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "11",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "13",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "12",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "14",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "1 2 9 ... 50 20 10 x x x + + + + = x1 + x2 + ...+x9 = 150 2 2 2 1 2 9 ... 2500 64 400 10 x x x + + + + = - 2 2 2 1 2 9 ... 2140 x x x + + + = New mean 150 40 19 10 + = = New  ( )2 2140 1600 19 10 + = -  = 13 SECTION - B This section contains 10 questions. In Section B, attempt any five questions out of 10. The answer to each question is a NUMERICAL VALUE. For each question, enter the correct numerical value (in decimal notation, truncated/rounded-off to the second decimal place; e.g., 06.25, 07.00, -00.33, -00.30, 30.27, -27.30) using the mouse and the on-screen virtual numeric keypad in the place designated to enter the answer.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "math_sec_b",
+                    "name": "Section-B (Numerical Value)",
+                    "questions": [
+                        {
+                            "id": "math_q21",
+                            "type": "numerical",
+                            "questionText": "Let ( ) 2 2 2 ( ) , . 3 3 4 4 - 3 dx f x x x x = < + \\int If f(0) = 0 and ( ) -1 1 1 tan , f ( ) \\alpha = ( ) \\alpha\\beta \\beta ( ) \\alpha, \\beta > 0, then \\alpha2 + \\beta2 is equal to _______.",
+                            "hasImage": false,
+                            "answer": 28,
+                            "explanation": "2 2 ( ) (3 4 ) 4 3 dx f x x x = + - \\int Put 2 1 1 , x dx dt t t = = - 2 2 2 ( ) 4 3 3 4 dt f x t t t - = ( ) + - ( ) ( ) \\int 2 2 (3 4) 4 3 t dt t t - = + - \\int 2 2 4 3 8 2 t t dt d - = \\lambda \\implies = \\lambda \\lambda 2 ( ) 3 4 · 3 4 · 4 d f x \\lambda \\lambda = - ( ) ( ) \\lambda+ + \\lambda ( ) ( ) ( ) ( ) ( ) ( ) \\int 2 2 2 1 25 3 3 9 16 3 25 3 d d d \\lambda \\lambda \\lambda = - = - = - \\lambda+ + \\lambda+ \\lambda+ \\int \\int \\int -1 1 3 3 tan 3 5 5 c ( ) \\lambda = - \\times + ( ) ( ) ( ) 2 1 3 (4 3 ) 3 ( ) tan 15 5 x f x c x -( ) - ( ) = - + ( ) ( ) 3 (0) 0 30 f c \\pi = \\implies = + 1 3 3 3 (1) tan 15 5 15 2 f -( ) - \\pi = + \\times ( ) ( ) ( ) -1 -1 -1 3 3 3 5 1 5 cot tan tan 15 5 15 3 5 3 3 ( ) ( ) ( ) = = = ( ) ( ) ( ) ( ) ( ) ( ) ( ) \\implies 2 2 28 \\alpha+ \\beta=",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q22",
+                            "type": "numerical",
+                            "questionText": "Let an ellipse with center (1, 0) and latus rectum of length 1 2 have its major axis along x-axis. If its minor axis subtends an angle 60º at the foci, then the square of the sum of the lengths of its minor and major axes is equal to _______.",
+                            "hasImage": false,
+                            "answer": 9,
+                            "explanation": "2 2 1, tan30 2 b b a ae = = 2 2 2 2 2 2 2 2 2 1 , 3 4 3 4 a b a b a b b b a b = = \\implies - = \\implies = - \\implies 2 1 1 1, 4 2 a b b = = \\implies = \\implies (2a + 2b)2 = 9",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q23",
+                            "type": "numerical",
+                            "questionText": "A person forgets his 4-digit ATM pin code. But he remembers that in the code all the digits are different, the greatest digit is 7 and the sum of the first two digits is equal to the sum of the last two digits. Then the maximum number of trials necessary to obtain the correct code is________.",
+                            "hasImage": false,
+                            "answer": 72,
+                            "explanation": "abcd a + b = c + d 0, 1, 2, 3, 4, 5, 6, 7 Let a + b = c + d = \\lambda There must be 7 \\implies a + b = c + d = \\lambda \\ge 7 \\lambda= 7, (a, b)/(c, d) \\rightarrow (0, 7)/(1, 6) or (2, 5)(3, 4) \\rightarrow 24 numbers \\lambda= 8, (a, b)/(c, d) \\rightarrow (1, 7)/(2, 6) or (3, 5) \\rightarrow 16 numbers \\lambda= 9, (a, b)/(c, d) \\rightarrow (2, 7)/(3, 6) or (4, 5) \\rightarrow 16 numbers \\lambda= 10, (a, b)/(c, d) \\rightarrow (3, 7)/(4, 6) \\rightarrow 8 numbers \\lambda= 11, (a, b)/(c, d) \\rightarrow (4, 7)/(5, 6) \\rightarrow 8 numbers \\lambda= 12, (a, b)/(c, d) \\rightarrow (5, 7) Not possible \\lambda= 13, (a, b)/(c, d) \\rightarrow (6, 7) Not possible \\lambda= 14, (a, b)/(c, d) \\rightarrow (7, 7) Not possible \\implies Total numbers = 72",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q24",
+                            "type": "numerical",
+                            "questionText": "The number of elements in the set {n \\in \\infty : 10 \\le n \\le 100 and 3n - 3 is a multiple of 7} is _______.",
+                            "hasImage": false,
+                            "answer": 15,
+                            "explanation": "3 3 7 n k - = 3 3(mod 7) \\equiv 2 3 2(mod 7) \\equiv 3 3 -1(mod 7) \\equiv 6 3 1(mod 7) \\equiv 7 3 3 (mod 7) \\equiv 13 3 3 (mod 7) \\equiv n can be 13, 19, 25, ... 97 Total 15 such n exist",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q25",
+                            "type": "numerical",
+                            "questionText": "Let A = {1, 2, 3, 4} and R be a relation on the set A × A defined by R = {((a, b), (c, d)) : 2a + 3b = 4c + 5d}. Then the number of elements in R is _______.",
+                            "hasImage": false,
+                            "answer": 6,
+                            "explanation": "2a + 3b = 4c + 5d Maximum value of 2a + 3b = 20 at (4, 4) Minimum value of 4c + 5d = 9 at (1, 1) So, 4c + 5d can be equal to 9, 13, 14, 17, 18, 19 2a + 3b can be 9 \\implies (a, b) = (3, 1) (c, d) = (1, 1) 2a + 3b can be 13 \\implies (a, b) = (2, 3) (c, d) = (2, 1) 2a + 3b can be 14 \\implies (a, b) = (4, 2) OR (1, 4) (c, d) = (1, 2) 2a + 3b can be 17 \\implies (a, b) = (4, 3) (c, d) = (3, 1) 2a + 3b can be 18 \\implies (a, b) = (3, 4) (c, d) = (2, 2)",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q26",
+                            "type": "numerical",
+                            "questionText": "Consider the triangles with vertices A(2, 1), B(0, 0) and C(t, 4), [0,4] \\in t . If the maximum and the minimum perimeters of such triangles are obtained at t = \\alpha and t = \\beta respectively, then 6\\alpha + 21\\beta is equal to ___________.",
+                            "hasImage": false,
+                            "answer": 48,
+                            "explanation": "To minimize CA + CB, take image of B in y = 4 B = (0, 8) AB y - 8 = 7 ( 0) 2 x - - when y = 4 7 4 ( ) 2 x - - = 8 8 7 7 x = \\implies \\beta= Maximization will be possible if \\alpha = 0 or 4 When compared \\alpha = 4 6 21 48 \\alpha+ \\beta=",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q27",
+                            "type": "numerical",
+                            "questionText": "If the area bounded by the curve 2y2 = 3x, lines x + y = 3, y = 0 and outside the circle (x - 3)2 + y2 = 2 is A, then 4(\\pi + 4A) is equal to __________.",
+                            "hasImage": false,
+                            "answer": 42,
+                            "explanation": "( ) 2 2 3/2 0 2 1 (3 ) 2 3 8 y A y dy ( ) = - - -\\pi \\cdot ( ) ( ) \\int = 36 9 6 21 8 4 8 4 - - \\pi \\pi - = -",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q28",
+                            "type": "numerical",
+                            "questionText": "If the line x = y = z intersects the line xsinA + ysinB + zsinC - 18 = 0 = xsin2A + ysin2B + zsin2C - 9, where A, B, C are the angles of a triangle ABC, then 80 sin sin sin 2 2 2 ( ) ( ) ( ) A B C is equal to __________.",
+                            "hasImage": false,
+                            "answer": 5,
+                            "explanation": "x = y = z = k (let) \\therefore (sin sin sin ) 18 k A B C + + = \\implies 4cos cos cos 18 2 2 2 A B C k ( ) \\cdot \\cdot = ( ) ( ) ...(i) (sin2 sin2 sin2 ) 9 k A B C + + = \\implies (4sin sin sin ) 9 k A B C \\cdot \\cdot = ...(ii) (ii)/(i) 9 8sin sin sin 2 2 2 18 A B C \\cdot \\cdot = \\implies 80sin sin sin 5 2 2 2 A B C \\cdot \\cdot =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q29",
+                            "type": "numerical",
+                            "questionText": "If the sum of the series 2 2 3 2 2 3 1 1 1 1 1 1 1 1 1 - - - - 2 3 2 3 2 3 2 2 3 2 3 3 ( ) ( ) ( )+ + + + + ( ) ( ) ( ) \\cdot ( ) \\cdot \\cdot ( ) ( ) 4 3 2 2 3 4 1 1 1 1 1 - - .... 2 2 3 2 3 2 3 3 ( ) + + + ( ) \\cdot \\cdot \\cdot ( ) is \\alpha \\beta, where \\alpha and \\beta are co-prime, then \\alpha + 3\\beta is equal to _________.",
+                            "hasImage": false,
+                            "answer": 7,
+                            "explanation": "Let 1 1 , 2 3 a b = = Given: (a - b) + (a2 - ab + b2) + (a3 - a2b + ab2 - b3) +... \\implies ( ) ( ) ( ) ( ) 2 2 3 3 4 4 1 ... a b a b a b a b - + + + - + + \\implies ( ) ( ) 2 3 4 2 3 4 1 .... .... a a a b b b a b ( ) + + - - + ( ) + ( ) 2 2 1 1 1 a b a b a b ( ) ( ) = - ( ) ( )( ) + - + ( )( ) 1 1 1 9 4 1 1 1 1 1 1 2 3 2 3 ( ) ( ) = - ( ) ( ) + - + ( ) ( ) 6 1 1 5 2 12 ( ) = - ( ) ( ) 6 5 1 5 12 2 \\alpha ( ) = = = ( ) \\beta ( ) \\alpha + 3\\beta = 1 + 6 = 7",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q30",
+                            "type": "numerical",
+                            "questionText": "Let the plane P contain the line 2x + y - z - 3 = 0 = 5x - 3y + 4z + 9 and be parallel to the line 2 3 - - 7 2 -4 5 + = = x y z . Then the distance of the point A(8, - 1, - 19) from the plane P measured parallel to the line - 5 2 - -3 4 -12 = = x y z is equal to ___________.",
+                            "hasImage": false,
+                            "answer": 26,
+                            "explanation": "Plane containing the line 2x + y - 3 - 3 = 0 = 5x - 3y + 4z + 9 is 2x + y - z - 3 + \\lambda(5x - 3y + 4z + 9) = 0 \\implies x(2 + 5\\lambda) + y(1 - 3\\lambda) + z(4\\lambda - 1) + 9\\lambda - 3 = 0 This plane is parallel to the line 2 3 7 2 4 5 x y z + - - = = - \\therefore (2 + 5\\lambda)(2) + (1 - 3\\lambda)(4) + (4\\lambda - 1)5 = 0 \\implies 4 + 10\\lambda + 4 - 12\\lambda + 20\\lambda - 5 = 0 \\implies 18\\lambda = -3 \\implies 1 6 - \\lambda= \\therefore Plane 7 3 5 9 : 0 6 2 3 2 P x y z + - - = \\implies 7x + 9y - 10z - 27 = 0 8 1 19 : 3 4 12 x y z AB k - + + = = = - B = (-3k + 8, 4k - 1, 12k - 19) B lies on plane P. 7(-3k + 8) + 9(4k - 1) -10(12k - 19) = 27 \\implies -21k + 56 + 36k - 9 -120k + 190 = 27 \\implies -105k = -210 \\implies k = 2 \\therefore B = (2, 7, 5) 36 64 576 AB = + + 676 26 = = This section contains 20 multiple choice questions. Each question has 4 choices (1), (2), (3) and (4), out of which ONLY ONE is correct. Choose the correct answer:",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "physics",
+            "name": "Physics",
+            "subsections": [
+                {
+                    "id": "phys_sec_a",
+                    "name": "Section-A (Single Correct)",
+                    "questions": [
+                        {
+                            "id": "phys_q1",
+                            "type": "single_correct",
+                            "questionText": "A flask contains Hydrogen and Argon in the ratio 2 : 1 by mass. The temperature of the mixture is 30^\\circC. The ratio of average kinetic energy per molecule of the two gases (K argon/K hydrogen) is: (Given : Atomic Weight of Ar = 39.9)",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "1",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "39.9",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "39.9 2",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "2 avg 1 4 KE 2 RT mv = = π \\implies 2 H Ar KE 1 KE =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q2",
+                            "type": "single_correct",
+                            "questionText": "A 12 V battery connected to a coil of resistance 6 \\ \\Omega through a switch, drives a constant current in the circuit. The switch is opened in 1 ms. The emf induced across the coil is 20 V. The inductance of the coil is :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "10 mH",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "8 mH",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "5 mH",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "12 mH",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "V = 12 volt R = 6 \\ \\Omega t = 1 ms d dI L dt dt φ = 3 2 20 10 L - = × L = 10 mH",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q3",
+                            "type": "single_correct",
+                            "questionText": "Two identical particles each of mass ‘m’ go round a circle of radius a under the action of their mutual gravitational attraction. The angular speed of each particle will be :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "3 Gm a",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "3 8 Gm a",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "3 4 Gm a",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "3 2 Gm a",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "2 2 4 Gmm m a a ω = 3 4 Gm a ω =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q4",
+                            "type": "single_correct",
+                            "questionText": "The position vector of a particle related to time t is given by ( ) 2 ˆ ˆ ˆ 10 15 7 m = + + \\rhor t i t j k The direction of net force experienced by the particle is :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Positive x-axis",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "In x-y plane",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Positive y-axis",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Positive z-axis",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "ˆ 30 F j = \\rho",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q5",
+                            "type": "single_correct",
+                            "questionText": "The half-life of a radioactive nucleus is 5 years. The fraction of the original sample that would decay in 15 years is :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "1 8",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "1 4",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "7 8",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "3 4",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "1/2 / 02 t T N N - = \\implies 0 8 N N = \\implies Decayed amount 0 7 8 N =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q6",
+                            "type": "single_correct",
+                            "questionText": "Match List-I with List II of Electromagnetic waves with corresponding wavelength range: List I List II (A) Microwave (I) 400 nm to 1 nm (B) Ultraviolet (II) 1 nm to 10-3 nm (C) X-Ray (III) 1 mm to 700 nm (D) Infra-red (IV) 0.1 m to 1 mm Choose the correct answer from the options given below:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(A)-(IV), (B)-(I), (C)-(II), (D)-(III)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(A)-(IV), (B)-(I), (C)-(III), (D)-(II)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(A)-(IV), (B)-(II), (C)-(I), (D)-(III)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(A)-(I), (B)-(IV), (C)-(II), (D)-(III)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "λX < λUV < λIR < λMW",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q7",
+                            "type": "single_correct",
+                            "questionText": "A wire of length 'L' and radius 'r' is clamped rigidly at one end. When the other end of the wire is pulled by a force f, its length increases by 'l'. Another wire of same material of length '2L' and radius '2r' is pulled by a force '2f'. Then the increase in its length will be:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "4l",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "l/2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "2l",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "l",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "2 l F L r y σ = = π 2 2 2 4 l F l l L r y ′ ′ ′ σ = = \\implies = π",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q8",
+                            "type": "single_correct",
+                            "questionText": "The de Broglie wavelength of an electron having kinetic energy E is λ . If the kinetic energy of electron becomes 4 E , then its de-Broglie wavelength will be:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "2λ",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "2 λ",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "2 λ",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "2λ",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "2 h mKE λ =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q9",
+                            "type": "single_correct",
+                            "questionText": "For designing a voltmeter of range 50 V and an ammeter of range 10 mA using a galvanometer which has a coil of resistance 54 \\ \\Omega showing a full scale deflection for 1 mA as in figure. (A) for voltmeter R ≈ 50 k\\ \\Omega (B) for ammeter r ≈ 0.2 \\ \\Omega (C) for ammeter r ≈ 6 \\ \\Omega (D) for voltmeter R ≈ 5 k\\ \\Omega (E) for voltmeter R ≈ 500 \\ \\Omega Choose the correct answer from the options given below:",
+                            "hasImage": true,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(A) and (C)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(C) and (E)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(C) and (D)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(A) and (B)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "50 = (RG + R)10-3 5000 = 54 + R R ≈ 50 k\\ \\Omega 10-3 × 54 = r × 9 × 10-3 r = 6 \\ \\Omega",
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/phys_q9.png"
+                        },
+                        {
+                            "id": "phys_q10",
+                            "type": "single_correct",
+                            "questionText": "The height of transmitting antenna is 180 m and the height of the receiving antenna is 245 m. The maximum distance between them for satisfactory communication in line of sight will be: (given R = 6400 km)",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "96 km",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "56 km",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "48 km",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "104 km",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "3 max 2 180 6400 10 R = × × × 3 2 245 6400 10 + × × × = 6 × 80 × 102 + 7 × 80 × 102 = 104 km",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q11",
+                            "type": "single_correct",
+                            "questionText": "A thermodynamic system is taken through cyclic process. The total work done in the process is :",
+                            "hasImage": true,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "200 J",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "300 J",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "100 J",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Zero",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "2 300 J 2 W × = = 300 J",
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/phys_q11.png"
+                        },
+                        {
+                            "id": "phys_q12",
+                            "type": "single_correct",
+                            "questionText": "A single slit of width a is illuminated by a monochromatic light of wavelength 600 nm. The value of ‘a’ for which first minimum appears at θ = 30^\\circ on the screen will be :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "1.2 \\mu m",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "3 \\mu m",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "1.8 \\mu m",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "0.6 \\mu m",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "dsinθ = λ \\implies d = 2λ = 1.2 \\mu m",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q13",
+                            "type": "single_correct",
+                            "questionText": "A vector in x - y plane makes an angle of 30^\\circ with y-axis. The magnitude of y-component of vector is 2 3 . The magnitude of x-component of the vector will be :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "1 3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "6",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "2",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "3",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "2 3 y a = ∴ ax = ay tan30^\\circ 1 2 3 3 = ×",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q14",
+                            "type": "single_correct",
+                            "questionText": "The position of a particle related to time is given by x = (5t2 - 4t + 5) m. The magnitude of velocity of the particle at t = 2 s will be :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "06 ms-1",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "14 ms-1",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "10 ms-1",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "16 ms-1",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "x = 5t2 - 4t + 5 \\implies v = 10t - 4 \\implies v = 16 m/s",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q15",
+                            "type": "single_correct",
+                            "questionText": "The electric field due to a short electric dipole at a large distance (r) from center of dipole on the equatorial plane varies with distance as :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "r",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "2 1 r",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "3 1 r",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "1 r",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "3 2kp E r =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q16",
+                            "type": "single_correct",
+                            "questionText": "In a linear Simple Harmonic Motion (SHM) (A) Restoring force is directly proportional to the displacement. (B) The acceleration and displacement are opposite in direction. (C) The velocity is maximum at mean position. (D) The acceleration is minimum at extreme points. Choose the correct answer from the options given below:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(C) and (D) only",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(A), (C) and (D) only",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(A), (B) and (C) only",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(A), (B) and (D) only",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "F = -kx a = -ω2x Velocity is maximum at mean position.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q17",
+                            "type": "single_correct",
+                            "questionText": "The speed of a wave produced in water is given by ν = λagbρc. Where λ, g and ρ are wavelength of wave, acceleration due to gravity and density of water respectively. The values of a, b and c respectively, are",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "1, -1, 0",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "1 2 , 0, 1 2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "1, 1, 0",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "1 2 , 1 2 , 0",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "[ν] = [λagbρc] \\implies [LT-1] = [L]a[LT-2]b[ML-3]c",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q18",
+                            "type": "single_correct",
+                            "questionText": "A body is released from a height equal to the radius (R) of the earth. The velocity of the body when it strikes the surface of the earth will be: (Given g = acceleration due to gravity on the earth.)",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "2gR",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "gR",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "4gR",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "2 gR",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "2 1 2 2 GMm GMm mv R R - = - + 2 1 2 2 GMm mv R \\implies = GM v gR R = =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q19",
+                            "type": "single_correct",
+                            "questionText": "Given below are two statements: Statement I : The equivalent resistance of resistors in a series combination is smaller than least resistance used in the combination. Statement II: The resistivity of the material is independent of temperature. In the light of the above statements, choose the correct answer from the options given below:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Both Statement I and Statement II are false",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Both Statement I and Statement II are true",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Statement I is true but Statement II is false",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Statement I is false but Statement II is true",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Rseries > R1 or R2 as Rseries = R1 + R2 ρ = ρ0 (1 + α∆T)",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q20",
+                            "type": "single_correct",
+                            "questionText": "In the given circuit, the current (I) through the battery will be",
+                            "hasImage": true,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "2.5 A",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "1 A",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "2 A",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "1.5 A",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "eq 20 = 3 R \\implies \\ \\Omega 30 A 1.5 A 20 I = = SECTION - B This section contains 10 questions. In Section B, attempt any five questions out of 10. The answer to each question is a NUMERICAL VALUE. For each question, enter the correct numerical value (in decimal notation, truncated/rounded-off to the second decimal place; e.g., 06.25, 07.00, -00.33, -00.30, 30.27, -27.30) using the mouse and the on-screen virtual numeric keypad in the place designated to enter the answer.",
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/phys_q20.png"
+                        }
+                    ]
+                },
+                {
+                    "id": "phys_sec_b",
+                    "name": "Section-B (Numerical Value)",
+                    "questions": [
+                        {
+                            "id": "phys_q21",
+                            "type": "numerical",
+                            "questionText": "The fundamental frequency of vibration of a string between two rigid support is 50 Hz. The mass of the string is 18 g and its linear mass density is 20 g/m. The speed of the transverse waves so produced in the string is _______ ms-1.",
+                            "hasImage": false,
+                            "answer": 90,
+                            "explanation": "50 2 v l = 100 18 100 20 v l × = × = = 90 m/s",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q22",
+                            "type": "numerical",
+                            "questionText": "A block of mass 10 kg is moving along x-axis under the action of force F = 5x N. The work done by the force in moving the block from x = 2 m to 4 m will be _______ J.",
+                            "hasImage": false,
+                            "answer": 30,
+                            "explanation": "F = 5x ( ) 2 2 5 5 12 2 2 f i W x x = - = × = 30 J",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q23",
+                            "type": "numerical",
+                            "questionText": "A solid sphere and a solid cylinder of same mass and radius are rolling on a horizontal surface without slipping. The ratio of their radius of gyrations respectively (ksph : kcyl) is 2 : x . The value of x is _______.",
+                            "hasImage": false,
+                            "answer": 5,
+                            "explanation": "Considering rotational axis as the diametrical axis for sphere and axis of cylinder. Then 2 2 1 2 5 K R = and 2 2 2 1 2 K R = ∴ 1 2 2 / 5 4 1/ 2 5 K K = = \\implies 1 2 2 5 K K = ∴ x = 5",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q24",
+                            "type": "numerical",
+                            "questionText": "An electron in a hydrogen atom revolves around its nucleus with a speed of 6.76 × 106 ms-1 in an orbit of radius 0.52 Å. The magnetic field produced at the nucleus of the hydrogen atom is _______ T.",
+                            "hasImage": false,
+                            "answer": 40,
+                            "explanation": "0 0 2 2 2 I e B r r \\mu \\mu × ω = = π× × = 7 6 19 20 10 1.6 6.76 10 10 0.52 0.52 10 - - × × × × × × - = 40",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q25",
+                            "type": "numerical",
+                            "questionText": "There is an air bubble of radius 1.0 mm in a liquid of surface tension 0.075 Nm-1 and density 1000 kg m-3 at a depth of 10 cm below the free surface. The amount by which the pressure inside the bubble is greater than the atmospheric pressure is _______ Pa (g = 10 ms-2)",
+                            "hasImage": false,
+                            "answer": 1150,
+                            "explanation": "2T P gh r ∆ = ρ + 3 2 0.075 1000 10- × = + = 1000 + 150 = 1150",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q26",
+                            "type": "numerical",
+                            "questionText": "In the given figure the total charge stored in the combination of capacitors is 100 \\mu C. The value of ‘x’ is ______________.",
+                            "hasImage": true,
+                            "answer": 5,
+                            "explanation": "10(2 + x + 3) = 100 \\implies x = 5",
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/phys_q26.png"
+                        },
+                        {
+                            "id": "phys_q27",
+                            "type": "numerical",
+                            "questionText": "A 20 cm long metallic rod is rotated with 210 rpm about an axis normal to the rod passing through its one end. The other end of the rod is in contact with a circular metallic ring. A constant and uniform magnetic field 0.2 T parallel to the axis exists everywhere. The emf developed between the centre and the ring is _________mV. Take 22 7 π =",
+                            "hasImage": false,
+                            "answer": 88,
+                            "explanation": "2 2 B l ω ε = 2 210 2 (0.2) 0.2 60 2 × π = × × 0.2 210 22 0.04 7 60 × × × = × = 88 mV",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q28",
+                            "type": "numerical",
+                            "questionText": "As per given figure A, B and C are the first, second and third excited energy levels of hydrogen atom respectively. If the ratio of the two wavelengths 1 2 . . i e ( ) λ ( ) λ ( ) is 7 4n , then the value of n will be",
+                            "hasImage": true,
+                            "answer": 5,
+                            "explanation": "1 2 1 1 7 9 16 16 5 1 1 4 4 9 ( ) - ( ) λ ( ) = = λ ( ) - ( ) ( ) \\implies 1 2 7 20 λ = λ",
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/phys_q28.png"
+                        },
+                        {
+                            "id": "phys_q29",
+                            "type": "numerical",
+                            "questionText": "The refractive index of a transparent liquid filled in an equilateral hollow prism is 2 . The angle of minimum deviation for the liquid will be _______^\\circ.",
+                            "hasImage": false,
+                            "answer": 30,
+                            "explanation": "sin 30 2 2 1 2 δ ( ) + ( ) ( ) = \\implies 45 30 2 δ ^\\circ = ^\\circ + δ = 30^\\circ",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q30",
+                            "type": "numerical",
+                            "questionText": "A network of four resistances is connected to 9 V battery, as shown in figure. The magnitude of voltage difference between the points A and B is __________ V.",
+                            "hasImage": true,
+                            "answer": 3,
+                            "explanation": "IA = IB = 1.5 A VA - VB = 4 × 1.5 - 2 × 1.5 = 3 This section contains 20 multiple choice questions. Each question has 4 choices (1), (2), (3) and (4), out of which ONLY ONE is correct. Choose the correct answer:",
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/phys_q30.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chemistry",
+            "name": "Chemistry",
+            "subsections": [
+                {
+                    "id": "chem_sec_a",
+                    "name": "Section-A (Single Correct)",
+                    "questions": [
+                        {
+                            "id": "chem_q1",
+                            "type": "single_correct",
+                            "questionText": "The product formed in the following multistep reaction is: 2 6 2 2 3 (i) B H (ii) H O , NaOH 3 2 (iii) PCC (iv) CH MgBr CH CH CH - = ⎯⎯⎯⎯⎯\\longrightarrow",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "|| 3 2 3 O CH CH C OCH - - -",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "3 | 3 3 | OH CH C CH CH - -",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "| 3 2 3 OH CH CH CH CH - - -",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "3 2 2 2 CH CH CH CH OH - - - -",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Detailed step-by-step solution provided.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q2",
+                            "type": "single_correct",
+                            "questionText": "The major product formed in the Friedel-Craft acylation of chlorobenzene is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Cl CH3 O CH3 O",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Cl COCH 3 COCH3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Cl CH3 O",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Cl O CH3",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "Detailed step-by-step solution provided.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q3",
+                            "type": "single_correct",
+                            "questionText": "Which of the following statement(s) is/are correct? (A) The pH of 1 × 10-8 M HCl solution is 8. (B) The conjugate base of 2 4 H PO- is 2 4 HPO -. (C) Kw increases with increase in temperature. (D) When a solution of a weak monoprotic acid is titrated against a strong base at half neutralisation point, a 1 pH pK 2 = . Choose the correct answer from the options given below:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(B), (C)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(A), (D)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(A), (B), (C)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(B), (C), (D)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "2 2 4 4 acid Conjugate base H PO HPo H - - + + Kw increase with increase in temperature as dissociation of water increases with increase in temperature. When weak monoprotic acid is titrated against strong base, at half neutralization point, the solution becomes acidic buffer and its pH is given by a [Salt] pH pK log[Acid] = + a pH pK 0 \\implies = + as [salt] = [acid]",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q4",
+                            "type": "single_correct",
+                            "questionText": "Which is not true for arginine?",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "It has a fairly high melting point.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "It is associated with more than one pKa values.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "It has high solubility in benzene.",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "It is a crystalline solid.",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Since arginine is polar, it is not soluble in benzene.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q5",
+                            "type": "single_correct",
+                            "questionText": "The number of P - O - P bonds in H4P2O7, (HPO3)3 and P4O10 are respectively",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "0, 3, 6",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "0, 3, 4",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "1, 2, 4",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "1, 3, 6",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "H4P2O7: (HPO3)3 P4O10",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q6",
+                            "type": "single_correct",
+                            "questionText": "The possibility of photochemical smog formation will be minimum at",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Srinagar, Jammu and Kashmir in January",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Kolkata in October",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Mumbai in May",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "New-Delhi in August (Summer)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Photochemical smog occurs in warm, dry and sunny climate. Hence the correct answer is option (1)",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q7",
+                            "type": "single_correct",
+                            "questionText": "The complex with highest magnitude of crystal field splitting energy (\\Delta 0) is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "[Ti(OH2)6]3+",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "[Cr(OH2)6]3+",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "[Mn(OH2)6]3+",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "[Fe(OH2)6]3+",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Complex CFSE [Ti(OH2)6]3+ -0.4 \\Delta 0 [Cr(H2O)6]3+ -1.2 \\Delta 0 [Mn(H2O)6]3+ -0.6 \\Delta 0 [Fe(H2O)6]3+ 0",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q8",
+                            "type": "single_correct",
+                            "questionText": "During water-gas shift reaction",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Carbon monoxide is oxidized to carbon dioxide.",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Water is evaporated in presence of catalyst.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Carbon is oxidized to carbon monoxide.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Carbon dioxide is reduced to carbon monoxide.",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "2 2 syn gas C H O CO H + \\longrightarrow + CO + H2O \\longrightarrow CO2 + H2O Water gas shift reaction",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q9",
+                            "type": "single_correct",
+                            "questionText": "Which of the following statement is correct for paper chromatography?",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Water present in the pores of the paper forms the stationary phase.",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Paper sheet forms the stationary phase.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Water present in the mobile phase gets absorbed by the paper which then forms the stationary phase.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Paper and water present in its pores together form the stationary phase.",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "In paper chromatography water present in the pores of the paper forms the stationary phase.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q10",
+                            "type": "single_correct",
+                            "questionText": "‘A’ formed in the above reaction is (1) (2) (3) (4)",
+                            "hasImage": true,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(1)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(2)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(3)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(4)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Detailed step-by-step solution provided.",
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/chem_q10.png"
+                        },
+                        {
+                            "id": "chem_q11",
+                            "type": "single_correct",
+                            "questionText": "Consider the following sequence of reactions The product ‘B’ is (1) (2) (3) (4)",
+                            "hasImage": true,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(1)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(2)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(3)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(4)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Detailed step-by-step solution provided.",
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/chem_q11.png"
+                        },
+                        {
+                            "id": "chem_q12",
+                            "type": "single_correct",
+                            "questionText": "Given below are two statements Statement I : According to Bohr’s model of hydrogen atom, the angular momentum of an electron in a given stationary state is quantised. Statement II : The concept of electron in Bohr’s orbit, violates the Heisenberg uncertainty principle. In the light of the above statements, choose the most appropriate anwer from the options given below",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Statement I is incorrect but Statement II is correct",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Both Statement I and Statement II are correct",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Both Statement I and Statement II are incorrect",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Statement I is correct but Statement II is incorrect",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Both statements (I) and (II) are correct.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q13",
+                            "type": "single_correct",
+                            "questionText": "NO2 CH3 COOH Cl Br In the above conversion the correct sequence of reagents to be added is",
+                            "hasImage": true,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(i) KMnO4, (ii) Br2/Fe, (iii) Fe/H+, (iv) Cl2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(i) Br2/Fe, (ii) Fe/H+, (iii) KMnO4, (iv) Cl2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(i) Fe/H+, (ii) HONO, (iii) CuCl, (iv) KMnO4, (v) Br2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(i) Br2/Fe, (ii) Fe/H+, (iii) HONO, (iv) CuCl (v) KMnO4",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "Detailed step-by-step solution provided.",
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/chem_q13.png"
+                        },
+                        {
+                            "id": "chem_q14",
+                            "type": "single_correct",
+                            "questionText": "Which one of the following is not an example of calcination?",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "3 2 CaCO CaO CO \\Delta \\longrightarrow +",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "2 3 2 2 3 2 Fe O xH O Fe O xH O \\Delta \\cdot \\longrightarrow +",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "2 2 2PbS 3O 2PbO 2SO \\Delta + \\longrightarrow +",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "3 3 2 CaCO MgCO CaO MgO 2CO \\Delta \\cdot \\longrightarrow + +",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "2 2 2PbS 3O 2PbO 2SO \\Delta + \\longrightarrow + The above reaction is an example of roasting",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q15",
+                            "type": "single_correct",
+                            "questionText": "Consider the following statement (A) NF3 molecules has a trigonal planar structure. (B) Bond Length of N2 is shorter than O2. (C) Isoelectronic molecules or ions have identical bond order. (D) Dipole moment of H2S is higher than that of water molecule. Choose the correct answer from the options given below:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(A) and (B) are correct",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(A) and (D) are correct",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(C) and (D) are correct",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(B) and (C) are correct",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "NF3 is pyramidal B.O of N2 = 3, B.O of O2 = 4 Hence bond length of N2 is shorter than O2 Isoelectronic species have identical bond order Dipole moment of H2O is more than that of H2S due to higher electronegativity of O.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q16",
+                            "type": "single_correct",
+                            "questionText": "Given below are two statements: One is labelled as Assertion A and the other is labelled as Reason R: Assertion (A) : BeCl2 and MgCl2 produce characteristic flame Reason (R) : The excitation energy is high in BeCl2 and MgCl2 In the light of the above statements, choose the correct answer from the options given below:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(A) is true but (R) is false",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(A) is false but (R) is true",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "BeCl2 and MgCl2 do not produce characteristic flame because excitation energy is high in BeCl2 and MgCl2. Hence, the correct answer is option (4).",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q17",
+                            "type": "single_correct",
+                            "questionText": "Which of the following expressions is correct in case of a CsCl unit cell (edge length ‘a’)?",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "- Cs Cl a r r 2 + + =",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "- Cs Cl 3 r r a 2 + + =",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "- Cs Cl a r r 2 + + =",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "- Cs Cl r r a + + =",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "CsCl has body centered type structure in which Cs+ occupies at corner of a cube and Cl- occupies the centre of the cube. - Cs Cl 2r 2r 3a + + = (where a is the edge length of the cube) Cs Cl 3 r r a 2 + - + =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q18",
+                            "type": "single_correct",
+                            "questionText": "For a good quality cement, the ratio of silica to alumina is found to be",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "1.5",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "4.5",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "3",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "For a good quality cement, the ratio of silica to alumina lies between 2.5 and 4.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q19",
+                            "type": "single_correct",
+                            "questionText": "Match List I with List II: List I (Monomer) List II (Polymer) (A) Tetrafluoroethene (I) Orlon (B) Acrylonitrile (II) Natural rubber (C) Caprolactam (III) Teflon (D) Isoprene (IV) Nylon-6 Choose the correct answer from the options given below:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(A)-(IV), (B)-(I), (C)-(II), (D)-(III)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "(Monomer) (Polymer) (A) Tetrafluoroethene (I) Teflon (B) Acrylonitrile (II) Orlon (C) Caprolactam (III) Nylon-6 (D) Isoprene (IV) Natural rubber",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q20",
+                            "type": "single_correct",
+                            "questionText": "Decreasing order of reactivity towards electrophilic substitution for the following compounds is: CH3 CF3 OCH3 NMe2 ( ) a (b) (c) (d) (e)",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "d > a > e > c > b",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "e > d > a > b > c",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "a > d > e > b > c",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "c > b > a > d > e",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Reactivity of aromatic compounds towards electrophilic substitution depends on the electron density on benzene ring. Higher the electron density on benzene ring, more be the reactivity towards electrophilic substitution reaction. Hence, the correct decreasing order is SECTION - B This section contains 10 questions. In Section B, attempt any five questions out of 10. The answer to each question is a NUMERICAL VALUE. For each question, enter the correct numerical value (in decimal notation, truncated/rounded-off to the second decimal place; e.g., 06.25, 07.00, -00.33, -00.30, 30.27, -27.30) using the mouse and the on-screen virtual numeric keypad in the place designated to enter the answer.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "chem_sec_b",
+                    "name": "Section-B (Numerical Value)",
+                    "questions": [
+                        {
+                            "id": "chem_q21",
+                            "type": "numerical",
+                            "questionText": "In Chromyl chloride, the oxidation state of chromium is (+) ___________.",
+                            "hasImage": false,
+                            "answer": 6,
+                            "explanation": "Chromyl chloride is Hence the O.S. of Cr is +6",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q22",
+                            "type": "numerical",
+                            "questionText": "The vapour pressure of 30% (w/v) aqueous solution of glucose is ________ mm Hg at 25^\\circC. [Given: The density of 30% (w/v), aqueous solution of glucose is 1.2 g cm-3 and vapour pressure of pure water is 24 mm Hg.] (Molar mass of glucose is 180 g mol-1)",
+                            "hasImage": false,
+                            "answer": 23,
+                            "explanation": "Wt. of solution = 100 × 1.2 = 120 gm Wt. of water = 120 - 30 = 90 gm Now using formula 0 P P moles of glucose P moles of water - = 30 24 P 3 180 90 P 90 18 - = = 24 × 90 - P × 90 = 3 P \\implies P = 23.22",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q23",
+                            "type": "numerical",
+                            "questionText": "The volume (in mL) of 0.1 M AgNO3 required for complete precipitation of chloride ions present in 20 mL of 0.01 M solution of [Cr(H2O)5Cl]Cl2 as silver chloride is_______",
+                            "hasImage": false,
+                            "answer": 4,
+                            "explanation": "2 5 2 2 5 (Cr(H O) Cl) Cl (Cr(H O) Cl) 2Cl- \\longrightarrow + Molarity of Cl- ions = 0.01 × 2 = 0.02 M \\therefore Millimoles of Cl- ions in the given solution = 20 × 0.02 \\therefore Millimoles of AgNO3 required = 20 × 0.2 V × 0.1 = 20 × 0.02 V = 4 mL",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q24",
+                            "type": "numerical",
+                            "questionText": "For a reversible reaction A B , the \\Delta Hforward reaction = 20 kJ mol-1. The activation energy of the uncatalyzed forward reaction is 300 kJ mol-1. When the reaction is catalysed keeping the reactant concentration same, the rate of the catalysed forward reaction at 27^\\circC is found to be same as that of the uncatalyzed reaction at 327^\\circC. The activation energy of the catalysed backward reaction is _______ kJ mol-1.",
+                            "hasImage": false,
+                            "answer": 130,
+                            "explanation": "As per the question 3 300 10 Ea 600 R 300 R Ae Ae \\times - - \\times \\times = \\implies 3 10 Ea 2 300 = \\implies Ea = 150 × 103 J mol-1 \\implies Ea = 150 kJ mol-1 \\therefore Activation energy of catalysed backward reaction = Ea - \\Delta H = 150 - 20 = 130 kJ mol-1",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q25",
+                            "type": "numerical",
+                            "questionText": "The homoleptic and octahedral complex of Co2+ and H2O has ______ unpaired electron(s) in the t2g set of orbitals.",
+                            "hasImage": false,
+                            "answer": 1,
+                            "explanation": "2 7 5 2 2 6 2g g [Co(H O) ] d (H.S.) t e + = =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q26",
+                            "type": "numerical",
+                            "questionText": "The number of correct statements from the following is ___________ (A) Conductivity always decreases with decrease in concentration for both strong and weak electrolytes. (B) The number of ions per unit volume that carry current in a solution increases on dilution. (C) Molar conductivity increases with decrease in concentration. (D) The variation in molar conductivity is different for strong and weak electrolytes. (E) For weak electrolytes, the change in molar conductivity with dilution is due to decrease in degree of dissociation.",
+                            "hasImage": false,
+                            "answer": 3,
+                            "explanation": "Except (B) and (E), all statements are correct.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q27",
+                            "type": "numerical",
+                            "questionText": "The total change in the oxidation state of manganese involved in the reaction of KMnO4 and potassium iodide in the acidic medium is ________.",
+                            "hasImage": false,
+                            "answer": 5,
+                            "explanation": "2 4 2 2 KMnO KI H Mn I H O + + + + \\longrightarrow + + Hence the change in O.S. of Mn is (5).",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q28",
+                            "type": "numerical",
+                            "questionText": "The total number of isoelectronic species from the given set is ________. O2-, F-, Al, Mg2+, Na+, O+, Mg, Al3+, F",
+                            "hasImage": false,
+                            "answer": 5,
+                            "explanation": "Species No. of electrons O-2 10 F- 10 Al 13 Mg2+ 10 Na+ 10 O+ 7 Mg 12 Al3+ 10 F 9 Hence five species among the given are isoelectronic species.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q29",
+                            "type": "numerical",
+                            "questionText": "20 mL of 0.5 M NaCl is required to coagulate 200 mL of As2S3 solution in 2 hours. The coagulating value of NaCl is ___________.",
+                            "hasImage": false,
+                            "answer": 50,
+                            "explanation": "Coagulating value = 20 0.5 1000 50 200 \\times \\times =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q30",
+                            "type": "numerical",
+                            "questionText": "30.4 kJ of heat is required to melt one mole of sodium chloride and the entropy change at the melting point is 28.4 J K-1 mol-1 at 1 atm. The melting point of sodium chloride is _______ K (Nearest Integer)",
+                            "hasImage": false,
+                            "answer": 1070,
+                            "explanation": "Melting point = fus H S \\Delta \\Delta 3 30.4 10 1070 K 28.4 \\times = = ❑ ❑ ❑",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

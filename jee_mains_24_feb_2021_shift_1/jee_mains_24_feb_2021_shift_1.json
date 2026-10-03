@@ -1,0 +1,2230 @@
+{
+    "examTitle": "JEE Main 2021 - 24 February Morning Shift",
+    "examDate": "24 February 2021",
+    "shift": "Morning Shift",
+    "durationMinutes": 180,
+    "sections": [
+        {
+            "id": "physics",
+            "name": "Physics",
+            "subsections": [
+                {
+                    "id": "phys_sec_a",
+                    "name": "Section-A (Single Correct)",
+                    "questions": [
+                        {
+                            "id": "phys_q1",
+                            "type": "single_correct",
+                            "questionText": "n mole a perfect gas undergoes a cyclic process ABCA (see figure) consisting of the following processes. A ® B : Isothermal expansion at temperature T so that the volume is doubled from V1 to V2 = 2V1 and pressure changes from P1 to P2. B ® C : Isobaric compression at pressure P2 to initial volume V1. C ® A : Isochoric change leading to change of pressure from P2 to P1. Total workdone in the complete cycle ABCA is : P P1 P2 C B A V1 V2=2V1 V",
+                            "hasImage": true,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "0",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "æ ö + ç ÷ è ø 1 nRT ln2 2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "nRTln2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "nRT æ ö - ç ÷ è ø 1 ln2 2",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "WIsothermal = nRTln æ ö ç ÷ è ø 2 1 v v WIsobaric = PDV = nRDT WIsochoric = 0 P P1=P C(T/2) B(T) A(T) V 2V V P2=P/2 1 2 3 W1 = nRT ln æ ö ç ÷ è ø 2V V = nRT ln2 W2 = nR æ ö - ç ÷ è ø T T 2 = –nR T 2 W3 = 0 Þ Wnet = W1 + W2 + W3 Wnet = nRT æ ö - ç ÷ è ø 1 ln2 2",
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/phys_q1.png"
+                        },
+                        {
+                            "id": "phys_q2",
+                            "type": "single_correct",
+                            "questionText": "The focal length f is related to the radius of curvature r of the spherical convex mirror by:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "= + 1 f r 2",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "f = –r",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "f = - 1 r 2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "f = r",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "For convex mirror, focus is behind the mirror. F C Þ f = + r 2",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q3",
+                            "type": "single_correct",
+                            "questionText": "In a Young's double slit experiment, the width of the one of the slit is three times the other slit. The amplitude of the light coming from a slit is proportional to the slit-width. Find the ratio of the maximum to the minimum intensity in the interference pattern.",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "1 : 4",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "3 : 1",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "4 : 1",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "2 : 1",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Amplitude µ Width of slit Þ A2 = 3A1 max min I I = 2 1 2 1 2 I I | I I | æ ö + ç ÷ ç ÷ - è ø Q Intensity I µ A2 Þ max min I I = æ ö + ç ÷ - è ø 2 1 2 1 2 A A | A A | = æ ö + ç ÷ - è ø 2 1 1 1 1 A 3A | A 3A | = æ ö ç ÷ è ø 2 1 1 4A 2A = 4 : 1 2",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q4",
+                            "type": "single_correct",
+                            "questionText": "Two stars of masses m and 2m at a distance d rotate about their common centre of mass in free space. The period of revolution is :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "p 3 1 d 2 3Gm",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "p 3 d 2 3Gm",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "p 3 1 3Gm 2 d",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "p 3 3Gm 2 d",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "m 2m c.o.m. d 2d/3 d/3 F = 2 G(2m)m d = (2m)w2 (d/3) 2 Gm d = w2 d 3 Þ w2 = 3 3Gm d Þ w = 3 3Gm d Þ T = p w 2 = p 3 d 2 3Gm",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q5",
+                            "type": "single_correct",
+                            "questionText": "A current through a wire depends on time as i = a0t + bt2 where a0 = 20 A/s and b = 8 As–2. Find the charge crossed through a section of the wire in 15 s.",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "2250 C",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "11250 C",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "2100 C",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "260 C",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "i = 20t + 8t2 i = dq dt Þ dq idt = ò ò Þ q = + ò 15 2 0 (20t 8t )dt q = æ ö + ç ÷ è ø 15 2 3 0 20t 8t 2 3 q = 10 × (15)2 + 3 8(15) 3 q = 2250 + 9000 q = 11250 C",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q6",
+                            "type": "single_correct",
+                            "questionText": "Moment of inertia (M.I.) of four bodies, having same mass and radius, are reported as ; I1 = M.I. of thin circular ring about its diameter. I2 = M.I. of circular disc about an axis perpendicular to the disc and going through the centre, I3 = M.I. of solid cylinder about its axis and I4 = M.I. of solid sphere about its diameter. Then :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "I1 + I3 < I2 + I4",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "I1 + I2 = I3 + 5 2 I4",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "I1 = I2 = I3 > I4",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "I1 = I2 = I3 < I4",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Ring I1 = 2 MR 2 about diameter Disc I2 = 2 MR 2 Solid cylinder I3 = 2 MR 2 Solid sphere I4 = 2 5 MR2 I1 = I2 = I3 > I4",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q7",
+                            "type": "single_correct",
+                            "questionText": "Given below are two statements : Statement-I : Two photons having equal linear momenta have equal wavelengths. Statement-II : If the wavelength of photon is decreased, then the momentum and energy of a photon will also decrease. In the light of the above statements, choose the correct answer from the options given below.",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Both Statement I and Statement II are true",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Statement I is false but Statement II is true",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Both Statement I and Statement II are false",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Statement I is true but Statement II is false",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "If linear momentum are equal then wavelength also equal p = l h , E = l hc On decreasing wavelength, momentum and energy of photon increases. 3",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q8",
+                            "type": "single_correct",
+                            "questionText": "In the given figure, a mass M is attached to a horizontal spring which is fixed on one side to a rigid support. The spring constant of the spring is k. The mass oscillates on a frictionless surface with time period T and amplitude A. When the mass is in equilibrium position, as shown in the figure, another mass m is gently fixed upon it. The new amplitude of oscillation will be : m M k",
+                            "hasImage": true,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "- M m A M",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "+ M A M m",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "+ M m A M",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "- M A M m",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "M Momentum of system remains conserved. pi = pf MAw = (m + M) A'w' MA k M = (m + M) A' + k m M A' = + M A M m",
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/phys_q8.png"
+                        },
+                        {
+                            "id": "phys_q9",
+                            "type": "single_correct",
+                            "questionText": "If Y, K and h are the values of Young's modulus, bulk modulus and modulus of rigidity of any material respectively. Choose the correct relation for these parameters.",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "h = - h 2 9K Y N / m 3K",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "h = + 2 3YK N / m 9K Y",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "h = h + 2 9K Y N / m 2 3K",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "h = h - 2 Y K N / m 9 3Y",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "Y- Younge modulus, K- Bulk modulus, h- modulus of rigidity We know that y = 3k (1 – 2s) s = 1 2 y 1 3k æ ö - ç ÷ è ø ....(i) y = 2h (1 + s) s = - h y 1 2 ....(ii) From Eq.(i) and Eq. (ii) 1 2 æ ö - ç ÷ è ø Y 1 3k = h y 2 – 1 1 – y 3k = y h – 2 = - h y y 3 3k y 3 y 3k h- = h y 3 y 3k h = h- k = h h- y 9 3y 4",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q10",
+                            "type": "single_correct",
+                            "questionText": "In the given figure, the energy levels of hydrogen atom have been shown along with some transitions marked A, B, C, D and E. The transitions A, B and C respectively represent : n = 5 n = 4 n = 3 n = 2 n = 1 –0.54 eV –0.85 eV –1.51 eV –3.4 eV –13.6 eV 0 eV + eV Continuum A B C D E",
+                            "hasImage": true,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "The ionization potential of hydrogen, second member of Balmer series and third member of Paschen series.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "The first member of the Lyman series, third member of Balmer series and second member of Paschen series.",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "The series limit of Lyman series, third member of Balmer series and second member of Paschen series.",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "The series limit of Lyman series, second member of Balmer series and second member of Paschen series.",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "A ® Series limit of Lymen series. B ® Third member of Balmer series. C ® Second member of Paschen series.",
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/phys_q10.png"
+                        },
+                        {
+                            "id": "phys_q11",
+                            "type": "single_correct",
+                            "questionText": "Four identical particles of equal masses 1kg made to move along the circumference of a circle of radius 1 m under the action of their own mutual gravitational attraction. The speed of each particle will be :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "+ G (1 2 2) 2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "+ G(1 2 2)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "- G (2 2 1) 2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "+ (1 2 2)G 2",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "m m m m 45° 45° F1 F2 F3 m = 1 kg R = 1 m F1 = 2 Gmm (2R) = 2 2 Gm 4R F2 = 2 Gmm ( 2R) = 2 2 Gm 2R F3 = 2 Gmm ( 2R) = 2 2 Gm 2R Þ Fnet = F1 + F2 cos 45° + F3 cos 45° = 2 2 2 2 2 2 Gm Gm 1 Gm 1 4R 2R 2R 2 2 + + = 2 2 Gm 1 1 1 4 R 2 2 2 2 æ ö + + ç ÷ è ø = 2 2 Gm R 1 1 4 2 æ ö + ç ÷ è ø = 2 2 Gm 4R ( ) 1 2 2 + Fnet = 2 2 Gm 4R ( ) 1 2 2 + = 2 mv R Þ v = G(1 2 2) 2 + 5",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q12",
+                            "type": "single_correct",
+                            "questionText": "If the velocity-time graph has the shape AMB, what would be the shape of the corresponding acceleration-time graph ? B V A M time (t)",
+                            "hasImage": true,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "a t",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "a t",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "a t",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "t a",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Slope of v-t graph gives acceleration t Slope (–ve) Slope (+ve) Slope (–ve) Slope (+ve) M A B V Þ Acceleration will be a t A B M",
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/phys_q12.png"
+                        },
+                        {
+                            "id": "phys_q13",
+                            "type": "single_correct",
+                            "questionText": "Two equal capacitors are first connected in series and then in parallel. The ratio of the equivalent capacities in the two cases will be:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "4 : 1",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "2 : 1",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "1 : 4",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "1 : 2",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "For series combination C C Þ Ceq 1 eq 1 1 1 C C C = + Þ 1 eq C C 2 = For parallel combination C Ceq C Þ 2 2 eq C C C = + Þ 2 eq C 2C = Þ 1 2 eq eq C (C / 2) 1 C 2C 4 = = = 1 : 4",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q14",
+                            "type": "single_correct",
+                            "questionText": "If an emitter current is changed by 4 mA, the collector current changes by 3.5 mA. The value of b will be :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "7",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "0.5",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "0.875",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "3.5",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Ie = IC + IB Þ DIe = DIC + DIB 4mA = 3.5 mA + DIB Þ DIB = 0.5 mA Þ b = C B I I D D b = 3.5 0.5 Þ b = 7 6",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q15",
+                            "type": "single_correct",
+                            "questionText": "Match List-I with List-II : List-I List-II (a) Isothermal (i) Pressure constant (b) Isochoric (ii) Temperature constant (c) Adiabatic (iii) Volume constant (d) Isobaric (iv) Heat content is constant Choose the correct answer from the options given below :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(a) ® (i), (b) ® (iii), (c) ® (ii), (d) ® (iv)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(a) ® (ii), (b) ® (iii), (c) ® (iv), (d) ® (i)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(a) ® (ii), (b) ® (iv), (c) ® (iii), (d) ® (i)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(a) ® (iii), (b) ® (ii), (c) ® (i), (d) ® (iv)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "(a) Isothermal Þ Temperature constant (a) ® (ii) (b) Isochoric Þ Volume constant (a) ® (iii) (c) Adiabatic Þ DQ = 0 Þ Heat content is constant (c) ® (iv) (d) Isobaric Þ Pressure constant (d) ® (i)",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q16",
+                            "type": "single_correct",
+                            "questionText": "Each side of a box made of metal sheet in cubic shape is 'a' at room temperature 'T', the coefficient of linear expansion of the metal sheet is 'a'. The metal sheet is heated uniformly, by a small temperature DT, so that its new temperature is T + DT. Calculate the increase in the volume of the metal box.",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "3a3aDT",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "4a3aDT",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "4pa3aDT",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "4 3 pa3aDT",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "DV = VgDT DV = 3a3aDT",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q17",
+                            "type": "single_correct",
+                            "questionText": "A cell E1 of emf 6V and internal resistance 2W is connected with another cell E2 of emf 4V and internal resistance 8W (as shown in the figure). The potential difference across points X and Y is : X P Y E1 E2 6V, 2W 4V, 8W",
+                            "hasImage": true,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "10.0 V",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "3.6 V",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "5.6V",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "2.0 V",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "I = 6 4 10 - = 1 5 A Vx + 4 + 8 × 1 5 – Vy = 0 Vx – Vy = –5.6 Þ |Vx – Vy| = 5.6 V",
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/phys_q17.png"
+                        },
+                        {
+                            "id": "phys_q18",
+                            "type": "single_correct",
+                            "questionText": "A cube of side 'a' has point charges +Q located at each of its vertices except at the origin where the charge is –Q. The electric field at the centre of cube is : x y z +Q +Q +Q +Q +Q –Q +Q +Q a",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "( ) - + + pe 2 0 Q ˆ ˆ ˆ x y z 3 3 a",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "( ) - + + pe 2 0 2Q ˆ ˆ ˆ x y z 3 3 a",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "( ) + + pe 2 0 2Q ˆ ˆ ˆ x y z 3 3 a",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "( ) + + pe 2 0 Q ˆ ˆ ˆ x y z 3 3 a",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "We can replace –Q charge at origin by +Q and –2Q . Now due to +Q charge at every corner of cube. Electric field at center of cube is zero so now net electric field at center is only due to –2Q charge at origin. 3 kqr E r = r r = ( ) 3 0 a ˆ ˆ ˆ 1( 2Q) x y z 2 a 4 3 2 - + + æ ö pe ç ÷ è ø 2 0 ˆ ˆ ˆ 2Q(x y z) E 3 3 a - + + = p e r 7",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q19",
+                            "type": "single_correct",
+                            "questionText": "Consider two satellites S1 and S2 with periods of revolution 1 hr. and 8hr. respectively revolving around a planet in circular orbits. The ratio of angular velocity of satellite S1 to the angular velocity of satellites S2 is : (1) 8 : 1 2) 1 : 4 (3) 2 : 1 (4) 1 : 8",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(1)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(2)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(3)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(4)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "1 2 T 1 T 8 = 1 2 2 / 1 2 / 8 p w = p w 1 2 8 1 w = w",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q20",
+                            "type": "single_correct",
+                            "questionText": "The workdone by a gas molecule in an isolated system is given by, -a = ab 2 x 2 kT W e , where x is the displacement, k is the Boltzmann constant and T is the temperature, a and b are constants. Then the dimension of b will be :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "[M L2 T–2]",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "[M L T–2]",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "[M2 L T 2]",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "[M0 L T 0]",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "2 x kT a ® dimensionless Þ [a] = 2 [x ] [kT] = 2 2 2 L ML T- = M–1T2 Now [W] = [a] [b]2 [b] = 2 2 1 2 ML T M T - - = M1L1T–2",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "phys_sec_b",
+                    "name": "Section-B (Numerical Value)",
+                    "questions": [
+                        {
+                            "id": "phys_q21",
+                            "type": "numerical",
+                            "questionText": "The coefficient of static friction between a wooden block of mass 0.5 kg and a vertical rough wall is 0.2. The magnitude of horizontal force that should be applied on the block to kee p it adhere to the wall will be ______N. [g = 10 ms –2]",
+                            "hasImage": false,
+                            "answer": 25,
+                            "explanation": "F.B.D. of the block is shown in the diagram m Fr mg F N Since block is at rest therefore fr – mg = 0 ....(1) F – N = 0 ....(2) fr £ µN In limiting case fr = µN = µF ....(3) Using eq. (1) and (3) \\ µF = mg Þ F = ´ 0.5 10 0.2 = 25 N Ans. 25.00",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q22",
+                            "type": "numerical",
+                            "questionText": "A resonance circuit having inductance and resistance 2 × 10–4 H and 6.28 W respectively oscillates at 10 MHz frequency. The value of quality factor of this resonator is _______. [p = 3.14]",
+                            "hasImage": false,
+                            "answer": 2000,
+                            "explanation": "Given : L = 2 × 10–4 H R = 6.28 W f = 10 MHz = 107 Hz Since quality factor, Q = w0 L R = 2pf L R \\ Q = 2p × 107 × - ´ 4 2 10 6.28 Q = 2 × 103 = 2000 \\ Ans. is 2000",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q23",
+                            "type": "numerical",
+                            "questionText": "A hydraulic press can lift 100 kg when a mass 'm' is placed on the smaller piston. It can lift _______kg when the diameter of the larger piston is increased by 4 times and that of the smaller piston is decreased by 4 times keeping the same mass 'm' on the smaller piston.",
+                            "hasImage": false,
+                            "answer": 25600,
+                            "explanation": "Using Pascals law 100kg A2 m A1 Hydraulic Lift ´ = 2 1 100 g mg A A ....(1) Let m mass can lift M0 in second case then 0 2 M g 16A = 1 mg A /16 ....(2) {Since A = p 2 d 4 } From equation (1) and (2) we get 0 M 16.100 = 16 Þ M0 = 25600 kg",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q24",
+                            "type": "numerical",
+                            "questionText": "An inclined plane is bent in such a way that the vertical cross-section is given by = 2 x y 4 where y is in vertical and x in horizontal direction. If the upper surface of this curved plane is rough with coefficient of friction µ = 0.5, the maximum height in cm at which a stationary block will not slip downward is ________ cm.",
+                            "hasImage": false,
+                            "answer": 25,
+                            "explanation": "h q y x At maximum ht. block will experience maximum friction force. Therefore if at this height slope of the tangent is tan q, then q = Angle of repose. \\ tan q = dy dx = 2x 4 = x 2 = 0.5 Þ x = 1 and therefore y = 2 x 4 = 0.25 m = 25 cm \\ Answer is 25 cm (Assuming that x & y in the equation are given in meter)",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q25",
+                            "type": "numerical",
+                            "questionText": "An electromagnetic wave of frequency $f = 5\\text{ GHz}$ propagates in a medium with relative permittivity $\\epsilon_r = 2$ and relative permeability $\\mu_r = 2$. If the speed of light in the medium is $x \\times 10^7\\text{ m/s}$, the value of $x$ is:",
+                            "hasImage": false,
+                            "answer": 15,
+                            "explanation": "Given $f = 5\\text{ GHz}$, $\\epsilon_r = 2$, $\\mu_r = 2$. Speed of wave in medium is $v = \\frac{c}{\\sqrt{\\epsilon_r \\mu_r}} = \\frac{3 \\times 10^8}{\\sqrt{2 \\times 2}} = \\frac{3 \\times 10^8}{2} = 1.5 \\times 10^8\\text{ m/s} = 15 \\times 10^7\\text{ m/s}$. Hence, $x = 15$.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q26",
+                            "type": "numerical",
+                            "questionText": "In connection with the circuit drawn below, the value of current flowing through 2 kW resistor is ________ × 10–4 A. 5V 1 kW 2 kW 10V",
+                            "hasImage": true,
+                            "answer": 25,
+                            "explanation": "Current through 2kW resistance I = ´ 3 5 2 10 = 2.5 × 10–3 A I = 25 × 10–4 A Ans. 25 Ans. (15) 9",
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/phys_q26.png"
+                        },
+                        {
+                            "id": "phys_q27",
+                            "type": "numerical",
+                            "questionText": "An audio signal nm = 20 sin 2p (1500 t) amplitude modulates a carrier nC = 80 sin 2p (100,000 t). The value of percent modulation is _______.",
+                            "hasImage": false,
+                            "answer": 25,
+                            "explanation": "% modulation = Am Ac × 100 % modulation = 20 80 × 100 % modulation = 25% Ans 25",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q28",
+                            "type": "numerical",
+                            "questionText": "A ball will a speed of 9 m/s collides with another identical ball at rest. After the collision, the direction of each ball makes an angle of 30° with the original direction. The ratio of velocities of the balls after collision is x : y, where x is ________.",
+                            "hasImage": false,
+                            "answer": 1,
+                            "explanation": "A B Before Collision m 9 m/s m After Collision 30° 30° v1 v2 m m A B y x From conservation of momentum along y-axis. iy fy P P = r r 0 + 0 = mv1 sin 30° ˆj + mv2 sin 30° -ˆ ( j) mv2 sin 30° = mv1 sin 30° v2 = v1 or 1 2 v v = 1 Ans. 1",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q29",
+                            "type": "numerical",
+                            "questionText": "A common transistor radio set requires 12V (D.C.) for its operation. The D.C. source is constructed by using a transformer and a rectifier circuit, which are operated at 220 V (A.C.) on standard domestic A.C. supply. The number of turns of secondary coil are 24, then the nu mber of turns of primary are __ _____.",
+                            "hasImage": false,
+                            "answer": 440,
+                            "explanation": "= P P S S N V N V P N 24 = 220 12 NP = ´ 220 24 12 NP = 440 Ans. 440 turns",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "phys_q30",
+                            "type": "numerical",
+                            "questionText": "An unpolarized light beam is incident on the polarizer of a polarization experiment and the intensity of light beam emerging from the analyzer is measured as 100 Lumens. Now, if the analyzer is rotated around the horizontal axis (direction of light) by 30° in clockwise direction, the intensity of emerging light will be _______ Lumens.",
+                            "hasImage": false,
+                            "answer": 75,
+                            "explanation": "Polarizer Analyzer I /2 0 I /2 = 100 lumens 0 I0 Assuming initially axis of Polarizer and Analyzer are parallel Polarizer Analyzer I /2 0 I /2 cos 30° 0 2 I0 30° Now emerging intensity = 0I 2 cos2 30° = 100 æ ö ç ÷ ç ÷ è ø 2 3 2 = 100 × 3 4 = 75 Ans. 75",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chem",
+            "name": "Chemistry",
+            "subsections": [
+                {
+                    "id": "chem_sec_a",
+                    "name": "Section-A (Single Correct)",
+                    "questions": [
+                        {
+                            "id": "chem_q1",
+                            "type": "single_correct",
+                            "questionText": "The product formed in the first step of the reaction of CH –CH –CH–CH –CH–CH 3 2 2 3 Br Br with excess Mg/Et2O(Et = C2H5) is :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "CH –CH –CH–CH –CH–CH 3 2 2 3 CH –CH–CH –CH–CH –CH 3 2 2 3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "CH –CH –CH–CH –CH–CH 3 2 2 3 CH –CH –CH–CH –CH–CH 3 2 2 3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "CH – CH 3 CH2 CH–CH3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "CH CH –CH–CH –CH–CH 3 2 2 3 MgBr MgBr",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "Mg (Excess) (dry ether) Br Br MgBr MgBr",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q2",
+                            "type": "single_correct",
+                            "questionText": "Consider the elements Mg. Al, S, P and Si, the correct increasing order of their first ionization enthalpy is :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Mg < Al < Si < S < P",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Al < Mg < Si < S < P",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Mg < Al < Si < P < S",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Al < Mg < S < Si < P",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "In general from left to right in a period, ionistion enthalpy increases due to effective nuclear charge increases. but due to extra stability of half filled and full filled electronic configuration, required ionisation enthalpy is more from neighbouring elements. i.e. first ionisation enthalpy order is Al < Mg < Si < S < P (Held On Wednesday 24th February, 2021) TIME : 9 : 00 AM to 12 : 00 NOON",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q3",
+                            "type": "single_correct",
+                            "questionText": "'A' and 'B' in the following reactions are : NaNO /HCl 2 KCN (A) SnCl /HCl/H O 2 3 + (B) NH2",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "N Cl 2 – + (A) : CHO (B) :",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "N Cl 2 – + (A) : Cl (B) :",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "CN (A) : CHO (B) :",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "CN (A) : Cl (B) :",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "NH2 NaNO + HCl 2 0–5°C N2Cl – + CN KCN SnCl + HCl H O 2 2 CH=O Diazotization Stephen reduction",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q4",
+                            "type": "single_correct",
+                            "questionText": "Which of the following ore is concentrated using group 1 cyanide salt ?",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Sphalerite",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Calamine",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Siderite",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Malachite",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Sphalerite ore : ZnS Calamine ore : ZnCO3 Siderite ore : FeCO3 Malachite ore : Cu(OH)2.CuCO3 It is possible to separate two sulphide ores by adjusting proportion of oil to water or by using 'depressants'. In case of an ore containing ZnS and PbS, the depressant used is NaCN. 2",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q5",
+                            "type": "single_correct",
+                            "questionText": "Al2O3 was leached with alkali to get X. The solution of X on passing of gas Y, forms Z. X, Y and Z respectively are :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "X = Na[Al(OH)4], Y = SO2, Z = Al2O3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "X = Na[Al(OH)4], Y = CO2, Z = Al2O3.xH2O",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "X = Al(OH)3, Y = CO2, Z = Al2O3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "X = Al(OH)3, Y = SO2, Z = Al2O3.xH2O",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Al O + 2NaOH + 3H O 2 3(s) (aq.) 2 ( )l 2Na[Al(OH) ] 4 (aq.) X CO 2 Y Al O .xH O + 2NaHCO 2 3 2 (s) 3(aq.) Z So X : Na[Al(OH)4] Y : CO2 Z : Al2O3.xH2O",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q6",
+                            "type": "single_correct",
+                            "questionText": "Which of the following are isostructural pairs ? A. 2 4 SO - and 2 4 CrO - B. SiCl4 and TiCl4 C. NH3 and 3 NO- D. BCl3 and BrCl3 BCl3 and BrCl3",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "C and D only",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "A and B only",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "A and C only",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "B and C only",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Isostructural means same structure (A) SO4 2– S O O O – O – : Tetrahedral CrO4 2– Cr O O O – O – : Tetrahedral (B) SiCl4 Si Cl Cl Cl Cl : Tetrahedral TiCl4 : Tetrahedral Ti Cl Cl Cl Cl (C) NH3 N : Triagonal pyramidal NO3 – : Triagonal planar H H H N O O – O (D) BCl3 Cl Cl B–Cl : Triagonal planar BrCl3 Br : T-shape Cl Cl Cl",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q7",
+                            "type": "single_correct",
+                            "questionText": "What is the final product (major) 'A' in the given reaction ? CH CH3 CH3 OH HCl 'A' (major product)",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "CH3 Cl CH2 CH3",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "CH3 CH CH3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "CH3 CH CH2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "CH3 CH CH3 Cl",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "OH H–Cl OH2 + –H O 2 + 1,2 shift of H – + Cl Cl",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q8",
+                            "type": "single_correct",
+                            "questionText": "In the following reaction the reason why meta-nitro product also formed is : NH2 Conc.HNO3 Conc.H SO , 288K 2 4 NH2 NO2 + NH2 NO2 + NO2 NH2 [A] 51% [B] 47% [C] 2%",
+                            "hasImage": true,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "low temperature",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "–NH2 group is highly meta-directive",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Formation of anilinium ion",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "–NO2 substitution always takes place at meta-position",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "NH2 conc. HNO3 + H SO 2 4 NH3 + (very high –I effect) (Anilinium ion) Aniline on protonation gives anilinium ion which is meta directing. So considerable amount of meta product is formed.",
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/chem_q8.png"
+                        },
+                        {
+                            "id": "chem_q9",
+                            "type": "single_correct",
+                            "questionText": "In Freundlich adsorption isotherm, slope of AB line is : log x m A B log P",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "log n with (n > 1)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "n with (n, 0.1 to 0.5)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "( ) 1 log with n 1 n <",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "1 n with 1 0 to 1 n æ ö = ç ÷ è ø",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "1n x K(P) m = x 1 log logK log P m n æ ö = + ç ÷ è ø y = c + mx m = 1/n so slope will be equal to 1/n. n = ¥ n<1 1<n<¥ x/m P Hence 1 0 1 n £ £",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q10",
+                            "type": "single_correct",
+                            "questionText": "(A) HOCl + H2O2 ® H3O+ + Cl– + O2 (B) I2 + H2O2 + 2OH– ® 2I– + 2H2O + O2 Choose the correct option.",
+                            "hasImage": true,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "H2O2 acts as reducing and oxidising agent respectively in equation (A) and (B)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "H2O2 acts as oxidising agent in equation (A) and (B)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "H2O2 acts as reducing agent in equation (A) and (B)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "H2O2 act as oxidizing and reducing agent respectively in equation (A) and (B)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "In (A) reduction of HOCl occurs so it will be a oxidising agent hence H2O2 will be a reducing agent. In(B) reduction of I2 occurs so it will be a oxidising agent and H2O2 will be a reducing agent. 4",
+                            "marks": 4,
+                            "negativeMarks": -1,
+                            "imageName": "img/chem_q10.png"
+                        },
+                        {
+                            "id": "chem_q11",
+                            "type": "single_correct",
+                            "questionText": "What is the major product formed by HI on reaction with CH3 CH3 C CH CH2 CH3 ? (1) CH3 C CH CH I 2 CH3 CH3 H (2) CH3 C CH CH3 CH3 CH3 I (3) CH3 C CH CH3 CH3 I CH3 (4) CH3 CH CH CH2 CH3 CH3 I Ans (3)",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(1)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(2)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(3)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(4)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "H – I Electrophilic addition + 1,2 shifting of Me – I – I +",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q12",
+                            "type": "single_correct",
+                            "questionText": "Which of the following reagent is used for the following reaction ? ? 3 2 3 3 2 CH CH CH CH CH CHO ¾¾® (1) Manganese acetate (2) Copper at high temperature and pressure (3) Molybdenum oxide (4) Potassium permanganate Ans (3)",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(1)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(2)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(3)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(4)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "CH3–CH2–CH3 2 3 MO O ¾¾¾® CH3–CH2–CH=O The reagent used will be MO2O3",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q13",
+                            "type": "single_correct",
+                            "questionText": "Given below are two statements : Statement I : Colourless cupric metaborate is reduced to cuprous metaborate in a luminous flame. Statement II : Cuprous metaborate is obtained by heating boric anhydride and copper sulphate in a non-luminous flame. In the light of the above statements, choose the most appropriate answer from the options given below.",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Statement I is true but Statement II is false",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Both Statement I and Statement II are false",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Statement I is false but Statement II is true",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Both Statement I and Statement II are true",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "(i) Blue cupric metaborate is reduced to colourless cuprous metaborate in a luminous flame 2Cu(BO2)2 + 2NaBO2 + C ¯ Luminous flame 2CuBO2 + Na2B4O7 + CO (ii) Cupric metaborate is obtained by heating boric anhydride and copper sulphate in a non luminous flame. CuSO + B O 4 2 3 Non-luminous Flame Cu(BO ) + SO 2 2 3 Cupric metaborate (Blue-green)",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q14",
+                            "type": "single_correct",
+                            "questionText": "Out of the following, which type of interaction is responsible for the stabilisation of a-helix structure of proteins ?",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Ionic bonding",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Hydrogen bonding",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Covalent bonding",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "vander Waals forces",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Hydrogen bonding is responsible for the stacking of a-helix structure of protein. 5",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q15",
+                            "type": "single_correct",
+                            "questionText": "Match List I with List II. List I List II (Monomer Unit) (Polymer) (a) Caprolactum (i) Natural rubber (b) 2-Chloro-1,3-butadiene (ii) Buna-N (c) Isoperene (iii) Nylon 6 (d) Acrylonitrile (iv) Neoprene Choose the correct answer from the options given below :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(a) ® (iv), (b) ® (iii), (c) ® (ii), (d) ® (i)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(a) ® (ii), (b) ® (i), (c) ® (iv), (d) ® (iii)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(a) ® (iii), (b) ® (iv), (c) ® (i), (d) ® (ii)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(a) ® (i), (b) ® (ii), (c) ® (iii), (d) ® (iv)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "(a) O NH Caprolactum is the monomeric unit of polymer Nylon-6 —HN – (CH ) – C — 2 5 O n (b) 2-Chlorobuta-1, 3-diene is the monomeric unit of polymer neoprene. (c) 2-Methylbuta-1, 3-diene is the monomeric unit of polymer natural rubber. (d) CH2 = CH – CN (Acrylonitrile) is the one of the monomeric unit of polymer Buna-N",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q16",
+                            "type": "single_correct",
+                            "questionText": "The gas released during anaerobic degradation of vegetation may lead to :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Ozone hole",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Acid rain",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Corrosion of metals",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Global warming and cancer",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "The gas CH4 evolved due to anaerobic degradation of vegetation which causes global warming and cancer.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q17",
+                            "type": "single_correct",
+                            "questionText": "The major components in \"Gun Metal\" are :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Cu, Zn and Ni",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Cu, Sn and Zn",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Al, Cu, Mg and Mn",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Cu, Ni and Fe",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "The major components in \"Gun Metal\" are Cu : 87% Zn : 3% Sn : 10%",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q18",
+                            "type": "single_correct",
+                            "questionText": "The electrode potential of M2+ / M of 3d-series elements shows positive value of :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "Zn",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "Fe",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "Co",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "Cu",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "Only copper shows positive value for electrode potential of M 2+/M of 3d-series elements. 2 (Cu /Cu) E / V : 0.34 + + !",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q19",
+                            "type": "single_correct",
+                            "questionText": "Identify products A and B : CH3 dil. KMnO4 A CrO3 B 273 K (1) A : CH3 OH OH B : CH3 O (2) A : CH3 OH OH B : CH3 OH O (3) A : OHC—CH CH —C—CH 2 2 2 3 CH O B : HOOC—CH CH CH —C—CH 2 2 2 3 O (4) A : CH3 (4) CH3 O OH Sol. dil.KMnO4 273 K HO OH CrO3 OH O (A)",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(1)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(2)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(3)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(4)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "dil.KMnO4 273 K HO OH CrO3 OH O (A) Ans. (2) 6",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q20",
+                            "type": "single_correct",
+                            "questionText": "Which of the following compound gives pink colour on reaction with phthalic anhydride in conc. H2SO4 followed by treatment with NaOH ?",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "CH3 OH",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "HO HO CH3 CH3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "H C 3 HO CH3 OH",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "CH3 HO",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "C O C O O H + • • C O C O HO + + OH EAS C O C O HO OH H + –H O 2 C O C O OH OH EAS C O C O OH OH + OH (Pink colour) –H O 2 (i) (ii)",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "chem_sec_b",
+                    "name": "Section-B (Numerical Value)",
+                    "questions": [
+                        {
+                            "id": "chem_q21",
+                            "type": "numerical",
+                            "questionText": "When 9.45 g of ClCH2COOH is added to 500 mL of water, its freezing point drops by 0.5oC. The dissociation constant of ClCH2COOH is x × 10–3. The value of x is ________. (Rounded off to the nearest integer) é ù ë û 2 -1 f(H O) K = 1.86K kgmol",
+                            "hasImage": false,
+                            "answer": 36,
+                            "explanation": "ClCH2COOH U ClCH2COO ! + H + i = 1 + (2 –1) a i = 1 + a DTf = ikfm ( )( ) 9.45 94.5 0.5 1 1.86 500 1000 æ ö æ ö ç ÷ ç ÷ è ø ç ÷ = + a æ ö ç ÷ ç ÷ ç ÷ è ø è ø 5 1.28 1 3.72 3.72 = + a Þ a = 32 93 a = ClCH2COOH U ClCH2 COO ! + H + C–Ca Ca Ca ( ) 2 2 a C C 0.1 K C 0.2 C C 1 500 /1000 a a = = = = - a - a ( ) ( ) ( ) 2 2 a 0.2 32 / 93 0.2 32 K 1 32 / 93 93 61 ´ = = - ´ = 0.036 Ka = 36 × 10 –3",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q22",
+                            "type": "numerical",
+                            "questionText": "4.5 g of compound A (MW = 90) was used to make 250 mL of its aqueous solution. The molarity of the solution in M is x × 10–1. The value of x is ________. (Rounded off to the nearest integer) Official Ans. by NTA (2) Sol. M 4.5 / 90 = = 0.2 250 /1000 = 2 × 10 –1",
+                            "hasImage": false,
+                            "answer": 2,
+                            "explanation": "M 4.5 / 90 = = 0.2 250 /1000 = 2 × 10 –1 Ans. (2) 7",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q23",
+                            "type": "numerical",
+                            "questionText": "At 1990 K and 1 atm pressure, there are equal number of Cl2 molecules and Cl atoms in the reaction mixture. The value KP for the reaction Cl2(g) U 2Cl(g) under the above conditions is x × 10–1. The value of x is _______. (Rounded of to the nearest integer)",
+                            "hasImage": false,
+                            "answer": 5,
+                            "explanation": "Cl2 U 2Cl Let mol of both of Cl2 and Cl is x Cl x 1 P 1 2x 2 = ´ = 2 Cl x 1 P 1 2x 2 = ´ = 2 1 p 1 1 2 K 0.5 5 10 1 2 2 - æ ö ç ÷ è ø = = = Þ ´",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q24",
+                            "type": "numerical",
+                            "questionText": "Number of amphoteric compound among the following is __________ (A) BeO (B) BaO (C) Be(OH)2 (D) Sr(OH)2",
+                            "hasImage": false,
+                            "answer": 2,
+                            "explanation": "Both compounds BeO and Be(OH)2 are amphoteric in nature. and both compounds BaO and Sr(OH)2 are basic in nature.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q25",
+                            "type": "numerical",
+                            "questionText": "The reaction of sulphur in alkaline medium is the below: - 2- - + ® + + 2 8(s) (aq) (aq) 2 3 (aq) 2 ( ) S a OH b S c S O d H O l The values of 'a' is _______. (Integer answer)",
+                            "hasImage": false,
+                            "answer": 12,
+                            "explanation": "16e + S 8S ! 8 ¾® 2– 12H O + S 4S O +24H + 16e 2 8 2 3 ¾® 2 + ! – 2S + 12 H O 8S + 4S O + 24 H 8 2 2 3 ¾® 2 2 + – – for balancing in basic medium add equal number of OH ! that of H + 2S8 + 12H2O + 24OH ! ¾® 8S 2– + 4 S2O8 2– + 24H2O 2S8 + 24OH ! ® 8S 2– + 4S2O8 2– + 12 H2O S8 + 12 OH ! ® 4S 2– + 2S2O8 2– + 6 H2O a = 12",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q26",
+                            "type": "numerical",
+                            "questionText": "For the reaction A(g) ® (B)(g), the value of the equilibrium constant at 300 K and 1 atm is equal to 100.0. The value of DrG for the reaction at 300 K and 1 atm in J mol–1 is – xR, where x is ______ (Rounded of to the nearest integer) (R = 8.31 J mol–1 K–1 and ln 10 = 2.3)",
+                            "hasImage": false,
+                            "answer": 1380,
+                            "explanation": "6. DGo = –RT ln Kp = –R(300) (2) ln(10) = –R(300 × 2 × 2.3) DGo = –1380 R",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q27",
+                            "type": "numerical",
+                            "questionText": "A proton and a Li3+ nucleus are accelerated by the same potential. If lLi and lP denote the de Broglie wavelengths of Li3+ and proton respectively, then the value of l l Li P is x × 10– 1. The value of x is ________. (Rounded off to the nearest integer) (Mass of Li3+ = 8.3 mass of proton)",
+                            "hasImage": false,
+                            "answer": 2,
+                            "explanation": "h 2mqV l = p Li Li p p Li m (e)V m 8.3m m (3e)(V) l = = l 1 Li p 1 1 0.2 2 10 8.3 3 5 - l = = = = ´ l ´",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q28",
+                            "type": "numerical",
+                            "questionText": "The stepwise formation of [Cu(NH3)4]2+ is given below + + + 1 K 2 2 3 3 Cu NH [Cu(NH )] ZZZX YZZZ + + + 2 K 2 2 3 3 3 2 [Cu(NH )] NH [Cu(NH ) ] ZZZX YZZZ + + + 3 K 2 2 3 2 3 3 3 [Cu(NH ) ] NH [Cu(NH ) ] ZZZX YZZZ 4 K 2 2 3 3 3 3 4 [Cu(NH ) ] NH [Cu(NH ) ] + + + ZZZX YZZZ The value of stability constants K1, K2, K3 and K4 are 104, 1.58 × 103, 5 × 102 and 102 respectively. The overall equilibrium constants for dissociation of [Cu(NH3)4]2+ is x × 10–12. The value of x is ________. (Rounded off to the nearest integer)",
+                            "hasImage": false,
+                            "answer": 1,
+                            "explanation": "1 K 2 2 3 3 Cu NH [Cu(NH )] + + + ZZZX YZZZ 2 K 2 2 3 3 3 2 [Cu(NH )] NH [Cu(NH ) ] + + + ZZZX YZZZ 3 K 2 2 3 2 3 3 3 [Cu(NH ) ] NH [Cu(NH ) ] + + + ZZZX YZZZ 4 K 2 2 3 3 3 3 4 [Cu(NH ) ] NH [Cu(NH ) ] + + + ZZZX YZZZ K 2 2 3 3 4 Cu 4NH [Cu(NH ) ] + + + ZZZX YZZ So K = K1 × K2 × K3 × K4 = 10 4 × 1.58 × 10 3 × 5 × 10 2 × 10 2 K = 7.9 × 10 11 Where K ® Equilibrium constant for formation of [Cu(NH3)4] 2+ So equilibrium constant (K') for dissociation of [Cu(NH3)4] 2+ is 1 K 1 K' K = 11 1 K' 7.9 10 = ´ = 1.26 × 10 –12 = (x × 10 –12) So the value of x = 1.26 OMR Ans = 1 (After rounded off to the nearest integer)",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q29",
+                            "type": "numerical",
+                            "questionText": "The coordination number of an atom in a body- centered cubic structure is _______. [Assume that the lattice is made up of atoms.]",
+                            "hasImage": false,
+                            "answer": 8,
+                            "explanation": "8",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "chem_q30",
+                            "type": "numerical",
+                            "questionText": "Gaseous cyclobutene isomerizes to butadiene in a first order process which has a 'k' value of 3.3 × 10–4s–1 at 153oC. The time in minutes it takes for the isomerization to proceed 40 % to completion at this temperature is _____. (Rounded off to the nearest integer)",
+                            "hasImage": false,
+                            "answer": 26,
+                            "explanation": "H C = HC–CH = CH 2 2 Kt = 0 t [A] n [A] l 4 100 3.3 10 t n 60 - æ ö ´ ´ = ç ÷ è ø l t = 1547.956 sec t = 25.799 min 26 min",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "math",
+            "name": "Mathematics",
+            "subsections": [
+                {
+                    "id": "math_sec_a",
+                    "name": "Section-A (Single Correct)",
+                    "questions": [
+                        {
+                            "id": "math_q1",
+                            "type": "single_correct",
+                            "questionText": "The statement among the following that is a tautology is:",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "$A \\lor (A \\land B)$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "$A \\land (A \\lor B)$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "$B \\rightarrow [A \\land (A \\rightarrow B)]$",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "$[A \\land (A \\rightarrow B)] \\rightarrow B$",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "$[A \\land (A \\rightarrow B)] \\rightarrow B \\equiv [A \\land (\\sim A \\lor B)] \\rightarrow B \\equiv [(A \\land \\sim A) \\lor (A \\land B)] \\rightarrow B \\equiv (A \\land B) \\rightarrow B \\equiv \\sim(A \\land B) \\lor B \\equiv \\sim A \\lor \\sim B \\lor B \\equiv \\text{Tautology (T)}.$",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q2",
+                            "type": "single_correct",
+                            "questionText": "A man is walking on a straight line. The arithmetic mean of the reciprocals of the intercepts of this line on the coordinate axes is 1 4 . Three stones A, B and C are placed at the points (1,1), (2, 2) and (4, 4) respectively. Then which of these stones is / are on the path of the man ? (1) A only (2) C only (3) All the three (4) B only Ans (4) Sol. Let the line be y = mx + c x-intercept : c m - y-intercept : c A.M of reciprocals of the intercepts : m 1 1 c c 2(1 m) c 2 4 - + = Þ - = line : y = mx + 2(1 – m) = c Þ (y – 2) – m(x – 2) = 0 Þ line always passes through (2, 2)",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(1)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(2)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(3)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(4)",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "Let the line be y = mx + c x-intercept : c m - y-intercept : c A.M of reciprocals of the intercepts : m 1 1 c c 2(1 m) c 2 4 - + = Þ - = line : y = mx + 2(1 – m) = c Þ (y – 2) – m(x – 2) = 0 Þ line always passes through (2, 2) Ans. 4",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q3",
+                            "type": "single_correct",
+                            "questionText": "The equation of the plane passing through the point (1, 2, –3) and perpendicular to the planes 3x + y – 2z = 5 and 2x – 5y – z = 7, is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "3x – 10y – 2z + 11 = 0",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "6x – 5y – 2z – 2 = 0",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "11x + y + 17z + 38 = 0",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "6x – 5y + 2z + 10 = 0",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Normal vector : ˆ ˆ ˆ i j k ˆ ˆ ˆ 3 1 2 11i j 17k 2 5 1 - = - - + - - So drs of normal to the required plane is <11, 1, 17> plane passes through (1, 2, –3) So eqn of plane : 11(x – 1) + 1(y – 2) + 17(z + 3) = 0 Þ 11x + y + 17z + 38 = 0",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q4",
+                            "type": "single_correct",
+                            "questionText": "The population P = P(t) at time 't' of a certain species follows the differential equation dP dt = 0.5P – 450. If P(0) = 850, then the time at which population becomes zero is :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "loge18",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "loge9",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "e 1 log 18",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "2loge18 2",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "dP dt = 0.5P – 450 Þ t t 0 0 dp dt P 900 2 = - ò ò Þ t t 0 0 t n P(t) 900 2 é ù é ù - = ë û ê ú ë û l MATHEMATIN-A Ans. (4) 2 Þ t n | P(t) 900 | n | P(0) 900 | 2 - - - = l l Þ t n | P(t) 900 | n | 50 | 2 - - = l l for P(t) = 0 Þ 900 t n t 2 n18 50 2 = Þ = l l",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q5",
+                            "type": "single_correct",
+                            "questionText": "The system of linear equations 3x – 2y – kz = 10 2x – 4y – 2z = 6 x + 2y – z = 5m is inconsistent if :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "4 k 3, m 5 = =",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "k 3, m R ¹ Î",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "4 k 3, m ¹ ¹",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "4 k 3, m 5 = ¹",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "3 2 k 2 4 2 0 1 2 1 - - D = - - = - Þ 24 – 2(0) – k(8) = 0 Þ k = 3 x 10 2 3 6 4 2 5m 2 1 - - D = - - - = 10(8) – 2(–10m + 6) – 3(12 + 20m) = 8(4 – 5m) y 3 10 3 2 6 2 1 5m 1 - D = - - = 3(–6 + 10m) + 10(0) – 3(10m – 6) = 0 z 3 2 10 2 4 6 1 2 5m - D = - = 3(–20m – 12) – 2(6 – 10m) + 10(8) = 40m – 32 = 8(5m – 4) for inconsistent k = 3 & 4 m 5 ¹",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q6",
+                            "type": "single_correct",
+                            "questionText": "If ƒ : R ® R is a function defined by 2x 1 ƒ(x) [x 1]cos , 2 - æ ö = - p ç ÷ è ø where [.] denotes the greatest integer function, then ƒ is :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "discontinuous at all integral values of x except at x = 1",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "continuous only at x = 1",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "continuous for every real x",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "discontinuous only at x = l",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "For x = n, n Î Z LHL = x n x n 2x 1 lim ƒ(x) lim[x 1]cos 2 - - ® ® - æ ö = - p ç ÷ è ø = 0 RHL = x n x n 2x 1 lim ƒ(x) lim[x 1]cos 2 + + ® ® - æ ö = - p ç ÷ è ø = 0 ƒ(n) = 0 Þ LHL = RHL = ƒ(n) Þ ƒ(x) is continuous for every real x.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q7",
+                            "type": "single_correct",
+                            "questionText": "The distance of the point (1, 1, 9) from the point of intersection of the line x 3 y 4 z 5 1 2 2 - - - = = and the plane x + y + z = 17 is :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "2 19",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "19 2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "38",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "38",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "Let x 3 y 4 z 5 1 2 2 - - - = = = t Þ x = 3 + t, y = 2t + 4, z = 2t + 5 for point of intersection with x + y + z = 17 3 + t + 2t + 4 + 2t + 5 = 17 Þ 5t = 5 Þ t = 1 Þ point of intersection is (4, 6, 7) distance between (1, 1, 9) and (4, 6, 7) is 9 25 4 38 + + = 3",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q8",
+                            "type": "single_correct",
+                            "questionText": "If the tangent to the curve y = x3 at the point P(t, t3) meets the curve again at Q, then the ordinate of the point which divides PQ inter nally in the ratio 1 : 2 is :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "–2t3",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "0",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "–t3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "2t3",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "Slope of tangent at P(t, t3) = 3 (t,t ) dy dx ù úû = (3x2)x=t = 3t2 So equation tangent at P(t, t3) : y – t3 = 3t2(x – t) for point of intersection with y = x3 x3 – t3 = 3t2x – 3t3 Þ (x – t)(x2 + xt + t2) = 3t2(x – t) for x ¹ t x2 + xt + t2 = 3t2 Þ x2 + xt – 2t2 = 0 Þ (x – t)(x + 2t) = 0 So for Q : x = –2t, Q(–2t, –8t3) ordinate of required point : 3 3 3 2t 8t 2t 2 1 - = - +",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q9",
+                            "type": "single_correct",
+                            "questionText": "If 1 cosx sin x sin x cosx dx asin c b 8 sin2x - - + æ ö = + ç ÷ - è ø ò , where c is a constant of integration, then the ordered pair (a, b) is equal to :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "(–1, 3)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "(3, 1)",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "(1, 3)",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "(1, –3)",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "cosx sin x dx 8 sin2x - - ò 2 cosx sin x dx 9 (sin x cosx) - = - + ò Let sinx + cosx = t 1 2 dt t sin c 3 9 t - = + - ò 1 sin x cosx sin c 3 - + æ ö = + ç ÷ è ø So a = 1, b = 3.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q10",
+                            "type": "single_correct",
+                            "questionText": "The value of – 15C1 + 2.15C2 – 3.15C3 + ...... –15.15C15 + 14C1 + 14C3 + 14C5 + .... + 14C11 is :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "216 – 1",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "213 – 14",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "214",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "213 – 13",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "(– 15C1 + 2.15C2 – 3.15C3 + ......–15.15C15) + (14C1 + 14C3 + .... + 14C11) ( ) 15 r 15 14 14 14 14 14 r 1 3 11 13 3 r 1 ( 1) .r C C C ... C C C = = - + + + + + - å 15 r 14 13 r 1 r 1 ( 1) 15. C 2 14 - = = - + - å = 15(– 14C0 + 14C1 ........– 14C14) + 213 – 14 = 213 – 14",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q11",
+                            "type": "single_correct",
+                            "questionText": "The function 3 2 4x 3x ƒ(x) 2sin x (2x 1)cosx 6 - = - + - :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "increases in 1 , 2 é ö ¥÷ êë ø",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "increases in 1 , 2 æ ù -¥ ç ú è û",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "decreases in 1 , 2 é ö ¥÷ êë ø",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "decreases in 1 , 2 æ ù -¥ ç ú è û",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "3 2 4x 3x ƒ(x) 2sin x (2x 1)cosx 6 - = - + - 2 ƒ'(x) (2x x) 2cosx 2cosx sin x(2x 1) = - - + - - = (2x – 1)(x – sinx) for x > 0, x – sinx > 0 x < 0, x – sinx < 0 for x Î (–¥, 0] È 1 , 2 é ö ¥÷ êë ø , ƒ'(x) ³ 0 for 1 x 0, , ƒ'(x) 0 2 é ù Î £ ê ú ë û Þ ƒ(x) increases in 1 , 2 é ö ¥÷ êë ø . 4",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q12",
+                            "type": "single_correct",
+                            "questionText": "Let ƒ : R ® R be defined as ƒ(x) = 2x – 1 and g : R – {1} ® R be defined as 1 x 2 g(x) x 1 - = - . Then the composition function ƒ(g(x)) is :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "onto but not one-one",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "both one-one and onto",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "one-one but not onto",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "neither one-one nor onto",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "ƒ(g(x)) = 2g(x) – 1 = 2x 1 2 1 2(x 1) - æ ö - ç ÷ - è ø x 1 1 x 1 x 1 = = + - - Range of ƒ(g(x) = ¡ – {1} Range of ƒ(g(x)) is not onto & ƒ(g(x)) is one-one So ƒ(g(x)) is one-one but not onto.",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q13",
+                            "type": "single_correct",
+                            "questionText": "An ordinary dice is rolled for a certain number of times. If the probability of getting an odd number 2 times is equal to the probability of getting an even number 3 times, then the probability of getting an odd number for odd number of times is :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "1 32",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "5 16",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "3 16",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "1 2",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "n n n n n n 2 3 2 3 1 1 C C C C 2 2 æ ö æ ö = Þ = ç ÷ ç ÷ è ø è ø Þ n = 5 Probability of getting an odd number for odd number of times is ( ) 5 5 5 5 5 5 1 3 5 5 1 1 1 1 C C C 5 10 1 2 2 2 2 æ ö æ ö æ ö + + = + + ç ÷ ç ÷ ç ÷ è ø è ø è ø 1 2 =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q14",
+                            "type": "single_correct",
+                            "questionText": "A scientific committee is to be formed from 6 Indians and 8 foreigners, which includes at least 2 Indians and double the number of foreigners as Indians. Then the number of ways, the committee can be formed, is :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "1625",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "575",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "560",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "1050",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "6 8 2 4 6 8 3 6 6 8 4 8 Indians Foreigners Number of ways 2 4 C C 1050 3 6 C C 560 4 8 C C 15 ´ = ´ = ´ = Total number of ways = 1625",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q15",
+                            "type": "single_correct",
+                            "questionText": "The area (in sq. units) of the part of the circle x2 + y2 = 36, which is outside the parabola y2 = 9x, is :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "24 3 3 p +",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "12 3 3 p -",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "24 3 3 p -",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "12 3 3 p +",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "y =4x 2 (3,3 3) Ö x +y = 36 2 2 Required area = 3 6 2 2 0 3 (6) 2 9xdx 36 x dx p´ - - - ò ò 6 2 1 3 x x 36 12 3 2 36 x 18sin 2 6 - æ ö = p - - - + ç ÷ è ø 9 3 36 12 3 2 9 3 2 æ ö = p - - p - p - ç ÷ è ø 24 3 3 = p -",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q16",
+                            "type": "single_correct",
+                            "questionText": "Let p and q be two positive numbers such that p + q = 2 and p4 + q4 = 272. Then p and q are roots of the equation :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "x2 – 2x + 2 = 0",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "x2 – 2x + 8 = 0",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "x2 – 2x + 136 = 0",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "x2 – 2x + 16 = 0",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "Consider (p2 + q2)2 – 2p2q2 = 272 ((p + q)2 – 2pq)2 – 2p2q2 = 272 16 – 16pq + 2p2q2 = 272 (pq)2 – 8pq – 128 = 0 2 (pq) 8pq 128 0 - - = 8 24 pq 16, 8 2 ± = = - \\ pq = 16 \\ Required equation : x2 – (2)x + 16 = 0",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q17",
+                            "type": "single_correct",
+                            "questionText": "Two vertical poles are 150 m apart and the height of one is three times that of the other. If from the middle point of the line joining their feet, an observer finds the angles of elevation of their tops to be complementary, then the height of the shorter pole (in meters) is :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "20 3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "25 3",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "30",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "25",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "h 3h 90–q q q 75 75 h 75 tan 75 3h q = = Þ 2 2 (75) h 3 = h 25 3 m =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q18",
+                            "type": "single_correct",
+                            "questionText": "( ) 2 x 0 3 x 0 sin t dt lim x ® ò is equal to :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "2 3",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "3 2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "0",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "1 15",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "2 x 0 3 2 x 0 x 0 sin t dt (sin x)2x lim lim x 3x + + ® ® = ò x 0 sinx 2 2 lim x 3 3 + ® æ ö = ´ = ç ÷ è ø",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q19",
+                            "type": "single_correct",
+                            "questionText": "If 2 4 6 e (cos x cos x cos x ..... ) log 2 e + + + ¥ satisfies the equation t2 – 9t + 8 = 0, then the value of 2sin x 0 x 2 sinx 3cosx p æ ö < < ç ÷ + è ø is",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "2 3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "3 2",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "3",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "1 2",
+                                    "isCorrect": true
+                                }
+                            ],
+                            "explanation": "2 4 2 2 4 (cos cos ..... ) n cos cos .... e 2 q+ q+ ¥ q+ q+ ¥ = l 2 cot 2 q = Now t2 – 9t + 9 = 0 Þ t = 1, 8 Þ 2 cot 2 2 1,8 cot 0,3 q = Þ q = 0 cot 3 2 p < q < Þ q = Þ 2sin 2 2 1 4 2 sin 3sin 1 3cot q = = = q + q + q",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q20",
+                            "type": "single_correct",
+                            "questionText": "The locus of the mid-point of the line segment joining the focus of the parabola y2 = 4ax to a moving point of the parabola, is another parabola whose directrix is :",
+                            "hasImage": false,
+                            "options": [
+                                {
+                                    "id": "1",
+                                    "text": "a x 2 = -",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "a x 2 =",
+                                    "isCorrect": false
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "x = 0",
+                                    "isCorrect": true
+                                },
+                                {
+                                    "id": "4",
+                                    "text": "x = a",
+                                    "isCorrect": false
+                                }
+                            ],
+                            "explanation": "y x O S(a,0) M(h,k) P(at ,2at) 2 2 at a 2at 0 h , k 2 2 + + = = Þ 2 2h a t a - = and k t a = Þ 2 2 k 2h a a a - = Þ Locus of (h, k) is y2 = a(2x – a) Þ 2 a y 2a x 2 æ ö = - ç ÷ è ø Its directrix is a a x 2 2 - = - Þ x = 0 6",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        }
+                    ]
+                },
+                {
+                    "id": "math_sec_b",
+                    "name": "Section-B (Numerical Value)",
+                    "questions": [
+                        {
+                            "id": "math_q21",
+                            "type": "numerical",
+                            "questionText": "If the least and the largest real values of a, for which the equation z + a|z – 1| + 2i = 0 (z Î C and 1 = - i ) has a solution, are p and q respectively; then 4(p2 + q2) is equal to ____",
+                            "hasImage": false,
+                            "answer": 10,
+                            "explanation": "Put z = x + iy x + iy + a|x + iy – 1| + 2i = 0 Þ 2 2 x (x 1) y i(y 2) 0 0i + a - + + + = + Þ y + 2 = 0 and 2 2 x (x 1) y 0 + a - + = Þ y = – 2 and 2 2 2 x x 2x 5 a = - + Now 2 2 x 5 0, x 2x 5 4 é ù Î ê ú - + ë û \\ 2 5 0, 4 é ù a Îê ú ë û Þ 5 5 , 2 2 é ù aÎ - ê ú ë û \\ 5 5 p ; q 2 2 = - = Þ 2 2 5 5 4(p q ) 4 10 4 4 æ ö + = + = ç ÷ è ø",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q22",
+                            "type": "numerical",
+                            "questionText": "If a a (| x | | x 2 |)dx 22, (a 2) - + - = > ò and [x] denotes the greatest integer £ x, then a a (x [x]) - + ò dx is equal to _______.",
+                            "hasImage": false,
+                            "answer": 3,
+                            "explanation": "0 2 a a 0 2 ( 2x 2)dx (x 2 x)dx (2x 2)dx 22 - - + + + - + - = ò ò ò a 2 a 2 2 0 0 0 x 2x 2x x 2x 22 - - + + - = a2 + 2a + 4 + a2 – 2a – (4 – 4) = 22 2a2 = 18 Þ a = 3 3 3 (x [x])dx ( 3 2 1 1 2) 3 - + = - - - - + + = ò",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q23",
+                            "type": "numerical",
+                            "questionText": "Let A = {n Î N : n is a 3-digit number} B = {9k + 2 : k Î N} and C = {9k + l : k Î N} for some l (0 < l < 9) If the sum of all the elements of the set A Ç (B È C) is 274 × 400, then l is equal to ______.",
+                            "hasImage": false,
+                            "answer": 5,
+                            "explanation": "B and C will contain three digit numbers of the form 9k + 2 and 9k + l respectively. We need to find sum of all elements in the set B È C effectively. Now, S(B È C) = S(B) + S(C) – S(B Ç C) where S(k) denotes sum of elements of set k. Also, B = {101, 109, ......, 992} \\ 100 S(B) (101 992) 54650 2 = + = Case-I : If l = 2 then B Ç C = B \\ S(B È C) = S(B) which is not possible as given sum is 274 × 400 = 109600. Case-II : If l ¹ 2 then B Ç C = f \\ S(B È C) = S(B) + S(C) = 400 × 274 Þ 54650 + 110 k 11 9k 109600 = + = å l Þ 110 110 k 11 k 11 9 k 54950 = = + = å å l Þ ( ) 100 9 11 110 (100) 54950 2 æ ö + + = ç ÷ è ø l Þ 54450 + 100l = 54950 Þ l = 5",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q24",
+                            "type": "numerical",
+                            "questionText": "Let M be any 3 × 3 matrix with entries from the set {0, 1, 2}. The maximum number of such matrices, for which the sum of diagonal elements of MTM is seven, is _______.",
+                            "hasImage": false,
+                            "answer": 540,
+                            "explanation": "é ù é ù ê ú ê ú ê ú ê ú ê ú ê ú ë û ë û a b c a d g d e f b e h g h i c f i a2 + b2 + c2 + d2 + e2 + f2 + g2 + h2 + i2 = 7 Case-I : Seven (1's) and two (0's) 9C2 = 36 Case-II : One (2) and three (1's) and five (0's) = 9! 504 5!3! \\ Total = 540",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q25",
+                            "type": "numerical",
+                            "questionText": "If one of the diameters of the circle x2 + y2 – 2x – 6y + 6 = 0 is a chord of another circle 'C', whose center is at (2, 1), then its radius is ______ .",
+                            "hasImage": false,
+                            "answer": 3,
+                            "explanation": "C (2, 1) (1, 3) 2 r 5 x2 + y2 + 2x – 6y + 6 = 0 center (1, 3) radius = 2 distance between (1, 3) and (2, 1) is 5 \\ ( ) + = 2 2 2 5 (2) r Þ r = 3",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q26",
+                            "type": "numerical",
+                            "questionText": "The minimum value of a for which the equation 4 1 sin x 1 sin x + = a - has at least one solution in 0, 2 p æ ö ç ÷ è ø is _______.",
+                            "hasImage": false,
+                            "answer": 9,
+                            "explanation": "Let ƒ(x) = 1 + - 4 sinx 1 sinx Þ ƒ'(x) = 0 Þ sin x = 2/3 \\ ƒ(x)min = 4 2 / 3 + = - 1 9 1 2 / 3 ƒ(x)max ® ¥ ƒ(x) is continuous function \\ amin = 9",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q27",
+                            "type": "numerical",
+                            "questionText": "n 1 2 n r 1 1 limtan tan 1 r r - ®¥ = ì ü æ ö í ý ç ÷ + + è ø î þ å is equal to ____.",
+                            "hasImage": false,
+                            "answer": 1,
+                            "explanation": "- ®a = æ ö æ ö ç ÷ ç ÷ + + è ø è ø å n 1 n r 1 1 lim tan tan 1 r(r 1) - ®a = æ ö + - æ ö = ç ÷ ç ÷ + + è ø è ø å n 1 n r 1 r 1 r lim tan tan 1 r(r 1) - - ®a = æ ö é ù = + - ç ÷ ë û è ø å n 1 1 n r 1 tan lim tan (r 1) tan (r) - ®¥ æ ö p æ ö = + - ç ÷ ç ÷ è ø è ø 1 n tan lim tan (n 1) 4 = p æ ö = ç ÷ è ø tan 1 4",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q28",
+                            "type": "numerical",
+                            "questionText": "Let three vectors a, b r r and cr be such that cr is coplanar with ar and b, a.c 7 = r r r and b r is perpendicular to cr , where ˆ ˆ ˆ a i j k = - + + r and ˆ ˆ b 2i k = + r , then the value of 2 2 a b c + + r r r is ______.",
+                            "hasImage": false,
+                            "answer": 75,
+                            "explanation": "Let ( ) ( ) c b a b = l ´ ´ r r r r ( ) ( ) ( ) b.b a b.a b = l - r r r r r r ( ) ( ) ˆ ˆ ˆ ˆ ˆ 5 i j k 2i k = l - + + + + ( ) ˆ ˆ ˆ 3i 5j 6k = l - + + c.a 7 3 5 6 7 = Þ l + l + l = r r 1 2 l = \\ ( ) 2 3 5 ˆ ˆ ˆ 2 1 2 i 1 j 3 1 1 k 2 2 - æ ö æ ö - + + + + + + ç ÷ ç ÷ è ø è ø 1 49 2 25 25 50 75 4 4 æ ö = + + = + = ç ÷ è ø",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q29",
+                            "type": "numerical",
+                            "questionText": "Let Bi (i = 1, 2, 3) be three independent events in a sample space. The probability that only B1 occur is a, only B2 occurs is b and only B3 occurs is g. Let p be the probability that none of the events Bi occurs and these 4 probabilities satisfy the equations (a – 2b) p = ab and (b – 3g)p = 2bg (All the probabilities are assumed to lie in the interval (0,1)). Then 1 3 P(B ) P(B ) is equal to______. An.s (6)",
+                            "hasImage": false,
+                            "answer": 0,
+                            "explanation": "Let P(B1) = p1, P(B2) = p2, P(B3) = p3 given that p1(1 – p2)(1 – p3) = a .....(i) p2(1 – p1)(1 – p3) = b .....(ii) p3(1 – p1)(1 – p2) = g .....(iii) and (1 – p1)(1 – p2)(1 – p3) = p .....(iv) Þ 1 1 p 1 p p a = - , 2 2 p 1 p p b = - & 3 3 p 1 p p g = - Also p 3 p 2p p 2 a g b = = a + - g Þ ap – 2ag = 3ag + 6pg Þ ap – 6pg = 5ag Þ 3 1 3 1 1 3 1 3 6p 5p p p 1 p 1 p (1 p )(1 p ) - = - - - - Þ p1 – 6p3 = 0 Þ 1 3 p 6 p =",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        },
+                        {
+                            "id": "math_q30",
+                            "type": "numerical",
+                            "questionText": "Let 3 1 2 P 2 0 3 5 0 - - é ù ê ú = a ê ú ê ú - ë û , where R aÎ . Suppose Q = [qij] is a matrix satisfying PQ = kI3 for some non-zero k Î R. If 23 k q = - and 2 k Q 2 = , 8 then a2 + k 2 is equal to _______.",
+                            "hasImage": false,
+                            "answer": 17,
+                            "explanation": "PQ = kI |P|.|Q| = k 3 Þ |P| =2k ¹ 0 Þ P is an invertible matrix Q PQ = kI \\ Q = kP –1I \\ Q adj.P 2 = Q q23 = k 8 - \\ ( ) 3 4 k k 4 2 8 - a + = - Þ = \\ |P| = 2k Þ k = 10 + 6a ...(i) Put value of k in (i).. we get a =–1",
+                            "marks": 4,
+                            "negativeMarks": -1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
