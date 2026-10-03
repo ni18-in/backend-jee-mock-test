@@ -121,6 +121,14 @@
             "version": 1
         },
         {
+            "id": "2022_p2",
+            "title": "JEE Advanced 2022 - Paper 2",
+            "year": 2022,
+            "description": "Full syllabus paper based on JEE Advanced 2022 pattern.",
+            "filename": "2022_paper_2/2022_paper_2.json",
+            "version": 1
+        },
+        {
             "id": "2021_p1",
             "title": "JEE Advanced 2021 - Paper 1",
             "year": 2021,
