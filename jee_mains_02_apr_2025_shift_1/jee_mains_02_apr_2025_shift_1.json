@@ -357,7 +357,7 @@
                         {
                             "id": "math_q12",
                             "type": "single_correct",
-                            "questionText": "Let $A$ be the set of all functions $f: \\mathbb{Z} \\to \\mathbb{Z}$ and $R$ be a relation on $A$ such that $R = \\{(f,g): f(0) = g(1)$ and $f(1) = g(0)\\}$. Then $R$ is:",
+                            "questionText": "Let $A$ be the set of all functions $f: \\mathbb{Z} \\to \\mathbb{Z}$ and $R$ be a relation on $A$ such that $R = \\{(f,g): f(0) = g(1) \\text{ and } f(1) = g(0)\\}$. Then $R$ is:",
                             "hasImage": false,
                             "options": [
                                 {
