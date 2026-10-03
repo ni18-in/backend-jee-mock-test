@@ -137,6 +137,14 @@
             "version": 1
         },
         {
+            "id": "2021_p2",
+            "title": "JEE Advanced 2021 - Paper 2",
+            "year": 2021,
+            "description": "Full syllabus paper based on JEE Advanced 2021 pattern.",
+            "filename": "2021_paper_2/2021_paper_2.json",
+            "version": 1
+        },
+        {
             "id": "2020_p1",
             "title": "JEE Advanced 2020 - Paper 1",
             "year": 2020,
