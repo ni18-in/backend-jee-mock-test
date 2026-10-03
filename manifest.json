@@ -1,38 +1,6 @@
 {
     "papers": [
         {
-            "id": "2025_mains_apr_03_s2",
-            "title": "JEE Main 2025 Session-2 - 3 April Shift 2",
-            "year": 2025,
-            "filename": "jee_mains_03_apr_2025_shift_2/jee_mains_03_apr_2025_shift_2.json",
-            "description": "JEE Main 2025 Session-2 - 3 April Shift 2.",
-            "version": 1
-        },
-        {
-            "id": "2025_mains_apr_04_s2",
-            "title": "JEE Main 2025 Session-2 - 4 April Shift 2",
-            "year": 2025,
-            "filename": "jee_mains_04_apr_2025_shift_2/jee_mains_04_apr_2025_shift_2.json",
-            "description": "JEE Main 2025 Session-2 - 4 April Shift 2.",
-            "version": 1
-        },
-        {
-            "id": "2021_mains_feb_24_s1",
-            "title": "JEE Mains 2021 - 24 Feb Morning Shift",
-            "year": 2021,
-            "filename": "jee_mains_24_feb_2021_shift_1/jee_mains_24_feb_2021_shift_1.json",
-            "description": "JEE Mains Question Paper 24 February 2021 Morning Shift.",
-            "version": 1
-        },
-        {
-            "id": "2023_mains_apr_15_s1",
-            "title": "JEE Mains 2023 - 15 April Morning Shift",
-            "year": 2023,
-            "filename": "jee_mains_15_apr_2023_shift_1/jee_mains_15_apr_2023_shift_1.json",
-            "description": "JEE Mains Question Paper 15 April 2023 Morning Shift Phase-2.",
-            "version": 1
-        },
-        {
             "id": "2024_mains_jan_27_s1",
             "title": "JEE Mains 2024 - 27 Jan Morning Shift",
             "year": 2024,
