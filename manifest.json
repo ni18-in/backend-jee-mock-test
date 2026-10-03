@@ -1,6 +1,14 @@
 {
     "papers": [
         {
+            "id": "2024_mains_jan_27_s1",
+            "title": "JEE Mains 2024 - 27 Jan Morning Shift",
+            "year": 2024,
+            "filename": "jee_mains_27_jan_2024_shift_1/jee_mains_27_jan_2024_shift_1.json",
+            "description": "JEE Mains Question Paper 27 January 2024 Morning Shift.",
+            "version": 2
+        },
+        {
             "id": "2023_p2",
             "title": "JEE Advanced 2023 - Paper 2",
             "year": 2023,
