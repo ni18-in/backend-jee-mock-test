@@ -388,7 +388,7 @@
         {
           "id": "phy_q17",
           "type": "numerical",
-          "questionText": "In order to measure the internal resistance $r_1$ of a cell of emf $E$, a meter bridge of wire resistance $R_0 = 50\\ \\Omega$, a resistance $R_0/2$, another cell of emf $E/2$ (internal resistance $r$) and a galvanometer $\\text{G}$ are used in a circuit, as shown in the figure. If the null point is found at $l = 72\\text{ cm}$, then the value of $r_1 = ___\\ \\Omega$.",
+          "questionText": "In order to measure the internal resistance $r_1$ of a cell of emf $E$, a meter bridge of wire resistance $R_0 = 50\\ \\Omega$, a resistance $R_0/2$, another cell of emf $E/2$ (internal resistance $r$) and a galvanometer $\\text{G}$ are used in a circuit, as shown in the figure. If the null point is found at $l = 72\\text{ cm}$, then the value of $r_1 =$ ___ $\\Omega$.",
           "hasImage": true,
           "imageName": "img/phy_q17.png",
           "marks": 4,

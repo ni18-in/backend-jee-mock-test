@@ -14,7 +14,7 @@
       "year": 2023,
       "filename": "2023_paper_2/2023_paper_2.json",
       "description": "Full syllabus mock test based on 2023 pattern.",
-      "version": 1
+      "version": 2
     },
     {
       "id": "2024_p2",
@@ -38,7 +38,7 @@
       "year": 2022,
       "filename": "jee_mains_24_jun_2022_shift_2/jee_mains_24_jun_2022_shift_2.json",
       "description": "JEE Main 2022 24 June Evening Shift.",
-      "version": 1
+      "version": 2
     },
     {
       "id": "2025_mains_apr_02_s1",
@@ -158,7 +158,7 @@
       "year": 2022,
       "description": "Full syllabus paper based on JEE Advanced 2022 pattern.",
       "filename": "2022_paper_2/2022_paper_2.json",
-      "version": 1
+      "version": 2
     },
     {
       "id": "2021_p1",
@@ -174,7 +174,7 @@
       "year": 2021,
       "description": "Full syllabus paper based on JEE Advanced 2021 pattern.",
       "filename": "2021_paper_2/2021_paper_2.json",
-      "version": 1
+      "version": 2
     },
     {
       "id": "2021_mains_feb_24_s1",
