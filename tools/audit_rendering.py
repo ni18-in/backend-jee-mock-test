@@ -55,6 +55,22 @@ def check_latex_syntax(field_name, text, q_id, paper_id):
     if '\x08' in text:
         issues.append(f"Raw backspace (\\x08) in {field_name} (likely unescaped \\b...)")
 
+    # Check for raw math commands outside of $...$ or $$...$$
+    no_math = re.sub(r'\$\$[\s\S]*?\$\$', '', text)
+    no_math = re.sub(r'\$[\s\S]*?\$', '', no_math)
+    outside_cmds = re.findall(r'\\([a-zA-Z]{2,})', no_math)
+    math_cmds = [c for c in outside_cmds if c in (
+        'alpha', 'beta', 'gamma', 'delta', 'lambda', 'mu', 'theta', 'pi', 'sigma',
+        'frac', 'sqrt', 'vec', 'hat', 'sum', 'int', 'infty', 'le', 'ge', 'pm', 'times', 'div', 'in', 'ne', 'cup', 'cap'
+    )]
+    if math_cmds:
+        issues.append(f"Unenclosed LaTeX math command(s) \\{math_cmds[:3]} outside $...$ in {field_name}")
+
+    # Check for private use area unicode glyphs (OCR artifact)
+    pua = [c for c in text if 0xe000 <= ord(c) <= 0xf8ff]
+    if pua:
+        issues.append(f"Private Use Area (unmapped font) OCR glyphs ({len(pua)}) in {field_name}")
+
     return issues
 
 def audit():
@@ -135,16 +151,28 @@ def audit():
                                 p_issues.append(f"[{q_id} opt {opt.get('id')}] Missing option image: {opt_img}")
 
         if p_issues:
-            all_paper_issues[p_id] = p_issues
+            all_paper_issues[p_id] = (p.get('comingSoon', False), p_issues)
+
+    published_issues = {pid: iss for pid, (is_draft, iss) in all_paper_issues.items() if not is_draft}
+    draft_issues = {pid: iss for pid, (is_draft, iss) in all_paper_issues.items() if is_draft}
 
     print(f"Audited {len(manifest['papers'])} papers ({total_questions} questions total).")
-    print(f"Papers with issues: {len(all_paper_issues)}")
-    for pid, issues in all_paper_issues.items():
-        print(f"\n--- Paper: {pid} ({len(issues)} issues) ---")
-        for iss in issues[:15]:
-            print(f"  • {iss}")
-        if len(issues) > 15:
-            print(f"  ... and {len(issues) - 15} more issues")
+    print(f"Published active papers with issues: {len(published_issues)}")
+    print(f"Draft papers in preparation (comingSoon) with issues: {len(draft_issues)}")
+
+    if published_issues:
+        print("\n=== PUBLISHED PAPERS REQUIRING ATTENTION ===")
+        for pid, issues in published_issues.items():
+            print(f"\n--- Active Paper: {pid} ({len(issues)} issues) ---")
+            for iss in issues[:15]:
+                print(f"  • {iss}")
+            if len(issues) > 15:
+                print(f"  ... and {len(issues) - 15} more issues")
+
+    if draft_issues:
+        print("\n=== DRAFT PAPERS (comingSoon: true) ===")
+        for pid, issues in draft_issues.items():
+            print(f"  [Draft] {pid}: {len(issues)} formatting/OCR items to be processed before release")
 
 if __name__ == '__main__':
     audit()

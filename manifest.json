@@ -61,8 +61,9 @@
       "title": "JEE Main 2025 Session-2 - 3 April Shift 2",
       "year": 2025,
       "filename": "jee_mains_03_apr_2025_shift_2/jee_mains_03_apr_2025_shift_2.json",
-      "description": "JEE Main 2025 Session-2 3 April Shift 2.",
-      "version": 1
+      "description": "JEE Main 2025 Session-2 3 April Shift 2 (In preparation).",
+      "comingSoon": true,
+      "version": 2
     },
     {
       "id": "2025_mains_apr_04_s1",
@@ -77,8 +78,9 @@
       "title": "JEE Main 2025 Session-2 - 4 April Shift 2",
       "year": 2025,
       "filename": "jee_mains_04_apr_2025_shift_2/jee_mains_04_apr_2025_shift_2.json",
-      "description": "JEE Main 2025 Session-2 4 April Shift 2.",
-      "version": 1
+      "description": "JEE Main 2025 Session-2 4 April Shift 2 (In preparation).",
+      "comingSoon": true,
+      "version": 2
     },
     {
       "id": "2024_mains_jan_29_s1",
@@ -133,8 +135,9 @@
       "title": "JEE Main 2023 Phase-2 - 15 April Morning Shift",
       "year": 2023,
       "filename": "jee_mains_15_apr_2023_shift_1/jee_mains_15_apr_2023_shift_1.json",
-      "description": "JEE Main 2023 Phase-2 15 April Morning Shift.",
-      "version": 1
+      "description": "JEE Main 2023 Phase-2 15 April Morning Shift (In preparation).",
+      "comingSoon": true,
+      "version": 3
     },
     {
       "id": "2007_p2",
@@ -181,8 +184,9 @@
       "title": "JEE Main 2021 - 24 February Morning Shift",
       "year": 2021,
       "filename": "jee_mains_24_feb_2021_shift_1/jee_mains_24_feb_2021_shift_1.json",
-      "description": "JEE Main 2021 24 February Morning Shift.",
-      "version": 1
+      "description": "JEE Main 2021 24 February Morning Shift (In preparation).",
+      "comingSoon": true,
+      "version": 2
     },
     {
       "id": "2020_p1",

@@ -14,7 +14,7 @@
                         {
                             "id": "math_q1",
                             "type": "single_correct",
-                            "questionText": "Let S be the set of all (\\lambda, \\mu) for which the vectors ˆ ˆ ˆ ˆ ˆ ˆ , 2 i j k i j k \\lambda- + + + \\mu and ˆ ˆ ˆ 3 4 5 , i j k - + where \\lambda - \\mu = 5, are coplanar, then ( ) ( ) 2 2 , 80 S \\lambda\\mu\\in \\lambda+ \\mu \\sum is equal to",
+                            "questionText": "Let $S$ be the set of all $(\\lambda, \\mu)$ for which the vectors $\\lambda\\hat{i} - \\hat{j} + \\hat{k}$, $\\hat{i} + 2\\hat{j} + \\mu\\hat{k}$ and $3\\hat{i} - 4\\hat{j} + 5\\hat{k}$, where $\\lambda - \\mu = 5$, are coplanar. Then $80 \\sum_{(\\lambda, \\mu) \\in S} (\\lambda^2 + \\mu^2)$ is equal to",
                             "hasImage": false,
                             "options": [
                                 {
@@ -38,7 +38,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": " 1 1 1 2 0 3 5 4 \\lambda - \\mu = - \\implies \\lambda[10 + 4\\mu] + 1 [5 - 3\\mu] + 1 [-10] = 0 \\implies 4\\lambda\\mu + 10\\lambda - 3\\mu = 5 ...(i) And \\lambda - \\mu = 5 So, by (1) 4(5 + \\mu)\\mu + 10(5 + \\mu) - 3\\mu = 5 \\implies 4\\mu2 + 27\\mu + 45 = 0 \\implies 4\\mu2 + 15\\mu + 12\\mu + 45 = 0 \\implies (4\\mu + 15) - (\\mu + 3) = 0 \\therefore 15 3, 4 - \\mu= - 5 2, 4 \\lambda= \\therefore ( ) ( ) 2 2 225 25 80 80 9 4 16 16 s \\lambda\\mu\\in [ ] \\lambda+ \\mu = + + + [ ] [ ] \\sum 125 80 13 10 229 8 [ ] = + = \\times [ ] [ ] = 2290",
+                            "explanation": "Given vectors are coplanar, so their scalar triple product is zero:\n$$\\begin{vmatrix} \\lambda & -1 & 1 \\\\ 1 & 2 & \\mu \\\\ 3 & -4 & 5 \\end{vmatrix} = 0$$\n$$\\implies \\lambda(10 + 4\\mu) + 1(5 - 3\\mu) + 1(-4 - 6) = 0$$\n$$\\implies 4\\lambda\\mu + 10\\lambda - 3\\mu - 5 = 0 \\quad \\text{--- (1)}$$\n\nGiven $\\lambda - \\mu = 5 \\implies \\lambda = \\mu + 5$.\nSubstituting $\\lambda$ in (1):\n$$4(\\mu + 5)\\mu + 10(\\mu + 5) - 3\\mu - 5 = 0$$\n$$4\\mu^2 + 20\\mu + 10\\mu + 50 - 3\\mu - 5 = 0$$\n$$4\\mu^2 + 27\\mu + 45 = 0$$\n$$4\\mu^2 + 12\\mu + 15\\mu + 45 = 0$$\n$$4\\mu(\\mu + 3) + 15(\\mu + 3) = 0$$\n$$(\\mu + 3)(4\\mu + 15) = 0$$\n$$\\implies \\mu = -3 \\quad \\text{or} \\quad \\mu = -\\frac{15}{4}$$\n\nCorresponding values of $\\lambda$:\n- For $\\mu = -3$: $\\lambda = -3 + 5 = 2$\n- For $\\mu = -\\frac{15}{4}$: $\\lambda = -\\frac{15}{4} + 5 = \\frac{5}{4}$\n\nThus, $S = \\left\\{ (2, -3), \\left(\\frac{5}{4}, -\\frac{15}{4}\\right) \\right\\}$.\n\nNow, evaluating the sum:\n$$\\sum_{(\\lambda, \\mu) \\in S} (\\lambda^2 + \\mu^2) = (2^2 + (-3)^2) + \\left( \\left(\\frac{5}{4}\\right)^2 + \\left(-\\frac{15}{4}\\right)^2 \\right)$$\n$$= (4 + 9) + \\left(\\frac{25 + 225}{16}\\right) = 13 + \\frac{250}{16} = 13 + \\frac{125}{8} = \\frac{229}{8}$$\n\nTherefore,\n$$80 \\sum_{(\\lambda, \\mu) \\in S} (\\lambda^2 + \\mu^2) = 80 \\times \\frac{229}{8} = 10 \\times 229 = 2290.$$\nHence, the correct option is (3) 2290.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
