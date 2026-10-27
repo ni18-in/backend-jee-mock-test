@@ -17,26 +17,26 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "A magnetic dipole experiences a torque of 80 \\sqrt{3} N m when placed in uniform magnetic field in such a way that dipole moment makes angle of 60^\\circ with magnetic field. The potential energy of the dipole is :",
+              "questionText": "A magnetic dipole experiences a torque of $80\\sqrt{3}\\text{ N}\\cdot\\text{m}$ when placed in uniform magnetic field in such a way that dipole moment makes angle of $60^\\circ$ with magnetic field. The potential energy of the dipole is :",
               "options": [
                 {
-                  "id": "1",
-                  "text": "80 J",
+                  "id": "A",
+                  "text": "$80\\text{ J}$",
                   "isCorrect": false
                 },
                 {
-                  "id": "2",
-                  "text": "−40 \\sqrt{3} J",
+                  "id": "B",
+                  "text": "$-40\\sqrt{3}\\text{ J}$",
                   "isCorrect": false
                 },
                 {
-                  "id": "3",
-                  "text": "−60 J",
+                  "id": "C",
+                  "text": "$-60\\text{ J}$",
                   "isCorrect": false
                 },
                 {
-                  "id": "4",
-                  "text": "−80 J",
+                  "id": "D",
+                  "text": "$-80\\text{ J}$",
                   "isCorrect": true
                 }
               ],
@@ -79,27 +79,27 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "Two cylindrical vessels of equal cross sectional area of 2 m 2 contain water upto height 10 m and 6 m , respectively. If the vessels are connected at their bottom then the work done by the force of gravity is : (Density of water is 10 3 kg / m 3 and g = 10 m/s 2 )",
+              "questionText": "Two cylindrical vessels of equal cross sectional area of $2\\text{ m}^2$ contain water upto height $10\\text{ m}$ and $6\\text{ m}$ respectively. The vessels are interconnected by a pipe at the bottom. Work done by the gravity in establishing the new equilibrium level is : (Take $g = 10\\text{ m/s}^2$ and density of water $= 10^3\\text{ kg/m}^3$)",
               "options": [
                 {
-                  "id": "1",
-                  "text": "1 × 10 5 J",
+                  "id": "A",
+                  "text": "$1 \\times 10^5\\text{ J}$",
                   "isCorrect": false
                 },
                 {
-                  "id": "2",
-                  "text": "4 × 10 4 J",
-                  "isCorrect": false
-                },
-                {
-                  "id": "3",
-                  "text": "6 × 10 4 J",
-                  "isCorrect": false
-                },
-                {
-                  "id": "4",
-                  "text": "8 × 10 4 J",
+                  "id": "B",
+                  "text": "$4 \\times 10^4\\text{ J}$",
                   "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "$6 \\times 10^4\\text{ J}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "$8 \\times 10^4\\text{ J}$",
+                  "isCorrect": false
                 }
               ],
               "explanation": "Correct option is (D)."
@@ -110,26 +110,26 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "Width of one of the two slits in a Young's double slit interference experiment is half of the other slit. The ratio of the maximum to the minimum intensity in the interference pattern is :",
+              "questionText": "Width of one of the two slits in a Young's double slit interference experiment is half of the other slit. The ratio of maximum to minimum intensity in the interference pattern is :",
               "options": [
                 {
-                  "id": "1",
-                  "text": "( 2 \\sqrt{2} + 1 ) : ( 2 \\sqrt{2}",
+                  "id": "A",
+                  "text": "$(2\\sqrt{2} + 1) : (2\\sqrt{2} - 1)$",
                   "isCorrect": false
                 },
                 {
-                  "id": "2",
-                  "text": "( 3 + 2 \\sqrt{2} ) −1 : 3 −2 \\sqrt{2} ) ( )",
+                  "id": "B",
+                  "text": "$(3 + 2\\sqrt{2}) : (3 - 2\\sqrt{2})$",
                   "isCorrect": true
                 },
                 {
-                  "id": "3",
-                  "text": "9 : 1",
+                  "id": "C",
+                  "text": "$9 : 1$",
                   "isCorrect": false
                 },
                 {
-                  "id": "4",
-                  "text": "3 : 1",
+                  "id": "D",
+                  "text": "$3 : 1$",
                   "isCorrect": false
                 }
               ],
@@ -265,26 +265,26 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "A monochromatic light of frequency 5 × 10 14 Hz travelling through air, is incident on a medium of refractive index '2'. Wavelength of the refracted light will be :",
+              "questionText": "A monochromatic light of frequency $5 \\times 10^{14}\\text{ Hz}$ travelling through air, is incident on a medium of refractive index $1.5$. The wavelength of the light in the medium is : (Take $c = 3 \\times 10^8\\text{ m/s}$)",
               "options": [
                 {
-                  "id": "1",
-                  "text": "300 nm",
+                  "id": "A",
+                  "text": "$300\\text{ nm}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "$600\\text{ nm}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "$400\\text{ nm}$",
                   "isCorrect": true
                 },
                 {
-                  "id": "2",
-                  "text": "600 nm",
-                  "isCorrect": false
-                },
-                {
-                  "id": "3",
-                  "text": "400 nm",
-                  "isCorrect": false
-                },
-                {
-                  "id": "4",
-                  "text": "500 nm",
+                  "id": "D",
+                  "text": "$500\\text{ nm}$",
                   "isCorrect": false
                 }
               ],
@@ -516,26 +516,26 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "Pressure of an ideal gas, contained in a closed vessel, is increased by 0.4% when heated by 1^\\circC. Its initial temperature must be :",
+              "questionText": "Pressure of an ideal gas, contained in a closed vessel, is increased by $0.4\\%$ when heated by $1^\\circ\\text{C}$. Its initial temperature must be :",
               "options": [
                 {
-                  "id": "1",
-                  "text": "25^\\circC",
+                  "id": "A",
+                  "text": "$25^\\circ\\text{C}$",
                   "isCorrect": false
                 },
                 {
-                  "id": "2",
-                  "text": "2500 K",
+                  "id": "B",
+                  "text": "$2500\\text{ K}$",
                   "isCorrect": false
                 },
                 {
-                  "id": "3",
-                  "text": "250 K",
+                  "id": "C",
+                  "text": "$250\\text{ K}$",
                   "isCorrect": true
                 },
                 {
-                  "id": "4",
-                  "text": "250^\\circC",
+                  "id": "D",
+                  "text": "$250^\\circ\\text{C}$",
                   "isCorrect": false
                 }
               ],
@@ -646,7 +646,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "numerical",
-              "questionText": "Light from a point source in air falls on a spherical glass surface (refractive index, μ = 1. 5 and radius of curvature = 50 cm ). The image is formed at a distance of 200 cm from the glass surface inside the glass. The magnitude of distance of the light source from the glass surface is ______ m.",
+              "questionText": "Light from a point source in air falls on a spherical glass surface (refractive index, $\\mu = 1.5$ and radius of curvature $= 50\\text{ cm}$). The image is formed at a distance of $200\\text{ cm}$ from the glass surface inside the glass. The magnitude of distance of the light source from the glass surface is _______ $\\text{m}$.",
               "answer": 4.0,
               "explanation": "Correct answer is 4."
             },
@@ -666,7 +666,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "numerical",
-              "questionText": "Two cells of emf 1V and 2V and internal resistance 2Ω and 1Ω , respectively, are connected in series with an external resistance of 6 Ω . The total current in the circuit is I 1 . Now the same two cells in parallel configuration are connected to same external resistance. In this case, the total current drawn is I 2 . The value of ( I I 1 ) is x 3 . The value of x is _________ . 2",
+              "questionText": "Two cells of emf $1\\text{ V}$ and $2\\text{ V}$ and internal resistance $2\\ \\Omega$ and $1\\ \\Omega$, respectively, are connected in series with an external resistance $R$. If the current in the circuit is $0.5\\text{ A}$, then $R$ is equal to _______ $\\Omega$.",
               "answer": 4.0,
               "explanation": "Correct answer is 4."
             },
@@ -686,7 +686,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "numerical",
-              "questionText": "A physical quantity C is related to four other quantities p, q, r and s as follows C = pq 2 r 3 √ s The percentage errors in the measurement of p, q, r and s are 1%, 2%, 3% and 2% respectively. The percentage error in the measurement of C will be ______%.",
+              "questionText": "A physical quantity $C$ is related to four other quantities $p, q, r$ and $s$ as follows: $C = \\frac{p q^2}{r^3 \\sqrt{s}}$. The percentage errors of measurement in $p, q, r$ and $s$ are $1\\%, 2\\%, 1\\%$ and $4\\%$ respectively. The maximum percentage error in $C$ is _______ $\\%$.",
               "answer": 15.0,
               "explanation": "Correct answer is 15."
             }
@@ -834,26 +834,26 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "For electron in ' 2 s ' and ' 2 p ' orbitals, the orbital angular momentum values, respectively are :",
+              "questionText": "For electron in '$2s$' and '$2p$' orbitals, the orbital angular momentum values, respectively are :",
               "options": [
                 {
-                  "id": "1",
-                  "text": "\\sqrt{2} h and 0 h 2 π – h",
+                  "id": "A",
+                  "text": "$\\sqrt{2}\\frac{h}{2\\pi}$ and $0$",
                   "isCorrect": false
                 },
                 {
-                  "id": "2",
-                  "text": "and \\sqrt{2} 2 π – h 2 π",
+                  "id": "B",
+                  "text": "$\\frac{h}{2\\pi}$ and $\\sqrt{2}\\frac{h}{2\\pi}$",
                   "isCorrect": false
                 },
                 {
-                  "id": "3",
-                  "text": "0 and \\sqrt{6} – 2 h π",
+                  "id": "C",
+                  "text": "$0$ and $\\sqrt{6}\\frac{h}{2\\pi}$",
                   "isCorrect": false
                 },
                 {
-                  "id": "4",
-                  "text": "0 and \\sqrt{2} 2 π",
+                  "id": "D",
+                  "text": "$0$ and $\\sqrt{2}\\frac{h}{2\\pi}$",
                   "isCorrect": true
                 }
               ],
@@ -1403,25 +1403,25 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "Let f : R → R be a function defined by f(x) = ∥x + 2| −2|x∥ . If m is the number of points of local minima and is the number of n points of local maxima of , then f m + n is",
+              "questionText": "Let $f : \\mathbb{R} \\to \\mathbb{R}$ be a function defined by $f(x) = ||x + 2| - 2|x||$. If $m$ is the number of points of local minima and $n$ is the number of points of local maxima of $f$, then $m + n$ is",
               "options": [
                 {
-                  "id": "1",
+                  "id": "A",
                   "text": "5",
                   "isCorrect": false
                 },
                 {
-                  "id": "2",
+                  "id": "B",
                   "text": "3",
                   "isCorrect": true
                 },
                 {
-                  "id": "3",
+                  "id": "C",
                   "text": "2",
                   "isCorrect": false
                 },
                 {
-                  "id": "4",
+                  "id": "D",
                   "text": "4",
                   "isCorrect": false
                 }
@@ -1434,26 +1434,26 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "Each of the angles β and γ that a given line makes with the positive y − and z− axes, respectively, is half of the angle that this line makes with the positive x− axes. Then the sum of all possible values of the angle β is",
+              "questionText": "Each of the angles $\\beta$ and $\\gamma$ that a given line makes with the positive $y$- and $z$-axes, respectively, is half of the angle that this line makes with the positive $x$-axis. Then the sum of all possible values of the angle $\\beta$ is",
               "options": [
                 {
-                  "id": "1",
-                  "text": "3 π",
+                  "id": "A",
+                  "text": "$\\frac{3\\pi}{4}$",
                   "isCorrect": true
                 },
                 {
-                  "id": "2",
-                  "text": "π 4",
+                  "id": "B",
+                  "text": "$\\frac{\\pi}{4}$",
                   "isCorrect": false
                 },
                 {
-                  "id": "3",
-                  "text": "π",
+                  "id": "C",
+                  "text": "$\\pi$",
                   "isCorrect": false
                 },
                 {
-                  "id": "4",
-                  "text": "3 π 2 2",
+                  "id": "D",
+                  "text": "$\\frac{3\\pi}{2}$",
                   "isCorrect": false
                 }
               ],
@@ -1465,27 +1465,27 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "If the four distinct points (4, 6), (−1, 5), (0, 0) and (k, 3k) lie on a circle of radius r , then 10k + r 2 is equal to",
+              "questionText": "If the four distinct points $(4, 6)$, $(-1, 5)$, $(0, 0)$ and $(k, 3k)$ lie on a circle of radius $r$, then $10k + r^2$ is equal to",
               "options": [
                 {
-                  "id": "1",
+                  "id": "A",
                   "text": "32",
                   "isCorrect": false
                 },
                 {
-                  "id": "2",
+                  "id": "B",
                   "text": "33",
                   "isCorrect": false
                 },
                 {
-                  "id": "3",
+                  "id": "C",
                   "text": "34",
-                  "isCorrect": false
+                  "isCorrect": true
                 },
                 {
-                  "id": "4",
+                  "id": "D",
                   "text": "35",
-                  "isCorrect": true
+                  "isCorrect": false
                 }
               ],
               "explanation": "Correct option is (D)."
@@ -1496,27 +1496,27 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "Let the Mean and Variance of five observations x 1 = 1, x 2 = 3, x 3 = a, x 4 = 7 and x 5 = b, a > b , be 5 and 10 respectively. Then the Variance of the observations n + x n , n = 1, 2, … … . . 5 is",
+              "questionText": "Let the Mean and Variance of five observations $x_1 = 1, x_2 = 3, x_3 = a, x_4 = 7$ and $x_5 = b$, where $a > b$, be $5$ and $10$ respectively. Then the Variance of the observations $n + x_n$, $n = 1, 2, \\dots, 5$ is",
               "options": [
                 {
-                  "id": "1",
+                  "id": "A",
                   "text": "17",
                   "isCorrect": false
                 },
                 {
-                  "id": "2",
-                  "text": "16. 4",
-                  "isCorrect": false
-                },
-                {
-                  "id": "3",
-                  "text": "17. 4",
-                  "isCorrect": false
-                },
-                {
-                  "id": "4",
-                  "text": "16",
+                  "id": "B",
+                  "text": "16.4",
                   "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "17.4",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "16",
+                  "isCorrect": false
                 }
               ],
               "explanation": "Correct option is (D)."
@@ -1527,25 +1527,25 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "Consider the lines x(3 λ + 1) + y(7 λ + 2) = 17 λ + 5 , λ being a parameter, all passing through a point P . One of these lines (say L ) is farthest from the origin. If the distance of L from the point (3, 6) is , then d the value of d 2 is",
+              "questionText": "Consider the lines $x(3\\lambda + 1) + y(7\\lambda + 2) = 17\\lambda + 5$, $\\lambda$ being a parameter, all passing through a point $P$. One of these lines (say $L$) is farthest from the origin. If the distance of $L$ from the point $(3, 6)$ is $d$, then the value of $d^2$ is",
               "options": [
                 {
-                  "id": "1",
+                  "id": "A",
                   "text": "20",
-                  "isCorrect": true
+                  "isCorrect": false
                 },
                 {
-                  "id": "2",
+                  "id": "B",
                   "text": "30",
                   "isCorrect": false
                 },
                 {
-                  "id": "3",
+                  "id": "C",
                   "text": "10",
-                  "isCorrect": false
+                  "isCorrect": true
                 },
                 {
-                  "id": "4",
+                  "id": "D",
                   "text": "15",
                   "isCorrect": false
                 }
@@ -1589,27 +1589,27 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "let the equation x ( x + 2)(12 − k ) = 2 have equal roots. Then the distance of the point ( k , k 2 ) from the line 3 x + 4 y + 5 = 0 is",
+              "questionText": "Let the equation $x(x + 2)(12 - k) = 2$ have equal roots. Then the distance of the point $(k, k^2)$ from the line $3x + 4y + 5 = 0$ is",
               "options": [
                 {
-                  "id": "1",
+                  "id": "A",
                   "text": "15",
-                  "isCorrect": true
-                },
-                {
-                  "id": "2",
-                  "text": "5 \\sqrt{3}",
                   "isCorrect": false
                 },
                 {
-                  "id": "3",
-                  "text": "15 \\sqrt{5}",
+                  "id": "B",
+                  "text": "$5\\sqrt{3}$",
                   "isCorrect": false
                 },
                 {
-                  "id": "4",
+                  "id": "C",
+                  "text": "$15\\sqrt{5}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
                   "text": "12",
-                  "isCorrect": false
+                  "isCorrect": true
                 }
               ],
               "explanation": "Correct option is (A)."
@@ -1620,25 +1620,25 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "Line L 1 of slope 2 and line L 2 of slope 1 2 intersect at the origin O . In the first quadrant, P 1 , P 2 , … . P 12 are 12 points on line L 1 and Q 1 , Q 2 , … . . Q 9 are 9 points on line L 2 . Then the total number of triangles, that can be formed having vertices at three of the 22 points O, P 1 , P 2 , … P 12 , Q 1 , Q 2 , … . Q 9 , is:",
+              "questionText": "Line $L_1$ of slope $2$ and line $L_2$ of slope $\\frac{1}{2}$ intersect at the origin $O$. In the first quadrant, $P_1, P_2, \\dots, P_{12}$ are 12 points on line $L_1$ and $Q_1, Q_2, \\dots, Q_9$ are 9 points on line $L_2$. Then the total number of triangles that can be formed having vertices at three of the 22 points $O, P_1, \\dots, P_{12}, Q_1, \\dots, Q_9$ is:",
               "options": [
                 {
-                  "id": "1",
+                  "id": "A",
                   "text": "1080",
                   "isCorrect": false
                 },
                 {
-                  "id": "2",
+                  "id": "B",
                   "text": "1134",
-                  "isCorrect": true
-                },
-                {
-                  "id": "3",
-                  "text": "1026",
                   "isCorrect": false
                 },
                 {
-                  "id": "4",
+                  "id": "C",
+                  "text": "1026",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
                   "text": "1188",
                   "isCorrect": false
                 }
@@ -1651,26 +1651,26 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "The integral ∫ π 8 xdx 2 is equal to 0 4 cos 2 x + sin x",
+              "questionText": "The integral $\\int_0^\\pi \\frac{8x\\,dx}{4\\cos^2 x + \\sin^2 x}$ is equal to",
               "options": [
                 {
-                  "id": "1",
-                  "text": "2 π 2",
+                  "id": "A",
+                  "text": "$2\\pi^2$",
                   "isCorrect": true
                 },
                 {
-                  "id": "2",
-                  "text": "4 π 2",
+                  "id": "B",
+                  "text": "$4\\pi^2$",
                   "isCorrect": false
                 },
                 {
-                  "id": "3",
-                  "text": "π 2",
+                  "id": "C",
+                  "text": "$\\pi^2$",
                   "isCorrect": false
                 },
                 {
-                  "id": "4",
-                  "text": "3 π 2 2",
+                  "id": "D",
+                  "text": "$\\frac{3\\pi^2}{2}$",
                   "isCorrect": false
                 }
               ],
@@ -1682,25 +1682,25 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "Let f be a function such that f ( x ) + 3 f ( 24 ) x = 4x, x ≠0 . Then f (3) + f (8) is equal to",
+              "questionText": "Let $f$ be a function such that $f(x) + 3f\\left(\\frac{24}{x}\\right) = 4x, \\ x \\neq 0$. Then $f(3) + f(8)$ is equal to",
               "options": [
                 {
-                  "id": "1",
+                  "id": "A",
                   "text": "11",
                   "isCorrect": true
                 },
                 {
-                  "id": "2",
+                  "id": "B",
                   "text": "10",
                   "isCorrect": false
                 },
                 {
-                  "id": "3",
+                  "id": "C",
                   "text": "12",
                   "isCorrect": false
                 },
                 {
-                  "id": "4",
+                  "id": "D",
                   "text": "13",
                   "isCorrect": false
                 }
@@ -1713,26 +1713,26 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "The area of the region {(x, y) : |x −y| ≤y ≤4 √ − x } is",
+              "questionText": "The area of the region $\\{(x, y) : |x - y| \\le y \\le \\sqrt{4 - x^2}\\}$ is",
               "options": [
                 {
-                  "id": "1",
-                  "text": "512",
+                  "id": "A",
+                  "text": "$\\frac{512}{3}$",
                   "isCorrect": false
                 },
                 {
-                  "id": "2",
-                  "text": "1024 3",
+                  "id": "B",
+                  "text": "$\\frac{1024}{3}$",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "$2\\pi - 2$",
                   "isCorrect": true
                 },
                 {
-                  "id": "3",
-                  "text": "512",
-                  "isCorrect": false
-                },
-                {
-                  "id": "4",
-                  "text": "2048 3 3",
+                  "id": "D",
+                  "text": "$\\frac{2048}{3}$",
                   "isCorrect": false
                 }
               ],
@@ -1744,25 +1744,25 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "If the domain of the function f ( x ) = log 7 ( 1 − log 4 ( x 2 −9 x + 18 )) is ( α , β ) ∪( γ , δ ) , then α + β + γ + δ is equal to",
+              "questionText": "If the domain of the function $f(x) = \\log_7(1 - \\log_4(x^2 - 9x + 18))$ is $(\\alpha, \\beta) \\cup (\\gamma, \\delta)$, then $\\alpha + \\beta + \\gamma + \\delta$ is equal to",
               "options": [
                 {
-                  "id": "1",
+                  "id": "A",
                   "text": "18",
                   "isCorrect": true
                 },
                 {
-                  "id": "2",
+                  "id": "B",
                   "text": "16",
                   "isCorrect": false
                 },
                 {
-                  "id": "3",
+                  "id": "C",
                   "text": "15",
                   "isCorrect": false
                 },
                 {
-                  "id": "4",
+                  "id": "D",
                   "text": "17",
                   "isCorrect": false
                 }
@@ -1868,25 +1868,25 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "The number of solutions of equation 4 − \\sqrt{3} sin x ( ) −2 √cos – 3 2 x = − 4 , x ∈ [ −2 π , 5 π ] is 1+ \\sqrt{3} 2",
+              "questionText": "The number of solutions of the equation $\\frac{4 - \\sqrt{3}\\sin x}{1 + \\sqrt{3}\\cos 2x} = -4, \\ x \\in [-2\\pi, 5\\pi]$ is",
               "options": [
                 {
-                  "id": "1",
+                  "id": "A",
                   "text": "4",
                   "isCorrect": false
                 },
                 {
-                  "id": "2",
+                  "id": "B",
                   "text": "3",
                   "isCorrect": false
                 },
                 {
-                  "id": "3",
+                  "id": "C",
                   "text": "6",
                   "isCorrect": false
                 },
                 {
-                  "id": "4",
+                  "id": "D",
                   "text": "5",
                   "isCorrect": true
                 }
@@ -1899,26 +1899,26 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "Let C be the circle of minimum area enclosing the ellipse E : x 2 + y 2 = 1 with eccentricity 1 and a 2 b 2 2 foci (±2, 0) . Let PQR be a variable triangle, whose vertex P is on the circle C and the side QR of length 29 is parallel to the major axis of E and contains the point of intersection of E with the negative y-axis. Then the maximum area of the triangle PQR is :",
+              "questionText": "Let $C$ be the circle of minimum area enclosing the ellipse $E : \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ with eccentricity $e = \\frac{1}{2}$ and foci $(\\pm 2, 0)$. Let $PQR$ be a variable triangle, whose vertex $P$ lies on the circle $C$ and the side $QR$ of length $2a$ is parallel to the major axis of $E$ and contains the point of intersection of $E$ with the negative $y$-axis. Then the maximum area of the triangle $PQR$ is :",
               "options": [
                 {
-                  "id": "1",
-                  "text": "6 3 + \\sqrt{2}",
+                  "id": "A",
+                  "text": "$6(3 + \\sqrt{2})$",
                   "isCorrect": false
                 },
                 {
-                  "id": "2",
-                  "text": "8 3 + \\sqrt{2} ( ) ( )",
+                  "id": "B",
+                  "text": "$8(3 + \\sqrt{2})$",
                   "isCorrect": false
                 },
                 {
-                  "id": "3",
-                  "text": "6 2 + \\sqrt{3}",
+                  "id": "C",
+                  "text": "$6(2 + \\sqrt{3})$",
                   "isCorrect": false
                 },
                 {
-                  "id": "4",
-                  "text": "8 2 + \\sqrt{3} ( ) ( )",
+                  "id": "D",
+                  "text": "$8(2 + \\sqrt{3})$",
                   "isCorrect": true
                 }
               ],
@@ -1930,26 +1930,26 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "The shortest distance between the curves y 2 = 8x and x 2 + y 2 + 12 y + 35 = 0 is :",
+              "questionText": "The shortest distance between the curves $y^2 = 8x$ and $x^2 + y^2 + 12y + 35 = 0$ is :",
               "options": [
                 {
-                  "id": "1",
-                  "text": "2 \\sqrt{3} −1",
+                  "id": "A",
+                  "text": "$2\\sqrt{3} - 1$",
                   "isCorrect": false
                 },
                 {
-                  "id": "2",
-                  "text": "\\sqrt{2}",
+                  "id": "B",
+                  "text": "$\\sqrt{2}$",
                   "isCorrect": false
                 },
                 {
-                  "id": "3",
-                  "text": "3 \\sqrt{2} −1",
+                  "id": "C",
+                  "text": "$3\\sqrt{2} - 1$",
                   "isCorrect": false
                 },
                 {
-                  "id": "4",
-                  "text": "2 \\sqrt{2} −1",
+                  "id": "D",
+                  "text": "$2\\sqrt{2} - 1$",
                   "isCorrect": true
                 }
               ],
@@ -1961,25 +1961,25 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "The distance of the point (7, 10, 11) from the line x −4 = y −4 = z −2 along the line 1 0 3 x −9 = y −13 = z −17 is 2 3 6",
+              "questionText": "The distance of the point $(7, 10, 11)$ from the line $\\frac{x-4}{1} = \\frac{y-4}{0} = \\frac{z-2}{3}$ along the line $\\frac{x-9}{2} = \\frac{y-13}{3} = \\frac{z-17}{6}$ is",
               "options": [
                 {
-                  "id": "1",
+                  "id": "A",
                   "text": "18",
                   "isCorrect": false
                 },
                 {
-                  "id": "2",
+                  "id": "B",
                   "text": "14",
                   "isCorrect": true
                 },
                 {
-                  "id": "3",
+                  "id": "C",
                   "text": "12",
                   "isCorrect": false
                 },
                 {
-                  "id": "4",
+                  "id": "D",
                   "text": "16",
                   "isCorrect": false
                 }
@@ -1992,27 +1992,27 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "The sum 1 + 1+3 + 1+3+5 + 1+3+5+7 + … 2! 3! 4! upto ∞ terms, is equal to",
+              "questionText": "The sum $1 + \\frac{1+3}{2!} + \\frac{1+3+5}{3!} + \\frac{1+3+5+7}{4!} + \\dots$ up to $\\infty$ terms is equal to",
               "options": [
                 {
-                  "id": "1",
-                  "text": "6e",
+                  "id": "A",
+                  "text": "$6e$",
                   "isCorrect": false
                 },
                 {
-                  "id": "2",
-                  "text": "4e",
+                  "id": "B",
+                  "text": "$4e$",
                   "isCorrect": false
                 },
                 {
-                  "id": "3",
-                  "text": "3e",
-                  "isCorrect": false
-                },
-                {
-                  "id": "4",
-                  "text": "2e",
+                  "id": "C",
+                  "text": "$3e$",
                   "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "$2e$",
+                  "isCorrect": false
                 }
               ],
               "explanation": "Correct option is (D)."
@@ -2029,7 +2029,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "numerical",
-              "questionText": "Let I be the identity matrix of order 3 × 3 and ⎡ λ 2 3 ⎤ for the matrix A = ⎢ 4 5 6 ⎥ , |A| = −1 . ⎣ 7 −1 2 ⎦ Let B be the inverse of the matrix adj ( A adj ( A 2 ) ). Then |( λB + I )| is equal to ______",
+              "questionText": "Let $I$ be the identity matrix of order $3 \\times 3$ and for the matrix $A = \\begin{bmatrix} \\lambda & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & -1 & 2 \\end{bmatrix}$, $|A| = -1$. Let $B$ be the inverse of the matrix $\\operatorname{adj}(A \\operatorname{adj}(A^2))$. Then $|(\\lambda B + I)|$ is equal to _______.",
               "answer": 38.0,
               "explanation": "Correct answer is 38."
             },
@@ -2039,7 +2039,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "numerical",
-              "questionText": "Let ( 1 + x + x 2 ) 10 = a 0 + a 1 x + a 2 x 2 + … . . If +a 20 x 20 ( a 1 + a 3 + a 5 + … . + a 19 ) −11 a 2 = 121k , then k is equal to _______.",
+              "questionText": "Let $(1 + x + x^2)^{10} = a_0 + a_1 x + a_2 x^2 + \\dots + a_{20} x^{20}$. If $(a_1 + a_3 + a_5 + \\dots + a_{19}) - 11a_2 = 121k$, then $k$ is equal to _______.",
               "answer": 239.0,
               "explanation": "Correct answer is 239."
             },
@@ -2049,7 +2049,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "numerical",
-              "questionText": "If Lim x →0 tan x ) x 1 2 = p , then 96 log p is ( x e equal to ̱______",
+              "questionText": "If $\\lim_{x \\to 0} \\left(\\frac{\\tan x}{x}\\right)^{\\frac{1}{x^2}} = p$, then $96 \\log_e p$ is equal to _______.",
               "answer": 32.0,
               "explanation": "Correct answer is 32."
             },
@@ -2059,7 +2059,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "numerical",
-              "questionText": "Let → a = ˆ i + 2 ˆ j + ˆ k , b = 3 ˆ i −3 ˆ j + 3 ˆ k , → c ˆ ˆ ˆ → = 2 i − j + 2 k and d be a vector such → → → → → → that b × d = c × d and a ⋅ d = 4 . Then ∣ → →∣ 2 ∣ ( a × d ) ∣ is equal to _______. ∣ ∣",
+              "questionText": "Let $\\vec{a} = \\hat{i} + 2\\hat{j} + \\hat{k}$, $\\vec{b} = 3\\hat{i} - 3\\hat{j} + 3\\hat{k}$, $\\vec{c} = 2\\hat{i} - \\hat{j} + 2\\hat{k}$ and $\\vec{d}$ be a vector such that $\\vec{b} \\times \\vec{d} = \\vec{c} \\times \\vec{d}$ and $\\vec{a} \\cdot \\vec{d} = 4$. Then $|\\vec{a} \\times \\vec{d}|^2$ is equal to _______.",
               "answer": 128.0,
               "explanation": "Correct answer is 128."
             },
@@ -2069,7 +2069,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "numerical",
-              "questionText": "If the equation of the hyperbola with foci (4, 2) and (8, 2) is 3 x 2 − y 2 − αx + βy + γ = 0 , then α + β + γ is equal to _________ .",
+              "questionText": "If the equation of the hyperbola with foci $(4, 2)$ and $(8, 2)$ is $3x^2 - y^2 - \\alpha x + \\beta y + \\gamma = 0$, then $\\alpha + \\beta + \\gamma$ is equal to _______.",
               "answer": 141.0,
               "explanation": "Correct answer is 141."
             }
