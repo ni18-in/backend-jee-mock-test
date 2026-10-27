@@ -681,7 +681,7 @@
             {
               "id": "math_q25",
               "type": "numerical",
-              "questionText": "Let $P_1$ be a parabola with vertex $(3, 2)$ and focus $(4, 4)$ and $P_2$ be its mirror image with respect to the line $x + 2y = 6$. Then the directrix of $P_2$ is $x + 2y = _____$.",
+              "questionText": "Let $P_1$ be a parabola with vertex $(3, 2)$ and focus $(4, 4)$ and $P_2$ be its mirror image with respect to the line $x + 2y = 6$. Then the directrix of $P_2$ is $x + 2y =$ _____.",
               "hasImage": false,
               "answer": "10",
               "marks": 4,
@@ -2162,7 +2162,7 @@
             {
               "id": "chem_q25",
               "type": "numerical",
-              "questionText": "A company dissolves '$x$' amount of $\\text{CO}_2$ at $298\\text{ K}$ in $1\\text{ litre}$ of water to prepare soda water. $X = _____ \\times 10^{-3}\\text{ g}$. (nearest integer)\n(Given: partial pressure of $\\text{CO}_2$ at $298\\text{ K} = 0.835\\text{ bar}$. Henry's law constant for $\\text{CO}_2$ at $298\\text{ K} = 1.67\\text{ kbar}$. Atomic mass of H, C and O is $1, 12$, and $16\\text{ g mol}^{-1}$, respectively)",
+              "questionText": "A company dissolves '$x$' amount of $\\text{CO}_2$ at $298\\text{ K}$ in $1\\text{ litre}$ of water to prepare soda water. $X =$ _____ $\\times 10^{-3}\\text{ g}$. (nearest integer)\n(Given: partial pressure of $\\text{CO}_2$ at $298\\text{ K} = 0.835\\text{ bar}$. Henry's law constant for $\\text{CO}_2$ at $298\\text{ K} = 1.67\\text{ kbar}$. Atomic mass of H, C and O is $1, 12$, and $16\\text{ g mol}^{-1}$, respectively)",
               "hasImage": false,
               "answer": "1221",
               "marks": 4,
