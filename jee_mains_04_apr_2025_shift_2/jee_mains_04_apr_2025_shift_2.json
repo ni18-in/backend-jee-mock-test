@@ -49,27 +49,27 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "There are ‘n’ number of identical electric bulbs, each is designed to draw a power p independently from the mains supply. They are now joined in series across the main supply. The total power drawn by the combination is :",
+              "questionText": "There are '$n$' number of identical electric bulbs, each is designed to draw a power $p$ independently from the mains supply. They are now joined in series across the main supply. The total power drawn by the combination is :",
               "options": [
                 {
                   "id": "1",
-                  "text": "np",
+                  "text": "$np$",
                   "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "p n 2",
+                  "text": "$\\frac{p}{n^2}$",
                   "isCorrect": false
                 },
                 {
                   "id": "3",
-                  "text": "p",
-                  "isCorrect": true
+                  "text": "$p$",
+                  "isCorrect": false
                 },
                 {
                   "id": "4",
-                  "text": "p n",
-                  "isCorrect": false
+                  "text": "$\\frac{p}{n}$",
+                  "isCorrect": true
                 }
               ],
               "explanation": "Correct option is (C)."
@@ -206,21 +206,21 @@
               "hasImage": true,
               "imageName": "img/phys_q7.png",
               "type": "single_correct",
-              "questionText": "A metallic ring is uniformly charged as shown in figure. AC and BD are two mutually perpendicular diameters. Electric field due to arc AB to ‘O’ is ‘E’ is magnitude. What would be the magnitude of electric field at ‘O’ due to arc ABC ?",
+              "questionText": "A metallic ring is uniformly charged as shown in figure. $AC$ and $BD$ are two mutually perpendicular diameters. Electric field due to arc $AB$ at $O$ has magnitude $E$. What would be the magnitude of electric field at $O$ due to arc $ABC$ ?",
               "options": [
                 {
                   "id": "1",
-                  "text": "2E",
+                  "text": "$2E$",
                   "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "\\sqrt{2} E",
+                  "text": "$\\sqrt{2}E$",
                   "isCorrect": true
                 },
                 {
                   "id": "3",
-                  "text": "E/2",
+                  "text": "$E/2$",
                   "isCorrect": false
                 },
                 {
@@ -268,27 +268,27 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "An object is kept at rest at a distance of 3R above the earth’s surface where R is earth’s radius. The minimum speed with which it must be projected so that it does not return to earth is : (Assume M = mass of earth, G = Universal gravitational constant) −− − −− −",
+              "questionText": "The escape velocity of a body from the surface of the earth is $v_e = \\sqrt{\\frac{2GM}{R}}$. If the radius of the earth is doubled keeping its mass constant, then the new escape velocity will be :",
               "options": [
                 {
                   "id": "1",
-                  "text": "√ GM 2R",
-                  "isCorrect": true
+                  "text": "$v_e$",
+                  "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "√ GM R −− −− −− −−",
+                  "text": "$\\frac{v_e}{2}$",
                   "isCorrect": false
                 },
                 {
                   "id": "3",
-                  "text": "\\sqrt{3} GM R",
+                  "text": "$\\sqrt{\\frac{3GM}{R}}$",
                   "isCorrect": false
                 },
                 {
                   "id": "4",
-                  "text": "\\sqrt{2} GM R",
-                  "isCorrect": false
+                  "text": "$\\frac{v_e}{\\sqrt{2}}$",
+                  "isCorrect": true
                 }
               ],
               "explanation": "Correct option is (A)."
@@ -363,26 +363,26 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "A wheel is rolling on a plane surface. The speed of a particle on the highest point of the rim is 8 m/s . The speed of the particle on the rim of the wheel at the same level as the centre of wheel, will be :",
+              "questionText": "A particle executes simple harmonic motion of amplitude $A$. At what distance from the mean position is its kinetic energy equal to its potential energy?",
               "options": [
                 {
                   "id": "1",
-                  "text": "4 \\sqrt{2} m/s",
+                  "text": "$\\frac{A}{\\sqrt{2}}$",
                   "isCorrect": true
                 },
                 {
                   "id": "2",
-                  "text": "8 m/s",
+                  "text": "$\\frac{A}{2}$",
                   "isCorrect": false
                 },
                 {
                   "id": "3",
-                  "text": "4 m/s",
+                  "text": "$\\frac{A}{4}$",
                   "isCorrect": false
                 },
                 {
                   "id": "4",
-                  "text": "8 \\sqrt{2} m/s",
+                  "text": "$\\frac{\\sqrt{3}A}{2}$",
                   "isCorrect": false
                 }
               ],
@@ -425,7 +425,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "A block of mass 25 kg is pulled along a horizontal surface by a force at an angle 45^\\circ with the horizontal. The friction coefficient between the block and the surface is 0.25. The displacement of 5 m of the block is:",
+              "questionText": "A block of mass 25 kg is pulled along a horizontal surface by a force at an angle $45^\\circ$ with the horizontal. The friction coefficient between the block and the surface is 0.25. The displacement of 5 m of the block is:",
               "options": [
                 {
                   "id": "1",
@@ -1408,7 +1408,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "Let a > 0 . If the function f ( x ) = 6 x 3 −45 ax 2 + 108 a 2 x + 1 attains its local maximum and minimum values at the points x 1 and x 2 respectively such that x 1 x 2 = 54 , then a + x 1 + x 2 is equal to :-",
+              "questionText": "Let $a > 0$. If the function $f(x) = 6x^3 - 45ax^2 + 108a^2x + 1$ attains its local maximum and minimum values at the points $x_1$ and $x_2$ respectively such that $x_1 x_2 = 54$, then $a + x_1 + x_2$ is equal to :",
               "options": [
                 {
                   "id": "1",
@@ -1418,7 +1418,7 @@
                 {
                   "id": "2",
                   "text": "18",
-                  "isCorrect": true
+                  "isCorrect": false
                 },
                 {
                   "id": "3",
@@ -1428,7 +1428,7 @@
                 {
                   "id": "4",
                   "text": "13",
-                  "isCorrect": false
+                  "isCorrect": true
                 }
               ],
               "explanation": "Correct option is (B)."
@@ -1439,17 +1439,17 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "Let f be a differentiable function on R such that f (2) = 1 , f ′ (2) = 4 . Let 3/x lim ( f ( 2 + x ) ) = e α . Then the number of x→0 times the curve y = 4 x 3 −4 x 2 −4 ( α −7 ) x − α meets x -axis is :-",
+              "questionText": "Let $f$ be a differentiable function on $\\mathbb{R}$ such that $f(2) = 1, f'(2) = 4$. Let $\\lim_{x \\to 0} (f(2+x))^{3/x} = e^\\alpha$. Then the number of times the curve $y = 4x^3 - 4x^2 - 4(\\alpha - 7)x - \\alpha$ meets the $x$-axis is :",
               "options": [
                 {
                   "id": "1",
                   "text": "2",
-                  "isCorrect": true
+                  "isCorrect": false
                 },
                 {
                   "id": "2",
                   "text": "1",
-                  "isCorrect": false
+                  "isCorrect": true
                 },
                 {
                   "id": "3",
@@ -1470,26 +1470,26 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "The sum of the infinite series cot −1 ( 7 4 ) + cot −1 ( 19 4 ) + cot −1 ( 39 4 ) . is :- + cot −1 ( 67 4 ) + … .",
+              "questionText": "The sum of the infinite series $\\cot^{-1}\\left(\\frac{7}{4}\\right) + \\cot^{-1}\\left(\\frac{19}{4}\\right) + \\cot^{-1}\\left(\\frac{39}{4}\\right) + \\cot^{-1}\\left(\\frac{67}{4}\\right) + \\dots$ is :",
               "options": [
                 {
                   "id": "1",
-                  "text": "π 2 + tan −1 ( 1 2 )",
+                  "text": "$\\frac{\\pi}{2} + \\tan^{-1}\\left(\\frac{1}{2}\\right)$",
                   "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "π 2 − cot −1 ( 1 2 )",
+                  "text": "$\\frac{\\pi}{2} - \\cot^{-1}\\left(\\frac{1}{2}\\right)$",
                   "isCorrect": false
                 },
                 {
                   "id": "3",
-                  "text": "π 2 + cot −1 ( 1 2 )",
+                  "text": "$\\frac{\\pi}{2} + \\cot^{-1}\\left(\\frac{1}{2}\\right)$",
                   "isCorrect": false
                 },
                 {
                   "id": "4",
-                  "text": "π 2 − tan −1 ( 1 2 )",
+                  "text": "$\\frac{\\pi}{2} - \\tan^{-1}\\left(\\frac{1}{2}\\right)$",
                   "isCorrect": true
                 }
               ],
@@ -1563,7 +1563,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "Let the values of p , for which the shortest distance between the lines x +1 = y = z and 3 4 5 → r = p ˆ i + 2 ˆ j + ˆ k + λ 2 ˆ i + 3 ˆ j + 4 ˆ k is ( ) ( ) 1 , be a, b , (a < b) . Then the length of the \\sqrt{6} latus rectum of the ellipse x 2 + y 2 = 1 is :- a 2 b 2",
+              "questionText": "Let the values of $p$, for which the shortest distance between the lines $\\frac{x+1}{3} = \\frac{y}{4} = \\frac{z}{5}$ and $\\vec{r} = (p\\hat{i} + 2\\hat{j} + \\hat{k}) + \\lambda(2\\hat{i} + 3\\hat{j} + 4\\hat{k})$ is $\\frac{1}{\\sqrt{6}}$, be $a, b \\ (a < b)$. Then the length of the latus rectum of the ellipse $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ is :",
               "options": [
                 {
                   "id": "1",
@@ -1572,17 +1572,17 @@
                 },
                 {
                   "id": "2",
-                  "text": "3 2",
-                  "isCorrect": false
+                  "text": "$\\frac{3}{2}$",
+                  "isCorrect": true
                 },
                 {
                   "id": "3",
                   "text": "2",
-                  "isCorrect": true
+                  "isCorrect": false
                 },
                 {
                   "id": "4",
-                  "text": "18 3",
+                  "text": "6",
                   "isCorrect": false
                 }
               ],
@@ -1594,7 +1594,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "The axis of a parabola is the line y = x and its vertex and focus are in the first quadrant at distances \\sqrt{2} and 2 \\sqrt{2} units from the origin, respectively. If the point (1, k ) lies on the parabola, then a possible value of k is :-",
+              "questionText": "The axis of a parabola is the line $y = x$ and its vertex and focus are in the first quadrant at distances $\\sqrt{2}$ and $2\\sqrt{2}$ units from the origin, respectively. If the point $(1, k)$ lies on the parabola, then a possible value of $k$ is :",
               "options": [
                 {
                   "id": "1",
@@ -1687,7 +1687,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "Let the sum of the focal distances of the point P(4, 3) on the hyperbola H : x 2 − y 2 = 1 be −− a 2 b 2 8 \\sqrt{5} 3 . If for H , the length of the latus rectum is l and the product of the focal distances of the point P is m , then 9 l 2 + 6 m is equal to :-",
+              "questionText": "Let the sum of the focal distances of the point $P(4, 3)$ on the hyperbola $H : \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ be $\\frac{8\\sqrt{5}}{3}$. If for $H$, the length of the latus rectum is $l$ and the product of the focal distances of the point $P$ is $m$, then $9l^2 + 6m$ is equal to :",
               "options": [
                 {
                   "id": "1",
@@ -1697,12 +1697,12 @@
                 {
                   "id": "2",
                   "text": "186",
-                  "isCorrect": false
+                  "isCorrect": true
                 },
                 {
                   "id": "3",
                   "text": "185",
-                  "isCorrect": true
+                  "isCorrect": false
                 },
                 {
                   "id": "4",
@@ -1718,17 +1718,17 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "⎡ 1 0 0 ⎤ Let the matrix A = ⎢ 1 0 1 ⎥ satisfy ⎣ 0 1 0 ⎦ A n = A n−2 + A 2 −I or n ≥3 . Then the sum of all the elements of A 50 is :-",
+              "questionText": "Let the matrix $A = \\begin{bmatrix} 1 & 0 & 0 \\\\ 1 & 0 & 1 \\\\ 0 & 1 & 0 \\end{bmatrix}$ satisfy $A^n = A^{n-2} + A^2 - I$ for $n \\ge 3$. Then the sum of all the elements of $A^{50}$ is :",
               "options": [
                 {
                   "id": "1",
                   "text": "53",
-                  "isCorrect": true
+                  "isCorrect": false
                 },
                 {
                   "id": "2",
                   "text": "52",
-                  "isCorrect": false
+                  "isCorrect": true
                 },
                 {
                   "id": "3",
@@ -1749,7 +1749,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "If the sum of the first 20 terms of the series 4.1 + 4.2 + 4.3 is m , where 4+3. 1 2 + 1 4 4+3. 2 2 + 2 4 4+3. 3 2 + 3 4 n + 4.4 + … 4+3. 4 2 + 4 4 m and n are coprime, then m + n is equal to :-",
+              "questionText": "If the sum of the first 20 terms of the series $\\frac{4 \\cdot 1}{4 + 3 \\cdot 1^2 + 1^4} + \\frac{4 \\cdot 2}{4 + 3 \\cdot 2^2 + 2^4} + \\frac{4 \\cdot 3}{4 + 3 \\cdot 3^2 + 3^4} + \\dots$ is $\\frac{m}{n}$, where $m$ and $n$ are coprime, then $m + n$ is equal to :",
               "options": [
                 {
                   "id": "1",
@@ -1780,7 +1780,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "If 1 2 ⋅ ( 15 C 1 ) + 2 2 ⋅ ( 15 C 2 ) + 3 2 ⋅ ( 15 C 3 ) + … . + 15 2 ⋅ ( 15 C 15 ) = 2 m ⋅ 3 n ⋅ 5 k , where m, n, k ∈N , then m + n + k is equal to :-",
+              "questionText": "If $1^2 \\cdot \\binom{15}{1} + 2^2 \\cdot \\binom{15}{2} + 3^2 \\cdot \\binom{15}{3} + \\dots + 15^2 \\cdot \\binom{15}{15} = 2^m \\cdot 3^n \\cdot 5^k$, where $m, n, k \\in \\mathbb{N}$, then $m + n + k$ is equal to :",
               "options": [
                 {
                   "id": "1",
@@ -1873,26 +1873,26 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "If a curve y = y(x) passes through the point ( 1, π 2 ) and satisfies the differential equation ( 7 x 4 coty − e x cosec y ) dx = x 5 , x ≥1 , then dy at x = 2, the value of cos y is:",
+              "questionText": "If a curve $y = y(x)$ passes through the point $(1, \\frac{\\pi}{2})$ and satisfies the differential equation $(7x^4\\cot y - e^x\\csc y)dx = x^5 dy, \\ x \\ge 1$, then at $x = 2$, the value of $\\cos y$ is :",
               "options": [
                 {
                   "id": "1",
-                  "text": "2 e 2 − e",
+                  "text": "$\\frac{2e^2 - e}{64}$",
                   "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "2 e 2 + e 64 64",
+                  "text": "$\\frac{2e^2 + e}{64}$",
                   "isCorrect": false
                 },
                 {
                   "id": "3",
-                  "text": "2 e 2 − e",
+                  "text": "$\\frac{2e^2 - e}{128}$",
                   "isCorrect": true
                 },
                 {
                   "id": "4",
-                  "text": "2 e 2 + e 128 128",
+                  "text": "$\\frac{2e^2 + e}{128}$",
                   "isCorrect": false
                 }
               ],
@@ -1997,16 +1997,16 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "single_correct",
-              "questionText": "Let the mean and the standard deviation of the observation 2, 3, 3, 4, 5, 7, a, b be 4 and \\sqrt{2} respectively. Then the mean deviation about the mode of these observations is :",
+              "questionText": "Let the mean and the standard deviation of the observations $2, 3, 3, 4, 5, 7, a, b$ be $4$ and $\\sqrt{2}$ respectively. Then the mean deviation about the mode of these observations is :",
               "options": [
                 {
                   "id": "1",
                   "text": "1",
-                  "isCorrect": true
+                  "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "3 4",
+                  "text": "$\\frac{3}{4}$",
                   "isCorrect": false
                 },
                 {
@@ -2016,8 +2016,8 @@
                 },
                 {
                   "id": "4",
-                  "text": "1 2",
-                  "isCorrect": false
+                  "text": "$\\frac{1}{2}$",
+                  "isCorrect": true
                 }
               ],
               "explanation": "Correct option is (A)."
@@ -2034,7 +2034,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "numerical",
-              "questionText": "If α is a root of the equation x 2 + x + 1 = 0 n k 1 2 and ∑ k=1 ( α + k ) = 20 , then n is equal α to ______",
+              "questionText": "If $\\alpha$ is a root of the equation $x^2 + x + 1 = 0$ and $\\sum_{k=1}^n \\left(\\alpha^k + \\frac{1}{\\alpha^k}\\right)^2 = 20$, then $n$ is equal to _______.",
               "answer": 11.0,
               "explanation": "Correct answer is 11."
             },
@@ -2044,7 +2044,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "numerical",
-              "questionText": "If 1+x 2 +x 10 ( √ ) ∫ 9 dx = ( \\sqrt{1}+x 2 −x ) 1 ( √ − 1 + x −−− − 2 + x ) n n √ − 1 + x −−− − 2 −x + C m ( ( )) where C is the constant of integration and m , n ∈ N , then m + n is equal to",
+              "questionText": "If 1+x 2 +x 10 ( √ ) ∫ 9 dx = ( $\\sqrt{1}$+x 2 −x ) 1 ( √ − 1 + x −−− − 2 + x ) n n √ − 1 + x −−− − 2 −x + C m ( ( )) where C is the constant of integration and m , n ∈ N , then m + n is equal to",
               "answer": 379.0,
               "explanation": "Correct answer is 379."
             },
@@ -2064,7 +2064,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "numerical",
-              "questionText": "Let m and n , ( m < n ) be two -digit 2 numbers. Then the total numbers of pairs ( m , n ), such that gcd ( m , n ) = 6 , is _____",
+              "questionText": "Let $m$ and $n$, $(m < n)$ be two 2-digit numbers. Then the total number of pairs $(m, n)$, such that $\\gcd(m, n) = 6$, is _______.",
               "answer": 64.0,
               "explanation": "Correct answer is 64."
             },
@@ -2074,7 +2074,7 @@
               "negativeMarks": -1,
               "hasImage": false,
               "type": "numerical",
-              "questionText": "Let the three sides of a triangle ABC be given by the vectors 2 ˆ i − ˆ j + ˆ k , ˆ i −3 ˆ j −5 ˆ k and 3 ˆ i −4 ˆ j −4 k ˆ . Let G be the centroid of the triangle ABC . Then ∣ −→ −∣ 2 ∣ −→ −∣ 2 ∣ −→ −∣ 2 6 ( ∣AG ∣ + ∣BG ∣ + ∣CG ∣ ) is equal to ∣ ∣ ∣ ∣ ∣ ∣ ________",
+              "questionText": "Let the three sides of a triangle $ABC$ be given by the vectors $2\\hat{i} - \\hat{j} + \\hat{k}$, $\\hat{i} - 3\\hat{j} - 5\\hat{k}$ and $3\\hat{i} - 4\\hat{j} - 4\\hat{k}$. Let $G$ be the centroid of the triangle $ABC$. Then $6(|\\vec{AG}|^2 + |\\vec{BG}|^2 + |\\vec{CG}|^2)$ is equal to _______.",
               "answer": 164.0,
               "explanation": "Correct answer is 164."
             }
