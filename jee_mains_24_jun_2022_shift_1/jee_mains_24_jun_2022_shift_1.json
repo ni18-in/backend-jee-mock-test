@@ -103,7 +103,7 @@
               ],
               "marks": 4,
               "negativeMarks": -1,
-              "explanation": "Writing $a_i=a_1+i-1$, use the two given sums. Their difference gives $n^2/8=1152$, so $n=96$ (the positive even value)."
+              "explanation": "Let $a_i=a+(i-1)$. Then $\\sum_{i=1}^{n}a_i=na+\\frac{n(n-1)}{2}=192$ and $\\sum_{i=1}^{n/2}a_{2i}=\\frac{n}{2}a+\\frac{n^2}{4}=120$. Doubling the second gives $na+\\frac{n^2}{2}=240$; subtracting the first gives $\\frac{n}{2}=48$, so $n=96$."
             },
             {
               "id": "math_q4",
@@ -165,7 +165,7 @@
               ],
               "marks": 4,
               "negativeMarks": -1,
-              "explanation": "On simplifying the trigonometric equation (with $\\tan\\theta$ defined), list the admissible roots in $[-\\pi,\\pi]$. Summing $\\cos2\\theta$ over them and adding their count gives $9$."
+              "explanation": "$\\tan\\theta(\\sin\\theta+1)=2\\sin\\theta\\cos\\theta$ gives $\\sin\\theta\\left[\\sin\\theta+1-2\\cos^2\\theta\\right]=0$ (multiplying by $\\cos\\theta\\neq0$). So $\\sin\\theta=0$: $\\theta=0,\\pm\\pi$; or $2\\sin^2\\theta+\\sin\\theta-1=0$: $\\sin\\theta=\\tfrac12$ ($\\sin\\theta=-1$ excluded), $\\theta=\\tfrac{\\pi}{6},\\tfrac{5\\pi}{6}$. $n(S)=5$, $T=3(1)+2\\left(\\tfrac12\\right)=4$, so $T+n(S)=9$."
             },
             {
               "id": "math_q6",
@@ -449,7 +449,7 @@
             {
               "id": "math_q15",
               "type": "single_correct",
-              "questionText": "The sum of absolute maximum and absolute minimum values of the function $f(x) = 2x^2+3x-2+\\sin x\\cos x$ in the interval $[0,1]$ is",
+              "questionText": "The sum of absolute maximum and absolute minimum values of the function $f(x) = |2x^2+3x-2|+\\sin x\\cos x$ in the interval $[0,1]$ is",
               "hasImage": false,
               "options": [
                 {
@@ -475,7 +475,7 @@
               ],
               "marks": 4,
               "negativeMarks": -1,
-              "explanation": "On $[0,1]$, $f'(x)=4x+3+\\cos2x>0$, so the minimum is $f(0)=-2$ and maximum is $f(1)=3+\\sin1\\cos1$. Their absolute-value sum is $3+\\tfrac12(1+2\\cos1)\\sin1$."
+              "explanation": "$2x^2+3x-2=(2x-1)(x+2)$ is negative on $[0,\\tfrac12)$ and positive on $(\\tfrac12,1]$. On $[0,\\tfrac12]$, $f'(x)=-4x-3+\\cos2x<0$, and on $[\\tfrac12,1]$, $f'(x)=4x+3+\\cos2x>0$. So the minimum is $f(\\tfrac12)=\\tfrac12\\sin1$ and the maximum is $\\max\\{f(0),f(1)\\}=f(1)=3+\\sin1\\cos1$. Sum $=3+\\tfrac12(1+2\\cos1)\\sin1$."
             },
             {
               "id": "math_q16",
@@ -537,7 +537,7 @@
               ],
               "marks": 4,
               "negativeMarks": -1,
-              "explanation": "Rewrite as $dx/dy-(2/y)x=y^2(y+1)e^y$. With integrating factor $y^{-2}$, integration and $x(1)=0$ give $x(y)=y^2(e^y- e)$; hence $x(e)=e^3(e^e-1)$."
+              "explanation": "Rewrite as $\\frac{dx}{dy}-\\frac{2}{y}x=y^2(y+1)e^y$. With integrating factor $y^{-2}$: $\\frac{d}{dy}\\left(\\frac{x}{y^2}\\right)=(y+1)e^y$, so $\\frac{x}{y^2}=ye^y+C$. $x(1)=0$ gives $C=-e$, so $x=y^3e^y-ey^2$ and $x(e)=e^{e+3}-e^3=e^3(e^e-1)$."
             },
             {
               "id": "math_q18",
@@ -609,7 +609,7 @@
               "options": [
                 {
                   "id": "1",
-                  "text": "$\\frac{1}{1320}$",
+                  "text": "1320",
                   "isCorrect": true
                 },
                 {
@@ -630,7 +630,7 @@
               ],
               "marks": 4,
               "negativeMarks": -1,
-              "explanation": "From $3P(0)=P(1)$, $33p/(1-p)=3$, hence $p=1/12$. Substitute this in the binomial probability ratios; their difference simplifies to $1/1320$."
+              "explanation": "From $3P(X=0)=P(X=1)$: $3q^{33}=33pq^{32}$, so $p/q=1/11$, i.e. $p=1/12$. Then $\\frac{P(X=15)}{P(X=18)}=\\frac{\\binom{33}{15}}{\\binom{33}{18}}\\left(\\frac{q}{p}\\right)^3=11^3=1331$ and $\\frac{P(X=16)}{P(X=17)}=\\frac{q}{p}=11$. Difference $=1331-11=1320$."
             }
           ]
         },
@@ -1644,7 +1644,7 @@
               ],
               "marks": 4,
               "negativeMarks": -1,
-              "explanation": "LiCl and MgCl₂ show covalent character and dissolve in ethanol (A, true). Li and Mg do not form superoxides (B, false). LiF has high lattice energy and low solubility (C, true). Li₂O has high lattice energy and is less soluble than other alkali oxides (D, false)."
+              "explanation": "LiCl and $\\text{MgCl}_{2}$ show covalent character and dissolve in ethanol (A, true). Li and Mg do not form superoxides (B, false). LiF has high lattice energy and low solubility (C, true). $\\text{Li}_{2}\\text{O}$ has high lattice energy and is less soluble than other alkali oxides (D, false)."
             },
             {
               "id": "chem_q6",
@@ -1675,7 +1675,7 @@
               ],
               "marks": 4,
               "negativeMarks": -1,
-              "explanation": "B₂H₆ has 4 terminal (equivalent to each other, but different from bridging) and 2 bridging B–H–B bonds (not four), so A and B are false. It is electron-deficient hence a Lewis acid (C, true). It can be made from both BF₃ and NaBH₄ (D, true). It is non-planar due to bridging hydrogens (E, false)."
+              "explanation": "$\\text{B}_{2}\\text{H}_{6}$ has 4 terminal (equivalent to each other, but different from bridging) and 2 bridging B–H–B bonds (not four), so A and B are false. It is electron-deficient hence a Lewis acid (C, true). It can be made from both $\\text{BF}_{3}$ and $\\text{NaBH}_{4}$ (D, true). It is non-planar due to bridging hydrogens (E, false)."
             },
             {
               "id": "chem_q7",
@@ -1690,7 +1690,7 @@
                 },
                 {
                   "id": "2",
-                  "text": "4-(2-oxopropyl)cyclohexan-1-one: $\\text{CH}_3-\\text{CO}-\\text{CH}_2-[\\text{cyclohexane ring}]-\\text{C}(=\\text{O})$",
+                  "text": "4-(2-Oxopropyl)cyclohexan-1-one ($\\text{CH}_3\\text{COCH}_2-$ group at C-4 of cyclohexanone)",
                   "isCorrect": false
                 },
                 {
@@ -1700,7 +1700,7 @@
                 },
                 {
                   "id": "4",
-                  "text": "1-Phenyl-hexane-1,5-dione: phenyl$-\\text{CO}-\\text{CH}_2-\\text{CH}_2-\\text{CO}-\\text{CH}_3$",
+                  "text": "1-Phenylpentane-1,4-dione: $\\text{C}_6\\text{H}_5-\\text{CO}-\\text{CH}_2-\\text{CH}_2-\\text{CO}-\\text{CH}_3$",
                   "isCorrect": false
                 }
               ],
@@ -1835,7 +1835,7 @@
               ],
               "marks": 4,
               "negativeMarks": -1,
-              "explanation": "Use the defining reactions/properties of the four entries in List I and match each with its corresponding entry in List II. The resulting order is $(A)$--$(IV)$, $(B)$--$(III)$, $(C)$--$(II)$, $(D)$--$(I)$."
+              "explanation": "Sphalerite is ZnS, calamine is $\\text{ZnCO}_3$, galena is PbS and siderite is $\\text{FeCO}_3$. So (A)-(IV), (B)-(III), (C)-(II), (D)-(I)."
             },
             {
               "id": "chem_q11",
@@ -1928,7 +1928,7 @@
               ],
               "marks": 4,
               "negativeMarks": -1,
-              "explanation": "Enamel is hydroxyapatite-based (calcium phosphate + fluoride), containing Ca²⁺, PO₄³⁻ (P in the +5 state) and F⁻; P³⁺ is not present."
+              "explanation": "Enamel is hydroxyapatite-based (calcium phosphate + fluoride), containing $\\text{Ca}^{2+}$, $\\text{PO}_{4}^{3-}$ (P in the +5 state) and $\\text{F}^{-}$; $\\text{P}^{3+}$ is not present."
             },
             {
               "id": "chem_q14",
@@ -1995,7 +1995,7 @@
               ],
               "marks": 4,
               "negativeMarks": -1,
-              "explanation": "Match each List-I species/process with its characteristic property in List II. This gives $(A)$--$(III)$, $(B)$--$(IV)$, $(C)$--$(I)$, $(D)$--$(II)$."
+              "explanation": "$[\\text{PtCl}_4]^{2-}$ is square planar ($dsp^2$); $\\text{BrF}_5$ is square pyramidal ($sp^3d^2$); $\\text{PCl}_5$ is trigonal bipyramidal ($sp^3d$); $[\\text{Co}(\\text{NH}_3)_6]^{3+}$ is an inner-orbital octahedral complex ($d^2sp^3$). So (A)-(III), (B)-(IV), (C)-(I), (D)-(II)."
             },
             {
               "id": "chem_q15",
@@ -2005,12 +2005,12 @@
               "options": [
                 {
                   "id": "1",
-                  "text": "1-(amino(4-methoxyphenyl)methyl)cyclohexan-1-ol: $\\text{HO-C}_6\\text{H}_{10}-\\text{CH(NH}_2)-\\text{C}_6\\text{H}_4\\text{OCH}_3$ (amine directly on the ring-adjacent carbon)",
+                  "text": "1-[Amino(4-methoxyphenyl)methyl]cyclohexan-1-ol: $\\text{HO}-\\text{C}_6\\text{H}_{10}-\\text{CH}(\\text{NH}_2)-\\text{C}_6\\text{H}_4\\text{OCH}_3$",
                   "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "amide (not reduced): $\\text{C}_6\\text{H}_4(\\text{OCH}_3)-\\text{CH}(\\text{C}_6\\text{H}_{10})-\\text{CONH}_2$",
+                  "text": "2-Cyclohexyl-2-(4-methoxyphenyl)acetamide: $\\text{C}_6\\text{H}_{11}-\\text{CH}(\\text{C}_6\\text{H}_4\\text{OCH}_3)-\\text{CONH}_2$",
                   "isCorrect": false
                 },
                 {
@@ -2020,14 +2020,14 @@
                 },
                 {
                   "id": "4",
-                  "text": "without the ring hydroxyl: $\\text{C}_6\\text{H}_{10}-\\text{CH}(\\text{C}_6\\text{H}_4\\text{OCH}_3)-\\text{CH}_2\\text{NH}_2$ (no OH)",
+                  "text": "2-Cyclohexyl-2-(4-methoxyphenyl)ethan-1-amine: $\\text{C}_6\\text{H}_{11}-\\text{CH}(\\text{C}_6\\text{H}_4\\text{OCH}_3)-\\text{CH}_2\\text{NH}_2$",
                   "isCorrect": false
                 }
               ],
               "marks": 4,
               "negativeMarks": -1,
               "imageName": "img/chem_q15.png",
-              "explanation": "ArCH₂Br + NaCN gives ArCH₂CN; OH⁻ deprotonates alpha to the nitrile/ring to form a stabilized carbanion which adds to cyclohexanone giving a β-hydroxy nitrile; H₂/Ni then reduces the nitrile to a CH₂NH₂ group without touching the alcohol."
+              "explanation": "$\\text{ArCH}_{2}\\text{Br}$ + NaCN gives $\\text{ArCH}_{2}\\text{CN}$; $\\text{OH}^{-}$ deprotonates alpha to the nitrile/ring to form a stabilized carbanion which adds to cyclohexanone giving a β-hydroxy nitrile; $\\text{H}_{2}$/Ni then reduces the nitrile to a $\\text{CH}_{2}\\text{NH}_{2}$ group without touching the alcohol."
             },
             {
               "id": "chem_q16",
@@ -2038,7 +2038,7 @@
                 {
                   "id": "1",
                   "text": "Both Statement I and Statement II are correct.",
-                  "isCorrect": true
+                  "isCorrect": false
                 },
                 {
                   "id": "2",
@@ -2053,12 +2053,12 @@
                 {
                   "id": "4",
                   "text": "Statement I is incorrect but Statement II is correct.",
-                  "isCorrect": false
+                  "isCorrect": true
                 }
               ],
               "marks": 4,
               "negativeMarks": -1,
-              "explanation": "Even-carbon monocarboxylic acids pack more efficiently in the crystal, so Statement I is true. Their water solubility decreases as the hydrophobic alkyl chain grows, so Statement II is also true. Therefore the correct choice is that both statements are correct."
+              "explanation": "Statement II is correct: as the hydrocarbon chain grows, the hydrophobic part dominates and the water solubility of monocarboxylic acids decreases. The official answer key treats Statement I as incorrect, so the answer is (4). (Note: an even-odd alternation of melting points is described in some texts, so Statement I is debated; the official key is followed here.)"
             },
             {
               "id": "chem_q17",
@@ -2151,7 +2151,7 @@
               ],
               "marks": 4,
               "negativeMarks": -1,
-              "explanation": "Ni²⁺ with dimethylglyoxime in ammoniacal (alkaline) medium gives a characteristic bright (rosy-)red precipitate."
+              "explanation": "$\\text{Ni}^{2+}$ with dimethylglyoxime in ammoniacal (alkaline) medium gives a characteristic bright (rosy-)red precipitate."
             },
             {
               "id": "chem_q20",
@@ -2203,12 +2203,12 @@
             {
               "id": "chem_q22",
               "type": "numerical",
-                            "questionText": "A $0.166\\ \\text{g}$ sample of an organic compound was digested with conc. $\\text{H}_2\\text{SO}_4$ and then distilled with NaOH. The ammonia gas evolved was passed through $30.0\\ \\text{mL}$ of $0.5\\ \\text{N}\\ \\text{H}_2\\text{SO}_4$. The used acid required $30.0\\ \\text{mL}$ of $0.25\\ \\text{N}$ NaOH for complete neutralization. The mass percentage of nitrogen in the organic compound is _____.",
+              "questionText": "A $0.166\\ \\text{g}$ sample of an organic compound was digested with conc. $\\text{H}_2\\text{SO}_4$ and then distilled with NaOH. The ammonia gas evolved was passed through $50.0\\ \\text{mL}$ of $0.5\\ \\text{N}\\ \\text{H}_2\\text{SO}_4$. The used acid required $30.0\\ \\text{mL}$ of $0.25\\ \\text{N}$ NaOH for complete neutralization. The mass percentage of nitrogen in the organic compound is _____.",
               "hasImage": false,
               "answer": "63",
               "marks": 4,
               "negativeMarks": 0,
-              "explanation": "Initial acid equivalents are $0.0500\\times0.5=0.0250$. Back titration shows $0.0300\\times0.25=0.00750$ equivalents remain; the difference corresponds to ammonia and hence nitrogen. This gives $63\\%$ nitrogen by mass."
+              "explanation": "As intended by the official key, the acid used up by ammonia is equivalent to $30.0\\ \\text{mL}$ of $0.25\\ \\text{N}$ NaOH, i.e. $7.5$ meq of $\\text{NH}_3$. Mass of N $=7.5\\times10^{-3}\\times14=0.105\\ \\text{g}$, so $\\%\\text{N}=\\frac{0.105}{0.166}\\times100\\approx63$."
             },
             {
               "id": "chem_q23",
@@ -2219,7 +2219,7 @@
               "marks": 4,
               "negativeMarks": 0,
               "imageName": "img/chem_q23.png",
-              "explanation": "Identify the electron-deficient atoms/bonds in the displayed structure. There are three electrophilic centres, so the required number is $3$."
+              "explanation": "Electrophilic centres: the carbonyl carbon of the ketone, the $\\beta$-carbon of the $\\alpha,\\beta$-unsaturated ketone (conjugate addition site), and the nitrile carbon of $-\\text{CH}_2\\text{CN}$. Total $=3$."
             },
             {
               "id": "chem_q24",
@@ -2229,7 +2229,7 @@
               "answer": "2",
               "marks": 4,
               "negativeMarks": 0,
-              "explanation": "Acid-catalysed cyclisation/rearrangement forms the more stable alkene product. Counting carbon atoms that remain $sp^2$ hybridised in the major product gives $2$."
+              "explanation": "Protonation of one C=C gives a tertiary carbocation, which is attacked intramolecularly by the other C=C to form a six-membered ring; loss of $\\text{H}^+$ gives a cyclic alkene with only one C=C. Hence the major product A has $2$ $sp^2$ carbon atoms."
             },
             {
               "id": "chem_q25",
@@ -2285,7 +2285,7 @@
             {
               "id": "chem_q30",
               "type": "numerical",
-              "questionText": "In the cobalt-carbonyl complex: $[\\text{Co}_2(\\text{CO})_8]$, number of $\\text{Co}-\\text{Co}$ bonds is \\\"X\\\" and terminal CO ligands is \\\"Y\\\". $X + Y =$ _____",
+              "questionText": "In the cobalt-carbonyl complex: $[\\text{Co}_2(\\text{CO})_8]$, number of $\\text{Co}-\\text{Co}$ bonds is \"X\" and terminal CO ligands is \"Y\". $X + Y =$ _____",
               "hasImage": false,
               "answer": "7",
               "marks": 4,

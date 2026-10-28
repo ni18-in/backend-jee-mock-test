@@ -40,7 +40,7 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "a(1-r⁶⁴)/(1-r) = 7a(1-r⁶⁴)/(1-r²). Simplifying gives r = 6.",
+                            "explanation": "Sum of odd terms $= \\frac{a(1-r^{64})}{1-r^2}$. Given $\\frac{a(1-r^{64})}{1-r} = \\frac{7a(1-r^{64})}{1-r^2}$, so $1+r = 7$, i.e. $r = 6$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -71,7 +71,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "a₆=2 ⟹ a+5d=2. f(d)=a₁a₄a₅=(2-5d)(2-2d)(2-d). f'(d)=-2(5d-8)(3d-2)=0. Critical points d=2/3 and d=8/5. f''<0 at d=8/5 ⟹ d=8/5.",
+                            "explanation": "$a_6 = 2 \\Rightarrow a_1 = 2-5d$, $a_4 = 2-2d$, $a_5 = 2-d$. Let $f(d) = (2-5d)(2-2d)(2-d) = 8-32d+34d^2-10d^3$. Then $f'(d) = -2(5d-8)(3d-2) = 0$ gives $d = \\frac{2}{3}$ or $\\frac{8}{5}$, and $f''(d) = 68-60d < 0$ at $d = \\frac{8}{5}$, so the product is greatest for $d = \\frac{8}{5}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -102,7 +102,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "By case (1): x∈φ. By case (2): x∈[-3,0] and x∈[0,1]. Range of f(g(x)) is [0, 1].",
+                            "explanation": "For every $x \\in [-3,1]$, $g(x) \\in [0,3]$ ($g(x) = -x \\in [0,3]$ on $[-3,0]$ and $g(x) = x \\in (0,1]$ on $(0,1]$). On $[0,3]$, $f(t) = 1-\\frac{t}{3}$, so $f(g(x)) = 1-\\frac{g(x)}{3}$ takes all values in $[0,1]$. Range $= [0,1]$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -133,7 +133,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "P = (5/6)(1/6) + (5/6)³(1/6) + ... = (5/36)/(1-25/36) = 5/11.",
+                            "explanation": "$P = \\frac{5}{6}\\cdot\\frac{1}{6} + \\left(\\frac{5}{6}\\right)^3\\frac{1}{6} + \\cdots = \\frac{5/36}{1-25/36} = \\frac{5}{11}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -164,14 +164,14 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "|z+1|=|3/2-2i|=√(9/4+4)=√(25/4)=5/2. Matching real and imaginary: β=2α, α/2+β=9/2 ⟹ α=1, β=2. α+β=3.",
+                            "explanation": "$|z+1| = \\left|\\frac{3}{2}-2i\\right| = \\frac{5}{2}$. Also $\\alpha z + \\beta(1+i) = \\left(\\frac{\\alpha}{2}+\\beta\\right) + i(\\beta-2\\alpha)$. Imaginary part $0 \\Rightarrow \\beta = 2\\alpha$; real part $\\frac{\\alpha}{2}+2\\alpha = \\frac{5}{2} \\Rightarrow \\alpha = 1$, $\\beta = 2$. Hence $\\alpha+\\beta = 3$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "math_q6",
                             "type": "single_correct",
-                            "questionText": "$\\lim_{x \\to \\frac{\\pi}{2}} \\left( \\frac{1}{\\left(x-\\frac{\\pi}{2}\\right)^2} \\int_{x^3}^{\\left(\\frac{\\pi}{2}\\right)^3} \\cos\\left(\\frac{1}{t^3}\\right) dt \\right)$ is equal to:",
+                            "questionText": "$\\lim_{x \\to \\frac{\\pi}{2}} \\left( \\frac{1}{\\left(x-\\frac{\\pi}{2}\\right)^2} \\int_{x^3}^{\\big(\\frac{\\pi}{2}\\big)^3} \\cos\\left(t^{1/3}\\right) dt \\right)$ is equal to:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -195,7 +195,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Using L'Hôpital twice: limit = (3π²/8).",
+                            "explanation": "The limit is of the form $\\frac{0}{0}$. By L'Hospital: $\\lim \\frac{-3x^2\\cos x}{2(x-\\pi/2)}$, again $\\frac{0}{0}$; applying L'Hospital once more: $\\lim \\frac{-(6x\\cos x - 3x^2\\sin x)}{2} = \\frac{3(\\pi/2)^2}{2} = \\frac{3\\pi^2}{8}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -226,7 +226,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "A'(6,4) is reflection of A over y=x. C(-2,-6) is found via 2AB=BC. AD:DC=1:2. α=β=14. α+2β=42.",
+                            "explanation": "Reflection of $A(4,6)$ in $y=x$ is $A'(6,4)$, which lies on BC. The bisector meets AC ($2x-y=2$) at $D(2,2)$, and $AD:DC = AB:BC = 1:2$, so $C = (-2,-6)$. Line $CA'$ has slope $\\frac{5}{4}$; meeting $y=x$ gives $B(14,14)$. So $\\alpha+2\\beta = 42$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -288,7 +288,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "AO=BO ⟹ a=8. AB=8, AC=6, BC=10. α=5, β=24, γ=24. α+β+γ=53.",
+                            "explanation": "AO=BO $\\implies$ a=8. AB=8, AC=6, BC=10. α=5, β=24, γ=24. α+β+γ=53.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -319,7 +319,7 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "Integrand simplifies to (1+sin²x)cosx/(1+sin⁴x). Put sinx=t. Integral = (1/√2)tan⁻¹((t-1/t)/√2)+C. With limit condition C=0. At x=π/4, t=1: y=(1/√2)tan⁻¹(-1/2).",
+                            "explanation": "Multiplying numerator and denominator by $\\sin x\\cos x$: integrand $= \\frac{(1+\\sin^2 x)\\cos x}{1+\\sin^4 x}$. With $t = \\sin x$: $\\int \\frac{1+t^2}{1+t^4}dt = \\frac{1}{\\sqrt{2}}\\tan^{-1}\\left(\\frac{t-1/t}{\\sqrt{2}}\\right) + C$. As $x \\to \\frac{\\pi}{2}^-$, $t \\to 1$ so $C = 0$. At $x = \\frac{\\pi}{4}$, $t = \\frac{1}{\\sqrt{2}}$, $\\frac{t-1/t}{\\sqrt{2}} = -\\frac{1}{2}$, so $y = \\frac{1}{\\sqrt{2}}\\tan^{-1}\\left(-\\frac{1}{2}\\right)$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -350,7 +350,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "4+5tanθ=secθ. Squaring: 24tan²θ+40tanθ+15=0. tanθ=(-10±√10)/12. The value -(10+√10)/12 is rejected. tanα=(√10-10)/12.",
+                            "explanation": "Dividing by $\\cos\\theta$: $4+5\\tan\\theta = \\sec\\theta$. Squaring: $24\\tan^2\\theta + 40\\tan\\theta + 15 = 0$, so $\\tan\\theta = \\frac{-10 \\pm \\sqrt{10}}{12}$. Since $\\sec\\alpha > 0$ we need $4+5\\tan\\alpha > 0$, which rejects $\\frac{-10-\\sqrt{10}}{12}$. Hence $\\tan\\alpha = \\frac{\\sqrt{10}-10}{12}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -381,7 +381,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "dy/dx - (sin2x/(1+cos²x))y = sinx/(1+cos²x). IF=1+cos²x. y(1+cos²x)=∫sinx dx = -cosx+C. f(0)=0 ⟹ C=1. f(π/2)=1.",
+                            "explanation": "$\\frac{dy}{dx} - \\frac{\\sin 2x}{1+\\cos^2 x}y = \\frac{\\sin x}{1+\\cos^2 x}$. I.F. $= 1+\\cos^2 x$, so $y(1+\\cos^2 x) = \\int \\sin x\\,dx = -\\cos x + C$. $f(0) = 0 \\Rightarrow C = 1$. At $x = \\frac{\\pi}{2}$: $f\\left(\\frac{\\pi}{2}\\right) = 1$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -412,7 +412,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "|OA|=3, |OB|=6. C divides AB in 1:2. OC=(2OA+OB)/3... |OC|=√(136)/3=2√34/3.",
+                            "explanation": "$|OA| = 3$, $|OB| = 6$, so C divides AB in the ratio $1:2$: $\\vec{OC} = \\frac{2\\vec{OA}+\\vec{OB}}{3} = \\frac{6\\hat{i}+8\\hat{j}+6\\hat{k}}{3}$. $|OC| = \\frac{\\sqrt{136}}{3} = \\frac{2}{3}\\sqrt{34}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -443,7 +443,7 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "f'(x)=12√2x²-3√2≥0 on [1/2,1]. f(1/2)<0, f(1)>0 ⟹ exactly one root. f(x)=√2(4x³-3x)-1=0 ⟹ cos3α=cos(π/4) ⟹ α=π/12. Both correct.",
+                            "explanation": "$f'(x) = 3\\sqrt{2}(4x^2-1) \\geq 0$ on $\\left[\\frac{1}{2},1\\right]$, $f\\left(\\frac{1}{2}\\right) = -\\sqrt{2}-1 < 0$, $f(1) = \\sqrt{2}-1 > 0$, so exactly one root. Putting $x = \\cos\\theta$: $4x^3-3x = \\cos 3\\theta = \\frac{1}{\\sqrt{2}} \\Rightarrow \\theta = \\frac{\\pi}{12}$, so the root is $x = \\cos\\frac{\\pi}{12}$. Both statements are correct.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -474,7 +474,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "|A|=α²-β². |2A|³=2²¹ ⟹ |A|=2⁴=16. (α+β)(α-β)=16. α=5, β=3 or α=4.",
+                            "explanation": "$|2A| = 8|A|$, so $|2A|^3 = 2^9|A|^3 = 2^{21} \\Rightarrow |A| = 16$. $|A| = \\alpha^2-\\beta^2 = (\\alpha-\\beta)(\\alpha+\\beta) = 16$ gives $(\\alpha,\\beta) = (5,3)$ or $(4,0)$ (up to signs). From the options, $\\alpha = 5$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -505,7 +505,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Centroid G divides MR in 1:2 ⟹ G(1,2,2). Point of intersection A of lines is (2,-6,0). AG=√(1+64+4)=√69.",
+                            "explanation": "Centroid G divides MR in 1:2 $\\implies$ G(1,2,2). Point of intersection A of lines is (2,-6,0). AG=√(1+64+4)=√69.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -536,7 +536,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Reflexive: ab-ba=0 divisible by 5 ✓. Symmetric: if ad-bc div by 5 ⟹ bc-ad div by 5 ✓. Not transitive: (3,1)R(10,5) and (10,5)R(1,1) but (3,1) not related to (1,1).",
+                            "explanation": "Reflexive: ab-ba=0 divisible by 5 ✓. Symmetric: if ad-bc div by 5 $\\implies$ bc-ad div by 5 ✓. Not transitive: (3,1)R(10,5) and (10,5)R(1,1) but (3,1) not related to (1,1).",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -567,7 +567,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Using property of odd/even functions and king's rule: 2I=∫(x²cosx+1+sin²x)dx. On solving: I=π²/4+3π/4-2. Comparing: a=3.",
+                            "explanation": "Using $\\int_{-a}^{a} f(x)dx = \\int_0^a [f(x)+f(-x)]dx$: the first term gives $\\int_0^{\\pi/2} x^2\\cos x\\,dx = \\frac{\\pi^2}{4}-2$; the second term (as $\\sin(x^{2023})$ is odd) gives $\\int_0^{\\pi/2}(1+\\sin^2 x)dx = \\frac{3\\pi}{4}$. So $I = \\frac{\\pi}{4}(\\pi+3) - 2$, hence $a = 3$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -598,7 +598,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "f'(0)=lim_{h→0}[f(h)-f(0)]/h. f(0)=0. Evaluating limit: =lim (2+2⁻ʰ)tanh·√(tan⁻¹(h²-h+1))/(7h²+3h+1)³·(1/h) → √π.",
+                            "explanation": "$f(0) = 0$, so $f'(0) = \\lim_{h \\to 0}\\frac{f(h)}{h} = \\lim_{h \\to 0}\\frac{(2^h+2^{-h})\\frac{\\tan h}{h}\\sqrt{\\tan^{-1}(h^2-h+1)}}{(7h^2+3h+1)^3} = 2\\cdot 1\\cdot\\sqrt{\\frac{\\pi}{4}} = \\sqrt{\\pi}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -629,7 +629,7 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "AAᵀ=I=AᵀA. Expanding: (1/2)A[A²+(Aᵀ)²+2AAᵀ+A²+(Aᵀ)²-2AAᵀ]=A[A²+(Aᵀ)²]=A³+AAᵀA... =A³+Aᵀ.",
+                            "explanation": "$AA^T = A^TA = I$. $(A+A^T)^2 + (A-A^T)^2 = 2A^2 + 2(A^T)^2$. So the expression $= A^3 + A(A^T)^2 = A^3 + (AA^T)A^T = A^3 + A^T$.",
                             "marks": 4,
                             "negativeMarks": -1
                         }
@@ -665,7 +665,7 @@
                             "questionText": "Let $\\alpha, \\beta$ be the roots of the equation $x^2 - x + 2 = 0$ with $\\text{Im}(\\alpha) > \\text{Im}(\\beta)$. Then $\\alpha^6 + \\alpha^4 + \\beta^4 - 5\\alpha^2$ is equal to ___.",
                             "hasImage": false,
                             "answer": 13,
-                            "explanation": "α²=α-2. Systematically reducing: α⁶+α⁴+β⁴-5α² = -3α-3β+16 = -3(α+β)+16 = -3(1)+16 = 13.",
+                            "explanation": "$\\alpha^2 = \\alpha-2$, $\\alpha^3 = -\\alpha-2$, $\\alpha^4 = -3\\alpha+2$, $\\alpha^6 = (\\alpha+2)^2 = 5\\alpha+2$; similarly $\\beta^4 = -3\\beta+2$. Sum $= (5\\alpha+2) + (-3\\alpha+2) + (-3\\beta+2) - 5(\\alpha-2) = -3(\\alpha+\\beta) + 16 = -3 + 16 = 13$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -675,7 +675,7 @@
                             "questionText": "Let $f(x) = 2^x - x^2$, $x \\in \\mathbb{R}$. If $m$ and $n$ are respectively the number of points at which the curves $y = f(x)$ and $y = f'(x)$ intersect the x-axis, then the value of $m + n$ is ___.",
                             "hasImage": false,
                             "answer": 5,
-                            "explanation": "f(x)=2ˣ-x²: intersects x-axis at 3 points. f'(x)=2ˣln2-2x: intersects x-axis at 2 points. m+n=5.",
+                            "explanation": "$2^x = x^2$ has roots $x = 2$, $x = 4$ and one negative root, so $m = 3$. $f'(x) = 2^x\\ln 2 - 2x$ is convex with $f'(0) > 0$, $f'(1) < 0$ and $f'(x) \\to \\infty$ as $x \\to \\infty$, so it has 2 roots: $n = 2$. $m+n = 5$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -685,7 +685,7 @@
                             "questionText": "If the points of intersection of two distinct conics $x^2+y^2=4b$ and $\\frac{x^2}{16}+\\frac{y^2}{b^2}=1$ lie on the curve $y^2=3x^2$, then $3\\sqrt{3}$ times the area of the rectangle formed by the intersection points is ___.",
                             "hasImage": false,
                             "answer": 432,
-                            "explanation": "Substituting y²=3x² into both conics: x²=b and b/16+3/b=1 ⟹ b²-16b+48=0 ⟹ b=4 (rejected, curves coincide) or b=12. Points (±√12, ±6). Area of rectangle=2√12×12=432/√3. 3√3×area=432.",
+                            "explanation": "With $y^2 = 3x^2$: from the circle $4x^2 = 4b \\Rightarrow x^2 = b$, $y^2 = 3b$; in the ellipse $\\frac{b}{16} + \\frac{3}{b} = 1 \\Rightarrow b^2-16b+48 = 0 \\Rightarrow b = 4$ (rejected, the conics coincide) or $b = 12$. Points $(\\pm 2\\sqrt{3}, \\pm 6)$, rectangle area $= 4\\sqrt{3} \\times 12 = 48\\sqrt{3}$. $3\\sqrt{3} \\times 48\\sqrt{3} = 432$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -695,7 +695,7 @@
                             "questionText": "If the solution curve $y = y(x)$ of the differential equation $(1+y^2)(1+\\log_e x)\\,dx + x\\,dy = 0$, $x > 0$, passes through the point $(1,1)$ and $y(e) = \\frac{\\alpha - \\tan(3/2)}{\\beta + \\tan(3/2)}$, then $\\alpha + 2\\beta$ is ___.",
                             "hasImage": false,
                             "answer": 3,
-                            "explanation": "Separating: (1/x+lnx/x)dx + dy/(1+y²)=0. Integrating: lnx+(lnx)²/2 + tan⁻¹y = C. At (1,1): C=π/4. At x=e: 1+1/2+tan⁻¹y=π/4 ⟹ tan⁻¹y=π/4-3/2 ⟹ y=tan(π/4-3/2). α=1, β=1 ⟹ α+2β=3.",
+                            "explanation": "Separating: $\\frac{1+\\ln x}{x}dx + \\frac{dy}{1+y^2} = 0 \\Rightarrow \\ln x + \\frac{(\\ln x)^2}{2} + \\tan^{-1}y = C$. At $(1,1)$: $C = \\frac{\\pi}{4}$. At $x = e$: $\\tan^{-1}y = \\frac{\\pi}{4} - \\frac{3}{2}$, so $y = \\frac{1-\\tan(3/2)}{1+\\tan(3/2)}$. $\\alpha = \\beta = 1$, $\\alpha+2\\beta = 3$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -705,7 +705,7 @@
                             "questionText": "If the mean and variance of the data $65, 68, 58, 44, 48, 45, 60, \\alpha, \\beta, 60$ where $\\alpha > \\beta$ are 56 and 66.2 respectively, then $\\alpha^2 + \\beta^2$ is equal to ___.",
                             "hasImage": false,
                             "answer": 6344,
-                            "explanation": "x̄=56: α+β=112. σ²=66.2: α²+β²+25678/10-(56)²=66.2. α²+β²=6344.",
+                            "explanation": "Mean $56 \\Rightarrow 448 + \\alpha + \\beta = 560 \\Rightarrow \\alpha+\\beta = 112$. Variance: $\\frac{25678 + \\alpha^2 + \\beta^2}{10} - 56^2 = 66.2 \\Rightarrow \\alpha^2+\\beta^2 = 32022 - 25678 = 6344$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -715,7 +715,7 @@
                             "questionText": "The area (in sq. units) of the part of circle $x^2+y^2=169$ which is below the line $5x-y=13$ is $\\frac{\\pi\\alpha}{2\\beta} - \\frac{65}{2} + \\frac{\\alpha}{\\beta}\\sin^{-1}\\left(\\frac{12}{13}\\right)$ where $\\alpha, \\beta$ are coprime numbers. Then $\\alpha+\\beta$ is equal to ___.",
                             "hasImage": false,
                             "answer": 171,
-                            "explanation": "Area = ∫_{-13}^{12}√(169-y²)dy - (1/2)×25×5 = (169π/2 - 65/2 + 169/2·sin⁻¹(12/13)). α=169, β=2. α+β=171.",
+                            "explanation": "The line meets the circle at $(0,-13)$ and $(5,12)$; the required region is the minor segment (the origin lies above the line). Area $= \\int_{-13}^{12}\\left(\\sqrt{169-y^2} - \\frac{y+13}{5}\\right)dy = \\frac{169\\pi}{4} + \\frac{169}{2}\\sin^{-1}\\frac{12}{13} - \\frac{65}{2}$. Comparing, $\\alpha = 169$, $\\beta = 2$, so $\\alpha+\\beta = 171$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -725,7 +725,7 @@
                             "questionText": "If $\\frac{{}^{11}C_1}{2} + \\frac{{}^{11}C_2}{3} + \\cdots + \\frac{{}^{11}C_9}{10} = \\frac{n}{m}$ with $\\gcd(n,m)=1$, then $n+m$ is equal to ___.",
                             "hasImage": false,
                             "answer": 2041,
-                            "explanation": "Σ ¹¹Cᵣ/(r+1) = (1/12)Σ¹²Cᵣ₊₁ = (1/12)(2¹²-26) = 2035/6. m+n=2041.",
+                            "explanation": "$\\frac{{}^{11}C_r}{r+1} = \\frac{{}^{12}C_{r+1}}{12}$. Sum $= \\frac{1}{12}\\left({}^{12}C_2 + \\cdots + {}^{12}C_{10}\\right) = \\frac{2^{12} - 26}{12} = \\frac{2035}{6}$. So $n+m = 2041$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -735,7 +735,7 @@
                             "questionText": "A line with direction ratios $2, 1, 2$ meets the lines $x = y+2 = z$ and $x+2 = 2y = 2z$ respectively at the points P and Q. If the length of the perpendicular from the point $(1, 2, 12)$ to the line PQ is $l$, then $l^2$ is ___.",
                             "hasImage": false,
                             "answer": 65,
-                            "explanation": "P(t,t-2,t), Q(2s-2,s,s). DR's of PQ are 2,1,2. Solving: t=6, s=2. P(6,4,6), Q(2,2,2). Line PQ: (x-2)/2=(y-2)/1=(z-2)/2. Foot F(6,4,6). AF=√(25+4+36)=√65. l²=65.",
+                            "explanation": "$P(t, t-2, t)$, $Q(2s-2, s, s)$; $\\vec{PQ} \\parallel (2,1,2)$ gives $s = 2$, $t = 6$: $P(6,4,6)$, $Q(2,2,2)$. The foot of the perpendicular from $A(1,2,12)$ on PQ is $(6,4,6)$, so $l^2 = 5^2 + 2^2 + 6^2 = 65$.",
                             "marks": 4,
                             "negativeMarks": -1
                         }
@@ -779,7 +779,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "q=∫₀²⁰(20+3t)dt=[20t+3t²/2]₀²⁰=400+600=1000 C.",
+                            "explanation": "$q = \\int_0^{20}(20+3t)\\,dt = \\left[20t + \\frac{3t^2}{2}\\right]_0^{20} = 400 + 600 = 1000$ C.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -841,7 +841,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "f=+15 cm. m=+1/2 (virtual image). 1/2=f/(f-u) ⟹ u=-15 cm.",
+                            "explanation": "f=+15 cm. m=+1/2 (virtual image). 1/2=f/(f-u) $\\implies$ u=-15 cm.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -872,7 +872,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Only 5Q at (3a,0) is inside sphere of radius 4a. (-2Q is at distance 5a, outside). Flux=5Q/ε₀.",
+                            "explanation": "Only $5Q$ at $(3a,0)$ lies inside the sphere of radius $4a$; $-2Q$ at distance $5a$ is outside. By Gauss's law, flux $= \\frac{5Q}{\\epsilon_0}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -899,11 +899,11 @@
                                 },
                                 {
                                     "id": "4",
-                                      "text": "$\\sqrt{2p^2+2p+1}$ s",
-                                      "isCorrect": false
+                                    "text": "$\\sqrt{2p^2+2p+1}$ s",
+                                    "isCorrect": false
                                 }
                             ],
-                            "explanation": "S₁=(1/2)a(p-1)², S₂=(1/2)ap². S₁+S₂=(1/2)at². (p-1)²+p²=t². t=√(2p²-2p+1).",
+                            "explanation": "$S_1 = \\frac{1}{2}a(p-1)^2$, $S_2 = \\frac{1}{2}ap^2$. $S_1+S_2 = \\frac{1}{2}at^2 \\Rightarrow t^2 = (p-1)^2 + p^2$, so $t = \\sqrt{2p^2-2p+1}$ s.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1058,7 +1058,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "F=mv²/r. For F₁=F₂: v₁/v₂=√(r₁/r₂)=√(3/4)=√3/2.",
+                            "explanation": "$F = \\frac{mv^2}{r}$ is the same, so $v \\propto \\sqrt{r}$: $\\frac{v_1}{v_2} = \\sqrt{\\frac{3}{4}} = \\frac{\\sqrt{3}}{2}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1089,7 +1089,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "S=IgG/(I-Ig)=(3×10⁻³×10)/(8-0.003)=3.75×10⁻³ Ω.",
+                            "explanation": "$S = \\frac{I_g G}{I - I_g} = \\frac{3\\times10^{-3}\\times 10}{8 - 0.003} \\approx 3.75\\times10^{-3}\\,\\Omega$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1120,7 +1120,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "λe=h/meVe=hc/8Ke. λp=hc/Ep. Since λe=λp: Ep=8Ke. Ke/Ep=1/8.",
+                            "explanation": "For the electron, $\\lambda = \\frac{h}{mv}$ with $v = \\frac{c}{4}$, so $K_e = \\frac{1}{2}mv^2 = \\frac{h}{\\lambda}\\cdot\\frac{v}{2} = \\frac{hc}{8\\lambda}$. For the photon, $E_p = \\frac{hc}{\\lambda}$. Ratio $\\frac{K_e}{E_p} = \\frac{1}{8}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1182,7 +1182,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "fm/fa=(μl-1)μm/((μl-μm)). fm/20=(1.5-1)(1.6)/((1.5-1.6))=-8. fm=-160 cm.",
+                            "explanation": "In air: $\\frac{1}{20} = (1.5-1)K$. In liquid: $\\frac{1}{f} = \\left(\\frac{1.5}{1.6}-1\\right)K$. Dividing: $\\frac{20}{f} = \\frac{-0.1/1.6}{0.5} = -\\frac{1}{8}$, so $f = -160$ cm (diverging).",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1213,7 +1213,7 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "g/(1+h/R)²=g(1-h/R). Let x=h/R: x³-x+x²=0... x=(√5-1)/2. h=R(√5-1)/2.",
+                            "explanation": "Equate $g_h = \\frac{g}{(1+h/R)^2}$ and $g_d = g\\left(1-\\frac{h}{R}\\right)$. With $x = \\frac{h}{R}$: $(1-x)(1+x)^2 = 1 \\Rightarrow x(1-x-x^2) = 0 \\Rightarrow x^2+x-1 = 0$, so $x = \\frac{\\sqrt{5}-1}{2}$ and $h = \\frac{\\sqrt{5}R-R}{2}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1244,14 +1244,14 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "(1/2)CV²=(1/2)LI²max. Imax=V√(C/L)=12√(100×10⁻⁶/6.4×10⁻³)=12/8=1.5 A.",
+                            "explanation": "$\\frac{1}{2}CV^2 = \\frac{1}{2}LI_{max}^2 \\Rightarrow I_{max} = V\\sqrt{\\frac{C}{L}} = 12\\sqrt{\\frac{100\\times10^{-6}}{6.4\\times10^{-3}}} = \\frac{12}{8} = 1.5$ A.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "phys_q19",
                             "type": "single_correct",
-                            "questionText": "The explosive in a Hydrogen bomb is a mixture of ${}^2_1\\text{H}$, ${}^3_1\\text{H}$ and ${}^6_3\\text{Li}$. The chain reactions are: ${}^6_3\\text{Li}+{}^1_0n\\to 2{}^4_2\\text{He}+{}^3_1\\text{H}$ and ${}^2_1\\text{H}+{}^3_1\\text{H}\\to{}^4_2\\text{He}+{}^1_0n$. During the explosion, the energy released is approximately: [M(Li)=6.01690, M(H²)=2.01471, M(He⁴)=4.00388 amu]",
+                            "questionText": "The explosive in a Hydrogen bomb is a mixture of ${}^2_1\\text{H}$, ${}^3_1\\text{H}$ and ${}^6_3\\text{Li}$. The chain reactions are: ${}^6_3\\text{Li}+{}^1_0n\\to 2{}^4_2\\text{He}+{}^3_1\\text{H}$ and ${}^2_1\\text{H}+{}^3_1\\text{H}\\to{}^4_2\\text{He}+{}^1_0n$. During the explosion, the energy released is approximately: [M(Li)=6.01690, $\\text{M(H}^{2}\\text{)}$=2.01471, $\\text{M(He}^{4}\\text{)}$=4.00388 amu]",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1275,7 +1275,7 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "Net: ³Li⁶+₁H²→2₂He⁴. Q=[M(Li)+M(H²)-2M(He⁴)]×931.5=(6.01690+2.01471-8.00776)×931.5=0.02385×931.5≈22.22 MeV.",
+                            "explanation": "Adding the two reactions, the net reaction is ${}^6_3\\text{Li} + {}^2_1\\text{H} \\to 2\\,{}^4_2\\text{He}$. $\\Delta m = 6.01690 + 2.01471 - 2(4.00388) = 0.02385$ u, so $Q = 0.02385 \\times 931.5 \\approx 22.22$ MeV.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1306,7 +1306,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "PA/PB=nA/nB=(1/2)/(1/32)=16.",
+                            "explanation": "Same V and T: $\\frac{P_A}{P_B} = \\frac{n_A}{n_B} = \\frac{1/2}{1/32} = 16$.",
                             "marks": 4,
                             "negativeMarks": -1
                         }
@@ -1319,20 +1319,20 @@
                         {
                             "id": "phys_q21",
                             "type": "numerical",
-                            "questionText": "When a hydrogen atom going from n=2 to n=1 emits a photon, its recoil speed is $\\frac{x}{5}$ m/s. The value of x is ___. (Use: mass of hydrogen atom = 1.6×10⁻²⁷ kg)",
+                            "questionText": "When a hydrogen atom going from n=2 to n=1 emits a photon, its recoil speed is $\\frac{x}{5}$ m/s. The value of x is ___. (Use: mass of hydrogen atom $= 1.6\\times10^{-27}$ kg)",
                             "hasImage": false,
                             "answer": 17,
-                            "explanation": "ΔE=10.2 eV. v=ΔE/mc=10.2×1.6×10⁻¹⁹/(1.6×10⁻²⁷×3×10⁸)=3.4 m/s=17/5 m/s. x=17.",
+                            "explanation": "$\\Delta E = 13.6\\left(1-\\frac{1}{4}\\right) = 10.2$ eV. Recoil momentum $mv = \\frac{\\Delta E}{c}$, so $v = \\frac{10.2\\times1.6\\times10^{-19}}{1.6\\times10^{-27}\\times3\\times10^{8}} = 3.4$ m/s $= \\frac{17}{5}$ m/s. Hence $x = 17$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "phys_q22",
                             "type": "numerical",
-                            "questionText": "A ball rolls off the top of a stairway with horizontal velocity u. The steps are 0.1 m high and 0.1 m wide. The minimum velocity u with which that ball just hits step 5 of the stairway will be $\\sqrt{x}$ ms⁻¹, where x = ___. [g=10 m/s²]",
+                            "questionText": "A ball rolls off the top of a stairway with horizontal velocity u. The steps are 0.1 m high and 0.1 m wide. The minimum velocity u with which that ball just hits step 5 of the stairway will be $\\sqrt{x}\\ \\text{m s}^{-1}$, where x = ___. [$g = 10\\ \\text{m/s}^2$]",
                             "hasImage": false,
                             "answer": 2,
-                            "explanation": "Ball must clear 4 steps. R=0.4m, h=0.4m. 0.4=(1/2)g(0.4/u)². u²=2. x=2.",
+                            "explanation": "To hit step 5 the ball must just clear the edge of step 4: horizontal distance 0.4 m while falling 0.4 m. $0.4 = \\frac{1}{2}(10)\\left(\\frac{0.4}{u}\\right)^2 \\Rightarrow u^2 = 2$, so $x = 2$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1342,27 +1342,27 @@
                             "questionText": "A square loop of side 10 cm and resistance 0.7 Ω is placed vertically in east-west plane. A uniform magnetic field of 0.20 T is set up across the plane in northeast direction. The magnetic field is decreased to zero in 1 s at a steady rate. The magnitude of induced emf is $\\sqrt{x}\\times10^{-3}$ V. The value of x is ___.",
                             "hasImage": false,
                             "answer": 2,
-                            "explanation": "A=(0.1)²ĵ. B=(0.2/√2)î+(0.2/√2)ĵ. e=ΔΦ/Δt=B·A/1=0.2/√2×0.01=√2×10⁻³. x=2.",
+                            "explanation": "The normal to the loop is along north-south, so only the north component of $\\vec{B}$, $\\frac{0.2}{\\sqrt{2}}$ T, links the loop. $\\Phi = \\frac{0.2}{\\sqrt{2}}\\times(0.1)^2 = \\sqrt{2}\\times10^{-3}$ Wb, falling to zero in 1 s, so $e = \\sqrt{2}\\times10^{-3}$ V and $x = 2$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "phys_q24",
                             "type": "numerical",
-                            "questionText": "A cylinder is rolling down on an inclined plane of inclination 60°. Its acceleration during rolling down will be $\\frac{x}{\\sqrt{3}}$ m/s², where x = ___. [g=10 m/s²]",
+                            "questionText": "A cylinder is rolling down on an inclined plane of inclination $60^\\circ$. Its acceleration during rolling down will be $\\frac{x}{\\sqrt{3}}\\ \\text{m/s}^2$, where x = ___. [$g = 10\\ \\text{m/s}^2$]",
                             "hasImage": false,
                             "answer": 10,
-                            "explanation": "a=gsinθ/(1+Icm/MR²)=gsin60°/(1+1/2)=(10×√3/2)/(3/2)=10/√3. x=10.",
+                            "explanation": "For a rolling cylinder $\\frac{I}{MR^2} = \\frac{1}{2}$: $a = \\frac{g\\sin 60^\\circ}{1 + 1/2} = \\frac{10\\times\\frac{\\sqrt{3}}{2}}{3/2} = \\frac{10}{\\sqrt{3}}\\ \\text{m/s}^2$, so $x = 10$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "phys_q25",
                             "type": "numerical",
-                            "questionText": "The magnetic potential due to a magnetic dipole at a point on its axis situated at a distance of 20 cm from its center is $1.5\\times10^{-5}$ Tm. The magnetic moment of the dipole is ___ Am². (Given: μ₀/4π = 10⁻⁷ TmA⁻¹)",
+                            "questionText": "The magnetic potential due to a magnetic dipole at a point on its axis situated at a distance of 20 cm from its center is $1.5\\times10^{-5}$ Tm. The magnetic moment of the dipole is ___ $\\text{Am}^{2}$. (Given: $\\frac{\\mu_0}{4\\pi} = 10^{-7}\\ \\text{TmA}^{-1}$)",
                             "hasImage": false,
                             "answer": 6,
-                            "explanation": "V=(μ₀/4π)(M/r²). 1.5×10⁻⁵=10⁻⁷×M/(0.04). M=1.5×10⁻⁵×0.04/10⁻⁷=6 Am².",
+                            "explanation": "Axial magnetic potential $V = \\frac{\\mu_0}{4\\pi}\\frac{M}{r^2}$: $1.5\\times10^{-5} = 10^{-7}\\times\\frac{M}{0.04} \\Rightarrow M = 6\\ \\text{A m}^2$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1372,7 +1372,7 @@
                             "questionText": "A 16 Ω wire is bent to form a square loop. A 9V battery with internal resistance 1 Ω is connected across one of its sides. If a 4 μF capacitor is connected across one of its diagonals, the energy stored by the capacitor will be $\\frac{x}{2}$ μJ, where x = ___.",
                             "hasImage": false,
                             "answer": 81,
-                            "explanation": "Req=1+12×4/(12+4)=4Ω. I=9/4 A. I₁=9/4×4/16=9/16 A. VA-VB=I₁×8=9/2 V. U=(1/2)×4×(9/2)²=81/2 μJ. x=81.",
+                            "explanation": "Each side is $4\\,\\Omega$. Across the battery: $4 \\parallel 12 = 3\\,\\Omega$, $R_{eq} = 4\\,\\Omega$, $I = \\frac{9}{4}$ A. Current in the $12\\,\\Omega$ path $= \\frac{9}{16}$ A, and each diagonal spans two sides ($8\\,\\Omega$) of it: $V = \\frac{9}{16}\\times 8 = \\frac{9}{2}$ V. $U = \\frac{1}{2}(4\\,\\mu\\text{F})\\left(\\frac{9}{2}\\right)^2 = \\frac{81}{2}\\,\\mu\\text{J}$, so $x = 81$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1382,27 +1382,27 @@
                             "questionText": "When the displacement of a simple harmonic oscillator is one third of its amplitude, the ratio of total energy to the kinetic energy is $\\frac{x}{8}$, where x = ___.",
                             "hasImage": false,
                             "answer": 9,
-                            "explanation": "E=(1/2)KA². U=(1/2)K(A/3)²=E/9. KE=E-E/9=8E/9. E/KE=9/8. x=9.",
+                            "explanation": "$E = \\frac{1}{2}kA^2$, $U = \\frac{1}{2}k\\left(\\frac{A}{3}\\right)^2 = \\frac{E}{9}$, $K = \\frac{8E}{9}$. $\\frac{E}{K} = \\frac{9}{8}$, so $x = 9$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "phys_q29",
                             "type": "numerical",
-                            "questionText": "An electron is moving under the influence of the electric field of a uniformly charged infinite plane sheet S with surface charge density +σ. At t=0, electron is at distance 1m from S with speed 1 m/s. If the electron strikes S at t=1s, the maximum value of σ is $\\alpha\\left[\\frac{m\\epsilon_0}{e}\\right]$ C/m². The value of α is ___.",
+                            "questionText": "An electron is moving under the influence of the electric field of a uniformly charged infinite plane sheet S having surface charge density $+\\sigma$. The electron at $t = 0$ is at a distance of 1 m from S and has a speed of 1 m/s. The maximum value of $\\sigma$ if the electron strikes S at $t = 1$ s is $\\alpha\\left[\\frac{m\\epsilon_0}{e}\\right]\\ \\text{C/m}^2$. The value of $\\alpha$ is ___.",
                             "hasImage": false,
                             "answer": 8,
-                            "explanation": "u=1 m/s, a=-σe/(2ε₀m), S=-1m. -1=1×1+(1/2)(-σe/2ε₀m)(1)². σ=8mε₀/e. α=8.",
+                            "explanation": "Field of the sheet is $\\frac{\\sigma}{2\\epsilon_0}$, so the electron is accelerated towards S with $a = \\frac{\\sigma e}{2\\epsilon_0 m}$. Maximum $\\sigma$ corresponds to the electron initially moving away from S: $-1 = (1)(1) - \\frac{1}{2}a(1)^2 \\Rightarrow a = 4 \\Rightarrow \\sigma = \\frac{8m\\epsilon_0}{e}$. So $\\alpha = 8$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "phys_q30",
                             "type": "numerical",
-                            "questionText": "In a test experiment on a model aeroplane in a wind tunnel, the flow speeds on the upper and lower surfaces of the wings are 70 ms⁻¹ and 65 ms⁻¹ respectively. If the wing area is 2 m², the lift of the wing is ___ N. (density of air = 1.2 kg m⁻³)",
+                            "questionText": "In a test experiment on a model aeroplane in a wind tunnel, the flow speeds on the upper and lower surfaces of the wings are $70\\ \\text{m s}^{-1}$ and $65\\ \\text{m s}^{-1}$ respectively. If the wing area is $2\\ \\text{m}^2$, the lift of the wing is ___ N. (density of air $= 1.2\\ \\text{kg m}^{-3}$)",
                             "hasImage": false,
                             "answer": 810,
-                            "explanation": "F=(1/2)ρ(v₁²-v₂²)A=(1/2)×1.2×(70²-65²)×2=(1/2)×1.2×675×2=810 N.",
+                            "explanation": "Lift $= \\frac{1}{2}\\rho(v_1^2 - v_2^2)A = \\frac{1}{2}(1.2)(70^2 - 65^2)(2) = 1.2 \\times 675 = 810$ N.",
                             "marks": 4,
                             "negativeMarks": -1
                         }
@@ -1453,7 +1453,7 @@
                         {
                             "id": "chem_q2",
                             "type": "single_correct",
-                            "questionText": "Match List I with List II:\n(A) Ziegler catalyst → (I) Rhodium; (B) Blood Pigment → (II) Cobalt; (C) Wilkinson catalyst → (III) Iron; (D) Vitamin B₁₂ → (IV) Titanium.\nChoose the correct answer:",
+                            "questionText": "Match List I with List II:\n(A) Ziegler catalyst → (I) Rhodium; (B) Blood Pigment → (II) Cobalt; (C) Wilkinson catalyst → (III) Iron; (D) Vitamin $\\text{B}_{12}$ → (IV) Titanium.\nChoose the correct answer:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1477,14 +1477,14 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "Ziegler→Ti, Blood pigment(haemoglobin)→Fe, Wilkinson→Rh, Vitamin B₁₂→Co.",
+                            "explanation": "Ziegler→Ti, Blood pigment(haemoglobin)→Fe, Wilkinson→Rh, Vitamin $\\text{B}_{12}$→Co.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q3",
                             "type": "single_correct",
-                            "questionText": "In chromyl chloride test for confirmation of Cl⁻ ion, a yellow solution is obtained. Acidification and addition of amyl alcohol and 10% H₂O₂ turns organic layer blue indicating formation of chromium pentoxide. The oxidation state of chromium in CrO₅ is:",
+                            "questionText": "In chromyl chloride test for confirmation of $\\text{Cl}^{-}$ ion, a yellow solution is obtained. Acidification and addition of amyl alcohol and 10% $\\text{H}_{2}\\text{O}_{2}$ turns organic layer blue indicating formation of chromium pentoxide. The oxidation state of chromium in $\\text{CrO}_{5}$ is:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1508,7 +1508,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "CrO₅ has structure with Cr in +6 state: Cr with one =O and two peroxo (-O-O-) groups. OS of Cr = +6.",
+                            "explanation": "$\\text{CrO}_{5}$ has structure with Cr in +6 state: Cr with one =O and two peroxo (-O-O-) groups. OS of Cr = +6.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1601,14 +1601,14 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Rb=[Kr]5s¹. n=5, l=0, m=0, s=±1/2.",
+                            "explanation": "Rb=$\\text{[Kr]5s}^{1}$. n=5, l=0, m=0, s=±1/2.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q9",
                             "type": "single_correct",
-                            "questionText": "Appearance of blood red colour on treatment of the sodium fusion extract of an organic compound with FeSO₄ in presence of concentrated H₂SO₄ indicates the presence of element(s):",
+                            "questionText": "Appearance of blood red colour on treatment of the sodium fusion extract of an organic compound with $\\text{FeSO}_{4}$ in presence of concentrated $\\text{H}_{2}\\text{SO}_{4}$ indicates the presence of element(s):",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1632,7 +1632,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Fe²⁺→Fe³⁺ (H₂SO₄). Fe³⁺+SCN⁻→Fe(SCN)₃ (blood red). SCN⁻ formed from both N and S in Lassaigne's extract. Both N and S must be present.",
+                            "explanation": "$\\text{Fe}^{2+}$→$\\text{Fe}^{3+}$ $\\text{(H}_{2}\\text{SO}_{4}\\text{)}$. $\\text{Fe}^{3+}$+$\\text{SCN}^{-}$→$\\text{Fe(SCN)}_{3}$ (blood red). $\\text{SCN}^{-}$ formed from both N and S in Lassaigne's extract. Both N and S must be present.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1675,26 +1675,26 @@
                             "options": [
                                 {
                                     "id": "1",
-                                    "text": "Fluorspar – BF₃",
+                                    "text": "Fluorspar – $\\text{BF}_{3}$",
                                     "isCorrect": true
                                 },
                                 {
                                     "id": "2",
-                                    "text": "Cryolite – Na₃AlF₆",
+                                    "text": "Cryolite – $\\text{Na}_{3}\\text{AlF}_{6}$",
                                     "isCorrect": false
                                 },
                                 {
                                     "id": "3",
-                                    "text": "Fluoroapatite – 3Ca₃(PO₄)₂·CaF₂",
+                                    "text": "Fluoroapatite – $\\text{3Ca}_{3}\\text{(PO}_{4}\\text{)}_{2}$·$\\text{CaF}_{2}$",
                                     "isCorrect": false
                                 },
                                 {
                                     "id": "4",
-                                    "text": "Carnallite – KCl·MgCl₂·6H₂O",
+                                    "text": "Carnallite – KCl·$\\text{MgCl}_{2}$·$\\text{6H}_{2}\\text{O}$",
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Fluorspar is CaF₂ (not BF₃). BF₃ is boron trifluoride, an industrial compound. The pair is incorrect.",
+                            "explanation": "Fluorspar is $\\text{CaF}_2$, not $\\text{BF}_3$, so that pair is incorrect. The other pairs (cryolite $\\text{Na}_3\\text{AlF}_6$, fluoroapatite $3\\text{Ca}_3(\\text{PO}_4)_2\\cdot\\text{CaF}_2$, carnallite $\\text{KCl}\\cdot\\text{MgCl}_2\\cdot 6\\text{H}_2\\text{O}$) are correct.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1732,31 +1732,31 @@
                         {
                             "id": "chem_q13",
                             "type": "single_correct",
-                            "questionText": "KMnO₄ decomposes on heating at 513 K to form O₂ along with:",
+                            "questionText": "$\\text{KMnO}_{4}$ decomposes on heating at 513 K to form $\\text{O}_{2}$ along with:",
                             "hasImage": false,
                             "options": [
                                 {
                                     "id": "1",
-                                    "text": "MnO₂ & K₂O₂",
+                                    "text": "$\\text{MnO}_{2}$ & $\\text{K}_{2}\\text{O}_{2}$",
                                     "isCorrect": false
                                 },
                                 {
                                     "id": "2",
-                                    "text": "K₂MnO₄ & Mn",
+                                    "text": "$\\text{K}_{2}\\text{MnO}_{4}$ & Mn",
                                     "isCorrect": false
                                 },
                                 {
                                     "id": "3",
-                                    "text": "Mn & KO₂",
+                                    "text": "Mn & $\\text{KO}_{2}$",
                                     "isCorrect": false
                                 },
                                 {
                                     "id": "4",
-                                    "text": "K₂MnO₄ & MnO₂",
+                                    "text": "$\\text{K}_{2}\\text{MnO}_{4}$ & $\\text{MnO}_{2}$",
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "2KMnO₄ →(Δ) K₂MnO₄ + MnO₂ + O₂.",
+                            "explanation": "$\\text{2KMnO}_{4}$ →(Δ) $\\text{K}_{2}\\text{MnO}_{4}$ + $\\text{MnO}_{2}$ + $\\text{O}_{2}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1787,7 +1787,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Co₂(CO)₈ has two bridging CO groups between the two Co atoms. The others have only terminal CO ligands.",
+                            "explanation": "$\\text{Co}_{2}\\text{(CO)}_{8}$ has two bridging CO groups between the two Co atoms. The others have only terminal CO ligands.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1880,14 +1880,14 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Cl₂+2OH⁻→Cl⁻+ClO⁻+H₂O. a=1, b=2, c=1, d=1, e=1.",
+                            "explanation": "$\\text{Cl}_{2}$+$\\text{2OH}^{-}$→$\\text{Cl}^{-}$+$\\text{ClO}^{-}$+$\\text{H}_{2}\\text{O}$. a=1, b=2, c=1, d=1, e=1.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q18",
                             "type": "single_correct",
-                            "questionText": "In alkaline medium, MnO₄⁻ oxidises I⁻ to:",
+                            "questionText": "In alkaline medium, $\\text{MnO}_{4}^{-}$ oxidises $\\text{I}^{-}$ to:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1911,14 +1911,14 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "2MnO₄⁻+H₂O+I⁻→2MnO₂+2OH⁻+IO₃⁻. In alkaline medium I⁻ is oxidised to IO₃⁻.",
+                            "explanation": "$\\text{2MnO}_{4}^{-}$+$\\text{H}_{2}\\text{O}$+$\\text{I}^{-}$→$\\text{2MnO}_{2}$+$\\text{2OH}^{-}$+$\\text{IO}_{3}^{-}$. In alkaline medium $\\text{I}^{-}$ is oxidised to $\\text{IO}_{3}^{-}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q19",
                             "type": "single_correct",
-                            "questionText": "The final product A formed in the following multistep reaction sequence: cyclohexanone →(i) H₂O, H⁺ (ii) CrO₃ (iii) N₂H₄/KOH/Heat → A",
+                            "questionText": "The final product A formed in the following multistep reaction sequence: cyclohexene $\\xrightarrow{\\text{(i) H}_2\\text{O, H}^+\\ \\text{(ii) CrO}_3\\ \\text{(iii) N}_2\\text{H}_4\\text{/KOH/Heat}}$ A",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1942,7 +1942,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Cyclohexanone→cyclohexanol (H₂O/H⁺)→cyclohexanone (CrO₃)→cyclohexane (Wolff-Kishner, N₂H₄/KOH/Δ).",
+                            "explanation": "Acid-catalysed hydration of cyclohexene gives cyclohexanol; $\\text{CrO}_3$ oxidises it to cyclohexanone; Wolff-Kishner reduction ($\\text{N}_2\\text{H}_4$/KOH, heat) converts $\\text{C=O}$ to $\\text{CH}_2$, giving cyclohexane.",
                             "marks": 4,
                             "negativeMarks": -1
                         }
@@ -1955,60 +1955,60 @@
                         {
                             "id": "chem_q21",
                             "type": "numerical",
-                            "questionText": "Number of compounds with one lone pair of electrons on central atom among following is ___: O₃, H₂O, SF₄, ClF₃, NH₃, BrF₅, XeF₄",
+                            "questionText": "Number of compounds with one lone pair of electrons on central atom among following is ___: $\\text{O}_{3}$, $\\text{H}_{2}\\text{O}$, $\\text{SF}_{4}$, $\\text{ClF}_{3}$, $\\text{NH}_{3}$, $\\text{BrF}_{5}$, $\\text{XeF}_{4}$",
                             "hasImage": false,
                             "answer": 4,
-                            "explanation": "O₃(1 LP), SF₄(1 LP), ClF₃... wait. H₂O has 2 LP. O₃(1), SF₄(1), ClF₃(2), NH₃(1), BrF₅(1), XeF₄(2). Exactly 1 LP: O₃, SF₄, NH₃, BrF₅ = 4.",
+                            "explanation": "Lone pairs on the central atom: $\\text{O}_3$ (1), $\\text{H}_2\\text{O}$ (2), $\\text{SF}_4$ (1), $\\text{ClF}_3$ (2), $\\text{NH}_3$ (1), $\\text{BrF}_5$ (1), $\\text{XeF}_4$ (2). Exactly one lone pair: $\\text{O}_3$, $\\text{SF}_4$, $\\text{NH}_3$, $\\text{BrF}_5$, i.e. 4.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q22",
                             "type": "numerical",
-                            "questionText": "The mass of zinc produced by the electrolysis of zinc sulphate solution with a steady current of 0.015 A for 15 minutes is ___ × 10⁻⁴ g. (Atomic mass of zinc = 65.4 amu)",
+                            "questionText": "The mass of zinc produced by the electrolysis of zinc sulphate solution with a steady current of 0.015 A for 15 minutes is ___ $\\times 10^{-4}$ g. (Atomic mass of zinc = 65.4 amu)",
                             "hasImage": false,
                             "answer": 46,
-                            "explanation": "W=ZIt=65.4/(2×96500)×0.015×900=45.75×10⁻⁴≈46×10⁻⁴ g.",
+                            "explanation": "$w = \\frac{M}{nF}It = \\frac{65.4}{2\\times96500}\\times0.015\\times900 = 45.7\\times10^{-4}$ g $\\approx 46\\times10^{-4}$ g.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q23",
                             "type": "numerical",
-                            "questionText": "For a reaction taking place in three steps at same temperature, overall rate constant K = K₁K₂/K₃. If Ea₁, Ea₂ and Ea₃ are 40, 50 and 60 kJ/mol respectively, the overall Ea is ___ kJ/mol.",
+                            "questionText": "For a reaction taking place in three steps at same temperature, overall rate constant K = $\\text{K}_{1}\\text{K}_{2}$/$\\text{K}_{3}$. If $\\text{Ea}_{1}$, $\\text{Ea}_{2}$ and $\\text{Ea}_{3}$ are 40, 50 and 60 kJ/mol respectively, the overall Ea is ___ kJ/mol.",
                             "hasImage": false,
                             "answer": 30,
-                            "explanation": "Ea(overall) = Ea₁+Ea₂-Ea₃ = 40+50-60 = 30 kJ/mol.",
+                            "explanation": "Ea(overall) = $\\text{Ea}_{1}$+$\\text{Ea}_{2}$-$\\text{Ea}_{3}$ = 40+50-60 = 30 kJ/mol.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q24",
                             "type": "numerical",
-                            "questionText": "For the reaction N₂O₄(g) ⇌ 2NO₂(g), Kp = 0.492 atm at 300 K. Kc for the reaction at same temperature is ___ × 10⁻². (R = 0.082 L atm mol⁻¹ K⁻¹)",
+                            "questionText": "For the reaction $\\text{N}_2\\text{O}_4(g) \\rightleftharpoons 2\\text{NO}_2(g)$, $K_p = 0.492$ atm at 300 K. $K_c$ for the reaction at same temperature is ___ $\\times 10^{-2}$. ($R = 0.082\\ \\text{L atm mol}^{-1}\\text{K}^{-1}$)",
                             "hasImage": false,
                             "answer": 2,
-                            "explanation": "Kp=Kc(RT)^Δng. Δng=1. Kc=Kp/RT=0.492/(0.082×300)=0.02=2×10⁻².",
+                            "explanation": "$K_p = K_c(RT)^{\\Delta n_g}$ with $\\Delta n_g = 1$: $K_c = \\frac{0.492}{0.082\\times300} = 0.02 = 2\\times10^{-2}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q25",
                             "type": "numerical",
-                            "questionText": "A solution of H₂SO₄ is 31.4% H₂SO₄ by mass and has a density of 1.25 g/mL. The molarity of the H₂SO₄ solution is ___ M (nearest integer). [Molar mass of H₂SO₄ = 98 g mol⁻¹]",
+                            "questionText": "A solution of $\\text{H}_2\\text{SO}_4$ is 31.4% $\\text{H}_2\\text{SO}_4$ by mass and has a density of 1.25 g/mL. The molarity of the $\\text{H}_2\\text{SO}_4$ solution is ___ M (nearest integer). [Molar mass of $\\text{H}_2\\text{SO}_4 = 98\\ \\text{g mol}^{-1}$]",
                             "hasImage": false,
                             "answer": 4,
-                            "explanation": "M=(31.4/98)/(100/1250)×1000=4.005≈4 M.",
+                            "explanation": "In 100 g solution: $\\frac{31.4}{98} = 0.3204$ mol $\\text{H}_2\\text{SO}_4$; volume $= \\frac{100}{1.25} = 80$ mL. Molarity $= \\frac{0.3204}{0.080} \\approx 4$ M.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q26",
                             "type": "numerical",
-                            "questionText": "The osmotic pressure of a dilute solution is 7×10⁵ Pa at 273 K. Osmotic pressure of the same solution at 283 K is ___ × 10⁴ Nm⁻².",
+                            "questionText": "The osmotic pressure of a dilute solution is $7\\times10^5$ Pa at 273 K. Osmotic pressure of the same solution at 283 K is ___ $\\times 10^{4}\\ \\text{N m}^{-2}$.",
                             "hasImage": false,
                             "answer": 73,
-                            "explanation": "π∝T at constant concentration. π₂=π₁×T₂/T₁=7×10⁵×283/273=72.56×10⁴≈73×10⁴.",
+                            "explanation": "At constant concentration $\\pi \\propto T$: $\\pi_2 = 7\\times10^5\\times\\frac{283}{273} = 7.256\\times10^5$ Pa $\\approx 73\\times10^4\\ \\text{N m}^{-2}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -2025,10 +2025,10 @@
                         {
                             "id": "chem_q28",
                             "type": "numerical",
-                            "questionText": "The number of species from the following which are paramagnetic and have bond order equal to one is ___: H₂, He₂⁺, O₂⁺, N₂²⁻, O₂²⁻, F₂, Ne₂⁺, B₂",
+                            "questionText": "The number of species from the following which are paramagnetic and have bond order equal to one is ___: $\\text{H}_{2}$, $\\text{He}_{2}^{+}$, $\\text{O}_{2}^{+}$, $\\text{N}_{2}^{2-}$, $\\text{O}_{2}^{2-}$, $\\text{F}_{2}$, $\\text{Ne}_{2}^{+}$, $\\text{B}_{2}$",
                             "hasImage": false,
                             "answer": 1,
-                            "explanation": "B₂: BO=1, paramagnetic (2 unpaired in π₂p). That's the only one with both BO=1 AND paramagnetic. Answer=1.",
+                            "explanation": "Bond orders: $\\text{H}_2$ 1 (diamagnetic), $\\text{He}_2^+$ 0.5, $\\text{O}_2^+$ 2.5, $\\text{N}_2^{2-}$ 2, $\\text{O}_2^{2-}$ 1 (diamagnetic), $\\text{F}_2$ 1 (diamagnetic), $\\text{Ne}_2^+$ 0.5, $\\text{B}_2$ 1 (paramagnetic, two unpaired electrons in $\\pi 2p$). Only $\\text{B}_2$ qualifies: answer 1.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -2038,17 +2038,17 @@
                             "questionText": "From the compounds given below, number of compounds which give positive Fehling's test is ___: Benzaldehyde, Acetaldehyde, Acetone, Acetophenone, Methanal, 4-nitrobenzaldehyde, cyclohexane carbaldehyde",
                             "hasImage": false,
                             "answer": 3,
-                            "explanation": "Fehling's positive for aliphatic aldehydes. Acetaldehyde (CH₃CHO), Methanal (HCHO), and cyclohexane carbaldehyde give positive. Aromatic aldehydes and ketones don't. Total=3.",
+                            "explanation": "Fehling's positive for aliphatic aldehydes. Acetaldehyde $\\text{(CH}_{3}\\text{CHO)}$, Methanal (HCHO), and cyclohexane carbaldehyde give positive. Aromatic aldehydes and ketones don't. Total=3.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q30",
                             "type": "numerical",
-                            "questionText": "Consider the reaction: CH₃C(CH₃)=CHCH₃ →(i) O₃ (ii) Zn/H₂O→ product P. The total number of oxygen atoms present per molecule of the product P is ___.",
+                            "questionText": "Consider the reaction: $\\text{CH}_{3}\\text{C(CH}_{3}\\text{)}$=$\\text{CHCH}_{3}$ →(i) $\\text{O}_{3}$ (ii) Zn/$\\text{H}_{2}\\text{O}$→ product P. The total number of oxygen atoms present per molecule of the product P is ___.",
                             "hasImage": false,
                             "answer": 1,
-                            "explanation": "Ozonolysis of (CH₃)₂C=CHCH₃ gives acetone (CH₃COCH₃) + acetaldehyde (CH₃CHO). Each product P has 1 oxygen atom. Answer=1.",
+                            "explanation": "Ozonolysis of $\\text{(CH}_{3}\\text{)}_{2}\\text{C}$=$\\text{CHCH}_{3}$ gives acetone $\\text{(CH}_{3}\\text{COCH}_{3}\\text{)}$ + acetaldehyde $\\text{(CH}_{3}\\text{CHO)}$. Each product P has 1 oxygen atom. Answer=1.",
                             "marks": 4,
                             "negativeMarks": -1
                         }

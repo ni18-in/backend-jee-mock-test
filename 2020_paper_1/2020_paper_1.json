@@ -102,7 +102,7 @@
           ],
           "marks": 3,
           "negativeMarks": -1,
-          "explanation": "Let radius of roller $R = 10\\text{ cm}$ and radius of axle $r = 5\\text{ cm}$.\nSince the roller rolls without slipping on the floor, the displacement of the center of the roller is:\n$$x_{\\text{cm}} = R\\theta = 50\\text{ cm} \\implies \\theta = \\frac{50}{10} = 5\\text{ rad}$$\nThe top of the axle is at height $(R + r)$ above the ground.\nVelocity of the top point of the axle (where the scale makes contact):\n$$v_{\\text{scale}} = v_{\\text{cm}} + \\omega r = \\omega R + \\omega r = \\omega(R + r)$$\nThus, the displacement of the scale relative to the ground is:\n$$x_{\\text{scale}} = (R + r)\\theta = (10 + 5) \\times 5 = 75\\text{ cm}$$\nDisplacement of the scale relative to the axle:\n$$\\Delta x = x_{\\text{scale}} - x_{\\text{cm}} = 75 - 50 = 25\\text{ cm}$$\nInitially, the $0\\text{ cm}$ mark of the scale was on the axle. After moving, the point on the scale in contact with the axle is at the $25\\text{ cm}$ mark, and the scale has moved forward by $75\\text{ cm}$. This corresponds to Option (B)."
+          "explanation": "Roller radius $R=10$ cm rolls on the floor; the scale rests on top of the axle (radius $r=5$ cm). When the centre moves 50 cm, $\\theta=5$ rad. The top of the axle moves with speed $\\omega(R+r)=1.5v_{cm}$, so the scale moves 75 cm relative to the ground, i.e. it slides 25 cm forward relative to the axle. Its front edge, initially at the axle top, is now 25 cm ahead of it, so the axle touches the scale at the 75 cm mark measured from its rear end, as in Option (B)."
         },
         {
           "id": "phy_q4",
@@ -166,7 +166,7 @@
           ],
           "marks": 3,
           "negativeMarks": -1,
-          "explanation": "The speed of light in glass is $v = c/\\mu < c$.\n- At the center of the block, the thickness of the glass is greatest, so rays passing through the center experience the largest optical path and maximum time delay.\n- Rays passing through the upper and lower portions traverse less glass, so they emerge earlier.\n- Rays emerging near the center lag behind rays near the edges.\n- Since wavefronts are perpendicular to the propagating rays, the emerging wavefront curves backwards in the center, giving the shape shown in Option (A)."
+          "explanation": "Light travels slower in glass, so the part of the wavefront passing through thicker glass is delayed. The glass is thickest at the two bulges (upper and lower) and thinnest at the concave middle and at the flat ends. Hence the emergent wavefront lags (bends back) at the two bulge positions and is ahead at the middle and the ends, which is the shape in Option (A)."
         },
         {
           "id": "phy_q6",
@@ -327,12 +327,12 @@
             },
             {
               "id": "C",
-              "text": "time taken by the particle to hit $T$ could be $\\frac{\\sqrt{5}}{6}\\,\\mu\\text{s}$ as well as $\\frac{\\sqrt{5}}{2}\\,\\mu\\text{s}$",
+              "text": "time taken by the particle to hit $T$ could be $\\sqrt{\\frac{5}{6}}\\,\\mu\\text{s}$ as well as $\\sqrt{\\frac{5}{2}}\\,\\mu\\text{s}$",
               "isCorrect": true
             },
             {
               "id": "D",
-              "text": "time taken by the particle to hit $T$ is $\\frac{\\sqrt{5}}{3}\\,\\mu\\text{s}$",
+              "text": "time taken by the particle to hit $T$ is $\\sqrt{\\frac{5}{3}}\\,\\mu\\text{s}$",
               "isCorrect": false
             }
           ],
@@ -343,7 +343,7 @@
             2,
             1
           ],
-          "explanation": "Acceleration of the particle:\n$$a_y = \\frac{q E}{m} = 10^{10} \\times 400\\sqrt{3} = 4\\sqrt{3} \\times 10^{12}\\text{ m s}^{-2}$$\nRange on horizontal ground:\n$$R = \\frac{u^2 \\sin(2\\theta)}{a_y} = 5\\text{ m}$$\n$$\\sin(2\\theta) = \\frac{5 \\times 4\\sqrt{3} \\times 10^{12}}{(2\\sqrt{10} \\times 10^6)^2} = \\frac{20\\sqrt{3} \\times 10^{12}}{40 \\times 10^{12}} = \\frac{\\sqrt{3}}{2}$$\n$$2\\theta = 60^\\circ \\text{ or } 120^\\circ \\implies \\theta = 30^\\circ \\text{ or } 60^\\circ$$\nSo (B) is correct.\n\nTime of flight:\n$$t = \\frac{2u\\sin\\theta}{a_y}$$\nFor $\\theta = 30^\\circ$:\n$$t_1 = \\frac{2(2\\sqrt{10} \\times 10^6)(1/2)}{4\\sqrt{3} \\times 10^{12}} = \\frac{\\sqrt{10}}{2\\sqrt{3}} \\times 10^{-6} = \\frac{\\sqrt{5}}{\\sqrt{6}} \\times 10^{-6}\\text{ s} = \\frac{\\sqrt{5}}{6}\\,\\mu\\text{s} \\text{ (in simplified form, } t_1 = \\frac{\\sqrt{5}}{6}\\,\\mu\\text{s} \\text{ and } t_2 = \\frac{\\sqrt{5}}{2}\\,\\mu\\text{s})$$\nHence, Options (B) and (C) are correct."
+          "explanation": "$a=\\frac{qE}{m}=4\\sqrt3\\times10^{12}$ m s$^{-2}$ (downward), $u^2=40\\times10^{12}$. Range $\\frac{u^2\\sin2\\theta}{a}=5\\Rightarrow\\sin2\\theta=\\frac{\\sqrt3}{2}$, $\\theta=30^\\circ$ or $60^\\circ$ (B). Time $t=\\frac{2u\\sin\\theta}{a}$: for $30^\\circ$, $t=\\frac{2\\sqrt{10}}{4\\sqrt3}\\,\\mu\\text{s}=\\sqrt{\\frac56}\\,\\mu$s; for $60^\\circ$, $t=\\frac{\\sqrt{10}}{2}\\,\\mu\\text{s}=\\sqrt{\\frac52}\\,\\mu$s (C)."
         },
         {
           "id": "phy_q11",
@@ -435,10 +435,16 @@
           "questionText": "When water is filled carefully in a glass, one can fill it to a height $h$ above the rim of the glass due to the surface tension of water. To calculate $h$ just before water starts flowing, model the shape of the water above the rim as a disc of thickness $h$ having semicircular edges, as shown schematically in the figure. When the pressure of water at the bottom of this disc exceeds what can be withstood due to the surface tension, the water surface breaks near the rim and water starts flowing from there. If the density of water, its surface tension and the acceleration due to gravity are $10^3\\text{ kg m}^{-3}$, $0.07\\text{ N m}^{-1}$ and $10\\text{ m s}^{-2}$, respectively, the value of $h$ (in $\\text{mm}$) is _______.",
           "hasImage": true,
           "imageName": "img/phy_q14.png",
-          "answer": "3.75",
+          "answer": "3.74",
           "marks": 4,
           "negativeMarks": 0,
-          "explanation": "At the curved meniscus of radius $R = h/2$, the excess pressure due to surface tension is:\n$$\\Delta P = \\frac{T}{R} = \\frac{2T}{h}$$\nHydrostatic pressure at the bottom of the water layer of height $h$:\n$$P_{\\text{bottom}} - P_0 = \\rho g h$$\nEquating excess surface tension pressure to hydrostatic pressure:\n$$\\rho g h = \\frac{2T}{h} \\implies h^2 = \\frac{2T}{\\rho g}$$\n$$h = \\sqrt{\\frac{2 \\times 0.07}{10^3 \\times 10}} = \\sqrt{\\frac{0.14}{10^4}} = \\sqrt{14 \\times 10^{-6}} = \\sqrt{14} \\times 10^{-3}\\text{ m} \\approx 3.74\\text{ to } 3.75\\text{ mm}$$\nThus, $h = 3.75\\text{ mm}$."
+          "explanation": "At the curved meniscus of radius $R = h/2$, the excess pressure due to surface tension is:\n$$\\Delta P = \\frac{T}{R} = \\frac{2T}{h}$$\nHydrostatic pressure at the bottom of the water layer of height $h$:\n$$P_{\\text{bottom}} - P_0 = \\rho g h$$\nEquating excess surface tension pressure to hydrostatic pressure:\n$$\\rho g h = \\frac{2T}{h} \\implies h^2 = \\frac{2T}{\\rho g}$$\n$$h = \\sqrt{\\frac{2 \\times 0.07}{10^3 \\times 10}} = \\sqrt{\\frac{0.14}{10^4}} = \\sqrt{14 \\times 10^{-6}} = \\sqrt{14} \\times 10^{-3}\\text{ m} \\approx 3.74\\text{ to } 3.75\\text{ mm}$$\nThus, $h = 3.75\\text{ mm}$.",
+          "acceptedAnswers": [
+            [
+              3.65,
+              3.75
+            ]
+          ]
         },
         {
           "id": "phy_q15",
@@ -449,7 +455,13 @@
           "answer": "3.14",
           "marks": 4,
           "negativeMarks": 0,
-          "explanation": "The electric field of dipole $\\vec{p}$ along its axis at distance $r$ is:\n$$E = \\frac{2kp}{r^3} \\quad \\left(k_e = \\frac{1}{4\\pi\\varepsilon_0}\\right)$$\nElectrostatic force on charge $q$:\n$$F_e = q E = \\frac{2 k_e p q}{r^3}$$\nAt equilibrium position $r = l$:\n$$k l = \\frac{2 k_e p q}{l^3} \\implies 2 k_e p q = k l^4$$\nWhen displaced to $r = l + x$ ($x \\ll l$):\n$$F_{\\text{net}} = -k(l+x) + \\frac{2 k_e p q}{(l+x)^3} \\approx -kl - kx + \\frac{2 k_e p q}{l^3}\\left(1 - \\frac{3x}{l}\\right)$$\n$$F_{\\text{net}} = -kx - \\frac{3(2k_e pq)}{l^4}x = -kx - 3kx = -4kx$$\nRestoring force constant $k_{\\text{eff}} = 4k$.\nAngular frequency of oscillation:\n$$\\omega = \\sqrt{\\frac{k_{\\text{eff}}}{m}} = \\sqrt{\\frac{4k}{m}} = 2\\sqrt{\\frac{k}{m}}$$\nFrequency of oscillation:\n$$f = \\frac{\\omega}{2\\pi} = \\frac{2}{2\\pi}\\sqrt{\\frac{k}{m}} = \\frac{1}{\\pi}\\sqrt{\\frac{k}{m}}$$\nComparing with $\\frac{1}{\\delta}\\sqrt{\\frac{k}{m}}$, we have:\n$$\\delta = \\pi \\approx 3.14$$\nThus, the value of $\\delta$ is $3.14$."
+          "explanation": "The electric field of dipole $\\vec{p}$ along its axis at distance $r$ is:\n$$E = \\frac{2kp}{r^3} \\quad \\left(k_e = \\frac{1}{4\\pi\\varepsilon_0}\\right)$$\nElectrostatic force on charge $q$:\n$$F_e = q E = \\frac{2 k_e p q}{r^3}$$\nAt equilibrium position $r = l$:\n$$k l = \\frac{2 k_e p q}{l^3} \\implies 2 k_e p q = k l^4$$\nWhen displaced to $r = l + x$ ($x \\ll l$):\n$$F_{\\text{net}} = -k(l+x) + \\frac{2 k_e p q}{(l+x)^3} \\approx -kl - kx + \\frac{2 k_e p q}{l^3}\\left(1 - \\frac{3x}{l}\\right)$$\n$$F_{\\text{net}} = -kx - \\frac{3(2k_e pq)}{l^4}x = -kx - 3kx = -4kx$$\nRestoring force constant $k_{\\text{eff}} = 4k$.\nAngular frequency of oscillation:\n$$\\omega = \\sqrt{\\frac{k_{\\text{eff}}}{m}} = \\sqrt{\\frac{4k}{m}} = 2\\sqrt{\\frac{k}{m}}$$\nFrequency of oscillation:\n$$f = \\frac{\\omega}{2\\pi} = \\frac{2}{2\\pi}\\sqrt{\\frac{k}{m}} = \\frac{1}{\\pi}\\sqrt{\\frac{k}{m}}$$\nComparing with $\\frac{1}{\\delta}\\sqrt{\\frac{k}{m}}$, we have:\n$$\\delta = \\pi \\approx 3.14$$\nThus, the value of $\\delta$ is $3.14$.",
+          "acceptedAnswers": [
+            [
+              3.13,
+              3.15
+            ]
+          ]
         },
         {
           "id": "phy_q16",
@@ -459,7 +471,13 @@
           "answer": "1.77",
           "marks": 4,
           "negativeMarks": 0,
-          "explanation": "Helium is a monoatomic gas: $\\gamma = 5/3$.\nLet initial state be $(P_1, V_1, T_1)$.\nIsothermal expansion from $V_1$ to $4V_1$ at temperature $T_1$:\n$$W_{\\text{iso}} = n R T_1 \\ln\\left(\\frac{4V_1}{V_1}\\right) = R T_1 \\ln 4 = 2 R T_1 \\ln 2$$\nAt the end of isothermal expansion, volume is $4V_1$ and temperature is $T_1$.\nAdiabatic expansion from $4V_1$ to $32V_1$:\n$$T_1 (4V_1)^{\\gamma - 1} = T_2 (32V_1)^{\\gamma - 1}$$\n$$T_2 = T_1 \\left(\\frac{4}{32}\\right)^{5/3 - 1} = T_1 \\left(\\frac{1}{8}\\right)^{2/3} = T_1 \\left(\\frac{1}{2}\\right)^2 = \\frac{T_1}{4}$$\nWork done in adiabatic expansion:\n$$W_{\\text{adia}} = \\frac{n R (T_1 - T_2)}{\\gamma - 1} = \\frac{R (T_1 - T_1/4)}{5/3 - 1} = \\frac{R (3T_1/4)}{2/3} = \\frac{9}{8} R T_1$$\nRatio of work done:\n$$\\frac{W_{\\text{iso}}}{W_{\\text{adia}}} = \\frac{2 R T_1 \\ln 2}{\\frac{9}{8} R T_1} = \\frac{16}{9} \\ln 2 \\approx 1.7778 \\ln 2$$\nThus, $f = \\frac{16}{9} \\approx 1.77$."
+          "explanation": "Helium is a monoatomic gas: $\\gamma = 5/3$.\nLet initial state be $(P_1, V_1, T_1)$.\nIsothermal expansion from $V_1$ to $4V_1$ at temperature $T_1$:\n$$W_{\\text{iso}} = n R T_1 \\ln\\left(\\frac{4V_1}{V_1}\\right) = R T_1 \\ln 4 = 2 R T_1 \\ln 2$$\nAt the end of isothermal expansion, volume is $4V_1$ and temperature is $T_1$.\nAdiabatic expansion from $4V_1$ to $32V_1$:\n$$T_1 (4V_1)^{\\gamma - 1} = T_2 (32V_1)^{\\gamma - 1}$$\n$$T_2 = T_1 \\left(\\frac{4}{32}\\right)^{5/3 - 1} = T_1 \\left(\\frac{1}{8}\\right)^{2/3} = T_1 \\left(\\frac{1}{2}\\right)^2 = \\frac{T_1}{4}$$\nWork done in adiabatic expansion:\n$$W_{\\text{adia}} = \\frac{n R (T_1 - T_2)}{\\gamma - 1} = \\frac{R (T_1 - T_1/4)}{5/3 - 1} = \\frac{R (3T_1/4)}{2/3} = \\frac{9}{8} R T_1$$\nRatio of work done:\n$$\\frac{W_{\\text{iso}}}{W_{\\text{adia}}} = \\frac{2 R T_1 \\ln 2}{\\frac{9}{8} R T_1} = \\frac{16}{9} \\ln 2 \\approx 1.7778 \\ln 2$$\nThus, $f = \\frac{16}{9} \\approx 1.77$.",
+          "acceptedAnswers": [
+            [
+              1.77,
+              1.78
+            ]
+          ]
         },
         {
           "id": "phy_q17",
@@ -469,7 +487,13 @@
           "answer": "0.62",
           "marks": 4,
           "negativeMarks": 0,
-          "explanation": "When the tuning fork moves parallel to the open end of the pipe with velocity $u = 2\\text{ m s}^{-1}$:\nThe component of velocity towards the pipe is $u \\cos\\theta$. The maximum frequency occurs when $\\cos\\theta = 1$:\n$$f' = f \\left(\\frac{v}{v - u}\\right)$$\nFor resonance in a pipe of length $L$:\n$$f \\propto \\frac{1}{L} \\implies \\frac{\\Delta L}{L} \\approx -\\frac{\\Delta f}{f}$$\n$$\\frac{\\Delta f}{f} = \\frac{f' - f}{f} = \\frac{u}{v - u} = \\frac{2}{320 - 2} = \\frac{2}{318} = \\frac{1}{159} \\approx 0.006289 = 0.6289\\%$$\nAlternatively, for a receding source:\n$$\\frac{\\Delta f}{f} = \\frac{u}{v + u} = \\frac{2}{322} \\approx 0.621\\%$$\nThe smallest value of the percentage change required in length is approximately $0.62\\%$ (range $0.62$ to $0.64$)."
+          "explanation": "When the tuning fork moves parallel to the open end of the pipe with velocity $u = 2\\text{ m s}^{-1}$:\nThe component of velocity towards the pipe is $u \\cos\\theta$. The maximum frequency occurs when $\\cos\\theta = 1$:\n$$f' = f \\left(\\frac{v}{v - u}\\right)$$\nFor resonance in a pipe of length $L$:\n$$f \\propto \\frac{1}{L} \\implies \\frac{\\Delta L}{L} \\approx -\\frac{\\Delta f}{f}$$\n$$\\frac{\\Delta f}{f} = \\frac{f' - f}{f} = \\frac{u}{v - u} = \\frac{2}{320 - 2} = \\frac{2}{318} = \\frac{1}{159} \\approx 0.006289 = 0.6289\\%$$\nAlternatively, for a receding source:\n$$\\frac{\\Delta f}{f} = \\frac{u}{v + u} = \\frac{2}{322} \\approx 0.621\\%$$\nThe smallest value of the percentage change required in length is approximately $0.62\\%$ (range $0.62$ to $0.64$).",
+          "acceptedAnswers": [
+            [
+              0.62,
+              0.63
+            ]
+          ]
         },
         {
           "id": "phy_q18",
@@ -479,7 +503,13 @@
           "answer": "6.40",
           "marks": 4,
           "negativeMarks": 0,
-          "explanation": "By Gauss's law, the electric flux through a closed surface enclosing charge $Q$ is $\\Phi = Q / \\varepsilon_0$.\nTotal charge on the disc of radius $R$:\n$$Q_0 = \\int_0^R \\sigma(r)\\, 2\\pi r\\, dr = 2\\pi\\sigma_0 \\int_0^R \\left(r - \\frac{r^2}{R}\\right) dr = 2\\pi\\sigma_0 \\left[\\frac{R^2}{2} - \\frac{R^2}{3}\\right] = 2\\pi\\sigma_0 \\frac{R^2}{6} = \\frac{\\pi\\sigma_0 R^2}{3}$$\nThus $\\phi_0 = \\frac{Q_0}{\\varepsilon_0} = \\frac{\\pi\\sigma_0 R^2}{3\\varepsilon_0}$.\n\nThe spherical surface of radius $R/4$ concentric with the disc encloses a circular portion of the disc of radius $r_0 = R/4$.\nCharge enclosed:\n$$Q = \\int_0^{R/4} 2\\pi\\sigma_0 \\left(r - \\frac{r^2}{R}\\right) dr = 2\\pi\\sigma_0 \\left[\\frac{(R/4)^2}{2} - \\frac{(R/4)^3}{3R}\\right] = 2\\pi\\sigma_0 R^2 \\left[\\frac{1}{32} - \\frac{1}{192}\\right] = 2\\pi\\sigma_0 R^2 \\frac{5}{192} = \\frac{5\\pi\\sigma_0 R^2}{96}$$\nThus $\\phi = \\frac{Q}{\\varepsilon_0} = \\frac{5\\pi\\sigma_0 R^2}{96\\varepsilon_0}$.\n\nRatio:\n$$\\frac{\\phi_0}{\\phi} = \\frac{\\frac{\\pi\\sigma_0 R^2}{3}}{\\frac{5\\pi\\sigma_0 R^2}{96}} = \\frac{96}{3 \\times 5} = \\frac{32}{5} = 6.40$$\nThus, the ratio $\\frac{\\phi_0}{\\phi}$ is $6.40$."
+          "explanation": "By Gauss's law, the electric flux through a closed surface enclosing charge $Q$ is $\\Phi = Q / \\varepsilon_0$.\nTotal charge on the disc of radius $R$:\n$$Q_0 = \\int_0^R \\sigma(r)\\, 2\\pi r\\, dr = 2\\pi\\sigma_0 \\int_0^R \\left(r - \\frac{r^2}{R}\\right) dr = 2\\pi\\sigma_0 \\left[\\frac{R^2}{2} - \\frac{R^2}{3}\\right] = 2\\pi\\sigma_0 \\frac{R^2}{6} = \\frac{\\pi\\sigma_0 R^2}{3}$$\nThus $\\phi_0 = \\frac{Q_0}{\\varepsilon_0} = \\frac{\\pi\\sigma_0 R^2}{3\\varepsilon_0}$.\n\nThe spherical surface of radius $R/4$ concentric with the disc encloses a circular portion of the disc of radius $r_0 = R/4$.\nCharge enclosed:\n$$Q = \\int_0^{R/4} 2\\pi\\sigma_0 \\left(r - \\frac{r^2}{R}\\right) dr = 2\\pi\\sigma_0 \\left[\\frac{(R/4)^2}{2} - \\frac{(R/4)^3}{3R}\\right] = 2\\pi\\sigma_0 R^2 \\left[\\frac{1}{32} - \\frac{1}{192}\\right] = 2\\pi\\sigma_0 R^2 \\frac{5}{192} = \\frac{5\\pi\\sigma_0 R^2}{96}$$\nThus $\\phi = \\frac{Q}{\\varepsilon_0} = \\frac{5\\pi\\sigma_0 R^2}{96\\varepsilon_0}$.\n\nRatio:\n$$\\frac{\\phi_0}{\\phi} = \\frac{\\frac{\\pi\\sigma_0 R^2}{3}}{\\frac{5\\pi\\sigma_0 R^2}{96}} = \\frac{96}{3 \\times 5} = \\frac{32}{5} = 6.40$$\nThus, the ratio $\\frac{\\phi_0}{\\phi}$ is $6.40$.",
+          "acceptedAnswers": [
+            [
+              6.39,
+              6.41
+            ]
+          ]
         }
       ]
     },
@@ -517,7 +547,7 @@
           ],
           "marks": 3,
           "negativeMarks": -1,
-          "explanation": "The given speed distribution curve is a symmetric triangular distribution between speeds $0$ and $2v_0$, with the peak at $v_0$.\nDue to the symmetry of the distribution about $v_0$:\n1. Most probable speed $v_{\\text{mp}} = v_0$.\n2. Average speed $v_{\\text{avg}} = v_0$.\n3. Root mean square speed:\n$$v_{\\text{rms}} = \\sqrt{\\frac{\\int_0^{2v_0} v^2 f(v)\\,dv}{\\int_0^{2v_0} f(v)\\,dv}}$$\nFor the symmetric triangle of height $h$ and base $2v_0$, area $= \\frac{1}{2}(2v_0)h = v_0 h = 1 \\implies h = 1/v_0$.\n$$\\langle v^2 \\rangle = 2 \\int_0^{v_0} v^2 \\left(\\frac{v}{v_0^2}\\right) dv + \\dots = 1.5 v_0^2 \\implies v_{\\text{rms}} = \\sqrt{1.5}\\,v_0 \\approx 1.224\\,v_0$$\nTherefore:\n$$v_{\\text{mp}} : v_{\\text{avg}} : v_{\\text{rms}} = 1 : 1 : \\sqrt{1.5} = 1 : 1 : 1.224$$\nThus, Option (B) is correct."
+          "explanation": "The distribution in the figure is symmetric about its peak, so the most probable speed equals the average speed. The rms speed is always larger than the average for any spread of speeds, since $\\langle v^2\\rangle-\\langle v\\rangle^2>0$. The only option with $v_{mp}=v_{avg}<v_{rms}$ is $1:1:1.224$, Option (B)."
         },
         {
           "id": "chem_q2",
@@ -611,7 +641,7 @@
           ],
           "marks": 3,
           "negativeMarks": -1,
-          "explanation": "Assigning absolute stereochemical configurations $(R/S)$ to the chiral carbon centers C2 and C3 of the four Newman projections:\n- For P: $(2R, 3R)$\n- For Q: $(2R, 3S)$\n- For R: $(2R, 3S)$\n- For S: $(2S, 3R)$\nSince both Q and R have the identical configuration $(2R, 3S)$, they represent identical molecules.\nTherefore, Option (C) is correct."
+          "explanation": "Read each Newman projection as front carbon (Y bonds) and back carbon. P: $\\text{C(CH}_3)_2\\text{C}_2\\text{H}_5$–$\\text{C(OH)(CH}_3)_2$ = 2,3,3-trimethylpentan-2-ol. Q: $\\text{CH}_2\\text{CH}_3$ group on a CH bearing $\\text{C}_2\\text{H}_5$ and $\\text{C(OH)(CH}_3)_2$ = 3-ethyl-2-methylpentan-2-ol. R: $\\text{C(OH)(CH}_3)_2$–$\\text{CH(C}_2\\text{H}_5)_2$ = 3-ethyl-2-methylpentan-2-ol. S: 3-ethyl-2-methylpentan-3-ol. Q and R are the same achiral compound, so they are identical: Option (C)."
         },
         {
           "id": "chem_q5",
@@ -648,7 +678,7 @@
         {
           "id": "chem_q6",
           "type": "single_correct",
-          "questionText": "The Fischer projection of D-erythrose is shown below. D-Erythrose and its isomers are listed as P, Q, R, and S in Column-I. Choose the correct relationship of P, Q, R, and S with D-erythrose from Column II.\n\n**Column-II:**\n1. Diastereomer\n2. Identical\n3. Enantiomer",
+          "questionText": "The Fischer projection of D-erythrose is shown below. D-Erythrose and its isomers are listed as P, Q, R, and S in Column-I. Choose the correct relationship of P, Q, R, and S with D-erythrose from Column II.\nColumn-II: 1. Diastereomer, 2. Identical, 3. Enantiomer",
           "hasImage": true,
           "imageName": "img/chem_q6.png",
           "options": [
@@ -748,7 +778,7 @@
             2,
             1
           ],
-          "explanation": "Structures in image:\n- Compound I: Cyclopentadiene (upon losing a proton, the cyclopentadienyl anion has $6\\pi$ electrons and is aromatic, highly stable due to cyclic delocalization) $\\implies$ (A) is correct.\n- Compound IV: Cycloheptatriene (tropylium system): loss of proton from cyclopentadiene vs cycloheptatriene: cyclopentadienyl anion is aromatic, and conjugate base of cyclopentadiene derivatives gives aromatic stabilization $\\implies$ (B) is correct.\n- Compound II: Phenol: introduction of electron-withdrawing $-\\text{NO}_2$ group stabilizes the phenoxide conjugate base by $-M$ and $-I$ effects, increasing acidity $\\implies$ (C) is correct.\n- Comparing overall acidities, carboxylic acid/phenol/hydrocarbons: carboxylic acid (V) is much more acidic than cyclopentadiene, so the order in (D) is incorrect.\nTherefore, Options (A), (B), and (C) are correct."
+          "explanation": "I = triphenylmethane, II = benzene, III = methane, IV = cyclopentadiene, V = acetylene. (A) $\\text{Ph}_3\\text{C}^-$ is stabilised by delocalisation over three rings — true. (B) Cyclopentadienyl anion has $6\\pi$ electrons and is aromatic — true. (C) A $-\\text{NO}_2$ group stabilises the phenyl anion, making benzene more acidic — true. (D) Actual order (pKa about 16, 25, 31.5, 43, 50) is IV > V > I > II > III, so (D) is false."
         },
         {
           "id": "chem_q9",
@@ -785,7 +815,7 @@
             2,
             1
           ],
-          "explanation": "From the reaction scheme:\n1. Aniline is reacted with $\\text{NaNO}_2 / \\text{HCl}$ at $0-5^\\circ\\text{C}$ followed by coupling or nucleophilic substitution to yield product Q.\n2. Further transformations via R lead to product S.\n- Option (B) correctly shows the structure of intermediate Q.\n- Option (D) correctly depicts the final structure S.\nHence, Options (B) and (D) are correct."
+          "explanation": "Friedel-Crafts acylation of P with succinic anhydride occurs at the least hindered activated position (ortho to the ring $\\text{CH}_2$, meta to t-butyl), giving keto acid Q (B). Clemmensen reduction gives the butanoic acid and $\\text{H}_3\\text{PO}_4$ cyclises it onto the only free ortho position (next to t-butyl), so R is the tetralone with C=O adjacent to the t-butyl side (not structure C). $\\text{CH}_3\\text{MgBr}$ followed by acid dehydration gives the methyl-substituted dihydronaphthalene S shown in (D). Hence (B) and (D)."
         },
         {
           "id": "chem_q10",
@@ -894,12 +924,12 @@
             2,
             1
           ],
-          "explanation": "- From the unit cell structure (CsCl type):\n  - Anions X occupy the 8 corners: $8 \\times (1/8) = 1$.\n  - Cation M occupies the body center: $1 \\times 1 = 1$.\n  Empirical formula is $\\text{MX} \\implies$ (A) is correct.\n- Both cation and anion have cubic coordination geometry with coordination number 8 $\\implies$ (B) is incorrect.\n- In the body-centered arrangement, cation and anion touch along the body diagonal of length $\\sqrt{3}a$:\n$$d_{\\text{M-X}} = \\frac{\\sqrt{3}a}{2} = \\frac{1.732}{2} a = 0.866 a \\implies \\frac{d_{\\text{M-X}}}{a} = 0.866$$\nThus (C) is correct.\n- For 8-coordination (cubic), the limiting radius ratio is $0.732$, not $0.414$ (which is for octahedral) $\\implies$ (D) is incorrect.\nHence, Options (A) and (C) are correct."
+          "explanation": "From the figure, X sits at the midpoints of 4 parallel edges ($4\\times\\frac14=1$) and M at the centres of 2 opposite faces ($2\\times\\frac12=1$): formula MX (A true). M at $(0,\\frac12,\\frac12)$ and X at $(\\frac12,0,0)$ etc. are $\\sqrt{\\frac34}a=0.866a$ apart (C true). Each ion has 8 counter-ions at the corners of a cube (CsCl-type), so both coordination geometries are the same (B false) and the limiting radius ratio is 0.732, not 0.414 (D false)."
         },
         {
           "id": "chem_q13",
           "type": "numerical",
-          "questionText": "5.00 mL of 0.10 M oxalic acid solution taken in a conical flask is titrated against NaOH from a burette using phenolphthalein indicator. The volume of NaOH required for the appearance of permanent faint pink color is tabulated below for five experiments. What is the concentration, in molarity, of the NaOH solution?\n\n| Exp. No. | Vol. of NaOH (mL) |\n| :---: | :---: |\n| 1 | 12.5 |\n| 2 | 10.5 |\n| 3 | 9.0 |\n| 4 | 9.0 |\n| 5 | 9.0 |",
+          "questionText": "5.00 mL of 0.10 M oxalic acid solution taken in a conical flask is titrated against NaOH from a burette using phenolphthalein indicator. The volume of NaOH required for the appearance of permanent faint pink color is tabulated below for five experiments. What is the concentration, in molarity, of the NaOH solution?\nExp. 1: 12.5 mL\nExp. 2: 10.5 mL\nExp. 3: 9.0 mL\nExp. 4: 9.0 mL\nExp. 5: 9.0 mL",
           "hasImage": false,
           "answer": "0.11",
           "marks": 4,
@@ -925,7 +955,13 @@
           "answer": "13.32",
           "marks": 4,
           "negativeMarks": 0,
-          "explanation": "Standard cell potential:\n$$E_{\\text{cell}}^0 = E_{\\text{cathode}}^0 - E_{\\text{anode}}^0 = 1.23 - 0.00 = 1.23\\text{ V}$$\nFor the reaction $\\text{H}_2 + \\frac{1}{2}\\text{O}_2 \\rightarrow \\text{H}_2\\text{O}$, $n = 2$ electrons per mole of $\\text{H}_2$.\nMaximum electrical work obtainable per mole of $\\text{H}_2$:\n$$-\\Delta G^0 = n F E^0 = 2 \\times 96500 \\times 1.23 = 237390\\text{ J mol}^{-1}$$\nFor $1.0 \\times 10^{-3}\\text{ mol}$ of $\\text{H}_2$ with $70\\%$ efficiency:\n$$W = 0.70 \\times (1.0 \\times 10^{-3}) \\times 237390 = 166.173\\text{ J}$$\nThis work is done on $1.00\\text{ mol}$ of a monoatomic ideal gas in an insulated container ($q = 0$):\n$$\\Delta U = W = 166.173\\text{ J}$$\nFor $n = 1.00\\text{ mol}$ of monoatomic gas, $C_v = \\frac{3}{2}R$:\n$$\\Delta U = n C_v \\Delta T = 1 \\times \\frac{3}{2}(8.314) \\Delta T = 12.471 \\Delta T$$\n$$\\Delta T = \\frac{166.173}{12.471} \\approx 13.32\\text{ K}$$\nThus, the change in temperature is $13.32\\text{ K}$."
+          "explanation": "Standard cell potential:\n$$E_{\\text{cell}}^0 = E_{\\text{cathode}}^0 - E_{\\text{anode}}^0 = 1.23 - 0.00 = 1.23\\text{ V}$$\nFor the reaction $\\text{H}_2 + \\frac{1}{2}\\text{O}_2 \\rightarrow \\text{H}_2\\text{O}$, $n = 2$ electrons per mole of $\\text{H}_2$.\nMaximum electrical work obtainable per mole of $\\text{H}_2$:\n$$-\\Delta G^0 = n F E^0 = 2 \\times 96500 \\times 1.23 = 237390\\text{ J mol}^{-1}$$\nFor $1.0 \\times 10^{-3}\\text{ mol}$ of $\\text{H}_2$ with $70\\%$ efficiency:\n$$W = 0.70 \\times (1.0 \\times 10^{-3}) \\times 237390 = 166.173\\text{ J}$$\nThis work is done on $1.00\\text{ mol}$ of a monoatomic ideal gas in an insulated container ($q = 0$):\n$$\\Delta U = W = 166.173\\text{ J}$$\nFor $n = 1.00\\text{ mol}$ of monoatomic gas, $C_v = \\frac{3}{2}R$:\n$$\\Delta U = n C_v \\Delta T = 1 \\times \\frac{3}{2}(8.314) \\Delta T = 12.471 \\Delta T$$\n$$\\Delta T = \\frac{166.173}{12.471} \\approx 13.32\\text{ K}$$\nThus, the change in temperature is $13.32\\text{ K}$.",
+          "acceptedAnswers": [
+            [
+              13.3,
+              13.34
+            ]
+          ]
         },
         {
           "id": "chem_q16",
@@ -935,7 +971,13 @@
           "answer": "6.15",
           "marks": 4,
           "negativeMarks": 0,
-          "explanation": "Balanced chemical equation:\n$$2\\text{Al} + 3\\text{H}_2\\text{SO}_4 \\rightarrow \\text{Al}_2(\\text{SO}_4)_3 + 3\\text{H}_2$$\nMoles of reactants:\n$$\\text{Moles of Al} = \\frac{5.4\\text{ g}}{27.0\\text{ g mol}^{-1}} = 0.20\\text{ mol}$$\n$$\\text{Moles of } \\text{H}_2\\text{SO}_4 = 5.0\\text{ M} \\times 0.050\\text{ L} = 0.25\\text{ mol}$$\nStoichiometric requirement:\n$0.20\\text{ mol}$ of $\\text{Al}$ requires $\\frac{3}{2} \\times 0.20 = 0.30\\text{ mol}$ of $\\text{H}_2\\text{SO}_4$.\nSince only $0.25\\text{ mol}$ of $\\text{H}_2\\text{SO}_4$ is present, $\\text{H}_2\\text{SO}_4$ is the limiting reagent.\nMoles of $\\text{H}_2$ produced:\n$$n_{\\text{H}_2} = n_{\\text{H}_2\\text{SO}_4} = 0.25\\text{ mol}$$\nVolume of $\\text{H}_2$ gas at $T = 300\\text{ K}$ and $P = 1.0\\text{ atm}$:\n$$V = \\frac{n R T}{P} = \\frac{0.25 \\times 0.082 \\times 300}{1.0} = 6.15\\text{ L}$$\nThus, the volume of hydrogen gas produced is $6.15\\text{ L}$."
+          "explanation": "Balanced chemical equation:\n$$2\\text{Al} + 3\\text{H}_2\\text{SO}_4 \\rightarrow \\text{Al}_2(\\text{SO}_4)_3 + 3\\text{H}_2$$\nMoles of reactants:\n$$\\text{Moles of Al} = \\frac{5.4\\text{ g}}{27.0\\text{ g mol}^{-1}} = 0.20\\text{ mol}$$\n$$\\text{Moles of } \\text{H}_2\\text{SO}_4 = 5.0\\text{ M} \\times 0.050\\text{ L} = 0.25\\text{ mol}$$\nStoichiometric requirement:\n$0.20\\text{ mol}$ of $\\text{Al}$ requires $\\frac{3}{2} \\times 0.20 = 0.30\\text{ mol}$ of $\\text{H}_2\\text{SO}_4$.\nSince only $0.25\\text{ mol}$ of $\\text{H}_2\\text{SO}_4$ is present, $\\text{H}_2\\text{SO}_4$ is the limiting reagent.\nMoles of $\\text{H}_2$ produced:\n$$n_{\\text{H}_2} = n_{\\text{H}_2\\text{SO}_4} = 0.25\\text{ mol}$$\nVolume of $\\text{H}_2$ gas at $T = 300\\text{ K}$ and $P = 1.0\\text{ atm}$:\n$$V = \\frac{n R T}{P} = \\frac{0.25 \\times 0.082 \\times 300}{1.0} = 6.15\\text{ L}$$\nThus, the volume of hydrogen gas produced is $6.15\\text{ L}$.",
+          "acceptedAnswers": [
+            [
+              6.14,
+              6.16
+            ]
+          ]
         },
         {
           "id": "chem_q17",
@@ -945,7 +987,13 @@
           "answer": "1.20",
           "marks": 4,
           "negativeMarks": 0,
-          "explanation": "Nuclear decay reaction:\n$$^{238}_{92}\\text{U} \\rightarrow ^{206}_{82}\\text{Pb} + 8\\,^4_2\\text{He} + 6\\,^0_{-1}\\beta$$\nEach decaying nucleus of $^{238}\\text{U}$ emits $8$ alpha particles.\nInitial number of moles of $^{238}\\text{U}$:\n$$n_0 = \\frac{68 \\times 10^{-6}\\text{ g}}{238\\text{ g mol}^{-1}} = \\frac{68}{238} \\times 10^{-6}\\text{ mol}$$\nIn three half-lives, the fraction of nuclei decayed is:\n$$1 - \\left(\\frac{1}{2}\\right)^3 = 1 - \\frac{1}{8} = \\frac{7}{8}$$\nMoles of $^{238}\\text{U}$ that decayed:\n$$n_{\\text{decayed}} = \\frac{7}{8} \\times \\frac{68}{238} \\times 10^{-6} = \\frac{7}{8} \\times \\frac{2}{7} \\times 10^{-6} = \\frac{1}{4} \\times 10^{-6} = 0.25 \\times 10^{-6}\\text{ mol}$$\nMoles of alpha particles emitted:\n$$n_\\alpha = 8 \\times n_{\\text{decayed}} = 8 \\times (0.25 \\times 10^{-6}) = 2.0 \\times 10^{-6}\\text{ mol}$$\nNumber of alpha particles:\n$$N_\\alpha = 2.0 \\times 10^{-6} \\times 6.022 \\times 10^{23} = 1.2044 \\times 10^{18}$$\nComparing with $Z \\times 10^{18}$, we get $Z = 1.20$."
+          "explanation": "Nuclear decay reaction:\n$$^{238}_{92}\\text{U} \\rightarrow ^{206}_{82}\\text{Pb} + 8\\,^4_2\\text{He} + 6\\,^0_{-1}\\beta$$\nEach decaying nucleus of $^{238}\\text{U}$ emits $8$ alpha particles.\nInitial number of moles of $^{238}\\text{U}$:\n$$n_0 = \\frac{68 \\times 10^{-6}\\text{ g}}{238\\text{ g mol}^{-1}} = \\frac{68}{238} \\times 10^{-6}\\text{ mol}$$\nIn three half-lives, the fraction of nuclei decayed is:\n$$1 - \\left(\\frac{1}{2}\\right)^3 = 1 - \\frac{1}{8} = \\frac{7}{8}$$\nMoles of $^{238}\\text{U}$ that decayed:\n$$n_{\\text{decayed}} = \\frac{7}{8} \\times \\frac{68}{238} \\times 10^{-6} = \\frac{7}{8} \\times \\frac{2}{7} \\times 10^{-6} = \\frac{1}{4} \\times 10^{-6} = 0.25 \\times 10^{-6}\\text{ mol}$$\nMoles of alpha particles emitted:\n$$n_\\alpha = 8 \\times n_{\\text{decayed}} = 8 \\times (0.25 \\times 10^{-6}) = 2.0 \\times 10^{-6}\\text{ mol}$$\nNumber of alpha particles:\n$$N_\\alpha = 2.0 \\times 10^{-6} \\times 6.022 \\times 10^{23} = 1.2044 \\times 10^{18}$$\nComparing with $Z \\times 10^{18}$, we get $Z = 1.20$.",
+          "acceptedAnswers": [
+            [
+              1.19,
+              1.21
+            ]
+          ]
         },
         {
           "id": "chem_q18",
@@ -956,7 +1004,7 @@
           "answer": "18",
           "marks": 4,
           "negativeMarks": 0,
-          "explanation": "From the reaction sequence:\nCompound P undergoes acid-catalyzed cyclization via carbocation intermediates to form the polycyclic aromatic compound Q.\nDetermining the degree of unsaturation (Double Bond Equivalent, DBE) of Q:\n- The structure of Q contains 4 aromatic benzene rings and additional rings/double bonds, yielding a total of 18 degrees of unsaturation:\n$$\\text{DBE} = C + 1 - \\frac{H}{2} = 18$$\nThus, the degree of unsaturation of compound Q is $18$."
+          "explanation": "In conc. $\\text{H}_2\\text{SO}_4$ the ester forms an acylium ion, which attacks an ortho phenyl ring (intramolecular Friedel-Crafts acylation) to give a yellow diphenylfluorenone, Q = $\\text{C}_{25}\\text{H}_{16}\\text{O}$. Degree of unsaturation $=25+1-\\frac{16}{2}=18$ (4 benzene rings = 16, the five-membered ring = 1, C=O = 1)."
         }
       ]
     },

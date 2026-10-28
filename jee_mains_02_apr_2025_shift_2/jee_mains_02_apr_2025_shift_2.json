@@ -829,7 +829,7 @@
                         {
                             "id": "phys_q5",
                             "type": "single_correct",
-                            "questionText": "If $X$ and $Y$ are the inputs to the circuit shown in the diagram (where inputs $X$ and $Y$ each pass through a NOT gate, and their outputs are then fed into an AND gate), the given circuit works as _______.",
+                            "questionText": "If $X$ and $Y$ are the inputs to the circuit shown in the diagram, the given circuit works as _______.",
                             "hasImage": true,
                             "options": [
                                 {
@@ -1009,7 +1009,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "For an air bubble rising steadily, terminal velocity $v = \\frac{2r^2(\\rho_{liq} - \\rho_{air})g}{9\\eta}$. Since $\\rho_{air}$ is negligible, $v \\approx \\frac{2r^2 \\rho_{liq} g}{9\\eta}$.\nWe need $\\eta = \\frac{2r^2 \\rho_{liq} g}{9v}$.\nGiven $r = 1\\text{ mm} = 10^{-3}\\text{ m}$, $v = 0.5\\text{ cm/s} = 5 \\times 10^{-3}\\text{ m/s}$.\n$\\eta = \\frac{2 \\times (10^{-3})^2 \\times 2000 \\times 10}{9 \\times 5 \\times 10^{-3}} = \\frac{40 \\times 10^{-6}}{45 \\times 10^{-3}} = \\frac{40}{45} \\times 10^{-3}\\text{ Pa.s}$? Wait, calculation error. $\\eta = \\frac{2 \\times 10^{-6} \\times 20000}{45 \\times 10^{-3}} = \\frac{40}{45}\\text{ Pa.s} = 0.888\\text{ Pa.s}$.\nSince $1\\text{ Poise} = 0.1\\text{ Pa.s}$, $\\eta = 0.888 \\times 10 = 8.88\\text{ Poise} \\approx 8.8\\text{ Poise}$.",
+                            "explanation": "For a bubble rising at terminal velocity, $v = \\frac{2r^2(\\rho_{\\text{liq}} - \\rho_{\\text{air}})g}{9\\eta} \\approx \\frac{2r^2\\rho_{\\text{liq}}g}{9\\eta}$.\n$\\eta = \\frac{2 \\times (10^{-3})^2 \\times 2000 \\times 10}{9 \\times 5 \\times 10^{-3}} = \\frac{0.04}{0.045} = 0.889$ Pa s.\nSince $1$ Pa s $= 10$ Poise, $\\eta \\approx 8.8$ Poise.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1171,7 +1171,7 @@
                         {
                             "id": "phys_q16",
                             "type": "single_correct",
-                            "questionText": "One side of an equilateral prism is painted by a transparent material of refractive index $n_2$. The refractive index of prism is $1.6$. The maximum (limit condition originally referred as minimum boundary requirement for total internal reflection in OCR) value of $n_2$ required for total internal reflection from painted face is _______.",
+                            "questionText": "One side of an equilateral prism is painted by a transparent material of refractive index $n_2$. The refractive index of prism is $1.6$. For a ray incident normally on another face of the prism, the maximum value of $n_2$ for which total internal reflection occurs at the painted face is _______.",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1226,7 +1226,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "From the conditions given, closing $S_1$ isolates inductor $L_2$ giving $\\phi = 30^\\circ$, and $S_2$ isolates $L_1$ giving $\\phi = 60^\\circ$.\nUsing the standard relationship $\\tan \\phi = |\\omega L - 1/(\\omega C)| / R$, and given the solution yields $3L_2 - L_1$ consistently from equations: $X_{L1} - X_C = R \\tan 60^\\circ = R\\sqrt{3}$ and $X_{L2} - X_C = R \\tan 30^\\circ = R/\\sqrt{3}$.\nThis gives $X_{L1} - X_C = 3(X_{L2} - X_C) \\implies 3X_{L2} - X_{L1} = 2X_C$.\nGiven $\\omega = 300\\text{ rad/s}$ and $C = 100\\ \\mu\\text{F}$, $X_C = \\frac{1}{300 \\times 100\\times 10^{-6}} = \\frac{100}{3}\\ \\Omega$.\nSo, $\\omega (3L_2 - L_1) = 2 \\times \\frac{100}{3} \\implies 3L_2 - L_1 = \\frac{200}{900} = \\frac{2}{9}\\text{ H}$.\n(Note: The expression evaluated matches Option 2, even though the OCR literally requested $3L_1 - L_2$, meaning either $3L_2 - L_1$ was intended by NTA, or there was a diagrammatic swap. Option (b) is the evaluated magnitude).",
+                            "explanation": "Closing $S_1$ shorts $L_2$, leaving $L_1$, $C$, $R$ in series: $\\tan 30^\\circ = \\frac{\\omega L_1 - X_C}{R}$.\nClosing $S_2$ shorts $L_1$, leaving $L_2$, $C$, $R$: $\\tan 60^\\circ = \\frac{\\omega L_2 - X_C}{R}$.\nDividing: $\\omega L_2 - X_C = 3(\\omega L_1 - X_C) \\implies \\omega(3L_1 - L_2) = 2X_C$.\nWith $\\omega = 300$ rad/s and $C = 100\\,\\mu\\text{F}$: $X_C = \\frac{1}{300 \\times 10^{-4}} = \\frac{100}{3}\\,\\Omega$.\n$3L_1 - L_2 = \\frac{2 \\times 100/3}{300} = \\frac{2}{9}$ H.",
                             "marks": 4,
                             "negativeMarks": -1,
                             "imageName": "img/phys_q17.png"
@@ -1258,7 +1258,7 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "Assume a current $I$ flows in the outer square loop. The magnetic field at its center is the sum of fields from its 4 sides.\n$B = 4 \\times \\frac{\\mu_0 I}{4\\pi(L/2)} (\\sin 45^\\circ + \\sin 45^\\circ) = \\frac{2\\mu_0 I}{\\pi L} \\times \\frac{2}{\\sqrt{2}} = \\frac{2\\sqrt{2}\\mu_0 I}{\\pi L}$.\nSince $R \\gg L$, this magnetic field is essentially uniform over the area of the small circular loop, $A = \\pi R^2$.\nThe magnetic flux linking the circular loop is $\\Phi = B A = \\frac{2\\sqrt{2}\\mu_0 I}{\\pi L} \\pi R^2 = \\frac{2\\sqrt{2}\\mu_0 R^2 I}{L}$.\nMutual inductance $M = \\frac{\\Phi}{I} = 2\\sqrt{2} \\frac{\\mu_0 R^2}{L}$.",
+                            "explanation": "Assume a current $I$ flows in the outer square loop. The magnetic field at its center is the sum of fields from its 4 sides.\n$B = 4 \\times \\frac{\\mu_0 I}{4\\pi(L/2)} (\\sin 45^\\circ + \\sin 45^\\circ) = \\frac{2\\mu_0 I}{\\pi L} \\times \\frac{2}{\\sqrt{2}} = \\frac{2\\sqrt{2}\\mu_0 I}{\\pi L}$.\nSince $L \\gg R$, this magnetic field is essentially uniform over the area of the small circular loop, $A = \\pi R^2$.\nThe magnetic flux linking the circular loop is $\\Phi = B A = \\frac{2\\sqrt{2}\\mu_0 I}{\\pi L} \\pi R^2 = \\frac{2\\sqrt{2}\\mu_0 R^2 I}{L}$.\nMutual inductance $M = \\frac{\\Phi}{I} = 2\\sqrt{2} \\frac{\\mu_0 R^2}{L}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1730,14 +1730,14 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Coordination isomerism arises when both the cation and anion are complex ions, and isomerism occurs due to the interchange of ligands between the two coordination spheres. Such interchange yields a distinctly new compound (salt) mostly when the central metal atoms in the complex cation and anion are different.\nFor B, D, and E, the central metal atoms in the cationic and anionic parts are different (Co/Cr, Fe/Co, Co/Fe). For instance, in B, exchanging ligands produces $[Cr(NH_3)_6][Co(CN)_6]$, which is a distinct salt isomer.\nFor A and C, the metals are identical. Fully swapping the ligands leads to a structural representation that simply writes the new anionic complex first, which yields the exact identical chemical substance (e.g., swapping all ligands in C gives $[Co(CN)_6][Co(NH_3)_6]$, which is the same salt). Thus B, D, and E clearly exhibit coordination isomerism.",
+                            "explanation": "Coordination isomerism arises in salts where both cation and anion are complex ions and the ligands can be distributed differently between the two metal centres, e.g. $[\\text{Co}(\\text{NH}_3)_6][\\text{Cr}(\\text{CN})_6]$ and $[\\text{Cr}(\\text{NH}_3)_6][\\text{Co}(\\text{CN})_6]$.\nIn B, D and E the cationic and anionic complexes have different metal ions (Co/Cr, Fe/Co, Co/Fe), so interchanging ligands gives distinct isomers.\nIn A and C both coordination spheres contain the same metal ion, so they are not counted (as per the official key). Hence B, D and E only.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q12",
                             "type": "single_correct",
-                            "questionText": "Complete combustion of $X\\text{ g}$ of an organic compound gave $0.25\\text{ g}$ of $\\text{CO}_2$ and $0.12\\text{ g}$ of $\\text{H}_2\\text{O}$. If the % of carbon is $25\\%$ and of hydrogen is $4.89\\%$, then X = {_____}$ \\times 10^{-3}\\text{ g}$. (Nearest integer)\n(Molar mass of C, H and O are $12, 1$ and $16\\text{ g mol}^{-1}$ respectively.)",
+                            "questionText": "Complete combustion of $X\\text{ g}$ of an organic compound gave $0.25\\text{ g}$ of $\\text{CO}_2$ and $0.12\\text{ g}$ of $\\text{H}_2\\text{O}$. If the % of carbon is $25\\%$ and of hydrogen is $4.89\\%$, then X = _____ $\\times 10^{-3}$ g. (Nearest integer)\n(Molar mass of C, H and O are $12, 1$ and $16\\text{ g mol}^{-1}$ respectively.)",
                             "hasImage": false,
                             "options": [
                                 {

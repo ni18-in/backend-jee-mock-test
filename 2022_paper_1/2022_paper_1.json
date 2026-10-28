@@ -14,7 +14,13 @@
                     "answer": "2.36",
                     "explanation": "Let $\\cot \\theta = \\frac{\\sqrt{2}}{\\pi}$ so $\\tan \\theta = \\frac{\\pi}{\\sqrt{2}}$ where $\\theta \\in (0, \\pi/2)$. Then $\\cos \\theta = \\sqrt{\\frac{2}{2+\\pi^2}}$ and $\\sin(2\\theta) = \\frac{2\\sqrt{2}\\pi}{2+\\pi^2}$. Since $\\theta \\in (0, \\pi/2)$ and $\\tan \\theta > 1$, we have $2\\theta > \\pi/2$. Hence $\\sin^{-1}(\\sin 2\\theta) = \\pi - 2\\theta$. Therefore, the given expression becomes $\\frac{3}{2}\\theta + \\frac{1}{4}(\\pi - 2\\theta) + (\\frac{\\pi}{2} - \\theta) = \\frac{3\\pi}{4} \\approx 2.36$.",
                     "marks": 3,
-                    "negativeMarks": 0
+                    "negativeMarks": 0,
+                    "acceptedAnswers": [
+                        [
+                            2.35,
+                            2.36
+                        ]
+                    ]
                 },
                 {
                     "id": "math_q2",
@@ -84,7 +90,13 @@
                     "answer": "0.84",
                     "explanation": "Let $A$ be at the origin $(0,0)$, $B$ at $(1,0)$ and $C$ at $(0,3)$. The circumcircle has hypotenuse $BC$ as diameter with center at $(1/2, 3/2)$ and circumradius $R = \\frac{\\sqrt{1^2+3^2}}{2} = \\frac{\\sqrt{10}}{2}$. The circle touching both coordinate axes in the first quadrant has center $(r,r)$ and radius $r$. For internal tangency, the distance between the two centers equals $R - r$: $\\sqrt{(r - 1/2)^2 + (r - 3/2)^2} = \\frac{\\sqrt{10}}{2} - r$. Squaring both sides and simplifying gives $r^2 - 8r + 6 = 0 \\implies r = 4 - \\sqrt{10} \\approx 4 - 3.162 = 0.838 \\approx 0.84$.",
                     "marks": 3,
-                    "negativeMarks": 0
+                    "negativeMarks": 0,
+                    "acceptedAnswers": [
+                        [
+                            0.83,
+                            0.84
+                        ]
+                    ]
                 },
                 {
                     "id": "math_q9",
@@ -185,7 +197,7 @@
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "An edge of a tetrahedron with faces on $P_1$ and $P_2$ must either lie completely on $P_1$, lie completely on $P_2$, or intersect both planes at distinct points (or be skew). A line cannot be an edge if it is parallel to and non-intersecting with either plane (unless it lies entirely in the other plane and does not conflict). Specifically, any line lying in $P_1$ or $P_2$, or intersecting both planes at two distinct vertices, can serve as an edge. Lines (A), (B), and (D) satisfy this criterion, while line (C) does not.",
+                    "explanation": "The faces on $P_1$ and $P_2$ share the edge along $P_1 \\cap P_2$ (direction $\\parallel (0, -4, 5)$). Any other edge either lies in $P_1$ or $P_2$, or joins a vertex on $P_1$ to a vertex on $P_2$, i.e. meets the two planes at two distinct points. (A) The line through $(1,1,1)$ along $\\hat{k}$ meets $P_1$ at $z = \\frac{35}{12}$ and $P_2$ at $z = \\frac{17}{4}$: distinct points, valid. (B) $(6 - 5t, 2t, 3t)$ meets $P_1$ at $t = 0$, i.e. $(6,0,0)$, and $P_2$ at $t = 1$, i.e. $(1,2,3)$: valid. (C) Direction $(-2, 5, 4)$ is normal to $P_2$ and the line meets both planes only at the single point $(0, 4, 0)$ on their common line: cannot be an edge. (D) Direction $(1, -2, 3)$ is perpendicular to $\\vec{n}_2$ and $(0,4,0)$ lies on $P_2$, so the line lies in $P_2$: valid. Hence (A), (B), (D).",
                     "marks": 4,
                     "partialMarks": [
                         1,
@@ -309,41 +321,41 @@
                     "hasImage": false,
                     "listI": [
                         {
-                            "id": "P",
+                            "id": "I",
                             "text": "$\\{x \\in [-\\frac{2\\pi}{3}, \\frac{2\\pi}{3}]: \\cos x + \\sin x = 1\\}$"
                         },
                         {
-                            "id": "Q",
+                            "id": "II",
                             "text": "$\\{x \\in [-\\frac{5\\pi}{18}, \\frac{5\\pi}{18}]: \\sqrt{3} \\tan 3x = 1\\}$"
                         },
                         {
-                            "id": "R",
+                            "id": "III",
                             "text": "$\\{x \\in [-\\frac{6\\pi}{5}, \\frac{6\\pi}{5}]: 2 \\cos(2x) = \\sqrt{3}\\}$"
                         },
                         {
-                            "id": "S",
+                            "id": "IV",
                             "text": "$\\{x \\in [-\\frac{7\\pi}{4}, \\frac{7\\pi}{4}]: \\sin x - \\cos x = 1\\}$"
                         }
                     ],
                     "listII": [
                         {
-                            "id": "1",
+                            "id": "P",
                             "text": "has two elements"
                         },
                         {
-                            "id": "2",
+                            "id": "Q",
                             "text": "has three elements"
                         },
                         {
-                            "id": "3",
+                            "id": "R",
                             "text": "has four elements"
                         },
                         {
-                            "id": "4",
+                            "id": "S",
                             "text": "has five elements"
                         },
                         {
-                            "id": "5",
+                            "id": "T",
                             "text": "has six elements"
                         }
                     ],
@@ -380,41 +392,41 @@
                     "hasImage": false,
                     "listI": [
                         {
-                            "id": "P",
+                            "id": "I",
                             "text": "Probability of $(X_2 \\ge Y_2)$"
                         },
                         {
-                            "id": "Q",
+                            "id": "II",
                             "text": "Probability of $(X_2 > Y_2)$"
                         },
                         {
-                            "id": "R",
+                            "id": "III",
                             "text": "Probability of $(X_3 = Y_3)$"
                         },
                         {
-                            "id": "S",
+                            "id": "IV",
                             "text": "Probability of $(X_3 > Y_3)$"
                         }
                     ],
                     "listII": [
                         {
-                            "id": "1",
+                            "id": "P",
                             "text": "$\\frac{3}{8}$"
                         },
                         {
-                            "id": "2",
+                            "id": "Q",
                             "text": "$\\frac{11}{16}$"
                         },
                         {
-                            "id": "3",
+                            "id": "R",
                             "text": "$\\frac{5}{16}$"
                         },
                         {
-                            "id": "4",
+                            "id": "S",
                             "text": "$\\frac{355}{864}$"
                         },
                         {
-                            "id": "5",
+                            "id": "T",
                             "text": "$\\frac{77}{432}$"
                         }
                     ],
@@ -451,41 +463,41 @@
                     "hasImage": false,
                     "listI": [
                         {
-                            "id": "P",
+                            "id": "I",
                             "text": "If $\\frac{q}{r} = 10$, then the system of linear equations has"
                         },
                         {
-                            "id": "Q",
+                            "id": "II",
                             "text": "If $\\frac{p}{r} \\ne 100$, then the system of linear equations has"
                         },
                         {
-                            "id": "R",
+                            "id": "III",
                             "text": "If $\\frac{p}{q} \\ne 10$, then the system of linear equations has"
                         },
                         {
-                            "id": "S",
+                            "id": "IV",
                             "text": "If $\\frac{p}{q} = 10$, then the system of linear equations has"
                         }
                     ],
                     "listII": [
                         {
-                            "id": "1",
+                            "id": "P",
                             "text": "$x = 0, y = \\frac{10}{9}, z = -\\frac{1}{9}$ as a solution"
                         },
                         {
-                            "id": "2",
+                            "id": "Q",
                             "text": "$x = \\frac{10}{9}, y = -\\frac{1}{9}, z = 0$ as a solution"
                         },
                         {
-                            "id": "3",
+                            "id": "R",
                             "text": "infinitely many solutions"
                         },
                         {
-                            "id": "4",
+                            "id": "S",
                             "text": "no solution"
                         },
                         {
-                            "id": "5",
+                            "id": "T",
                             "text": "at least one solution"
                         }
                     ],
@@ -511,7 +523,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Since $p, q, r$ are the 10th, 100th, 1000th terms of an HP, $\\frac{1}{p} = A + 9D, \\frac{1}{q} = A + 99D, \\frac{1}{r} = A + 999D$. Dividing the third equation by $pqr$ gives $\\frac{x}{p} + \\frac{y}{q} + \\frac{z}{r} = 0$. Using Cramer's rule and analysis of row dependencies yields: (I) $\\to$ (Q), (II) $\\to$ (S), (III) $\\to$ (S), (IV) $\\to$ (R). Hence option (B) is correct.",
+                    "explanation": "Dividing the third equation by $pqr$: $\\frac{x}{p} + \\frac{y}{q} + \\frac{z}{r} = 0$. With $\\frac{1}{p} = A + 9D$, $\\frac{1}{q} = A + 99D$, $\\frac{1}{r} = A + 999D$, its coefficient vector is $(A - D)(1, 1, 1) + \\frac{D}{10}(10, 100, 1000)$. So for any $(x, y, z)$ satisfying the first two equations, the third reduces to $A - D = 0$. Hence the system has infinitely many solutions if $A = D$ and no solution otherwise. $A = D \\iff \\frac{p}{q} = 10 \\iff \\frac{q}{r} = 10 \\iff \\frac{p}{r} = 100$. (I) $\\frac{q}{r} = 10$: infinitely many solutions, and $x = \\frac{10}{9}, y = -\\frac{1}{9}, z = 0$ satisfies the first two equations, so it is a solution $\\to$ (Q). (II) $\\frac{p}{r} \\ne 100$: no solution $\\to$ (S). (III) $\\frac{p}{q} \\ne 10$: no solution $\\to$ (S). (IV) $\\frac{p}{q} = 10$: infinitely many solutions $\\to$ (R). Hence option (B).",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -522,41 +534,41 @@
                     "hasImage": false,
                     "listI": [
                         {
-                            "id": "P",
+                            "id": "I",
                             "text": "If $\\phi = \\frac{\\pi}{4}$, then the area of the triangle $FGH$ is"
                         },
                         {
-                            "id": "Q",
+                            "id": "II",
                             "text": "If $\\phi = \\frac{\\pi}{3}$, then the area of the triangle $FGH$ is"
                         },
                         {
-                            "id": "R",
+                            "id": "III",
                             "text": "If $\\phi = \\frac{\\pi}{6}$, then the area of the triangle $FGH$ is"
                         },
                         {
-                            "id": "S",
+                            "id": "IV",
                             "text": "If $\\phi = \\frac{\\pi}{12}$, then the area of the triangle $FGH$ is"
                         }
                     ],
                     "listII": [
                         {
-                            "id": "1",
+                            "id": "P",
                             "text": "$\\frac{(\\sqrt{3}-1)^4}{8}$"
                         },
                         {
-                            "id": "2",
+                            "id": "Q",
                             "text": "$1$"
                         },
                         {
-                            "id": "3",
+                            "id": "R",
                             "text": "$\\frac{3}{4}$"
                         },
                         {
-                            "id": "4",
+                            "id": "S",
                             "text": "$\\frac{1}{2\\sqrt{3}}$"
                         },
                         {
-                            "id": "5",
+                            "id": "T",
                             "text": "$\\frac{3\\sqrt{3}}{2}$"
                         }
                     ],
@@ -610,7 +622,13 @@
                     "answer": "2.32",
                     "explanation": "The $Q$-value of the reaction is $Q = [m(^{16}_7\\text{N}) + m(^4_2\\text{He}) - m(^1_1\\text{H}) - m(^{19}_8\\text{O})] c^2 = [16.006 + 4.003 - 1.008 - 19.003] \\times 930\\text{ MeV} = -0.002 \\times 930\\text{ MeV} = -1.86\\text{ MeV}$. The threshold kinetic energy for an endothermic nuclear reaction in the laboratory frame where target nucleus is at rest is $K_{\\text{th}} = |Q|\\left(1 + \\frac{m_\\alpha}{M_N}\\right) = 1.86\\left(1 + \\frac{4.003}{16.006}\\right) = 1.86 \\times 1.2501 \\approx 2.325\\text{ MeV} \\approx 2.32\\text{ MeV}$.",
                     "marks": 3,
-                    "negativeMarks": 0
+                    "negativeMarks": 0,
+                    "acceptedAnswers": [
+                        [
+                            2.32,
+                            2.33
+                        ]
+                    ]
                 },
                 {
                     "id": "phy_q3",
@@ -619,7 +637,7 @@
                     "hasImage": true,
                     "imageName": "img/phy_q3.png",
                     "answer": "8.00",
-                    "explanation": "Let the potential of the node between $C_4$ and the $2\\text{ V}$ battery be $0\\text{ V}$. Then the potential of the node above the $6\\text{ V}$ source is $6\\text{ V}$. Across the outer loop containing $C_1$, the potential difference is $6 - 2 = 4\\text{ V}$, so $q_1 = 12 \\times 4 = 48\\ \\mu\\text{C}$. For the central bridge comprising $C_2, C_3, C_4, C_5$: the branch with $C_2$ and $C_3$ connects from the $6\\text{ V}$ rail to the $2\\text{ V}$ node, giving potential difference $6 - 2 = 4\\text{ V}$ across the series combination of $C_2$ and $C_3$ ($4\\ \\mu\\text{F}$ each, equivalent $2\\ \\mu\\text{F}$). The charge on $C_3$ is $q_3 = C_{\\text{eq}} \\times V = 2\\ \\mu\\text{F} \\times 4\\text{ V} = 8\\ \\mu\\text{C}$.",
+                    "explanation": "The top node joining $C_1$, $C_2$, $C_3$, $C_4$ and $C_5$ is wired directly to the $2\\text{ V}$ battery, and the bottom wire is common to both batteries. So $C_2$, $C_3$, $C_4$, $C_5$ and the $2\\text{ V}$ battery are all in parallel between the same two nodes, and the potential difference across $C_3$ is $2\\text{ V}$ (the $6\\text{ V}$ battery only affects $C_1$, which has $6 - 2 = 4\\text{ V}$ across it). Charge on $C_3$: $q_3 = C_3 V = 4\\ \\mu\\text{F} \\times 2\\text{ V} = 8\\ \\mu\\text{C}$.",
                     "marks": 3,
                     "negativeMarks": 0
                 },
@@ -638,8 +656,8 @@
                     "id": "phy_q5",
                     "type": "numerical",
                     "questionText": "At time $t = 0$, a disk of radius $1\\text{ m}$ starts to roll without slipping on a horizontal plane with an angular acceleration of $\\alpha = \\frac{2}{3}\\text{ rad s}^{-2}$. A small stone is stuck to the disk. At $t = 0$, it is at the contact point of the disk and the plane. Later, at time $t = \\sqrt{\\pi}\\text{ s}$, the stone detaches itself and flies off tangentially from the disk. The maximum height (in m) reached by the stone measured from the plane is $\\frac{1}{2} + \\frac{x}{10}$. The value of $x$ is __________. [Take $g = 10\\text{ m s}^{-2}$.]",
-                    "hasImage": true,
-                    "imageName": "img/phy_q5.png",
+                    "hasImage": false,
+                    "imageName": null,
                     "answer": "0.52",
                     "explanation": "At time $t = \\sqrt{\\pi}\\text{ s}$, the angular displacement is $\\theta = \\frac{1}{2}\\alpha t^2 = \\frac{1}{2}\\left(\\frac{2}{3}\\right)\\pi = \\frac{\\pi}{3}\\text{ rad} = 60^\\circ$. The angular speed is $\\omega = \\alpha t = \\frac{2}{3}\\sqrt{\\pi}\\text{ rad s}^{-1}$, and the center of mass velocity is $v_{\\text{cm}} = \\omega R = \\frac{2}{3}\\sqrt{\\pi}\\text{ m s}^{-1}$. The height of the stone upon detachment is $y_0 = R(1 - \\cos 60^\\circ) = 1(1 - 0.5) = 0.5\\text{ m}$. Relative to the center of mass, the tangential velocity of the stone is $\\omega R$ directed at $30^\\circ$ above the horizontal. Hence, the vertical component of the velocity is $v_y = \\omega R \\sin 60^\\circ = \\left(\\frac{2}{3}\\sqrt{\\pi}\\right)\\frac{\\sqrt{3}}{2} = \\frac{\\sqrt{\\pi}}{\\sqrt{3}}\\text{ m s}^{-1}$. The maximum height reached is $H = y_0 + \\frac{v_y^2}{2g} = \\frac{1}{2} + \\frac{\\pi/3}{20} = \\frac{1}{2} + \\frac{\\pi}{60}\\text{ m}$. Comparing with $\\frac{1}{2} + \\frac{x}{10}$, we have $\\frac{x}{10} = \\frac{\\pi}{60} \\implies x = \\frac{\\pi}{6} \\approx 0.52$.",
                     "marks": 3,
@@ -651,10 +669,16 @@
                     "questionText": "A solid sphere of mass $1\\text{ kg}$ and radius $1\\text{ m}$ rolls without slipping on a fixed inclined plane with an angle of inclination $\\theta = 30^\\circ$ from the horizontal. Two forces of magnitude $1\\text{ N}$ each, parallel to the incline, act on the sphere, both at distance $r = 0.5\\text{ m}$ from the center of the sphere, as shown in the figure. The acceleration of the sphere down the plane is __________ $\\text{m s}^{-2}$. (Take $g = 10\\text{ m s}^{-2}$.)",
                     "hasImage": true,
                     "imageName": "img/phy_q6.png",
-                    "answer": "2.85",
-                    "explanation": "Taking torque about the instantaneous point of contact $P$ with the incline: $I_P = I_{\\text{cm}} + m R^2 = \\frac{2}{5}m R^2 + m R^2 = \\frac{7}{5}m R^2 = \\frac{7}{5}(1)(1)^2 = \\frac{7}{5}\\text{ kg m}^2$. The torque due to gravity is $\\tau_g = m g \\sin 30^\\circ \\times R = (1)(10)(0.5)(1) = 5\\text{ N m}$ (down the incline). The upper force of $1\\text{ N}$ acts down the incline at distance $R - r = 1 - 0.5 = 0.5\\text{ m}$ from $P$, contributing torque $1 \\times 0.5 = 0.5\\text{ N m}$, while the lower force acts up the incline at distance $R + r = 1.5\\text{ m}$ from $P$, contributing $-1 \\times 1.5 = -1.5\\text{ N m}$. Net torque about $P$ is $\\tau_P = 5 + 0.5 - 1.5 = 4\\text{ N m}$. Therefore, $\\alpha = \\frac{\\tau_P}{I_P} = \\frac{4}{7/5} = \\frac{20}{7}\\text{ rad s}^{-2}$. Acceleration of the sphere down the incline is $a = R \\alpha = \\frac{20}{7} \\approx 2.857\\text{ m s}^{-2} \\approx 2.85\\text{ m s}^{-2}$.",
+                    "answer": "2.86",
+                    "explanation": "The two $1\\text{ N}$ forces are equal and opposite, so they form a couple with no net force. From the figure, the down-the-incline force acts at distance $r$ below the centre (towards the incline) and the up-the-incline force at distance $r$ above it. Take torques about the contact point $P$, with $I_P = \\frac{7}{5}mR^2 = 1.4\\text{ kg m}^2$. Gravity gives $mg\\sin 30^\\circ \\cdot R = 5\\text{ N m}$ (down the incline). The lower force (lever arm $R - r = 0.5\\text{ m}$) gives $+0.5\\text{ N m}$ and the upper force (lever arm $R + r = 1.5\\text{ m}$) gives $-1.5\\text{ N m}$. Net torque $= 4\\text{ N m}$, so $\\alpha = \\frac{4}{1.4} = \\frac{20}{7}\\text{ rad s}^{-2}$ and $a = R\\alpha = \\frac{20}{7} \\approx 2.86\\text{ m s}^{-2}$.",
                     "marks": 3,
-                    "negativeMarks": 0
+                    "negativeMarks": 0,
+                    "acceptedAnswers": [
+                        [
+                            2.85,
+                            2.86
+                        ]
+                    ]
                 },
                 {
                     "id": "phy_q7",
@@ -679,7 +703,7 @@
                 {
                     "id": "phy_q9",
                     "type": "multi_correct",
-                    "questionText": "A medium having dielectric constant $K > 1$ fills the space between the plates of a parallel plate capacitor. The plates have large area, and the distance between them is $d$. The capacitor is connected to a battery of voltage $V$, as shown in Figure (a). Now, both the plates are moved by a distance of $\\frac{d}{2}$ from their original positions, as shown in Figure (b).\\n\\nIn the process of going from the configuration depicted in Figure (a) to that in Figure (b), which of the following statement(s) is(are) correct?",
+                    "questionText": "A medium having dielectric constant $K > 1$ fills the space between the plates of a parallel plate capacitor. The plates have large area, and the distance between them is $d$. The capacitor is connected to a battery of voltage $V$, as shown in Figure (a). Now, both the plates are moved by a distance of $\\frac{d}{2}$ from their original positions, as shown in Figure (b).\n\nIn the process of going from the configuration depicted in Figure (a) to that in Figure (b), which of the following statement(s) is(are) correct?",
                     "hasImage": true,
                     "imageName": "img/phy_q9.png",
                     "options": [
@@ -716,7 +740,7 @@
                 {
                     "id": "phy_q10",
                     "type": "multi_correct",
-                    "questionText": "The figure shows a circuit having eight resistances of $1\\ \\Omega$ each, labelled $R_1$ to $R_8$, and two ideal batteries with voltages $\\mathcal{E}_1 = 12\\text{ V}$ and $\\mathcal{E}_2 = 6\\text{ V}$.\\n\\nWhich of the following statement(s) is(are) correct?",
+                    "questionText": "The figure shows a circuit having eight resistances of $1\\ \\Omega$ each, labelled $R_1$ to $R_8$, and two ideal batteries with voltages $\\mathcal{E}_1 = 12\\text{ V}$ and $\\mathcal{E}_2 = 6\\text{ V}$.\n\nWhich of the following statement(s) is(are) correct?",
                     "hasImage": true,
                     "imageName": "img/phy_q10.png",
                     "options": [
@@ -741,7 +765,7 @@
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "Let the parallel pairs of $1\\ \\Omega$ resistors be combined: $R_3$ and $R_4$ are in parallel, giving $R_{34} = 0.5\\ \\Omega$. Similarly, $R_5$ and $R_6$ in parallel give $R_{56} = 0.5\\ \\Omega$, and $R_7$ and $R_8$ in parallel give $R_{78} = 0.5\\ \\Omega$. Using nodal analysis or mesh analysis on the simplified network with batteries $\\mathcal{E}_1 = 12\\text{ V}$ and $\\mathcal{E}_2 = 6\\text{ V}$: current through $R_1$ is found to be $7.2\\text{ A}$, current through $R_2$ is $1.2\\text{ A}$. In the parallel combination of $R_3$ and $R_4$, the current splits equally, yielding current of $4.8\\text{ A}$ through $R_3$. For the pair $R_5$ and $R_6$, total current of $4.8\\text{ A}$ splits equally, giving $2.4\\text{ A}$ through $R_5$. Thus all four statements (A), (B), (C), and (D) are correct.",
+                    "explanation": "From the figure: $R_6$ joins the left node $L$ to the top node $T$, $R_7$ joins $T$ to the right node $N$, $R_5$ joins $L$ to the bottom node $B$, $R_8$ joins $B$ to $N$, $R_2$ joins $T$ to the centre $O$, $R_4$ joins $O$ to $B$, $\\mathcal{E}_2 + R_3$ joins $L$ to $O$ and $\\mathcal{E}_1 + R_1$ joins $O$ to $N$. By symmetry $V_T = V_B$, so $T$ and $B$ merge into one node $M$ joined to $L$, $N$ and $O$ by $0.5\\ \\Omega$ each. Taking $V_O = 0$, the node equations give $V_L = -1.2\\text{ V}$, $V_N = 4.8\\text{ V}$, $V_M = 1.2\\text{ V}$. Then $I_{R_3} = V_L + \\mathcal{E}_2 = 4.8\\text{ A}$ and $I_{R_1} = \\mathcal{E}_1 - V_N = 7.2\\text{ A}$. The current through $R_2 \\parallel R_4$ is $\\frac{1.2}{0.5} = 2.4\\text{ A}$, so $I_{R_2} = 1.2\\text{ A}$. The current through $R_5 \\parallel R_6$ is $\\frac{2.4}{0.5} = 4.8\\text{ A}$, so $I_{R_5} = 2.4\\text{ A}$. All four statements are correct.",
                     "marks": 4,
                     "negativeMarks": -2,
                     "partialMarks": [
@@ -753,7 +777,7 @@
                 {
                     "id": "phy_q11",
                     "type": "multi_correct",
-                    "questionText": "An ideal gas of density $\\rho = 0.2\\text{ kg m}^{-3}$ enters a chimney of height $h$ at the rate of $\\alpha = 0.8\\text{ kg s}^{-1}$ from its lower end, and escapes through the upper end as shown in the figure. The cross-sectional area of the lower end is $A_1 = 0.1\\text{ m}^2$ and the upper end is $A_2 = 0.4\\text{ m}^2$. The pressure and the temperature of the gas at the lower end are $600\\text{ Pa}$ and $300\\text{ K}$, respectively, while its temperature at the upper end is $150\\text{ K}$. The chimney is heat insulated so that the gas undergoes adiabatic expansion. Take $g = 10\\text{ m s}^{-2}$ and the ratio of specific heats of the gas $\\gamma = 2$. Ignore atmospheric pressure.\\n\\nWhich of the following statement(s) is(are) correct?",
+                    "questionText": "An ideal gas of density $\\rho = 0.2\\text{ kg m}^{-3}$ enters a chimney of height $h$ at the rate of $\\alpha = 0.8\\text{ kg s}^{-1}$ from its lower end, and escapes through the upper end as shown in the figure. The cross-sectional area of the lower end is $A_1 = 0.1\\text{ m}^2$ and the upper end is $A_2 = 0.4\\text{ m}^2$. The pressure and the temperature of the gas at the lower end are $600\\text{ Pa}$ and $300\\text{ K}$, respectively, while its temperature at the upper end is $150\\text{ K}$. The chimney is heat insulated so that the gas undergoes adiabatic expansion. Take $g = 10\\text{ m s}^{-2}$ and the ratio of specific heats of the gas $\\gamma = 2$. Ignore atmospheric pressure.\n\nWhich of the following statement(s) is(are) correct?",
                     "hasImage": true,
                     "imageName": "img/phy_q11.png",
                     "options": [
@@ -790,7 +814,7 @@
                 {
                     "id": "phy_q12",
                     "type": "multi_correct",
-                    "questionText": "Three plane mirrors form an equilateral triangle with each side of length $L$. There is a small hole at a distance $l > 0$ from one of the corners as shown in the figure. A ray of light is passed through the hole at an angle $\\theta$ and can only come out through the same hole. The cross section of the mirror configuration and the ray of light lie on the same plane.\\n\\nWhich of the following statement(s) is(are) correct?",
+                    "questionText": "Three plane mirrors form an equilateral triangle with each side of length $L$. There is a small hole at a distance $l > 0$ from one of the corners as shown in the figure. A ray of light is passed through the hole at an angle $\\theta$ and can only come out through the same hole. The cross section of the mirror configuration and the ray of light lie on the same plane.\n\nWhich of the following statement(s) is(are) correct?",
                     "hasImage": true,
                     "imageName": "img/phy_q12.png",
                     "options": [
@@ -827,7 +851,7 @@
                 {
                     "id": "phy_q13",
                     "type": "multi_correct",
-                    "questionText": "Six charges are placed around a regular hexagon of side length $a$ as shown in the figure. Five of them have charge $q$, and the remaining one has charge $x$. The perpendicular from each charge to the nearest hexagon side passes through the center $O$ of the hexagon and is bisected by the side.\\n\\nWhich of the following statement(s) is(are) correct in SI units?",
+                    "questionText": "Six charges are placed around a regular hexagon of side length $a$ as shown in the figure. Five of them have charge $q$, and the remaining one has charge $x$. The perpendicular from each charge to the nearest hexagon side passes through the center $O$ of the hexagon and is bisected by the side.\n\nWhich of the following statement(s) is(are) correct in SI units?",
                     "hasImage": true,
                     "imageName": "img/phy_q13.png",
                     "options": [
@@ -864,9 +888,9 @@
                 {
                     "id": "phy_q14",
                     "type": "multi_correct",
-                    "questionText": "The binding energy of nucleons in a nucleus can be affected by the pairwise Coulomb repulsion. Assume that all nucleons are uniformly distributed inside the nucleus. Let the binding energy of a proton be $E_b^p$ and the binding energy of a neutron be $E_b^n$ in the nucleus.\\n\\nWhich of the following statement(s) is(are) correct?",
-                    "hasImage": true,
-                    "imageName": "img/phy_q14.png",
+                    "questionText": "The binding energy of nucleons in a nucleus can be affected by the pairwise Coulomb repulsion. Assume that all nucleons are uniformly distributed inside the nucleus. Let the binding energy of a proton be $E_b^p$ and the binding energy of a neutron be $E_b^n$ in the nucleus.\n\nWhich of the following statement(s) is(are) correct?",
+                    "hasImage": false,
+                    "imageName": null,
                     "options": [
                         {
                             "id": "A",
@@ -901,26 +925,26 @@
                 {
                     "id": "phy_q15",
                     "type": "matching",
-                    "questionText": "A smaller circular loop of area $A$ and resistance $R$ is fixed on a horizontal $xy$-plane with the center of the loop always on the axis $\\hat{n}$ of a long solenoid. The solenoid has $m$ turns per unit length and carries current $I$ counterclockwise as shown in the figure. The magnetic field due to the solenoid is in $\\hat{n}$ direction. List-I gives time dependences of $\\hat{n}$ in terms of a constant angular frequency $\\omega$. List-II gives the torques experienced by the circular loop at time $t = \\frac{\\pi}{6\\omega}$. Let $\\alpha = \\frac{\\mu_0^2 m^2 I^2 A^2 \\omega}{2R}$.\\n\\nWhich one of the following options is correct?",
+                    "questionText": "A smaller circular loop of area $A$ and resistance $R$ is fixed on a horizontal $xy$-plane with the center of the loop always on the axis $\\hat{n}$ of a long solenoid. The solenoid has $m$ turns per unit length and carries current $I$ counterclockwise as shown in the figure. The magnetic field due to the solenoid is in $\\hat{n}$ direction. List-I gives time dependences of $\\hat{n}$ in terms of a constant angular frequency $\\omega$. List-II gives the torques experienced by the circular loop at time $t = \\frac{\\pi}{6\\omega}$. Let $\\alpha = \\frac{\\mu_0^2 m^2 I^2 A^2 \\omega}{2R}$.\n\nWhich one of the following options is correct?",
                     "hasImage": true,
                     "imageName": "img/phy_q15.png",
                     "hideTextLists": true,
                     "listI": [
                         {
                             "id": "I",
-                            "text": "$\\frac{1}{2}(\\sin\\omega t\\,\\hat{j} + \\cos\\omega t\\,\\hat{k})$"
+                            "text": "$\\frac{1}{\\sqrt{2}}(\\sin\\omega t\\,\\hat{j} + \\cos\\omega t\\,\\hat{k})$"
                         },
                         {
                             "id": "II",
-                            "text": "$\\frac{1}{2}(\\sin\\omega t\\,\\hat{i} + \\cos\\omega t\\,\\hat{j})$"
+                            "text": "$\\frac{1}{\\sqrt{2}}(\\sin\\omega t\\,\\hat{i} + \\cos\\omega t\\,\\hat{j})$"
                         },
                         {
                             "id": "III",
-                            "text": "$\\frac{1}{2}(\\sin\\omega t\\,\\hat{i} + \\cos\\omega t\\,\\hat{k})$"
+                            "text": "$\\frac{1}{\\sqrt{2}}(\\sin\\omega t\\,\\hat{i} + \\cos\\omega t\\,\\hat{k})$"
                         },
                         {
                             "id": "IV",
-                            "text": "$\\frac{1}{2}(\\cos\\omega t\\,\\hat{j} + \\sin\\omega t\\,\\hat{k})$"
+                            "text": "$\\frac{1}{\\sqrt{2}}(\\cos\\omega t\\,\\hat{j} + \\sin\\omega t\\,\\hat{k})$"
                         }
                     ],
                     "listII": [
@@ -974,7 +998,7 @@
                 {
                     "id": "phy_q16",
                     "type": "matching",
-                    "questionText": "List I describes four systems, each with two particles A and B in relative motion as shown in figures. List II gives possible magnitudes of their relative velocities (in $\\text{m s}^{-1}$) at time $t = \\frac{\\pi}{3}\\text{ s}$.\\n\\nWhich one of the following options is correct?",
+                    "questionText": "List I describes four systems, each with two particles A and B in relative motion as shown in figures. List II gives possible magnitudes of their relative velocities (in $\\text{m s}^{-1}$) at time $t = \\frac{\\pi}{3}\\text{ s}$.\n\nWhich one of the following options is correct?",
                     "hasImage": true,
                     "imageName": "img/phy_q16.png",
                     "hideTextLists": true,
@@ -989,7 +1013,7 @@
                         },
                         {
                             "id": "III",
-                            "text": "Harmonic oscillators: $x_A = x_0 \\sin(t/t_0)$ and $x_B = -x_0 \\sin(t/t_0 - \\pi/2)$ ($x_0 = 1\\text{ m}, t_0 = 1\\text{ s}$)."
+                            "text": "Harmonic oscillators A and B moving in the $x$ direction: $x_A = x_0 \\sin\\frac{t}{t_0}$ and $x_B = x_0 \\sin\\left(\\frac{t}{t_0} + \\frac{\\pi}{2}\\right)$ ($x_0 = 1\\text{ m}, t_0 = 1\\text{ s}$)."
                         },
                         {
                             "id": "IV",
@@ -1003,7 +1027,7 @@
                         },
                         {
                             "id": "Q",
-                            "text": "$\\frac{\\sqrt{3}-1}{2}$"
+                            "text": "$\\frac{\\sqrt{3}-1}{\\sqrt{2}}$"
                         },
                         {
                             "id": "R",
@@ -1040,14 +1064,14 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Evaluating the magnitude of relative velocity $v_{\\text{rel}} = |\\vec{v}_A - \\vec{v}_B|$ at $t = \\pi/3\\text{ s}$:\\n- (I): Both particles move on a circle of radius $1\\text{ m}$ with $\\omega = 1\\text{ rad/s}$ ($v = 1\\text{ m/s}$) maintaining an angular separation of $\\pi/2$. Their velocity vectors are perpendicular at all times, giving $v_{\\text{rel}} = \\sqrt{1^2 + 1^2} = \\sqrt{2}\\text{ m/s}$ (S).\\n- (II): Projectiles fired at $t = 0$ and $t = 0.1\\text{ s}$ with speed $v = \\frac{5\\pi}{\\sqrt{2}}\\text{ m/s}$ at $45^\\circ$. The relative velocity vector magnitude at $t = \\pi/3\\text{ s}$ evaluates to $\\sqrt{25\\pi^2 + 1}$ (T).\\n- (III): Simple harmonic oscillators $x_A(t)$ and $x_B(t)$. Differentiating positions gives velocities whose difference evaluates to $\\frac{\\sqrt{3}+1}{2}$ (P).\\n- (IV): Particle A in circular motion in $xy$-plane with speed $1\\text{ m/s}$ and B moving along $z$ at $3\\text{ m/s}$. The velocities are mutually perpendicular, giving $v_{\\text{rel}} = \\sqrt{1^2 + 3^2} = \\sqrt{10}\\text{ m/s}$ (R).\\nThus, I $\\to$ S, II $\\to$ T, III $\\to$ P, IV $\\to$ R, matching option (C).",
+                    "explanation": "Evaluating the magnitude of relative velocity $v_{\\text{rel}} = |\\vec{v}_A - \\vec{v}_B|$ at $t = \\pi/3\\text{ s}$:\n- (I): Both particles move on a circle of radius $1\\text{ m}$ with $\\omega = 1\\text{ rad/s}$ ($v = 1\\text{ m/s}$) maintaining an angular separation of $\\pi/2$. Their velocity vectors are perpendicular at all times, giving $v_{\\text{rel}} = \\sqrt{1^2 + 1^2} = \\sqrt{2}\\text{ m/s}$ (S).\n- (II): Projectiles fired at $t = 0$ and $t = 0.1\\text{ s}$ with speed $v = \\frac{5\\pi}{\\sqrt{2}}\\text{ m/s}$ at $45^\\circ$. The relative velocity vector magnitude at $t = \\pi/3\\text{ s}$ evaluates to $\\sqrt{25\\pi^2 + 1}$ (T).\n- (III): Simple harmonic oscillators $x_A(t)$ and $x_B(t)$. Differentiating positions gives velocities whose difference evaluates to $\\frac{\\sqrt{3}+1}{2}$ (P).\n- (IV): Particle A in circular motion in $xy$-plane with speed $1\\text{ m/s}$ and B moving along $z$ at $3\\text{ m/s}$. The velocities are mutually perpendicular, giving $v_{\\text{rel}} = \\sqrt{1^2 + 3^2} = \\sqrt{10}\\text{ m/s}$ (R).\nThus, I $\\to$ S, II $\\to$ T, III $\\to$ P, IV $\\to$ R, matching option (C).",
                     "marks": 3,
                     "negativeMarks": -1
                 },
                 {
                     "id": "phy_q17",
                     "type": "matching",
-                    "questionText": "List I describes thermodynamic processes in four different systems. List II gives the magnitudes (either exactly or as a close approximation) of possible changes in the internal energy of the system due to the process.\\n\\nWhich one of the following options is correct?",
+                    "questionText": "List I describes thermodynamic processes in four different systems. List II gives the magnitudes (either exactly or as a close approximation) of possible changes in the internal energy of the system due to the process.\n\nWhich one of the following options is correct?",
                     "hasImage": false,
                     "listI": [
                         {
@@ -1111,14 +1135,14 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Calculations for internal energy change $|\\Delta U|$:\\n- (I): $Q = m L = 10^{-3} \\times 2250\\text{ kJ} = 2.25\\text{ kJ}$. Work done $W = P \\Delta V = 10^5(10^{-3} - 10^{-6}) \\approx 0.1\\text{ kJ}$. Then $\\Delta U = Q - W = 2.25 - 0.1 = 2.15\\text{ kJ} \\approx 2\\text{ kJ}$ (P).\\n- (II): Isobaric expansion so $V_2 = 3V_1 \\implies T_2 = 3T_1 = 1500\\text{ K}$, $\\Delta T = 1000\\text{ K}$. Diatomic gas: $C_v = \\frac{5}{2}R$. Then $\\Delta U = n C_v \\Delta T = 0.2 \\times \\frac{5}{2}(8.0) \\times 1000 = 4000\\text{ J} = 4\\text{ kJ}$ (R).\\n- (III): Monatomic adiabatic compression with $\\gamma = 5/3$. $P_2 = P_1(V_1/V_2)^\\gamma = 2\\text{ kPa} \\times 8^{5/3} = 2 \\times 32 = 64\\text{ kPa}$. Work done on gas $W = \\frac{P_1 V_1 - P_2 V_2}{\\gamma - 1} = \\frac{2(1/3) - 64(1/24)}{2/3} = \\frac{2/3 - 8/3}{2/3} = -3\\text{ kJ}$. Since $Q = 0$, $\\Delta U = -W = 3\\text{ kJ}$ (T).\\n- (IV): Diatomic gas with vibration has degrees of freedom $f = 7$ or $6$; with $C_p = \\frac{9}{2}R$ and $C_v = \\frac{7}{2}R$, $\\Delta U = Q \\frac{C_v}{C_p} = 9 \\times \\frac{7}{9} = 7\\text{ kJ}$ (Q).\\nTherefore, I $\\to$ P, II $\\to$ R, III $\\to$ T, IV $\\to$ Q, which is option (C).",
+                    "explanation": "(I) $Q = mL = 2.25\\text{ kJ}$, $W = P\\Delta V = 10^5(10^{-3} - 10^{-6}) \\approx 0.1\\text{ kJ}$, so $\\Delta U \\approx 2.15\\text{ kJ} \\approx 2\\text{ kJ}$ (P). (II) Isobaric $V \\to 3V$: $T$ goes from $500$ to $1500\\text{ K}$, so $\\Delta U = nC_v\\Delta T = 0.2 \\times \\frac{5}{2}(8) \\times 1000 = 4\\text{ kJ}$ (R). (III) Adiabatic with $\\gamma = \\frac{5}{3}$: $P_2 = 2 \\times 8^{5/3} = 64\\text{ kPa}$, and $\\Delta U = \\frac{P_2V_2 - P_1V_1}{\\gamma - 1} = \\frac{64 \\cdot \\frac{1}{24} - 2 \\cdot \\frac{1}{3}}{2/3} = 3\\text{ kJ}$ (T). (IV) Vibrating diatomic gas: $C_v = \\frac{7}{2}R$, $C_p = \\frac{9}{2}R$, so $\\Delta U = Q\\frac{C_v}{C_p} = 9 \\times \\frac{7}{9} = 7\\text{ kJ}$ (Q). Hence I $\\to$ P, II $\\to$ R, III $\\to$ T, IV $\\to$ Q, option (C).",
                     "marks": 3,
                     "negativeMarks": -1
                 },
                 {
                     "id": "phy_q18",
                     "type": "matching",
-                    "questionText": "List I contains four combinations of two lenses (1 and 2) whose focal lengths (in cm) are indicated in the figure. In all cases, the object is placed $20\\text{ cm}$ from the first lens on the left, and the distance between the two lenses is $5\\text{ cm}$. List II contains the positions of the final images.\\n\\nWhich one of the following options is correct?",
+                    "questionText": "List I contains four combinations of two lenses (1 and 2) whose focal lengths (in cm) are indicated in the figure. In all cases, the object is placed $20\\text{ cm}$ from the first lens on the left, and the distance between the two lenses is $5\\text{ cm}$. List II contains the positions of the final images.\n\nWhich one of the following options is correct?",
                     "hasImage": true,
                     "imageName": "img/phy_q18.png",
                     "hideTextLists": true,
@@ -1184,7 +1208,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Object is at $u_1 = -20\\text{ cm}$ from Lens 1. Lens separation is $5\\text{ cm}$.\\n- (I) $f_1 = +10\\text{ cm}, f_2 = +15\\text{ cm}$: Lens 1 gives $v_1 = +20\\text{ cm}$. For Lens 2, virtual object at $u_2 = 20 - 5 = +15\\text{ cm}$. With $f_2 = +15\\text{ cm}$, $\\frac{1}{v_2} - \\frac{1}{15} = \\frac{1}{15} \\implies v_2 = +7.5\\text{ cm}$ (right of lens 2) (P).\\n- (II) $f_1 = +10\\text{ cm}, f_2 = -10\\text{ cm}$: $v_1 = +20\\text{ cm} \\implies u_2 = +15\\text{ cm}$. With $f_2 = -10\\text{ cm}$, $\\frac{1}{v_2} - \\frac{1}{15} = -\\frac{1}{10} \\implies v_2 = -30.0\\text{ cm}$ (left of lens 2) (R).\\n- (III) $f_1 = +10\\text{ cm}, f_2 = -20\\text{ cm}$: $v_1 = +20\\text{ cm} \\implies u_2 = +15\\text{ cm}$. With $f_2 = -20\\text{ cm}$, $\\frac{1}{v_2} - \\frac{1}{15} = -\\frac{1}{20} \\implies v_2 = +60.0\\text{ cm}$ (right of lens 2) (Q).\\n- (IV) $f_1 = -20\\text{ cm}, f_2 = +10\\text{ cm}$: $\\frac{1}{v_1} - \\frac{1}{-20} = -\\frac{1}{20} \\implies v_1 = -10\\text{ cm}$. For Lens 2, real object at $u_2 = -(10 + 5) = -15\\text{ cm}$. With $f_2 = +10\\text{ cm}$, $\\frac{1}{v_2} - \\frac{1}{-15} = \\frac{1}{10} \\implies v_2 = +30.0\\text{ cm}$ (right of lens 2) (T).\\nTherefore, I $\\to$ P, II $\\to$ R, III $\\to$ Q, IV $\\to$ T, matching option (A).",
+                    "explanation": "Object is at $u_1 = -20\\text{ cm}$ from Lens 1. Lens separation is $5\\text{ cm}$.\n- (I) $f_1 = +10\\text{ cm}, f_2 = +15\\text{ cm}$: Lens 1 gives $v_1 = +20\\text{ cm}$. For Lens 2, virtual object at $u_2 = 20 - 5 = +15\\text{ cm}$. With $f_2 = +15\\text{ cm}$, $\\frac{1}{v_2} - \\frac{1}{15} = \\frac{1}{15} \\implies v_2 = +7.5\\text{ cm}$ (right of lens 2) (P).\n- (II) $f_1 = +10\\text{ cm}, f_2 = -10\\text{ cm}$: $v_1 = +20\\text{ cm} \\implies u_2 = +15\\text{ cm}$. With $f_2 = -10\\text{ cm}$, $\\frac{1}{v_2} - \\frac{1}{15} = -\\frac{1}{10} \\implies v_2 = -30.0\\text{ cm}$ (left of lens 2) (R).\n- (III) $f_1 = +10\\text{ cm}, f_2 = -20\\text{ cm}$: $v_1 = +20\\text{ cm} \\implies u_2 = +15\\text{ cm}$. With $f_2 = -20\\text{ cm}$, $\\frac{1}{v_2} - \\frac{1}{15} = -\\frac{1}{20} \\implies v_2 = +60.0\\text{ cm}$ (right of lens 2) (Q).\n- (IV) $f_1 = -20\\text{ cm}, f_2 = +10\\text{ cm}$: $\\frac{1}{v_1} - \\frac{1}{-20} = -\\frac{1}{20} \\implies v_1 = -10\\text{ cm}$. For Lens 2, real object at $u_2 = -(10 + 5) = -15\\text{ cm}$. With $f_2 = +10\\text{ cm}$, $\\frac{1}{v_2} - \\frac{1}{-15} = \\frac{1}{10} \\implies v_2 = +30.0\\text{ cm}$ (right of lens 2) (T).\nTherefore, I $\\to$ P, II $\\to$ R, III $\\to$ Q, IV $\\to$ T, matching option (A).",
                     "marks": 3,
                     "negativeMarks": -1
                 }
@@ -1197,7 +1221,7 @@
                 {
                     "id": "chem_q1",
                     "type": "numerical",
-                    "questionText": "$2\\text{ mol of Hg}(g)$ is combusted in a fixed volume bomb calorimeter with excess of $\\text{O}_2$ at $298\\text{ K}$ and $1\\text{ atm}$ into $\\text{HgO}(s)$. During the reaction, temperature increases from $298.0\\text{ K}$ to $312.8\\text{ K}$. If heat capacity of the bomb calorimeter and enthalpy of formation of $\\text{Hg}(g)$ are $20.00\\text{ kJ K}^{-1}$ and $61.32\\text{ kJ mol}^{-1}$ at $298\\text{ K}$, respectively, the calculated standard molar enthalpy of formation of $\\text{HgO}(s)$ at $298\\text{ K}$ is $X\\text{ kJ mol}^{-1}$. The value of $|X|$ is __________.\\n\\n[Given: $R = 8.3\\text{ J K}^{-1}\\text{ mol}^{-1}$]",
+                    "questionText": "$2\\text{ mol of Hg}(g)$ is combusted in a fixed volume bomb calorimeter with excess of $\\text{O}_2$ at $298\\text{ K}$ and $1\\text{ atm}$ into $\\text{HgO}(s)$. During the reaction, temperature increases from $298.0\\text{ K}$ to $312.8\\text{ K}$. If heat capacity of the bomb calorimeter and enthalpy of formation of $\\text{Hg}(g)$ are $20.00\\text{ kJ K}^{-1}$ and $61.32\\text{ kJ mol}^{-1}$ at $298\\text{ K}$, respectively, the calculated standard molar enthalpy of formation of $\\text{HgO}(s)$ at $298\\text{ K}$ is $X\\text{ kJ mol}^{-1}$. The value of $|X|$ is __________.\n\n[Given: $R = 8.3\\text{ J K}^{-1}\\text{ mol}^{-1}$]",
                     "hasImage": false,
                     "answer": "90.39",
                     "explanation": "Temperature rise $\\Delta T = 312.8 - 298.0 = 14.8\\text{ K}$. The heat released by the combustion of $2\\text{ mol}$ of $\\text{Hg}(g)$ in the bomb calorimeter is $q_v = -C_v \\Delta T = -20.00 \\times 14.8 = -296.0\\text{ kJ}$. Thus, molar internal energy of combustion is $\\Delta U_{\\text{comb}} = \\frac{-296.0}{2} = -148.0\\text{ kJ mol}^{-1}$. The combustion reaction per mole of $\\text{Hg}(g)$ is $\\text{Hg}(g) + \\frac{1}{2}\\text{O}_2(g) \\to \\text{HgO}(s)$, with $\\Delta n_g = 0 - (1 + 0.5) = -1.5\\text{ mol}$. The enthalpy of combustion is $\\Delta H_{\\text{comb}} = \\Delta U_{\\text{comb}} + \\Delta n_g R T = -148.0 + (-1.5) \\times 8.3 \\times 10^{-3} \\times 298 = -148.0 - 3.710 = -151.710\\text{ kJ mol}^{-1}$. Also, $\\Delta H_{\\text{comb}} = \\Delta H_f^\\circ(\\text{HgO}, s) - \\Delta H_f^\\circ(\\text{Hg}, g) \\implies -151.710 = \\Delta H_f^\\circ(\\text{HgO}, s) - 61.32 \\implies \\Delta H_f^\\circ(\\text{HgO}, s) = -90.39\\text{ kJ mol}^{-1}$. Hence $|X| = 90.39$.",
@@ -1207,17 +1231,17 @@
                 {
                     "id": "chem_q2",
                     "type": "numerical",
-                    "questionText": "The reduction potential $E^\\circ$, in $\\text{V}$, of $\\text{MnO}_4^-(aq)/\\text{Mn}(s)$ is __________.\\n\\n[Given: $E^\\circ(\\text{MnO}_4^-(aq)/\\text{MnO}_2(s)) = 1.68\\text{ V}$; $E^\\circ(\\text{MnO}_2(s)/\\text{Mn}^{2+}(aq)) = 1.21\\text{ V}$; $E^\\circ(\\text{Mn}^{2+}(aq)/\\text{Mn}(s)) = -1.03\\text{ V}$]",
+                    "questionText": "The reduction potential $E^\\circ$, in $\\text{V}$, of $\\text{MnO}_4^-(aq)/\\text{Mn}(s)$ is __________.\n\n[Given: $E^\\circ(\\text{MnO}_4^-(aq)/\\text{MnO}_2(s)) = 1.68\\text{ V}$; $E^\\circ(\\text{MnO}_2(s)/\\text{Mn}^{2+}(aq)) = 1.21\\text{ V}$; $E^\\circ(\\text{Mn}^{2+}(aq)/\\text{Mn}(s)) = -1.03\\text{ V}$]",
                     "hasImage": false,
                     "answer": "0.77",
-                    "explanation": "Writing the individual half-reactions with standard free energies:\\n1. $\\text{MnO}_4^- + 4\\text{H}^+ + 3e^- \\to \\text{MnO}_2 + 2\\text{H}_2\\text{O}, \\quad \\Delta G_1^\\circ = -3 F (1.68)$\\n2. $\\text{MnO}_2 + 4\\text{H}^+ + 2e^- \\to \\text{Mn}^{2+} + 2\\text{H}_2\\text{O}, \\quad \\Delta G_2^\\circ = -2 F (1.21)$\\n3. $\\text{Mn}^{2+} + 2e^- \\to \\text{Mn}, \\quad \\Delta G_3^\\circ = -2 F (-1.03)$\\nAdding the three equations gives the target overall reduction: $\\text{MnO}_4^- + 8\\text{H}^+ + 7e^- \\to \\text{Mn} + 4\\text{H}_2\\text{O}$.\\n$\\Delta G^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ + \\Delta G_3^\\circ \\implies -7 F E^\\circ = -3 F(1.68) - 2 F(1.21) - 2 F(-1.03) = -F(5.04 + 2.42 - 2.06) = -5.40 F$.\\nTherefore, $E^\\circ = \\frac{5.40}{7} \\approx 0.7714\\text{ V} \\approx 0.77\\text{ V}$.",
+                    "explanation": "Writing the individual half-reactions with standard free energies:\n1. $\\text{MnO}_4^- + 4\\text{H}^+ + 3e^- \\to \\text{MnO}_2 + 2\\text{H}_2\\text{O}, \\quad \\Delta G_1^\\circ = -3 F (1.68)$\n2. $\\text{MnO}_2 + 4\\text{H}^+ + 2e^- \\to \\text{Mn}^{2+} + 2\\text{H}_2\\text{O}, \\quad \\Delta G_2^\\circ = -2 F (1.21)$\n3. $\\text{Mn}^{2+} + 2e^- \\to \\text{Mn}, \\quad \\Delta G_3^\\circ = -2 F (-1.03)$\nAdding the three equations gives the target overall reduction: $\\text{MnO}_4^- + 8\\text{H}^+ + 7e^- \\to \\text{Mn} + 4\\text{H}_2\\text{O}$.\n$\\Delta G^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ + \\Delta G_3^\\circ \\implies -7 F E^\\circ = -3 F(1.68) - 2 F(1.21) - 2 F(-1.03) = -F(5.04 + 2.42 - 2.06) = -5.40 F$.\nTherefore, $E^\\circ = \\frac{5.40}{7} \\approx 0.7714\\text{ V} \\approx 0.77\\text{ V}$.",
                     "marks": 3,
                     "negativeMarks": 0
                 },
                 {
                     "id": "chem_q3",
                     "type": "numerical",
-                    "questionText": "A solution is prepared by mixing $0.01\\text{ mol}$ each of $\\text{H}_2\\text{CO}_3$, $\\text{NaHCO}_3$, $\\text{Na}_2\\text{CO}_3$, and $\\text{NaOH}$ in $100\\text{ mL}$ of water. pH of the resulting solution is __________.\\n\\n[Given: $\\text{p}K_{a1}$ and $\\text{p}K_{a2}$ of $\\text{H}_2\\text{CO}_3$ are $6.37$ and $10.32$, respectively; $\\log 2 = 0.30$]",
+                    "questionText": "A solution is prepared by mixing $0.01\\text{ mol}$ each of $\\text{H}_2\\text{CO}_3$, $\\text{NaHCO}_3$, $\\text{Na}_2\\text{CO}_3$, and $\\text{NaOH}$ in $100\\text{ mL}$ of water. pH of the resulting solution is __________.\n\n[Given: $\\text{p}K_{a1}$ and $\\text{p}K_{a2}$ of $\\text{H}_2\\text{CO}_3$ are $6.37$ and $10.32$, respectively; $\\log 2 = 0.30$]",
                     "hasImage": false,
                     "answer": "10.02",
                     "explanation": "Strong base $\\text{NaOH}$ first neutralizes the strongest acid present ($\\text{H}_2\\text{CO}_3$): $\\text{H}_2\\text{CO}_3 + \\text{NaOH} \\to \\text{NaHCO}_3 + \\text{H}_2\\text{O}$. Since both are $0.01\\text{ mol}$, all $\\text{H}_2\\text{CO}_3$ and $\\text{NaOH}$ are consumed, producing $0.01\\text{ mol}$ of $\\text{NaHCO}_3$. The resulting solution contains: moles of $\\text{NaHCO}_3 = 0.01\\text{ (initial)} + 0.01\\text{ (formed)} = 0.02\\text{ mol}$, and moles of $\\text{Na}_2\\text{CO}_3 = 0.01\\text{ mol}$. This forms a buffer mixture of $\\text{HCO}_3^-$ and $\\text{CO}_3^{2-}$. Applying the Henderson-Hasselbalch equation: $\\text{pH} = \\text{p}K_{a2} + \\log\\frac{[\\text{CO}_3^{2-}]}{[\\text{HCO}_3^-]} = 10.32 + \\log\\left(\\frac{0.01}{0.02}\\right) = 10.32 - \\log 2 = 10.32 - 0.30 = 10.02$.",
@@ -1227,7 +1251,7 @@
                 {
                     "id": "chem_q4",
                     "type": "numerical",
-                    "questionText": "The treatment of an aqueous solution of $3.74\\text{ g}$ of $\\text{Cu(NO}_3)_2$ with excess $\\text{KI}$ results in a brown solution along with the formation of a precipitate. Passing $\\text{H}_2\\text{S}$ through this brown solution gives another precipitate X. The amount of X (in g) is __________.\\n\\n[Given: Atomic mass of $\\text{H} = 1, \\text{N} = 14, \\text{O} = 16, \\text{S} = 32, \\text{K} = 39, \\text{Cu} = 63, \\text{I} = 127$]",
+                    "questionText": "The treatment of an aqueous solution of $3.74\\text{ g}$ of $\\text{Cu(NO}_3)_2$ with excess $\\text{KI}$ results in a brown solution along with the formation of a precipitate. Passing $\\text{H}_2\\text{S}$ through this brown solution gives another precipitate X. The amount of X (in g) is __________.\n\n[Given: Atomic mass of $\\text{H} = 1, \\text{N} = 14, \\text{O} = 16, \\text{S} = 32, \\text{K} = 39, \\text{Cu} = 63, \\text{I} = 127$]",
                     "hasImage": false,
                     "answer": "0.32",
                     "explanation": "Molar mass of $\\text{Cu(NO}_3)_2 = 63 + 2(14 + 48) = 187\\text{ g mol}^{-1}$. Moles of $\\text{Cu(NO}_3)_2 = \\frac{3.74}{187} = 0.02\\text{ mol}$. The reaction with excess $\\text{KI}$ is: $2\\text{Cu}^{2+} + 4\\text{I}^- \\to \\text{Cu}_2\\text{I}_2(s) \\downarrow + \\text{I}_2$. The moles of $\\text{I}_2$ produced $= \\frac{0.02}{2} = 0.01\\text{ mol}$, which dissolves in excess $\\text{I}^-$ to form a brown triiodide solution. When $\\text{H}_2\\text{S}$ is bubbled through this solution: $\\text{H}_2\\text{S} + \\text{I}_2 \\to 2\\text{HI} + \\text{S}(s) \\downarrow$. Precipitate X is elemental sulfur. Moles of sulfur $= 0.01\\text{ mol}$. The mass of precipitate X is $0.01 \\times 32 = 0.32\\text{ g}$.",
@@ -1237,7 +1261,7 @@
                 {
                     "id": "chem_q5",
                     "type": "numerical",
-                    "questionText": "Dissolving $1.24\\text{ g}$ of white phosphorous in boiling $\\text{NaOH}$ solution in an inert atmosphere gives a gas Q. The amount of $\\text{CuSO}_4$ (in g) required to completely consume the gas Q is __________.\\n\\n[Given: Atomic mass of $\\text{H} = 1, \\text{O} = 16, \\text{Na} = 23, \\text{P} = 31, \\text{S} = 32, \\text{Cu} = 63$]",
+                    "questionText": "Dissolving $1.24\\text{ g}$ of white phosphorous in boiling $\\text{NaOH}$ solution in an inert atmosphere gives a gas Q. The amount of $\\text{CuSO}_4$ (in g) required to completely consume the gas Q is __________.\n\n[Given: Atomic mass of $\\text{H} = 1, \\text{O} = 16, \\text{Na} = 23, \\text{P} = 31, \\text{S} = 32, \\text{Cu} = 63$]",
                     "hasImage": false,
                     "answer": "2.38",
                     "explanation": "Molar mass of white phosphorus $\\text{P}_4 = 4 \\times 31 = 124\\text{ g mol}^{-1}$. Moles of $\\text{P}_4 = \\frac{1.24}{124} = 0.01\\text{ mol}$. Disproportionation in boiling $\\text{NaOH}$: $\\text{P}_4 + 3\\text{NaOH} + 3\\text{H}_2\\text{O} \\to \\text{PH}_3(g) + 3\\text{NaH}_2\\text{PO}_2$. Gas Q is phosphine $\\text{PH}_3$, with moles of $\\text{PH}_3 = 0.01\\text{ mol}$. Phosphine reacts with copper sulphate according to: $2\\text{PH}_3 + 3\\text{CuSO}_4 \\to \\text{Cu}_3\\text{P}_2 \\downarrow + 3\\text{H}_2\\text{SO}_4$. The moles of $\\text{CuSO}_4$ required $= \\frac{3}{2} \\times 0.01 = 0.015\\text{ mol}$. Molar mass of $\\text{CuSO}_4 = 63 + 32 + 64 = 159\\text{ g mol}^{-1}$. The mass of $\\text{CuSO}_4$ is $0.015 \\times 159 = 2.385\\text{ g} \\approx 2.38\\text{ g}$.",
@@ -1247,7 +1271,7 @@
                 {
                     "id": "chem_q6",
                     "type": "numerical",
-                    "questionText": "Consider the following reaction.\\n\\nOn estimation of bromine in $1.00\\text{ g}$ of R using Carius method, the amount of $\\text{AgBr}$ formed (in g) is __________.\\n\\n[Given: Atomic mass of $\\text{H} = 1, \\text{C} = 12, \\text{O} = 16, \\text{P} = 31, \\text{Br} = 80, \\text{Ag} = 108$]",
+                    "questionText": "Consider the following reaction.\n\nOn estimation of bromine in $1.00\\text{ g}$ of R using Carius method, the amount of $\\text{AgBr}$ formed (in g) is __________.\n\n[Given: Atomic mass of $\\text{H} = 1, \\text{C} = 12, \\text{O} = 16, \\text{P} = 31, \\text{Br} = 80, \\text{Ag} = 108$]",
                     "hasImage": true,
                     "imageName": "img/chem_q6.png",
                     "answer": "1.50",
@@ -1258,7 +1282,7 @@
                 {
                     "id": "chem_q7",
                     "type": "numerical",
-                    "questionText": "The weight percentage of hydrogen in Q, formed in the following reaction sequence, is __________.\\n\\n[Given: Atomic mass of $\\text{H} = 1, \\text{C} = 12, \\text{N} = 14, \\text{O} = 16, \\text{S} = 32, \\text{Cl} = 35$]",
+                    "questionText": "The weight percentage of hydrogen in Q, formed in the following reaction sequence, is __________.\n\n[Given: Atomic mass of $\\text{H} = 1, \\text{C} = 12, \\text{N} = 14, \\text{O} = 16, \\text{S} = 32, \\text{Cl} = 35$]",
                     "hasImage": true,
                     "imageName": "img/chem_q7.png",
                     "answer": "1.31",
@@ -1269,11 +1293,11 @@
                 {
                     "id": "chem_q8",
                     "type": "numerical",
-                    "questionText": "If the reaction sequence given below is carried out with 15 moles of acetylene, the amount of the product D formed (in g) is __________.\\n\\nThe yields of A, B, C and D are given in parentheses.\\n\\n[Given: Atomic mass of $\\text{H} = 1, \\text{C} = 12, \\text{O} = 16, \\text{Cl} = 35$]",
+                    "questionText": "If the reaction sequence given below is carried out with 15 moles of acetylene, the amount of the product D formed (in g) is __________.\n\nThe yields of A, B, C and D are given in parentheses.\n\n[Given: Atomic mass of $\\text{H} = 1, \\text{C} = 12, \\text{O} = 16, \\text{Cl} = 35$]",
                     "hasImage": true,
                     "imageName": "img/chem_q8.png",
                     "answer": "136.00",
-                    "explanation": "Step-by-step yield calculation:\\n1. Acetylene $\\to$ Benzene (A): Cyclic trimerization of $15\\text{ moles}$ of acetylene over red hot Fe gives theoretical $5\\text{ moles}$ of benzene. With $80\\%$ yield, moles of A $= 5 \\times 0.8 = 4\\text{ moles}$.\\n2. Benzene (A) $\\to$ Cumene (B): Friedel-Crafts alkylation of $4\\text{ moles}$ of benzene with isopropyl chloride / $\\text{AlCl}_3$ has $50\\%$ yield, producing $4 \\times 0.5 = 2\\text{ moles}$ of B.\\n3. Cumene (B) $\\to$ Phenol (C): Cumene hydroperoxide process with $50\\%$ yield produces $2 \\times 0.5 = 1\\text{ mole}$ of C.\\n4. Phenol (C) $\\to$ Phenyl acetate (D): Acetylation with acetyl chloride in pyridine has $100\\%$ yield, giving $1\\text{ mole}$ of D.\\nMolecular formula of phenyl acetate D is $\\text{CH}_3\\text{COOC}_6\\text{H}_5 = \\text{C}_8\\text{H}_8\\text{O}_2$. Molar mass $= 8(12) + 8(1) + 2(16) = 96 + 8 + 32 = 136\\text{ g mol}^{-1}$. The mass of product D formed is $1 \\times 136 = 136\\text{ g}$.",
+                    "explanation": "$15$ mol acetylene gives $5$ mol benzene theoretically; $80\\%$ yield gives $4$ mol A. Friedel-Crafts alkylation with 1-chloropropane/$\\text{AlCl}_3$ (the primary carbocation rearranges to the isopropyl cation) gives cumene B: $50\\%$, $2$ mol. Cumene with $\\text{O}_2$ then $\\text{H}_3\\text{O}^+$ gives phenol C + acetone: $50\\%$, $1$ mol. Phenol + $\\text{CH}_3\\text{COCl}$/pyridine gives phenyl acetate D ($\\text{C}_8\\text{H}_8\\text{O}_2$, $M = 136$): $100\\%$, $1$ mol $= 136\\text{ g}$.",
                     "marks": 3,
                     "negativeMarks": 0
                 },
@@ -1376,7 +1400,7 @@
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "In the metallurgy of aluminum from bauxite:\\n- Bayer's process leaches bauxite using hot concentrated $\\text{NaOH}$ to dissolve $\\text{Al}_2\\text{O}_3$ as soluble sodium aluminate $\\text{Na}[\\text{Al(OH)}_4]$ (C is correct).\\n- Passing $\\text{CO}_2$ gas neutralizes the aluminate solution to precipitate pure hydrated alumina: $2\\text{Na}[\\text{Al(OH)}_4] + \\text{CO}_2 \\to \\text{Al}_2\\text{O}_3 \\cdot 3\\text{H}_2\\text{O} \\downarrow + \\text{Na}_2\\text{CO}_3 + \\text{H}_2\\text{O}$ (B is correct).\\n- Hall-Héroult electrolysis uses a molten bath of purified $\\text{Al}_2\\text{O}_3$ mixed with cryolite $\\text{Na}_3\\text{AlF}_6$ and $\\text{CaF}_2$ with carbon electrodes, reducing $\\text{Al}^{3+}$ to $\\text{Al}$ at the cathode and oxidizing carbon to $\\text{CO}_2$ at the anode (D is correct).\\nDirect carbothermal reduction of $\\text{Al}_2\\text{O}_3$ with coke is not used industrially due to extremely high temperatures and formation of aluminum carbide, so (A) is incorrect.",
+                    "explanation": "In the metallurgy of aluminum from bauxite:\n- Bayer's process leaches bauxite using hot concentrated $\\text{NaOH}$ to dissolve $\\text{Al}_2\\text{O}_3$ as soluble sodium aluminate $\\text{Na}[\\text{Al(OH)}_4]$ (C is correct).\n- Passing $\\text{CO}_2$ gas neutralizes the aluminate solution to precipitate pure hydrated alumina: $2\\text{Na}[\\text{Al(OH)}_4] + \\text{CO}_2 \\to \\text{Al}_2\\text{O}_3 \\cdot 3\\text{H}_2\\text{O} \\downarrow + \\text{Na}_2\\text{CO}_3 + \\text{H}_2\\text{O}$ (B is correct).\n- Hall-Héroult electrolysis uses a molten bath of purified $\\text{Al}_2\\text{O}_3$ mixed with cryolite $\\text{Na}_3\\text{AlF}_6$ and $\\text{CaF}_2$ with carbon electrodes, reducing $\\text{Al}^{3+}$ to $\\text{Al}$ at the cathode and oxidizing carbon to $\\text{CO}_2$ at the anode (D is correct).\nDirect carbothermal reduction of $\\text{Al}_2\\text{O}_3$ with coke is not used industrially due to extremely high temperatures and formation of aluminum carbide, so (A) is incorrect.",
                     "marks": 4,
                     "negativeMarks": -2,
                     "partialMarks": [
@@ -1449,7 +1473,7 @@
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "Propanoic acid undergoes Hell-Volhard-Zelinsky (HVZ) bromination with $\\text{Br}_2 / \\text{red P}$ to form 2-bromopropanoic acid (P). Gabriel phthalimide synthesis with potassium phthalimide converts P into alanine (Q, 2-aminopropanoic acid).\\n- Carboxylic acids are not reduced by $\\text{NaBH}_4$ (requires $\\text{LiAlH}_4$ or $\\text{B}_2\\text{H}_6$), so (A) is false.\\n- Nucleophilic displacement of $\\alpha$-bromine in P by excess ammonia gives alanine Q (B is correct).\\n- Alanine Q is a primary aliphatic $\\alpha$-amino acid; reaction with $\\text{HNO}_2$ ($\\text{NaNO}_2 + \\text{HCl}$) forms an unstable aliphatic diazonium intermediate which rapidly decomposes to liberate $\\text{N}_2$ gas and lactic acid (C is correct).\\n- The electron-withdrawing inductive ($-I$) effect of the $\\alpha$-bromo substituent in P stabilizes the carboxylate anion, making 2-bromopropanoic acid more acidic than propanoic acid (D is correct).",
+                    "explanation": "Propanoic acid undergoes Hell-Volhard-Zelinsky (HVZ) bromination with $\\text{Br}_2 / \\text{red P}$ to form 2-bromopropanoic acid (P). Gabriel phthalimide synthesis with potassium phthalimide converts P into alanine (Q, 2-aminopropanoic acid).\n- Carboxylic acids are not reduced by $\\text{NaBH}_4$ (requires $\\text{LiAlH}_4$ or $\\text{B}_2\\text{H}_6$), so (A) is false.\n- Nucleophilic displacement of $\\alpha$-bromine in P by excess ammonia gives alanine Q (B is correct).\n- Alanine Q is a primary aliphatic $\\alpha$-amino acid; reaction with $\\text{HNO}_2$ ($\\text{NaNO}_2 + \\text{HCl}$) forms an unstable aliphatic diazonium intermediate which rapidly decomposes to liberate $\\text{N}_2$ gas and lactic acid (C is correct).\n- The electron-withdrawing inductive ($-I$) effect of the $\\alpha$-bromo substituent in P stabilizes the carboxylate anion, making 2-bromopropanoic acid more acidic than propanoic acid (D is correct).",
                     "marks": 4,
                     "negativeMarks": -2,
                     "partialMarks": [
@@ -1486,7 +1510,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Starting material is 4-nitrotoluene ($p$-nitrotoluene):\\n- Reduction of $-\\text{NO}_2$ with $\\text{H}_2/\\text{Pd}$ or $\\text{Sn/HCl}$ gives $p$-toluidine (Q).\\n- Diazotization with $\\text{NaNO}_2 / \\text{HCl}$ at $0-5\\ ^\\circ\\text{C}$ gives $p$-methylbenzenediazonium chloride (S).\\n- Hydrolysis of diazonium salt S with warm $\\text{H}_2\\text{O}$ yields $p$-cresol (T).\\n- Deamination of diazonium salt S using $\\text{H}_3\\text{PO}_2$ or ethanol ($\\text{CH}_3\\text{CH}_2\\text{OH}$) reduces $-\\text{N}_2^+\\text{Cl}^-$ to $-\\text{H}$, giving toluene, which upon subsequent oxidation with alkaline $\\text{KMnO}_4$ and heating yields benzoic acid.\\nHence statements (A), (B), and (C) are correct, while (D) incorrectly indicates meta-derivatives.",
+                    "explanation": "Starting material is 4-nitrotoluene ($p$-nitrotoluene):\n- Reduction of $-\\text{NO}_2$ with $\\text{H}_2/\\text{Pd}$ or $\\text{Sn/HCl}$ gives $p$-toluidine (Q).\n- Diazotization with $\\text{NaNO}_2 / \\text{HCl}$ at $0-5\\ ^\\circ\\text{C}$ gives $p$-methylbenzenediazonium chloride (S).\n- Hydrolysis of diazonium salt S with warm $\\text{H}_2\\text{O}$ yields $p$-cresol (T).\n- Deamination of diazonium salt S using $\\text{H}_3\\text{PO}_2$ or ethanol ($\\text{CH}_3\\text{CH}_2\\text{OH}$) reduces $-\\text{N}_2^+\\text{Cl}^-$ to $-\\text{H}$, giving toluene, which upon subsequent oxidation with alkaline $\\text{KMnO}_4$ and heating yields benzoic acid.\nHence statements (A), (B), and (C) are correct, while (D) incorrectly indicates meta-derivatives.",
                     "marks": 4,
                     "negativeMarks": -2,
                     "partialMarks": [
@@ -1498,7 +1522,7 @@
                 {
                     "id": "chem_q15",
                     "type": "matching",
-                    "questionText": "Match the rate expressions in LIST-I for the decomposition of X with the corresponding profiles provided in LIST-II. $X_s$ and $k$ are constants having appropriate units.\\n\\nWhich one of the following options is correct?",
+                    "questionText": "Match the rate expressions in LIST-I for the decomposition of X with the corresponding profiles provided in LIST-II. $X_s$ and $k$ are constants having appropriate units.\n\nWhich one of the following options is correct?",
                     "hasImage": true,
                     "imageName": "img/chem_q15.png",
                     "hideTextLists": true,
@@ -1523,23 +1547,23 @@
                     "listII": [
                         {
                             "id": "P",
-                            "text": "Profile P ($t_{1/2}$ constant then linear)"
+                            "text": "Plot of half-life ($t_{1/2}$) vs initial concentration of X: straight line with positive slope and positive intercept"
                         },
                         {
                             "id": "Q",
-                            "text": "Profile Q ($t_{1/2}$ independent of $[X]_0$)"
+                            "text": "Plot of half-life ($t_{1/2}$) vs initial concentration of X: horizontal straight line"
                         },
                         {
                             "id": "R",
-                            "text": "Profile R"
+                            "text": "Plot of rate vs initial concentration of X: rises and then levels off to a constant value"
                         },
                         {
                             "id": "S",
-                            "text": "Profile S ($t_{1/2} \\propto [X]_0$)"
+                            "text": "Plot of $[X]$ vs time: straight line with negative slope"
                         },
                         {
                             "id": "T",
-                            "text": "Profile T (rate vs $[X]$ linear)"
+                            "text": "Plot of $\\ln[X]$ vs time: straight line with negative slope"
                         }
                     ],
                     "options": [
@@ -1564,14 +1588,14 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Analyzing the rate equations and half-life / rate dependencies:\\n- (I): $\\text{rate} = \\frac{k[X]}{[X] + X_s}$. At low $[X]$, rate is first order ($t_{1/2}$ is constant); at high $[X]$, rate becomes zero order ($t_{1/2} \\propto [X]_0$). The $t_{1/2}$ vs $[X]_0$ profile shows a horizontal line at low concentrations that transitions to a linearly increasing curve at higher concentrations (P).\\n- (II): When $[X] \\ll X_s$, $\\text{rate} \\approx \\frac{k}{X_s}[X]$ (first order). For a first-order reaction, $t_{1/2}$ is independent of $[X]_0$, giving a horizontal straight line (Q).\\n- (III): When $[X] \\gg X_s$, $\\text{rate} \\approx k$ (zero order). For zero order, $t_{1/2} = \\frac{[X]_0}{2k}$, which is a straight line through the origin (S).\\n- (IV): $\\text{rate} = \\frac{k[X]^2}{[X] + X_s}$. When $[X] \\gg X_s$, $\\text{rate} \\approx k[X]$ (first order). Hence $t_{1/2}$ is constant or rate vs $[X]$ is linear through the origin (T).\\nTherefore, I $\\to$ P, II $\\to$ Q, III $\\to$ S, IV $\\to$ T, matching option (A).",
+                    "explanation": "(I) For $\\text{rate} = \\frac{k[X]}{X_s + [X]}$, integration gives $t_{1/2} = \\frac{X_s \\ln 2}{k} + \\frac{[X]_0}{2k}$: linear in $[X]_0$ with a positive intercept (P). (II) $[X]_0 \\ll X_s$: rate $\\approx \\frac{k}{X_s}[X]$, first order, so $t_{1/2}$ is independent of $[X]_0$ (Q). (III) $[X]_0 \\gg X_s$: rate $\\approx k$, zero order, so $[X]$ falls linearly with time (S). (IV) $\\text{rate} = \\frac{k[X]^2}{X_s + [X]} \\approx k[X]$ for $[X] \\gg X_s$: first order, so $\\ln[X]$ vs time is a straight line (T). Hence I $\\to$ P, II $\\to$ Q, III $\\to$ S, IV $\\to$ T, option (A).",
                     "marks": 3,
                     "negativeMarks": -1
                 },
                 {
                     "id": "chem_q16",
                     "type": "matching",
-                    "questionText": "LIST-I contains compounds and LIST-II contains reactions.\\n\\nMatch each compound in LIST-I with its formation reaction(s) in LIST-II, and choose the correct option.",
+                    "questionText": "LIST-I contains compounds and LIST-II contains reactions.\n\nMatch each compound in LIST-I with its formation reaction(s) in LIST-II, and choose the correct option.",
                     "hasImage": false,
                     "listI": [
                         {
@@ -1635,14 +1659,14 @@
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "Matching products from reactions in List-II:\\n- (Q) $\\text{BaO}_2 + \\text{H}_2\\text{SO}_4 \\to \\text{BaSO}_4 \\downarrow + \\text{H}_2\\text{O}_2$, which forms $\\text{H}_2\\text{O}_2$ (I $\\to$ Q).\\n- (R) $\\text{MgCl}_2 + \\text{Ca(OH)}_2 \\to \\text{Mg(OH)}_2 \\downarrow + \\text{CaCl}_2$, which precipitates $\\text{Mg(OH)}_2$ (II $\\to$ R).\\n- (S) $\\text{BaO} + 2\\text{HCl} \\to \\text{BaCl}_2 + \\text{H}_2\\text{O}$, which forms $\\text{BaCl}_2$ (III $\\to$ S).\\n- (P) $\\text{Mg(HCO}_3)_2 + 2\\text{Ca(OH)}_2 \\to \\text{Mg(OH)}_2 \\downarrow + 2\\text{CaCO}_3 \\downarrow + 2\\text{H}_2\\text{O}$, which forms $\\text{CaCO}_3$ (IV $\\to$ P).\\nTherefore, I $\\to$ Q, II $\\to$ R, III $\\to$ S, IV $\\to$ P, corresponding to option (D).",
+                    "explanation": "Matching products from reactions in List-II:\n- (Q) $\\text{BaO}_2 + \\text{H}_2\\text{SO}_4 \\to \\text{BaSO}_4 \\downarrow + \\text{H}_2\\text{O}_2$, which forms $\\text{H}_2\\text{O}_2$ (I $\\to$ Q).\n- (R) $\\text{MgCl}_2 + \\text{Ca(OH)}_2 \\to \\text{Mg(OH)}_2 \\downarrow + \\text{CaCl}_2$, which precipitates $\\text{Mg(OH)}_2$ (II $\\to$ R).\n- (S) $\\text{BaO} + 2\\text{HCl} \\to \\text{BaCl}_2 + \\text{H}_2\\text{O}$, which forms $\\text{BaCl}_2$ (III $\\to$ S).\n- (P) $\\text{Mg(HCO}_3)_2 + 2\\text{Ca(OH)}_2 \\to \\text{Mg(OH)}_2 \\downarrow + 2\\text{CaCO}_3 \\downarrow + 2\\text{H}_2\\text{O}$, which forms $\\text{CaCO}_3$ (IV $\\to$ P).\nTherefore, I $\\to$ Q, II $\\to$ R, III $\\to$ S, IV $\\to$ P, corresponding to option (D).",
                     "marks": 3,
                     "negativeMarks": -1
                 },
                 {
                     "id": "chem_q17",
                     "type": "matching",
-                    "questionText": "LIST-I contains metal species and LIST-II contains their properties.\\n\\n[Given: Atomic number of $\\text{Cr} = 24, \\text{Ru} = 44, \\text{Fe} = 26$]\\n\\nMatch each metal species in LIST-I with their properties in LIST-II, and choose the correct option.",
+                    "questionText": "LIST-I contains metal species and LIST-II contains their properties.\n\n[Given: Atomic number of $\\text{Cr} = 24, \\text{Ru} = 44, \\text{Fe} = 26$]\n\nMatch each metal species in LIST-I with their properties in LIST-II, and choose the correct option.",
                     "hasImage": false,
                     "listI": [
                         {
@@ -1706,7 +1730,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Electronic configurations of the metal species:\\n- (I) $[\\text{Cr(CN)}_6]^{4-}$: $\\text{Cr}^{2+}$ is a $3d^4$ species (T). $\\text{CN}^-$ is a strong field ligand, giving a low-spin octahedral complex (R) with configuration $t_{2g}^4 e_g^0$. Thus I $\\to$ R, T.\\n- (II) $[\\text{RuCl}_6]^{2-}$: Ru is in the $+4$ oxidation state (S), electronic configuration $4d^4$. For second row ($4d$) transition metals, $\\Delta_o$ is very large, so it is low-spin with $t_{2g}^4 e_g^0$, meaning $t_{2g}$ contains 4 electrons (P). Thus II $\\to$ P, S.\\n- (III) $[\\text{Cr(H}_2\\text{O)}_6]^{2+}$: $\\text{Cr}^{2+}$ is $3d^4$ (T). With weak field ligand $\\text{H}_2\\text{O}$, it is high-spin: $t_{2g}^3 e_g^1$, with 4 unpaired electrons. $\\mu = \\sqrt{4(4+2)} = \\sqrt{24} \\approx 4.9\\text{ BM}$ (Q). Thus III $\\to$ Q, T.\\n- (IV) $[\\text{Fe(H}_2\\text{O)}_6]^{2+}$: $\\text{Fe}^{2+}$ is $3d^6$. Weak field $\\text{H}_2\\text{O}$ gives high-spin: $t_{2g}^4 e_g^2$. Here $t_{2g}$ contains 4 electrons (P), and there are 4 unpaired electrons, giving $\\mu = \\sqrt{24} \\approx 4.9\\text{ BM}$ (Q). Thus IV $\\to$ P, Q.\\nHence, matching is I $\\to$ R, T; II $\\to$ P, S; III $\\to$ Q, T; IV $\\to$ P, Q, corresponding to option (A).",
+                    "explanation": "Electronic configurations of the metal species:\n- (I) $[\\text{Cr(CN)}_6]^{4-}$: $\\text{Cr}^{2+}$ is a $3d^4$ species (T). $\\text{CN}^-$ is a strong field ligand, giving a low-spin octahedral complex (R) with configuration $t_{2g}^4 e_g^0$. Thus I $\\to$ R, T.\n- (II) $[\\text{RuCl}_6]^{2-}$: Ru is in the $+4$ oxidation state (S), electronic configuration $4d^4$. For second row ($4d$) transition metals, $\\Delta_o$ is very large, so it is low-spin with $t_{2g}^4 e_g^0$, meaning $t_{2g}$ contains 4 electrons (P). Thus II $\\to$ P, S.\n- (III) $[\\text{Cr(H}_2\\text{O)}_6]^{2+}$: $\\text{Cr}^{2+}$ is $3d^4$ (T). With weak field ligand $\\text{H}_2\\text{O}$, it is high-spin: $t_{2g}^3 e_g^1$, with 4 unpaired electrons. $\\mu = \\sqrt{4(4+2)} = \\sqrt{24} \\approx 4.9\\text{ BM}$ (Q). Thus III $\\to$ Q, T.\n- (IV) $[\\text{Fe(H}_2\\text{O)}_6]^{2+}$: $\\text{Fe}^{2+}$ is $3d^6$. Weak field $\\text{H}_2\\text{O}$ gives high-spin: $t_{2g}^4 e_g^2$. Here $t_{2g}$ contains 4 electrons (P), and there are 4 unpaired electrons, giving $\\mu = \\sqrt{24} \\approx 4.9\\text{ BM}$ (Q). Thus IV $\\to$ P, Q.\nHence, matching is I $\\to$ R, T; II $\\to$ P, S; III $\\to$ Q, T; IV $\\to$ P, Q, corresponding to option (A).",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -1736,11 +1760,11 @@
                     "listII": [
                         {
                             "id": "P",
-                            "text": "Sodium fusion extract gives Prussian blue with $\\text{FeSO}_4 / \\text{H}_2\\text{SO}_4$."
+                            "text": "Sodium fusion extract of the compound on boiling with $\\text{FeSO}_4$, followed by acidification with conc. $\\text{H}_2\\text{SO}_4$, gives Prussian blue color."
                         },
                         {
                             "id": "Q",
-                            "text": "Sodium fusion extract gives blood red/violet coloration with nitroprusside or $\\text{Fe}^{3+}$."
+                            "text": "Sodium fusion extract of the compound on treatment with sodium nitroprusside gives blood red color."
                         },
                         {
                             "id": "R",
@@ -1777,7 +1801,7 @@
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "Chemical tests for organic compounds:\\n- (I) Aniline: Contains nitrogen, giving positive Lassaigne's test with formation of Prussian blue $[\\text{Fe}_4[\\text{Fe(CN)}_6]_3]$ (P). It also brominates rapidly with bromine water giving white precipitate of 2,4,6-tribromoaniline (S). Thus I $\\to$ P, S.\\n- (II) $o$-Cresol: Has a phenolic $-\\text{OH}$ group, which produces a characteristic violet coloration upon reaction with neutral $\\text{FeCl}_3$ solution (T). Thus II $\\to$ T.\\n- (III) Cysteine: Contains both sulfur and nitrogen (as $-\\text{SH}$ and $-\\text{NH}_2$). Sodium fusion gives sodium sulfide/thiocyanate, which with sodium nitroprusside / $\\text{Fe}^{3+}$ gives a characteristic color test (Q). Its carboxylic group $-\\text{COOH}$ reacts with $\\text{NaHCO}_3$ to release $\\text{CO}_2$ gas with effervescence (R). Thus III $\\to$ Q, R.\\n- (IV) Caprolactam: A cyclic amide containing nitrogen; gives positive Lassaigne's sodium fusion test for nitrogen yielding Prussian blue (P). Thus IV $\\to$ P.\\nTherefore, I $\\to$ P, S; II $\\to$ T; III $\\to$ Q, R; IV $\\to$ P, which is option (D).",
+                    "explanation": "Chemical tests for organic compounds:\n- (I) Aniline: Contains nitrogen, giving positive Lassaigne's test with formation of Prussian blue $[\\text{Fe}_4[\\text{Fe(CN)}_6]_3]$ (P). It also brominates rapidly with bromine water giving white precipitate of 2,4,6-tribromoaniline (S). Thus I $\\to$ P, S.\n- (II) $o$-Cresol: Has a phenolic $-\\text{OH}$ group, which produces a characteristic violet coloration upon reaction with neutral $\\text{FeCl}_3$ solution (T). Thus II $\\to$ T.\n- (III) Cysteine: Contains both sulfur and nitrogen (as $-\\text{SH}$ and $-\\text{NH}_2$). Sodium fusion gives sodium sulfide/thiocyanate, which with sodium nitroprusside / $\\text{Fe}^{3+}$ gives a characteristic color test (Q). Its carboxylic group $-\\text{COOH}$ reacts with $\\text{NaHCO}_3$ to release $\\text{CO}_2$ gas with effervescence (R). Thus III $\\to$ Q, R.\n- (IV) Caprolactam: A cyclic amide containing nitrogen; gives positive Lassaigne's sodium fusion test for nitrogen yielding Prussian blue (P). Thus IV $\\to$ P.\nTherefore, I $\\to$ P, S; II $\\to$ T; III $\\to$ Q, R; IV $\\to$ P, which is option (D).",
                     "marks": 3,
                     "negativeMarks": -1
                 }

@@ -97,7 +97,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "Since $E_3 = E_2 \\cup S_3$ and $E_1 = E_3$, we must have $S_3 = S_1$ because $E_2 = E_1 \\setminus S_1$.\nThere are 3 possible choices for $S_1$ from $E_1 = \\{1, 2, 3\\}$ with equal probability $\\frac{1}{^3C_2} = \\frac{1}{3}$:\n\nCase 1: $S_1 = \\{1, 2\\}$\n$F_2 = F_1 \\cup \\{1, 2\\} = \\{1, 2, 3, 4\\}$ ($4$ elements).\nFor $S_3 = \\{1, 2\\}$ to be chosen from $G_2 = G_1 \\cup S_2$, $S_2$ must contain $1$ (since $1 \\notin G_1 = \\{2, 3, 4, 5\\}$). So $S_2$ must be $\\{1, x\\}$ where $x \\in \\{2, 3, 4\\}$ ($3$ ways out of $^4C_2 = 6$).\nThen $G_2$ contains $5$ elements: $\\{1, 2, 3, 4, 5\\}$.\nThen $S_3 = \\{1, 2\\}$ is chosen with probability $\\frac{1}{^5C_2} = \\frac{1}{10}$.\n$$P_1 = \\frac{1}{3} \\times \\frac{3}{6} \\times \\frac{1}{10} = \\frac{1}{60}$$\n\nCase 2: $S_1 = \\{2, 3\\}$\n$F_2 = F_1 \\cup \\{2, 3\\} = \\{1, 2, 3, 4\\}$. Here $2, 3 \\in G_1$ already! $S_2$ can be $\\{1, x\\}$ or does not contain 1, and $G_2$ will have both 2 and 3.\nCalculating yields $P_2 = \\frac{2}{45}$.\n\nCase 3: $S_1 = \\{1, 3\\}$\n$F_2 = F_1 \\cup \\{1, 3\\} = \\{1, 3, 4\\}$ ($3$ elements). $S_2$ chosen from 3 elements ($^3C_2 = 3$).\nCalculating yields $P_3 = \\frac{1}{60}$.\n\nConditional probability:\n$$p = \\frac{P_1}{P_1 + P_2 + P_3} = \\frac{1/60}{1/60 + 2/45 + 1/60} = \\frac{1}{5}$$.\n\nHence, option (A) is correct."
+          "explanation": "Since $E_2 = E_1 \\setminus S_1$ and $E_3 = E_2 \\cup S_3 = E_1$, we need $S_3 = S_1$. Each $S_1$ has probability $\\frac{1}{3}$.\nCase $S_1 = \\{1, 2\\}$: $F_2 = \\{1, 2, 3, 4\\}$. Since $1 \\notin G_1$, $S_2$ must contain 1 (3 of 6 pairs); then $G_2 = \\{1, 2, 3, 4, 5\\}$ and $P(S_3 = \\{1, 2\\}) = \\frac{1}{10}$. Probability $= \\frac{1}{3} \\cdot \\frac{3}{6} \\cdot \\frac{1}{10} = \\frac{1}{60}$.\nCase $S_1 = \\{1, 3\\}$: $F_2 = \\{1, 3, 4\\}$. $S_2$ must contain 1 (2 of 3 pairs); then $|G_2| = 5$. Probability $= \\frac{1}{3} \\cdot \\frac{2}{3} \\cdot \\frac{1}{10} = \\frac{1}{45}$.\nCase $S_1 = \\{2, 3\\}$: $F_2 = \\{1, 2, 3, 4\\}$. If $1 \\in S_2$ (3 of 6 pairs), $|G_2| = 5$; otherwise $|G_2| = 4$. Probability $= \\frac{1}{3}\\left(\\frac{1}{2} \\cdot \\frac{1}{10} + \\frac{1}{2} \\cdot \\frac{1}{6}\\right) = \\frac{2}{45}$.\n$$p = \\frac{1/60}{1/60 + 1/45 + 2/45} = \\frac{1/60}{5/60} = \\frac{1}{5}$$\nHence option (A)."
         },
         {
           "id": "math_q4",
@@ -219,7 +219,7 @@
               "isCorrect": true
             }
           ],
-          "explanation": "Let us check each option:\n\n1. For option (A):\n$P$ is an elementary permutation matrix that swaps row 2 and row 3 (or column 2 and column 3).\nMultiplying $P \\cdot P = I = \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{bmatrix}$.\n$EP$ swaps column 2 and column 3 of $E$:\n$$EP = \\begin{bmatrix} 1 & 3 & 2 \\\\ 2 & 4 & 3 \\\\ 8 & 18 & 13 \\end{bmatrix}$$\n$PEP$ swaps row 2 and row 3 of $EP$:\n$$PEP = \\begin{bmatrix} 1 & 3 & 2 \\\\ 8 & 18 & 13 \\\\ 2 & 4 & 3 \\end{bmatrix} = F$$\nSo $F = PEP$ and $P^2 = I$. Thus, (A) is TRUE.\n\n2. For determinant $|E|$:\nRow 3: $R_3 - 3R_2 + R_1 = (8, 13, 18) - 3(2, 3, 4) + (1, 2, 3) = (0, 0, 0)$.\nHence $|E| = 0$, and $|F| = |PEP| = |P|^2 |E| = 0$.\nThen $|EQ| = |E||Q| = 0$ and $|PFQ^{-1}| = |P||F||Q^{-1}| = 0$.\nAlso, $|EQ + PFQ^{-1}| = |(E + PFP)Q| = |(E + E)Q| = 0$.\nThus $|EQ + PFQ^{-1}| = 0 = |EQ| + |PFQ^{-1}|$. Statement (B) is TRUE.\n\n3. For option (C):\n$|EF| = |E||F| = 0 \\times 0 = 0$. So $|(EF)^3| = 0$ and $|EF|^2 = 0$. Since $0 > 0$ is FALSE, statement (C) is FALSE.\n\n4. For option (D):\nTrace property: $\\text{tr}(P^{-1}EP) = \\text{tr}(E)$ and $\\text{tr}(P^{-1}FP) = \\text{tr}(F)$.\nSo $\\text{tr}(P^{-1}EP + F) = \\text{tr}(E) + \\text{tr}(F)$, and $\\text{tr}(E + P^{-1}FP) = \\text{tr}(E) + \\text{tr}(F)$.\nBoth sums are equal. Thus, (D) is TRUE.\n\nCorrect options: (A, B, D)."
+          "explanation": "(A) $P$ swaps rows 2 and 3 (pre-multiplication) or columns 2 and 3 (post-multiplication), so $P^2 = I$. $EP = \\begin{bmatrix} 1 & 3 & 2 \\\\ 2 & 4 & 3 \\\\ 8 & 18 & 13 \\end{bmatrix}$ and $PEP = \\begin{bmatrix} 1 & 3 & 2 \\\\ 8 & 18 & 13 \\\\ 2 & 4 & 3 \\end{bmatrix} = F$. TRUE.\n$|E| = 1(54 - 52) - 2(36 - 32) + 3(26 - 24) = 0$ (indeed $R_3 = 2R_1 + 3R_2$), so $|F| = |P|^2|E| = 0$.\n(B) $PF = P(PEP) = EP$, so $EQ + PFQ^{-1} = E(Q + PQ^{-1})$. Its determinant is $|E| \\cdot |Q + PQ^{-1}| = 0$. Also $|EQ| = 0$ and $|PFQ^{-1}| = 0$, so both sides are 0. TRUE.\n(C) $|EF| = 0$, so $|(EF)^3| = 0 = |EF|^2$ and the strict inequality fails. FALSE.\n(D) $\\text{tr}(P^{-1}EP + F) = \\text{tr}(E) + \\text{tr}(F) = \\text{tr}(E + P^{-1}FP)$. TRUE.\nCorrect options: (A, B, D)."
         },
         {
           "id": "math_q12",
@@ -977,7 +977,14 @@
           "marks": 2,
           "negativeMarks": 0,
           "answer": 3.2,
-          "explanation": "Starting from $Q$ (but-2-yne, $0.075\\text{ mol}$):\n1. Hydration of $Q$ to butan-2-one ($S$):\n$$\\text{CH}_3-\\text{C}\\equiv\\text{C}-\\text{CH}_3 \\xrightarrow{\\text{Hg}^{2+}/\\text{H}^+} \\text{CH}_3-\\text{CO}-\\text{CH}_2-\\text{CH}_3 \\, (S)$$\nMolar mass of $S = 72\\text{ g/mol}$. Yield $= 100\\% \\implies$ moles of $S = 0.075\\text{ mol}$.\n\n2. Aldol condensation of $S$ to $T$:\n$$2 \\, \\text{CH}_3\\text{COCH}_2\\text{CH}_3 \\xrightarrow{\\text{Ba(OH)}_2, \\Delta} T \\, (\\alpha,\\beta\\text{-unsaturated ketone})$$\nMoles of $T = \\frac{0.075}{2} \\times 0.80 = 0.03\\text{ mol}$.\n\n3. Haloform oxidation of $T$ by $\\text{NaOCl}$ to give $U$:\nYield $= 80\\% \\implies$ mass of $U = 0.03 \\times 0.80 \\times M_U \\approx 3.20\\text{ g}$ (accepted range: $3.20 - 3.90$).\nThus, $y = 3.20$."
+          "explanation": "$Q$ = but-2-yne ($0.075\\text{ mol}$). Hydration with $\\text{Hg}^{2+}/\\text{H}^+$ (100%) gives $S$ = butan-2-one ($0.075\\text{ mol}$).\nAldol condensation with $\\text{Ba(OH)}_2$ (2 mol $S$ give 1 mol $T$, 80%) gives $T$ = 3,4-dimethylhex-3-en-2-one, with $n_T = \\frac{0.075}{2} \\times 0.80 = 0.03\\text{ mol}$.\nThe haloform reaction with $\\text{NaOCl}$ (80%) turns the methyl ketone into the $\\alpha,\\beta$-unsaturated acid $U$ = 2,3-dimethylpent-2-enoic acid. $U$ still contains $\\text{C}=\\text{C}$, so it decolourises Baeyer's reagent.\nThe official JEE (Advanced) 2021 final key accepts $y = 3.20$ or $y = 3.90$ to $3.91$, because the yields and stoichiometry can be read in different ways. The stored answer is $3.20$.",
+          "acceptedAnswers": [
+            3.2,
+            [
+              3.9,
+              3.91
+            ]
+          ]
         },
         {
           "id": "chem_q7",
@@ -1051,7 +1058,7 @@
               "isCorrect": true
             }
           ],
-          "explanation": "Nitric acid oxidizes both the aldehyde group ($-\\text{CHO}$) and the terminal primary alcohol group ($-\\text{CH}_2\\text{OH}$) to carboxylic acid groups ($-\\text{COOH}$), forming an aldaric acid (glucaric acid / saccharic acid).\n- Oxidation of D-glucose gives D-glucaric acid with specific rotation $[\\alpha]_D = +52.7^\\circ$.\n- To obtain a product with specific rotation $[\\alpha]_D = -52.7^\\circ$, the product must be the enantiomer of D-glucaric acid, which is L-glucaric acid.\n- Comparing the Fischer projections in options (C) and (D):\n  - Compound in (C) is L-glucose, which upon oxidation directly yields L-glucaric acid ($[\\alpha]_D = -52.7^\\circ$).\n  - Compound in (D) (L-gulose), upon oxidation of both ends, forms the exact same dicarboxylic acid (L-glucaric acid) as seen by rotating the Fischer projection by $180^\\circ$ in the plane of the paper.\nThus, both (C) and (D) give the enantiomer with $[\\alpha]_D = -52.7^\\circ$."
+          "explanation": "$\\text{HNO}_3$ oxidises both $-\\text{CHO}$ and the terminal $-\\text{CH}_2\\text{OH}$ to $-\\text{COOH}$, giving an aldaric acid. D-glucose gives D-glucaric acid ($[\\alpha]_D = +52.7^\\circ$). The product with $[\\alpha]_D = -52.7^\\circ$ must therefore be its enantiomer, L-glucaric acid.\n(C) is L-glucose (the mirror image of D-glucose), which gives L-glucaric acid directly.\n(D) is D-gulose. Both ends of its aldaric acid are $-\\text{COOH}$, so rotating it $180^\\circ$ in the plane of the paper shows it is identical to L-glucaric acid.\n(A) and (B) give other aldaric acids.\nCorrect options: (C, D)."
         },
         {
           "id": "chem_q12",
@@ -1146,7 +1153,7 @@
               "isCorrect": true
             }
           ],
-          "explanation": "For the two processes:\n1. Step I $\\to$ II (Reversible Isothermal Expansion):\n- $T = \\text{constant}$, $p$ decreases, $V$ increases.\n- $\\Delta H = n C_p \\Delta T = 0 \\implies H$ is constant.\n- Reversible expansion $\\implies \\Delta S = n R \\ln(V_2/V_1) > 0$ (entropy increases).\n\n2. Step II $\\to$ III (Reversible Adiabatic Expansion):\n- Reversible adiabatic $\\implies \\Delta S = 0$ ($S$ remains constant, isentropic).\n- $V$ increases, $p$ decreases, temperature $T$ decreases (cooling during adiabatic expansion).\n- $\\Delta H = n C_p \\Delta T < 0 \\implies H$ decreases.\n\nAnalyzing the plots:\n- (A) $p-V$ plot: Shows isothermal curve I $\\to$ II, followed by a steeper adiabatic curve II $\\to$ III. (Correct).\n- (B) $p-T$ plot: Shows vertical line at constant $T$ (I $\\to$ II), followed by curve with decreasing $p$ and decreasing $T$ (II $\\to$ III). (Correct).\n- (C) Plot with incorrect curve direction or parameters. (Incorrect).\n- (D) Plot of $\\Delta H$ vs $\\Delta S$ or $S$ vs $T$: I $\\to$ II has constant $H$ with increasing $S$, and II $\\to$ III has constant $S$ with decreasing $H$. (Correct).\n\nCorrect options: (A, B, D)."
+          "explanation": "I $\\to$ II is a reversible isothermal expansion: $T$ and $H$ stay constant, $p$ decreases, $V$ increases and $S$ increases.\nII $\\to$ III is a reversible adiabatic expansion: $S$ stays constant, while $T$, $p$ and $H$ all decrease.\n(A) $p$-$V$ plot: an isotherm I $\\to$ II followed by a steeper adiabat II $\\to$ III. Correct.\n(B) $p$-$T$ plot: $p$ drops vertically at constant $T$ (I $\\to$ II), then $p$ and $T$ both decrease (II $\\to$ III). Correct.\n(C) $H$-$S$ plot: II $\\to$ III is drawn with $H$ increasing at constant $S$, but $H$ must decrease because $T$ decreases. Incorrect.\n(D) $T$-$S$ plot: horizontal (constant $T$, $S$ increasing), then vertical downward (constant $S$, $T$ decreasing). Correct.\nCorrect options: (A, B, D)."
         },
         {
           "id": "chem_q15",
@@ -1200,7 +1207,7 @@
             {
               "id": "C",
               "text": "$\\text{AgNO}_3$ and $\\text{Bi}(\\text{NO}_3)_3$",
-              "isCorrect": true
+              "isCorrect": false
             },
             {
               "id": "D",
@@ -1208,7 +1215,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "Let us examine the precipitates formed by each pair:\n\n- Option (A): $\\text{Pb}(\\text{NO}_3)_2$ and $\\text{Zn}(\\text{NO}_3)_2$\n  - With dilute $\\text{NaOH}$: $\\text{Pb}^{2+} \\to \\text{Pb(OH)}_2$ (white), $\\text{Zn}^{2+} \\to \\text{Zn(OH)}_2$ (white).\n  - With dilute $\\text{HCl}$: $\\text{Pb}^{2+} \\to \\text{PbCl}_2$ (white), $\\text{ZnCl}_2$ is soluble. Only white precipitate formed.\n  (A is correct).\n\n- Option (B): $\\text{Pb}(\\text{NO}_3)_2$ and $\\text{Bi}(\\text{NO}_3)_3$\n  - With dilute $\\text{NaOH}$: $\\text{Pb(OH)}_2$ (white) and $\\text{Bi(OH)}_3$ (white).\n  - With dilute $\\text{HCl}$: $\\text{PbCl}_2$ (white) and $\\text{Bi}^{3+}$ hydrolyzes with dilute chloride to give bismuth oxychloride ($\\text{BiOCl}$, white precipitate).\n  (B is correct).\n\n- Option (C): $\\text{AgNO}_3$ and $\\text{Bi}(\\text{NO}_3)_3$\n  - With dilute $\\text{HCl}$: $\\text{AgCl}$ (white) and $\\text{BiOCl}$ (white).\n  - With dilute $\\text{NaOH}$: $\\text{Bi(OH)}_3$ is white, and $\\text{Ag}^+$ forms white $\\text{AgOH}$ initially before decomposing to brown $\\text{Ag}_2\\text{O}$. Both (A, B, C) were officially accepted in the final key.\n  (C is correct).\n\n- Option (D): $\\text{Hg}^{2+}$ with $\\text{NaOH}$ gives yellow precipitate of $\\text{HgO}$, not white. Thus (D) is incorrect.\n\nCorrect options: (A, B, C)."
+          "explanation": "Both reagents must give only white precipitates.\n(A) With NaOH: $\\text{Pb(OH)}_2$ and $\\text{Zn(OH)}_2$, both white. With HCl: $\\text{PbCl}_2$ is white and $\\text{ZnCl}_2$ is soluble. Correct.\n(B) With NaOH: $\\text{Pb(OH)}_2$ and $\\text{Bi(OH)}_3$, both white. With HCl: $\\text{PbCl}_2$ and $\\text{BiOCl}$, both white. Correct.\n(C) With NaOH, $\\text{Ag}^+$ gives brown $\\text{Ag}_2\\text{O}$, which is not white. Incorrect.\n(D) With NaOH, $\\text{Hg}^{2+}$ gives yellow $\\text{HgO}$. Incorrect.\nCorrect options: (A, B)."
         },
         {
           "id": "chem_q17",
@@ -1218,7 +1225,12 @@
           "marks": 4,
           "negativeMarks": 0,
           "answer": 13,
-          "explanation": "Free radical mono-bromination of 1-methylcyclohex-1-ene with $\\text{Br}_2/h\\nu$ occurs at allylic, vinylic, and aliphatic positions:\n1. Allylic radical at the methyl group ($\\text{CH}_2^\\bullet$): yields 1-bromomethylcyclohex-1-ene (achiral) = 1 isomer.\n2. Allylic radical at C3: resonance delocalization gives:\n   - 3-bromo-1-methylcyclohex-1-ene (chiral center at C3): 1 pair of enantiomers = 2 isomers.\n   - 3-bromo-2-methylcyclohex-1-ene (chiral center at C3): 1 pair of enantiomers = 2 isomers.\n3. Allylic radical at C6:\n   - 6-bromo-1-methylcyclohex-1-ene (chiral center at C6): 1 pair of enantiomers = 2 isomers.\n4. Non-allylic radical at C4:\n   - 4-bromo-1-methylcyclohex-1-ene (chiral center at C4): 1 pair of enantiomers = 2 isomers.\n5. Non-allylic radical at C5:\n   - 5-bromo-1-methylcyclohex-1-ene (chiral center at C5): 1 pair of enantiomers = 2 isomers.\n6. Vinylic radicals at C1 and C2:\n   - 1-bromo-2-methylcyclohex-1-ene and 2-bromo-1-methylcyclohex-1-ene = 2 isomers.\n\nTotal possible mono-bromo isomers $= 1 + 2 + 2 + 2 + 2 + 2 + 2 = 13$."
+          "explanation": "$\\text{Br}_2/h\\nu$ causes free-radical substitution of $sp^3$ C$-$H hydrogens. Allylic radicals can also give rearranged (allylic-shift) products. In 1-methylcyclohex-1-ene, the double bond is C1=C2 and $\\text{CH}_3$ is on C1.\nDirect substitution:\n- $\\text{CH}_3 \\to \\text{CH}_2\\text{Br}$: 1-(bromomethyl)cyclohexene, achiral: 1\n- C3: 3-bromo-1-methylcyclohexene, chiral: 2\n- C4: 4-bromo-1-methylcyclohexene, chiral: 2\n- C5: 5-bromo-1-methylcyclohexene, chiral: 2\n- C6: 6-bromo-1-methylcyclohexene, chiral: 2\nAllylic-rearranged products:\n- From the C3 radical: 3-bromo-3-methylcyclohexene, chiral: 2\n- From the $\\text{CH}_2^\\bullet$ radical: 2-bromo-1-methylenecyclohexane, chiral: 2\n(The rearranged product of the C6 radical is identical to 6-bromo-1-methylcyclohexene.)\nTotal $= 1 + 2 + 2 + 2 + 2 + 2 + 2 = 13$. The official final key accepts 9, 13 or 14.",
+          "acceptedAnswers": [
+            9,
+            13,
+            14
+          ]
         },
         {
           "id": "chem_q18",
@@ -1229,7 +1241,11 @@
           "marks": 4,
           "negativeMarks": 0,
           "answer": 12,
-          "explanation": "1. The starting material is a bicyclic hydrocarbon containing two conjugated/isolated double bonds.\n2. Ozonolysis with $\\text{O}_3$ (excess) followed by reductive cleavage with $\\text{Zn}/\\text{H}_2\\text{O}$ cleaves both double bonds into four carbonyl groups ($-\\text{C}=\\text{O}$).\n3. Subsequent treatment with hydroxylamine $\\text{NH}_2\\text{OH}$ (excess) converts all four carbonyl groups into oxime groups ($-\\text{C}=\\text{N}-\\text{OH}$).\n4. In each oxime group ($-\\text{C}=\\text{N}-\\text{OH}$):\n   - The carbon atom is $sp^2$ hybridized (forming one double bond to $\\text{N}$): 4 carbon atoms.\n   - The nitrogen atom is $sp^2$ hybridized (one double bond, one single bond, one lone pair): 4 nitrogen atoms.\n   - The oxygen atom of the $-\\text{OH}$ group is conjugated with the $\\text{C}=\\text{N}$ $\\pi$-system, giving it $sp^2$ hybridization: 4 oxygen atoms.\n\nTotal number of $sp^2$ hybridized atoms in product $P = 4 + 4 + 4 = 12$."
+          "explanation": "Excess $\\text{O}_3$ followed by $\\text{Zn}/\\text{H}_2\\text{O}$ cleaves both tetrasubstituted ring-fusion $\\text{C}=\\text{C}$ bonds. The result is a 14-membered cyclic tetraketone with four $\\text{C}=\\text{O}$ groups. Excess $\\text{NH}_2\\text{OH}$ converts all four into oximes ($\\text{C}=\\text{N}-\\text{OH}$), giving P.\nEach oxime contributes an $sp^2$ carbon and an $sp^2$ nitrogen, so there are 8 $sp^2$ atoms. If the oxime oxygen is also counted as $sp^2$ (its lone pair is conjugated with $\\text{C}=\\text{N}$), the total is $8 + 4 = 12$.\nThe official final key accepts 8 or 12. The stored answer is 12.",
+          "acceptedAnswers": [
+            8,
+            12
+          ]
         },
         {
           "id": "chem_q19",

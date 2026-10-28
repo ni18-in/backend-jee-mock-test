@@ -39,7 +39,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Let R be the required relation. A = {(1,1),(2,2),(3,3)}. |R|=3 when R=A; |R|=5 e.g. R = A∪{(1,2),(2,1)}; R = {1,2,3}×{1,2,3}. Number of equivalence relations = 5.",
+                            "explanation": "Equivalence relations on a 3-element set correspond to its partitions: $\\{1\\}\\{2\\}\\{3\\}$; $\\{1,2\\}\\{3\\}$; $\\{1,3\\}\\{2\\}$; $\\{2,3\\}\\{1\\}$; $\\{1,2,3\\}$. Hence 5.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -70,7 +70,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "f(x+y)=f(x)f(y) ⟹ f(x)=e^{λx}, f'(0)=λ=4a. From f''(x)-3af'(x)-f(x)=0 ⟹ λ²-3aλ-1=0 ⟹ 16a²-12a²-1=0 ⟹ a=1/2. So f(ax)=f(x/2)=e^{x/2}. Area=∫₀² e^x dx = e²-1.",
+                            "explanation": "$f(x+y)=f(x)f(y)$ gives $f(x)=e^{\\lambda x}$ with $\\lambda=f'(0)=4a$. Substituting in $f''-3af'-f=0$: $\\lambda^2-3a\\lambda-1=0 \\Rightarrow 16a^2-12a^2=1 \\Rightarrow a=\\frac{1}{2}$, so $\\lambda=2$ and $f(ax)=f(x/2)=e^{x}$. Area $=\\int_0^2 e^x\\,dx=e^2-1$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -132,7 +132,7 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "Z₁=e^{-iπ/4}, Z₂=1, Z₃=e^{iπ/4}. |z₁z̄₂+z₂z̄₃+z₃z̄₁|² = |√2-√2i+i|² = (√2)²+(1-√2)² = 2+1+2-2√2 = 5-2√2. α=5, β=-2 ⟹ α²+β²=29.",
+                            "explanation": "$z_1=e^{-i\\pi/4}$, $z_2=1$, $z_3=e^{i\\pi/4}$. Then $z_1\\bar{z}_2=e^{-i\\pi/4}$, $z_2\\bar{z}_3=e^{-i\\pi/4}$, $z_3\\bar{z}_1=e^{i\\pi/2}=i$. Sum $=\\sqrt{2}-\\sqrt{2}i+i$, so $|\\cdot|^2=2+(1-\\sqrt{2})^2=5-2\\sqrt{2}$. Hence $\\alpha=5,\\ \\beta=-2$ and $\\alpha^2+\\beta^2=29$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -163,7 +163,7 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "sec⁻¹x = a ∈ [0,π]-{π/2}, cosec⁻¹x = π/2 - a. Expression = 16[2a²-πa+π²/4]. max at a=π = 20π², min at a=π/4 = 2π². Sum = 22π².",
+                            "explanation": "Let $a=\\sec^{-1}x\\in[0,\\pi]-\\{\\frac{\\pi}{2}\\}$; then $\\csc^{-1}x=\\frac{\\pi}{2}-a$. Expression $=16\\left(2a^2-\\pi a+\\frac{\\pi^2}{4}\\right)$. Minimum at $a=\\frac{\\pi}{4}$: $16\\cdot\\frac{\\pi^2}{8}=2\\pi^2$. Maximum at $a=\\pi$: $16\\cdot\\frac{5\\pi^2}{4}=20\\pi^2$. Sum $=22\\pi^2$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -194,7 +194,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Probability distribution: P(X=0)=1/2, P(X=1)=1/2. μ=1/2, σ²=1/2-1/4=1/4. 64(μ+σ²)=64(1/2+1/4)=48.",
+                            "explanation": "Of the 8 outcomes, HHT, HTH, HTT, THT contain one 'HT' and the rest none, so $P(X=0)=P(X=1)=\\frac{1}{2}$. $\\mu=\\frac{1}{2}$, $\\sigma^2=\\frac{1}{2}-\\frac{1}{4}=\\frac{1}{4}$. $64(\\mu+\\sigma^2)=64\\cdot\\frac{3}{4}=48$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -225,7 +225,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "a·ar⁴=28 ⟹ a²r⁴=28. ar+ar³=29 ⟹ ar(1+r²)=29. Solving: r=√28, a=1/√28. a₆=ar⁵=(1/√28)×(28)²√28=784.",
+                            "explanation": "$a_1a_5=a^2r^4=28 \\Rightarrow ar^2=\\sqrt{28}$. $a_2+a_4=ar(1+r^2)=29 \\Rightarrow \\sqrt{28}\\,r^2-29r+\\sqrt{28}=0 \\Rightarrow r=\\sqrt{28}$ (increasing). Then $a=\\frac{1}{\\sqrt{28}}$ and $a_6=ar^5=\\frac{(\\sqrt{28})^5}{\\sqrt{28}}=28^2=784$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -256,7 +256,7 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "P(2λ+1,3λ+2,4λ+3) on L₁, Q(3μ+2,4μ+4,5μ+5) on L₂. PQ⊥L₁ and PQ⊥L₂ gives λ=1/3, μ=-1/6. Line PQ passes through (14/3,-3,22/3).",
+                            "explanation": "Take $P(1+2\\lambda,2+3\\lambda,3+4\\lambda)$ on $L_1$ and $Q(2+3\\mu,4+4\\mu,5+5\\mu)$ on $L_2$. $\\overrightarrow{PQ}\\perp L_1, L_2$ gives $16+38\\mu-29\\lambda=0$ and $21+50\\mu-38\\lambda=0$, so $\\lambda=\\frac{1}{3},\\ \\mu=-\\frac{1}{6}$. $P=\\left(\\frac{5}{3},3,\\frac{13}{3}\\right)$ and $\\overrightarrow{PQ}\\parallel(1,-2,1)$. The line $\\left(\\frac{5}{3}+t,\\,3-2t,\\,\\frac{13}{3}+t\\right)$ at $t=3$ gives $\\left(\\frac{14}{3},-3,\\frac{22}{3}\\right)$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -287,7 +287,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "5(ln x)²+3=8ln x. Let t=ln x: 5t²-8t+3=0. t₁+t₂=8/5, so ln(x₁x₂)=8/5, product=e^{8/5}.",
+                            "explanation": "Taking $\\log_e$: $5t^2+3=8t$ with $t=\\log_e x$, i.e. $5t^2-8t+3=0$ (roots $1,\\frac{3}{5}$). $\\log_e(x_1x_2)=t_1+t_2=\\frac{8}{5}$, so the product is $e^{8/5}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -318,7 +318,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Tₙ = Sₙ-Sₙ₋₁ = (1/8)(2n-1)(2n+1)(2n+3). 1/Tₙ = 8/[(2n-1)(2n+1)(2n+3)]. Using partial fractions and telescoping sum → 2/3.",
+                            "explanation": "$T_n=S_n-S_{n-1}=\\frac{(2n-1)(2n+1)(2n+3)}{8}$. So $\\frac{1}{T_r}=\\frac{8}{(2r-1)(2r+1)(2r+3)}=2\\left[\\frac{1}{(2r-1)(2r+1)}-\\frac{1}{(2r+1)(2r+3)}\\right]$. Telescoping, the sum tends to $2\\cdot\\frac{1}{1\\cdot 3}=\\frac{2}{3}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -349,7 +349,7 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "Middle letter is M. Choose 2 letters from 12 before M: ¹²C₂. Choose 2 letters from 13 after M: ¹³C₂. Total = 66 × 78 = 5148.",
+                            "explanation": "Middle letter is M. Choose 2 letters from 12 before M: $^{12}\\text{C}_{2}$. Choose 2 letters from 13 after M: $^{13}\\text{C}_{2}$. Total = 66 × 78 = 5148.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -380,7 +380,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Rewrite: dx/dy + (1/y²)x = 1/y³. IF = e^{-1/y}. Solving with x(1)=1 gives C=-1/e. At y=1/2: x = 3-e.",
+                            "explanation": "$\\frac{dx}{dy}+\\frac{x}{y^2}=\\frac{1}{y^3}$, I.F. $=e^{-1/y}$. $x e^{-1/y}=\\int\\frac{e^{-1/y}}{y^3}dy=\\left(1+\\frac{1}{y}\\right)e^{-1/y}+C$. $x(1)=1 \\Rightarrow C=-\\frac{1}{e}$. At $y=\\frac{1}{2}$: $x e^{-2}=3e^{-2}-e^{-1} \\Rightarrow x=3-e$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -411,7 +411,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "R=(0,-3). Circle (x+1)²+(y+1)²=5 meets y=0: x=1 or x=-3. P=(1,0), Q=(-3,0). Area of △PQR = (1/2)|det| = 6.",
+                            "explanation": "The parabola meets the y-axis at $R(0,-3)$, so the circle is $(x+1)^2+(y+1)^2=5$. On $y=0$: $(x+1)^2=4 \\Rightarrow x=1,-3$, so $P(1,0)$, $Q(-3,0)$. Area $=\\frac{1}{2}\\cdot PQ\\cdot 3=\\frac{1}{2}\\cdot 4\\cdot 3=6$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -442,7 +442,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "C: (x+2)²+(y-2)²=4. S₂: (x-2)²+(y-5)²=r². |r-2|<c₁c₂<r+2 ⟹ 3<r<7. α=3, β=7. 3β-2α=21-6=15.",
+                            "explanation": "C: centre $(-2,2)$, radius 2. Distance between centres $=\\sqrt{16+9}=5$. Two intersection points need $|r-2|<5<r+2 \\Rightarrow 3<r<7$. So $\\alpha=3,\\ \\beta=7$ and $3\\beta-2\\alpha=21-6=15$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -473,7 +473,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "f(x)=(7tan⁶x-3tan²x)(sec²x). I₁=0 by substitution. I₂=1/12 using integration by parts. 7I₁+12I₂=1.",
+                            "explanation": "$f(x)=(7\\tan^6x-3\\tan^2x)\\sec^2x$. $I_1=[\\tan^7x-\\tan^3x]_0^{\\pi/4}=0$. By parts, $I_2=[x(\\tan^7x-\\tan^3x)]_0^{\\pi/4}-\\int_0^{\\pi/4}(\\tan^7x-\\tan^3x)dx=-\\int_0^1 u^3(u^2-1)\\,du=\\frac{1}{12}$. Hence $7I_1+12I_2=1$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -504,7 +504,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "From functional equation, f'(0)=1/2, f(x)=e^{x/2}. ln f(n)=n/2. Σln f(n)=(1/2)Σn=(1/2)(5050)=2525.",
+                            "explanation": "From functional equation, f'(0)=1/2, $f(x)=e^{x/2}$. ln f(n)=n/2. Σln f(n)=(1/2)Σn=(1/2)(5050)=2525.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -566,7 +566,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "A = πr²/2 - 2∫₀^{2√3}√(2√3 x)dx = π(12)/2 - 2√(2√3)·[x^{3/2}/(3/2)]₀^{2√3} = 6π-16.",
+                            "explanation": "Circle: centre $(2\\sqrt{3},0)$, radius $2\\sqrt{3}$; it meets $y^2=2\\sqrt{3}x$ at $x=0$ and $x=2\\sqrt{3}$ (top and bottom of the circle). The right half of the circle lies inside the parabola, so the required area = left half-disc minus the parabolic part $=6\\pi-2\\int_0^{2\\sqrt{3}}\\sqrt{2\\sqrt{3}x}\\,dx=6\\pi-16$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -628,7 +628,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "be=13, b=5. a²=b²(e²-1)=169-25=144. l(LR)=2a²/b=2×144/5=288/5.",
+                            "explanation": "Centre $(1,1)$, transverse axis vertical, $c=13$. The point $(1,6)$ lies on the transverse axis, so it is a vertex: $a=5$. $b^2=c^2-a^2=169-25=144$. Latus rectum $=\\frac{2b^2}{a}=\\frac{288}{5}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         }
@@ -644,7 +644,7 @@
                             "questionText": "Let the function $f(x) = \\begin{cases} -3ax^2 - 2, & x < 1 \\\\ a^2 + bx, & x \\geq 1 \\end{cases}$ be differentiable for all $x \\in \\mathbb{R}$, where $a > 1$, $b \\in \\mathbb{R}$. If the area of the region enclosed by $y = f(x)$ and the line $y = -20$ is $\\alpha + \\beta\\sqrt{3}$, $\\alpha, \\beta \\in \\mathbb{Z}$, then the value of $\\alpha + \\beta$ is ___.",
                             "hasImage": false,
                             "answer": 34,
-                            "explanation": "Continuity and differentiability at x=1: -3a-2=a²+b and -6a=b. Solving: a=2 (since a>1), b=-12. f(x)=-6x²-2 for x<1 and 4-12x for x≥1. Area=∫_{-√3}^{1}(-6x²-2+20)dx + ∫_{1}^{2}(4-12x+20)dx = 16+12√3+6 = 22+12√3. α+β=34.",
+                            "explanation": "Continuity and differentiability at $x=1$: $-3a-2=a^2+b$ and $-6a=b$, giving $a^2-3a+2=0 \\Rightarrow a=2$, $b=-12$. So $f(x)=-6x^2-2$ $(x<1)$, $4-12x$ $(x\\ge 1)$; these meet $y=-20$ at $x=-\\sqrt{3}$ and $x=2$. Area $=\\int_{-\\sqrt{3}}^{1}(18-6x^2)dx+\\int_1^2(24-12x)dx=(16+12\\sqrt{3})+6=22+12\\sqrt{3}$. $\\alpha+\\beta=34$.",
                             "marks": 4,
                             "negativeMarks": 0
                         },
@@ -654,17 +654,17 @@
                             "questionText": "If $\\sum_{r=0}^{5} \\frac{{}^{11}C_{2r+1}}{2r+2} = \\frac{m}{n}$, $\\gcd(m,n)=1$, then $m - n$ is equal to ___.",
                             "hasImage": false,
                             "answer": 2035,
-                            "explanation": "Using binomial expansion of (1+x)^11 integrated from 0 to 1 and -1 to 0. Sum = (2^11-2)/12 = 2046/12 = 341/2. m=2047, n=12, but after simplification m-n=2035.",
+                            "explanation": "$\\frac{{}^{11}C_{k}}{k+1}=\\frac{{}^{12}C_{k+1}}{12}$. So the sum $=\\frac{1}{12}\\left({}^{12}C_2+{}^{12}C_4+\\cdots+{}^{12}C_{12}\\right)=\\frac{2^{11}-1}{12}=\\frac{2047}{12}$. Thus $m=2047,\\ n=12$ and $m-n=2035$.",
                             "marks": 4,
                             "negativeMarks": 0
                         },
                         {
                             "id": "math_q23",
                             "type": "numerical",
-                            "questionText": "Let A be a square matrix of order 3 such that $\\det(A) = -2$ and $\\det(3\\,\\text{adj}(-6\\,\\text{adj}(3A))) = 2^m \\cdot 3^n$, $m > n$. Then $4m + 2n$ is equal to ___.",
+                            "questionText": "Let A be a square matrix of order 3 such that $\\det(A) = -2$ and $\\det(3\\,\\text{adj}(-6\\,\\text{adj}(3A))) = 2^{m+n} \\cdot 3^{mn}$, $m > n$. Then $4m + 2n$ is equal to ___.",
                             "hasImage": false,
                             "answer": 34,
-                            "explanation": "det(3adj(-6adj(3A))) = 3³·det(adj(-6adj(3A))) = 3³·(-6)⁶·(det(adj(3A)))² ... = 3²¹×2¹⁰. m=10, n=21... wait m>n so m=21, n=10 adjusted: 4m+2n=84+20=... Recalculating: m=7, n=3. 4m+2n=28+6=34.",
+                            "explanation": "$\\det(3A)=-54$, $\\det(\\text{adj}(3A))=54^2=2^2 3^6$. $\\det(-6\\,\\text{adj}(3A))=-6^3\\cdot 2^2 3^6=-2^5 3^9$. $\\det(\\text{adj}(\\cdot))=2^{10}3^{18}$, and multiplying by 3 gives $\\det=3^3\\cdot 2^{10}3^{18}=2^{10}3^{21}$. So $m+n=10$, $mn=21$, $m>n \\Rightarrow m=7,\\ n=3$. $4m+2n=34$.",
                             "marks": 4,
                             "negativeMarks": 0
                         },
@@ -674,7 +674,7 @@
                             "questionText": "Let $L_1: \\frac{x-1}{3} = \\frac{y-1}{-1} = \\frac{z+1}{0}$ and $L_2: \\frac{x-2}{2} = \\frac{y}{0} = \\frac{z+4}{\\alpha}$, $\\alpha \\in \\mathbb{R}$, be two lines which intersect at the point B. If P is the foot of perpendicular from the point $A(1,1,-1)$ on $L_2$, then the value of $26\\,\\alpha(PB)^2$ is ___.",
                             "hasImage": false,
                             "answer": 216,
-                            "explanation": "Lines intersect: α=3. P=(40/13, 0, -31/13). 26·3·(PB)²=26×3×(144/169+324/169)=216.",
+                            "explanation": "Lines intersect: α=3. P=(40/13, 0, -31/13). 26·3·$\\text{(PB)}^{2}$=26×3×(144/169+324/169)=216.",
                             "marks": 4,
                             "negativeMarks": 0
                         },
@@ -684,7 +684,7 @@
                             "questionText": "Let $\\vec{c}$ be the projection vector of $\\vec{b} = \\lambda\\hat{i} + 4\\hat{k}$, $\\lambda > 0$, on the vector $\\vec{a} = \\hat{i} + 2\\hat{j} + 2\\hat{k}$. If $|\\vec{a} + \\vec{c}| = 7$, then the area of the parallelogram formed by the vectors $\\vec{b}$ and $\\vec{c}$ is ___.",
                             "hasImage": false,
                             "answer": 16,
-                            "explanation": "c̄ = (b·a/|a|²)a = ((λ+8)/9)(î+2ĵ+2k̂). |ā+c̄|=7 ⟹ λ=4. Area = |b̄×c̄| = 16.",
+                            "explanation": "$\\vec{c}=\\frac{\\vec{b}\\cdot\\vec{a}}{|\\vec{a}|^2}\\vec{a}=\\frac{\\lambda+8}{9}(\\hat{i}+2\\hat{j}+2\\hat{k})$. $|\\vec{a}+\\vec{c}|=3\\left(1+\\frac{\\lambda+8}{9}\\right)=7 \\Rightarrow \\lambda=4$, so $\\vec{c}=\\frac{4}{3}(1,2,2)$. $\\vec{b}\\times\\vec{c}=\\left(-\\frac{32}{3},-\\frac{16}{3},\\frac{32}{3}\\right)$, magnitude $=16$.",
                             "marks": 4,
                             "negativeMarks": 0
                         }
@@ -759,7 +759,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Total charge inside cube = λ·(a/2)/4 = λa/8. φ = q_in/ε₀ = λa/(8ε₀).",
+                            "explanation": "The line charge lies along edge BC, which is shared by 4 identical cubes, so by symmetry this cube gets $\\frac{1}{4}$ of the total flux. Charge $=\\frac{\\lambda a}{2}$, flux $=\\frac{\\lambda a}{2\\cdot 4\\epsilon_0}=\\frac{\\lambda a}{8\\epsilon_0}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -790,7 +790,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Each half of potentiometer = 0.5Ω. R_eq = 0.5 + (0.5×2)/(2+0.5) = 0.9Ω. i = 0.9/0.9 = 1A.",
+                            "explanation": "Each half of the wire is $0.5\\,\\Omega$. One half is in parallel with $R_e=2\\,\\Omega$: $\\frac{0.5\\times 2}{2.5}=0.4\\,\\Omega$. Total $=0.5+0.4=0.9\\,\\Omega$, so $i=\\frac{0.9}{0.9}=1.0$ A.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -821,7 +821,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "β = λD/d. In denser medium λ↓ ⟹ β↓, fringes closer. Speed reduces ⟹ λ reduces while ν constant. R correctly explains A.",
+                            "explanation": "β = λD/d. In denser medium λ↓ $\\implies$ β↓, fringes closer. Speed reduces $\\implies$ λ reduces while ν constant. R correctly explains A.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -852,14 +852,14 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "P = σeAT⁴ ∝ AT⁴. P_larger/P_smaller = (0.8)²×400⁴/((0.2)²×800⁴) = 16/16 = 1. P_larger = E.",
+                            "explanation": "$E\\propto AT^4\\propto r^2T^4$. $\\frac{E_{big}}{E_{small}}=\\left(\\frac{0.8}{0.2}\\right)^2\\left(\\frac{400}{800}\\right)^4=16\\times\\frac{1}{16}=1$. So the bigger body radiates $E$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "phys_q6",
                             "type": "single_correct",
-                            "questionText": "An amount of ice of mass $10^{-3}$ kg and temperature $-10°C$ is transformed to vapour of temperature $110°C$ by applying heat. The total amount of work required for this conversion is: (specific heat of ice = 2100 Jkg⁻¹K⁻¹, specific heat of water = 4180 Jkg⁻¹K⁻¹, specific heat of steam = 1920 Jkg⁻¹K⁻¹, Latent heat of ice = 3.35×10⁵ Jkg⁻¹, Latent heat of steam = 2.25×10⁶ Jkg⁻¹)",
+                            "questionText": "An amount of ice of mass $10^{-3}$ kg and temperature $-10^\\circ\\text{C}$ is transformed to vapour of temperature $110^\\circ\\text{C}$ by applying heat. The total amount of work required for this conversion is: (specific heat of ice = 2100 $\\text{Jkg}^{-1}\\text{K}^{-1}$, specific heat of water = 4180 $\\text{Jkg}^{-1}\\text{K}^{-1}$, specific heat of steam = 1920 $\\text{Jkg}^{-1}\\text{K}^{-1}$, Latent heat of ice = $3.35\\times 10^{5}\\ \\text{J kg}^{-1}$, Latent heat of steam = $2.25\\times 10^{6}\\ \\text{J kg}^{-1}$)",
                             "hasImage": false,
                             "options": [
                                 {
@@ -883,14 +883,14 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "ΔQ = 21+335+418+2250+19.2 = 3043.2 J ≈ 3043 J.",
+                            "explanation": "$Q=mc_{ice}(10)+mL_f+mc_w(100)+mL_v+mc_s(10)$ with $m=10^{-3}$ kg: $21+335+418+2250+19.2=3043.2\\ \\text{J}\\approx 3043$ J.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "phys_q7",
                             "type": "single_correct",
-                            "questionText": "An electron in the ground state of the hydrogen atom has the orbital radius of $5.3 \\times 10^{-11}$ m while that for the electron in third excited state is $8.48 \\times 10^{-10}$ m. The ratio of the de Broglie wavelengths of electron in the ground state to that in excited state is:",
+                            "questionText": "An electron in the ground state of the hydrogen atom has the orbital radius of $5.3 \\times 10^{-11}$ m while that for the electron in third excited state is $8.48 \\times 10^{-10}$ m. The ratio of the de Broglie wavelengths of electron in the excited state to that in the ground state is:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -914,14 +914,14 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "λ = h/mv = 2πr/n. λ₁/λ₄ = (r₁/n₁)/(r₄/n₄) = (5.3×10⁻¹¹×4)/(1×84.8×10⁻¹¹) = 1/4. So ratio = 4.",
+                            "explanation": "From $mvr=\\frac{nh}{2\\pi}$, $\\lambda=\\frac{h}{mv}=\\frac{2\\pi r}{n}$. $\\frac{\\lambda_4}{\\lambda_1}=\\frac{r_4/4}{r_1/1}=\\frac{8.48\\times 10^{-10}}{4\\times 5.3\\times 10^{-11}}=4$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "phys_q9",
                             "type": "single_correct",
-                            "questionText": "An electron is made to enter symmetrically between two parallel and equally but oppositely charged metal plates, each of 10 cm length. The electron emerges with a horizontal component of velocity $10^6$ m/s. If the magnitude of electric field between the plates is 9.1 V/cm, then the vertical component of velocity of electron is: (mass of electron = 9.1×10⁻³¹ kg, charge = 1.6×10⁻¹⁹ C)",
+                            "questionText": "An electron is made to enter symmetrically between two parallel and equally but oppositely charged metal plates, each of 10 cm length. The electron emerges with a horizontal component of velocity $10^6$ m/s. If the magnitude of electric field between the plates is 9.1 V/cm, then the vertical component of velocity of electron is: (mass of electron = $9.1\\times 10^{-31}$ kg, charge = $1.6\\times 10^{-19}$ C)",
                             "hasImage": false,
                             "options": [
                                 {
@@ -945,7 +945,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "t=10×10⁻²/10⁶=10⁻⁷. Vy=(eE/m)t=(1.6×10⁻¹⁹×9.1×10⁻²)/(9.1×10⁻³¹)×10⁻⁷=16×10⁶ m/s.",
+                            "explanation": "Time between plates $t=\\frac{0.1}{10^6}=10^{-7}$ s. $a=\\frac{eE}{m}=\\frac{1.6\\times 10^{-19}\\times 910}{9.1\\times 10^{-31}}=1.6\\times 10^{14}\\ \\text{m/s}^2$. $v_y=at=1.6\\times 10^{7}=16\\times 10^6$ m/s.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -976,7 +976,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "9V₁/(4l₁)=2V₂/l₂. V∝1/√ρ. l₂=l₁×(8/9)×(1/4)=10×8/9×1/4=20/9 cm.",
+                            "explanation": "$\\frac{9v_1}{4l_1}=\\frac{4v_2}{2l_2}$ and $v\\propto\\frac{1}{\\sqrt{\\rho}}$ gives $\\frac{v_1}{v_2}=\\sqrt{\\frac{\\rho_2}{\\rho_1}}=4$. So $\\frac{36}{40}=\\frac{2}{l_2} \\Rightarrow l_2=\\frac{20}{9}$ cm.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1069,7 +1069,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Δq=(K-1)CV=40×10⁻⁶×100=4 mC. ΔU=(1/2)(K-1)CV²=0.2 J.",
+                            "explanation": "At constant $V$: $\\Delta q=(K-1)CV=40\\times 10^{-6}\\times 100=4$ mC. $\\Delta U=\\frac{1}{2}(K-1)CV^2=\\frac{1}{2}\\times 40\\times 10^{-6}\\times 10^4=0.2$ J.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1100,7 +1100,7 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "P_eq = 2P_l + P_m = 4(μ-1)/R - 2/R = (4μ-6)/R... -1/f_eq=(4μ-2)/R. Object at f: u=R/(2μ-1).",
+                            "explanation": "Silvered lens acts as a mirror of power $P=2P_{lens}+P_{mirror}=\\frac{4(\\mu-1)}{R}+\\frac{2}{R}=\\frac{4\\mu-2}{R}$, so $f_{eq}=\\frac{R}{4\\mu-2}$. The image coincides with the object when it is at the centre of curvature $2f_{eq}=\\frac{R}{2\\mu-1}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1131,7 +1131,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "B=μ₀ni ⟹ [B/μ₀]=[ni]=L⁻¹A.",
+                            "explanation": "$B=\\mu_0 n i$ (solenoid), so $\\left[\\frac{B}{\\mu_0}\\right]=[ni]=\\text{L}^{-1}\\text{A}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         }
@@ -1147,47 +1147,47 @@
                             "questionText": "Two soap bubbles of radius 2 cm and 4 cm, respectively, are in contact with each other. The radius of curvature of the common surface, in cm, is ___.",
                             "hasImage": false,
                             "answer": 4,
-                            "explanation": "r = r₁r₂/(r₂-r₁) = 2×4/(4-2) = 4 cm.",
+                            "explanation": "$r = \\dfrac{r_1 r_2}{r_2 - r_1} = \\dfrac{2\\times 4}{4-2} = 4$ cm.",
                             "marks": 4,
                             "negativeMarks": 0
                         },
                         {
                             "id": "phys_q22",
                             "type": "numerical",
-                            "questionText": "The driver sitting inside a parked car is watching vehicles approaching from behind with the help of his side view mirror (convex, radius of curvature R = 2 m). Another car approaches at 90 km/h. When the car is at 24 m from him, the magnitude of the acceleration of the image of the side view mirror is 'a'. The value of 100a is ___ m/s².",
+                            "questionText": "The driver sitting inside a parked car is watching vehicles approaching from behind with the help of his side view mirror (convex, radius of curvature R = 2 m). Another car approaches at 90 km/h. When the car is at 24 m from him, the magnitude of the acceleration of the image of the side view mirror is 'a'. The value of 100a is ___ $\\text{m/s}^2$.",
                             "hasImage": false,
                             "answer": 8,
-                            "explanation": "v = uf/(u-f). With u=-24, f=1: v=24/25. m=-v/u=1/25. aᵢ=-m²·v₀=(-1/625)×25=-1/25. Diff. gives a₁=2/25·v₁²-2/(24)³·v₀²·25=-2/25. 100a=8.",
+                            "explanation": "Convex mirror, $f=+1$ m, $u=-24$ m, $\\frac{du}{dt}=25$ m/s (constant). $v=\\frac{uf}{u-f}$, $\\frac{dv}{dt}=-\\frac{f^2}{(u-f)^2}\\frac{du}{dt}$, $\\frac{d^2v}{dt^2}=\\frac{2f^2}{(u-f)^3}\\left(\\frac{du}{dt}\\right)^2=\\frac{2\\times 625}{(-25)^3}=-0.08\\ \\text{m/s}^2$. $100a=8$.",
                             "marks": 4,
                             "negativeMarks": 0
                         },
                         {
                             "id": "phys_q23",
                             "type": "numerical",
-                            "questionText": "Three conductors of same length having thermal conductivity $k_1$, $k_2$ and $k_3$ are connected as shown (conductors 1 and 2 in parallel, combination in series with conductor 3). Area of cross sections of 1st and 2nd conductor are same, 3rd is double of 1st. Temperatures are 100°C and 0°C. In steady state condition, the value of θ is ___ °C. (Given: $k_1 = 60$, $k_2 = 120$, $k_3 = 135$ Js⁻¹m⁻¹K⁻¹)",
+                            "questionText": "Three conductors of same length having thermal conductivity $k_1$, $k_2$ and $k_3$ are connected as shown (conductors 1 and 2 in parallel, combination in series with conductor 3). Area of cross sections of 1st and 2nd conductor are same, 3rd is double of 1st. Temperatures are $100^\\circ\\text{C}$ and $0^\\circ\\text{C}$. In steady state condition, the value of $\\theta$ is ___ $^\\circ\\text{C}$. (Given: $k_1 = 60$, $k_2 = 120$, $k_3 = 135\\ \\text{J s}^{-1}\\text{m}^{-1}\\text{K}^{-1}$)",
                             "hasImage": false,
                             "answer": 40,
-                            "explanation": "R₁=2L/(K₁A), R₂=2L/(K₂A), R₃=L/(K₃A). (θ-100)/(R₁R₂/(R₁+R₂)) + θ/R₃ = 0. θ=40°C.",
+                            "explanation": "Thermal resistances: $R_1=\\frac{L}{60A}$, $R_2=\\frac{L}{120A}$, $R_3=\\frac{L}{135\\cdot 2A}=\\frac{L}{270A}$. Parallel combination of 1 and 2: $\\frac{L}{180A}$. Equal heat current: $180(100-\\theta)=270(\\theta-0) \\Rightarrow \\theta=40^\\circ\\text{C}$.",
                             "marks": 4,
                             "negativeMarks": 0
                         },
                         {
                             "id": "phys_q24",
                             "type": "numerical",
-                            "questionText": "The position vectors of two 1 kg particles (A) and (B) are given by $\\vec{r}_A = (\\alpha_1 t^2\\hat{i} + \\alpha_2 t\\hat{j} + \\alpha_3 t\\hat{k})$ m and $\\vec{r}_B = (\\beta_1 t\\hat{i} + \\beta_2 t^2\\hat{j} + \\beta_3 t\\hat{k})$ m, where $\\alpha_1=1$ m/s², $\\alpha_2=3n$ m/s, $\\alpha_3=2$ m/s, $\\beta_1=2$ m/s, $\\beta_2=-1$ m/s², $\\beta_3=4p$ m/s. At t=1s, $|\\vec{V}_A|=|\\vec{V}_B|$ and velocities are orthogonal. At t=1s, the magnitude of angular momentum of particle A w.r.t. the position of particle B is $\\sqrt{L}$ kgm²s⁻¹. The value of L is ___.",
+                            "questionText": "The position vectors of two 1 kg particles (A) and (B) are given by $\\vec{r}_A = (\\alpha_1 t^2\\hat{i} + \\alpha_2 t\\hat{j} + \\alpha_3 t\\hat{k})$ m and $\\vec{r}_B = (\\beta_1 t\\hat{i} + \\beta_2 t^2\\hat{j} + \\beta_3 t\\hat{k})$ m, where $\\alpha_1=1\\ \\text{m/s}^2$, $\\alpha_2=3n$ m/s, $\\alpha_3=2$ m/s, $\\beta_1=2$ m/s, $\\beta_2=-1\\ \\text{m/s}^2$, $\\beta_3=4p$ m/s. At t=1s, $|\\vec{V}_A|=|\\vec{V}_B|$ and velocities are orthogonal. At t=1s, the magnitude of angular momentum of particle A w.r.t. the position of particle B is $\\sqrt{L}\\ \\text{kg m}^2\\text{s}^{-1}$. The value of L is ___.",
                             "hasImage": false,
                             "answer": 90,
-                            "explanation": "V_A·V_B=0 and |V_A|=|V_B| gives p=-1/4, n=1/3. r_A/B×V_A gives |L|=√90. L=90.",
+                            "explanation": "At $t=1$: $\\vec{V}_A=(2,3n,2)$, $\\vec{V}_B=(2,-2,4p)$. Equal magnitudes and $\\vec{V}_A\\cdot\\vec{V}_B=0$ give $n=\\frac{1}{3}$, $p=-\\frac{1}{4}$. $\\vec{r}_A=(1,1,2)$, $\\vec{r}_B=(2,-1,-1)$, $\\vec{r}_{AB}=(-1,2,3)$. $\\vec{L}=\\vec{r}_{AB}\\times\\vec{V}_A=(-1,2,3)\\times(2,1,2)=(1,8,-5)$, $|\\vec{L}|^2=90$.",
                             "marks": 4,
                             "negativeMarks": 0
                         },
                         {
                             "id": "phys_q25",
                             "type": "numerical",
-                            "questionText": "A particle is projected at an angle of 30° from horizontal at a speed of 60 m/s. The height traversed by the particle in the first second is $h_0$ and height traversed in the last second, before it reaches the maximum height, is $h_1$. The ratio $h_0 : h_1$ is ___. [Take g = 10 m/s²]",
+                            "questionText": "A particle is projected at an angle of $30^\\circ$ from horizontal at a speed of 60 m/s. The height traversed by the particle in the first second is $h_0$ and height traversed in the last second, before it reaches the maximum height, is $h_1$. The ratio $h_0 : h_1$ is ___. [Take $g = 10\\ \\text{m/s}^2$]",
                             "hasImage": false,
                             "answer": 5,
-                            "explanation": "u_y=30 m/s. h_0=30×1-(1/2)×10×1=25m. Last second before max: h₁=30×(-10/2)×(2×3-1)=5m. h₀:h₁=25:5=5.",
+                            "explanation": "$u_y=60\\sin 30^\\circ=30$ m/s. $h_0=30(1)-\\frac{1}{2}(10)(1)^2=25$ m. The last second before the top mirrors free fall from rest for 1 s: $h_1=\\frac{1}{2}(10)(1)^2=5$ m. $h_0:h_1=5$.",
                             "marks": 4,
                             "negativeMarks": 0
                         }
@@ -1448,7 +1448,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Thermally insulated ⟹ q=0. Work done on system by stirring: w>0. ΔU = q+w = w > 0.",
+                            "explanation": "Thermally insulated $\\implies$ q=0. Work done on system by stirring: w>0. ΔU = q+w = w > 0.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1479,14 +1479,14 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "r = a₀(n²/Z) = a₀(2²/2) = 2a₀. First excited state n=2, Z=2 for $\\text{He}^+$.",
+                            "explanation": "$r=a_0\\frac{n^2}{Z}$. For $\\text{He}^+$, $Z=2$ and the first excited state has $n=2$: $r=a_0\\cdot\\frac{4}{2}=2a_0$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q10",
                             "type": "single_correct",
-                            "questionText": "Given below are two statements:\n**Statement I:** CH₃–O–CH₂–Cl will undergo S_N1 reaction though it is a primary halide.\n**Statement II:** CH₃–C(CH₃)₂–CH₂–Cl will not undergo S_N2 reaction very easily though it is a primary halide.\nChoose the most appropriate answer:",
+                            "questionText": "Given below are two statements:\n**Statement I:** $\\text{CH}_{3}$–O–$\\text{CH}_{2}$–Cl will undergo S_N1 reaction though it is a primary halide.\n**Statement II:** $\\text{CH}_{3}$–$\\text{C(CH}_{3}\\text{)}_{2}$–$\\text{CH}_{2}$–Cl will not undergo S_N2 reaction very easily though it is a primary halide.\nChoose the most appropriate answer:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1510,14 +1510,14 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "$\\text{CH}_3\\text{–O–CH}_2^+$ is highly stabilized by resonance ⟹ SN1. Neopentyl chloride is sterically hindered ⟹ slow SN2.",
+                            "explanation": "$\\text{CH}_3\\text{-O-CH}_2^+$ is highly stabilized by resonance $\\implies$ SN1. Neopentyl chloride is sterically hindered $\\implies$ slow SN2.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q11",
                             "type": "single_correct",
-                            "questionText": "Given below are two statements:\n**Statement I:** One mole of propyne reacts with excess of sodium to liberate half a mole of H₂ gas.\n**Statement II:** Four grams of propyne reacts with NaNH₂ to liberate NH₃ gas which occupies 224 mL at STP.\nChoose the most appropriate answer:",
+                            "questionText": "Given below are two statements:\n**Statement I:** One mole of propyne reacts with excess of sodium to liberate half a mole of $\\text{H}_{2}$ gas.\n**Statement II:** Four grams of propyne reacts with $\\text{NaNH}_{2}$ to liberate $\\text{NH}_{3}$ gas which occupies 224 mL at STP.\nChoose the most appropriate answer:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1541,14 +1541,14 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "4g propyne = 0.1 mol → 0.1 mol NH₃ at STP = 2240 mL, not 224 mL. Statement II incorrect.",
+                            "explanation": "4g propyne = 0.1 mol → 0.1 mol $\\text{NH}_{3}$ at STP = 2240 mL, not 224 mL. Statement II incorrect.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q12",
                             "type": "single_correct",
-                            "questionText": "A vessel at 1000 K contains CO₂ with a pressure of 0.5 atm. Some of CO₂ is converted into CO on addition of graphite. If total pressure at equilibrium is 0.8 atm, then $K_P$ is:",
+                            "questionText": "A vessel at 1000 K contains $\\text{CO}_{2}$ with a pressure of 0.5 atm. Some of $\\text{CO}_{2}$ is converted into CO on addition of graphite. If total pressure at equilibrium is 0.8 atm, then $K_P$ is:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1572,14 +1572,14 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "CO₂(g)+C(s)⇌2CO(g). x=0.3 atm. K_P=(2x)²/(0.5-x)=(0.6)²/0.2=1.8 atm.",
+                            "explanation": "$\\text{CO}_2(g)+\\text{C}(s)\\rightleftharpoons 2\\text{CO}(g)$: $(0.5-x)+2x=0.8 \\Rightarrow x=0.3$. $K_P=\\frac{(0.6)^2}{0.2}=1.8$ atm.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q13",
                             "type": "single_correct",
-                            "questionText": "The IUPAC name of the following compound is: $\\text{CH}_3-\\text{CH}(\\text{COOH})-\\text{CH}_2-\\text{CH}_2-\\text{CH}(\\text{COOCH}_3)-\\text{CH}_3$",
+                            "questionText": "The IUPAC name of the following compound is: $\\text{HOOC}-\\text{CH}(\\text{CH}_3)-\\text{CH}_2-\\text{CH}_2-\\text{CH}(\\text{CH}_3)-\\text{CH}_2-\\text{COOCH}_3$",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1603,7 +1603,7 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "Longest chain containing COOH as principal group. 6-Methoxycarbonyl-2,5-dimethylhexanoic acid.",
+                            "explanation": "$-\\text{COOH}$ has priority over the ester, so the ester is named as a methoxycarbonyl substituent. Numbering from the COOH carbon (C1): methyl groups at C2 and C5, $-\\text{COOCH}_3$ on C6. Name: 6-Methoxycarbonyl-2,5-dimethylhexanoic acid.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1634,14 +1634,14 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "At anode of concentrated H₂SO₄: 2HSO₄⁻ → H₂S₂O₈ + 2e⁻.",
+                            "explanation": "Electrolysis of concentrated $\\text{H}_2\\text{SO}_4$ at high current density: at the anode $2\\text{HSO}_4^- \\rightarrow \\text{H}_2\\text{S}_2\\text{O}_8 + 2e^-$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q15",
                             "type": "single_correct",
-                            "questionText": "The compounds which give positive Fehling's test are: (A) PhCHO (B) PhCOCH₃ (C) HOCH₂-CO-(CHOH)₃-CH₂OH (D) CH₃CHO (E) PhCH₂CHO. Choose the CORRECT answer:",
+                            "questionText": "The compounds which give positive Fehling's test are: (A) PhCHO (B) $\\text{PhCOCH}_{3}$ (C) $\\text{HOCH}_{2}$-CO-$\\text{(CHOH)}_{3}$-$\\text{CH}_{2}\\text{OH}$ (D) $\\text{CH}_{3}\\text{CHO}$ (E) $\\text{PhCH}_{2}\\text{CHO}$. Choose the CORRECT answer:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1665,7 +1665,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Fehling's test positive for aliphatic aldehydes and reducing sugars. C (glucose), D (acetaldehyde), E (phenylacetaldehyde) give positive. Aromatic aldehydes (A) and ketones (B) do not.",
+                            "explanation": "Fehling's test is given by aliphatic aldehydes and $\\alpha$-hydroxy ketones. (C) is fructose (positive), (D) $\\text{CH}_3\\text{CHO}$ and (E) $\\text{PhCH}_2\\text{CHO}$ are aliphatic aldehydes (positive). Benzaldehyde (A) and acetophenone (B) do not respond.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1696,14 +1696,14 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "Fe³⁺ is d⁵ with WFL (SCN⁻): t²g³eg² configuration. CFSE = (-0.4×3+0.6×2)Δ₀ = 0.",
+                            "explanation": "In $\\text{K}_3[\\text{Fe}(\\text{SCN})_6]$, $\\text{Fe}^{3+}$ is $d^5$ with weak-field $\\text{SCN}^-$: $t_{2g}^3e_g^2$. CFSE $=(-0.4\\times 3+0.6\\times 2)\\Delta_0=0$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q17",
                             "type": "single_correct",
-                            "questionText": "Arrange the following solutions in order of their increasing boiling points: (i) 10⁻⁴ M NaCl (ii) 10⁻⁴ M Urea (iii) 10⁻³ M NaCl (iv) 10⁻² M NaCl",
+                            "questionText": "Arrange the following solutions in order of their increasing boiling points: (i) $10^{-4}$ M NaCl (ii) $10^{-4}$ M Urea (iii) $10^{-3}$ M NaCl (iv) $10^{-2}$ M NaCl",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1727,38 +1727,38 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "ΔTb ∝ i×C. i×C: (ii)=10⁻⁴, (i)=2×10⁻⁴, (iii)=2×10⁻³, (iv)=2×10⁻². Order: (ii)<(i)<(iii)<(iv).",
+                            "explanation": "$\\Delta T_b\\propto iC$: (ii) $10^{-4}$, (i) $2\\times 10^{-4}$, (iii) $2\\times 10^{-3}$, (iv) $2\\times 10^{-2}$. Order: (ii) < (i) < (iii) < (iv).",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q18",
                             "type": "single_correct",
-                            "questionText": "The products formed in the following reaction sequence are: Nitrobenzene →(i) Br₂/AcOH (ii) Sn,HCl (iii) NaNO₂,HCl,273K (iv) C₂H₅OH → A + B",
+                            "questionText": "The products formed in the following reaction sequence are: Nitrobenzene →(i) $\\text{Br}_{2}$/AcOH (ii) Sn,HCl (iii) $\\text{NaNO}_{2}$,HCl,273K (iv) $\\text{C}_{2}\\text{H}_{5}\\text{OH}$ → A + B",
                             "hasImage": false,
                             "options": [
                                 {
                                     "id": "1",
-                                    "text": "4-Bromoaniline + CH₃COOH and EtOH products",
+                                    "text": "4-Bromoaniline + $\\text{CH}_{3}\\text{COOH}$ and EtOH products",
                                     "isCorrect": false
                                 },
                                 {
                                     "id": "2",
-                                    "text": "Br-phenol + CH₃COOH",
+                                    "text": "Br-phenol + $\\text{CH}_{3}\\text{COOH}$",
                                     "isCorrect": false
                                 },
                                 {
                                     "id": "3",
-                                    "text": "Br-benzene + CH₃CHO",
+                                    "text": "Br-benzene + $\\text{CH}_{3}\\text{CHO}$",
                                     "isCorrect": true
                                 },
                                 {
                                     "id": "4",
-                                    "text": "4-Br-phenol + CH₃CHO",
+                                    "text": "4-Br-phenol + $\\text{CH}_{3}\\text{CHO}$",
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Nitrobenzene → 4-bromonitrobenzene → 4-bromoaniline → 4-bromodiazonium salt → 4-bromochlorobenzene... with EtOH: Baltz-Schiemann or Schiemann: A=4-Br-benzene, B=CH₃CHO.",
+                            "explanation": "Bromination of nitrobenzene gives m-bromonitrobenzene; Sn/HCl reduces it to m-bromoaniline; diazotisation gives the diazonium salt, which ethanol reduces to bromobenzene while ethanol is oxidised to $\\text{CH}_3\\text{CHO}$. A = bromobenzene, B = $\\text{CH}_3\\text{CHO}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1770,26 +1770,26 @@
                             "options": [
                                 {
                                     "id": "1",
-                                    "text": "[NiCl₄]²⁻: Ni²⁺, square planar; [Ni(CO)₄]: Ni(0), square planar",
+                                    "text": "$\\text{[NiCl}_{4}\\text{]}^{2-}$: $\\text{Ni}^{2+}$, square planar; $\\text{[Ni(CO)}_{4}\\text{]}$: Ni(0), square planar",
                                     "isCorrect": false
                                 },
                                 {
                                     "id": "2",
-                                    "text": "[NiCl₄]²⁻: Ni²⁺, tetrahedral; [Ni(CO)₄]: Ni(0), tetrahedral",
+                                    "text": "$\\text{[NiCl}_{4}\\text{]}^{2-}$: $\\text{Ni}^{2+}$, tetrahedral; $\\text{[Ni(CO)}_{4}\\text{]}$: Ni(0), tetrahedral",
                                     "isCorrect": true
                                 },
                                 {
                                     "id": "3",
-                                    "text": "[NiCl₄]²⁻: Ni²⁺, tetrahedral; [Ni(CO)₄]: Ni²⁺, square planar",
+                                    "text": "$\\text{[NiCl}_{4}\\text{]}^{2-}$: $\\text{Ni}^{2+}$, tetrahedral; $\\text{[Ni(CO)}_{4}\\text{]}$: $\\text{Ni}^{2+}$, square planar",
                                     "isCorrect": false
                                 },
                                 {
                                     "id": "4",
-                                    "text": "[NiCl₄]²⁻: Ni(0), tetrahedral; [Ni(CO)₄]: Ni(0), square planar",
+                                    "text": "$\\text{[NiCl}_{4}\\text{]}^{2-}$: Ni(0), tetrahedral; $\\text{[Ni(CO)}_{4}\\text{]}$: Ni(0), square planar",
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "[NiCl₄]²⁻: Ni²⁺(d⁸), WFL, sp³, tetrahedral, 2 unpaired e⁻, paramagnetic. [Ni(CO)₄]: Ni(0)(d¹⁰), sp³, tetrahedral, diamagnetic.",
+                            "explanation": "$[\\text{NiCl}_4]^{2-}$: $\\text{Ni}^{2+}$ ($d^8$), weak-field $\\text{Cl}^-$, $sp^3$, tetrahedral, 2 unpaired electrons (paramagnetic). $[\\text{Ni}(\\text{CO})_4]$: Ni(0) ($d^{10}$), $sp^3$, tetrahedral, diamagnetic.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1820,7 +1820,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "(A) Propene has no GI (CH₂=CHCH₃, one end is CH₂). (D) 2-methylbut-2-ene: CH₃C(CH₃)=CHCH₃, has no GI. (E) Trans isomers generally have higher melting points.",
+                            "explanation": "(A) Propene, $\\text{CH}_2=\\text{CHCH}_3$, has two H on one carbon: no geometrical isomerism, so (A) is incorrect. (D) 2-methylbut-2-ene, $(\\text{CH}_3)_2\\text{C}=\\text{CHCH}_3$, has two identical groups on one carbon: incorrect. (E) Trans isomers pack better and usually have higher melting points: incorrect. (B), (C) are correct.",
                             "marks": 4,
                             "negativeMarks": -1
                         }
@@ -1833,20 +1833,20 @@
                         {
                             "id": "chem_q21",
                             "type": "numerical",
-                            "questionText": "Some CO₂ gas was kept in a sealed container at a pressure of 1 atm and at 273 K. This entire amount of CO₂ gas was later passed through an aqueous solution of Ca(OH)₂. The excess unreacted Ca(OH)₂ was later neutralized with 0.1 M of 40 mL HCl. If the volume of the sealed container of CO₂ was x, then x is ___ cm³ (nearest integer). [The entire amount of CO₂(g) reacted with exactly half the initial amount of Ca(OH)₂ present in the aqueous solution.]",
+                            "questionText": "Some $\\text{CO}_{2}$ gas was kept in a sealed container at a pressure of 1 atm and at 273 K. This entire amount of $\\text{CO}_{2}$ gas was later passed through an aqueous solution of $\\text{Ca(OH)}_{2}$. The excess unreacted $\\text{Ca(OH)}_{2}$ was later neutralized with 0.1 M of 40 mL HCl. If the volume of the sealed container of $\\text{CO}_{2}$ was x, then x is ___ $\\text{cm}^3$ (nearest integer). [The entire amount of $\\text{CO}_{2}\\text{(g)}$ reacted with exactly half the initial amount of $\\text{Ca(OH)}_{2}$ present in the aqueous solution.]",
                             "hasImage": false,
                             "answer": 45,
-                            "explanation": "n(HCl)=0.1×40/1000=4×10⁻³ mol=n(excess Ca(OH)₂). n(CO₂)=n(Ca(OH)₂) reacted=4×10⁻³ mol. n(CO₂)=2×10⁻³ mol total... V=2×10⁻³×22400=44.8≈45 cm³.",
+                            "explanation": "$n(\\text{HCl})=0.1\\times 0.040=4\\times 10^{-3}$ mol, so excess $\\text{Ca(OH)}_2=2\\times 10^{-3}$ mol. Since $\\text{CO}_2$ consumed exactly half, $n(\\text{CO}_2)=2\\times 10^{-3}$ mol. At STP, $V=2\\times 10^{-3}\\times 22400=44.8\\approx 45\\ \\text{cm}^3$.",
                             "marks": 4,
                             "negativeMarks": 0
                         },
                         {
                             "id": "chem_q22",
                             "type": "numerical",
-                            "questionText": "In Carius method for estimation of halogens, 180 mg of an organic compound produced 143.5 mg of AgCl. The percentage composition of chlorine in the compound is ___ %. [molar mass: Ag=108, Cl=35.5]",
+                            "questionText": "In Carius method for estimation of halogens, 180 mg of an organic compound produced 143.5 mg of $\\text{AgCl}$. The percentage composition of chlorine in the compound is ___ %. [molar mass: Ag=108, Cl=35.5]",
                             "hasImage": false,
                             "answer": 20,
-                            "explanation": "n_Cl = n_AgCl = 143.5/143.5 = 10⁻³ mol. % Cl = (10⁻³×35.5)/(180×10⁻³) × 100 = 19.72 ≈ 20%.",
+                            "explanation": "$n(\\text{Cl})=n(\\text{AgCl})=\\frac{143.5}{143.5}=1$ mmol $=35.5$ mg Cl. Percentage of Cl $=\\frac{35.5}{180}\\times 100=19.7\\approx 20$.",
                             "marks": 4,
                             "negativeMarks": 0
                         },
@@ -1856,27 +1856,27 @@
                             "questionText": "The number of molecules/ions that show linear geometry among the following is ___: $\\text{SO}_2$, $\\text{BeCl}_2$, $\\text{CO}_2$, $\\text{N}_3^-$, $\\text{NO}_2$, $\\text{F}_2\\text{O}$, $\\text{XeF}_2$, $\\text{NO}_2^+$, $\\text{I}_3^-$, $\\text{O}_3$",
                             "hasImage": false,
                             "answer": 6,
-                            "explanation": "Linear species: BeCl₂ (sp), CO₂ (sp), N₃⁻ (sp), XeF₂ (sp³d, linear), NO₂⁺ (sp), I₃⁻ (sp³d). Total = 6.",
+                            "explanation": "Linear: $\\text{BeCl}_2$, $\\text{CO}_2$, $\\text{N}_3^-$, $\\text{NO}_2^+$ ($sp$), $\\text{XeF}_2$ and $\\text{I}_3^-$ ($sp^3d$, 3 lone pairs). $\\text{SO}_2$, $\\text{NO}_2$, $\\text{F}_2\\text{O}$, $\\text{O}_3$ are bent. Total = 6.",
                             "marks": 4,
                             "negativeMarks": 0
                         },
                         {
                             "id": "chem_q24",
                             "type": "numerical",
-                            "questionText": "The molecule A changes into its isomeric form B by following first order kinetics at 1000 K. If the energy barrier with respect to reactant energy is 191.48 kJ mol⁻¹ and the frequency factor is 10²⁰, the time required for 50% molecules of A to become B is ___ picoseconds (nearest integer). [R = 8.314 J K⁻¹ mol⁻¹]",
+                            "questionText": "The molecule A changes into its isomeric form B by following first order kinetics at 1000 K. If the energy barrier with respect to reactant energy is $191.48\\ \\text{kJ mol}^{-1}$ and the frequency factor is $10^{20}$, the time required for 50% molecules of A to become B is ___ picoseconds (nearest integer). [$R = 8.314\\ \\text{J K}^{-1}\\text{mol}^{-1}$]",
                             "hasImage": false,
                             "answer": 69,
-                            "explanation": "K = Ae^{-Ea/RT} = 10²⁰×e^{-23.03} = 10²⁰/10¹⁰ = 10¹⁰ s⁻¹. t₁/₂=0.693/10¹⁰=6.93×10⁻¹¹s=69.3 ps ≈ 69 ps.",
+                            "explanation": "$\\frac{E_a}{RT}=\\frac{191480}{8.314\\times 1000}=23.03$, so $e^{-23.03}=10^{-10}$. $k=10^{20}\\times 10^{-10}=10^{10}\\ \\text{s}^{-1}$. $t_{1/2}=\\frac{0.693}{10^{10}}=6.93\\times 10^{-11}$ s $\\approx 69$ ps.",
                             "marks": 4,
                             "negativeMarks": 0
                         },
                         {
                             "id": "chem_q25",
                             "type": "numerical",
-                            "questionText": "Consider the following sequence of reactions on nitrobenzene: (i) Sn+HCl (ii) NaNO₂, HCl, 0°C (iii) Cu₂Cl₂ (iv) Na, Ether → Product A. Molar mass of the product formed (A) is ___ g mol⁻¹.",
+                            "questionText": "Consider the following sequence of reactions on nitrobenzene: (i) Sn+HCl (ii) $\\text{NaNO}_{2}$, HCl, $0^\\circ\\text{C}$ (iii) $\\text{Cu}_{2}\\text{Cl}_{2}$ (iv) Na, Ether → Product A. Molar mass of the product formed (A) is ___ $\\text{g mol}^{-1}$.",
                             "hasImage": false,
                             "answer": 154,
-                            "explanation": "Nitrobenzene → aniline → diazonium salt → chlorobenzene (Sandmeyer) → biphenyl (Wurtz-Fittig). Biphenyl C₁₂H₁₀, M=154 g/mol.",
+                            "explanation": "Nitrobenzene → aniline → diazonium salt → chlorobenzene (Sandmeyer) → biphenyl (Wurtz-Fittig). Biphenyl $\\text{C}_{12}\\text{H}_{10}$, M=154 g/mol.",
                             "marks": 4,
                             "negativeMarks": 0
                         }

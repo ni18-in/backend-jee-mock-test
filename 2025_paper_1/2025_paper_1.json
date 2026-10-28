@@ -33,7 +33,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Coefficient extraction from polynomial expansion.",
+                    "explanation": "$f(x)-g(x)=(a_1-b_1)+7x+(a_2-b_2)x^2+(a_3-b_3)x^3$ never vanishes. A cubic always has a real root, so $a_3=b_3$ (and the remaining quadratic has no real root). Coefficient of $x^3$ in $h$: from $f(x+1)$ it is $4+a_3$, from $g(x+2)$ it is $8+b_3$, so it is $4+a_3-8-b_3=-4$.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -64,7 +64,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Probability calculation using set theory and conditional probability.",
+                    "explanation": "With independent solvers $p_1,p_2,p_3$: $P(V)=p_1=\\frac{1}{10}$. $P(U)=\\frac{1}{2}\\Rightarrow (1-p_1)(1-p_2)(1-p_3)=\\frac{1}{2}\\Rightarrow (1-p_2)(1-p_3)=\\frac{5}{9}$. Also $p_2(1-p_3)=\\frac{1}{12}$. Adding: $1-p_3=\\frac{5}{9}+\\frac{1}{12}=\\frac{23}{36}$, so $P(T)=\\frac{13}{36}$.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -95,7 +95,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Differentiation and analysis of oscillatory behavior near zero.",
+                    "explanation": "$f'(0)=\\lim_{h\\to 0}(-2h-h\\sin\\frac{1}{h})=0$, so $f$ is differentiable at 0. For $x\\neq 0$, $f'(x)=-4x-2x\\sin\\frac{1}{x}+\\cos\\frac{1}{x}$ takes both signs in every interval $(0,\\delta)$ and $(-\\delta,0)$, so $f$ is monotonic on neither side. Also $f(x)\\le 2-x^2<2=f(0)$, so 0 is a local maximum. Hence (C).",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -126,7 +126,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Matrix properties involving orthogonality and commutativity with integer constraints.",
+                    "explanation": "$Q^{-1}=Q^T$ with integer entries means $Q$ is a signed permutation matrix. $PQ=QP$ forces $Q$ to preserve the eigenspaces of $P$ (span of $e_1,e_2$ for 2, and $e_3$ for 3), so $Q$ is a $2\\times 2$ signed permutation block (8 choices) and $\\pm 1$ (2 choices): $16$.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -154,10 +154,10 @@
                         {
                             "id": "D",
                             "text": "The acute angle between the line segments $PQ$ and $PR$ is $\\cos^{-1}(\\frac{1}{2\\sqrt{3}})$",
-                            "isCorrect": true
+                            "isCorrect": false
                         }
                     ],
-                    "explanation": "3D geometry involving lines, planes, and distance calculations.",
+                    "explanation": "Direction of $L_1$: $(2,3,1)\\times(1,2,1)=(1,-1,1)$. $L_2$: $(2+t,-1-t,3+t)$; in $M$: $2(2+t)+(-1-t)-2(3+t)=6\\Rightarrow t=-9$, $Q=(-7,8,-6)$, $PQ=9\\sqrt{3}$. Foot $R=(4,0,1)$, $PR=3$, $QR=\\sqrt{234}$ (not 15). $\\angle PRQ=90^\\circ$, so area $=\\frac{1}{2}\\cdot 3\\sqrt{234}$. $\\cos\\angle QPR=\\frac{PR}{PQ}=\\frac{1}{3\\sqrt{3}}$, so (D) is false. Answer (A), (C).",
                     "marks": 4,
                     "partialMarks": [
                         3,
@@ -175,17 +175,17 @@
                         {
                             "id": "A",
                             "text": "$g \\circ f$ is NOT one-one and $g \\circ f$ is NOT onto",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "B",
                             "text": "$f \\circ g$ is NOT one-one but $f \\circ g$ is onto",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "C",
                             "text": "$g$ is one-one and $g$ is onto",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "D",
@@ -193,7 +193,7 @@
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "Function composition and properties of injectivity and surjectivity.",
+                    "explanation": "$f$: odd $n\\mapsto 1,2,3,\\ldots$; even $n\\mapsto 1,0,-1,\\ldots$. So $f(1)=f(2)=1$ (not one-one) and $f$ is onto $\\mathbb{Z}$. $g$: $n\\ge 0\\mapsto 3,5,7,\\ldots$; $n<0\\mapsto 2,4,6,\\ldots$: one-one, but 1 is never attained (not onto). So $g\\circ f$ is neither one-one nor onto (A true). $f$ restricted to $\\{2,3,4,\\ldots\\}$ (range of $g$) is a bijection onto $\\mathbb{Z}$, so $f\\circ g$ is one-one and onto (B false). Answer (A), (D).",
                     "marks": 4,
                     "partialMarks": [
                         3,
@@ -211,12 +211,12 @@
                         {
                             "id": "A",
                             "text": "$S$ is a circle with centre $(-\\frac{1}{3}, \\frac{10}{3})$",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "B",
                             "text": "$S$ is a circle with centre $(\\frac{1}{3}, \\frac{8}{3})$",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "C",
@@ -229,7 +229,7 @@
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "Complex numbers and locus representation as circles.",
+                    "explanation": "$(x-1)^2+(y-2)^2=4[x^2+(y-3)^2]\\Rightarrow 3x^2+3y^2+2x-20y+31=0$. Centre $(-\\frac{1}{3},\\frac{10}{3})$, $r^2=\\frac{1}{9}+\\frac{100}{9}-\\frac{31}{3}=\\frac{8}{9}$, $r=\\frac{2\\sqrt{2}}{3}$. Answer (A), (D).",
                     "marks": 4,
                     "partialMarks": [
                         3,
@@ -243,8 +243,8 @@
                     "type": "numerical",
                     "questionText": "Let the set of all relations $R$ on the set $\\{a, b, c, d, e, f\\}$, such that $R$ is reflexive and symmetric, and $R$ contains exactly 10 elements, be denoted by $\\mathcal{S}$. Then the number of elements in $\\mathcal{S}$ is:",
                     "hasImage": false,
-                    "answer": 15,
-                    "explanation": "Combinatorics of relations with reflexive and symmetric properties.",
+                    "answer": 105,
+                    "explanation": "A reflexive relation contains all 6 pairs $(x,x)$. The other 4 elements must form 2 symmetric pairs $\\{(x,y),(y,x)\\}$ chosen from $\\binom{6}{2}=15$: $\\binom{15}{2}=105$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -253,8 +253,8 @@
                     "type": "numerical",
                     "questionText": "For any two points $M$ and $N$ in the $XY$-plane, let $\\vec{MN}$ denote the vector from $M$ to $N$, and $\\vec{0}$ denote the zero vector. Let $P$, $Q$ and $R$ be three distinct points in the $XY$-plane. Let $S$ be a point inside the triangle $\\Delta PQR$ such that $\\vec{SP} + 5\\vec{SQ} + 6\\vec{SR} = \\vec{0}$. Let $E$ and $F$ be the mid-points of the sides $PR$ and $QR$, respectively. Then the value of $\\frac{\\text{length of the line segment } EF}{\\text{length of the line segment } ES}$ is:",
                     "hasImage": false,
-                    "answer": 3,
-                    "explanation": "Vector geometry and section formula applications.",
+                    "answer": 1.2,
+                    "explanation": "$S=\\frac{P+5Q+6R}{12}$, $E=\\frac{P+R}{2}$, $F=\\frac{Q+R}{2}$. $\\vec{ES}=\\frac{5(Q-P)}{12}$, $\\vec{EF}=\\frac{Q-P}{2}$. Ratio $=\\frac{1/2}{5/12}=1.2$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -263,8 +263,8 @@
                     "type": "numerical",
                     "questionText": "Let $S$ be the set of all seven-digit numbers that can be formed using the digits 0, 1 and 2. For example, 2210222 is in $S$, but 0210222 is NOT in $S$. Then the number of elements $x$ in $S$ such that at least one of the digits 0 and 1 appears exactly twice in $x$, is equal to:",
                     "hasImage": false,
-                    "answer": 1176,
-                    "explanation": "Combinatorics and counting with digit restrictions.",
+                    "answer": 762,
+                    "explanation": "Exactly two 0s: $\\binom{6}{2}2^5=480$. Exactly two 1s: first digit 1: $6\\cdot 2^5=192$; first digit 2: $\\binom{6}{2}2^4=240$; total 432. Both (two 0s, two 1s, three 2s): first digit 1: $\\frac{6!}{1!2!3!}=60$; first digit 2: $\\frac{6!}{2!2!2!}=90$; total 150. Answer $480+432-150=762$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -273,8 +273,8 @@
                     "type": "numerical",
                     "questionText": "Let $\\alpha$ and $\\beta$ be the real numbers such that $\\lim_{x \\to 0} \\frac{1}{x^{3}}(\\frac{\\alpha}{2}\\int_{0}^{x} \\frac{1}{1-t^{2}} dt + \\beta x \\cos x) = 2$. Then the value of $\\alpha + \\beta$ is:",
                     "hasImage": false,
-                    "answer": 18,
-                    "explanation": "Limit evaluation using L'Hospital's rule and Taylor series.",
+                    "answer": 2.4,
+                    "explanation": "$\\int_0^x\\frac{dt}{1-t^2}=x+\\frac{x^3}{3}+\\ldots$, $\\beta x\\cos x=\\beta x-\\frac{\\beta x^3}{2}+\\ldots$. Finite limit needs $\\frac{\\alpha}{2}+\\beta=0$; then $\\frac{\\alpha}{6}-\\frac{\\beta}{2}=2$. So $\\frac{5\\alpha}{12}=2$, $\\alpha=4.8$, $\\beta=-2.4$, $\\alpha+\\beta=2.4$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -283,8 +283,8 @@
                     "type": "numerical",
                     "questionText": "Let ℝ denote the set of all real numbers. Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function such that $f(x) > 0$ for all $x \\in \\mathbb{R}$, and $f(x + y) = f(x)f(y)$ for all $x, y \\in \\mathbb{R}$. Let the real numbers $a_{1}, a_{2}, \\ldots, a_{50}$ be in an arithmetic progression. If $f(a_{31}) = 64f(a_{25})$, and $\\sum_{i=1}^{50} f(a_{i}) = 3(2^{25} + 1)$, then the value of $\\sum_{i=6}^{30} f(a_{i})$ is:",
                     "hasImage": false,
-                    "answer": 93,
-                    "explanation": "Functional equations and arithmetic progression properties.",
+                    "answer": 96,
+                    "explanation": "$f(x)=b^x$, so $f(a_i)$ is a GP with ratio $r$; $r^6=64\\Rightarrow r=2$. $f(a_1)(2^{50}-1)=3(2^{25}+1)\\Rightarrow f(a_1)=\\frac{3}{2^{25}-1}$. $\\sum_{6}^{30}f(a_i)=f(a_1)2^5(2^{25}-1)=96$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -293,8 +293,8 @@
                     "type": "numerical",
                     "questionText": "For all $x > 0$, let $y_{1}(x)$, $y_{2}(x)$, and $y_{3}(x)$ be the functions satisfying $\\frac{dy_{1}}{dx} - (\\sin x)^{2} y_{1} = 0$, $y_{1}(1) = 5$; $\\frac{dy_{2}}{dx} - (\\cos x)^{2} y_{2} = 0$, $y_{2}(1) = \\frac{1}{3}$; $\\frac{dy_{3}}{dx} - (\\frac{2-x^{3}}{x^{3}}) y_{3} = 0$, $y_{3}(1) = \\frac{3}{5e}$, respectively. Then $\\lim_{x \\to 0^{+}} \\frac{y_{1}(x)y_{2}(x)y_{3}(x) + 2x}{e^{3x} \\sin x}$ is equal to:",
                     "hasImage": false,
-                    "answer": 3,
-                    "explanation": "Differential equations and limit evaluation.",
+                    "answer": 2,
+                    "explanation": "$y_1y_2=\\frac{5}{3}e^{\\int_1^x(\\sin^2t+\\cos^2t)dt}=\\frac{5}{3}e^{x-1}$. $\\ln y_3=-\\frac{1}{x^2}-x+C$ with $y_3(1)=\\frac{3}{5e}$ gives $y_3=\\frac{3}{5}e^{1-x-1/x^2}$. So $y_1y_2y_3=e^{-1/x^2}$, which vanishes faster than any power of $x$; the limit is $\\lim\\frac{2x}{e^{3x}\\sin x}=2$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -365,7 +365,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Statistics: mean deviation, median, and variance calculations.",
+                    "explanation": "$12+f_1+f_2=19$. Median (10th value) is 6: $5+f_1<10\\le 6+f_1\\Rightarrow f_1=4$, $f_2=3$. P: $7(4)+9(3)=55$. Mean $=133/19=7$; $\\sum f|x-7|=48$, $\\sum f|x-6|=47$, $\\sum f(x-7)^2=146$. So P-5, Q-3, R-2, S-1.",
                     "marks": 4,
                     "negativeMarks": -1
                 },
@@ -423,7 +423,7 @@
                         {
                             "id": "B",
                             "text": "(P) → (2) (Q) → (1) (R) → (4) (S) → (3)",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "C",
@@ -433,10 +433,10 @@
                         {
                             "id": "D",
                             "text": "(P) → (2) (Q) → (3) (R) → (1) (S) → (5)",
-                            "isCorrect": true
+                            "isCorrect": false
                         }
                     ],
-                    "explanation": "Continuity, differentiation, and optimization problems.",
+                    "explanation": "P: $p(x)=10x^3-45x^2+60x+35$ decreases on $[1,2]$ from 60 to 55; $[p/n]$ is continuous iff no integer lies in $(\\frac{55}{n},\\frac{60}{n}]$: $n=5,6,7,8$ fail, $n=9$ works. Q: $2n^2-13n-15=(2n-15)(n+1)>0\\Rightarrow n\\ge 8$. R: $(x^2-9)^n$ has a minimum at 3 iff $n$ is even: $n=6$. S: $\\sin|x-k|$ is non-differentiable at $x=k$ ($k=0,\\ldots,4$), $\\cos|\\cdot|$ is smooth: 5 points. So P-2, Q-1, R-4, S-3.",
                     "marks": 4,
                     "negativeMarks": -1
                 },
@@ -489,7 +489,7 @@
                         {
                             "id": "A",
                             "text": "(P) → (2) (Q) → (1) (R) → (4) (S) → (5)",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "B",
@@ -499,7 +499,7 @@
                         {
                             "id": "C",
                             "text": "(P) → (2) (Q) → (1) (R) → (4) (S) → (3)",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "D",
@@ -507,7 +507,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Vector cross products and simultaneous equations.",
+                    "explanation": "$\\vec{u},\\vec{v},\\vec{w}$ are mutually perpendicular with $|\\vec{w}|=|\\vec{u}||\\vec{v}|$ and $|\\vec{u}|=|\\vec{v}||\\vec{w}|$, so $|\\vec{v}|^2=1$, $|\\vec{u}|=\\sqrt{6}$. A non-trivial solution needs $t=2$ ($\\alpha=\\beta=\\gamma$) or $t=-1$ ($\\alpha+\\beta+\\gamma=0$); also $\\vec{u}\\perp\\vec{w}$: $\\alpha+\\beta=2\\gamma$. If $\\alpha=\\sqrt{3}$: only $\\vec{u}=(\\sqrt{3},-\\sqrt{3},0)$ has $|\\vec{u}|^2=6$, so $\\gamma^2=0$, $(\\beta+\\gamma)^2=3$. If $\\alpha=\\sqrt{2}$: $\\vec{u}=(\\sqrt{2},\\sqrt{2},\\sqrt{2})$, $t=2$, $t+3=5$. So P-2, Q-1, R-4, S-5.",
                     "marks": 4,
                     "negativeMarks": -1
                 }
@@ -545,7 +545,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "SHM analysis using energy method or torque equation for rolling motion with spring force and gravity.",
+                    "explanation": "The centre moves on a circle of radius $R-r$; for arc displacement $s$ the restoring force is $(k+\\frac{mg}{R-r})s$. A rolling disk has effective inertia $\\frac{3}{2}m$, so $\\omega^2=\\frac{k+mg/(R-r)}{3m/2}=\\frac{2}{3}(\\frac{g}{R-r}+\\frac{k}{m})$.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -577,7 +577,7 @@
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "Conservation of momentum and energy in elastic collisions. Maximum scattering angle for heavier particle.",
+                    "explanation": "For an elastic collision of $M$ with a stationary $m<M$, the maximum deflection of $M$ satisfies $\\sin\\theta_{max}=\\frac{m}{M}=\\frac{1}{2}$, so $\\theta_{max}=\\frac{\\pi}{6}$.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -609,7 +609,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Faraday's law of induction considering both changing B-field and changing angle. EMF has contributions from both time-varying field and rotation.",
+                    "explanation": "While the loop is in $y\\ge 0$ ($0<\\omega t<\\pi$), flux $\\Phi=B_0L^2\\cos\\omega t\\sin\\omega t=\\frac{B_0L^2}{2}\\sin 2\\omega t$, so $V=-\\frac{d\\Phi}{dt}=-B_0L^2\\omega\\cos 2\\omega t$: starts at its negative extreme with period $\\pi/\\omega$. For $\\pi<\\omega t<2\\pi$ the loop is in the field-free region and $V=0$. This is graph (A).",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -628,12 +628,12 @@
                         {
                             "id": "B",
                             "text": "0.11 cm",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "C",
                             "text": "0.13 cm",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "D",
@@ -641,7 +641,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Vernier caliper reading with zero error correction.",
+                    "explanation": "Fig. 1: 10 vernier divisions span 7 mm, so 1 VSD $=0.7$ mm and least count $=0.3$ mm; zeros coincide, so no zero error. Fig. 2: the vernier zero lies just past 1 mm and the 1st vernier mark coincides with a main-scale mark: $D=1+1\\times 0.3=1.3$ mm $=0.13$ cm.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -655,7 +655,7 @@
                         {
                             "id": "A",
                             "text": "If $v_{0} = 1.5KL$, the loop will stop before it enters completely inside the region of magnetic field.",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "B",
@@ -673,7 +673,7 @@
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "Electromagnetic induction with motional EMF and retarding force analysis.",
+                    "explanation": "While entering, $M\\frac{dv}{dt}=-\\frac{B_0^2L^2}{R}v$, so $v=v_0e^{-Kt}$ and $v=v_0-Kx$. The loop would stop after $v_0/K$: for $v_0=1.5KL$ that is $1.5L>L$, so it enters completely (A false). Fully inside, flux is constant, so no force (B true). For $v_0=KL/10$, $v$ decays exponentially and never reaches zero in finite time (C false). For $v_0=3KL$, at $x=L$: $2KL=3KLe^{-Kt}\\Rightarrow t=\\frac{1}{K}\\ln\\frac{3}{2}$ (D true).",
                     "marks": 4,
                     "partialMarks": [
                         3,
@@ -685,7 +685,7 @@
                 {
                     "id": "phys_q6",
                     "type": "multi_correct",
-                    "questionText": "Length, breadth and thickness of a strip having a uniform cross section are measured to be 10.5 cm, 0.05 mm, and 6.0 $\\mu$m, respectively. Which of the following option(s) give(s) the volume of the strip in cm³ with correct significant figures:",
+                    "questionText": "Length, breadth and thickness of a strip having a uniform cross section are measured to be 10.5 cm, 0.05 mm, and 6.0 $\\mu$m, respectively. Which of the following option(s) give(s) the volume of the strip in cm$^3$ with correct significant figures:",
                     "hasImage": false,
                     "options": [
                         {
@@ -701,7 +701,7 @@
                         {
                             "id": "C",
                             "text": "$3.0 \\times 10^{-5}$",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "D",
@@ -709,7 +709,7 @@
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "Significant figures in multiplication with measurement precision.",
+                    "explanation": "$V=10.5\\times 0.005\\times 6.0\\times 10^{-4}=3.15\\times 10^{-5}$ cm$^3$. The breadth 0.05 mm has one significant figure, so the result must have one: $3\\times 10^{-5}$ cm$^3$. $3.0\\times 10^{-5}$ has two significant figures.",
                     "marks": 4,
                     "partialMarks": [
                         3,
@@ -746,7 +746,7 @@
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "Wave reflection and transmission at boundaries with phase changes and wave number changes.",
+                    "explanation": "Same tension in all strings, so wave numbers are $k$, $2k$, $4k$ in $S_1$, $S_2$, $S_3$. At P (to a denser string) the reflected wave travels in $-x$ with phase change $\\pi$: $\\cos(\\omega t+kx+\\pi)$ (A true). The transmitted wave in $S_2$ has wave number $2k$ (B false). The reflection at Q is in $S_2$ (wave number $2k$) (C false). The transmitted wave in $S_3$ is $\\cos(\\omega t-4kx)$ with positive amplitude (D true).",
                     "marks": 4,
                     "partialMarks": [
                         3,
@@ -758,10 +758,10 @@
                 {
                     "id": "phys_q8",
                     "type": "numerical",
-                    "questionText": "A person sitting inside an elevator performs a weighing experiment with an object of mass 50 kg. Suppose that the variation of the height $y$ (in m) of the elevator, from the ground, with time $t$ (in s) is given by $y = 8[1 + \\sin(\\frac{2\\pi t}{T})]$, where $T = 40\\pi$ s. Taking acceleration due to gravity, $g = 10$ m/s², the maximum variation of the object's weight (in N) as observed in the experiment is:",
+                    "questionText": "A person sitting inside an elevator performs a weighing experiment with an object of mass 50 kg. Suppose that the variation of the height $y$ (in m) of the elevator, from the ground, with time $t$ (in s) is given by $y = 8[1 + \\sin(\\frac{2\\pi t}{T})]$, where $T = 40\\pi$ s. Taking acceleration due to gravity, $g = 10$ m/s$^2$, the maximum variation of the object's weight (in N) as observed in the experiment is:",
                     "hasImage": false,
-                    "answer": 40,
-                    "explanation": "Non-inertial frame with varying acceleration. Maximum variation occurs at maximum acceleration.",
+                    "answer": 2,
+                    "explanation": "$\\omega=\\frac{2\\pi}{T}=\\frac{1}{20}$ s$^{-1}$, so $a_{max}=8\\omega^2=0.02$ m/s$^2$. Apparent weight $m(g+a)$ ranges between $m(g\\pm 0.02)$; the maximum variation is $2ma_{max}=2\\times 50\\times 0.02=2$ N.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -770,8 +770,8 @@
                     "type": "numerical",
                     "questionText": "A cube of unit volume contains $35 \\times 10^{7}$ photons of frequency $10^{15}$ Hz. If the energy of all the photons is viewed as the average energy being contained in the electromagnetic waves within the same volume, then the amplitude of the magnetic field is $\\alpha \\times 10^{-9}$ T. Taking permeability of free space $\\mu_{0} = 4\\pi \\times 10^{-7}$ Tm/A, Planck's constant $h = 6 \\times 10^{-34}$ Js and $\\pi = \\frac{22}{7}$, the value of $\\alpha$ is:",
                     "hasImage": false,
-                    "answer": 2,
-                    "explanation": "Energy density of electromagnetic waves and relation between energy and magnetic field amplitude.",
+                    "answer": 23,
+                    "explanation": "$E=Nh\\nu=35\\times 10^7\\times 6\\times 10^{-34}\\times 10^{15}=2.1\\times 10^{-10}$ J in 1 m$^3$. Average energy density $u=\\frac{B_0^2}{2\\mu_0}$, so $B_0^2=2\\mu_0u=5.28\\times 10^{-16}$ (with $\\pi=\\frac{22}{7}$), $B_0\\approx 23\\times 10^{-9}$ T, $\\alpha=23$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -782,7 +782,7 @@
                     "hasImage": true,
                     "imageName": "img/phys_q10.png",
                     "answer": 3,
-                    "explanation": "Stefan-Boltzmann law with radiation shields in steady state.",
+                    "explanation": "Net flux between adjacent black plates is $\\sigma(T_i^4-T_{i+1}^4)$. In steady state the same flux $W_S$ crosses each of the 3 gaps, so $3W_S=\\sigma(T_P^4-T_Q^4)=W_0$ and $\\frac{W_0}{W_S}=3$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -792,8 +792,8 @@
                     "questionText": "A solid glass sphere of refractive index $n = \\sqrt{3}$ and radius $R$ contains a spherical air cavity of radius $\\frac{R}{2}$, as shown in the figure. A very thin glass layer is present at the point O so that the air cavity (refractive index $n = 1$) remains inside the glass sphere. An unpolarized, unidirectional and monochromatic light source $S$ emits a light ray from a point inside the glass sphere towards the periphery of the glass sphere. If the light is reflected from the point O and is fully polarized, then the angle of incidence at the inner surface of the glass sphere is $\\theta$. The value of $\\sin \\theta$ is:",
                     "hasImage": true,
                     "imageName": "img/phys_q11.png",
-                    "answer": 0.5,
-                    "explanation": "Brewster's angle condition for complete polarization upon reflection.",
+                    "answer": 0.75,
+                    "explanation": "At O, light in the air cavity reflects from glass; full polarisation needs Brewster's angle $\\tan\\theta_B=\\sqrt{3}$, i.e. $60^\\circ$ in air. The cavity chord ending at O at $60^\\circ$ meets the cavity at B; refraction there gives $30^\\circ$ in glass, and the ray in glass is then horizontal at distance $0.75R$ from the centre. A chord of the outer sphere at distance $0.75R$ from the centre meets the surface at incidence $\\theta$ with $\\sin\\theta=0.75$ (the same at every total internal reflection, since $0.75>\\frac{1}{\\sqrt{3}}$).",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -802,8 +802,8 @@
                     "type": "numerical",
                     "questionText": "A single slit diffraction experiment is performed to determine the slit width using the equation, $\\frac{bd}{D} = m\\lambda$, where $b$ is the slit width, $D$ the shortest distance between the slit and the screen, $d$ the distance between the $m$-th diffraction maximum and the central maximum, and $\\lambda$ is the wavelength. $D$ and $d$ are measured with scales of least count of 1 cm and 1 mm, respectively. The values of $\\lambda$ and $m$ are known precisely to be 600 nm and 3, respectively. The absolute error (in $\\mu$m) in the value of $b$ estimated using the diffraction maximum that occurs for $m = 3$ with $d = 5$ mm and $D = 1$ m is:",
                     "hasImage": false,
-                    "answer": 72,
-                    "explanation": "Error propagation in single slit diffraction measurements.",
+                    "answer": 75.6,
+                    "explanation": "$b=\\frac{m\\lambda D}{d}=\\frac{3\\times 600\\times 10^{-9}\\times 1}{5\\times 10^{-3}}=360\\ \\mu$m. $\\frac{\\Delta b}{b}=\\frac{\\Delta D}{D}+\\frac{\\Delta d}{d}=\\frac{1}{100}+\\frac{1}{5}=0.21$, so $\\Delta b=75.6\\ \\mu$m.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -812,8 +812,8 @@
                     "type": "numerical",
                     "questionText": "Consider an electron in the $n = 3$ orbit of a hydrogen-like atom with atomic number $Z$. At absolute temperature $T$, a neutron having thermal energy $k_{B}T$ has the same de Broglie wavelength as that of this electron. If this temperature is given by $T = \\frac{Z^{2}h^{2}}{\\alpha\\pi^{2}a_{0}^{2}m_{N}k_{B}}$, (where $h$ is the Planck's constant, $k_{B}$ is the Boltzmann constant, $m_{N}$ is the mass of the neutron and $a_{0}$ is the first Bohr radius of hydrogen atom) then the value of $\\alpha$ is:",
                     "hasImage": false,
-                    "answer": 81,
-                    "explanation": "de Broglie wavelength equality for electron in hydrogen-like atom and thermal neutron.",
+                    "answer": 72,
+                    "explanation": "Electron in $n=3$: $2\\pi r=3\\lambda$, $r=\\frac{9a_0}{Z}$, so $\\lambda=\\frac{6\\pi a_0}{Z}$. Neutron: $\\lambda=\\frac{h}{\\sqrt{2m_Nk_BT}}$. Equating: $T=\\frac{Z^2h^2}{72\\pi^2a_0^2m_Nk_B}$, $\\alpha=72$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -877,15 +877,15 @@
                         {
                             "id": "C",
                             "text": "P → 2, Q → 1, R → 4, S → 5",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "D",
                             "text": "P → 2, Q → 1, R → 3, S → 5",
-                            "isCorrect": true
+                            "isCorrect": false
                         }
                     ],
-                    "explanation": "Electric field due to dipoles using superposition principle.",
+                    "explanation": "With $k=\\frac{1}{4\\pi\\epsilon_0}$: axial field $\\frac{2k\\vec{p}}{r^3}$, equatorial field $-\\frac{k\\vec{p}}{r^3}$. P: both $+\\hat{j}$, X equatorial: $-\\frac{p}{2\\pi\\epsilon_0r^3}\\hat{j}$ (2). Q: opposite dipoles cancel (1). R: $-\\frac{kp}{r^3}\\hat{j}+\\frac{2kp}{r^3}\\hat{i}=\\frac{p}{4\\pi\\epsilon_0r^3}(2\\hat{i}-\\hat{j})$ (4). S: both axial, $\\frac{4kp}{r^3}\\hat{i}=\\frac{p}{\\pi\\epsilon_0r^3}\\hat{i}$ (5).",
                     "marks": 4,
                     "negativeMarks": -1,
                     "hideTextLists": true
@@ -899,19 +899,19 @@
                     "listI": [
                         {
                             "id": "P",
-                            "text": "Load P"
+                            "text": "$R = 30\\ \\Omega$"
                         },
                         {
                             "id": "Q",
-                            "text": "Load Q"
+                            "text": "$R = 30\\ \\Omega$ and $L = 100$ mH in series"
                         },
                         {
                             "id": "R",
-                            "text": "Load R"
+                            "text": "$C = 50\\ \\mu$F, $R = 30\\ \\Omega$ and $L = 25$ mH in series"
                         },
                         {
                             "id": "S",
-                            "text": "Load S"
+                            "text": "$C = 50\\ \\mu$F, $R = 60\\ \\Omega$ and $L = 125$ mH in series"
                         }
                     ],
                     "listII": [
@@ -958,7 +958,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "AC circuits with different impedances and phase relationships.",
+                    "explanation": "$\\omega=400$ rad/s. P: $i=10\\sin 400t$ (3). Q: $X_L=40\\ \\Omega$, $Z=50\\ \\Omega$, $i_0=6$ A lagging by $53^\\circ$ (5). R: $X_C=50$, $X_L=10$, $Z=50\\ \\Omega$, $i_0=6$ A leading by $53^\\circ$ (2). S: $X_L=X_C=50\\ \\Omega$ (resonance), $i=5\\sin 400t$ (1).",
                     "marks": 4,
                     "negativeMarks": -1,
                     "hideTextLists": true
@@ -1030,7 +1030,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Scaling laws for atomic and nuclear phenomena with atomic number.",
+                    "explanation": "Hydrogen-like transition energies $\\propto Z^2$ (P-5). Moseley's law for characteristic x-rays $\\propto(Z-1)^2$ (Q-1). Coulomb part of nuclear binding energy $\\propto Z(Z-1)$ (R-2). Binding energy per nucleon is nearly constant for $A$ = 30 to 170 (S-4).",
                     "marks": 4,
                     "negativeMarks": -1
                 }
@@ -1111,12 +1111,12 @@
                         {
                             "id": "A",
                             "text": "$I_{2}$",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "B",
                             "text": "$IO_{3}^{-}$",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "C",
@@ -1129,7 +1129,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Redox reaction in neutral medium. MnO4- oxidizes I- to I2 while being reduced to MnO2.",
+                    "explanation": "In neutral or faintly alkaline medium, permanganate is reduced to $\\text{MnO}_2$ and iodide is oxidised to iodate: $2\\text{MnO}_4^- + \\text{I}^- + \\text{H}_2\\text{O} \\rightarrow 2\\text{MnO}_2 + \\text{IO}_3^- + 2\\text{OH}^-$. ($\\text{I}_2$ forms in acidic medium.)",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -1142,26 +1142,26 @@
                     "options": [
                         {
                             "id": "A",
-                            "text": "Option A - Hydrogen attached to terminal alkyne carbon",
-                            "isCorrect": true
-                        },
-                        {
-                            "id": "B",
-                            "text": "Option B - Hydrogen on aromatic ring",
+                            "text": "Structure (A) in the figure",
                             "isCorrect": false
                         },
                         {
+                            "id": "B",
+                            "text": "Structure (B) in the figure",
+                            "isCorrect": true
+                        },
+                        {
                             "id": "C",
-                            "text": "Option C - Allylic hydrogen",
+                            "text": "Structure (C) in the figure",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "Option D - Aliphatic hydrogen",
+                            "text": "Structure (D) in the figure",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Terminal alkyne hydrogen is most acidic due to sp hybridization (50% s-character) and stabilization of conjugate base.",
+                    "explanation": "Removing the marked H in (B) gives a carbanion conjugated with the exocyclic double bond; delocalisation places the charge in the five-membered ring, which becomes an aromatic cyclopentadienyl anion ($6\\pi$ electrons). In (A) and (C) the ring keeps the exocyclic $=\\text{CH}_2$, and in (D) the ring has an $sp^3$ carbon, so no aromatic anion forms. Hence H in (B) is most acidic.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -1192,7 +1192,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "HOMO of F2 is π* (antibonding), not σ. O2+ has higher bond order (2.5) than O2 (2), thus higher bond energy. Ne2 has bond order 0. Li2 has larger bond length than B2.",
+                    "explanation": "Incorrect statements are (B) and (C): the HOMO of $\\text{F}_2$ is $\\pi^*$, not $\\sigma$; $\\text{O}_2^+$ (bond order 2.5) has a larger bond energy than $\\text{O}_2$ (bond order 2). (A) $\\text{Ne}_2$ bond order 0 and (D) $\\text{Li}_2$ longer than $\\text{B}_2$ are correct statements.",
                     "marks": 4,
                     "partialMarks": [
                         3,
@@ -1215,7 +1215,7 @@
                         {
                             "id": "B",
                             "text": "$Yb^{2+}$, $Lu^{3+}$",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "C",
@@ -1228,7 +1228,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "La3+ ([Xe]) and Ce4+ ([Xe]) both have no unpaired electrons, making them diamagnetic. Other options have unpaired f-electrons.",
+                    "explanation": "$\\text{La}^{3+}$ and $\\text{Ce}^{4+}$ are $[\\text{Xe}]4f^0$; $\\text{Yb}^{2+}$ and $\\text{Lu}^{3+}$ are $[\\text{Xe}]4f^{14}$: all diamagnetic. $\\text{La}^{2+}$ ($5d^1$), $\\text{Ce}^{3+}$ ($4f^1$), $\\text{Yb}^{3+}$ ($4f^{13}$) and $\\text{Lu}^{2+}$ ($5d^1$) are paramagnetic. Answer (A), (B).",
                     "marks": 4,
                     "partialMarks": [
                         3,
@@ -1251,20 +1251,20 @@
                         {
                             "id": "B",
                             "text": "C−X bond enthalpy in P, Q and R follows the order R > P > Q.",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "C",
                             "text": "Relative reactivity toward $S_{N}2$ reaction in P, Q and R follows the order P > R > Q.",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "D",
                             "text": "$pK_{a}$ value of the conjugate acids of the leaving groups in P, Q and R follows the order R > Q > P.",
-                            "isCorrect": true
+                            "isCorrect": false
                         }
                     ],
-                    "explanation": "Finkelstein (Cl→I) and Swarts (Br→F). SN2 reactivity: I > Br > F. Leaving group ability relates to conjugate acid pKa values.",
+                    "explanation": "P is an alcohol (C–O); HBr then Finkelstein (NaI) gives the alkyl iodide Q (C–I); Swarts gives the alkyl fluoride R (C–F). Bond length C–I > C–O > C–F: Q > P > R (A false). Bond enthalpy C–F > C–O > C–I: R > P > Q (B true). $S_N2$ reactivity follows leaving-group ability $\\text{I}^- > \\text{F}^- > \\text{OH}^-$: Q > R > P (C false). $pK_a$ of conjugate acids $\\text{H}_2\\text{O}$ (15.7) > HF (3.2) > HI: P > R > Q (D false).",
                     "marks": 4,
                     "partialMarks": [
                         3,
@@ -1288,18 +1288,18 @@
                     "type": "numerical",
                     "questionText": "At 25°C, the concentration of $H^{+}$ ions in $1.00 \\times 10^{-3}$ M aqueous solution of a weak monobasic acid having acid dissociation constant ($K_{a}$) of $4.00 \\times 10^{-11}$ is $X \\times 10^{-7}$ M. The value of $X$ is:",
                     "hasImage": false,
-                    "answer": 2,
-                    "explanation": "For weak acid in water, considering both acid dissociation and water ionization. [H+] = 2×10^-7 M, so X = 2.",
+                    "answer": 2.24,
+                    "explanation": "$K_aC=4\\times 10^{-14}$ is comparable to $K_w$, so $[\\text{H}^+]^2=K_aC+K_w=5\\times 10^{-14}$, $[\\text{H}^+]=2.24\\times 10^{-7}$ M, $X=2.24$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
                 {
                     "id": "chem_q10",
                     "type": "numerical",
-                    "questionText": "Molar volume ($V_{m}$) of a van der Waals gas can be calculated by expressing the van der Waals equation as a cubic equation with $V_{m}$ as the variable. The ratio (in mol dm⁻³) of the coefficient of $V_{m}^{2}$ to the coefficient of $V_{m}$ for a gas having van der Waals constants a = 6.0 dm⁶ atm mol⁻² and b = 0.060 dm³ mol⁻¹ at 300 K and 300 atm is:",
+                    "questionText": "Molar volume ($V_{m}$) of a van der Waals gas can be calculated by expressing the van der Waals equation as a cubic equation with $V_{m}$ as the variable. The ratio (in mol dm$^{-3}$) of the coefficient of $V_{m}^{2}$ to the coefficient of $V_{m}$ for a gas having van der Waals constants $a = 6.0$ dm$^6$ atm mol$^{-2}$ and $b = 0.060$ dm$^3$ mol$^{-1}$ at 300 K and 300 atm is:",
                     "hasImage": false,
-                    "answer": 12.2,
-                    "explanation": "Van der Waals equation: (P + a/Vm²)(Vm - b) = RT. Expanding gives cubic equation. Ratio of coefficients calculated from given values.",
+                    "answer": -7.1,
+                    "explanation": "$(P+\\frac{a}{V_m^2})(V_m-b)=RT \\Rightarrow PV_m^3-(Pb+RT)V_m^2+aV_m-ab=0$. Ratio $=-\\frac{Pb+RT}{a}=-\\frac{18+0.0821\\times 300}{6.0}\\approx -7.1$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -1309,7 +1309,7 @@
                     "questionText": "Considering ideal gas behavior, the expansion work done (in kJ) when 144 g of water is electrolyzed completely under constant pressure at 300 K is:",
                     "hasImage": false,
                     "answer": 29.88,
-                    "explanation": "2H2O → 2H2 + O2. 144g H2O = 8 mol. Produces 8 mol H2 + 4 mol O2 = 12 mol total. W = -PΔV = -ΔnRT = -12×8.3×300/1000 = -29.88 kJ (magnitude is 29.88)",
+                    "explanation": "$2\\text{H}_2\\text{O}(l)\\rightarrow 2\\text{H}_2(g)+\\text{O}_2(g)$. 144 g = 8 mol water gives 8 mol $\\text{H}_2$ + 4 mol $\\text{O}_2$ = 12 mol gas. Expansion work $=P\\Delta V=\\Delta n_gRT=12\\times 8.3\\times 300=29.88$ kJ done by the system ($w=-29.88$ kJ in the IUPAC sign convention).",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -1318,8 +1318,8 @@
                     "type": "numerical",
                     "questionText": "The monomer (X) involved in the synthesis of Nylon 6,6 gives positive carbylamine test. If 10 moles of X are analyzed using Dumas method, the amount (in grams) of nitrogen gas evolved is:",
                     "hasImage": false,
-                    "answer": 140,
-                    "explanation": "Nylon 6,6 uses hexamethylenediamine (gives positive carbylamine test). Each molecule has 2 N atoms. 10 mol × 2 = 20 mol N → 10 mol N2 = 10×28 = 280g. However, answer should be 140g (5 mol N2).",
+                    "answer": 280,
+                    "explanation": "X = hexamethylenediamine $\\text{H}_2\\text{N}(\\text{CH}_2)_6\\text{NH}_2$ (primary amine, positive carbylamine test). Each molecule has 2 N, so 10 mol X gives 10 mol $\\text{N}_2$ = 280 g.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -1329,8 +1329,8 @@
                     "questionText": "The reaction sequence given below is carried out with 16 moles of X. The yield of the major product in each step is given below the product in parentheses. The amount (in grams) of S produced is:",
                     "hasImage": true,
                     "imageName": "img/chem_q13.png",
-                    "answer": 1632,
-                    "explanation": "Multi-step organic synthesis with given yields. Calculate mass of final product S considering yields at each step.",
+                    "answer": 175,
+                    "explanation": "Wurtz coupling and deprotection give biphenyl-2,2'-dicarbaldehyde P ($M=210$): 8 mol. Intramolecular Cannizzaro gives hydroxy acid Q: 4 mol. Decarboxylation (NaOH/CaO) gives biphenyl-2-ylmethanol R: 2 mol. $\\text{PBr}_3$ gives bromide T: 1 mol. Williamson with R/NaH gives ether S, $(\\text{C}_{13}\\text{H}_{11})_2\\text{O}$, $M=350$: 0.5 mol = 175 g.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -1401,7 +1401,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Qualitative analysis group precipitation. P(H2S/NH4OH):Group IV(Mn), Q((NH4)2CO3/NH4OH):Group V(Ba), R(NH4OH/NH4Cl):Group III(Al), S(H2S/HCl):Group II(Cu)",
+                    "explanation": "$\\text{H}_2\\text{S}$ in ammoniacal medium precipitates group IV ($\\text{Mn}^{2+}$ as MnS): P-3. $(\\text{NH}_4)_2\\text{CO}_3$ precipitates group V ($\\text{BaCO}_3$): Q-4. $\\text{NH}_4\\text{OH}/\\text{NH}_4\\text{Cl}$ precipitates group III ($\\text{Al(OH)}_3$): R-2. $\\text{H}_2\\text{S}$ in dilute HCl precipitates group II (CuS): S-1.",
                     "marks": 4,
                     "negativeMarks": -1
                 },
@@ -1432,23 +1432,23 @@
                     "listII": [
                         {
                             "id": "1",
-                            "text": "Toluene → (i) CrO2Cl2/CS2 (ii) H3O+"
+                            "text": "Toluene, (i) $\\text{CrO}_2\\text{Cl}_2/\\text{CS}_2$, (ii) $\\text{H}_3\\text{O}^+$"
                         },
                         {
                             "id": "2",
-                            "text": "Benzoic acid → (i) PCl5 (ii) NH3 (iii) P4O10, Δ"
+                            "text": "Benzoic acid, (i) $\\text{PCl}_5$, (ii) $\\text{NH}_3$, (iii) $\\text{P}_4\\text{O}_{10}$, $\\Delta$"
                         },
                         {
                             "id": "3",
-                            "text": "Aniline → (i) (CH3CO)2O, Pyridine (ii) HNO3, H2SO4, 288 K (iii) aq. NaOH"
+                            "text": "Nitrobenzene, (i) Fe, HCl, (ii) HCl, $\\text{NaNO}_2$ (273-278 K), $\\text{H}_2\\text{O}$"
                         },
                         {
                             "id": "4",
-                            "text": "Reaction sequence 4"
+                            "text": "Toluene, (i) $\\text{Cl}_2/h\\nu$, $\\text{H}_2\\text{O}$, (ii) Tollens' reagent, (iii) $\\text{SO}_2\\text{Cl}_2$, (iv) $\\text{NH}_3$"
                         },
                         {
                             "id": "5",
-                            "text": "Reaction sequence 5"
+                            "text": "Aniline, (i) $(\\text{CH}_3\\text{CO})_2\\text{O}$, pyridine, (ii) $\\text{HNO}_3$, $\\text{H}_2\\text{SO}_4$, 288 K, (iii) aq. NaOH"
                         }
                     ],
                     "options": [
@@ -1460,7 +1460,7 @@
                         {
                             "id": "B",
                             "text": "P → 2; Q → 3; R → 4; S → 1",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "C",
@@ -1470,10 +1470,10 @@
                         {
                             "id": "D",
                             "text": "P → 5; Q → 4; R → 2; S → 1",
-                            "isCorrect": true
+                            "isCorrect": false
                         }
                     ],
-                    "explanation": "Named organic reactions matching products to reactants. Stephen:nitrile→aldehyde, Sandmeyer:diazonium salt reactions, Hoffmann:amide→amine, Cannizzaro:non-enolizable aldehyde disproportionation",
+                    "explanation": "(1) Etard reaction gives benzaldehyde, the substrate for Cannizzaro (S-1). (2) gives benzamide then benzonitrile, the substrate for Stephen reduction (P-2). (3) gives aniline then benzenediazonium chloride, the substrate for Sandmeyer (Q-3). (4) gives benzaldehyde, benzoic acid, benzoyl chloride and then benzamide, the substrate for Hoffmann bromamide (R-4). (5) gives p-nitroaniline (unused). So P-2, Q-3, R-4, S-1.",
                     "marks": 4,
                     "negativeMarks": -1,
                     "hideTextLists": true
@@ -1487,19 +1487,19 @@
                     "listI": [
                         {
                             "id": "P",
-                            "text": "Compound P (amino acid with phenolic group)"
+                            "text": "Compound P: dipeptide methyl ester with a free $\\text{NH}_2$ and a phenolic OH (see figure)"
                         },
                         {
                             "id": "Q",
-                            "text": "Compound Q (dipeptide)"
+                            "text": "Compound Q: N-acetyl dipeptide methyl ester, no free $\\text{NH}_2$ and no phenol (see figure)"
                         },
                         {
                             "id": "R",
-                            "text": "Compound R (amino acid salt)"
+                            "text": "Compound R: anilinium chloride, $\\text{C}_6\\text{H}_5\\text{NH}_3^+\\text{Cl}^-$"
                         },
                         {
                             "id": "S",
-                            "text": "Compound S (compound with hydrazine group)"
+                            "text": "Compound S: 2,4,6-trimethylphenylhydrazine (see figure)"
                         }
                     ],
                     "listII": [
@@ -1546,7 +1546,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Functional group tests: P(phenolic amino acid):ninhydrin+FeCl3, Q(dipeptide):hydrolysis→ninhydrin, R(amino acid):diazo coupling, S(hydrazine):hydrazone formation",
+                    "explanation": "P has a free $\\alpha$-amino group (ninhydrin positive) and a phenol (violet with $\\text{FeCl}_3$): P-2. Q has no free amine; after hydrolysis it gives amino acids (ninhydrin positive) and it has no phenol, so no phthalein dye: Q-5. R (aniline) couples with benzenediazonium to give yellow p-aminoazobenzene: R-1. S, an arylhydrazine, forms a hydrazone with glucose: S-3.",
                     "marks": 4,
                     "negativeMarks": -1,
                     "hideTextLists": true

@@ -51,12 +51,12 @@
                         {
                             "id": "A",
                             "text": "The area of the quadrilateral $A_1A_2A_3A_4$ is 35 square units",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "B",
                             "text": "The area of the quadrilateral $A_1A_2A_3A_4$ is 36 square units",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "C",
@@ -69,7 +69,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Common tangents to the ellipse and parabola can be found by equating their tangent equations. The parabola y² = 12x has tangents of form y = mx + 3/m. For the ellipse, tangent is y = mx ± √(6m² + 3). Solving gives two common tangents that intersect at (-3,0) and the quadrilateral area is 36 square units.",
+                    "explanation": "Tangent to $y^2=12x$: $y=mx+\\frac{3}{m}$. It touches the ellipse if $\\frac{9}{m^2}=6m^2+3$, i.e. $2m^4+m^2-3=0$, so $m=\\pm 1$: tangents $y=\\pm(x+3)$, which meet the $x$-axis at $(-3,0)$. Contact points: on $P$, $(3,\\pm 6)$; on $E$, $(-2,\\pm 1)$. The quadrilateral is a trapezium with parallel sides 12 and 2 at distance 5, so area $=\\frac{1}{2}(12+2)(5)=35$. Hence (A) and (C).",
                     "marks": 4,
                     "partialMarks": [
                         3,
@@ -81,31 +81,31 @@
                 {
                     "id": "math_q3",
                     "type": "multi_correct",
-                    "questionText": "Let $f:[0,1] \\to [0,1]$ be the function defined by $f(x) = 3x^3 - 9x^2 + \\frac{17x}{3} + \\frac{5}{36}$. Consider the square region $S = [0,1] \\times [0,1]$. Let $G = \\{(x,y) \\in S : y \\leq f(x)\\}$ be called the green region and $R = \\{(x,y) \\in S : y > f(x)\\}$ be called the red region. Let $L_h = \\{(x,h) \\in S : x \\in [0,1]\\}$ be the horizontal line drawn at a height $h \\in [0,1]$. Then which of the following statements is(are) true?",
+                    "questionText": "Let $f:[0,1] \\to [0,1]$ be the function defined by $f(x) = \\frac{x^3}{3} - x^2 + \\frac{5}{9}x + \\frac{17}{36}$. Consider the square region $S = [0,1] \\times [0,1]$. Let $G = \\{(x,y) \\in S : y > f(x)\\}$ be called the green region and $R = \\{(x,y) \\in S : y < f(x)\\}$ be called the red region. Let $L_h = \\{(x,h) \\in S : x \\in [0,1]\\}$ be the horizontal line drawn at a height $h \\in [0,1]$. Then which of the following statements is(are) true?",
                     "hasImage": false,
                     "options": [
                         {
                             "id": "A",
-                            "text": "There exists an $h \\in (\\frac{1}{4}, \\frac{2}{3})$ such that the area of the green region above the line $L_h$ equals the area of the green region below the line $L_h$",
-                            "isCorrect": true
+                            "text": "There exists an $h \\in \\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ such that the area of the green region above the line $L_h$ equals the area of the green region below the line $L_h$",
+                            "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "There exists an $h \\in (\\frac{1}{4}, \\frac{2}{3})$ such that the area of the red region above the line $L_h$ equals the area of the red region below the line $L_h$",
+                            "text": "There exists an $h \\in \\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ such that the area of the red region above the line $L_h$ equals the area of the red region below the line $L_h$",
                             "isCorrect": true
                         },
                         {
                             "id": "C",
-                            "text": "There exists an $h \\in (\\frac{1}{4}, \\frac{2}{3})$ such that the area of the green region above the line $L_h$ equals the area of the red region below the line $L_h$",
-                            "isCorrect": false
+                            "text": "There exists an $h \\in \\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ such that the area of the green region above the line $L_h$ equals the area of the red region below the line $L_h$",
+                            "isCorrect": true
                         },
                         {
                             "id": "D",
-                            "text": "There exists an $h \\in (\\frac{1}{4}, \\frac{2}{3})$ such that the area of the red region above the line $L_h$ equals the area of the green region below the line $L_h$",
-                            "isCorrect": false
+                            "text": "There exists an $h \\in \\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ such that the area of the red region above the line $L_h$ equals the area of the green region below the line $L_h$",
+                            "isCorrect": true
                         }
                     ],
-                    "explanation": "The integral of f(x) from 0 to 1 gives the area of green region G. By intermediate value theorem, there exists h such that the areas are bisected. The total area of S is 1, so complementary regions also have bisecting lines.",
+                    "explanation": "$\\int_0^1 f\\,dx=\\frac{1}{2}$, so green and red areas are each $\\frac{1}{2}$, and $\\frac{13}{36}\\le f\\le\\frac{181}{324}$ on $[0,1]$. Red below $L_h=\\int\\min(f,h)\\,dx$, which equals $\\frac14$ at $h=\\frac14$, so red is bisected there (B true). Green below $L_h=\\int\\max(0,h-f)\\,dx\\le\\frac23-\\frac12=\\frac16<\\frac14$, so (A) is false. (C): green above $=1-\\int\\max(f,h)$ equals red below $=\\int\\min(f,h)$ iff $\\int(f+h)\\,dx=1$, i.e. $h=\\frac12$. (D): red above $=\\int\\max(0,f-h)$ equals green below $=\\int\\max(0,h-f)$ iff $\\int(f-h)\\,dx=0$, i.e. $h=\\frac12$. Hence (B), (C), (D).",
                     "marks": 4,
                     "partialMarks": [
                         3,
@@ -117,7 +117,7 @@
                 {
                     "id": "math_q4",
                     "type": "single_correct",
-                    "questionText": "Let $f:(0,1) \\to \\mathbb{R}$ be the function defined as $f(x) = n$ if $\\frac{1}{n+1} < x \\leq \\frac{1}{n}$, where $n \\in \\mathbb{N}$. Let $g:(0,1) \\to \\mathbb{R}$ be a function such that $\\int_x^{2x} \\frac{dt}{t} = 2g(x) - x$ for all $x \\in (0,1)$. Then $\\lim_{x \\to 0^+} f(x)g(x)$",
+                    "questionText": "Let $f:(0,1) \\to \\mathbb{R}$ be the function defined as $f(x) = \\sqrt{n}$ if $x \\in \\left[\\frac{1}{n+1}, \\frac{1}{n}\\right)$, where $n \\in \\mathbb{N}$. Let $g:(0,1) \\to \\mathbb{R}$ be a function such that $\\int_{x^2}^{x} \\sqrt{\\frac{1-t}{t}}\\,dt < g(x) < 2\\sqrt{x}$ for all $x \\in (0,1)$. Then $\\lim_{x \\to 0} f(x)g(x)$",
                     "hasImage": false,
                     "options": [
                         {
@@ -141,7 +141,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "From the integral equation, $\\int_x^{2x} \\frac{dt}{t} = \\ln 2$. So $2g(x) - x = \\ln 2$, giving $g(x) = \\frac{x + \\ln 2}{2}$. As $x \\to 0^+$, $f(x) \\sim \\frac{1}{x}$ and $g(x) \\to \\frac{\\ln 2}{2}$. Thus $\\lim_{x \\to 0^+} f(x)g(x) = \\lim_{x \\to 0^+} \\frac{1}{x} \\cdot \\frac{x + \\ln 2}{2} = 2$.",
+                    "explanation": "For $x\\in[\\frac{1}{n+1},\\frac1n)$, $f(x)=\\sqrt n$ with $\\frac1x-1<n\\le\\frac1x$, so $f(x)\\sqrt{x}\\to1$. Upper bound: $fg<2\\sqrt n\\sqrt x\\to2$. Lower bound: for small $x$, $\\int_{x^2}^{x}\\sqrt{\\frac{1-t}{t}}\\,dt\\approx2\\sqrt x-2x$, so $fg>\\sqrt n(2\\sqrt x-2x)\\to2$. By the squeeze theorem the limit is 2.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -179,7 +179,7 @@
                 {
                     "id": "math_q6",
                     "type": "single_correct",
-                    "questionText": "Let $X = \\{(x,y) : x^2 + y^2 \\leq 1 \\text{ and } 5x^2 - 8xy + 5y^2 \\leq 20\\}$. Three distinct points $P$, $Q$ and $R$ are randomly chosen from $X$. Then the probability that $P$, $Q$ and $R$ form a triangle whose area is a positive integer, is",
+                    "questionText": "Let $X = \\left\\{(x,y) \\in \\mathbb{Z} \\times \\mathbb{Z} : \\frac{x^2}{8} + \\frac{y^2}{20} < 1 \\text{ and } y^2 < 5x\\right\\}$. Three distinct points $P$, $Q$ and $R$ are randomly chosen from $X$. Then the probability that $P$, $Q$ and $R$ form a triangle whose area is a positive integer, is",
                     "hasImage": false,
                     "options": [
                         {
@@ -203,7 +203,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "The set X is the intersection of a circle and an ellipse. The second inequality simplifies to $(x-y)^2 + (2x)^2 + (2y)^2 \\leq 20$. After analyzing the region and counting favorable outcomes for integer areas, the probability is $\\frac{73}{220}$.",
+                    "explanation": "$y^2<5x$ forces $x\\ge1$ and $\\frac{x^2}{8}<1$ gives $x\\in\\{1,2\\}$. For $x=1$: $y\\in\\{-2,\\dots,2\\}$ (5 points); for $x=2$: $y\\in\\{-3,\\dots,3\\}$ (7 points). Total 12 points, $\\binom{12}{3}=220$ choices. A triangle has two points on one vertical line (base $|\\Delta y|$) and one on the other (height 1), so area $=\\frac{|\\Delta y|}{2}$, an integer iff $\\Delta y$ is even. Two on $x=1$: 4 pairs $\\times 7=28$; two on $x=2$: 9 pairs $\\times 5=45$. Favourable $=73$, probability $\\frac{73}{220}$.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -241,84 +241,84 @@
                 {
                     "id": "math_q8",
                     "type": "numerical",
-                    "questionText": "Let $\\theta(x) = \\tan^{-1}(x)$ for $x \\in \\mathbb{R}$, $-\\frac{\\pi}{2} < \\theta < \\frac{\\pi}{2}$. Then the number of real solutions of the equation $\\sqrt{1 + \\cos(2\\theta(x))} = \\sqrt{2}|\\tan(\\theta(x))|$ in the set $\\left\\{-\\frac{3\\pi}{2}, -\\frac{\\pi}{2}, \\frac{\\pi}{2}, \\frac{3\\pi}{2}\\right\\}$ is equal to",
+                    "questionText": "Let $\\tan^{-1}(x) \\in \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$ for $x \\in \\mathbb{R}$. Then the number of real solutions of the equation $\\sqrt{1 + \\cos(2x)} = \\sqrt{2}\\tan^{-1}(\\tan x)$ in the set $\\left(-\\frac{3\\pi}{2}, -\\frac{\\pi}{2}\\right) \\cup \\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) \\cup \\left(\\frac{\\pi}{2}, \\frac{3\\pi}{2}\\right)$ is equal to",
                     "hasImage": false,
-                    "answer": 0,
-                    "explanation": "The equation simplifies to $|\\cos(\\theta)| = \\sqrt{2}|\\tan(\\theta)|$, which gives $|\\cos(\\theta)| = \\sqrt{2}\\frac{|\\sin(\\theta)|}{|\\cos(\\theta)|}$. This yields $\\cos^2(\\theta) = \\sqrt{2}|\\sin(\\theta)|$. Since $\\theta = \\tan^{-1}(x)$ has range $(-\\frac{\\pi}{2}, \\frac{\\pi}{2})$, none of the values in the given set are possible. The answer is 0.",
+                    "answer": 3,
+                    "explanation": "$\\sqrt{1+\\cos 2x}=\\sqrt2|\\cos x|$, so the equation is $|\\cos x|=\\tan^{-1}(\\tan x)$. On $(-\\frac{\\pi}{2},\\frac{\\pi}{2})$ the RHS is $x$; on $(\\frac{\\pi}{2},\\frac{3\\pi}{2})$ it is $x-\\pi$; on $(-\\frac{3\\pi}{2},-\\frac{\\pi}{2})$ it is $x+\\pi$. Writing $u$ for the RHS, each case reduces to $\\cos u=u$ with $u\\in[0,\\frac{\\pi}{2})$, which has exactly one root. So there is one solution in each interval: 3.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
                 {
                     "id": "math_q9",
                     "type": "numerical",
-                    "questionText": "Let $n \\geq 2$ be a natural number and $f:[0,1] \\to \\mathbb{R}$ be the function defined by $f(x) = \\begin{cases} (n-1)(1-2nx) & \\text{if } 0 \\leq x \\leq \\frac{1}{2n} \\\\ (n-1)\\frac{3-2(2n-1)x}{3} & \\text{if } \\frac{1}{2n} < x \\leq \\frac{2}{n} \\\\ (n-1)\\frac{4(1-x)}{n} & \\text{if } \\frac{2}{n} < x \\leq 1 \\\\ 1 - \\frac{n(1-x)}{n-1} & \\text{if } x = 1 \\end{cases}$. If $n$ is such that the area of the region bounded by the curves $x = 0$, $x = 1$, $y = 0$ and $y = f(x)$ is $\\frac{1}{4}$, then the maximum value of the function $f$ is",
+                    "questionText": "Let $n \\geq 2$ be a natural number and $f:[0,1] \\to \\mathbb{R}$ be the function defined by $f(x) = \\begin{cases} n(1-2nx) & \\text{if } 0 \\leq x \\leq \\frac{1}{2n} \\\\ 2n(2nx-1) & \\text{if } \\frac{1}{2n} \\leq x \\leq \\frac{3}{4n} \\\\ 4n(1-nx) & \\text{if } \\frac{3}{4n} \\leq x \\leq \\frac{1}{n} \\\\ \\frac{n}{n-1}(nx-1) & \\text{if } \\frac{1}{n} \\leq x \\leq 1 \\end{cases}$. If $n$ is such that the area of the region bounded by the curves $x = 0$, $x = 1$, $y = 0$ and $y = f(x)$ is 4, then the maximum value of the function $f$ is",
                     "hasImage": false,
-                    "answer": 5,
-                    "explanation": "Computing the area under the piecewise function and setting it equal to 1/4 gives an equation in n. Solving yields n = 6. The maximum value of f occurs at x = 0, giving f(0) = n - 1 = 5.",
+                    "answer": 8,
+                    "explanation": "The graph is made of triangles: on $[0,\\frac{1}{2n}]$ area $\\frac12\\cdot\\frac{1}{2n}\\cdot n=\\frac14$; on $[\\frac{1}{2n},\\frac1n]$ (peak $n$ at $x=\\frac{3}{4n}$) area $\\frac14$; on $[\\frac1n,1]$ rising from 0 to $n$, area $\\frac12(1-\\frac1n)n=\\frac{n-1}{2}$. Total $=\\frac{n}{2}=4\\Rightarrow n=8$. The maximum value of $f$ is $n=8$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
                 {
                     "id": "math_q10",
                     "type": "numerical",
-                    "questionText": "Let $\\overline{75\\dots57}^{(r)}$ denote the $(r+2)$ digit number where the first and the last digits are 7 and the remaining $r$ digits are 5. Consider the sum $S = \\overline{77} + \\overline{757} + \\overline{7557} + \\dots + \\overline{75\\dots57}^{(98)}$. If $\\overline{75\\dots57}^{(99)} = m + \\frac{S}{n}$, where $m$ and $n$ are natural numbers less than 3000, then the value of $m + n$ is",
+                    "questionText": "Let $7\\overbrace{5\\cdots5}^{r}7$ denote the $(r+2)$ digit number where the first and the last digits are 7 and the remaining $r$ digits are 5. Consider the sum $S = 77 + 757 + 7557 + \\cdots + 7\\overbrace{5\\cdots5}^{98}7$. If $S = \\frac{7\\overbrace{5\\cdots5}^{99}7 + m}{n}$, where $m$ and $n$ are natural numbers less than 3000, then the value of $m + n$ is",
                     "hasImage": false,
-                    "answer": 1557,
-                    "explanation": "Each term can be written as $7 \\times 10^{r+1} + 5(10^r + 10^{r-1} + \\dots + 10) + 7 = 7 \\times 10^{r+1} + 5 \\cdot \\frac{10^r - 1}{9} \\times 10 + 7$. Summing from r=0 to 98 and using the given relation, we find m = 742 and n = 815, so m + n = 1557.",
+                    "answer": 1219,
+                    "explanation": "A term with $r$ fives is $T_r=7\\cdot10^{r+1}+\\frac{50(10^r-1)}{9}+7=\\frac{68\\cdot10^{r+1}+13}{9}$. Then $S=\\sum_{r=0}^{98}T_r$ gives $81S=68\\cdot10^{100}+10903$. Since $9T_{99}=68\\cdot10^{100}+13$, $81S=9T_{99}+10890$, i.e. $S=\\frac{T_{99}+1210}{9}$. So $m=1210$, $n=9$, $m+n=1219$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
                 {
                     "id": "math_q11",
                     "type": "numerical",
-                    "questionText": "Let $A = \\left\\{\\frac{\\sin(1967\\pi/7)}{\\cos(1686\\pi/3)} i : i \\in \\mathbb{Z}\\right\\}$. If $A$ contains exactly one positive integer $n$, then the value of $n$ is",
+                    "questionText": "Let $A = \\left\\{\\frac{1967 + 1686 i \\sin\\theta}{7 - 3 i \\cos\\theta} : \\theta \\in \\mathbb{R}\\right\\}$. If $A$ contains exactly one positive integer $n$, then the value of $n$ is",
                     "hasImage": false,
-                    "answer": 3,
-                    "explanation": "Simplifying the trigonometric values: $\\sin(1967\\pi/7) = \\sin(280\\pi + 7\\pi/7) = \\sin(\\pi) = 0$ is incorrect. Actually $1967 = 7 \\times 281$, so $\\sin(1967\\pi/7) = \\sin(\\pi/7)$. And $1686 = 3 \\times 562$, so $\\cos(1686\\pi/3) = \\cos(0) = 1$. However, working through the problem carefully with correct period reduction gives n = 3.",
+                    "answer": 281,
+                    "explanation": "Multiply numerator and denominator by $7+3i\\cos\\theta$. The imaginary part is proportional to $5901\\cos\\theta+11802\\sin\\theta$, which vanishes when $\\cos\\theta=-2\\sin\\theta$, i.e. $\\sin^2\\theta=\\frac15$. The value is then $\\frac{13769+10116\\sin^2\\theta}{49+9\\cos^2\\theta}=\\frac{78961/5}{281/5}=281$. So $n=281$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
                 {
                     "id": "math_q12",
                     "type": "numerical",
-                    "questionText": "Let $P$ be the plane $3x - 2y + 3z = 16$. Let $S = \\{ (x,y,z) \\in \\mathbb{R}^3 : x^2 + y^2 + z^2 = 1 \\text{ and } \\text{dist}((x,y,z), P) = \\frac{7}{2} \\}$. Let $\\vec{u}, \\vec{v}, \\vec{w}$ be three distinct vectors in $S$ such that $|\\vec{u} - \\vec{v}| = |\\vec{v} - \\vec{w}| = |\\vec{w} - \\vec{u}|$. Let $V$ be the volume of the parallelepiped determined by $\\vec{u}, \\vec{v}, \\vec{w}$. Then the value of $\\frac{80V}{3}$ is _____.",
+                    "questionText": "Let $P$ be the plane $\\sqrt{3}x + 2y + 3z = 16$ and let $S = \\left\\{\\alpha\\hat{i} + \\beta\\hat{j} + \\gamma\\hat{k} : \\alpha^2 + \\beta^2 + \\gamma^2 = 1 \\text{ and the distance of } (\\alpha,\\beta,\\gamma) \\text{ from the plane } P \\text{ is } \\frac{7}{2}\\right\\}$. Let $\\vec{u}, \\vec{v}$ and $\\vec{w}$ be three distinct vectors in $S$ such that $|\\vec{u} - \\vec{v}| = |\\vec{v} - \\vec{w}| = |\\vec{w} - \\vec{u}|$. Let $V$ be the volume of the parallelepiped determined by vectors $\\vec{u}, \\vec{v}$ and $\\vec{w}$. Then the value of $\\frac{80}{\\sqrt{3}}V$ is",
                     "hasImage": false,
-                    "answer": 27,
-                    "explanation": "The set S consists of points on the unit sphere at distance 7/2 from plane P. These form a circle. Three equidistant points form an equilateral triangle. The volume of the parallelepiped can be computed using the scalar triple product, giving 80V/3 = 27.",
+                    "answer": 45,
+                    "explanation": "The normal $(\\sqrt3,2,3)$ has length 4, so the condition is $|\\sqrt3\\alpha+2\\beta+3\\gamma-16|=14$; for a unit vector this means $\\hat n\\cdot\\vec r=\\frac12$. So $S$ is a circle of radius $\\frac{\\sqrt3}{2}$ in a plane at distance $\\frac12$ from the origin. An equilateral triangle inscribed in it has side $\\frac32$ and area $\\frac{9\\sqrt3}{16}$. Tetrahedron volume $=\\frac13\\cdot\\frac{9\\sqrt3}{16}\\cdot\\frac12=\\frac{3\\sqrt3}{32}$, so $V=6\\times\\frac{3\\sqrt3}{32}=\\frac{9\\sqrt3}{16}$ and $\\frac{80}{\\sqrt3}V=45$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
                 {
                     "id": "math_q13",
                     "type": "numerical",
-                    "questionText": "Let $a$ and $b$ be two nonzero real numbers. If the coefficient of $x^5$ in the expansion of $\\left(ax^2 + \\frac{1}{bx}\\right)^{70}$ is equal to the coefficient of $x^{-5}$ in the expansion of $\\left(ax - \\frac{1}{bx^2}\\right)^7$, then the value of $2b$ is",
+                    "questionText": "Let $a$ and $b$ be two nonzero real numbers. If the coefficient of $x^5$ in the expansion of $\\left(ax^2 + \\frac{70}{27bx}\\right)^4$ is equal to the coefficient of $x^{-5}$ in the expansion of $\\left(ax - \\frac{1}{bx^2}\\right)^7$, then the value of $2b$ is",
                     "hasImage": false,
-                    "answer": 7,
-                    "explanation": "For the first expansion, the term with $x^5$ comes from choosing $ax^2$ exactly $r$ times and $\\frac{1}{bx}$ exactly $(70-r)$ times where $2r - (70-r) = 5$, giving $r = 25$. The coefficient is $\\binom{70}{25}a^{25}b^{-45}$. For the second expansion, term with $x^{-5}$ comes from choosing $ax$ exactly $s$ times and $\\frac{-1}{bx^2}$ exactly $(7-s)$ times where $s - 2(7-s) = -5$, giving $s = 3$. Coefficient is $\\binom{7}{3}a^3(-1)^4b^{-4}$. Equating and simplifying gives $2b = 7$.",
+                    "answer": 3,
+                    "explanation": "In $\\left(ax^2+\\frac{70}{27bx}\\right)^4$ the general power is $x^{8-3r}$; $8-3r=5\\Rightarrow r=1$, coefficient $4a^3\\cdot\\frac{70}{27b}=\\frac{280a^3}{27b}$. In $\\left(ax-\\frac{1}{bx^2}\\right)^7$ the power is $x^{7-3r}$; $7-3r=-5\\Rightarrow r=4$, coefficient $\\binom74\\frac{a^3}{b^4}=\\frac{35a^3}{b^4}$. Equating: $b^3=\\frac{27}{8}$, $b=\\frac32$, so $2b=3$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
                 {
                     "id": "math_q14",
                     "type": "matching",
-                    "questionText": "Let $\\alpha$, $\\beta$ and $\\gamma$ be real numbers. Consider the following system of linear equations: $x + y + z = \\alpha$, $x + 2y + 3z = \\beta$, $x + 2y + \\gamma z = \\gamma$. Match each entry in List-I to the correct entries in List-II.",
+                    "questionText": "Let $\\alpha$, $\\beta$ and $\\gamma$ be real numbers. Consider the following system of linear equations: $x + 2y + z = 7$, $x + \\alpha z = 11$, $2x - 3y + \\beta z = \\gamma$. Match each entry in List-I to the correct entries in List-II.",
                     "hasImage": false,
                     "listI": [
                         {
                             "id": "P",
-                            "text": "If $\\alpha = \\frac{1}{2}(7\\beta - 3\\gamma)$ and $\\gamma = 28$, then the system has"
+                            "text": "If $\\beta = \\frac{1}{2}(7\\alpha - 3)$ and $\\gamma = 28$, then the system has"
                         },
                         {
                             "id": "Q",
-                            "text": "If $\\alpha = \\frac{1}{2}(7\\beta - 3\\gamma)$ and $\\gamma \\neq 28$, then the system has"
+                            "text": "If $\\beta = \\frac{1}{2}(7\\alpha - 3)$ and $\\gamma \\neq 28$, then the system has"
                         },
                         {
                             "id": "R",
-                            "text": "If $\\alpha \\neq \\frac{1}{2}(7\\beta - 3\\gamma)$ where $\\gamma \\neq 1$ and $\\gamma \\neq 28$, then the system has"
+                            "text": "If $\\beta \\neq \\frac{1}{2}(7\\alpha - 3)$ where $\\alpha = 1$ and $\\gamma \\neq 28$, then the system has"
                         },
                         {
                             "id": "S",
-                            "text": "If $\\alpha \\neq \\frac{1}{2}(7\\beta - 3\\gamma)$ where $\\gamma = 1$ and $\\beta \\neq 28$, then the system has"
+                            "text": "If $\\beta \\neq \\frac{1}{2}(7\\alpha - 3)$ where $\\alpha = 1$ and $\\gamma = 28$, then the system has"
                         }
                     ],
                     "listII": [
@@ -340,7 +340,7 @@
                         },
                         {
                             "id": "5",
-                            "text": "$x = 15$, $y = -4$ and $z = 0$ as a solution"
+                            "text": "$x = -15$, $y = 4$ and $z = 0$ as a solution"
                         }
                     ],
                     "options": [
@@ -365,7 +365,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Analyzing the augmented matrix and using row reduction: (P) When γ=28 and the consistency condition holds, infinitely many solutions exist. (Q) When γ≠28 but consistency condition holds, no solution. (R) When conditions don't hold and γ≠1,28, unique solution exists. (S) When γ=1 and inconsistent, checking shows x=11, y=-2, z=0 is a solution.",
+                    "explanation": "The determinant is $7\\alpha-2\\beta-3$, zero iff $\\beta=\\frac{7\\alpha-3}{2}$; in that case the system is consistent iff $\\gamma=28$. (P) infinitely many solutions → 3. (Q) no solution → 2. (R) determinant nonzero → unique solution → 1. (S) $\\alpha=1$, $\\gamma=28$: $x+z=11$ and $x+2y+z=7$ give $y=-2$; then $2x+\\beta z=22$ with $x=11-z$ gives $z(\\beta-2)=0$, so $z=0$, $x=11$ → 4. Answer: P-3, Q-2, R-1, S-4.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -436,14 +436,14 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Total frequency = 20. Sum = 3×5 + 8×2 + 11×3 + 10×2 + 5×4 + 4×4 = 120. Mean = 120/20 = 6. For median, cumulative frequencies are 5,7,10,12,16,20. The 10th and 11th values both fall in the class with x=5, so median = 5. Mean deviation about mean = Σf|x-6|/20 = 2.7. Mean deviation about median = Σf|x-5|/20 = 2.4.",
+                    "explanation": "$\\sum f_i=20$, $\\sum f_ix_i=120$, mean $=6$. Sorted values: 3 (5), 4 (4), 5 (4), 8 (2), 10 (2), 11 (3); cumulative 5, 9, 13, 15, 17, 20, so the 10th and 11th values are 5 and the median is 5. MD about mean $=\\frac{15+8+4+4+8+15}{20}=2.7$. MD about median $=\\frac{10+4+0+6+10+18}{20}=2.4$. Answer: P-3, Q-2, R-4, S-5.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
                 {
                     "id": "math_q16",
                     "type": "matching",
-                    "questionText": "Let $\\ell_1$ and $\\ell_2$ be the lines $\\vec{r} = \\hat{i} + \\lambda(\\hat{i} + \\hat{j} + \\hat{k})$ and $\\vec{r} = (\\hat{j} + \\hat{k}) + \\mu(\\hat{i} - \\hat{k})$, respectively. Let $X$ be the set of all the planes $H$ that contain the line $\\ell_1$. For a plane $H$, let $d(H)$ denote the smallest possible distance between the points of $\\ell_2$ and $H$. Let $H_0$ be a plane in $X$ for which $d(H_0)$ is the maximum value of $d(H)$ as $H$ varies over all planes in $X$. Match each entry in List-I to the correct entries in List-II.",
+                    "questionText": "Let $\\ell_1$ and $\\ell_2$ be the lines $\\vec{r}_1 = \\lambda(\\hat{i} + \\hat{j} + \\hat{k})$ and $\\vec{r}_2 = (\\hat{j} - \\hat{k}) + \\mu(\\hat{i} + \\hat{k})$, respectively. Let $X$ be the set of all the planes $H$ that contain the line $\\ell_1$. For a plane $H$, let $d(H)$ denote the smallest possible distance between the points of $\\ell_2$ and $H$. Let $H_0$ be a plane in $X$ for which $d(H_0)$ is the maximum value of $d(H)$ as $H$ varies over all planes in $X$. Match each entry in List-I to the correct entries in List-II.",
                     "hasImage": false,
                     "listI": [
                         {
@@ -489,12 +489,12 @@
                         {
                             "id": "A",
                             "text": "P-2, Q-4, R-5, S-1",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "B",
                             "text": "P-5, Q-4, R-3, S-1",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "C",
@@ -507,14 +507,14 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "The plane containing ℓ₁ is perpendicular to the common perpendicular of ℓ₁ and ℓ₂ to maximize distance. Computing: d(H₀) = 1/√3. Point (0,1,2) distance from H₀ = √2. Origin distance from H₀ = 1/√2. Intersection point distance from origin = √3.",
+                    "explanation": "$d(H)$ is maximum when $H_0$ contains $\\ell_1$ and is parallel to $\\ell_2$: normal $(1,1,1)\\times(1,0,1)=(1,0,-1)$, so $H_0: x-z=0$. (P) distance of $(0,1,-1)$ from $H_0$ is $\\frac{1}{\\sqrt2}$. (Q) $(0,1,2)$: $\\frac{2}{\\sqrt2}=\\sqrt2$. (R) the origin lies on $H_0$: 0. (S) $y=z$, $x=1$, $x=z$ meet at $(1,1,1)$, distance $\\sqrt3$. Answer: P-5, Q-4, R-3, S-1.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
                 {
                     "id": "math_q17",
                     "type": "matching",
-                    "questionText": "Let $z$ be a complex number satisfying $|z|^3 + 2|z|^2 - 4z - 8 = 0$, where $\\bar{z}$ denotes the complex conjugate of $z$. Let the imaginary part of $z$ be nonzero. Match each entry in List-I to the correct entries in List-II.",
+                    "questionText": "Let $z$ be a complex number satisfying $|z|^3 + 2z^2 + 4\\bar{z} - 8 = 0$, where $\\bar{z}$ denotes the complex conjugate of $z$. Let the imaginary part of $z$ be nonzero. Match each entry in List-I to the correct entries in List-II.",
                     "hasImage": false,
                     "listI": [
                         {
@@ -523,11 +523,11 @@
                         },
                         {
                             "id": "Q",
-                            "text": "$|z - \\bar{z}|$ is equal to"
+                            "text": "$|z - \\bar{z}|^2$ is equal to"
                         },
                         {
                             "id": "R",
-                            "text": "$||z|^2 - z\\bar{z}|$ is equal to"
+                            "text": "$|z|^2 + |z + \\bar{z}|^2$ is equal to"
                         },
                         {
                             "id": "S",
@@ -565,7 +565,7 @@
                         {
                             "id": "B",
                             "text": "P-2, Q-1, R-3, S-5",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "C",
@@ -575,10 +575,10 @@
                         {
                             "id": "D",
                             "text": "P-2, Q-3, R-5, S-4",
-                            "isCorrect": true
+                            "isCorrect": false
                         }
                     ],
-                    "explanation": "Let z = x + iy. The equation becomes |z|³ + 2|z|² - 4(x+iy) - 8 = 0. Since imaginary part ≠ 0, we have y ≠ 0. Separating real and imaginary parts: |z|³ + 2|z|² - 4x - 8 = 0 and 4y = 0, contradiction. Reanalyzing: |z|² = 4 (correcting for the equation structure). Then |z-z̄| = 2|Im(z)| = 2√(4-x²). Computing each: P→2, Q→3 (assuming specific values), R→5 (since |z|²-zz̄=0 always), S→4.",
+                    "explanation": "Let $z=x+iy$, $y\\ne0$, $r=|z|$. Imaginary part: $4xy-4y=0\\Rightarrow x=1$. Real part: $r^3+2(1-y^2)+4-8=0$ with $y^2=r^2-1$ gives $r^3-2r^2=0$, so $r=2$, $y^2=3$. (P) $|z|^2=4$. (Q) $|2iy|^2=12$. (R) $4+(2x)^2=8$. (S) $(x+1)^2+y^2=7$. Answer: P-2, Q-1, R-3, S-5.",
                     "marks": 3,
                     "negativeMarks": -1
                 }
@@ -635,11 +635,11 @@
                         {
                             "id": "A",
                             "text": "The blue light is polarized in the plane of incidence.",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "B",
-                            "text": "The angle of the prism is 45°.",
+                            "text": "The angle of the prism is $45^\\circ$.",
                             "isCorrect": false
                         },
                         {
@@ -649,11 +649,11 @@
                         },
                         {
                             "id": "D",
-                            "text": "The angle of refraction for blue light in air at the exit plane of the prism is 60°.",
+                            "text": "The angle of refraction for blue light in air at the exit plane of the prism is $60^\\circ$.",
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "No reflection at first surface means angle of incidence equals Brewster's angle: $\\tan i_B = n = \\sqrt{3}$, so $i_B = 60°$. At Brewster's angle, refracted angle $r_1 = 90° - 60° = 30°$. For prism, $A = r_1 + r_2$. At exit, using Snell's law and geometry with deviation $\\delta = 60°$: $i_1 + e_1 = A + \\delta$, where $e_1$ is emergence angle. Working through: $60° + e_1 = A + 60°$, so $e_1 = A$. Using $n\\sin r_2 = \\sin e_1$ with $n = \\sqrt{3}$ and solving gives prism angle $A = 60°$ and exit refraction angle $e_1 = 60°$. For red light at minimum deviation: $\\delta_{\\min} = 2i - A$ and $n_{\\text{red}} = \\frac{\\sin\\frac{A+\\delta_{\\min}}{2}}{\\sin\\frac{A}{2}} = \\frac{\\sin 45°}{\\sin 30°} = \\sqrt{2}$.",
+                    "explanation": "No reflection means incidence at Brewster's angle with light polarized in the plane of incidence: $\\tan i=\\sqrt3$, $i=60^\\circ$, $r_1=30^\\circ$ (A true). $\\delta=i+e-A=60^\\circ\\Rightarrow e=A$; $\\sqrt3\\sin(A-30^\\circ)=\\sin A$ gives $\\tan A=\\sqrt3$, $A=60^\\circ$ (B false) and $e=60^\\circ$ (D true). Red light: $n=\\frac{\\sin\\frac{A+\\delta_m}{2}}{\\sin\\frac A2}=\\frac{\\sin45^\\circ}{\\sin30^\\circ}=\\sqrt2$ (C true).",
                     "marks": 4,
                     "partialMarks": [
                         3,
@@ -671,26 +671,26 @@
                     "options": [
                         {
                             "id": "A",
-                            "text": "The value of the resistance $R$ is 3 Ω.",
+                            "text": "The value of the resistance $R$ is $3\\,\\Omega$.",
                             "isCorrect": true
                         },
                         {
                             "id": "B",
                             "text": "For $t < t_0$, the value of current $I_1$ is 2 A.",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "C",
-                            "text": "At $t = t_0 + 7.2$ μs, the current in the capacitor is 0.6 A.",
+                            "text": "At $t = t_0 + 7.2\\,\\mu\\text{s}$, the current in the capacitor is 0.6 A.",
                             "isCorrect": true
                         },
                         {
                             "id": "D",
-                            "text": "For $t \\to \\infty$, the charge on the capacitor is 12 μC.",
+                            "text": "For $t \\to \\infty$, the charge on the capacitor is $12\\,\\mu\\text{C}$.",
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "Before key closes: Current through 1Ω is 1A, voltage across it is 1V. This must equal EMF minus voltage drop across R. Total current from source $I_{\\text{total}}$ splits between the parallel branches. After analysis of the circuit topology (assuming series-parallel combination with EMF), when K is open and 1A flows through 1Ω resistor, we can deduce R = 3Ω. When K closes at $t_0$, capacitor begins charging. The RC time constant is $\\tau = RC = 3 \\times 2.4 = 7.2$ μs. Current in capacitor: $I_C(t) = I_0 e^{-t/\\tau}$. At $t = t_0 + 7.2$ μs (one time constant), $I_C = I_0 e^{-1} = I_0(0.36)$. If initial current is calculated properly, this gives 0.6A. As $t \\to \\infty$, capacitor fully charges to $Q = CV$ where V is the steady-state voltage, giving 12 μC.",
+                    "explanation": "Let $U$ be the common voltage across the parallel branches. With 1 A through the $1\\,\\Omega$ branch, $U=5+1=6$ V, so $I_1=\\frac63=2$ A and the 15 V branch carries 3 A: $R=\\frac{15-6}{3}=3\\,\\Omega$ (A, B true). Thevenin equivalent seen by the capacitor branch: 6 V with $3\\parallel1\\parallel3=0.6\\,\\Omega$; total resistance $3.6\\,\\Omega$, $\\tau=3.6\\times2\\,\\mu\\text{F}=7.2\\,\\mu$s. $I(0)=\\frac{6}{3.6}=\\frac53$ A, so $I(\\tau)=\\frac53\\times0.36=0.6$ A (C true). Final charge $=2\\,\\mu\\text{F}\\times6$ V $=12\\,\\mu$C (D true).",
                     "marks": 4,
                     "partialMarks": [
                         3,
@@ -708,7 +708,7 @@
                         {
                             "id": "A",
                             "text": "$\\omega = 6.98$ rad s$^{-1}$ and $v = 4.30$ m s$^{-1}$",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "B",
@@ -723,17 +723,17 @@
                         {
                             "id": "D",
                             "text": "$\\omega = 6.80$ rad s$^{-1}$ and $v = 4.10$ m s$^{-1}$",
-                            "isCorrect": true
+                            "isCorrect": false
                         }
                     ],
-                    "explanation": "Moment of inertia of bar about pivot: $I = \\frac{1}{3}ML^2 = \\frac{1}{3}(1.00)(0.20)^2 = 0.0133$ kg·m². Conservation of angular momentum: $m u (L/2) = m v (L/2) + I\\omega$, giving $0.10 \\times 5.00 \\times 0.10 = 0.10 \\times v \\times 0.10 + 0.0133\\omega$. For elastic collision, energy is conserved: $\\frac{1}{2}mu^2 = \\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2$. Solving: $0.10(25) = 0.10v^2 + 0.0133\\omega^2$. From momentum: $0.05 = 0.01v + 0.0133\\omega$. Solving these equations simultaneously gives $\\omega \\approx 6.80$ rad s$^{-1}$ and $v \\approx 4.10$ m s$^{-1}$.",
+                    "explanation": "$I=\\frac{ML^2}{3}=\\frac{0.04}{3}$ kg m$^2$. Angular momentum about the pivot (mass bounces back): $0.1\\times5\\times0.1=-0.1\\,v\\,(0.1)+I\\omega$. Elastic collision (relative speed at contact reverses): $5=v+0.1\\omega$. Substituting: $0.05=-0.01(5-0.1\\omega)+0.01333\\omega$, so $\\omega=6.98$ rad/s and $v=4.30$ m/s.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
                 {
                     "id": "phys_q5",
                     "type": "single_correct",
-                    "questionText": "A container has a base of 50 cm × 5 cm and height 50 cm, as shown in the figure. It has two parallel electrically conducting walls each of area 50 cm × 50 cm. The remaining walls of the container are thin and non-conducting. The container is being filled with a liquid of dielectric constant 3 at a uniform rate of 250 cm³ s$^{-1}$. What is the value of the capacitance of the container after 10 seconds? [Given: Permittivity of free space $\\epsilon_0 = 9 \\times 10^{-12}$ C² N$^{-1}$ m$^{-2}$, the effects of the non-conducting walls on the capacitance are negligible]",
+                    "questionText": "A container has a base of 50 cm $\\times$ 5 cm and height 50 cm, as shown in the figure. It has two parallel electrically conducting walls each of area 50 cm $\\times$ 50 cm. The remaining walls of the container are thin and non-conducting. The container is being filled with a liquid of dielectric constant 3 at a uniform rate of 250 cm$^{3}$ s$^{-1}$. What is the value of the capacitance of the container after 10 seconds? [Given: Permittivity of free space $\\epsilon_0 = 9 \\times 10^{-12}$ $\\text{C}^{2}$ N$^{-1}$ m$^{-2}$, the effects of the non-conducting walls on the capacitance are negligible]",
                     "hasImage": true,
                     "imageName": "img/phys_q5.png",
                     "options": [
@@ -758,7 +758,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Volume filled in 10 s: $V = 250 \\times 10 = 2500$ cm³. Height of liquid: $h = \\frac{2500}{50 \\times 5} = 10$ cm = 0.1 m. Distance between plates: $d = 5$ cm = 0.05 m. Area of plates: $A = 50 \\times 50 = 2500$ cm² = 0.25 m². The capacitor has two parts in series: liquid-filled part (height 0.1 m) with $K = 3$ and air-filled part (height 0.4 m) with $K = 1$. For parallel plate capacitor: $C_1 = \\frac{K\\epsilon_0 A}{d_1} = \\frac{3 \\times 9 \\times 10^{-12} \\times 0.25}{0.1} = 67.5$ pF for liquid part. $C_2 = \\frac{\\epsilon_0 A}{d_2} = \\frac{9 \\times 10^{-12} \\times 0.25}{0.4} = 5.625$ pF for air part. Actually, considering the geometry correctly as capacitors in parallel (not series): Total capacitance = $\\frac{K\\epsilon_0 A h}{d^2} + \\frac{\\epsilon_0 A(H-h)}{d^2}$ where the calculation gives 63 pF.",
+                    "explanation": "After 10 s the liquid volume is 2500 cm$^3$, so its height is $h=\\frac{2500}{50\\times5}=10$ cm. The plates (width 50 cm, separation 5 cm) form two capacitors in parallel, liquid part and air part: $C=\\frac{\\epsilon_0 b}{d}[Kh+(H-h)]=\\frac{9\\times10^{-12}\\times0.5}{0.05}(3\\times0.1+0.4)=63$ pF.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -802,7 +802,7 @@
                         {
                             "id": "A",
                             "text": "$\\frac{3R}{5}$",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "B",
@@ -817,10 +817,10 @@
                         {
                             "id": "D",
                             "text": "$\\frac{5R}{6}$",
-                            "isCorrect": true
+                            "isCorrect": false
                         }
                     ],
-                    "explanation": "Gravitational acceleration at height $h$: $g_h = \\frac{GM}{(R+h)^2}$. For satellite P: $g_P = \\frac{GM}{(R + R/3)^2} = \\frac{GM}{(4R/3)^2} = \\frac{9GM}{16R^2}$. For satellite Q: $g_Q = \\frac{GM}{(R + h_Q)^2}$. Given: $\\frac{g_P}{g_Q} = \\frac{36}{25}$. So $\\frac{9GM/(16R^2)}{GM/(R+h_Q)^2} = \\frac{36}{25}$. This gives $\\frac{9(R+h_Q)^2}{16R^2} = \\frac{36}{25}$. Solving: $(R+h_Q)^2 = \\frac{36 \\times 16R^2}{25 \\times 9} = \\frac{64R^2}{25}$. So $R + h_Q = \\frac{8R}{5}$, giving $h_Q = \\frac{8R}{5} - R = \\frac{3R}{5}$. Wait, let me recalculate: $(R+h_Q)^2 = \\frac{16R^2 \\times 36}{9 \\times 25} = \\frac{64R^2}{25}$. So $R+h_Q = \\frac{8R}{5}$, thus $h_Q = \\frac{3R}{5}$... Actually checking option D: if $h_Q = \\frac{5R}{6}$, then $R+h_Q = \\frac{11R}{6}$, and ratio becomes $\\frac{9 \\times (11R/6)^2}{16R^2} = \\frac{9 \\times 121R^2/36}{16R^2} = \\frac{1089}{576} = \\frac{121}{64}$. Let me recalculate properly: $\\frac{g_P}{g_Q} = \\frac{(R+h_Q)^2}{(R+h_P)^2} = \\frac{(R+h_Q)^2}{(4R/3)^2} = \\frac{36}{25}$. So $(R+h_Q)^2 = \\frac{36 \\times 16R^2}{25 \\times 9} = \\frac{64R^2}{25}$... This gives $h_Q = \\frac{3R}{5}$, not matching. Rechecking with $h_Q = \\frac{5R}{6}$: $(R + 5R/6)^2 = (11R/6)^2 = 121R^2/36$. Ratio: $\\frac{121R^2/36}{16R^2/9} = \\frac{121R^2 \\times 9}{36 \\times 16R^2} = \\frac{1089}{576}$... Let me trust the given answer D.",
+                    "explanation": "$g\\propto\\frac{1}{(R+h)^2}$, so $\\frac{g_P}{g_Q}=\\frac{(R+h_Q)^2}{(4R/3)^2}=\\frac{36}{25}$. Then $R+h_Q=\\frac{4R}{3}\\cdot\\frac65=\\frac{8R}{5}$, giving $h_Q=\\frac{3R}{5}$.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -837,11 +837,11 @@
                 {
                     "id": "phys_q9",
                     "type": "numerical",
-                    "questionText": "An optical arrangement consists of two concave mirrors M₁ and M₂, and a convex lens L with a common principal axis, as shown in the figure. The focal length of L is 10 cm. The radii of curvature of M₁ and M₂ are 20 cm and 24 cm, respectively. The distance between L and M₂ is 20 cm. A point object S is placed at the mid-point between L and M₂ on the axis. When the distance between L and M₁ is $n/7$ cm, one of the images coincides with S. The value of $n$ is _______.",
+                    "questionText": "An optical arrangement consists of two concave mirrors $\\text{M}_{1}$ and $\\text{M}_{2}$, and a convex lens L with a common principal axis, as shown in the figure. The focal length of L is 10 cm. The radii of curvature of $\\text{M}_{1}$ and $\\text{M}_{2}$ are 20 cm and 24 cm, respectively. The distance between L and $\\text{M}_{2}$ is 20 cm. A point object S is placed at the mid-point between L and $\\text{M}_{2}$ on the axis. When the distance between L and $\\text{M}_{1}$ is $n/7$ cm, one of the images coincides with S. The value of $n$ is _______.",
                     "hasImage": true,
                     "imageName": "img/phys_q9.png",
                     "answer": 200,
-                    "explanation": "Object S is at distance 10 cm from L (midpoint between L and M₂). For lens L with $f = 10$ cm and object at 10 cm: $\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}$ gives $\\frac{1}{v} - \\frac{1}{-10} = \\frac{1}{10}$, so $\\frac{1}{v} = 0$, meaning image at infinity. Light from lens goes parallel to M₁. For concave mirror M₁ with $f_1 = R_1/2 = 10$ cm, parallel rays converge at focus 10 cm from M₁. This light returns through lens L. For image to coincide with S, the returning light must form image at S's position. Working through the geometry and multiple reflections, the distance between L and M₁ that satisfies this condition is $\\frac{200}{7}$ cm. Therefore, $n = 200$.",
+                    "explanation": "Object S is at distance 10 cm from L (midpoint between L and M₂). For lens L with $f = 10$ cm and object at 10 cm: $\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}$ gives $\\frac{1}{v} - \\frac{1}{-10} = \\frac{1}{10}$, so $\\frac{1}{v} = 0$, meaning image at infinity. Light from lens goes parallel to $\\text{M}_{1}$. For concave mirror $\\text{M}_{1}$ with $f_1 = R_1/2 = 10$ cm, parallel rays converge at focus 10 cm from $\\text{M}_{1}$. This light returns through lens L. For image to coincide with S, the returning light must form image at S's position. Working through the geometry and multiple reflections, the distance between L and $\\text{M}_{1}$ that satisfies this condition is $\\frac{200}{7}$ cm. Therefore, $n = 200$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -850,8 +850,8 @@
                     "type": "numerical",
                     "questionText": "In an experiment for determination of the focal length of a thin convex lens, the distance of the object from the lens is $10 \\pm 0.1$ cm and the distance of its real image from the lens is $20 \\pm 0.2$ cm. The error in the determination of focal length of the lens is $n\\%$. The value of $n$ is _______.",
                     "hasImage": false,
-                    "answer": 2,
-                    "explanation": "Lens formula: $\\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u}$. Given $u = -10$ cm, $v = 20$ cm. So $\\frac{1}{f} = \\frac{1}{20} - \\frac{1}{-10} = \\frac{1}{20} + \\frac{1}{10} = \\frac{3}{20}$. Thus $f = \\frac{20}{3}$ cm. For error calculation: $\\frac{1}{f} = \\frac{1}{v} + \\frac{1}{|u|}$. Differentiating: $-\\frac{df}{f^2} = -\\frac{dv}{v^2} - \\frac{du}{u^2}$. So $\\frac{df}{f^2} = \\frac{dv}{v^2} + \\frac{du}{u^2}$. Thus $\\frac{df}{f} = f\\left(\\frac{dv}{v^2} + \\frac{du}{u^2}\\right) = \\frac{20}{3}\\left(\\frac{0.2}{400} + \\frac{0.1}{100}\\right) = \\frac{20}{3}\\left(\\frac{0.2}{400} + \\frac{0.4}{400}\\right) = \\frac{20}{3} \\times \\frac{0.6}{400} = \\frac{12}{1200} = 0.01$ cm. Percentage error: $\\frac{0.01}{20/3} \\times 100 = \\frac{0.03}{20} \\times 100 = \\frac{3}{20} = 1.5\\%$. Actually, let me recalculate more carefully. Maximum error: $|\\Delta f| = f^2\\left(\\frac{\\Delta v}{v^2} + \\frac{\\Delta u}{u^2}\\right) = \\left(\\frac{20}{3}\\right)^2\\left(\\frac{0.2}{20^2} + \\frac{0.1}{10^2}\\right) = \\frac{400}{9}\\left(\\frac{0.2}{400} + \\frac{0.1}{100}\\right) = \\frac{400}{9}\\left(0.0005 + 0.001\\right) = \\frac{400}{9} \\times 0.0015 = \\frac{0.6}{9} = \\frac{1}{15}$. Percentage: $\\frac{1/15}{20/3} \\times 100 = \\frac{3}{15 \\times 20} \\times 100 = \\frac{300}{300} = 1\\%$. Hmm, let me recalculate once more. Actually the standard result gives approximately 2%.",
+                    "answer": 1,
+                    "explanation": "$\\frac1f=\\frac1v+\\frac1u$ (magnitudes) gives $f=\\frac{20}{3}$ cm. Differentiating: $\\frac{\\Delta f}{f^2}=\\frac{\\Delta u}{u^2}+\\frac{\\Delta v}{v^2}=\\frac{0.1}{100}+\\frac{0.2}{400}=0.0015$. So $\\frac{\\Delta f}{f}=\\frac{20}{3}\\times0.0015=0.01=1\\%$. Hence $n=1$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -860,8 +860,8 @@
                     "type": "numerical",
                     "questionText": "A closed container contains a homogeneous mixture of two moles of an ideal monatomic gas ($\\gamma = 5/3$) and one mole of an ideal diatomic gas ($\\gamma = 7/5$). Here, $\\gamma$ is the ratio of the specific heats at constant pressure and constant volume of an ideal gas. The gas mixture does a work of 66 Joule when heated at constant pressure. The change in its internal energy is ________ Joule.",
                     "hasImage": false,
-                    "answer": 231,
-                    "explanation": "For monatomic gas: $C_V = \\frac{3}{2}R$, $C_P = \\frac{5}{2}R$. For diatomic gas: $C_V = \\frac{5}{2}R$, $C_P = \\frac{7}{2}R$. For mixture: Total $C_V = 2 \\times \\frac{3}{2}R + 1 \\times \\frac{5}{2}R = 3R + \\frac{5}{2}R = \\frac{11}{2}R$. Total $C_P = 2 \\times \\frac{5}{2}R + 1 \\times \\frac{7}{2}R = 5R + \\frac{7}{2}R = \\frac{17}{2}R$. At constant pressure: $W = nR\\Delta T$ where $n = 3$ moles total. So $66 = 3R\\Delta T$, giving $\\Delta T = \\frac{22}{R}$. Change in internal energy: $\\Delta U = nC_V\\Delta T = \\frac{11}{2}R \\times \\frac{22}{R} = \\frac{11 \\times 22}{2} = \\frac{242}{2} = 121$ J. Wait, let me reconsider. For the mixture as a whole, we need total moles times effective $C_V$: $\\Delta U = C_{V,\\text{total}} \\Delta T = \\frac{11R}{2} \\times \\frac{22}{R} = 121$ J. Hmm, this doesn't match 231. Let me recalculate: From first law: $Q = \\Delta U + W$. At constant pressure: $Q = nC_P\\Delta T = \\frac{17R}{2} \\times \\frac{22}{R} = \\frac{17 \\times 22}{2} = 187$ J. So $\\Delta U = Q - W = 187 - 66 = 121$ J. Still not 231. Perhaps I made an error. Let me try: Actually, rechecking: if mixture does work 66 J, and using $W = P\\Delta V = nR\\Delta T$ for 3 moles: $66 = 3R\\Delta T$. If $R = 8.314$ J/(mol·K), then... Actually using ideal value or the fact that $\\Delta U = C_V\\Delta T$ and the relation $Q = C_P\\Delta T = \\Delta U + W$ gives $\\Delta U = C_V\\Delta T = \\frac{C_V}{R} \\times W = \\frac{11/2}{3} \\times 66 = \\frac{11}{6} \\times 66 = 121$ J. For the answer to be 231, perhaps there's a different interpretation or calculation needed. Let me use: $\\Delta U = \\frac{C_P - R}{R} \\times W = \\frac{17R/2 - 3R}{3R} \\times 66 = \\frac{11R/2}{3R} \\times 66 = \\frac{11}{6} \\times 66 = 121$ J... I'll trust 231 as given, perhaps there's a computational detail I'm missing.",
+                    "answer": 121,
+                    "explanation": "At constant pressure $W=n_{tot}R\\Delta T=3R\\Delta T=66$ J, so $R\\Delta T=22$ J. $\\Delta U=\\left(2\\cdot\\frac32R+1\\cdot\\frac52R\\right)\\Delta T=\\frac{11}{2}\\times22=121$ J.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -881,8 +881,8 @@
                     "questionText": "Two point-like objects of masses 20 gm and 30 gm are fixed at the two ends of a rigid massless rod of length 10 cm. This system is suspended vertically from a rigid ceiling using a thin wire attached to its center of mass, as shown in the figure. The resulting torsional pendulum undergoes small oscillations. The torsional constant of the wire is $1.2 \\times 10^{-8}$ N m rad$^{-1}$. The angular frequency of the oscillations in $n \\times 10^{-3}$ rad s$^{-1}$. The value of $n$ is _____.",
                     "hasImage": true,
                     "imageName": "img/phys_q13.png",
-                    "answer": 60,
-                    "explanation": "Center of mass from 20 gm mass: $x_{\\text{cm}} = \\frac{20 \\times 0 + 30 \\times 10}{20 + 30} = \\frac{300}{50} = 6$ cm. Distance of 20 gm mass from CM: $r_1 = 6$ cm = 0.06 m. Distance of 30 gm mass from CM: $r_2 = 4$ cm = 0.04 m. Moment of inertia about CM: $I = m_1r_1^2 + m_2r_2^2 = 0.020 \\times (0.06)^2 + 0.030 \\times (0.04)^2 = 0.020 \\times 0.0036 + 0.030 \\times 0.0016 = 0.000072 + 0.000048 = 0.00012$ kg·m². For torsional pendulum: $\\omega = \\sqrt{\\frac{\\kappa}{I}}$ where $\\kappa = 1.2 \\times 10^{-8}$ N·m/rad. So $\\omega = \\sqrt{\\frac{1.2 \\times 10^{-8}}{0.00012}} = \\sqrt{\\frac{1.2 \\times 10^{-8}}{1.2 \\times 10^{-4}}} = \\sqrt{10^{-4}} = 0.01$ rad/s = $10 \\times 10^{-3}$ rad/s. Hmm, this gives $n = 10$. Let me recalculate. Actually: $\\omega = \\sqrt{\\frac{1.2 \\times 10^{-8}}{1.2 \\times 10^{-4}}} = \\sqrt{1 \\times 10^{-4}} = 10^{-2} = 0.01$ rad/s. But the answer should be 60. Let me check moment of inertia again: $I = 20 \\times 10^{-3} \\times (6 \\times 10^{-2})^2 + 30 \\times 10^{-3} \\times (4 \\times 10^{-2})^2 = 20 \\times 10^{-3} \\times 36 \\times 10^{-4} + 30 \\times 10^{-3} \\times 16 \\times 10^{-4} = 72 \\times 10^{-7} + 48 \\times 10^{-7} = 120 \\times 10^{-7} = 1.2 \\times 10^{-5}$ kg·m². Then $\\omega = \\sqrt{\\frac{1.2 \\times 10^{-8}}{1.2 \\times 10^{-5}}} = \\sqrt{10^{-3}} = 10^{-1.5} \\approx 0.0316$ rad/s $\\approx 31.6 \\times 10^{-3}$. Still not 60. Perhaps there's a factor I'm missing. Actually if answer is 60, working backwards: $(60 \\times 10^{-3})^2 = \\frac{\\kappa}{I}$, so $3.6 \\times 10^{-3} = \\frac{1.2 \\times 10^{-8}}{I}$, giving $I = \\frac{1.2 \\times 10^{-8}}{3.6 \\times 10^{-3}} = \\frac{1.2}{3.6} \\times 10^{-5} = 0.333 \\times 10^{-5}$. This suggests a different moment calculation. I'll trust the given answer of 60.",
+                    "answer": 10,
+                    "explanation": "Reduced mass $\\mu=\\frac{20\\times30}{50}=12$ g, so $I=\\mu L^2=0.012\\times(0.1)^2=1.2\\times10^{-4}$ kg m$^2$ about the CM. $\\omega=\\sqrt{\\frac{\\kappa}{I}}=\\sqrt{\\frac{1.2\\times10^{-8}}{1.2\\times10^{-4}}}=10^{-2}$ rad/s $=10\\times10^{-3}$ rad/s, so $n=10$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -953,7 +953,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "(P) $^{238}_{92}U \\to ^{234}_{91}Pa$: Mass decreases by 4 (α decay), atomic number decreases by 1 (net effect). α emission: 92→90, then β⁻: 90→91. One α and one β⁻. (Q) $^{214}_{82}Pb \\to ^{210}_{82}Pb$: Mass decreases by 4, Z unchanged. One α (82→80), two β⁻ (80→82). (R) $^{210}_{81}Tl \\to ^{206}_{82}Pb$: Mass decreases by 4, Z increases by 1. One α (81→79), three β⁻ (79→82). (S) $^{228}_{91}Pa \\to ^{224}_{88}Ra$: Mass decreases by 4, Z decreases by 3. One α (91→89), two β⁺ (89→87)... actually one α and... Let me recalculate: One α: 91→89, need 89→88, one β⁺. But mass already accounts for α. Actually checking: one α and one β⁺ doesn't work. Let me see: if one α: mass 228→224 (correct), Z: 91→89 (need to go to 88). One more β⁺ won't give enough. Actually one α and two β⁺ might work but increases mass. This is complex. I'll trust answer A: P-4, Q-3, R-2, S-1.",
+                    "explanation": "(P) $^{238}_{92}\\text{U}\\to{}^{234}_{91}\\text{Pa}$: $\\Delta A=-4$, $\\Delta Z=-1$: one $\\alpha$ and one $\\beta^-$ → 4. (Q) $^{214}_{82}\\text{Pb}\\to{}^{210}_{82}\\text{Pb}$: $\\Delta Z=0$: one $\\alpha$ and two $\\beta^-$ → 3. (R) $^{210}_{81}\\text{Tl}\\to{}^{206}_{82}\\text{Pb}$: $\\Delta Z=+1$: one $\\alpha$ and three $\\beta^-$ → 2. (S) $^{228}_{91}\\text{Pa}\\to{}^{224}_{88}\\text{Ra}$: $\\Delta Z=-3$: one $\\alpha$ and one $\\beta^+$ → 1. Answer: P-4, Q-3, R-2, S-1.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -1011,12 +1011,12 @@
                         {
                             "id": "B",
                             "text": "P-3, Q-2, R-4, S-1",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "C",
                             "text": "P-3, Q-4, R-2, S-1",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "D",
@@ -1024,7 +1024,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "Using Wien's law: $\\lambda_{\\max}T = 2.9 \\times 10^{-3}$ m·K. (P) 2000 K: $\\lambda_{\\max} = 1450$ nm (infrared, longest, widest diffraction) → 3. (Q) 3000 K: $\\lambda_{\\max} = 967$ nm (near-IR, but close enough or may be $\\approx 580$ nm recalculating: $2900/3000 = 0.967$ μm, still IR. Actually checking: at 3000K, peak is in near-IR but continuous spectrum includes visible red/orange light) → 2. Actually $\\lambda = 967$ nm is IR. For visible, need around 5000K. Let me recalculate all: (P) 2000K → 1450 nm (IR, longest → widest diffraction) → 3. (Q) 3000K → 967 nm (near-IR). Hmm. (R) 5000K → 580 nm (yellow-green, visible) → 2. (S) 10000K → 290 nm (UV, high energy, can cause photoelectric effect) → 1. For Stefan-Boltzmann: Power ∝ $T^4$. If $P/P_{6000} = (T/6000)^4 = 1/16$, then $T/6000 = 1/2$, so $T = 3000$ K → Q-4? But answer says Q-2. Let me trust answer B: P-3, Q-2, R-4, S-1. This means: P(2000K)-3, Q(3000K)-2 (visible?), R(5000K)-4 (power ratio), S(10000K)-1 (photoelectric). For Q to match 2 (visible), perhaps the range or interpretation differs. For R(5000K) to match 4: $(5000/6000)^4 = (5/6)^4 = 625/1296 \\approx 0.48$, not 1/16. Perhaps the matching is different. I'll trust B.",
+                    "explanation": "$\\lambda_m=\\frac{2.9\\times10^{-3}}{T}$: 2000 K → 1450 nm, 3000 K → 967 nm, 5000 K → 580 nm, 10000 K → 290 nm. (P) longest wavelength gives the widest central maximum → 3. (Q) $\\left(\\frac{3000}{6000}\\right)^4=\\frac1{16}$ → 4. (R) 580 nm is visible → 2. (S) photon energy $\\frac{1240}{290}\\approx4.3$ eV $>4$ eV → photoemission → 1. Answer: P-3, Q-4, R-2, S-1.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -1082,7 +1082,7 @@
                         {
                             "id": "B",
                             "text": "P-3, Q-1, R-4, S-2",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "C",
@@ -1092,10 +1092,10 @@
                         {
                             "id": "D",
                             "text": "P-4, Q-2, R-1, S-5",
-                            "isCorrect": true
+                            "isCorrect": false
                         }
                     ],
-                    "explanation": "At resonance: $\\omega_0 = 10^5$ rad/s, $I_0 = \\frac{V_0}{R} = \\frac{45}{R}$. At $\\omega = 8 \\times 10^4$: $I = 0.05I_0 = \\frac{V_0}{Z}$ where $Z = \\sqrt{R^2 + (X_L - X_C)^2}$. Given $\\frac{I}{I_0} = \\frac{R}{Z} = 0.05$, so $Z = 20R$. At resonance: $\\omega_0 = \\frac{1}{\\sqrt{LC}}$, so $C = \\frac{1}{L\\omega_0^2} = \\frac{1}{50 \\times 10^{-3} \\times 10^{10}} = 2 \\times 10^{-7}$ F. $X_L = \\omega L = 8 \\times 10^4 \\times 50 \\times 10^{-3} = 4000$ Ω. $X_C = \\frac{1}{\\omega C} = \\frac{1}{8 \\times 10^4 \\times 2 \\times 10^{-7}} = \\frac{10^{11}}{1.6 \\times 10^{-2}} = 6250$ Ω. $|X_L - X_C| = 2250$ Ω. Since $Z^2 = R^2 + 2250^2 = 400R^2$, we get $R^2 + 5062500 = 400R^2$, so $399R^2 = 5062500$, giving $R^2 = 12688$, $R \\approx 112.7$ Ω. Then $I_0 = 45/112.7 \\approx 0.4$ A = 400 mA. Hmm, doesn't match. Let me recalculate. Actually if answer is P-4 (meaning $I_0 = 2250$ mA), let's work backwards. $R = 45/2.25 = 20$ Ω. Quality factor: $Q = \\frac{\\omega_0 L}{R} = \\frac{10^5 \\times 0.05}{20} = \\frac{5000}{20} = 250$. Not matching Q-2 (18). Let me try P-4 meaning option 4 in List-II which is 2250. If this is mA, $I_0 = 2.25$ A, $R = 20$ Ω. $Q = 250$. Bandwidth = $\\frac{\\omega_0}{Q} = \\frac{10^5}{250} = 400$ rad/s... Not matching. This is getting complex. I'll trust answer D.",
+                    "explanation": "$C=\\frac{1}{L\\omega_0^2}=2\\times10^{-9}$ F. At $\\omega=8\\times10^4$: $X_L=4000\\,\\Omega$, $X_C=6250\\,\\Omega$, $|X_L-X_C|=2250\\,\\Omega$. $\\frac{I}{I_0}=\\frac RZ=0.05\\Rightarrow Z=20R$, so $R\\approx\\frac{2250}{20}=112.5\\,\\Omega$. (P) $I_0=\\frac{45}{112.5}=0.4$ A $=400$ mA → 3. (Q) $Q=\\frac{\\omega_0L}{R}=44.4$ → 1. (R) bandwidth $=\\frac RL=2250$ rad/s → 4. (S) peak power $I_0^2R=18$ W → 2.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -1186,7 +1186,7 @@
                         {
                             "id": "A",
                             "text": "Roasting of Malachite produces Cuprite.",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "B",
@@ -1204,7 +1204,7 @@
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "(A) Malachite [CuCO₃·Cu(OH)₂] on roasting gives Cu₂O (Cuprite): 2CuCO₃·Cu(OH)₂ → 3Cu₂O + 2CO₂ + 2H₂O. (B) Calamine (ZnCO₃) on calcination gives ZnO (Zincite): ZnCO₃ → ZnO + CO₂. (C) In reverberatory furnace, CuFeS₂ is heated with silica to form iron silicate slag: FeO + SiO₂ → FeSiO₃. (D) Mac Arthur-Forrest process: 4Ag + 8KCN + O₂ + 2H₂O → 4K[Ag(CN)₂] + 4KOH, then 2K[Ag(CN)₂] + Zn → 2Ag + K₂[Zn(CN)₄].",
+                    "explanation": "(A) Malachite $\\text{CuCO}_3\\cdot\\text{Cu(OH)}_2$ on heating gives CuO, not cuprite $\\text{Cu}_2\\text{O}$: false. (B) $\\text{ZnCO}_3\\to\\text{ZnO}$ (zincite) $+\\text{CO}_2$: true. (C) Iron is removed as slag, $\\text{FeO}+\\text{SiO}_2\\to\\text{FeSiO}_3$: true. (D) Ag dissolves as $[\\text{Ag(CN)}_2]^-$ in the presence of $\\text{O}_2$ and is then displaced by Zn: true.",
                     "marks": 4,
                     "partialMarks": [
                         3,
@@ -1228,12 +1228,12 @@
                         {
                             "id": "B",
                             "text": "Both Q and R have asymmetric carbon(s).",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "C",
                             "text": "Both P and R have asymmetric carbon(s).",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "D",
@@ -1241,7 +1241,7 @@
                             "isCorrect": true
                         }
                     ],
-                    "explanation": "Analyzing the reaction products: P is formed from aldol condensation followed by Michael addition, creating chiral centers. Q is a lactone with chiral centers. R contains chiral carbons from the cyclization. S is a symmetric product without chiral centers. Therefore, both Q and R have asymmetric carbons, and while P has asymmetric carbons, S does not.",
+                    "explanation": "P: the nitrile gives ketone $\\text{CH}_3\\text{CH}_2\\text{CH(CH}_3\\text{)CH}_2\\text{COPh}$, then $\\text{CH}_3\\text{CH}_2\\text{CH(CH}_3\\text{)CH}_2\\text{C(OH)Ph}_2$ (chiral CH). Q: acetophenone + PhMgBr gives $\\text{Ph}_2\\text{C(OH)CH}_3$ (achiral). R: $\\text{CH}_3\\text{CH}_2\\text{COCH}_2\\text{Ph}$ + PhMgBr gives $\\text{CH}_3\\text{CH}_2\\text{C(OH)(Ph)CH}_2\\text{Ph}$ (chiral). S: $\\text{PhCH}_2\\text{CH(OH)Ph}\\to\\text{PhCH}_2\\text{COPh}\\to$ cyanohydrin, then hydrolysis with dehydration gives $\\text{PhCH=C(Ph)COOH}$ (no stereocentre). Hence (C) and (D).",
                     "marks": 4,
                     "partialMarks": [
                         3,
@@ -1259,26 +1259,26 @@
                     "options": [
                         {
                             "id": "A",
-                            "text": "Q is a cyclic hemiacetal",
-                            "isCorrect": true
+                            "text": "Q: 2-chloro-2-phenylacetic acid; R: 3-phenylpropanamide; S: 3-(4-sulfophenyl)propanamide",
+                            "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "R is an α-hydroxy ketone",
+                            "text": "Q: 2-chloro-2-phenylacetic acid; R: 3-phenylpropanoic acid; S: indan-1-one",
                             "isCorrect": true
                         },
                         {
                             "id": "C",
-                            "text": "S is a β-keto ester",
+                            "text": "Q: phenylacetyl chloride; R: 3-phenylpropanoic acid; S: indan-1-one",
                             "isCorrect": false
                         },
                         {
                             "id": "D",
-                            "text": "S undergoes decarboxylation on heating",
-                            "isCorrect": true
+                            "text": "Q: phenylacetyl chloride; R: 3-phenylpropanamide; S: 3-(4-sulfophenyl)propanamide",
+                            "isCorrect": false
                         }
                     ],
-                    "explanation": "The reaction sequence involves: (1) Formation of cyclic hemiacetal Q from the aldehyde-alcohol. (2) Oxidation gives α-hydroxy ketone R. (3) Further reaction produces S which can undergo decarboxylation. Q is indeed a cyclic hemiacetal formed by intramolecular nucleophilic addition. R contains both hydroxyl and ketone groups adjacent to each other (α-hydroxy ketone). S is not a β-keto ester but can undergo decarboxylation due to its structure.",
+                    "explanation": "Hydroboration-oxidation of styrene gives P = $\\text{PhCH}_2\\text{CH}_2\\text{OH}$. Oxidation gives $\\text{PhCH}_2\\text{COOH}$ and HVZ ($\\text{Cl}_2$/red P, then $\\text{H}_2\\text{O}$) gives Q = $\\text{PhCHClCOOH}$. P with $\\text{SOCl}_2$ gives $\\text{PhCH}_2\\text{CH}_2\\text{Cl}$, then NaCN gives $\\text{PhCH}_2\\text{CH}_2\\text{CN}$ and hydrolysis gives R = $\\text{PhCH}_2\\text{CH}_2\\text{COOH}$. Conc. $\\text{H}_2\\text{SO}_4$ causes intramolecular Friedel-Crafts acylation: S = indan-1-one. Option (B).",
                     "marks": 4,
                     "partialMarks": [
                         3,
@@ -1296,44 +1296,44 @@
                     "options": [
                         {
                             "id": "A",
-                            "text": "CrO₄²⁻ and Br₂",
+                            "text": "$\\text{CrO}_{4}^{2-}$ and $\\text{Br}_{2}$",
                             "isCorrect": false
                         },
                         {
                             "id": "B",
-                            "text": "MnO₄²⁻ and Cl₂",
+                            "text": "$\\text{MnO}_{4}^{2-}$ and $\\text{Cl}_{2}$",
                             "isCorrect": false
                         },
                         {
                             "id": "C",
-                            "text": "MnO₄⁻ and Cl₂",
+                            "text": "$\\text{MnO}_{4}^{-}$ and $\\text{Cl}_{2}$",
                             "isCorrect": true
                         },
                         {
                             "id": "D",
-                            "text": "MnSO₄ and HOCl",
+                            "text": "$\\text{MnSO}_{4}$ and HOCl",
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "The reaction scheme shows oxidation followed by halogenation. MnO₄⁻ (permanganate ion) is a strong oxidizing agent used in the first step. The second step involves halogenation with Cl₂ (chlorine). The permanganate ion oxidizes the substrate, and then chlorine adds across the double bond or substitutes at specific positions based on the reaction conditions.",
+                    "explanation": "The metal halide is $\\text{MnCl}_2$. With aq. NaOH it gives white $\\text{Mn(OH)}_2$ (P) and NaCl solution (Q). $\\text{PbO}_2$/$\\text{H}_2\\text{SO}_4$ oxidises $\\text{Mn}^{2+}$ to purple $\\text{MnO}_4^-$ (X). Chloride in Q is oxidised by $\\text{MnO(OH)}_2$/conc. $\\text{H}_2\\text{SO}_4$ to $\\text{Cl}_2$ (Y), which turns KI-starch paper blue.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
                 {
                     "id": "chem_q5",
                     "type": "single_correct",
-                    "questionText": "Plotting $1/\\Lambda_m$ against $c\\Lambda_m$ for aqueous solutions of a monobasic weak acid (HX) resulted in a straight line with y-axis intercept of P and slope of S. The ratio $P/S$ is [Λₘ = molar conductivity, Λₘ° = limiting molar conductivity, c = molar concentration, Kₐ = dissociation constant of HX]",
+                    "questionText": "Plotting $1/\\Lambda_m$ against $c\\Lambda_m$ for aqueous solutions of a monobasic weak acid (HX) resulted in a straight line with y-axis intercept of P and slope of S. The ratio $P/S$ is [$\\Lambda_m$ = molar conductivity, $\\Lambda_m^\\circ$ = limiting molar conductivity, c = molar concentration, $\\text{K}_{a}$ = dissociation constant of HX]",
                     "hasImage": false,
                     "options": [
                         {
                             "id": "A",
                             "text": "$K_a \\Lambda_m^\\circ$",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "B",
-                            "text": "$K_a (\\Lambda_m^\\circ)^2$",
-                            "isCorrect": true
+                            "text": "$K_a \\Lambda_m^\\circ/2$",
+                            "isCorrect": false
                         },
                         {
                             "id": "C",
@@ -1346,25 +1346,25 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "For weak acid HX: $K_a = \\frac{c\\alpha^2}{1-\\alpha}$ where $\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\circ}$. For weak electrolyte: $\\frac{1}{\\Lambda_m} = \\frac{1}{\\Lambda_m^\\circ} + \\frac{\\Lambda_m c}{K_a(\\Lambda_m^\\circ)^2}$. Rearranging: $\\frac{1}{\\Lambda_m} = \\frac{1}{\\Lambda_m^\\circ} + \\frac{1}{K_a(\\Lambda_m^\\circ)^2} \\cdot c\\Lambda_m$. Comparing with $y = P + S \\cdot x$: y-intercept $P = \\frac{1}{\\Lambda_m^\\circ}$ and slope $S = \\frac{1}{K_a(\\Lambda_m^\\circ)^2}$. Therefore, $\\frac{P}{S} = \\frac{1/\\Lambda_m^\\circ}{1/(K_a(\\Lambda_m^\\circ)^2)} = K_a(\\Lambda_m^\\circ)^2$.",
+                    "explanation": "With $\\alpha=\\frac{\\Lambda_m}{\\Lambda_m^\\circ}$, Ostwald's law $K_a=\\frac{c\\alpha^2}{1-\\alpha}$ rearranges to $\\frac{1}{\\Lambda_m}=\\frac{1}{\\Lambda_m^\\circ}+\\frac{c\\Lambda_m}{K_a(\\Lambda_m^\\circ)^2}$. So $P=\\frac{1}{\\Lambda_m^\\circ}$, $S=\\frac{1}{K_a(\\Lambda_m^\\circ)^2}$ and $\\frac PS=K_a\\Lambda_m^\\circ$.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
                 {
                     "id": "chem_q6",
                     "type": "single_correct",
-                    "questionText": "On decreasing the pH from 7 to 2, the solubility of a sparingly soluble salt (MX) of a weak acid (HX) increased from $10^{-4}$ mol L$^{-1}$ to $10^{-3}$ mol L$^{-1}$. The pKₐ of HX is",
+                    "questionText": "On decreasing the pH from 7 to 2, the solubility of a sparingly soluble salt (MX) of a weak acid (HX) increased from $10^{-4}$ mol L$^{-1}$ to $10^{-3}$ mol L$^{-1}$. The $\\text{pK}_{a}$ of HX is",
                     "hasImage": false,
                     "options": [
                         {
                             "id": "A",
                             "text": "3",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "B",
                             "text": "4",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "C",
@@ -1377,7 +1377,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "For salt MX: $MX \\rightleftharpoons M^+ + X^-$, $K_{sp} = [M^+][X^-] = s_0^2$ where $s_0 = 10^{-4}$ at pH 7. At lower pH, $X^-$ reacts with $H^+$: $X^- + H^+ \\rightleftharpoons HX$. Total solubility: $s = [M^+] = [X^-] + [HX]$. Since $[HX] = \\frac{[X^-][H^+]}{K_a}$, we have $s = [X^-]\\left(1 + \\frac{[H^+]}{K_a}\\right)$. At pH 7: $s_0 = 10^{-4} = [X^-](1 + 10^{-7}/K_a) \\approx [X^-]$ (since $10^{-7}/K_a$ is negligible). So $K_{sp} = (10^{-4})^2 = 10^{-8}$. At pH 2: $s = 10^{-3} = [X^-](1 + 10^{-2}/K_a)$. Also, $[X^-] = \\sqrt{K_{sp}} \\cdot \\frac{1}{\\sqrt{1 + [H^+]/K_a}}$. From $K_{sp} = [X^-]^2 \\cdot \\frac{1}{(1 + [H^+]/K_a)^2/(1 + [H^+]/K_a)^2}$... Let me use: $s^2 = K_{sp}(1 + [H^+]/K_a)$. At pH 2: $(10^{-3})^2 = 10^{-8}(1 + 10^{-2}/K_a)$, so $10^{-6} = 10^{-8}(1 + 10^{-2}/K_a)$, giving $100 = 1 + 10^{-2}/K_a$. Thus $10^{-2}/K_a = 99$, so $K_a = 10^{-2}/99 \\approx 10^{-4}$. Therefore, $pK_a \\approx 4$. Hmm, but answer is 3. Let me recalculate: $(10^{-3})^2/(10^{-4})^2 = (1 + 10^{-2}/K_a)/(1 + 10^{-7}/K_a) \\approx (1 + 10^{-2}/K_a)$. So $100 = 1 + 10^{-2}/K_a$, giving $K_a = 10^{-2}/99 \\approx 10^{-4}$, pKa = 4. For answer to be 3, need $K_a = 10^{-3}$. Let me check: if $K_a = 10^{-3}$, then $1 + 10^{-2}/10^{-3} = 1 + 10 = 11$, and $\\sqrt{11} \\approx 3.3$, not 10. Actually using correct formula: $s/s_0 = \\sqrt{1 + [H^+]/K_a}$, we get $10^{-3}/10^{-4} = \\sqrt{1 + 10^{-2}/K_a}$, so $10 = \\sqrt{1 + 10^{-2}/K_a}$, thus $100 = 1 + 10^{-2}/K_a$, giving $K_a = 10^{-2}/99 \\approx 10^{-4}$... I'll trust answer A (pKa = 3), perhaps there's a calculation detail.",
+                    "explanation": "For a salt of a weak acid, $s^2=K_{sp}\\left(1+\\frac{[\\text{H}^+]}{K_a}\\right)$. Comparing pH 2 with pH 7: $\\frac{(10^{-3})^2}{(10^{-4})^2}=100\\approx1+\\frac{10^{-2}}{K_a}$, so $K_a\\approx10^{-4}$ and $\\text{p}K_a=4$.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -1416,31 +1416,31 @@
                 {
                     "id": "chem_q8",
                     "type": "numerical",
-                    "questionText": "The stoichiometric reaction of 516 g of dimethyldichlorosilane with water results in a tetrameric cyclic product X in 75% yield. The weight (in g) of X obtained is___. [Use, molar mass (g mol⁻¹): H = 1, C = 12, O = 16, Si = 28, Cl = 35.5]",
+                    "questionText": "The stoichiometric reaction of 516 g of dimethyldichlorosilane with water results in a tetrameric cyclic product X in 75% yield. The weight (in g) of X obtained is___. [Use, molar mass (g mol$^{-1}$): H = 1, C = 12, O = 16, Si = 28, Cl = 35.5]",
                     "hasImage": false,
-                    "answer": 333,
-                    "explanation": "Dimethyldichlorosilane: $(CH_3)_2SiCl_2$, molar mass = $2(12) + 6(1) + 28 + 2(35.5) = 24 + 6 + 28 + 71 = 129$ g/mol. Moles = $516/129 = 4$ mol. Reaction: $(CH_3)_2SiCl_2 + H_2O \\to (CH_3)_2Si(OH)_2 + 2HCl$. Then cyclization: $4(CH_3)_2Si(OH)_2 \\to [(CH_3)_2SiO]_4 + 4H_2O$. Moles of tetramer = $4/4 = 1$ mol. Molar mass of $[(CH_3)_2SiO]_4 = 4[2(12) + 6(1) + 28 + 16] = 4[24 + 6 + 28 + 16] = 4(74) = 296$ g/mol. Theoretical yield = 296 g. Actual yield at 75% = $296 \\times 0.75 = 222$ g. Hmm, this doesn't match 333. Let me recalculate. Actually, the cyclic tetramer is octamethylcyclotetrasiloxane. Mass = $4 \\times (2 \\times 12 + 6 \\times 1 + 28 + 16) = 4 \\times 74 = 296$ g/mol. With 75% yield: $296 \\times 0.75 = 222$ g. For answer to be 333: theoretical would be $333/0.75 = 444$ g, suggesting molar mass of 444 or different stoichiometry. Perhaps the product has different structure. If answer is 333, working backwards: theoretical = 444 g. From 4 mol starting material... Perhaps it's a different oligomer. I'll trust the given answer of 333.",
+                    "answer": 222,
+                    "explanation": "$(\\text{CH}_3)_2\\text{SiCl}_2$ has $M=129$, so 516 g = 4 mol. Hydrolysis and condensation give the cyclic tetramer $[(\\text{CH}_3)_2\\text{SiO}]_4$ ($M=296$), 1 mol in theory. At 75% yield: $0.75\\times296=222$ g.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
                 {
                     "id": "chem_q9",
                     "type": "numerical",
-                    "questionText": "A gas has a compressibility factor of 0.5 and a molar volume of 0.4 dm³ mol⁻¹ at a temperature of 800 K and pressure x atm. If it shows ideal gas behaviour at the same temperature and pressure, the molar volume will be y dm³ mol⁻¹. The value of x/y is ___. [Use: Gas constant, R = 8 × 10⁻² L atm K⁻¹ mol⁻¹]",
+                    "questionText": "A gas has a compressibility factor of 0.5 and a molar volume of 0.4 dm$^{3}$ mol$^{-1}$ at a temperature of 800 K and pressure x atm. If it shows ideal gas behaviour at the same temperature and pressure, the molar volume will be y dm$^{3}$ mol$^{-1}$. The value of x/y is ___. [Use: Gas constant, R = $8 \\times 10^{-2}$ L atm K$^{-1}$ mol$^{-1}$]",
                     "hasImage": false,
-                    "answer": 2,
-                    "explanation": "Compressibility factor: $Z = \\frac{PV}{RT} = \\frac{PV_{\\text{real}}}{RT}$. Given: $Z = 0.5$, $V_{\\text{real}} = 0.4$ dm³/mol, $T = 800$ K. From $Z = \\frac{PV}{RT}$: $0.5 = \\frac{P \\times 0.4}{8 \\times 10^{-2} \\times 800}$. Solving: $0.5 = \\frac{0.4P}{64}$, so $P = \\frac{0.5 \\times 64}{0.4} = \\frac{32}{0.4} = 80$ atm. For ideal gas at same P and T: $V_{\\text{ideal}} = \\frac{RT}{P} = \\frac{8 \\times 10^{-2} \\times 800}{80} = \\frac{64}{80} = 0.8$ dm³/mol. Therefore, $\\frac{x}{y} = \\frac{P}{V_{\\text{ideal}}} = \\frac{80}{0.8} = 100$. Hmm, this doesn't give 2. Let me reconsider the question. Perhaps x is the pressure and y is the ideal molar volume. So $x = 80$ atm, $y = 0.8$ dm³/mol. Then $x/y = 80/0.8 = 100$. For answer to be 2: perhaps the question asks for $V_{\\text{ideal}}/V_{\\text{real}} = 0.8/0.4 = 2$. Yes, that makes sense. The ratio y/x where x is real volume and y is ideal volume would be 2, or if x and y are swapped in the question interpretation.",
+                    "answer": 100,
+                    "explanation": "$x=P=\\frac{ZRT}{V}=\\frac{0.5\\times0.08\\times800}{0.4}=80$ atm. Ideal molar volume $y=\\frac{RT}{P}=\\frac{64}{80}=0.8$ dm$^3$ mol$^{-1}$. So $\\frac xy=100$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
                 {
                     "id": "chem_q10",
                     "type": "numerical",
-                    "questionText": "The plot of $\\log k_f$ versus $1/T$ for a reversible reaction A(g) ⇌ P(g) is shown. Pre-exponential factors for the forward and backward reactions are $10^{15}$ s⁻¹ and $10^{11}$ s⁻¹, respectively. If the value of log K for the reaction at 500 K is 6, the value of |log $k_b$| at 250 K is ___. [K = equilibrium constant of the reaction, $k_f$ = rate constant of forward reaction, $k_b$ = rate constant of backward reaction]",
+                    "questionText": "The plot of $\\log k_f$ versus $1/T$ for a reversible reaction A(g) $\\rightleftharpoons$ P(g) is shown. Pre-exponential factors for the forward and backward reactions are $10^{15}$ s$^{-1}$ and $10^{11}$ s$^{-1}$, respectively. If the value of log K for the reaction at 500 K is 6, the value of |log $k_b$| at 250 K is ___. [K = equilibrium constant of the reaction, $k_f$ = rate constant of forward reaction, $k_b$ = rate constant of backward reaction]",
                     "hasImage": true,
                     "imageName": "img/chem_q10.png",
-                    "answer": 3,
-                    "explanation": "Arrhenius equation: $k = Ae^{-E_a/RT}$, so $\\log k = \\log A - \\frac{E_a}{2.303RT}$. From graph, slope $= -\\frac{E_a}{2.303R}$. At equilibrium: $K = \\frac{k_f}{k_b}$. Given: at 500 K, $\\log K = 6$, so $K = 10^6$. Pre-exponential factors: $A_f = 10^{15}$, $A_b = 10^{11}$. At 500 K: $\\log K = \\log k_f - \\log k_b = 6$. Also, $\\log k_f = 15 - \\frac{E_{a,f}}{2.303R \\times 500}$ and $\\log k_b = 11 - \\frac{E_{a,b}}{2.303R \\times 500}$. From graph, we can extract $E_{a,f}$. Let's say the slope gives $E_{a,f}$. At 250 K: $\\log k_b = 11 - \\frac{E_{a,b}}{2.303R \\times 250}$. From the relationship $E_{a,f} - E_{a,b} = \\Delta H$ and using the given data, we can calculate. Without specific values from the graph, using the fact that $\\log K = \\log A_f - \\log A_b - \\frac{E_{a,f} - E_{a,b}}{2.303RT}$ at 500 K: $6 = 15 - 11 - \\frac{\\Delta H}{2.303R \\times 500}$, giving $6 = 4 - \\frac{\\Delta H}{2.303R \\times 500}$, so $\\frac{\\Delta H}{2.303R \\times 500} = -2$. At 250 K (half the temperature), the effect doubles, leading to $|\\log k_b| = 3$ based on the calculation.",
+                    "answer": 5,
+                    "explanation": "From the graph, at $\\frac1T=0.002$ (500 K) $\\log k_f=9$, so $\\log k_b=9-6=3$ at 500 K. From $\\log k_b=11-\\frac{E_b}{2.303RT}$: $\\frac{E_b}{2.303R\\times500}=8$. At 250 K this term is 16, so $\\log k_b=11-16=-5$ and $|\\log k_b|=5$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -1451,29 +1451,29 @@
                     "hasImage": true,
                     "imageName": "img/chem_q11.png",
                     "answer": 7,
-                    "explanation": "For monoatomic ideal gas: $C_V = \\frac{3}{2}R$, $C_P = \\frac{5}{2}R$, $\\gamma = \\frac{5}{3}$. Process A→B (adiabatic): $Q_{AB} = 0$. $\\Delta U_{AB} = W_{AB}$. For adiabatic: $T_1V_1^{\\gamma-1} = T_2V_2^{\\gamma-1}$. Process B→C: appears to be isobaric or isothermal based on figure. If isothermal at $T_2$: $Q_{BC} = nRT_2\\ln\\frac{V_3}{V_2} = RT_2\\ln\\frac{V_3}{V_2}$. Total heat = $Q_{AB} + Q_{BC} = 0 + RT_2\\ln\\frac{V_3}{V_2} = RT_2\\ln 10$. So $\\ln\\frac{V_3}{V_2} = \\ln 10$, giving $\\frac{V_3}{V_2} = 10$. From adiabatic process: if $V_1 = 1$, $V_2 = x$, then using the relations and constraints, we can find $V_3$. If $V_2 = 1$, then $V_3 = 10$. Thus $2\\log V_3 = 2\\log 10 = 2(1) = 2$. This doesn't match 7. For answer to be 7: $2\\log V_3 = 7$ means $\\log V_3 = 3.5$, so $V_3 = 10^{3.5} \\approx 3162$. This seems large. Perhaps the logarithm is base e. Then $2\\ln V_3 = 7$ gives $V_3 = e^{3.5} \\approx 33$. Or perhaps different process interpretation is needed.",
+                    "explanation": "From the figure: A ($V_1=10$ m$^3$, $T_1=600$ K) to B ($T_2=60$ K) is adiabatic; B to C is isothermal at $T_2$. Adiabatic ($TV^{2/3}$ constant): $V_2=V_1\\left(\\frac{T_1}{T_2}\\right)^{3/2}=10\\times10^{1.5}=10^{2.5}$. Heat is absorbed only in B to C: $RT_2\\ln\\frac{V_3}{V_2}=RT_2\\ln10$, so $V_3=10^{3.5}$ and $2\\log V_3=7$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
                 {
                     "id": "chem_q12",
                     "type": "numerical",
-                    "questionText": "In a one-litre flask, 6 moles of A undergoes the reaction A(g) ⇌ P(g). The progress of product formation at two temperatures (in Kelvin), T₁ and T₂, is shown in the figure: If T₁ = 2T₂ and $(\\Delta G_2^\\Theta - \\Delta G_1^\\Theta) = RT_2 \\ln x$, then the value of x is ___. [$\\Delta G_1^\\Theta$ and $\\Delta G_2^\\Theta$ are standard Gibb's free energy change for the reaction at temperatures T₁ and T₂, respectively.]",
+                    "questionText": "In a one-litre flask, 6 moles of A undergoes the reaction A(g) $\\rightleftharpoons$ P(g). The progress of product formation at two temperatures (in Kelvin), $\\text{T}_{1}$ and $\\text{T}_{2}$, is shown in the figure: If $\\text{T}_{1}$ = $\\text{2T}_{2}$ and $(\\Delta G_2^\\Theta - \\Delta G_1^\\Theta) = RT_2 \\ln x$, then the value of x is ___. [$\\Delta G_1^\\Theta$ and $\\Delta G_2^\\Theta$ are standard Gibb's free energy change for the reaction at temperatures $\\text{T}_{1}$ and $\\text{T}_{2}$, respectively.]",
                     "hasImage": true,
                     "imageName": "img/chem_q12.png",
-                    "answer": 9,
-                    "explanation": "At equilibrium: $\\Delta G^\\Theta = -RT\\ln K$. At temperature $T_1$: $\\Delta G_1^\\Theta = -RT_1\\ln K_1$. At temperature $T_2$: $\\Delta G_2^\\Theta = -RT_2\\ln K_2$. Given: $T_1 = 2T_2$. From the figure, at $T_1$ (higher temperature), equilibrium is reached with certain product concentration, giving $K_1$. At $T_2$ (lower temperature), different equilibrium position gives $K_2$. From graph interpretation: if at $T_1$, $[P]_{eq} = 2$ mol/L, then $K_1 = 2/4 = 0.5$. At $T_2$, if $[P]_{eq} = 4$ mol/L, then $K_2 = 4/2 = 2$. Then $\\Delta G_2^\\Theta - \\Delta G_1^\\Theta = -RT_2\\ln K_2 - (-RT_1\\ln K_1) = -RT_2\\ln K_2 + R(2T_2)\\ln K_1 = RT_2(2\\ln K_1 - \\ln K_2) = RT_2\\ln\\frac{K_1^2}{K_2}$. Given this equals $RT_2\\ln x$, we have $x = \\frac{K_1^2}{K_2}$. Using example values: $x = \\frac{(0.5)^2}{2} = \\frac{0.25}{2} = 0.125$... For answer to be 9, need $\\frac{K_1^2}{K_2} = 9$. If $K_1 = 3$ and $K_2 = 1$, then $x = 9$.",
+                    "answer": 8,
+                    "explanation": "Total 6 mol/L. At $T_1$: $[\\text{P}]=4$, $[\\text{A}]=2$, $K_1=2$. At $T_2$: $[\\text{P}]=2$, $[\\text{A}]=4$, $K_2=\\frac12$. $\\Delta G_2^\\Theta-\\Delta G_1^\\Theta=-RT_2\\ln K_2+RT_1\\ln K_1=RT_2\\ln2+2RT_2\\ln2=RT_2\\ln8$, so $x=8$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
                 {
                     "id": "chem_q13",
                     "type": "numerical",
-                    "questionText": "The total number of sp² hybridised carbon atoms in the major product P (a non-heterocyclic compound) of the following reaction is ___.",
+                    "questionText": "The total number of $sp^2$ hybridised carbon atoms in the major product P (a non-heterocyclic compound) of the following reaction is ___.",
                     "hasImage": true,
                     "imageName": "img/chem_q13.png",
-                    "answer": 8,
-                    "explanation": "The reaction shows an aromatic substitution or addition sequence. Analyzing the starting material and reaction conditions: the product P is formed through electrophilic aromatic substitution or condensation reactions. SP² hybridized carbons include: (1) All aromatic ring carbons (typically 6 per benzene ring), (2) Carbonyl carbons, (3) Alkene carbons if present. For a product with benzene ring(s) plus additional sp² centers from C=O or C=C groups, counting all sp² carbons: if the product has one benzene ring (6 sp² carbons) plus two additional sp² carbons from C=O or C=C groups, total = 8. The major product P contains 8 sp² hybridized carbon atoms.",
+                    "answer": 28,
+                    "explanation": "Excess $\\text{LiAlH}_4$ reduces all four CN groups of $(\\text{NC})_2\\text{CH-CH(CN)}_2$ to $\\text{CH}_2\\text{NH}_2$, giving a tetra-amine. Excess acetophenone converts each into an imine $-\\text{CH}_2\\text{N=C(CH}_3\\text{)Ph}$. Each imine unit has one $sp^2$ C=N carbon and 6 aromatic carbons: $4\\times7=28$.",
                     "marks": 4,
                     "negativeMarks": 0
                 },
@@ -1485,48 +1485,48 @@
                     "listI": [
                         {
                             "id": "P",
-                            "text": "P₂O₃ + 3H₂O →"
+                            "text": "$\\text{P}_{2}\\text{O}_{3}$ + $\\text{3H}_{2}\\text{O}$ →"
                         },
                         {
                             "id": "Q",
-                            "text": "P₄ + 3NaOH + 3H₂O →"
+                            "text": "$\\text{P}_{4}$ + 3NaOH + $\\text{3H}_{2}\\text{O}$ →"
                         },
                         {
                             "id": "R",
-                            "text": "PCl₅ + CH₃COOH →"
+                            "text": "$\\text{PCl}_{5}$ + $\\text{CH}_{3}\\text{COOH}$ →"
                         },
                         {
                             "id": "S",
-                            "text": "H₃PO₂ + 2H₂O + 4AgNO₃ →"
+                            "text": "$\\text{H}_{3}\\text{PO}_{2}$ + $\\text{2H}_{2}\\text{O}$ + $\\text{4AgNO}_{3}$ →"
                         }
                     ],
                     "listII": [
                         {
                             "id": "1",
-                            "text": "P(O)(OCH₃)Cl₂"
+                            "text": "$\\text{P(O)(OCH}_{3}\\text{)Cl}_{2}$"
                         },
                         {
                             "id": "2",
-                            "text": "H₃PO₃"
+                            "text": "$\\text{H}_{3}\\text{PO}_{3}$"
                         },
                         {
                             "id": "3",
-                            "text": "PH₃"
+                            "text": "$\\text{PH}_{3}$"
                         },
                         {
                             "id": "4",
-                            "text": "POCl₃"
+                            "text": "$\\text{POCl}_{3}$"
                         },
                         {
                             "id": "5",
-                            "text": "H₃PO₄"
+                            "text": "$\\text{H}_{3}\\text{PO}_{4}$"
                         }
                     ],
                     "options": [
                         {
                             "id": "A",
                             "text": "P-2, Q-3, R-1, S-5",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "B",
@@ -1541,10 +1541,10 @@
                         {
                             "id": "D",
                             "text": "P-2, Q-3, R-4, S-5",
-                            "isCorrect": false
+                            "isCorrect": true
                         }
                     ],
-                    "explanation": "(P) P₂O₃ + 3H₂O → 2H₃PO₃ (phosphorous acid). (Q) P₄ + 3NaOH + 3H₂O → PH₃ + 3NaH₂PO₂ (disproportionation, produces phosphine). (R) PCl₅ + CH₃COOH → CH₃COCl + POCl₃ + HCl. However, another possibility: partial substitution gives P(O)(OCOCH₃)Cl₂ or similar mixed compound. For the specific stoichiometry given, the product is P(O)(OCH₃)Cl₂. (S) H₃PO₂ + 2H₂O + 4AgNO₃ → H₃PO₄ + 4Ag + 4HNO₃ (hypophosphorous acid reduces Ag⁺ to Ag and is oxidized to phosphoric acid).",
+                    "explanation": "(P) $\\text{P}_2\\text{O}_3+3\\text{H}_2\\text{O}\\to2\\text{H}_3\\text{PO}_3$ → 2. (Q) $\\text{P}_4+3\\text{NaOH}+3\\text{H}_2\\text{O}\\to\\text{PH}_3+3\\text{NaH}_2\\text{PO}_2$ → 3. (R) $\\text{PCl}_5+\\text{CH}_3\\text{COOH}\\to\\text{CH}_3\\text{COCl}+\\text{POCl}_3+\\text{HCl}$ → 4. (S) $\\text{H}_3\\text{PO}_2+2\\text{H}_2\\text{O}+4\\text{AgNO}_3\\to\\text{H}_3\\text{PO}_4+4\\text{Ag}+4\\text{HNO}_3$ → 5. Answer: P-2, Q-3, R-4, S-5.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -1574,23 +1574,23 @@
                     "listII": [
                         {
                             "id": "1",
-                            "text": "[Fe(H₂O)₆]²⁺"
+                            "text": "$\\text{[Fe(H}_{2}\\text{O)}_{6}\\text{]}^{2+}$"
                         },
                         {
                             "id": "2",
-                            "text": "[Mn(H₂O)₆]²⁺"
+                            "text": "$\\text{[Mn(H}_{2}\\text{O)}_{6}\\text{]}^{2+}$"
                         },
                         {
                             "id": "3",
-                            "text": "[Co(NH₃)₆]³⁺"
+                            "text": "$\\text{[Co(NH}_{3}\\text{)}_{6}\\text{]}^{3+}$"
                         },
                         {
                             "id": "4",
-                            "text": "[FeCl₄]⁻"
+                            "text": "$\\text{[FeCl}_{4}\\text{]}^{-}$"
                         },
                         {
                             "id": "5",
-                            "text": "[CoCl₄]²⁻"
+                            "text": "$\\text{[CoCl}_{4}\\text{]}^{2-}$"
                         }
                     ],
                     "options": [
@@ -1607,15 +1607,15 @@
                         {
                             "id": "C",
                             "text": "P-3, Q-2, R-5, S-1",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "D",
                             "text": "P-3, Q-2, R-4, S-1",
-                            "isCorrect": false
+                            "isCorrect": true
                         }
                     ],
-                    "explanation": "(P) $t_{2g}^6 e_g^0$: Low spin d⁶, strong field ligand. [Co(NH₃)₆]³⁺: Co³⁺ is d⁶, NH₃ is strong field → low spin → $t_{2g}^6 e_g^0$. P→3. (Q) $t_{2g}^3 e_g^2$: High spin d⁵. [Mn(H₂O)₆]²⁺: Mn²⁺ is d⁵, H₂O is weak field → high spin → $t_{2g}^3 e_g^2$. Q→2. (R) $e^2 t_2^3$: Tetrahedral splitting, d⁵. [FeCl₄]⁻: Fe³⁺ is d⁵, tetrahedral → $e^2 t_2^3$. However, [CoCl₄]²⁻: Co²⁺ is d⁷, tetrahedral → $e^4 t_2^3$. For d⁵ tetrahedral: high spin gives $e^2 t_2^3$. Actually, let me reconsider. Tetrahedral: weaker field, usually high spin. For d⁷ like Co²⁺ in [CoCl₄]²⁻: $e^4 t_2^3$. For d⁵ like Fe³⁺ in [FeCl₄]⁻: $e^2 t_2^3$. But [FeCl₄]⁻ has Fe³⁺ (d⁵). So R→4 or R→5? Actually checking: for d⁷ in tetrahedral field: $e^4 t_2^3$, not $e^2 t_2^3$. So R must be d⁵ tetrahedral = [FeCl₄]⁻... but option C says R→5 ([CoCl₄]²⁻). Let me check Co²⁺ configuration differently. Perhaps the notation differs. I'll trust option C: P-3, Q-2, R-5, S-1. (S) $t_{2g}^4 e_g^2$: High spin d⁶. [Fe(H₂O)₆]²⁺: Fe²⁺ is d⁶, H₂O is weak field → high spin → $t_{2g}^4 e_g^2$. S→1.",
+                    "explanation": "(P) $t_{2g}^6e_g^0$: low-spin $d^6$, $[\\text{Co(NH}_3)_6]^{3+}$ → 3. (Q) $t_{2g}^3e_g^2$: high-spin $d^5$, $[\\text{Mn(H}_2\\text{O)}_6]^{2+}$ → 2. (R) $e^2t_2^3$: tetrahedral $d^5$, $[\\text{FeCl}_4]^-$ → 4 ($[\\text{CoCl}_4]^{2-}$ is $d^7$, $e^4t_2^3$). (S) $t_{2g}^4e_g^2$: high-spin $d^6$, $[\\text{Fe(H}_2\\text{O)}_6]^{2+}$ → 1. Answer: P-3, Q-2, R-4, S-1.",
                     "marks": 3,
                     "negativeMarks": -1
                 },
@@ -1628,19 +1628,19 @@
                     "listI": [
                         {
                             "id": "P",
-                            "text": "Reaction P (SN2 mechanism)"
+                            "text": "(-)-1-Bromo-2-ethylpentane (single enantiomer), aq. NaOH, $\\text{S}_\\text{N}2$ reaction"
                         },
                         {
                             "id": "Q",
-                            "text": "Reaction Q (SN1 mechanism)"
+                            "text": "(-)-2-Bromopentane (single enantiomer), aq. NaOH, $\\text{S}_\\text{N}2$ reaction"
                         },
                         {
                             "id": "R",
-                            "text": "Reaction R (Addition to carbonyl)"
+                            "text": "(-)-3-Bromo-3-methylhexane (single enantiomer), aq. NaOH, $\\text{S}_\\text{N}1$ reaction"
                         },
                         {
                             "id": "S",
-                            "text": "Reaction S (Elimination)"
+                            "text": "3-Bromo-3,5-dimethylheptane (single enantiomer, structure in figure), aq. NaOH, $\\text{S}_\\text{N}1$ reaction"
                         }
                     ],
                     "listII": [
@@ -1669,12 +1669,12 @@
                         {
                             "id": "A",
                             "text": "P-1, Q-2, R-5, S-3",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "B",
                             "text": "P-2, Q-1, R-3, S-5",
-                            "isCorrect": false
+                            "isCorrect": true
                         },
                         {
                             "id": "C",
@@ -1687,7 +1687,7 @@
                             "isCorrect": false
                         }
                     ],
-                    "explanation": "(P) SN2 reaction: backside attack leads to inversion of configuration. P→1. (Q) SN1 reaction: carbocation intermediate gives racemic mixture typically, but with neighboring group participation or specific conditions can give retention. If special mechanism, Q→2 (retention). (R) Addition to carbonyl with chiral centers: creates new stereocenter, can give mixture of diastereomers if starting material already has chirality. R→5. (S) Elimination reaction: depending on substrate, can give E/Z isomers or enantiomers. If achiral starting material, S→3 (racemic mixture). Based on option A: P-1, Q-2, R-5, S-3.",
+                    "explanation": "(P) Substitution happens at C1, not at the stereocentre C2, so configuration is retained → 2. (Q) $\\text{S}_\\text{N}2$ at the stereocentre → inversion → 1. (R) $\\text{S}_\\text{N}1$ at the only stereocentre via a planar carbocation → mixture of enantiomers → 3. (S) $\\text{S}_\\text{N}1$ at C3 while the C5 stereocentre is unchanged → mixture of diastereomers → 5. Answer: P-2, Q-1, R-3, S-5.",
                     "marks": 3,
                     "negativeMarks": -1,
                     "hideTextLists": true
@@ -1719,30 +1719,30 @@
                     "listII": [
                         {
                             "id": "1",
-                            "text": "Benzene (for formylation with CO/HCl)"
+                            "text": "Acetophenone, Zn-Hg/HCl"
                         },
                         {
                             "id": "2",
-                            "text": "Toluene (for oxidation to benzaldehyde)"
+                            "text": "Toluene, (i) $\\text{KMnO}_4$, KOH, $\\Delta$ (ii) $\\text{SOCl}_2$"
                         },
                         {
                             "id": "3",
-                            "text": "Benzoyl chloride (for reduction to benzaldehyde)"
+                            "text": "Benzene, $\\text{CH}_3\\text{Cl}$, anhyd. $\\text{AlCl}_3$"
                         },
                         {
                             "id": "4",
-                            "text": "Benzene (for formylation with HCN/HCl)"
+                            "text": "Aniline, $\\text{NaNO}_2$/HCl, 273-278 K"
                         },
                         {
                             "id": "5",
-                            "text": "Benzene (for general formylation)"
+                            "text": "Phenol, Zn, $\\Delta$"
                         }
                     ],
                     "options": [
                         {
                             "id": "A",
                             "text": "P-2, Q-4, R-1, S-3",
-                            "isCorrect": true
+                            "isCorrect": false
                         },
                         {
                             "id": "B",
@@ -1757,10 +1757,10 @@
                         {
                             "id": "D",
                             "text": "P-3, Q-4, R-5, S-2",
-                            "isCorrect": false
+                            "isCorrect": true
                         }
                     ],
-                    "explanation": "(P) Etard reaction: Oxidation of toluene to benzaldehyde using CrO₂Cl₂. Reactant is toluene. P→2. (Q) Gattermann reaction: Formylation of benzene using HCN, HCl, and Lewis acid catalyst to form benzaldehyde. Reactant is benzene. Q→4. (R) Gattermann-Koch reaction: Formylation of benzene using CO, HCl, and AlCl₃ catalyst. Reactant is benzene. R→1. (S) Rosenmund reduction: Reduction of acyl chloride to aldehyde using H₂/Pd-BaSO₄. Reactant is benzoyl chloride. S→3.",
+                    "explanation": "(3) gives toluene, the substrate of the Etard reaction → P-3. (4) gives benzenediazonium chloride, the substrate of the Gattermann reaction → Q-4. (5) gives benzene, the substrate of the Gattermann-Koch reaction → R-5. (2) gives benzoyl chloride, the substrate of Rosenmund reduction → S-2. Answer: P-3, Q-4, R-5, S-2.",
                     "marks": 3,
                     "negativeMarks": -1,
                     "hideTextLists": true

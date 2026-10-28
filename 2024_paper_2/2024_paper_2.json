@@ -40,7 +40,7 @@
         {
           "id": "math_q2",
           "type": "single_correct",
-          "questionText": "Let $$S = \\left\\{(x, y) \\in \\mathbb{R}^2 : x \\ge 0, y \\ge 0, y^2 \\le 4x, y^2 \\le 12 - 2x \\text{ and } 3y \\le 8x + 5\\sqrt{8}\\right\\}$$ If the area of the region $S$ is $\\beta\\sqrt{2}$, then $\\beta$ is equal to",
+          "questionText": "Let $$S = \\left\\{(x, y) \\in \\mathbb{R}^2 : x \\ge 0, y \\ge 0, y^2 \\le 4x, y^2 \\le 12 - 2x \\text{ and } 3y + \\sqrt{8}x \\le 5\\sqrt{8}\\right\\}$$ If the area of the region $S$ is $\\beta\\sqrt{2}$, then $\\beta$ is equal to",
           "hasImage": false,
           "options": [
             {
@@ -64,7 +64,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "The parabolas $y^2 = 4x$ and $y^2 = 12 - 2x$ intersect at $4x = 12 - 2x \\implies 6x = 12 \\implies x = 2$, where $y = \\sqrt{8} = 2\\sqrt{2}$. The region $S$ in the first quadrant is bounded by $y = \\sqrt{4x} = 2\\sqrt{x}$ from $x = 0$ to $x = 2$, and $y = \\sqrt{12 - 2x}$ from $x = 2$ to $x = 6$. The line $3y \\le 8x + 5\\sqrt{8}$ passes above the region. Computing the area gives $\\text{Area} = \\int_0^2 2\\sqrt{x}\\,dx + \\int_2^6 \\sqrt{12 - 2x}\\,dx = \\frac{17\\sqrt{2}}{3}$. Equating to $\\beta\\sqrt{2}$ yields $\\beta = \\frac{17}{3}$.",
+          "explanation": "$y^2 = 4x$ and $y^2 = 12 - 2x$ meet at $(2, 2\\sqrt{2})$, and the line $3y + \\sqrt{8}x = 5\\sqrt{8}$, i.e. $y = \\frac{2\\sqrt{2}(5-x)}{3}$, also passes through $(2, 2\\sqrt{2})$ and meets $y = 0$ at $x = 5$.\nFor $0 \\le x \\le 2$ the region is bounded above by $y = 2\\sqrt{x}$; for $2 \\le x \\le 5$ it is bounded above by the line, which lies below $y^2 = 12 - 2x$ there.\n$$\\text{Area} = \\int_0^2 2\\sqrt{x}\\,dx + \\int_2^5 \\frac{2\\sqrt{2}(5-x)}{3}\\,dx = \\frac{8\\sqrt{2}}{3} + 3\\sqrt{2} = \\frac{17\\sqrt{2}}{3}$$\nSo $\\beta = \\frac{17}{3}$.",
           "marks": 3,
           "negativeMarks": -1
         },
@@ -133,7 +133,7 @@
         {
           "id": "math_q5",
           "type": "multi_correct",
-          "questionText": "Let $S$ be the set of all $(\\alpha, \\beta) \\in \\mathbb{R} \\times \\mathbb{R}$ such that $$\\lim_{x \\to 0} \\frac{\\sin(\\alpha x) \\ln(1 + \\beta x) - \\sin(\\alpha \\beta x^2)}{x^2 \\ln(1 + x^2)} = 0$$ Then which of the following is(are) correct?",
+          "questionText": "Let $S$ be the set of all $(\\alpha, \\beta) \\in \\mathbb{R} \\times \\mathbb{R}$ such that $$\\lim_{x \\to \\infty} \\frac{\\sin(x^2)\\,(\\log_e x)^{\\alpha}\\,\\sin\\left(\\frac{1}{x^2}\\right)}{x^{\\alpha\\beta}\\,(\\log_e(1 + x))^{\\beta}} = 0$$ Then which of the following is(are) correct?",
           "hasImage": false,
           "options": [
             {
@@ -157,7 +157,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "Using Taylor series expansions: $\\sin(\\alpha x) = \\alpha x - \\frac{\\alpha^3 x^3}{6} + \\dots$ and $\\ln(1 + \\beta x) = \\beta x - \\frac{\\beta^2 x^2}{2} + \\dots$, so $\\sin(\\alpha x)\\ln(1 + \\beta x) = \\alpha\\beta x^2 - \\frac{\\alpha\\beta^2 x^3}{2} + \\dots$, while $\\sin(\\alpha\\beta x^2) = \\alpha\\beta x^2 + O(x^6)$. Thus the difference is $-\\frac{\\alpha\\beta^2 x^3}{2} + \\dots$. The denominator is $x^2 \\ln(1 + x^2) = x^4 + O(x^6)$. For the limit to be zero or finite, matching terms requires $\\alpha\\beta = -1$. Checking the points: $(-1, 1) \\implies \\alpha\\beta = -1$ and $(1, -1) \\implies \\alpha\\beta = -1$. Hence options (B) and (C) are correct.",
+          "explanation": "As $x \\to \\infty$, $\\sin(1/x^2) \\sim 1/x^2$ and $\\log_e(1+x) \\sim \\log_e x$, so the expression behaves like $\\sin(x^2)\\,\\frac{(\\log_e x)^{\\alpha-\\beta}}{x^{2+\\alpha\\beta}}$, where $\\sin(x^2)$ oscillates between $-1$ and $1$.\nThe limit is 0 if $2 + \\alpha\\beta > 0$, or if $2 + \\alpha\\beta = 0$ with $\\alpha - \\beta < 0$.\n(A) $(-1,3)$: $2+\\alpha\\beta = -1 < 0$, so the limit does not exist. Not in $S$.\n(B) $(-1,1)$: $2+\\alpha\\beta = 1 > 0$. In $S$.\n(C) $(1,-1)$: $2+\\alpha\\beta = 1 > 0$. In $S$.\n(D) $(1,-2)$: $2+\\alpha\\beta = 0$ but $\\alpha-\\beta = 3 > 0$, so the expression behaves like $\\sin(x^2)(\\log_e x)^3$, which does not tend to 0. Not in $S$.\nAnswer: (B), (C).",
           "marks": 4,
           "negativeMarks": -2,
           "partialMarks": [
@@ -193,7 +193,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "Line through $P(1, 3, 2)$ parallel to direction $(1, 2, 1)$ has equation $\\frac{x - 1}{1} = \\frac{y - 3}{2} = \\frac{z - 2}{1} = \\lambda$. Substituting into $L_1: (1 + \\lambda) - (3 + 2\\lambda) + 3(2 + \\lambda) = 6 \\implies 2\\lambda + 4 = 6 \\implies \\lambda = 1$. Thus $Q = (2, 5, 3)$, and $PQ = \\sqrt{1^2 + 2^2 + 1^2} = \\sqrt{6}$ (A is correct). Normal to $L_1$ is $(1, -1, 3)$, so line through $Q$ is $\\frac{x - 2}{1} = \\frac{y - 5}{-1} = \\frac{z - 3}{3} = \\mu$. Point on it is $(2 + \\mu, 5 - \\mu, 3 + 3\\mu)$. Substituting into $L_2: 2(2 + \\mu) - (5 - \\mu) + (3 + 3\\mu) = -4 \\implies 6\\mu + 2 = -4 \\implies \\mu = -1$. Thus $R = (1, 6, 0)$ (B is incorrect). Centroid of $\\triangle PQR$ is $\\left(\\frac{1 + 2 + 1}{3}, \\frac{3 + 5 + 6}{3}, \\frac{2 + 3 + 0}{3}\\right) = \\left(\\frac{4}{3}, \\frac{14}{3}, \\frac{5}{3}\\right)$ (C is correct).",
+          "explanation": "Line through $P(1, 3, 2)$ parallel to direction $(1, 2, 1)$ has equation $\\frac{x - 1}{1} = \\frac{y - 3}{2} = \\frac{z - 2}{1} = \\lambda$. Substituting into $L_1: (1 + \\lambda) - (3 + 2\\lambda) + 3(2 + \\lambda) = 6 \\implies 2\\lambda + 4 = 6 \\implies \\lambda = 1$. Thus $Q = (2, 5, 3)$, and $PQ = \\sqrt{1^2 + 2^2 + 1^2} = \\sqrt{6}$ (A is correct). Normal to $L_1$ is $(1, -1, 3)$, so line through $Q$ is $\\frac{x - 2}{1} = \\frac{y - 5}{-1} = \\frac{z - 3}{3} = \\mu$. Point on it is $(2 + \\mu, 5 - \\mu, 3 + 3\\mu)$. Substituting into $L_2: 2(2 + \\mu) - (5 - \\mu) + (3 + 3\\mu) = -4 \\implies 6\\mu + 2 = -4 \\implies \\mu = -1$. Thus $R = (1, 6, 0)$ (B is incorrect). Centroid of $\\triangle PQR$ is $\\left(\\frac{1 + 2 + 1}{3}, \\frac{3 + 5 + 6}{3}, \\frac{2 + 3 + 0}{3}\\right) = \\left(\\frac{4}{3}, \\frac{14}{3}, \\frac{5}{3}\\right)$ (C is correct). Finally $QR = \\sqrt{1+1+9} = \\sqrt{11}$ and $PR = |(0,3,-2)| = \\sqrt{13}$, so the perimeter is $\\sqrt{6} + \\sqrt{11} + \\sqrt{13} \\ne 2\\sqrt{6} + \\sqrt{11}$ (D is incorrect).",
           "marks": 4,
           "negativeMarks": -2,
           "partialMarks": [
@@ -229,7 +229,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "For $y^2 = 8x$, $a = 2$. Tangent at $(at^2, 2at) = (2t^2, 4t)$ is $yt = x + 2t^2$. It passes through $C_1(-4, 0)$, so $0 = -4 + 2t^2 \\implies t^2 = 2 \\implies t = \\pm\\sqrt{2}$. Thus $A_1 = (4, 4\\sqrt{2})$ and $B_1 = (4, -4\\sqrt{2})$. Distance $OA_1 = \\sqrt{4^2 + (4\\sqrt{2})^2} = \\sqrt{16 + 32} = \\sqrt{48} = 4\\sqrt{3}$ (A is correct). Distance $A_1B_1 = 4\\sqrt{2} - (-4\\sqrt{2}) = 8\\sqrt{2} \\ne 16$ (B is incorrect). Since $C_1 = (-4, 0)$ lies on the directrix $x = -2$? No, $C_1$ is $(-4, 0)$. In $\\triangle A_1B_1C_1$, altitude from $C_1$ to $A_1B_1$ (vertical line $x=4$) is the $x$-axis $y=0$. Slope of $A_1C_1$ is $\\frac{4\\sqrt{2}}{4 - (-4)} = \\frac{\\sqrt{2}}{2} = \\frac{1}{\\sqrt{2}}$. Altitude from $B_1(4, -4\\sqrt{2})$ has slope $-\\sqrt{2}$: $y - (-4\\sqrt{2}) = -\\sqrt{2}(x - 4)$. Putting $y = 0 \\implies 4\\sqrt{2} = -\\sqrt{2}(x - 4) \\implies -4 = x - 4 \\implies x = 0$. Hence orthocenter is $(0, 0)$ (C is correct).",
+          "explanation": "For $y^2 = 8x$, $a = 2$. Tangent at $(at^2, 2at) = (2t^2, 4t)$ is $yt = x + 2t^2$. It passes through $C_1(-4, 0)$, so $0 = -4 + 2t^2 \\implies t^2 = 2 \\implies t = \\pm\\sqrt{2}$. Thus $A_1 = (4, 4\\sqrt{2})$ and $B_1 = (4, -4\\sqrt{2})$. Distance $OA_1 = \\sqrt{4^2 + (4\\sqrt{2})^2} = \\sqrt{16 + 32} = \\sqrt{48} = 4\\sqrt{3}$ (A is correct). Distance $A_1B_1 = 4\\sqrt{2} - (-4\\sqrt{2}) = 8\\sqrt{2} \\ne 16$ (B is incorrect). In $\\triangle A_1B_1C_1$, altitude from $C_1$ to $A_1B_1$ (vertical line $x=4$) is the $x$-axis $y=0$. Slope of $A_1C_1$ is $\\frac{4\\sqrt{2}}{4 - (-4)} = \\frac{\\sqrt{2}}{2} = \\frac{1}{\\sqrt{2}}$. Altitude from $B_1(4, -4\\sqrt{2})$ has slope $-\\sqrt{2}$: $y - (-4\\sqrt{2}) = -\\sqrt{2}(x - 4)$. Putting $y = 0 \\implies 4\\sqrt{2} = -\\sqrt{2}(x - 4) \\implies -4 = x - 4 \\implies x = 0$. Hence orthocenter is $(0, 0)$ (C is correct). (D) is therefore incorrect.",
           "marks": 4,
           "negativeMarks": -2,
           "partialMarks": [
@@ -274,27 +274,27 @@
           "questionText": "Let $\\vec{p} = 2\\hat{i} + \\hat{j} + 3\\hat{k}$ and $\\vec{q} = \\hat{i} - \\hat{j} + \\hat{k}$. If for some real numbers $\\alpha, \\beta$, and $\\gamma$, we have $$15\\hat{i} + 10\\hat{j} + 6\\hat{k} = \\alpha(\\vec{p} \\times \\vec{q}) + \\beta(2\\vec{p} + \\vec{q}) + \\gamma(\\vec{p} - 2\\vec{q})$$ then the value of $\\alpha$ is",
           "hasImage": false,
           "answer": "2",
-          "explanation": "Compute $\\vec{p} \\times \\vec{q} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 1 & 3 \\\\ 1 & -1 & 1 \\end{vmatrix} = 4\\hat{i} + \\hat{j} - 3\\hat{k}$. Also $2\\vec{p} + \\vec{q} = 5\\hat{i} + \\hat{j} + 7\\hat{k}$ and $\\vec{p} - 2\\vec{q} = 3\\hat{j} + \\hat{k}$. Setting up the linear system for coefficients of $\\hat{i}, \\hat{j}, \\hat{k}$: $4\\alpha + 5\\beta = 15$, $\\alpha + \\beta + 3\\gamma = 10$, and $-3\\alpha + 7\\beta + \\gamma = 6$. Solving this system yields $\\alpha = 2$, $\\beta = 1$, $\\gamma = 2$. Therefore $\\alpha = 2$.",
+          "explanation": "$\\vec{p}\\times\\vec{q} = 4\\hat{i} + \\hat{j} - 3\\hat{k}$, which is perpendicular to both $2\\vec{p}+\\vec{q}$ and $\\vec{p}-2\\vec{q}$ (combinations of $\\vec{p}, \\vec{q}$).\nTaking the dot product of both sides with $\\vec{p}\\times\\vec{q}$:\n$$(15, 10, 6)\\cdot(4, 1, -3) = \\alpha\\,|\\vec{p}\\times\\vec{q}|^2 \\implies 60 + 10 - 18 = 26\\alpha \\implies \\alpha = 2.$$\n(Consistently, $\\beta = \\frac{7}{5}$ and $\\gamma = \\frac{11}{5}$.)",
           "marks": 4,
           "negativeMarks": 0
         },
         {
           "id": "math_q12",
           "type": "numerical",
-          "questionText": "A normal with slope $\\frac{1}{6}$ is drawn from the point $(0, -a)$ to the parabola $x^2 = -4ay$, where $a > 0$. Let $L$ be the line passing through $(0, -a)$ and parallel to the directrix of the parabola. Suppose that $L$ intersects the parabola at two points $A$ and $B$. Let $r$ denote the length of the latus rectum and $s$ denote the square of the length of the line segment $AB$. If $r : s = 1 : 16$, then the value of $24a$ is",
+          "questionText": "A normal with slope $\\frac{1}{\\sqrt{6}}$ is drawn from the point $(0, -\\alpha)$ to the parabola $x^2 = -4ay$, where $a > 0$. Let $L$ be the line passing through $(0, -\\alpha)$ and parallel to the directrix of the parabola. Suppose that $L$ intersects the parabola at two points $A$ and $B$. Let $r$ denote the length of the latus rectum and $s$ denote the square of the length of the line segment $AB$. If $r : s = 1 : 16$, then the value of $24a$ is",
           "hasImage": false,
           "answer": "12",
-          "explanation": "The directrix of $x^2 = -4ay$ is $y = a$, so line $L$ parallel to directrix passing through $(0, -a)$ is $y = -a$. Intersection with $x^2 = -4ay$ gives $x^2 = 4a^2 \\implies x = \\pm 2a$. Thus $A = (-2a, -a)$ and $B = (2a, -a)$, so $AB = 4a$ and $s = AB^2 = 16a^2$. The length of latus rectum is $r = 4a$. Then $r : s = \\frac{4a}{16a^2} = \\frac{1}{4a}$. Given $r : s = 1 : 16$, we have $\\frac{1}{4a} = \\frac{1}{16} \\implies 4a = 16 \\implies a = 1/2$. Thus $24a = 24(1/2) = 12$.",
+          "explanation": "The line $L$ is $y = -\\alpha$. Substituting into $x^2 = -4ay$ gives $x^2 = 4a\\alpha$, so $s = AB^2 = 16a\\alpha$; also $r = 4a$.\n$r : s = 1 : 4\\alpha = 1 : 16 \\implies \\alpha = 4$.\nTake a point $(2at, -at^2)$ on the parabola. The tangent slope there is $-t$, so the normal slope is $\\frac{1}{t} = \\frac{1}{\\sqrt{6}}$, giving $t = \\sqrt{6}$.\nThe normal $y + at^2 = \\frac{1}{t}(x - 2at)$ meets $x = 0$ at $y = -a(t^2 + 2) = -8a$.\nSetting $-8a = -\\alpha = -4$ gives $a = \\frac{1}{2}$, so $24a = 12$.",
           "marks": 4,
           "negativeMarks": 0
         },
         {
           "id": "math_q13",
           "type": "numerical",
-          "questionText": "Let the function $f : [1, \\infty) \\to \\mathbb{R}$ be defined by $$f(t) = \\begin{cases} 2, & \\text{if } t = 2n - 1, n \\in \\mathbb{N} \\\\ \\frac{2n + 1 - t}{2} f(2n - 1) + \\frac{t - (2n - 1)}{2} f(2n + 1), & \\text{if } 2n - 1 < t < 2n + 1, n \\in \\mathbb{N} \\end{cases}$$ Define $g(x) = \\int_1^x f(t)\\,dt$, $x \\in (1, \\infty)$. Let $\\alpha$ denote the number of solutions of the equation $g(x) = 0$ in the interval $(1, 8]$ and $\\beta = \\lim_{x \\to 1^+} \\frac{g(x)}{x - 1}$. Then the value of $\\alpha + \\beta$ is equal to",
+          "questionText": "Let the function $f : [1, \\infty) \\to \\mathbb{R}$ be defined by $$f(t) = \\begin{cases} (-1)^{n+1}\\,2, & \\text{if } t = 2n - 1, n \\in \\mathbb{N} \\\\ \\frac{2n + 1 - t}{2} f(2n - 1) + \\frac{t - (2n - 1)}{2} f(2n + 1), & \\text{if } 2n - 1 < t < 2n + 1, n \\in \\mathbb{N} \\end{cases}$$ Define $g(x) = \\int_1^x f(t)\\,dt$, $x \\in (1, \\infty)$. Let $\\alpha$ denote the number of solutions of the equation $g(x) = 0$ in the interval $(1, 8]$ and $\\beta = \\lim_{x \\to 1^+} \\frac{g(x)}{x - 1}$. Then the value of $\\alpha + \\beta$ is equal to",
           "hasImage": false,
           "answer": "5",
-          "explanation": "The function $f(t)$ is continuous and piecewise linear connecting $(2n - 1, 2)$ to $(2n + 1, -2)$ or alternating. In $(1, 8]$, $g(x) = \\int_1^x f(t)dt$ vanishes at 3 points: $x = 3, 5, 7$, so $\\alpha = 3$. Furthermore $\\beta = \\lim_{x \\to 1^+} \\frac{g(x)}{x - 1} = f(1) = 2$. Therefore $\\alpha + \\beta = 3 + 2 = 5$.",
+          "explanation": "$f(1) = 2, f(3) = -2, f(5) = 2, f(7) = -2, \\dots$, and $f$ is linear between consecutive odd integers, so $f$ is a zig-zag symmetric about the $t$-axis on each interval $[2n-1, 2n+1]$.\nEach such interval therefore contributes integral 0, giving $g(3) = g(5) = g(7) = 0$. Between these points $g$ is strictly positive or strictly negative (for example, $g > 0$ on $(1,3)$), so $\\alpha = 3$.\n$\\beta = \\lim_{x\\to1^+}\\frac{g(x)}{x-1} = f(1) = 2$.\nHence $\\alpha + \\beta = 5$.",
           "marks": 4,
           "negativeMarks": 0
         },
@@ -321,20 +321,20 @@
         {
           "id": "math_q16",
           "type": "numerical",
-          "questionText": "PARAGRAPH II\n\nLet $f : \\left[0, \\frac{\\pi}{2}\\right] \\to [0, 1]$ be the function defined by $f(x) = \\sin^2 x$ and let $g : \\left[0, \\frac{\\pi}{2}\\right] \\to [0, \\infty)$ be the function defined by $g(x) = \\frac{x^2}{\\frac{\\pi^2}{2} - x^2}$.\n\nThe value of $$\\int_0^{\\pi/2} 2(f(x) - 1) g(x)\\,dx + \\int_0^{\\pi/2} g(x)\\,dx$$ is",
+          "questionText": "PARAGRAPH II\n\nLet $f : \\left[0, \\frac{\\pi}{2}\\right] \\to [0, 1]$ be the function defined by $f(x) = \\sin^2 x$ and let $g : \\left[0, \\frac{\\pi}{2}\\right] \\to [0, \\infty)$ be the function defined by $g(x) = \\sqrt{\\frac{\\pi x}{2} - x^2}$.\n\nThe value of $$\\int_0^{\\pi/2} 2(f(x) - 1) g(x)\\,dx + \\int_0^{\\pi/2} g(x)\\,dx$$ is",
           "hasImage": false,
           "answer": "0",
-          "explanation": "We can rewrite the expression as $I = \\int_0^{\\pi/2} (2f(x) - 2 + 1) g(x)\\,dx = \\int_0^{\\pi/2} (2\\sin^2 x - 1) g(x)\\,dx = -\\int_0^{\\pi/2} \\cos(2x) g(x)\\,dx$. Using the substitution $x = \\frac{\\pi}{2} - t$, $\\cos(2x) = \\cos(\\pi - 2t) = -\\cos(2t)$ and $g(\\pi/2 - t) = g(t)$ (due to symmetry about $t = \\pi/4$ or pairing), the integral evaluates identically to 0.",
+          "explanation": "The expression equals $\\int_0^{\\pi/2}(2\\sin^2 x - 1)g(x)\\,dx = -\\int_0^{\\pi/2}\\cos 2x\\; g(x)\\,dx$.\nSince $g\\left(\\frac{\\pi}{2} - x\\right) = g(x)$ while $\\cos\\left(2\\left(\\frac{\\pi}{2} - x\\right)\\right) = -\\cos 2x$, the substitution $x \\to \\frac{\\pi}{2} - x$ shows the integral equals its own negative. Hence the value is $0$.",
           "marks": 3,
           "negativeMarks": 0
         },
         {
           "id": "math_q17",
           "type": "numerical",
-          "questionText": "PARAGRAPH II\n\nLet $f : \\left[0, \\frac{\\pi}{2}\\right] \\to [0, 1]$ be the function defined by $f(x) = \\sin^2 x$ and let $g : \\left[0, \\frac{\\pi}{2}\\right] \\to [0, \\infty)$ be the function defined by $g(x) = \\frac{x^2}{\\frac{\\pi^2}{2} - x^2}$.\n\nThe value of $$\\frac{16}{\\pi^3} \\int_0^{\\pi/2} f(x) g(x)\\,dx$$ is",
+          "questionText": "PARAGRAPH II\n\nLet $f : \\left[0, \\frac{\\pi}{2}\\right] \\to [0, 1]$ be the function defined by $f(x) = \\sin^2 x$ and let $g : \\left[0, \\frac{\\pi}{2}\\right] \\to [0, \\infty)$ be the function defined by $g(x) = \\sqrt{\\frac{\\pi x}{2} - x^2}$.\n\nThe value of $$\\frac{16}{\\pi^3} \\int_0^{\\pi/2} f(x) g(x)\\,dx$$ is",
           "hasImage": false,
           "answer": "0.25",
-          "explanation": "Let $I = \\int_0^{\\pi/2} \\sin^2 x \\cdot g(x)\\,dx$. Using $\\sin^2 x + \\cos^2 x = 1$ and the symmetry property from the previous question, $2I = \\int_0^{\\pi/2} g(x)\\,dx$. Computing the integral gives $\\int_0^{\\pi/2} f(x)g(x)\\,dx = \\frac{\\pi^3}{64}$. Multiplying by $\\frac{16}{\\pi^3}$ yields $\\frac{16}{\\pi^3} \\cdot \\frac{\\pi^3}{64} = \\frac{1}{4} = 0.25$.",
+          "explanation": "From the previous part, $\\int_0^{\\pi/2}(2\\sin^2x - 1)g = 0$, so $\\int_0^{\\pi/2} f g\\,dx = \\frac{1}{2}\\int_0^{\\pi/2} g\\,dx$.\n$y = \\sqrt{\\frac{\\pi x}{2} - x^2}$ is the upper semicircle with centre $(\\frac{\\pi}{4}, 0)$ and radius $\\frac{\\pi}{4}$, so $\\int_0^{\\pi/2} g\\,dx = \\frac{1}{2}\\pi\\left(\\frac{\\pi}{4}\\right)^2 = \\frac{\\pi^3}{32}$.\nThen $\\int f g = \\frac{\\pi^3}{64}$ and $\\frac{16}{\\pi^3}\\cdot\\frac{\\pi^3}{64} = 0.25$.",
           "marks": 3,
           "negativeMarks": 0
         }
@@ -347,7 +347,7 @@
         {
           "id": "phys_q1",
           "type": "single_correct",
-          "questionText": "A region in the form of an equilateral triangle (in $x$-$y$ plane) of height $L$ has a uniform magnetic field $\\vec{B}$ pointing in the $+z$-direction. A conducting loop in the form of a square of side $L$ enters the region of the magnetic field with a uniform velocity $\\vec{v}$ along the $+x$-direction. The magnetic field is non-zero only for $0 < x < L$. Which of the following graph best depicts the variation of the induced emf ($E$) in the loop as a function of the distance ($x$) of the leading edge of the loop starting from $x = 0$?",
+          "questionText": "A region in the form of an equilateral triangle (in $x$-$y$ plane) of height $L$ has a uniform magnetic field $\\vec{B}$ pointing in the $+z$-direction. A conducting loop PQR, in the form of an equilateral triangle of the same height $L$, is placed in the $x$-$y$ plane with its vertex P at $x = 0$ in the orientation shown in the figure. At $t = 0$, the loop starts entering the region of the magnetic field with a uniform velocity $\\vec{v}$ along the $+x$-direction. The plane of the loop and its orientation remain unchanged throughout its motion. Which of the following graph best depicts the variation of the induced emf ($E$) in the loop as a function of the distance ($x$) starting from $x = 0$?",
           "hasImage": true,
           "imageName": "img/phys_q1.png",
           "options": [
@@ -372,7 +372,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "As the square loop enters the triangular magnetic field region, the rate of change of area enclosed increases linearly with distance $x$, producing an induced emf that varies linearly from zero to a negative maximum at $x = L$. When the loop exits, the flux decreases, inducing a positive emf that peaks and then drops back to zero. Graph (A) correctly depicts this variation.",
+          "explanation": "Let the half-width of both triangles grow as $ks$ from their apex. The overlap area for displacement $x$ is:\nFor $0 \\le x \\le L$: $A = \\frac{k x^2}{4}$, so $\\frac{dA}{dx} = \\frac{kx}{2}$.\nFor $L \\le x \\le 2L$: $A = k\\left(-\\frac{3x^2}{4} + 2Lx - L^2\\right)$, so $\\frac{dA}{dx} = k\\left(2L - \\frac{3x}{2}\\right)$.\nSince $E = -Bv\\frac{dA}{dx}$, $E$ grows linearly in magnitude (negative) up to $x = L$, then changes linearly through zero at $x = \\frac{4L}{3}$. It reaches a positive value twice as large at $x = 2L$, then drops to 0.\nThis is graph (A).",
           "marks": 3,
           "negativeMarks": -1
         },
@@ -494,11 +494,11 @@
             },
             {
               "id": "D",
-              "text": "The dipole will undergo small oscillations with an angular frequency of $\\frac{1}{100}\\sqrt{\\frac{\\sigma p_0}{\\varepsilon_0 I}}$ at $r = 10R$.",
+              "text": "The dipole will undergo small oscillations with an angular frequency of $\\sqrt{\\frac{\\sigma p_0}{100\\,\\varepsilon_0 I}}$ at $r = 10R$.",
               "isCorrect": true
             }
           ],
-          "explanation": "Inside the shell ($r < R$), the electric field is zero, so the dipole does not oscillate; it only oscillates for $r > R$ (B is correct). Outside the shell, $E = \\frac{Q}{4\\pi\\varepsilon_0 r^2} = \\frac{\\sigma R^2}{\\varepsilon_0 r^2}$. For small angle $\\theta$, torque is $\\tau = -p_0 E \\theta = I \\alpha \\implies \\omega = \\sqrt{\\frac{p_0 E}{I}} = \\frac{R}{r}\\sqrt{\\frac{\\sigma p_0}{\\varepsilon_0 I}}$. At $r = 10R$, $\\omega = \\frac{1}{10}\\sqrt{\\frac{\\sigma p_0}{\\varepsilon_0 I}}$... wait! In the options, $\\frac{R^2}{r^2}$ or $E \\propto 1/r^2 \\implies \\omega = \\frac{R}{r} \\sqrt{\\dots} = \\frac{1}{10}$ or $\\frac{1}{100}$? Since $E = \\frac{\\sigma R^2}{\\varepsilon_0 r^2}$, at $r = 10R$, $E = \\frac{\\sigma}{100\\varepsilon_0}$, so $\\omega = \\sqrt{\\frac{p_0 E}{I}} = \\frac{1}{10}\\sqrt{\\dots}$ or if written with $\\frac{1}{100}$, check (B) and (D).",
+          "explanation": "Inside the shell ($r < R$) the field is zero, so there is no restoring torque; (A) is false. Outside, $E = \\frac{\\sigma R^2}{\\varepsilon_0 r^2}$ along the radius, and the torque $-p_0E\\theta$ gives SHM for any finite $r > R$, so (B) is true.\n$\\omega = \\sqrt{\\frac{p_0 E}{I}} = \\frac{R}{r}\\sqrt{\\frac{\\sigma p_0}{\\varepsilon_0 I}}$.\nAt $r = 2R$: $\\omega = \\sqrt{\\frac{\\sigma p_0}{4\\varepsilon_0 I}} \\ne \\sqrt{\\frac{\\sigma p_0}{2\\varepsilon_0 I}}$, so (C) is false.\nAt $r = 10R$: $\\omega = \\frac{1}{10}\\sqrt{\\frac{\\sigma p_0}{\\varepsilon_0 I}} = \\sqrt{\\frac{\\sigma p_0}{100\\,\\varepsilon_0 I}}$, so (D) is true.",
           "marks": 4,
           "negativeMarks": -2,
           "partialMarks": [
@@ -534,7 +534,7 @@
               "isCorrect": true
             }
           ],
-          "explanation": "Volume of the ball is $V = \\frac{4}{3}\\pi r^3 = \\frac{4}{3}\\left(\\frac{22}{7}\\right)\\left(\\frac{3}{2} \\times 10^{-2}\\right)^3 = \\frac{99}{7} \\times 10^{-6}$ m$^3$. Buoyant force $F_B = \\rho V g = \\frac{99}{7} \\times 10^{-2}$ N. Mass $m = \\frac{22}{7} \\times 10^{-3}$ kg, so $mg = \\frac{22}{7} \\times 10^{-2}$ N. Net upward force $F_{\\text{net}} = F_B - mg = \\frac{77}{7} \\times 10^{-2} = 0.11$ N. Work done to push down to depth $0.7$ m is $W_{\\text{ext}} = F_{\\text{net}} \\times d = 0.11 \\times 0.7 = 0.077$ J (A is correct). By work-energy theorem, $\\frac{1}{2}mv^2 = W_{\\text{ext}} = 0.077 \\implies v^2 = \\frac{2 \\times 0.077}{(22/7) \\times 10^{-3}} = 49 \\implies v = 7$ m/s (B is correct). Height $H = \\frac{v^2}{2g} = \\frac{49}{20} = 2.45$ m (C is incorrect). Maximum viscous force $F_v = 6\\pi\\eta r v = 6\\left(\\frac{22}{7}\\right)(10^{-3})\\left(\\frac{3}{2} \\times 10^{-2}\\right)(7) = \\frac{594}{7} \\times 10^{-5}$ N. The ratio $\\frac{F_{\\text{net}}}{F_v} = \\frac{0.11}{6\\pi\\eta r v} = \\frac{500}{9}$ (D is correct).",
+          "explanation": "Volume of the ball is $V = \\frac{4}{3}\\pi r^3 = \\frac{4}{3}\\left(\\frac{22}{7}\\right)\\left(\\frac{3}{2} \\times 10^{-2}\\right)^3 = \\frac{99}{7} \\times 10^{-6}$ m$^3$. Buoyant force $F_B = \\rho V g = \\frac{99}{7} \\times 10^{-2}$ N. Mass $m = \\frac{22}{7} \\times 10^{-3}$ kg, so $mg = \\frac{22}{7} \\times 10^{-2}$ N. Net upward force $F_{\\text{net}} = F_B - mg = \\frac{77}{7} \\times 10^{-2} = 0.11$ N. Work done to push down to depth $0.7$ m is $W_{\\text{ext}} = F_{\\text{net}} \\times d = 0.11 \\times 0.7 = 0.077$ J (A is correct). By work-energy theorem, $\\frac{1}{2}mv^2 = W_{\\text{ext}} = 0.077 \\implies v^2 = \\frac{2 \\times 0.077}{(22/7) \\times 10^{-3}} = 49 \\implies v = 7$ m/s (B is correct). Height $H = \\frac{v^2}{2g} = \\frac{49}{20} = 2.45$ m (C is incorrect). Maximum viscous force $F_v = 6\\pi\\eta r v = 6\\left(\\frac{22}{7}\\right)(10^{-3})\\left(\\frac{3}{2} \\times 10^{-2}\\right)(7) = 1.98 \\times 10^{-3}$ N. The ratio $\\frac{F_{\\text{net}}}{F_v} = \\frac{0.11}{1.98 \\times 10^{-3}} = \\frac{500}{9}$ (D is correct).",
           "marks": 4,
           "negativeMarks": -2,
           "partialMarks": [
@@ -571,7 +571,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "Kinetic energy acquired is $\\frac{1}{2}mv^2 = qV \\implies v = \\sqrt{\\frac{2qV}{m}}$. Radius of circular orbit in the magnetic field is $R = \\frac{mv}{qB_0} = \\frac{1}{B_0}\\sqrt{\\frac{2mV}{q}}$. For a semicircle deflection, $x = 2R$. Substituting values: $R = 2\\sqrt{A_M}$ cm, so $x = 4\\sqrt{A_M}$ cm. For $^1\\text{H}^+$, $A_M = 1 \\implies x = 4$ cm (A is correct). For $A_M = 144$, $x = 4\\sqrt{144} = 4 \\times 12 = 48$ cm (B is correct). For $A_M = 196$, $x = 4 \\times 14 = 56$ cm, and $R = 28$ cm, so minimum width $w = R = 28$ cm (D is incorrect).",
+          "explanation": "Kinetic energy acquired is $\\frac{1}{2}mv^2 = qV \\implies v = \\sqrt{\\frac{2qV}{m}}$. Radius of circular orbit in the magnetic field is $R = \\frac{mv}{qB_0} = \\frac{1}{B_0}\\sqrt{\\frac{2mV}{q}}$. For a semicircle deflection, $x = 2R$. Substituting values: $R = 2\\sqrt{A_M}$ cm, so $x = 4\\sqrt{A_M}$ cm. For $^1\\text{H}^+$, $A_M = 1 \\implies x = 4$ cm (A is correct). For $A_M = 144$, $x = 4\\sqrt{144} = 4 \\times 12 = 48$ cm (B is correct). For $A_M = 196$, $x = 4 \\times 14 = 56$ cm, and $R = 28$ cm, so minimum width $w = R = 28$ cm (D is incorrect). Over $1 \\le A_M \\le 196$, $x$ ranges from 4 cm to 56 cm, so the detector height must be $x_1 - x_0 = 52$ cm, not 55 cm (C is incorrect).",
           "marks": 4,
           "negativeMarks": -2,
           "partialMarks": [
@@ -606,8 +606,8 @@
           "questionText": "A charge is kept at the central point $P$ of a cylindrical region. The two edges subtend a half-angle $\\theta$ at $P$, as shown in the figure. When $\\theta = 30^\\circ$, then the electric flux through the curved surface of the cylinder is $\\Phi$. If $\\theta = 60^\\circ$, then the electric flux through the curved surface becomes $\\Phi/n$, where the value of $n$ is",
           "hasImage": true,
           "imageName": "img/phys_q10.png",
-          "answer": "3",
-          "explanation": "The solid angle subtended by each circular base at $P$ is $\\Omega = 2\\pi(1 - \\cos\\theta)$. The flux through each flat base is $\\Phi_{\\text{base}} = \\frac{q}{4\\pi\\varepsilon_0} \\cdot 2\\pi(1 - \\cos\\theta) = \\frac{q}{2\\varepsilon_0}(1 - \\cos\\theta)$. The total flux through both flat bases is $\\frac{q}{\\varepsilon_0}(1 - \\cos\\theta)$. By Gauss's law, the flux through the curved surface is $\\Phi_{\\text{curved}} = \\frac{q}{\\varepsilon_0} - \\frac{q}{\\varepsilon_0}(1 - \\cos\\theta) = \\frac{q}{\\varepsilon_0}\\cos\\theta$. For $\\theta = 30^\\circ$, $\\Phi_1 = \\frac{q}{\\varepsilon_0}\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}\\frac{q}{\\varepsilon_0}$. For $\\theta = 60^\\circ$, $\\Phi_2 = \\frac{q}{\\varepsilon_0}\\cos 60^\\circ = \\frac{1}{2}\\frac{q}{\\varepsilon_0}$. The ratio is $\\frac{\\Phi_1}{\\Phi_2} = \\sqrt{3}$? Wait, let's check FIITJEE solution: In FIITJEE: $\\Phi_{\\text{curved}} = \\frac{q}{\\varepsilon_0}(1 - 2 \\times \\frac{1}{2}(1 - \\cos\\theta)) = \\frac{q}{\\varepsilon_0}\\cos\\theta$. Wait, in FIITJEE solution: $(1 - \\cos 30^\\circ) = 1 - \\sqrt{3}/2$, so curved surface flux was $\\Phi_1$, and $\\Phi_2 = \\Phi_1 / 3 \\implies n = 3$.",
+          "answer": "1.73",
+          "explanation": "Each flat face subtends solid angle $2\\pi(1-\\cos\\theta)$ at P, so the flux through the two faces is $\\frac{q}{\\varepsilon_0}(1-\\cos\\theta)$.\nBy Gauss's law, the curved surface carries $\\Phi_{\\text{curved}} = \\frac{q}{\\varepsilon_0}\\cos\\theta$.\n$\\theta = 30^\\circ$: $\\Phi = \\frac{\\sqrt{3}}{2}\\frac{q}{\\varepsilon_0}$. $\\theta = 60^\\circ$: $\\frac{1}{2}\\frac{q}{\\varepsilon_0} = \\frac{\\Phi}{\\sqrt{3}}$.\nHence $n = \\sqrt{3} \\approx 1.73$.",
           "marks": 4,
           "negativeMarks": 0
         },
@@ -617,8 +617,8 @@
           "questionText": "Two equilateral-triangular prisms $P_1$ and $P_2$ are kept with their sides parallel to each other, in vacuum, as shown in the figure. A light ray enters prism $P_1$ at an angle of incidence $\\theta$ such that the outgoing ray undergoes minimum deviation in prism $P_2$. If the respective refractive indices of $P_1$ and $P_2$ are $\\frac{\\sqrt{3}}{2}$ and $\\sqrt{3}$, then $\\theta = \\sin^{-1}\\left[\\frac{\\sqrt{3}}{2}\\sin\\left(\\frac{\\alpha\\pi}{180}\\right)\\right]$, where the value of $\\alpha$ is",
           "hasImage": true,
           "imageName": "img/phys_q11.png",
-          "answer": "12",
-          "explanation": "For an equilateral prism, $A = 60^\\circ$. In prism $P_2$, for minimum deviation, $r_2 = A/2 = 30^\\circ$. The angle of emergence from $P_2$ and angle of incidence on $P_2$ satisfy $\\sin i_2 = \\mu_2 \\sin r_2 = \\sqrt{3} \\sin 30^\\circ = \\frac{\\sqrt{3}}{2} \\implies i_2 = 60^\\circ$. Tracing back through the parallel sides to prism $P_1$ with refractive index $\\mu_1$ leads to $\\theta = \\sin^{-1}\\left[\\frac{\\sqrt{3}}{2}\\sin(12^\\circ)\\right]$. Therefore $\\alpha = 12$.",
+          "answer": "30",
+          "explanation": "In $P_2$ (equilateral, $\\mu = \\sqrt{3}$), minimum deviation means $r = 30^\\circ$ inside, so the incidence on $P_2$ satisfies $\\sin i = \\sqrt{3}\\sin 30^\\circ = \\frac{\\sqrt{3}}{2}$, i.e. $i = 60^\\circ$.\nThe facing faces of $P_1$ and $P_2$ are parallel, so the ray leaves $P_1$ at $60^\\circ$ to the normal.\nInside $P_1$ ($\\mu = \\frac{\\sqrt{3}}{2}$): $\\frac{\\sqrt{3}}{2}\\sin r_2 = \\sin 60^\\circ \\implies r_2 = 90^\\circ$.\nWith $r_1 + r_2 = 60^\\circ$, $|r_1| = 30^\\circ$ (on the other side of the normal), so at the first face $\\sin\\theta = \\frac{\\sqrt{3}}{2}\\sin 30^\\circ$.\nHence $\\alpha = 30$.",
           "marks": 4,
           "negativeMarks": 0
         },
@@ -646,7 +646,7 @@
         {
           "id": "phys_q14",
           "type": "numerical",
-          "questionText": "PARAGRAPH I\n\nIn a Young's double slit experiment, each of the two slits $A$ and $B$, as shown in the figure, are oscillating about their fixed center and with a mean separation of $0.8$ mm. The distance between the slits at time $t$ is given by $d = (0.8 + 0.04\\sin\\omega t)$ mm, where $\\omega = 0.08$ rad/s. The distance between the plane of the slits and the screen is $1$ m. The wavelength of the light used to illuminate the slits is $6000$ \\AA. The interference pattern on the screen changes with time.\n\nThe 8th bright fringe above the point $O$ oscillates with time between two extreme positions. The separation between these two extreme positions, in micrometer ($\\mu$m), is",
+          "questionText": "PARAGRAPH I\n\nIn a Young's double slit experiment, each of the two slits $A$ and $B$, as shown in the figure, are oscillating about their fixed center and with a mean separation of $0.8$ mm. The distance between the slits at time $t$ is given by $d = (0.8 + 0.04\\sin\\omega t)$ mm, where $\\omega = 0.08$ rad/s. The distance between the plane of the slits and the screen is $1$ m. The wavelength of the light used to illuminate the slits is $6000$ Å. The interference pattern on the screen changes with time.\n\nThe 8th bright fringe above the point $O$ oscillates with time between two extreme positions. The separation between these two extreme positions, in micrometer ($\\mu$m), is",
           "hasImage": true,
           "imageName": "img/phys_q14.png",
           "answer": "601.50",
@@ -657,7 +657,7 @@
         {
           "id": "phys_q15",
           "type": "numerical",
-          "questionText": "PARAGRAPH I\n\nIn a Young's double slit experiment, each of the two slits $A$ and $B$, as shown in the figure, are oscillating about their fixed center and with a mean separation of $0.8$ mm. The distance between the slits at time $t$ is given by $d = (0.8 + 0.04\\sin\\omega t)$ mm, where $\\omega = 0.08$ rad/s. The distance between the plane of the slits and the screen is $1$ m. The wavelength of the light used to illuminate the slits is $6000$ \\AA. The interference pattern on the screen changes with time.\n\nThe maximum speed in $\\mu$m/s at which the 8th bright fringe will move is",
+          "questionText": "PARAGRAPH I\n\nIn a Young's double slit experiment, each of the two slits $A$ and $B$, as shown in the figure, are oscillating about their fixed center and with a mean separation of $0.8$ mm. The distance between the slits at time $t$ is given by $d = (0.8 + 0.04\\sin\\omega t)$ mm, where $\\omega = 0.08$ rad/s. The distance between the plane of the slits and the screen is $1$ m. The wavelength of the light used to illuminate the slits is $6000$ Å. The interference pattern on the screen changes with time.\n\nThe maximum speed in $\\mu$m/s at which the 8th bright fringe will move is",
           "hasImage": true,
           "imageName": "img/phys_q14.png",
           "answer": "24",
@@ -889,7 +889,7 @@
             2,
             3
           ],
-          "explanation": "In starting material $P$, there is an alkyne, an ester/lactone, a nitrile, and an aldehyde/ketone group.\n- $\\text{NaBH}_4$ selectively reduces the aldehyde/ketone carbonyl to alcohol without reducing esters, nitriles, or alkynes.\n- Lindlar's catalyst with $\\text{H}_2$ selectively reduces the alkyne to a cis-alkene without reducing the nitrile or ester under mild conditions.\n- $\\text{SnCl}_2/\\text{HCl}$ followed by $\\text{H}_3\\text{O}^+$ (Stephen reduction) converts the $-\\text{C}\\equiv\\text{N}$ group to $-\\text{CHO}$.\nBoth routes (C) and (D) execute these selective transformations without mutual interference, successfully yielding product $Q$."
+          "explanation": "$P \\to Q$ needs: ketone $\\to$ CH(OH) ($\\text{NaBH}_4$); both alkynes $\\to$ cis-alkenes (Lindlar, $\\text{H}_2$); $-\\text{CN} \\to -\\text{CHO}$ ($\\text{SnCl}_2/\\text{HCl}$ then $\\text{H}_3\\text{O}^+$, Stephen reduction); acetate $\\to$ OH and $\\text{CO}_2\\text{Et} \\to \\text{CO}_2\\text{H}$ ($\\text{H}_3\\text{O}^+$).\n$\\text{NaBH}_4$ must act before the CHO is generated, otherwise it would also reduce the new aldehyde.\n(C) and (D) follow this order, so both give $Q$.\nIn (A), $\\text{NaBH}_4$ follows $\\text{SnCl}_2/\\text{HCl}$ and reduces the aldimine/aldehyde. In (B), $\\text{NaBH}_4$ is last and reduces the CHO. Both fail."
         },
         {
           "id": "chem_q7",
@@ -966,7 +966,7 @@
           "marks": 4,
           "negativeMarks": 0,
           "answer": 143,
-          "explanation": "Let $N_U$ be the number of $^{238}\\text{U}$ nuclei remaining and $N_{Pb}$ be the number of $^{206}\\text{Pb}$ nuclei formed.\nGiven mass ratio:\n$$\\frac{m_{Pb}}{m_U} = \\frac{N_{Pb} \\times 206}{N_U \\times 238} = 7 \\implies \\frac{N_{Pb}}{N_U} = 7 \\times \\frac{238}{206} = \\frac{1666}{206} \\approx 8.087$$\nInitial number of $^{238}\\text{U}$ nuclei was $N_0 = N_U + N_{Pb}$:\n$$\\frac{N_0}{N_U} = 1 + \\frac{N_{Pb}}{N_U} = 1 + 8.087 = 9.087 \\approx 9$$\nBy radioactive decay law:\n$$N_U = N_0 e^{-\\lambda t} \\implies \\frac{N_0}{N_U} = e^{\\lambda t} = 2^{t / T_{1/2}}$$\n$$t = T_{1/2} \\frac{\\ln(N_0/N_U)}{\\ln 2} = 4.5 \\times 10^9 \\times \\frac{\\ln(9)}{\\ln(2)} = 4.5 \\times 10^9 \\times \\frac{2 \\ln 3}{\\ln 2}$$\nUsing $\\log_2 9 \\approx 3.1699$:\n$$t \\approx 4.5 \\times 10^9 \\times 3.1699 \\approx 1.4265 \\times 10^{10} = 142.65 \\times 10^8\\text{ years}$$\nRounding to integer gives $P = 143$."
+          "explanation": "$\\frac{N_{Pb}}{N_U} = 7 \\times \\frac{238}{206} = 8.087$, so $\\frac{N_0}{N_U} = 9.087$.\n$t = \\frac{T_{1/2}}{\\ln 2}\\ln\\frac{N_0}{N_U} = \\frac{4.5 \\times 10^9}{0.693} \\times \\ln 9.087 = \\frac{4.5 \\times 10^9 \\times 2.207}{0.693} \\approx 1.433 \\times 10^{10}$ years.\nSo $t \\approx 143 \\times 10^8$ years and $P = 143$."
         },
         {
           "id": "chem_q12",
@@ -996,7 +996,7 @@
           "marks": 3,
           "negativeMarks": 0,
           "answer": 2,
-          "explanation": "From the given reactions:\n- Compound $P$ ($\text{C}_9\text{H}_{18}\text{O}_2$) is an unsaturated hydroxy acid or dihydroxy alkene. Since it decolorizes $\\text{Br}_2/\\text{H}_2\\text{O}$ and gives a positive iodoform test, it has a $\\text{CH}_3\\text{CH(OH)}-$ group and a $\\text{C}=\\text{C}$ double bond.\n- Oxidative ozonolysis yields hydroxy acids $Q$ and $R$:\n  - $Q$: $\\text{CH}_3\\text{CH(OH)}\\text{CH}_2\\text{COOH}$ (4 carbons, positive iodoform test)\n  - $R$: $\\text{HOOC}\\text{CH}_2\\text{CH(OH)}\\text{CH}_2\\text{CH}_3$ (5 carbons, negative iodoform test)\n- Oxidation with PCC oxidizes $-\\text{CH(OH)}-$ to a ketone, and subsequent heating causes $\\beta$-decarboxylation of $\\beta$-keto acids:\n  - $Q \\xrightarrow{\\text{PCC}} \\text{CH}_3\\text{COCH}_2\\text{COOH} \\xrightarrow{\\Delta} \\text{CH}_3\\text{COCH}_3$ (Acetone, $S$, has 1 oxygen atom)\n  - $R \\xrightarrow{\\text{PCC}} \\text{CH}_3\\text{CH}_2\\text{COCH}_2\\text{COOH} \\xrightarrow{\\Delta} \\text{CH}_3\\text{CH}_2\\text{COCH}_3$ (Butanone, $T$, has 1 oxygen atom)\nBoth $S$ (acetone) and $T$ (butanone) give positive iodoform test.\nSum of oxygen atoms in $S$ and $T = 1 + 1 = 2$."
+          "explanation": "$P$ is $\\text{CH}_3\\text{CH(OH)CH}_2\\text{CH=CHCH}_2\\text{CH(OH)CH}_2\\text{CH}_3$ ($\\text{C}_9\\text{H}_{18}\\text{O}_2$). The $\\text{C=C}$ decolourises bromine water, and the $\\text{CH}_3\\text{CH(OH)}-$ group gives the iodoform test.\nOxidative ozonolysis gives $Q = \\text{CH}_3\\text{CH(OH)CH}_2\\text{COOH}$ (iodoform positive) and $R = \\text{CH}_3\\text{CH}_2\\text{CH(OH)CH}_2\\text{COOH}$ (iodoform negative).\nPCC gives the $\\beta$-keto acids, which decarboxylate on heating: $S = \\text{CH}_3\\text{COCH}_3$ and $T = \\text{CH}_3\\text{COCH}_2\\text{CH}_3$. Both give the iodoform test.\nEach has one oxygen atom, so the sum is $2$."
         },
         {
           "id": "chem_q15",
@@ -1025,8 +1025,8 @@
           "hasImage": false,
           "marks": 3,
           "negativeMarks": 0,
-          "answer": 2,
-          "explanation": "Addition of zinc chloride to potassium ferrocyanide in a slightly acidic medium forms a sparingly soluble precipitate of zinc ferrocyanide:\n$$2\\text{ZnCl}_2 + \\text{K}_4[\\text{Fe}(\\text{CN})_6] \\to \\text{Zn}_2[\\text{Fe}(\\text{CN})_6] + 4\\text{KCl}$$\nIn $\\text{Zn}_2[\\text{Fe}(\\text{CN})_6]$, there are $2$ zinc ions.\n(Note: In excess potassium salt, double salt $\\text{K}_2\\text{Zn}_3[\\text{Fe}(\\text{CN})_6]_2$ can also form containing 3 zinc ions; both 2 and 3 are accepted)."
+          "answer": "3",
+          "explanation": "$P$ is $\\text{K}_4[\\text{Fe(CN)}_6]$. With $\\text{ZnCl}_2$ in slightly acidic medium, it forms the white, sparingly soluble double salt potassium zinc ferrocyanide:\n$$3\\text{ZnCl}_2 + 2\\text{K}_4[\\text{Fe(CN)}_6] \\to \\text{K}_2\\text{Zn}_3[\\text{Fe(CN)}_6]_2 + 6\\text{KCl}$$\nSo $Q = \\text{K}_2\\text{Zn}_3[\\text{Fe(CN)}_6]_2$, which contains $3$ zinc ions."
         }
       ]
     }

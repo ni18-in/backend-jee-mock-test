@@ -71,7 +71,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "ae=√10, a/e=9/√10 ⟹ a²=9, e=√10/3. b²=ae²-a²=10-9=1. l=2b²/a=2/3. 9(e²+l)=9(10/9+2/3)=10+6=16.",
+                            "explanation": "ae=√10, a/e=9/√10 $\\implies$ a²=9, e=√10/3. b²=ae²-a²=10-9=1. l=2b²/a=2/3. 9(e²+l)=9(10/9+2/3)=10+6=16.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -133,7 +133,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "From the functional equation, f(x)=K sin(x/2). f'(0)=K/2=1/2 ⟹ K=1. f''(x)=-1/4 sin(x/2). 24f''(5π/3)=24(-1/4)sin(5π/6)=(-6)(1/2)=-3.",
+                            "explanation": "From the functional equation, f(x)=K sin(x/2). f'(0)=K/2=1/2 $\\implies$ K=1. f''(x)=-1/4 sin(x/2). 24f''(5π/3)=24(-1/4)sin(5π/6)=(-6)(1/2)=-3.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -164,14 +164,14 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "αβ=-6, α+β=1 ⟹ α=3, β=-2. A²=A (idempotent). (I+A)⁸=I+A(2⁸-1)=I+255A=[[766,-255],[1530,-509]].",
+                            "explanation": "αβ=-6, α+β=1 $\\implies$ α=3, β=-2. $\\text{A}^{2}$=A (idempotent). (I+A)⁸=I+A(2⁸-1)=I+255A=[[766,-255],[1530,-509]].",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "math_q6",
                             "type": "single_correct",
-                            "questionText": "The term independent of $x$ in the expansion of $\\left(\\frac{(x+1)}{(x^{2/3}+1-x^{1/3})} - \\frac{(x+1)}{(x-x^{1/2})}\\right)^{10}$, $x > 1$, is:",
+                            "questionText": "The term independent of $x$ in the expansion of $\\left(\\frac{(x+1)}{(x^{2/3}+1-x^{1/3})} - \\frac{(x-1)}{(x-x^{1/2})}\\right)^{10}$, $x > 1$, is:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -195,7 +195,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Expression simplifies to (x^{1/3}-x^{-1/2})^{10}. T_{r+1}=¹⁰Cᵣ x^{(10-r)/3}(-1)^r x^{-r/2}. For term independent of x: (10-r)/3=r/2 ⟹ r=4. T₅=¹⁰C₄(-1)⁴=210.",
+                            "explanation": "$\\frac{x+1}{x^{2/3}-x^{1/3}+1} = x^{1/3}+1$ (sum of cubes) and $\\frac{x-1}{x-x^{1/2}} = \\frac{(\\sqrt{x}-1)(\\sqrt{x}+1)}{\\sqrt{x}(\\sqrt{x}-1)} = 1 + x^{-1/2}$. So the expression is $(x^{1/3} - x^{-1/2})^{10}$.\n$T_{r+1} = \\binom{10}{r}(-1)^r x^{\\frac{10-r}{3} - \\frac{r}{2}}$; the exponent is $0$ when $r = 4$.\nTerm independent of $x$ $= \\binom{10}{4} = 210$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -257,7 +257,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Sum of odd terms: 12/2[2a+22d]=-72a/5 ⟹ a=-5d. Σaₖ=n/2(2a+(n-1)d)=0 ⟹ -10d+nd-d=0 ⟹ n=11.",
+                            "explanation": "Sum of odd terms: 12/2[2a+22d]=-72a/5 $\\implies$ a=-5d. Σaₖ=n/2(2a+(n-1)d)=0 $\\implies$ -10d+nd-d=0 $\\implies$ n=11.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -288,7 +288,7 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "f'(x)=6(x²-3ax+2a²)=6(x-a)(x-2a). Critical points: p=a (max), q=2a (min). p²=q ⟹ a²=2a ⟹ a=2. f(x)=2x³-18x²+48x+1. f(3)=54-162+144+1=37.",
+                            "explanation": "f'(x)=6(x²-3ax+2a²)=6(x-a)(x-2a). Critical points: p=a (max), q=2a (min). p²=q $\\implies$ a²=2a $\\implies$ a=2. f(x)=2x³-18x²+48x+1. f(3)=54-162+144+1=37.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -319,7 +319,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "|z|²k=2 ⟹ k=2. Point k+ik²=2+4i. Distance from center (1,2) = √(1+4)=√5. Max distance=√5+1.",
+                            "explanation": "|z|²k=2 $\\implies$ k=2. Point k+ik²=2+4i. Distance from center (1,2) = √(1+4)=√5. Max distance=√5+1.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -350,7 +350,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Setting equal projections: a₁=7/√155, a₂=9/√155, a₃=5/√155. Unit vector=(7î+9ĵ+5k̂)/√155.",
+                            "explanation": "Setting equal projections: $\\text{a}_1$=7/√155, a₂=9/√155, a₃=5/√155. Unit vector=(7î+9ĵ+5k̂)/√155.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -362,12 +362,12 @@
                             "options": [
                                 {
                                     "id": "1",
-                                    "text": "Symmetric and transitive but not reflective",
+                                    "text": "Symmetric and transitive but not reflexive",
                                     "isCorrect": false
                                 },
                                 {
                                     "id": "2",
-                                    "text": "Symmetric but neither reflective nor transitive",
+                                    "text": "Symmetric but neither reflexive nor transitive",
                                     "isCorrect": true
                                 },
                                 {
@@ -412,7 +412,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "For finite limit with denominator→0, need γ-1=0 ⟹ γ=1. Then numerator~αx³+(γ-1)(1+x²)~αx³. Denominator~(2-β)x. Limit=0 unless β=2, then using L'Hopital: -3α/4=3 ⟹ α=-4. β+γ-α=2+1+4=7.",
+                            "explanation": "For finite limit with denominator→0, need γ-1=0 $\\implies$ γ=1. Then numerator~αx³+(γ-1)(1+x²)~αx³. Denominator~(2-β)x. Limit=0 unless β=2, then using L'Hopital: -3α/4=3 $\\implies$ α=-4. β+γ-α=2+1+4=7.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -443,7 +443,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Δ=0 ⟹ 3α+4β-αβ+3=0. Δ₃=0 ⟹ 9α+19=0 ⟹ α=-19/9, β=6/11. 22β-9α=12+19=31.",
+                            "explanation": "Δ=0 $\\implies$ 3α+4β-αβ+3=0. Δ₃=0 $\\implies$ 9α+19=0 $\\implies$ α=-19/9, β=6/11. 22β-9α=12+19=31.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -474,7 +474,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "P₁₀=P₉+P₈ ⟹ 123=76+47=123 ✓. So recurrence xPₙ=Pₙ₋₁+Pₙ₋₂ with x²=x+1. α+β=1, αβ=-1. 1/α+1/β=(α+β)/αβ=-1, (1/α)(1/β)=1/αβ=-1. Equation: x²+x-1=0.",
+                            "explanation": "$P_{10} = P_9 + P_8$ ($123 = 76 + 47$) and $P_1 = \\alpha + \\beta = 1$, so $\\alpha, \\beta$ satisfy $t^2 = t + 1$, i.e. they are roots of $t^2 - t - 1 = 0$: $\\alpha + \\beta = 1$, $\\alpha\\beta = -1$.\nFor roots $\\frac{1}{\\alpha}, \\frac{1}{\\beta}$: sum $= \\frac{\\alpha+\\beta}{\\alpha\\beta} = -1$, product $= \\frac{1}{\\alpha\\beta} = -1$.\nRequired equation: $x^2 + x - 1 = 0$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -567,7 +567,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Ar(BCD)=√(Ar(ABC)²+Ar(ACD)²+Ar(ADB)²)=√(25+36+49)=√110.",
+                            "explanation": "Ar(BCD)=√(Ar(ABC)²+$\\text{Ar(ACD)}^{2}$+Ar(ADB)²)=√(25+36+49)=√110.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -598,7 +598,7 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "|A|=2-2a=-4 ⟹ a=3. |(a+1)adj((a-1)A)|=|4adj(2A)|=4³|adj(2A)|=4³×(2³)²×|A|²=64×64×16=2⁶×3⁶×16=2¹⁰×3⁶. m=10, n=6. m+n=16.",
+                            "explanation": "$A = (A+I) - I = \\begin{bmatrix} 0 & a & 1 \\\\ 2 & 0 & 0 \\\\ a & 1 & 1 \\end{bmatrix}$, so $\\det A = -a(2) + 1(2) = 2 - 2a = -4 \\implies a = 3$.\nThen $\\det(4\\,\\text{adj}(2A)) = 4^3 \\det(\\text{adj}(2A)) = 4^3 (\\det 2A)^2 = 2^6 (2^3 \\cdot (-4))^2 = 2^6 \\cdot 2^{10} = 2^{16}$.\nSo $m = 16$, $n = 0$ and $m + n = 16$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -629,7 +629,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "tan60°=(2t)/(t²-1)=√3 ⟹ t=√3. P(3,2√3). Circle with diameter PS: (x-1)(x-3)+y(y-2√3)=0. At x=0: 3+y²-2√3y=0 ⟹ y=√3=α. 5α²=15.",
+                            "explanation": "tan60°=(2t)/(t²-1)=√3 $\\implies$ t=√3. P(3,2√3). Circle with diameter PS: (x-1)(x-3)+y(y-2√3)=0. At x=0: 3+y²-2√3y=0 $\\implies$ y=√3=α. 5α²=15.",
                             "marks": 4,
                             "negativeMarks": -1
                         }
@@ -645,7 +645,7 @@
                             "questionText": "Let $[\\cdot]$ denote the greatest integer function. If $\\int_0^{e^3} \\left[\\frac{1}{e^{x-1}}\\right] dx = \\alpha - \\log_e 2$, then $\\alpha^3$ is equal to ___.",
                             "hasImage": false,
                             "answer": 8,
-                            "explanation": "f(x)=e^{1-x}. Breakpoints at x=1-ln2 (f=2) and x=1 (f=1). I=2(1-ln2)+1(1-(1-ln2))+0=2-2ln2+ln2=2-ln2. α=2. α³=8.",
+                            "explanation": "$f(x)=e^{1-x}$. Breakpoints at x=1-ln2 (f=2) and x=1 (f=1). I=2(1-ln2)+1(1-(1-ln2))+0=2-2ln2+ln2=2-ln2. α=2. α³=8.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -655,7 +655,7 @@
                             "questionText": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be a thrice differentiable odd function satisfying $f''(x) \\geq 0$, $f''(x) = f(x)$, $f(0) = 0$, $f'(0) = 3$. Then $9f(\\log_e 3)$ is equal to ___.",
                             "hasImage": false,
                             "answer": 36,
-                            "explanation": "f''=f ⟹ (f')²=(f)²+C'. f(0)=0, f'(0)=3 ⟹ C'=9. f'=√(f²+9). Solving: y+√(y²+9)=3eˣ. At x=ln3: y+√(y²+9)=9 ⟹ y=4. 9f(ln3)=36.",
+                            "explanation": "f''=f $\\implies$ (f')²=(f)²+C'. f(0)=0, f'(0)=3 $\\implies$ C'=9. f'=√(f²+9). Solving: y+√(y²+9)=3eˣ. At x=ln3: y+√(y²+9)=9 $\\implies$ y=4. 9f(ln3)=36.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -665,7 +665,7 @@
                             "questionText": "If the area of the region $\\{(x,y): |4-x^2| \\leq y \\leq x^2, y \\leq 4, x \\geq 0\\}$ is $\\left(\\frac{80\\sqrt{2}}{\\alpha} - \\beta\\right)$, $\\alpha, \\beta \\in \\mathbb{N}$, then $\\alpha + \\beta$ is equal to ___.",
                             "hasImage": false,
                             "answer": 22,
-                            "explanation": "Area = ∫₀⁴√(4+y)dy - ∫₀²√(4-y)dy - ∫₂⁴√y dy = (80√2/3-16) = 80√2/3-16. α=3, β=16. α+β=19... Recalculating from solution: α=6, β=16 giving α+β=22.",
+                            "explanation": "$|4 - x^2| \\le x^2$ needs $x \\ge \\sqrt{2}$, and $y \\le 4$ with $y \\ge x^2 - 4$ needs $x \\le 2\\sqrt{2}$.\nFor $\\sqrt{2} \\le x \\le 2$: area $= \\int_{\\sqrt{2}}^{2} (x^2 - (4 - x^2))\\,dx = \\frac{8\\sqrt{2} - 8}{3}$.\nFor $2 \\le x \\le 2\\sqrt{2}$: area $= \\int_{2}^{2\\sqrt{2}} (4 - (x^2 - 4))\\,dx = \\frac{32\\sqrt{2} - 40}{3}$.\nTotal $= \\frac{40\\sqrt{2}}{3} - 16 = \\frac{80\\sqrt{2}}{6} - 16$, so $\\alpha = 6$, $\\beta = 16$ and $\\alpha + \\beta = 22$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -674,8 +674,8 @@
                             "type": "numerical",
                             "questionText": "Three distinct numbers are selected randomly from the set $\\{1, 2, 3, \\ldots, 40\\}$. If the probability that the selected numbers are in an increasing G.P. is $\\frac{m}{n}$, $\\gcd(m,n)=1$, then $m+n$ is equal to ___.",
                             "hasImage": false,
-                            "answer": 4949,
-                            "explanation": "Total ways = ⁴⁰C₃=9880. Count triplets (a,ar,ar²) in GP with all in {1..40}: r=2→10, r=3→4, r=4→2, r=5→1, r=6→1 etc., total 18 (integer r). Including rational r: additional 10 cases. P=28/9880=7/2470. m+n=2477. NTA ans=4949 with P=9/4940.",
+                            "answer": 2477,
+                            "explanation": "Total ways $= \\binom{40}{3} = 9880$. An increasing G.P. with ratio $\\frac{p}{q}$ ($p > q$, coprime) is $(kq^2, kpq, kp^2)$ with $kp^2 \\le 40$, giving $\\lfloor 40/p^2 \\rfloor$ triples for each such ratio.\n$p = 2$: $10$; $p = 3$ ($q = 1, 2$): $4 + 4$; $p = 4$ ($q = 1, 3$): $2 + 2$; $p = 5$ ($q = 1, 2, 3, 4$): $4 \\times 1$; $p = 6$ ($q = 1, 5$): $2 \\times 1$. Total $= 28$.\n$P = \\frac{28}{9880} = \\frac{7}{2470}$, so $m + n = 2477$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -685,7 +685,7 @@
                             "questionText": "The absolute difference between the squares of the radii of the two circles passing through the point $(-9, 4)$ and touching the lines $x + y = 3$ and $x - y = 3$, is equal to ___.",
                             "hasImage": false,
                             "answer": 768,
-                            "explanation": "Centre (a,0) equidistant from both lines. r=|a-3|/√2. Circle passes through (-9,4): 2(a²+18a+97)=(a-3)². a=-37 or a=-5. r₁=20√2, r₂=4√2. |r₁²-r₂²|=|800-32|=768.",
+                            "explanation": "Centre (a,0) equidistant from both lines. r=|a-3|/√2. Circle passes through (-9,4): 2(a²+18a+97)=(a-3)². a=-37 or a=-5. $\\text{r}_1$=20√2, $\\text{r}_2$=4√2. |$\\text{r}_1$²-$\\text{r}_2$²|=|800-32|=768.",
                             "marks": 4,
                             "negativeMarks": -1
                         }
@@ -728,7 +728,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Direction of propagation is normal to wave front: along (1,1,1). cos²α+cos²β+cos²γ=1 ⟹ cosα=1/√3. α=cos⁻¹(1/√3).",
+                            "explanation": "Direction of propagation is normal to wave front: along (1,1,1). cos²α+cos²β+cos²γ=1 $\\implies$ cosα=1/√3. α=cos⁻¹(1/√3).",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -759,7 +759,7 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "[a]=[P][V²]=ML⁵T⁻². [b]=[V]=L³. [ab⁻²]=ML⁵T⁻²/L⁶=ML⁻¹T⁻²=energy density.",
+                            "explanation": "[a]=$\\text{[P][V}^{2}\\text{]}$=$\\text{ML}^{5}\\text{T}^{-2}$. [b]=[V]=$\\text{L}^{3}$. [ab⁻²]=$\\text{ML}^{5}\\text{T}^{-2}$/$\\text{L}^{6}$=$\\text{ML}^{-1}\\text{T}^{-2}$=energy density.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -790,7 +790,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "W_F=20×1=20J. ΔKE=½Iω². I=MR²=10×0.01=0.1 kg m². 20=½×0.1×ω² ⟹ ω=20 rad/s.",
+                            "explanation": "W_F=20×1=20J. ΔKE=½Iω². I=$\\text{MR}^{2}$=10×0.01=0.1 kg m². 20=½×0.1×ω² $\\implies$ ω=20 rad/s.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -883,7 +883,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "kq/x²=k9q/(d-x)². (d-x)/x=3 ⟹ x=d/4.",
+                            "explanation": "kq/x²=k9q/(d-x)². (d-x)/x=3 $\\implies$ x=d/4.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -976,7 +976,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "μ=μ₀μᵣ ⟹ μᵣ=μ/μ₀. χ=μᵣ-1=μ/μ₀-1.",
+                            "explanation": "μ=μ₀μᵣ $\\implies$ μᵣ=μ/μ₀. χ=μᵣ-1=μ/μ₀-1.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1069,14 +1069,14 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "B₁=μ₀I/2R. B₂=B₁sin³θ where sinθ=R/√(R²+x²)=4/5 when x:R=3:4. B₂/B₁=(4/5)³=64/125.",
+                            "explanation": "$\\text{B}_{1}$=μ$_{0}\\text{I}$/2R. $\\text{B}_{2}$=$\\text{B}_{1}\\text{sin}^{3}$θ where sinθ=R/√(R²+x²)=4/5 when x:R=3:4. $\\text{B}_{2}$/$\\text{B}_{1}$=(4/5)³=64/125.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "phys_q13",
                             "type": "single_correct",
-                            "questionText": "Considering Bohr's atomic model for hydrogen atom, choose the correct statements: (A) The energy of H atom in ground state is same as energy of He⁺ ion in its first excited state. (B) The energy of H atom in ground state is same as that for Li²⁺ ion in its second excited state. (C) The energy of H atom in its ground state is same as that of He⁺ ion for its ground state. (D) The energy of He⁺ ion in its first excited state is same as that for Li²⁺ ion in its ground state.",
+                            "questionText": "Considering Bohr's atomic model for hydrogen atom, choose the correct statements: (A) The energy of H atom in ground state is same as energy of $\\text{He}^{+}$ ion in its first excited state. (B) The energy of H atom in ground state is same as that for $\\text{Li}^{2+}$ ion in its second excited state. (C) The energy of H atom in its ground state is same as that of $\\text{He}^{+}$ ion for its ground state. (D) The energy of $\\text{He}^{+}$ ion in its first excited state is same as that for $\\text{Li}^{2+}$ ion in its ground state.",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1100,7 +1100,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "E∝Z²/n². (A) H(n=1): Z²/n²=1. He⁺(n=2): 4/4=1 ✓. (B) Li²⁺(n=3): 9/9=1 ✓. (C) He⁺(n=1): 4/1=4 ≠1 ✗. (D) He⁺(n=2)=1; Li²⁺(n=1)=9 ✗. A and B correct.",
+                            "explanation": "E∝$\\text{Z}^{2}$/n². (A) H(n=1): $\\text{Z}^{2}$/n²=1. $\\text{He}^+$(n=2): 4/4=1 ✓. (B) $\\text{Li}^{2+}$(n=3): 9/9=1 ✓. (C) $\\text{He}^+$(n=1): 4/1=4 ≠1 ✗. (D) $\\text{He}^+$(n=2)=1; $\\text{Li}^{2+}$(n=1)=9 ✗. A and B correct.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1131,14 +1131,14 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "α=ML²/12. Each half: mass M/2, length L/2, I'=(M/2)(L/2)²/12=Mℓ²/48=α/4. Cross has two perpendicular halves; about axis perpendicular to plane, each contributes α/4. Total... But from solution I'=α/4.",
+                            "explanation": "For the full rod, $\\alpha = \\frac{ML^2}{12}$. Each half has mass $\\frac{M}{2}$ and length $\\frac{L}{2}$; in the cross both halves have their centres at the common centre.\nEach half: $I = \\frac{(M/2)(L/2)^2}{12} = \\frac{ML^2}{96} = \\frac{\\alpha}{8}$.\nCross (two halves): $I = 2 \\times \\frac{\\alpha}{8} = \\frac{\\alpha}{4}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "phys_q15",
                             "type": "single_correct",
-                            "questionText": "A spherical surface separates two media of refractive indices 1 and 1.5 as shown in figure. Distance of image of an object 'O' at 0.2 m from the surface (in medium n₁=1), with R=0.4 m, is:",
+                            "questionText": "A convex spherical surface of radius of curvature $R = 0.4$ m separates two media of refractive indices $n_1 = 1$ and $n_2 = 1.5$ (centre of curvature in the denser medium). An object 'O' is placed in medium $n_1 = 1$ at a distance of $0.2$ m from the surface. The position of the image is:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1169,7 +1169,7 @@
                         {
                             "id": "phys_q16",
                             "type": "single_correct",
-                            "questionText": "Match List-I with List-II: (A) Coefficient of viscosity → (I) [ML⁰T⁻³]; (B) Intensity of wave → (II) [ML⁻²T⁻²]; (C) Pressure gradient → (III) [M⁻¹LT²]; (D) Compressibility → (IV) [ML⁻¹T⁻¹]. Choose the correct answer:",
+                            "questionText": "Match List-I with List-II: (A) Coefficient of viscosity → (I) $\\text{[ML}^{0}\\text{T}^{-3}\\text{]}$; (B) Intensity of wave → (II) $\\text{[ML}^{-2}\\text{T}^{-2}\\text{]}$; (C) Pressure gradient → (III) $\\text{[M}^{-1}\\text{LT}^{2}\\text{]}$; (D) Compressibility → (IV) $\\text{[ML}^{-1}\\text{T}^{-1}\\text{]}$. Choose the correct answer:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1193,7 +1193,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "(A) η=[ML⁻¹T⁻¹]; (B) Intensity=[ML⁰T⁻³]; (C) Pressure gradient=[ML⁻²T⁻²]; (D) Compressibility=[M⁻¹LT²]. Matching: A-IV, B-I, C-II, D-III.",
+                            "explanation": "(A) η=$\\text{[ML}^{-1}\\text{T}^{-1}\\text{]}$; (B) Intensity=$\\text{[ML}^{0}\\text{T}^{-3}\\text{]}$; (C) Pressure gradient=$\\text{[ML}^{-2}\\text{T}^{-2}\\text{]}$; (D) Compressibility=$\\text{[M}^{-1}\\text{LT}^{2}\\text{]}$. Matching: A-IV, B-I, C-II, D-III.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1225,68 +1225,6 @@
                                 }
                             ],
                             "explanation": "KE=hc/λ-φ. p=√(2mKE). r=p/eB. d_AB=2r=2√(2m(hc/λ-φ))/eB=√(8m(hc/λ-φ))/eB.",
-                            "marks": 4,
-                            "negativeMarks": -1
-                        },
-                        {
-                            "id": "phys_q18",
-                            "type": "single_correct",
-                            "questionText": "$\\gamma_A$ is the specific heat ratio of monoatomic gas A having 3 translational degrees of freedom. $\\gamma_B$ is the specific heat ratio of polyatomic gas B having 3 translational, 3 rotational degrees of freedom and 1 vibrational mode. If $\\frac{\\gamma_A}{\\gamma_B} = \\left(1+\\frac{1}{n}\\right)$, then the value of $n$ is ___.",
-                            "hasImage": false,
-                            "options": [
-                                {
-                                    "id": "1",
-                                    "text": "3",
-                                    "isCorrect": true
-                                },
-                                {
-                                    "id": "2",
-                                    "text": "4",
-                                    "isCorrect": false
-                                },
-                                {
-                                    "id": "3",
-                                    "text": "2",
-                                    "isCorrect": false
-                                },
-                                {
-                                    "id": "4",
-                                    "text": "5",
-                                    "isCorrect": false
-                                }
-                            ],
-                            "explanation": "γ_A=(3+2)/3=5/3. f_B=3+3+2=8, γ_B=(8+2)/8=10/8=5/4. γ_A/γ_B=(5/3)/(5/4)=4/3=1+1/3. n=3.",
-                            "marks": 4,
-                            "negativeMarks": -1
-                        },
-                        {
-                            "id": "phys_q19",
-                            "type": "single_correct",
-                            "questionText": "A person travelling on a straight line moves with a uniform velocity $v_1$ for a distance $x$ and with a uniform velocity $v_2$ for the next $\\frac{3}{2}x$ distance. The average velocity in this motion is $\\frac{50}{7}$ m/s. If $v_1 = 5$ m/s then $v_2$ is ___ m/s.",
-                            "hasImage": false,
-                            "options": [
-                                {
-                                    "id": "1",
-                                    "text": "10",
-                                    "isCorrect": true
-                                },
-                                {
-                                    "id": "2",
-                                    "text": "8",
-                                    "isCorrect": false
-                                },
-                                {
-                                    "id": "3",
-                                    "text": "12",
-                                    "isCorrect": false
-                                },
-                                {
-                                    "id": "4",
-                                    "text": "15",
-                                    "isCorrect": false
-                                }
-                            ],
-                            "explanation": "v_avg=(x+3x/2)/(x/v₁+3x/2v₂)=50/7. 50/7=(5/2)/(1/5+3/2v₂). Solving: v₂=10 m/s.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1340,7 +1278,7 @@
                         {
                             "id": "phys_q22",
                             "type": "numerical",
-                            "questionText": "A steel wire of length 2 m and Young's modulus 2.0×10¹¹ Nm⁻² is stretched by a force. If Poisson ratio and transverse strain for the wire are 0.2 and 10⁻³ respectively, then the elastic potential energy density of the wire is ___ ×10⁵ (in SI units).",
+                            "questionText": "A steel wire of length 2 m and Young's modulus 2.0×10¹¹ $\\text{Nm}^{-2}$ is stretched by a force. If Poisson ratio and transverse strain for the wire are 0.2 and 10⁻³ respectively, then the elastic potential energy density of the wire is ___ ×10⁵ (in SI units).",
                             "hasImage": false,
                             "answer": 25,
                             "explanation": "Δl/l=(1/μ)(Δr/r)=(1/0.2)×10⁻³=5×10⁻³. u=(1/2)Yε²=(1/2)×2×10¹¹×25×10⁻⁶=25×10⁵ J/m³.",
@@ -1353,7 +1291,7 @@
                             "questionText": "If the measured angular separation between the second minimum to the left of the central maximum and the third minimum to the right of the central maximum is 30° in a single slit diffraction pattern recorded using 628 nm light, then the width of the slit is ___ μm.",
                             "hasImage": false,
                             "answer": 6,
-                            "explanation": "θ₁+θ₂=30°. sin⁻¹(2λ/a)+sin⁻¹(3λ/a)=π/6. Approx: 5λ/a=π/6 ⟹ a=5×628/(π/6)nm≈6 μm.",
+                            "explanation": "θ₁+θ₂=30°. sin⁻¹(2λ/a)+sin⁻¹(3λ/a)=π/6. Approx: 5λ/a=π/6 $\\implies$ a=5×628/(π/6)nm≈6 μm.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1373,7 +1311,7 @@
                             "questionText": "A person travelling on a straight line moves with uniform velocity $v_1 = 5$ m/s for distance $x$ and with uniform velocity $v_2$ for next $\\frac{3}{2}x$ distance. The average velocity is $\\frac{50}{7}$ m/s. Then $v_2$ is ___ m/s.",
                             "hasImage": false,
                             "answer": 10,
-                            "explanation": "v_avg=(5/2)/(1/5+3/2v₂)=50/7. Solving: v₂=10 m/s.",
+                            "explanation": "v_avg=(5/2)/(1/5+3/2$\\text{v}_2$)=50/7. Solving: $\\text{v}_2$=10 m/s.",
                             "marks": 4,
                             "negativeMarks": -1
                         }
@@ -1392,7 +1330,7 @@
                         {
                             "id": "chem_q1",
                             "type": "single_correct",
-                            "questionText": "Designate whether each of the following compounds is aromatic or not: (a) cyclopentadienyl anion; (b) cyclopentadienyl cation; (c) cyclobutadiene dication; (d) cyclobutadiene dianion; (e) benzene cation (tropylium-like); (f) cyclohexadienyl anion; (g) cyclobutadiene; (h) cyclopropenyl cation. Which are aromatic?",
+                            "questionText": "Designate whether each of the following compounds is aromatic or not: (a) cyclopentadienyl anion; (b) cyclopentadienyl cation; (c) cyclobutadiene dication; (d) cyclobutadiene dianion; (e) cycloheptatrienyl (tropylium) cation; (f) cyclohexadienyl anion; (g) cyclobutadiene; (h) cyclopropenyl cation. Which are aromatic?",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1423,7 +1361,7 @@
                         {
                             "id": "chem_q2",
                             "type": "single_correct",
-                            "questionText": "An optically active alkyl halide C₄H₉Br [A] reacts with hot KOH dissolved in ethanol and forms alkene [B] as major product which reacts with bromine to give dibromide [C]. The compound [C] is converted into a gas [D] upon reacting with alcoholic NaNH₂. During hydration 18 g of water is added to 1 mole of gas [D] on warming with mercuric sulphate and dilute acid at 333 K to form compound [E]. The IUPAC name of compound [E] is:",
+                            "questionText": "An optically active alkyl halide $\\text{C}_{4}\\text{H}_{9}\\text{Br}$ [A] reacts with hot KOH dissolved in ethanol and forms alkene [B] as major product which reacts with bromine to give dibromide [C]. The compound [C] is converted into a gas [D] upon reacting with alcoholic $\\text{NaNH}_{2}$. During hydration 18 g of water is added to 1 mole of gas [D] on warming with mercuric sulphate and dilute acid at 333 K to form compound [E]. The IUPAC name of compound [E] is:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1447,7 +1385,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "A=2-bromobutane (optically active). KOH/EtOH→B=but-2-ene. Br₂→C=2,3-dibromobutane. NaNH₂/alc→D=but-2-yne. Hydration (Markovnikov)→E=butan-2-one.",
+                            "explanation": "A=2-bromobutane (optically active). KOH/EtOH→B=but-2-ene. $\\text{Br}_{2}$→C=2,3-dibromobutane. $\\text{NaNH}_{2}$/alc→D=but-2-yne. Hydration (Markovnikov)→E=butan-2-one.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1571,14 +1509,14 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "P_S=P°_A·X_A+P°_B·X_B. 500=200×(1/4)+P°_B×(3/4). P°_B=600 mm Hg. P°_A<P°_B ⟹ A is least volatile.",
+                            "explanation": "P_S=P°_A·X_A+P°_B·X_B. 500=200×(1/4)+P°_B×(3/4). P°_B=600 mm Hg. P°_A<P°_B $\\implies$ A is least volatile.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q8",
                             "type": "single_correct",
-                            "questionText": "CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + CO₂(g) + H₂O(l). What mass of CaCl₂ will be formed if 250 mL of 0.76 M HCl reacts with 1000 g of CaCO₃? (Molar mass: Ca=40, C=12, O=16, H=1, Cl=35.5 g mol⁻¹)",
+                            "questionText": "$\\text{CaCO}_{3}\\text{(s)}$ + 2HCl(aq) → $\\text{CaCl}_{2}\\text{(aq)}$ + $\\text{CO}_{2}\\text{(g)}$ + $\\text{H}_{2}\\text{O(l)}$. What mass of $\\text{CaCl}_{2}$ will be formed if 250 mL of 0.76 M HCl reacts with 1000 g of $\\text{CaCO}_{3}$? (Molar mass: Ca=40, C=12, O=16, H=1, Cl=35.5 g mol⁻¹)",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1602,45 +1540,45 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Moles HCl=0.76×0.25=0.19 (LR). Moles CaCl₂=0.19/2=0.095. Mass=0.095×111=10.545 g.",
+                            "explanation": "Moles HCl=0.76×0.25=0.19 (LR). Moles $\\text{CaCl}_{2}$=0.19/2=0.095. Mass=0.095×111=10.545 g.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q9",
                             "type": "single_correct",
-                            "questionText": "If equal volumes of AB₂ and XY (both are salts) aqueous solutions are mixed, which of the following combination will give a precipitate of AY₂ at 300 K? (Given $K_{sp}$ (at 300 K) for AY₂ = 5.2×10⁻⁷)",
+                            "questionText": "If equal volumes of $\\text{AB}_{2}$ and XY (both are salts) aqueous solutions are mixed, which of the following combination will give a precipitate of $\\text{AY}_{2}$ at 300 K? (Given $K_{sp}$ (at 300 K) for $\\text{AY}_{2}$ = 5.2×10⁻⁷)",
                             "hasImage": false,
                             "options": [
                                 {
                                     "id": "1",
-                                    "text": "$3.6\\times10^{-3}$ M AB₂, $5.0\\times10^{-4}$ M XY",
+                                    "text": "$3.6\\times10^{-3}$ M $\\text{AB}_{2}$, $5.0\\times10^{-4}$ M XY",
                                     "isCorrect": false
                                 },
                                 {
                                     "id": "2",
-                                    "text": "$2.0\\times10^{-4}$ M AB₂, $0.8\\times10^{-3}$ M XY",
+                                    "text": "$2.0\\times10^{-4}$ M $\\text{AB}_{2}$, $0.8\\times10^{-3}$ M XY",
                                     "isCorrect": false
                                 },
                                 {
                                     "id": "3",
-                                    "text": "$2.0\\times10^{-2}$ M AB₂, $2.0\\times10^{-2}$ M XY",
+                                    "text": "$2.0\\times10^{-2}$ M $\\text{AB}_{2}$, $2.0\\times10^{-2}$ M XY",
                                     "isCorrect": true
                                 },
                                 {
                                     "id": "4",
-                                    "text": "$1.5\\times10^{-4}$ M AB₂, $1.5\\times10^{-3}$ M XY",
+                                    "text": "$1.5\\times10^{-4}$ M $\\text{AB}_{2}$, $1.5\\times10^{-3}$ M XY",
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "After mixing, concentrations halved. Q=[A²⁺][Y⁻]². Option 3: Q=(10⁻²)(10⁻²)²=10⁻⁶>5.2×10⁻⁷=K_sp. Precipitate forms.",
+                            "explanation": "After mixing, concentrations halved. Q=$\\text{[A}^{2+}\\text{][Y}^{-}\\text{]}^{2}$. Option 3: Q=(10⁻²)(10⁻²)²=10⁻⁶>5.2×10⁻⁷=$\\text{K}_{\\text{sp}}$. Precipitate forms.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q10",
                             "type": "single_correct",
-                            "questionText": "Among SO₂, NF₃, NH₃, XeF₂, ClF₃ and SF₄, the hybridization of the molecule with non-zero dipole moment and highest number of lone-pairs of electrons on the central atom is:",
+                            "questionText": "Among $\\text{SO}_{2}$, $\\text{NF}_{3}$, $\\text{NH}_{3}$, $\\text{XeF}_{2}$, $\\text{ClF}_{3}$ and $\\text{SF}_{4}$, the hybridization of the molecule with non-zero dipole moment and highest number of lone-pairs of electrons on the central atom is:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1664,7 +1602,7 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "ClF₃: sp³d, non-zero dipole (T-shape), 2 LP on central Cl. XeF₂: sp³d, zero dipole, 3 LP. Among non-zero dipole moment molecules, ClF₃ has most LP (2) with sp³d hybridization.",
+                            "explanation": "$\\text{ClF}_{3}$: sp³d, non-zero dipole (T-shape), 2 LP on central Cl. $\\text{XeF}_{2}$: sp³d, zero dipole, 3 LP. Among non-zero dipole moment molecules, $\\text{ClF}_{3}$ has most LP (2) with sp³d hybridization.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1733,7 +1671,7 @@
                         {
                             "id": "chem_q13",
                             "type": "single_correct",
-                            "questionText": "The correct order of basic nature on aqueous solution for the bases NH₃, H₂N–NH₂, CH₃CH₂NH₂, (CH₃CH₂)₂NH and (CH₃CH₂)₃N is:",
+                            "questionText": "The correct order of basic nature on aqueous solution for the bases $\\text{NH}_{3}$, $\\text{H}_{2}\\text{N}$–$\\text{NH}_{2}$, $\\text{CH}_{3}\\text{CH}_{2}\\text{NH}_{2}$, $\\text{(CH}_{3}\\text{CH}_{2}\\text{)}_{2}\\text{NH}$ and $\\text{(CH}_{3}\\text{CH}_{2}\\text{)}_{3}\\text{N}$ is:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1757,14 +1695,14 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "In aqueous solution: NH(Et)₂>(Et)₃N>NH₂Et>NH₃>NH₂-NH₂. Basic strength depends on H-bonding and inductive effect.",
+                            "explanation": "In aqueous solution: $\\text{NH(Et)}_{2}$>$\\text{(Et)}_{3}\\text{N}$>$\\text{NH}_{2}\\text{Et}$>$\\text{NH}_{3}$>$\\text{NH}_{2}$-$\\text{NH}_{2}$. Basic strength depends on H-bonding and inductive effect.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q14",
                             "type": "single_correct",
-                            "questionText": "Given below are two statements:\n**Statement (I):** The metallic radius of Al is less than that of Ga.\n**Statement (II):** The ionic radius of Al³⁺ is less than that of Ga³⁺.\nChoose the most appropriate answer:",
+                            "questionText": "Given below are two statements:\n**Statement (I):** The metallic radius of Al is less than that of Ga.\n**Statement (II):** The ionic radius of $\\text{Al}^{3+}$ is less than that of $\\text{Ga}^{3+}$.\nChoose the most appropriate answer:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1788,7 +1726,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Metallic radius: Al<Ga (due to poor shielding by d-electrons in Ga) — Statement I is wrong. Ionic radius Al³⁺<Ga³⁺ is correct — Statement II is correct.",
+                            "explanation": "Metallic radius of Al ($143$ pm) is greater than that of Ga ($135$ pm), because the poorly shielding $3d^{10}$ electrons in Ga increase its effective nuclear charge. So Statement I is incorrect.\nIonic radius of $\\text{Al}^{3+}$ ($53.5$ pm) is less than that of $\\text{Ga}^{3+}$ ($62$ pm). So Statement II is correct.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
@@ -1826,7 +1764,7 @@
                         {
                             "id": "chem_q16",
                             "type": "single_correct",
-                            "questionText": "Choose the correct tests with respective observations: (A) CuSO₄ + K₄[Fe(CN)₆] → Chocolate brown ppt; (B) FeCl₃ + K₄[Fe(CN)₆] → Prussian blue ppt; (C) ZnCl₂ + K₄[Fe(CN)₆] + NH₄OH → White/bluish white ppt; (D) MgCl₂ + K₄[Fe(CN)₆] → Blue ppt; (E) BaCl₂ + K₄[Fe(CN)₆] + NaOH → White ppt. Choose the correct answer:",
+                            "questionText": "Choose the correct tests with respective observations: (A) $\\text{CuSO}_{4}$ + $\\text{K}_{4}\\text{[Fe(CN)}_{6}\\text{]}$ → Chocolate brown ppt; (B) $\\text{FeCl}_{3}$ + $\\text{K}_{4}\\text{[Fe(CN)}_{6}\\text{]}$ → Prussian blue ppt; (C) $\\text{ZnCl}_{2}$ + $\\text{K}_{4}\\text{[Fe(CN)}_{6}\\text{]}$ + $\\text{NH}_{4}\\text{OH}$ → White/bluish white ppt; (D) $\\text{MgCl}_{2}$ + $\\text{K}_{4}\\text{[Fe(CN)}_{6}\\text{]}$ → Blue ppt; (E) $\\text{BaCl}_{2}$ + $\\text{K}_{4}\\text{[Fe(CN)}_{6}\\text{]}$ + NaOH → White ppt. Choose the correct answer:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1850,14 +1788,14 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "A: Cu₂[Fe(CN)₆]=chocolate brown ppt ✓. B: Fe₄[Fe(CN)₆]₃=Prussian blue ✓. C: K₂Zn₃[Fe(CN)₆]₂=white/bluish white ✓. D and E are incorrect reactions.",
+                            "explanation": "A: $\\text{Cu}_{2}\\text{[Fe(CN)}_{6}\\text{]}$=chocolate brown ppt ✓. B: $\\text{Fe}_{4}\\text{[Fe(CN)}_{6}\\text{]}_{3}$=Prussian blue ✓. C: $\\text{K}_{2}\\text{Zn}_{3}\\text{[Fe(CN)}_{6}\\text{]}_{2}$=white/bluish white ✓. D and E are incorrect reactions.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q17",
                             "type": "single_correct",
-                            "questionText": "On complete combustion 1.0 g of an organic compound (X) gave 1.46 g of CO₂ and 0.567 g of H₂O. The empirical formula mass of compound (X) is ___ g. (Given molar mass: C=12, H=1, O=16)",
+                            "questionText": "On complete combustion 1.0 g of an organic compound (X) gave 1.46 g of $\\text{CO}_{2}$ and 0.567 g of $\\text{H}_{2}\\text{O}$. The empirical formula mass of compound (X) is ___ g. (Given molar mass: C=12, H=1, O=16)",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1881,14 +1819,14 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "n_C=1.46/44=0.033, W_C=0.4g. n_H=2×0.567/18=0.063, W_H=0.063g. W_O=1-0.463=0.541g, n_O=0.033. Ratio C:H:O=1:2:1. Empirical formula=CH₂O, mass=30.",
+                            "explanation": "n_C=1.46/44=0.033, W_C=0.4g. n_H=2×0.567/18=0.063, W_H=0.063g. W_O=1-0.463=0.541g, n_O=0.033. Ratio C:H:O=1:2:1. Empirical formula=$\\text{CH}_{2}\\text{O}$, mass=30.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q18",
                             "type": "single_correct",
-                            "questionText": "Consider compound (X): H-C≡C-CH₂-CH(CH₃)-CH₃ (with carbons labeled I, II, III, IV). The most stable and least stable carbon radicals, respectively, produced by homolytic cleavage of corresponding C-H bonds are:",
+                            "questionText": "Consider compound (X): H-C≡C-$\\text{CH}_{2}$-$\\text{CH(CH}_{3}\\text{)}$-$\\text{CH}_{3}$ (where I is the terminal alkyne carbon of $\\equiv\\text{C-H}$, II is the $\\text{CH}_2$ carbon, III is the CH carbon and IV is a $\\text{CH}_3$ carbon). The most stable and least stable carbon radicals, respectively, produced by homolytic cleavage of corresponding C-H bonds are:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1919,7 +1857,7 @@
                         {
                             "id": "chem_q19",
                             "type": "single_correct",
-                            "questionText": "Consider the following molecules: (p) CH₃CH₂COCl, (q) CH₃CH₂COOCOCH₃ (anhydride), (r) CH₃CH₂COOCH₂CH₃ (ester), (s) CH₃CH₂CONH₂ (amide). The correct order of rate of hydrolysis is:",
+                            "questionText": "Consider the following molecules: (p) $\\text{CH}_{3}\\text{CH}_{2}\\text{COCl}$, (q) $\\text{CH}_{3}\\text{CH}_{2}\\text{COOCOCH}_{3}$ (anhydride), (r) $\\text{CH}_{3}\\text{CH}_{2}\\text{COOCH}_{2}\\text{CH}_{3}$ (ester), (s) $\\text{CH}_{3}\\text{CH}_{2}\\text{CONH}_{2}$ (amide). The correct order of rate of hydrolysis is:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1943,14 +1881,14 @@
                                     "isCorrect": true
                                 }
                             ],
-                            "explanation": "Rate ∝ leaving group ability: Cl⁻>RCOO⁻>RO⁻>NH₂⁻. Order: acid chloride>anhydride>ester>amide. p>q>r>s.",
+                            "explanation": "Rate ∝ leaving group ability: $\\text{Cl}^{-}$>$\\text{RCOO}^{-}$>$\\text{RO}^{-}$>$\\text{NH}_{2}^{-}$. Order: acid chloride>anhydride>ester>amide. p>q>r>s.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q20",
                             "type": "single_correct",
-                            "questionText": "A molecule with the formula AX₄Y has all its elements from p-block. Element A is rarest, monoatomic, non-radioactive from its group and has the lowest ionization enthalpy value among A, X and Y. Elements X and Y have first and second highest electronegativity values respectively among all the known elements. The shape of the molecule is:",
+                            "questionText": "A molecule with the formula $\\text{AX}_{4}\\text{Y}$ has all its elements from p-block. Element A is rarest, monoatomic, non-radioactive from its group and has the lowest ionization enthalpy value among A, X and Y. Elements X and Y have first and second highest electronegativity values respectively among all the known elements. The shape of the molecule is:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1974,7 +1912,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "A=Xe (rarest noble gas, p-block, lowest IE), X=F (highest EN), Y=O (second highest EN). Compound=XeOF₄. Shape=square pyramidal.",
+                            "explanation": "A=Xe (rarest noble gas, p-block, lowest IE), X=F (highest EN), Y=O (second highest EN). Compound=$\\text{XeOF}_{4}$. Shape=square pyramidal.",
                             "marks": 4,
                             "negativeMarks": -1
                         }
@@ -1987,27 +1925,27 @@
                         {
                             "id": "chem_q21",
                             "type": "numerical",
-                            "questionText": "A transition metal (M) among Mn, Cr, Co and Fe has the highest standard electrode potential (M³⁺/M²⁺). It forms a metal complex of the type [M(CN)₆]⁺. The number of electrons present in the e_g orbital of the complex is ___.",
+                            "questionText": "A transition metal (M) among Mn, Cr, Co and Fe has the highest standard electrode potential ($\\text{M}^{3+}/\\text{M}^{2+}$). It forms a metal complex of the type $[\\text{M}(\\text{CN})_6]^{4-}$. The number of electrons present in the $\\text{e}_g$ orbital of the complex is ___.",
                             "hasImage": false,
                             "answer": 1,
-                            "explanation": "Co has highest E°(M³⁺/M²⁺). [Co(CN)₆]⁺: Co has +1/3 oxidation... Actually [Co(CN)₆]⁺ means Co in unusual state. Co(d⁸) with SFL: t₂g⁶eg² — wait. Complex [M(CN)₆]⁺ is Co(I), d⁸. Low spin: t₂g⁶eg² → 1 electron in eg. Answer=1.",
+                            "explanation": "Among Mn, Cr, Co and Fe, Co has the highest $E^\\circ(\\text{M}^{3+}/\\text{M}^{2+})$ ($+1.81$ V). In $[\\text{Co}(\\text{CN})_6]^{4-}$, Co is $+2$ ($3d^7$). $\\text{CN}^-$ is a strong field ligand, so the configuration is low spin $t_{2g}^6 e_g^1$.\nNumber of electrons in $e_g$ $= 1$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q22",
                             "type": "numerical",
-                            "questionText": "Consider the following electrochemical cell: Au(s) | QH₂, Q | NH₄X(0.01M) || Ag⁺(1M) | Ag(s), E_cell=+0.4V. The couple QH₂/Q represents quinhydrone electrode. (E°_{Q/QH₂}=+0.7V, E°_{Ag⁺/Ag}=+0.8V, 2.303RT/F=0.06V). The pK_b value of the ammonium halide salt (NH₄X) used here is ___ (nearest integer).",
+                            "questionText": "Consider the following electrochemical cell: Au(s) | $\\text{QH}_{2}$, Q | NH₄X(0.01M) || $\\text{Ag}^{+}\\text{(1M)}$ | Ag(s), $\\text{E}_{\\text{cell}}$=+0.4V. The couple $\\text{QH}_{2}$/Q represents quinhydrone electrode. $(E°_{Q/QH₂}=+0.7V$, $E°_{Ag⁺/Ag}=+0.8V$, 2.303RT/F=0.06V). The $\\text{pK}_b$ value of the ammonium halide salt $\\text{(NH}_{4}\\text{X)}$ used here is ___ (nearest integer).",
                             "hasImage": false,
                             "answer": 6,
-                            "explanation": "E_cell=E_Ag-E_QH₂. E_QH₂=0.7-0.06/2×log[H⁺]²=0.7+0.06pH. E_Ag=0.8. 0.4=0.8-(0.7+0.06pH) ⟹ pH=5. NH₄X: pH+pKb=7-½log C. 5+pKb=7-½(-2)=8. pKb=... 5=7-½pKb-½log(10⁻²) ⟹ pKb=6.",
+                            "explanation": "Quinhydrone electrode (anode): $E_{\\text{Q/QH}_2} = 0.7 - 0.06\\,\\text{pH}$. Cathode: $E_{\\text{Ag}^+/\\text{Ag}} = 0.8$ V (since $[\\text{Ag}^+] = 1$ M).\n$E_{\\text{cell}} = 0.8 - (0.7 - 0.06\\,\\text{pH}) = 0.1 + 0.06\\,\\text{pH} = 0.4 \\implies \\text{pH} = 5$.\nFor the salt of a weak base and strong acid: $\\text{pH} = 7 - \\frac{1}{2}\\text{p}K_b - \\frac{1}{2}\\log C = 7 - \\frac{1}{2}\\text{p}K_b + 1$.\n$5 = 8 - \\frac{1}{2}\\text{p}K_b \\implies \\text{p}K_b = 6$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q23",
                             "type": "numerical",
-                            "questionText": "0.1 mol of the following given antiviral compound (P) will weigh ___ × 10⁻¹ g. The compound P is 5-iodo-2'-deoxy-2'-fluorouridine (structure with I, N, O, F, C, H atoms as given). (Given molar mass: H=1, C=12, N=14, O=16, F=19, I=127)",
+                            "questionText": "0.1 mol of the following given antiviral compound (P) will weigh ___ $\\times 10^{-1}$ g. The compound P is 5-iodo-2'-deoxy-2'-fluorouridine. (Given molar mass: H=1, C=12, N=14, O=16, F=19, I=127)",
                             "hasImage": false,
                             "answer": 372,
                             "explanation": "Molar mass of P = 372 g/mol. 0.1 mol = 37.2 g = 372×10⁻¹ g.",
@@ -2017,20 +1955,20 @@
                         {
                             "id": "chem_q24",
                             "type": "numerical",
-                            "questionText": "Consider the following equilibrium: CO(g) + 2H₂(g) ⇌ CH₃OH(g). 0.1 mol of CO with a catalyst is present in a 2 dm³ flask maintained at 500 K. H₂ is introduced until pressure is 5 bar and 0.04 mol of CH₃OH is formed. The K_p⁰ is ___ × 10⁻³ (nearest integer). (R=0.08 dm³ bar K⁻¹ mol⁻¹)",
+                            "questionText": "Consider the following equilibrium: CO(g) + $\\text{2H}_{2}\\text{(g)}$ $\\rightleftharpoons$ $\\text{CH}_{3}\\text{OH(g)}$. 0.1 mol of CO with a catalyst is present in a 2 dm³ flask maintained at 500 K. $\\text{H}_{2}$ is introduced until pressure is 5 bar and 0.04 mol of $\\text{CH}_{3}\\text{OH}$ is formed. The K_p⁰ is ___ × 10⁻³ (nearest integer). (R=0.08 dm³ bar $\\text{K}^{-1}$ mol⁻¹)",
                             "hasImage": false,
                             "answer": 74,
-                            "explanation": "n_total=0.25. P_total=n×RT/V=0.25×0.08×500/2=5 bar. a=0.23. K_p=(X_CH₃OH/(X_CO×X_H₂²))×(1/P_T)²=74×10⁻³.",
+                            "explanation": "Total moles at equilibrium $= \\frac{PV}{RT} = \\frac{5 \\times 2}{0.08 \\times 500} = 0.25$.\nAt equilibrium: $\\text{CO} = 0.1 - 0.04 = 0.06$, $\\text{CH}_3\\text{OH} = 0.04$, $\\text{H}_2 = 0.25 - 0.10 = 0.15$ mol.\nPartial pressures ($p = n \\times 20$ bar): $p_{\\text{CO}} = 1.2$, $p_{\\text{H}_2} = 3.0$, $p_{\\text{CH}_3\\text{OH}} = 0.8$ bar.\n$K_p = \\frac{0.8}{1.2 \\times (3.0)^2} = 0.0741 \\approx 74 \\times 10^{-3}$.",
                             "marks": 4,
                             "negativeMarks": -1
                         },
                         {
                             "id": "chem_q25",
                             "type": "numerical",
-                            "questionText": "For the reaction A → products. A t₁/₂ vs [A]₀ graph is linear with slope 76.92 (in appropriate units). The reaction was started with 2.5 mol L⁻¹ of A. The concentration of A at 10 minutes is ___ × 10⁻³ mol L⁻¹ (nearest integer).",
+                            "questionText": "For the reaction A → products. A t₁/₂ vs $\\text{[A]}_{0}$ graph is linear with slope 76.92 (in appropriate units). The reaction was started with 2.5 mol $\\text{L}^{-1}$ of A. The concentration of A at 10 minutes is ___ × 10⁻³ mol $\\text{L}^{-1}$ (nearest integer).",
                             "hasImage": false,
                             "answer": 2435,
-                            "explanation": "t₁/₂∝[A]₀ ⟹ zero order. t₁/₂=A₀/2K=slope×A₀ ⟹ K=1/(2×76.92). [A]₁₀=-Kt+A₀=-(1/153.84)×10+2.5=2.5-0.065=2.435 mol/L=2435×10⁻³ mol/L.",
+                            "explanation": "t₁/₂∝$\\text{[A]}_{0}$ $\\implies$ zero order. t₁/₂=$\\text{A}_{0}$/2K=slope×$\\text{A}_{0}$ $\\implies$ K=1/(2×76.92). $\\text{[A]}_{10}$=-Kt+$\\text{A}_{0}$=-(1/153.84)×10+2.5=2.5-0.065=2.435 mol/L=2435×10⁻³ mol/L.",
                             "marks": 4,
                             "negativeMarks": -1
                         }
