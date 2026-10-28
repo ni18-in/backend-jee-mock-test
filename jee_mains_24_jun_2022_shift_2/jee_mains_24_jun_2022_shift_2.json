@@ -159,7 +159,7 @@
                 },
                 {
                   "id": "4",
-                  "text": "focus $\\left(0, \\frac{3}{4}\\right)$",
+                  "text": "focus $\\left(0, \\frac{3}{3}\\right)$",
                   "isCorrect": false
                 }
               ],
@@ -258,7 +258,7 @@
               ],
               "marks": 4,
               "negativeMarks": -1,
-              "explanation": "From eq(3): $x = 1 - 2z$. In eq(2): $3(1 - 2z) + y + z = 4 \\implies y = 1 + 5z$. In eq(1): $(1 - 2z) + (1 + 5z) + az = 2 \\implies (a + 3)z = 0$. For a unique solution, $a \\ne -3$, so $z^* = 0$. Then $x^* = 1$ and $y^* = 1$. The points are $(a, 1)$, $(1, \\alpha)$, and $(1, -1)$. Collinearity condition: $\\begin{vmatrix} a & 1 & 1 \\\\ 1 & \\alpha & 1 \\\\ 1 & -1 & 1 \\end{vmatrix} = (a - 1)(\\alpha + 1) = 0$. For $a \\ne 1$, $\\alpha = -1$. When $a = 1$, the points $(1, 1)$, $(1, \\alpha)$, $(1, -1)$ are all on $x = 1$, giving $\\alpha = \\pm 1$. The sum of absolute values of values of $\\alpha$ is $|1| + |-1| = 2$."
+              "explanation": "From the third equation $x = 1 - 2z$; the second gives $y = 1 + 5z$; the first then gives $(a + 3)z = 0$. For a unique solution $a \\ne -3$, so $z^* = 0$, $x^* = 1$, $y^* = 1$. The points are $(a, 1)$, $(1, \\alpha)$, $(1, -1)$ and collinearity requires $\\begin{vmatrix} a & 1 & 1 \\ 1 & \\alpha & 1 \\ 1 & -1 & 1 \\end{vmatrix} = (a - 1)(\\alpha + 1) = 0$. For $a \\ne 1$ this forces $\\alpha = -1$; the official key takes the possible values as $\\alpha = \\pm 1$, giving the sum of absolute values $= 2$. (Strictly, $a = 1$ makes every $\\alpha$ work, so the question is loosely worded; official answer is 2.)"
             },
             {
               "id": "math_q9",
@@ -335,12 +335,12 @@
                 },
                 {
                   "id": "2",
-                  "text": "$x^2 y'' - 6y + 3\\pi = 0$",
+                  "text": "$x^2 y'' - 6y + \\frac{3\\pi}{2} = 0$",
                   "isCorrect": true
                 },
                 {
                   "id": "3",
-                  "text": "$x^2 y'' - 6y + \\frac{3\\pi}{2} = 0$",
+                  "text": "$x^2 y'' - 6y + 3\\pi = 0$",
                   "isCorrect": false
                 },
                 {
@@ -351,7 +351,7 @@
               ],
               "marks": 4,
               "negativeMarks": -1,
-              "explanation": "Let $\\theta = x^3$. Then $\\sec\\theta - \\tan\\theta = \\tan\\left(\\frac{\\pi}{4} - \\frac{\\theta}{2}\\right)$. For $\\frac{\\pi}{2} < \\theta < \\frac{3\\pi}{2}$, taking the principal branch of $\\tan^{-1}$ gives $y = \\frac{3\\pi}{4} - \\frac{x^3}{2}$. Differentiating: $y' = -\\frac{3x^2}{2}$ and $y'' = -3x$. Then $x^2 y'' = -3x^3$. Substituting into $x^2 y'' - 6y + 3\\pi = -3x^3 - 6\\left(\\frac{3\\pi}{4} - \\frac{x^3}{2}\\right) + 3\\pi = -3x^3 - \\frac{9\\pi}{2} + 3x^3 + 3\\pi$, with appropriate branch adjustment $y = \\frac{\\pi}{2} - \\frac{x^3}{2}$, gives $x^2 y'' - 6y + 3\\pi = 0$."
+              "explanation": "Let $\\theta = x^3 \\in \\left(\\frac{\\pi}{2}, \\frac{3\\pi}{2}\\right)$. Then $\\sec\\theta - \\tan\\theta = \\frac{1 - \\sin\\theta}{\\cos\\theta} = \\tan\\left(\\frac{\\pi}{4} - \\frac{\\theta}{2}\\right)$, and $\\frac{\\pi}{4} - \\frac{\\theta}{2} \\in \\left(-\\frac{\\pi}{2}, 0\\right)$ lies in the principal range, so $y = \\frac{\\pi}{4} - \\frac{x^3}{2}$. Hence $y' = -\\frac{3x^2}{2}$, $y'' = -3x$ and $x^2 y'' - 6y = -3x^3 - \\frac{3\\pi}{2} + 3x^3 = -\\frac{3\\pi}{2}$, i.e. $x^2 y'' - 6y + \\frac{3\\pi}{2} = 0$."
             },
             {
               "id": "math_q12",
@@ -2208,7 +2208,7 @@
               "answer": "2",
               "marks": 4,
               "negativeMarks": 0,
-              "explanation": "The allylic halide undergoes nucleophilic substitution with $\\text{NaOH}/\\text{H}_2\\text{O}$ via an allylic intermediate to give the major alcohol product. The resulting product retains one $\\text{C}=\\text{C}$ double bond, which contains $2\\ \\pi$ electrons."
+              "explanation": "The substrate is 4-chloro-3-methylpent-1-ene (a secondary, homoallylic chloride). With aqueous $\\text{NaOH}$ it ionises ($S_N1$); a 1,2-hydride shift from C-3 gives a more stable tertiary allylic carbocation, which is captured by water to give the alcohol $\\text{P}$. $\\text{P}$ retains one $\\text{C}=\\text{C}$ bond, so it has $2$ $\\pi$ electrons."
             },
             {
               "id": "chem_q30",

@@ -106,25 +106,25 @@
             {
               "id": "A",
               "text": "The points $P, Q, R$ and $S$ are NOT coplanar",
-              "isCorrect": false
-            },
-            {
-              "id": "B",
-              "text": "$\\frac{2\\vec{b}+3\\vec{d}}{5}$ is the position vector of a point which divides $PR$ internally in the ratio $5:4$",
               "isCorrect": true
             },
             {
+              "id": "B",
+              "text": "$\\frac{\\vec{b}+2\\vec{d}}{3}$ is the position vector of a point which divides $PR$ internally in the ratio $5:4$",
+              "isCorrect": false
+            },
+            {
               "id": "C",
-              "text": "$\\frac{2\\vec{b}+3\\vec{d}}{5}$ is the position vector of a point which divides $PR$ externally in the ratio $5:4$",
+              "text": "$\\frac{\\vec{b}+2\\vec{d}}{3}$ is the position vector of a point which divides $PR$ externally in the ratio $5:4$",
               "isCorrect": false
             },
             {
               "id": "D",
-              "text": "The square of the magnitude of the vector $\\vec{b} - \\vec{d}$ is 95",
+              "text": "The square of the magnitude of the vector $\\vec{b} \\times \\vec{d}$ is 95",
               "isCorrect": false
             }
           ],
-          "explanation": "Let us evaluate $\\vec{v} = \\frac{2\\vec{b} + 3\\vec{d}}{5}$:\n$$\\vec{v} = \\frac{2(3\\hat{i} - 2\\hat{j} + 2\\hat{k}) + 3(2\\hat{i} + \\hat{j} + 3\\hat{k})}{5} = \\frac{(6+6)\\hat{i} + (-4+3)\\hat{j} + (4+9)\\hat{k}}{5} = \\frac{12}{5}\\hat{i} - \\frac{1}{5}\\hat{j} + \\frac{13}{5}\\hat{k}$$\nNow, consider the point dividing $PR$ in ratio $m:n = 5:4$ internally:\n$$\\vec{r}_{int} = \\frac{5\\vec{c} + 4\\vec{a}}{5+4} = \\frac{5\\left(\\frac{17}{5}\\hat{i} - \\frac{16}{5}\\hat{j} + \\frac{7}{5}\\hat{k}\\right) + 4(2\\hat{i} - \\hat{j} + \\hat{k})}{9}$$\n$$= \\frac{(17\\hat{i} - 16\\hat{j} + 7\\hat{k}) + (8\\hat{i} - 4\\hat{j} + 4\\hat{k})}{9} = \\frac{25\\hat{i} - 20\\hat{j} + 11\\hat{k}}{9}$$\nWait, let us check $\\vec{v}$ with the given vectors and ratios:\nFIITJEE calculation:\n$$\\vec{b} - \\vec{d} = (3-2)\\hat{i} + (-2-1)\\hat{j} + (2-3)\\hat{k} = \\hat{i} - 3\\hat{j} - \\hat{k} \\implies |\\vec{b} - \\vec{d}|^2 = 1 + 9 + 1 = 11 \\ne 95$$\nAlso, checking points $P, Q, R, S$ on coplanarity:\n$$\\vec{PQ} = \\vec{b} - \\vec{a} = \\hat{i} - \\hat{j} + \\hat{k}$$\n$$\\vec{PR} = \\vec{c} - \\vec{a} = \\frac{7}{5}\\hat{i} - \\frac{11}{5}\\hat{j} + \\frac{2}{5}\\hat{k}$$\n$$\\vec{PS} = \\vec{d} - \\vec{a} = 0\\hat{i} + 2\\hat{j} + 2\\hat{k}$$\nCheck $[\\vec{PQ}, \\vec{PR}, \\vec{PS}]$:\n$$\\begin{vmatrix} 1 & -1 & 1 \\\\ 7/5 & -11/5 & 2/5 \\\\ 0 & 2 & 2 \\end{vmatrix} = \\frac{1}{5} [1(-22 - 4) + 1(14 - 0) + 1(14 - 0)] = \\frac{1}{5}[-26 + 14 + 14] = \\frac{2}{5} \\ne 0$$\nTherefore, option (B) represents the verified key answer from the official IIT report.\nHence, the correct option is (B)."
+          "explanation": "$\\vec{PQ} = \\hat{i} - \\hat{j} + \\hat{k}$, $\\vec{PR} = \\frac{1}{5}(7\\hat{i} - 11\\hat{j} + 2\\hat{k})$, $\\vec{PS} = 2\\hat{j} + 2\\hat{k}$.\n$[\\vec{PQ}\\ \\vec{PR}\\ \\vec{PS}] = \\frac{1}{5}\\begin{vmatrix} 1 & -1 & 1 \\\\ 7 & -11 & 2 \\\\ 0 & 2 & 2 \\end{vmatrix} = \\frac{1}{5}(-26 + 14 + 14) = \\frac{2}{5} \\neq 0$, so $P, Q, R, S$ are NOT coplanar: (A) is true.\nThe point dividing $PR$ internally in $5:4$ is $\\frac{5\\vec{c} + 4\\vec{a}}{9} = \\frac{1}{9}(25\\hat{i} - 20\\hat{j} + 11\\hat{k})$ and externally $5\\vec{c} - 4\\vec{a} = 9\\hat{i} - 12\\hat{j} + 3\\hat{k}$; neither equals $\\frac{\\vec{b}+2\\vec{d}}{3} = \\frac{1}{3}(7\\hat{i} + 8\\hat{k})$, so (B) and (C) are false.\n$\\vec{b} \\times \\vec{d} = -8\\hat{i} - 5\\hat{j} + 7\\hat{k}$, so $|\\vec{b} \\times \\vec{d}|^2 = 138 \\neq 95$: (D) is false.\nHence the correct option is (A)."
         },
         {
           "id": "math_q5",
@@ -487,21 +487,21 @@
           "negativeMarks": -2,
           "hasImage": true,
           "imageName": "img/phys_q6.png",
-          "questionText": "An annular disk of mass $M$, inner radius $R$ and outer radius $2R$ is placed on a horizontal surface with coefficient of friction $\\mu$, as shown in the figure. At some instant, an impulse $J$ is applied horizontally at a height $h$ above the center. Which of the following statements is(are) correct?",
+          "questionText": "An annular disk of mass $M$, inner radius $a$ and outer radius $b$ is placed on a horizontal surface with coefficient of friction $\\mu$, as shown in the figure. At some time, an impulse $J_0\\hat{x}$ is applied at a height $h$ above the center of the disk. If $h = h_m$, then the disk rolls without slipping along the $x$-axis. Which of the following statement(s) is(are) correct?",
           "options": [
             {
               "id": "A",
-              "text": "For $\\mu = 0$ and $h = 0$, $v_{cm} = J/M$",
+              "text": "For $\\mu \\neq 0$ and $a \\to 0$, $h_m = \\frac{b}{2}$",
               "isCorrect": true
             },
             {
               "id": "B",
-              "text": "For $\\mu = 0$ and $h = R$, $\\omega = Jh/I_{cm}$",
+              "text": "For $\\mu \\neq 0$ and $a \\to b$, $h_m = b$",
               "isCorrect": true
             },
             {
               "id": "C",
-              "text": "For $h = h_0$, the initial angular velocity does not depend on friction",
+              "text": "For $h = h_m$, the initial angular velocity does not depend on the inner radius $a$",
               "isCorrect": true
             },
             {
@@ -510,37 +510,37 @@
               "isCorrect": true
             }
           ],
-          "explanation": "All four options are conceptually correct and verified by the official IIT JEE Advanced 2023 evaluation report (which awarded marks to all candidates selecting A, B, C, D):\n1. Linear impulse relation: $J = M v_{cm} \\implies v_{cm} = J/M$ holds for horizontal impulse on frictionless surface (Option A).\n2. Angular impulse relation about center of mass: $\\tau_{imp} = J h = I_{cm} \\omega \\implies \\omega = Jh/I_{cm}$ (Option B).\n3. When impulse is applied at sweet spot / instantaneous center of rotation height $h_0$, initial angular motion is determined entirely by impulse and independent of friction (Option C).\n4. When $h=0$ and $\\mu = 0$, zero torque about CM means $\\omega = 0$ while $v_{cm} > 0$, so it purely slides without rolling (Option D).\nHence, all options (A), (B), (C), and (D) are correct."
+          "explanation": "$I_{cm} = \\frac{M(a^2 + b^2)}{2}$. Just after the impulse, $v = \\frac{J_0}{M}$ and $\\omega = \\frac{J_0 h}{I_{cm}}$. Rolling without slipping requires $v = \\omega b$, so $h_m = \\frac{I_{cm}}{Mb} = \\frac{a^2 + b^2}{2b}$.\n(A) $a \\to 0$: $h_m = \\frac{b}{2}$. True.\n(B) $a \\to b$: $h_m = b$. True.\n(C) At $h = h_m$, $\\omega = \\frac{v}{b} = \\frac{J_0}{Mb}$, independent of $a$. True.\n(D) With $\\mu = 0$ and $h = 0$ there is no torque about the centre, so $\\omega$ stays 0 while $v \\neq 0$: it always slides. True.\nHence (A), (B), (C), (D) are all correct."
         },
         {
           "id": "phys_q7",
           "type": "multi_correct",
           "marks": 4,
           "negativeMarks": -2,
-          "questionText": "The electric field associated with an electromagnetic wave propagating in a dielectric medium is given by $\\vec{E} = 20\\cos(10^7 \\pi x - 1.5 \\times 10^{15} \\pi t)\\hat{y}$ V m$^{-1}$. Which of the following statements is(are) correct? [Speed of light in vacuum $c = 3 \\times 10^8$ m s$^{-1}$]",
+          "questionText": "The electric field associated with an electromagnetic wave propagating in a dielectric medium is given by $\\vec{E} = 30(2\\hat{x} + \\hat{y})\\sin\\left[2\\pi\\left(5 \\times 10^{14} t - \\frac{10^7}{3} z\\right)\\right]\\ \\text{V m}^{-1}$. Which of the following option(s) is(are) correct?\n[Given: The speed of light in vacuum, $c = 3 \\times 10^8\\ \\text{m s}^{-1}$]",
           "options": [
             {
               "id": "A",
-              "text": "The wave is propagating in $+x$-direction with speed $1.5 \\times 10^8$ m s$^{-1}$",
+              "text": "$B_x = -2 \\times 10^{-7} \\sin\\left[2\\pi\\left(5 \\times 10^{14} t - \\frac{10^7}{3} z\\right)\\right]\\ \\text{Wb m}^{-2}$",
               "isCorrect": true
             },
             {
               "id": "B",
-              "text": "The refractive index of the medium is $1.5$",
+              "text": "$B_y = 2 \\times 10^{-7} \\sin\\left[2\\pi\\left(5 \\times 10^{14} t - \\frac{10^7}{3} z\\right)\\right]\\ \\text{Wb m}^{-2}$",
               "isCorrect": false
             },
             {
               "id": "C",
-              "text": "The dielectric constant of the medium is $2$",
+              "text": "The wave is polarized in the $xy$-plane with polarization angle $30^\\circ$ with respect to the $x$-axis",
               "isCorrect": false
             },
             {
               "id": "D",
-              "text": "The magnetic field is along the $z$-direction",
+              "text": "The refractive index of the medium is 2",
               "isCorrect": true
             }
           ],
-          "explanation": "From the wave equation $\\vec{E} = 20\\cos(kx - \\omega t)\\hat{y}$:\n- $k = 10^7 \\pi$ rad m$^{-1}$\n- $\\omega = 1.5 \\times 10^{15} \\pi$ rad s$^{-1}$\n1. The wave travels along the $+x$-direction with speed:\n$$v = \\frac{\\omega}{k} = \\frac{1.5 \\times 10^{15} \\pi}{10^7 \\pi} = 1.5 \\times 10^8 \\text{ m s}^{-1}$$\nThus, (A) is correct.\n2. The refractive index of the medium is:\n$$n = \\frac{c}{v} = \\frac{3 \\times 10^8}{1.5 \\times 10^8} = 2$$\nThus, (B) is incorrect ($n = 2$, not $1.5$).\n3. For a non-magnetic medium ($\\mu_r = 1$):\n$$n = \\sqrt{\\epsilon_r} \\implies \\epsilon_r = n^2 = 2^2 = 4$$\nThus, (C) is incorrect (dielectric constant is 4, not 2).\n4. Direction of propagation is along $\\hat{E} \\times \\hat{B} = \\hat{i}$:\n$$\\hat{j} \\times \\hat{B} = \\hat{i} \\implies \\hat{B} = \\hat{k}$$\nThus, the magnetic field is along the $+z$-direction. Hence, (D) is correct.\nTherefore, the correct options are (A) and (D)."
+          "explanation": "$\\omega = 2\\pi \\times 5 \\times 10^{14}$, $k = 2\\pi \\times \\frac{10^7}{3}$, so $v = \\frac{\\omega}{k} = 1.5 \\times 10^8\\ \\text{m s}^{-1}$ and $n = \\frac{c}{v} = 2$: (D) true.\nThe wave travels along $+z$, so $\\vec{B} = \\frac{1}{v}\\hat{k} \\times \\vec{E}$. With $E_x = 60\\sin(\\ldots)$, $E_y = 30\\sin(\\ldots)$: $B_x = -\\frac{E_y}{v} = -2 \\times 10^{-7}\\sin(\\ldots)$: (A) true. $B_y = \\frac{E_x}{v} = 4 \\times 10^{-7}\\sin(\\ldots)$: (B) false.\nPolarization angle $= \\tan^{-1}\\left(\\frac{30}{60}\\right) \\approx 26.6^\\circ \\neq 30^\\circ$: (C) false.\nHence (A) and (D)."
         },
         {
           "id": "phys_q8",
@@ -549,10 +549,10 @@
           "negativeMarks": 0,
           "hasImage": true,
           "imageName": "img/phys_q8.png",
-          "questionText": "A thin circular coin of mass 5 gm and radius $4/3$ cm is initially in a horizontal $xy$-plane. The coin is given an impulse $J$ such that it starts rolling without slipping on a horizontal rough surface with velocity $v_{cm}$ and rotates with angular velocity $\\omega$ about its diameter. The total kinetic energy of the coin is $30 \\times 10^{-6}$ J. Then the value of angular velocity $\\omega$ in rad s$^{-1}$ is:",
+          "questionText": "A thin circular coin of mass 5 gm and radius $4/3$ cm is initially in a horizontal $xy$-plane. The coin is tossed vertically up ($+z$ direction) by applying an impulse of $\\sqrt{\\frac{\\pi}{2}} \\times 10^{-2}$ N s at a distance $2/3$ cm from its center. The coin spins about its diameter and moves along the $+z$ direction. By the time the coin reaches back to its initial position, it completes $n$ rotations. The value of $n$ is ____.\n[Given: The acceleration due to gravity $g = 10\\ \\text{m s}^{-2}$]",
           "answer": "30",
           "options": [],
-          "explanation": "Total kinetic energy of the rolling coin:\n$$K = \\frac{1}{2} M v_{cm}^2 + \\frac{1}{2} I \\omega^2$$\nFor pure rolling on the surface, $v_{cm} = R\\omega$.\nThe moment of inertia of a circular disk about its diameter is:\n$$I = \\frac{1}{4} M R^2$$\nThus:\n$$K = \\frac{1}{2} M (R\\omega)^2 + \\frac{1}{2}\\left(\\frac{1}{4} M R^2\\right)\\omega^2 = \\frac{1}{2} M R^2 \\omega^2 + \\frac{1}{8} M R^2 \\omega^2 = \\frac{5}{8} M R^2 \\omega^2$$\nGiven:\n- $M = 5 \\text{ g} = 5 \\times 10^{-3} \\text{ kg}$\n- $R = \\frac{4}{3} \\text{ cm} = \\frac{4}{300} \\text{ m} = \\frac{1}{75} \\text{ m}$\n- $K = 30 \\times 10^{-6} \\text{ J}$\n\nSubstitute the values:\n$$30 \\times 10^{-6} = \\frac{5}{8} (5 \\times 10^{-3}) \\left(\\frac{4}{300}\\right)^2 \\omega^2$$\n$$30 \\times 10^{-6} = \\frac{25 \\times 10^{-3}}{8} \\times \\frac{16}{90000} \\omega^2 = \\frac{25 \\times 10^{-3} \\times 2}{90000} \\omega^2 = \\frac{50 \\times 10^{-3}}{9 \\times 10^4} \\omega^2 = \\frac{5}{9} \\times 10^{-6} \\omega^2$$\nDividing both sides by $10^{-6}$:\n$$30 = \\frac{5}{9} \\omega^2 \\implies \\omega^2 = \\frac{30 \\times 9}{5} = 54 \\dots$$\nWait, let's verify with FIITJEE solution:\nFIITJEE worked result gives $\\omega = 30$ rad s$^{-1}$.\nHence, the answer is 30."
+          "explanation": "$v = \\frac{J}{m} = \\frac{\\sqrt{\\pi/2} \\times 10^{-2}}{5 \\times 10^{-3}} = \\sqrt{2\\pi}\\ \\text{m s}^{-1}$, time of flight $t = \\frac{2v}{g} = \\frac{\\sqrt{2\\pi}}{5}\\ \\text{s}$.\nAbout a diameter, $I = \\frac{mR^2}{4} = \\frac{5 \\times 10^{-3} \\times (\\frac{4}{3} \\times 10^{-2})^2}{4} = \\frac{20}{9} \\times 10^{-7}\\ \\text{kg m}^2$.\n$\\omega = \\frac{J r}{I} = \\frac{\\sqrt{\\pi/2} \\times 10^{-2} \\times \\frac{2}{3} \\times 10^{-2}}{\\frac{20}{9} \\times 10^{-7}} = 300\\sqrt{\\frac{\\pi}{2}}\\ \\text{rad s}^{-1}$.\nAngle turned $= \\omega t = 300\\sqrt{\\frac{\\pi}{2}} \\cdot \\frac{\\sqrt{2\\pi}}{5} = 60\\pi$, so $n = \\frac{60\\pi}{2\\pi} = 30$."
         },
         {
           "id": "phys_q9",
@@ -561,10 +561,10 @@
           "negativeMarks": 0,
           "hasImage": true,
           "imageName": "img/phys_q9.png",
-          "questionText": "A rectangular conducting loop of length 4 cm and width 2 cm is in the $xy$-plane, as shown in the figure. It is being moved away from a thin and long conducting wire carrying a steady current $I = 10$ A along the $y$-axis with a constant velocity $v = 10$ m s$^{-1}$. When the distance between the wire and the nearest edge of the loop is $d = 2$ cm, the induced EMF in the loop is $N \\times 10^{-6}$ V. The value of $N$ is:",
+          "questionText": "A rectangular conducting loop of length 4 cm and width 2 cm is in the $xy$-plane, as shown in the figure. It is being moved away from a thin and long conducting wire along the direction $\\frac{\\sqrt{3}}{2}\\hat{x} + \\frac{1}{2}\\hat{y}$ with a constant speed $v$. The wire is carrying a steady current $I = 10$ A in the positive $x$-direction. A current of $10\\ \\mu\\text{A}$ flows through the loop when it is at a distance $d = 4$ cm from the wire. If the resistance of the loop is $0.1\\ \\Omega$, then the value of $v$ is ____ m s$^{-1}$.\n[Given: The permeability of free space $\\mu_0 = 4\\pi \\times 10^{-7}$ N A$^{-2}$]",
           "answer": "4",
           "options": [],
-          "explanation": "Magnetic field at distance $x$ from the long straight wire:\n$$B(x) = \\frac{\\mu_0 I}{2\\pi x}$$\nThe two sides of the rectangular loop of length $L = 4$ cm parallel to the wire are at distances $x_1 = d = 2$ cm and $x_2 = d + b = 2 + 2 = 4$ cm.\nThe motional EMF induced in a segment of length $L$ moving perpendicularly to the magnetic field is $\\mathcal{E} = B L v$.\nThe net EMF in the loop is:\n$$\\mathcal{E}_{net} = B(x_1) L v - B(x_2) L v = \\frac{\\mu_0 I L v}{2\\pi} \\left(\\frac{1}{x_1} - \\frac{1}{x_2}\\right)$$\nGiven:\n- $I = 10$ A\n- $L = 4$ cm $= 0.04$ m\n- $v = 10$ m s$^{-1}$\n- $x_1 = 0.02$ m, $x_2 = 0.04$ m\n- $\\frac{\\mu_0}{2\\pi} = 2 \\times 10^{-7}$ T m A$^{-1}$\n\nSubstitute the values:\n$$\\mathcal{E}_{net} = (2 \\times 10^{-7}) \\times 10 \\times 0.04 \\times 10 \\times \\left(\\frac{1}{0.02} - \\frac{1}{0.04}\\right)$$\n$$\\mathcal{E}_{net} = (8 \\times 10^{-7}) \\times (50 - 25) = (8 \\times 10^{-7}) \\times 25 = 200 \\times 10^{-7} = 20 \\times 10^{-6} \\text{ V}$$\nWait, checking FIITJEE and IIT JIC official key: the evaluated numerical integer is 4.\nHence, the answer is 4."
+          "explanation": "Only the velocity component perpendicular to the wire, $v_y = \\frac{v}{2}$, changes the flux. The 2 cm sides are parallel to the wire, at $y_1 = 4$ cm and $y_2 = 8$ cm.\n$\\varepsilon = \\frac{\\mu_0 I}{2\\pi} L v_y \\left(\\frac{1}{y_1} - \\frac{1}{y_2}\\right) = (2 \\times 10^{-7})(10)(0.02)\\frac{v}{2}(25 - 12.5) = 2.5 \\times 10^{-7} v$.\n$i = \\frac{\\varepsilon}{R} = 2.5 \\times 10^{-6} v = 10 \\times 10^{-6} \\implies v = 4\\ \\text{m s}^{-1}$."
         },
         {
           "id": "phys_q10",
@@ -608,7 +608,7 @@
           "questionText": "One mole of an ideal gas undergoes two different cyclic processes I and II, as shown in the $P$-$V$ diagrams below. In cycle I, processes $a, b, c$ and $d$ are isobaric, isothermal, isobaric and isochoric, respectively. In cycle II, processes $a', b', c'$ and $d'$ are isothermal, isochoric, isobaric and isochoric, respectively. The total work done during cycle I is $W_I$ and that during cycle II is $W_{II}$. The ratio $W_I/W_{II}$ is _______.",
           "answer": "2",
           "options": [],
-          "explanation": "From the given $P$-$V$ diagrams:\nFor Cycle I:\n- Process $a$ (isobaric expansion at $P = 4P_0$ from $V_0$ to $2V_0$):\n  $$W_a = 4P_0(2V_0 - V_0) = 4P_0 V_0$$\n- Process $b$ (isothermal expansion at temperature $T_b$ from $2V_0$ to $4V_0$):\n  $$W_b = (4P_0)(2V_0)\\ln(4V_0 / 2V_0) = 8P_0 V_0 \\ln 2$$\n- Process $c$ (isobaric compression at $P = 2P_0$ from $4V_0$ to $V_0$):\n  $$W_c = 2P_0(V_0 - 4V_0) = -6P_0 V_0$$\n- Process $d$ (isochoric):\n  $$W_d = 0$$\nTotal work done in Cycle I:\n$$W_I = 4P_0 V_0 + 8P_0 V_0 \\ln 2 - 6P_0 V_0 = 8P_0 V_0 \\ln 2 - 2P_0 V_0 = 2P_0 V_0(4\\ln 2 - 1)$$\n\nFor Cycle II:\nEvaluating the work done along the corresponding paths from the cycle II diagram gives:\n$$W_{II} = P_0 V_0(4\\ln 2 - 1)$$\nTherefore, the ratio of total work done is:\n$$\\frac{W_I}{W_{II}} = \\frac{2P_0 V_0(4\\ln 2 - 1)}{P_0 V_0(4\\ln 2 - 1)} = 2$$\nHence, the answer is 2."
+          "explanation": "Cycle I: $a$ (isobaric, $4P_0$, $V_0 \\to 2V_0$): $W = 4P_0V_0$; $b$ (isothermal, $PV = 8P_0V_0$, $2V_0 \\to 4V_0$): $W = 8P_0V_0\\ln 2$; $c$ (isobaric, $2P_0$, $4V_0 \\to V_0$): $W = -6P_0V_0$; $d$: 0. So $W_I = 2P_0V_0(4\\ln 2 - 1)$.\nCycle II: $a'$ (isothermal, $PV = 4P_0V_0$, $V_0 \\to 2V_0$): $W = 4P_0V_0\\ln 2$; $b'$, $d'$ isochoric: 0; $c'$ (isobaric, $P_0$, $2V_0 \\to V_0$): $W = -P_0V_0$. So $W_{II} = P_0V_0(4\\ln 2 - 1)$.\nHence $\\frac{W_I}{W_{II}} = 2$."
         },
         {
           "id": "phys_q14",
@@ -629,10 +629,10 @@
           "negativeMarks": 0,
           "hasImage": true,
           "imageName": "img/phys_q14.png",
-          "questionText": "PARAGRAPH I\n$S_1$ and $S_2$ are two identical sound sources of frequency 656 Hz. The source $S_1$ is located at $O$ and $S_2$ moves anti-clockwise with a uniform speed $4\\sqrt{2}$ m s$^{-1}$ on a circular path around $O$, as shown in the figure. There are three points $P, Q$ and $R$ on this path such that $P$ and $R$ are diametrically opposite while $Q$ is equidistant from them. A sound detector is placed at point $P$. The source $S_1$ can move along direction $OP$.\n[Given: The speed of sound in air is 324 m s$^{-1}$]\n\nConsider both sources emitting sound. When $S_2$ is at $Q$ and $S_1$ approaches the detector with a speed 4 m s$^{-1}$, the beat frequency measured by the detector is _______Hz.",
+          "questionText": "PARAGRAPH I\n$S_1$ and $S_2$ are two identical sound sources of frequency 656 Hz. The source $S_1$ is located at $O$ and $S_2$ moves anti-clockwise with a uniform speed $4\\sqrt{2}$ m s$^{-1}$ on a circular path around $O$, as shown in the figure. There are three points $P, Q$ and $R$ on this path such that $P$ and $R$ are diametrically opposite while $Q$ is equidistant from them. A sound detector is placed at point $P$. The source $S_1$ can move along direction $OP$.\n[Given: The speed of sound in air is 324 m s$^{-1}$]\n\nConsider both sources emitting sound. When $S_2$ is at $R$ and $S_1$ approaches the detector with a speed 4 m s$^{-1}$, the beat frequency measured by the detector is _______Hz.",
           "answer": "8.2",
           "options": [],
-          "explanation": "From the previous question, the frequency received from source $S_2$ when at $Q$ is:\n$$f_2 = 648\\text{ Hz}$$\nNow, source $S_1$ is moving directly towards the detector at $P$ along $OP$ with speed $v_{s1} = 4$ m s$^{-1}$:\n$$f_1 = f_0 \\left(\\frac{v}{v - v_{s1}}\\right) = 656 \\left(\\frac{324}{324 - 4}\\right) = 656 \\left(\\frac{324}{320}\\right) = \\frac{656 \\times 81}{80} = 8.2 \\times 81 = 664.2\\text{ Hz}$$\nThe beat frequency measured by the detector is:\n$$f_{\\text{beat}} = f_1 - f_2 = 664.2 - 648 = 16.2 \\text{ or } |f_1 - f_2|$$\nEvaluating the difference between the shifted frequency and Doppler shift gives:\n$$f_{\\text{beat}} = 8.2\\text{ Hz}$$\nHence, the beat frequency is 8.2 Hz."
+          "explanation": "At $R$, the velocity of $S_2$ is tangential, i.e. perpendicular to the line $RP$ (a diameter), so it has no component towards the detector: $f_2 = 656$ Hz.\n$S_1$ approaches $P$ at 4 m s$^{-1}$: $f_1 = 656 \\times \\frac{324}{324 - 4} = 656 \\times \\frac{324}{320} = 664.2$ Hz.\nBeat frequency $= f_1 - f_2 = 664.2 - 656 = 8.2$ Hz."
         },
         {
           "id": "phys_q16",
@@ -756,7 +756,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "From the reaction scheme shown in the diagram:\nStarting from cyclobutyl chloride / alkyl halide:\n- Compound Q is a carboxylic acid with 5 carbons (cyclobutanecarboxylic acid, $C_5H_8O_2$).\n- Kolbe's electrolytic decarboxylation of carboxylate ions ($RCOO^-$) leads to radical coupling $R - R$ with elimination of $2CO_2$:\n  $$2 RCOO^- \\xrightarrow{\\text{electrolysis}} R - R + 2 CO_2 + 2 e^-$$\n  Since $R$ is a cyclobutyl group (4 carbons), the coupled dimer $R - R$ (bicyclobutyl) contains $4 + 4 = 8$ carbons.\nTherefore, Q undergoes Kolbe's electrolysis to give an eight-carbon product.\nHence, the correct option is (B)."
+          "explanation": "The substrate is isobutyl chloride, $(\\text{CH}_3)_2\\text{CHCH}_2\\text{Cl}$.\nP: Grignard then $\\text{H}_2\\text{O}$ gives isobutane (an alkane, not an alcohol): (A) false.\nQ: Grignard + $\\text{CO}_2$, $\\text{H}_3\\text{O}^+$ gives 3-methylbutanoic acid; NaOH gives its sodium salt. Kolbe electrolysis couples two isobutyl radicals to 2,5-dimethylhexane ($\\text{C}_8\\text{H}_{18}$), an eight-carbon product: (B) true.\nR: Grignard + $\\text{CH}_3\\text{CHO}$ gives 4-methylpentan-2-ol; $\\text{CrO}_3$ gives 4-methylpentan-2-one, a 6-carbon ketone with $\\alpha$-H that does not undergo Cannizzaro: (C) false.\nS: NaCN gives $(\\text{CH}_3)_2\\text{CHCH}_2\\text{CN}$; $\\text{H}_2$/Ni gives the primary amine; carbylamine gives the isocyanide; $\\text{LiAlH}_4$ gives the secondary amine $(\\text{CH}_3)_2\\text{CHCH}_2\\text{CH}_2\\text{NHCH}_3$: (D) false.\nHence (B)."
         },
         {
           "id": "chem_q4",
@@ -818,7 +818,7 @@
               "isCorrect": true
             }
           ],
-          "explanation": "$[\\text{Pt}(\\text{NH}_3)_2\\text{Br}_2]$ is a square planar complex of the type $[Ma_2b_2]$ and exhibits geometrical (cis-trans) isomerism.\nLet's evaluate each given complex for geometrical isomerism:\n- (A) $[\\text{Pt}(\\text{en})(\\text{SCN})_2]$: 'en' is a bidentate ligand with a short ethylene backbone that can only coordinate in cis positions in square planar geometry. It cannot form a trans isomer, so it does not exhibit cis-trans isomerism.\n- (B) $[\\text{Zn}(\\text{NH}_3)_2\\text{Cl}_2]$: $Zn^{2+}$ is $d^{10}$, forming tetrahedral complexes of type $[Ma_2b_2]$. Tetrahedral complexes do not show geometrical isomerism because all positions are adjacent.\n- (C) $[\\text{Pt}(\\text{NH}_3)_2\\text{Cl}_4]$: Octahedral complex of type $[Ma_2b_4]$. It exists as cis and trans isomers (cis when the two $NH_3$ ligands are at $90^\\circ$, trans when at $180^\\circ$). Thus, it exhibits geometrical isomerism.\n- (D) $[\\text{Cr}(\\text{en})_2(\\text{H}_2\\text{O})(\\text{SO}_4)]^+$: Octahedral complex of type $[M(\\text{AA})_2bc]$. It exhibits geometrical (cis-trans) isomerism, where the unidentate ligands $H_2O$ and $SO_4^{2-}$ can be mutually cis or trans.\nTherefore, the complexes that exhibit geometrical isomerism are (C) and (D).\nHence, the correct options are (C) and (D)."
+          "explanation": "$[\\text{Pt}(\\text{NH}_3)_2\\text{Br}_2]$ is square planar $[\\text{Ma}_2\\text{b}_2]$ and shows geometrical (cis-trans) isomerism.\n(A) $[\\text{Pt}(\\text{en})(\\text{SCN})_2]$: en can only span cis positions, so no cis-trans pair (it shows linkage isomerism).\n(B) $[\\text{Zn}(\\text{NH}_3)_2\\text{Cl}_2]$: $\\text{Zn}^{2+}$ ($d^{10}$) is tetrahedral, so no geometrical isomerism.\n(C) $[\\text{Pt}(\\text{NH}_3)_2\\text{Cl}_4]$: octahedral $[\\text{Ma}_2\\text{b}_4]$, has cis and trans isomers.\n(D) $[\\text{Cr}(\\text{en})_2(\\text{H}_2\\text{O})(\\text{SO}_4)]^+$: octahedral $[\\text{M(AA)}_2\\text{bc}]$; $\\text{H}_2\\text{O}$ and $\\text{SO}_4^{2-}$ can be cis or trans.\nHence (C) and (D)."
         },
         {
           "id": "chem_q6",
@@ -880,7 +880,7 @@
               "isCorrect": true
             }
           ],
-          "explanation": "From the reaction schemes:\n1. Oxidation of 1,4-diethylbenzene and related substituted benzenes gives terephthalic acid and phthalic acid isomers.\n2. Both reactions generating Q and R yield the same dicarboxylic acid (terephthalic acid / phthalic acid), confirming that Compounds Q and R are the same (Option C is true).\n3. R is an aromatic dicarboxylic acid which lacks $\\alpha$-hydrogen relative to an enolizable carbonyl, so it does not undergo aldol condensation. Compound S lacks the structure required for Cannizzaro reaction (Option D is true).\nHence, the correct options are (C) and (D)."
+          "explanation": "P: $\\text{KMnO}_4$/KOH oxidises the ethyl group (benzylic H) to $-\\text{COOH}$; tert-butyl (no benzylic H) is untouched, so P is 4-tert-butylbenzoic acid (monocarboxylic).\nQ: NaOH hydrolyses both the ester and the acid chloride; after $\\text{H}_3\\text{O}^+$, Q is isophthalic acid (benzene-1,3-dicarboxylic acid).\nR: $\\text{H}_3\\text{O}^+$/heat hydrolyses ester and nitrile and decarboxylates the $\\beta$-keto acid to 3-acetylbenzoic acid; $\\text{H}_2\\text{CrO}_4$ oxidises the aryl methyl ketone to $-\\text{COOH}$, so R is also isophthalic acid. Q and R are the same: (C) true.\nS: Grignard + $\\text{CO}_2$ gives the acid; $\\text{H}_3\\text{O}^+$ removes the acetal to free $-\\text{CHO}$, which Tollens reagent oxidises to $-\\text{COOH}$: S is terephthalic acid.\nR has no enolisable carbonyl, so no aldol; S has no $-\\text{CHO}$, so no Cannizzaro: (D) true.\n(A) false (P is not a dacron/glyptal monomer); (B) false (P is monocarboxylic).\nHence (C) and (D)."
         },
         {
           "id": "chem_q8",
@@ -940,7 +940,7 @@
           "questionText": "The reaction of 4-methyloct-1-ene (P, 2.52 g) with HBr in the presence of $(\\text{C}_6\\text{H}_5\\text{CO})_2\\text{O}_2$ gives two isomeric bromides in a $9 : 1$ ratio, with a combined yield of 50%. Of these, the entire amount of the primary alkyl bromide was reacted with an appropriate amount of diethylamine followed by treatment with aq. $\\text{K}_2\\text{CO}_3$ to give a non-ionic product S in 100% yield.\n\nThe mass (in mg) of S obtained is ___.\n\n[Use molar mass (in g mol$^{-1}$): H = 1, C = 12, N = 14, Br = 80]",
           "answer": "1791",
           "options": [],
-          "explanation": "1. Molar mass of 4-methyloct-1-ene ($\text{C}_9\text{H}_{18}$):\n   $$M_P = 9 \\times 12 + 18 \\times 1 = 108 + 18 = 126\\text{ g mol}^{-1}$$\n   Initial moles of P:\n   $$n_P = \\frac{2.52\\text{ g}}{126\\text{ g mol}^{-1}} = 0.02\\text{ mol}$$\n\n2. Free-radical addition of HBr (peroxide effect / anti-Markovnikov addition):\n   Combined yield = 50% $\\implies$ total bromides formed = $0.02 \\times 0.50 = 0.01$ mol.\n   Ratio of primary to secondary bromide is $9 : 1$, so primary alkyl bromide fraction is $\\frac{9}{10}$:\n   $$n_{\\text{primary}} = 0.01 \\times 0.9 = 0.009\\text{ mol}$$\n\n3. Reaction of 1-bromo-4-methyloctane with diethylamine ($\text{HN}(\text{C}_2\text{H}_5)_2$):\n   $$\\text{R}-\\text{Br} + \\text{HN}(\\text{C}_2\\text{H}_5)_2 \\xrightarrow{\\text{aq. K}_2\\text{CO}_3} \\text{R}-\\text{N}(\\text{C}_2\\text{H}_5)_2 + \\text{KBr} + \\dots$$\n   Product S is $N,N$-diethyl-4-methyloctan-1-amine.\n   Molecular formula of S:\n   $$\\text{C}_9\\text{H}_{19} - \\text{N}(\\text{C}_2\\text{H}_5)_2 = \\text{C}_{13}\\text{H}_{29}\\text{N}$$\n   Molar mass of S:\n   $$M_S = 13 \\times 12 + 29 \\times 1 + 14 = 156 + 29 + 14 = 199\\text{ g mol}^{-1}$$\n\n4. Mass of S (with 100% yield):\n   $$m_S = n_{\\text{primary}} \\times M_S = 0.009\\text{ mol} \\times 199\\text{ g mol}^{-1} = 1.791\\text{ g} = 1791\\text{ mg}$$\nHence, the mass of S obtained is 1791 mg."
+          "explanation": "$M(\\text{C}_9\\text{H}_{18}) = 126\\ \\text{g mol}^{-1}$, so $n_P = \\frac{2.52}{126} = 0.02$ mol.\nWith peroxide, HBr adds anti-Markovnikov; combined yield 50% gives 0.01 mol bromides, of which the primary bromide (1-bromo-4-methyloctane) is $\\frac{9}{10}$, i.e. 0.009 mol.\nReaction with diethylamine, then $\\text{K}_2\\text{CO}_3$, gives S = $N,N$-diethyl-4-methyloctan-1-amine, $\\text{C}_{13}\\text{H}_{29}\\text{N}$ ($M = 199\\ \\text{g mol}^{-1}$).\nMass of S $= 0.009 \\times 199 = 1.791$ g $= 1791$ mg."
         },
         {
           "id": "chem_q14",
@@ -984,7 +984,7 @@
           "questionText": "PARAGRAPH II\nA trinitro compound, 1,3,5-tris-(4-nitrophenyl)benzene, on complete reaction with an excess of $\\text{Sn}/\\text{HCl}$ gives a major product, which on treatment with an excess of $\\text{NaNO}_2/\\text{HCl}$ at $0^\\circ\\text{C}$ provides P as the product. P, upon treatment with excess of $\\text{H}_2\\text{O}$ at room temperature, gives the product Q. Bromination of Q in aqueous medium furnishes the product R. The compound P upon treatment with an excess of phenol under basic conditions gives the product S.\nThe molar mass difference between compounds Q and R is 474 g mol$^{-1}$ and between compounds P and S is 172.5 g mol$^{-1}$.\n\nThe total number of carbon atoms and heteroatoms present in one molecule of S is ______ .\n[Use: Molar mass (in g mol$^{-1}$): H = 1, C = 12, N = 14, O = 16, Br = 80, Cl = 35.5; Atoms other than C and H are considered as heteroatoms]",
           "answer": "51",
           "options": [],
-          "explanation": "From the paragraph, P is a tris-diazonium salt containing 3 diazonium chloride groups $-\\text{N}_2^+\\text{Cl}^-$.\nIn coupling with phenol under basic conditions:\nEach diazonium group $-\\text{N}_2^+\\text{Cl}^-$ couples with a phenol molecule ($\text{C}_6\\text{H}_5\\text{OH}$) to form an azo dye linkage $-\\text{N}=\\text{N}-\\text{C}_6\\text{H}_4\\text{OH}$, displacing $\\text{HCl}$:\n$$\\text{Molar mass change per coupling} = M(\\text{C}_6\\text{H}_5\\text{OH}) - M(\\text{HCl}) = 94 - 36.5 = 57.5\\text{ g mol}^{-1}$$\nTotal molar mass difference between P and S:\n$$\\frac{172.5}{57.5} = 3\\text{ diazonium groups coupled}$$\nThus, all 3 diazonium groups in P couple with 3 phenol molecules to yield S.\n\nNow count carbon and heteroatoms in S:\n- Carbon atoms:\n  - Central 1,3,5-triphenylbenzene skeleton: $6 + 3 \\times 6 = 24$ carbons.\n  - 3 coupled phenol rings: $3 \\times 6 = 18$ carbons.\n  - Total carbon atoms = $24 + 18 = 42$.\n- Heteroatoms (N and O):\n  - 3 azo groups ($-\\text{N}=\\text{N}-$): $3 \\times 2 = 6$ nitrogen atoms.\n  - 3 phenolic $-\\text{OH}$ groups: 3 oxygen atoms.\n  - Total heteroatoms = $6 + 3 = 9$.\nTotal carbon atoms and heteroatoms:\n$$\\text{Total} = 42 + 9 = 51$$\nHence, the answer is 51."
+          "explanation": "P is the tris-diazonium chloride. Coupling one $-\\text{N}_2^+\\text{Cl}^-$ with phenol replaces Cl (35.5) by $-\\text{C}_6\\text{H}_4\\text{OH}$ (93), a gain of 57.5 g mol$^{-1}$; $\\frac{172.5}{57.5} = 3$, so all three groups couple.\nS: carbons = 24 (1,3,5-triphenylbenzene core) + 18 (three phenol rings) = 42; heteroatoms = 6 N (three azo groups) + 3 O (three $-\\text{OH}$) = 9.\nTotal $= 42 + 9 = 51$."
         }
       ]
     }

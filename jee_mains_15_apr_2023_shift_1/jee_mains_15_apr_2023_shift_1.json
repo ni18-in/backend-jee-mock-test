@@ -69,7 +69,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "|A| = m - n, where 4m + n = 22 ...(i) and 17m + 4n = 93 ...(ii) Solving (i) and (ii) m = 5, n = 2 Order = 5 |A| = 3 $\\therefore$ det (n adj (adj(mA))) = |2adj (adj (5A))| = 25 |5A|16 = 25 580 |A|16 = 25· 316· 580 = 311 580 65 So, a + b + c = 96",
+              "explanation": "Solving $4m+n=22$ and $17m+4n=93$ gives $m=5,\\ n=2$, so $A$ is of order 5 with $|A|=3$. For order 5, $|\\operatorname{adj}(\\operatorname{adj}B)| = |B|^{16}$, so $|2\\,\\operatorname{adj}(\\operatorname{adj}(5A))| = 2^5|5A|^{16} = 2^5(5^5\\cdot 3)^{16} = 2^5\\cdot 3^{16}\\cdot 5^{80} = 3^{11}\\cdot 5^{80}\\cdot 6^{5}$. Hence $a+b+c = 11+80+5 = 96$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -100,7 +100,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "( ) 5 : 7 3 3 AD y x - + = - \\implies 3y + 21 = -5x + 15 5x + 3y + 6 = 0 ...(i) BE : ( ) 1 2 1 12 y x - - = + \\implies 12y - 24 = -x - 1 \\implies x = 23 - 12y by (ii) 115 - 60y + 3y + 6 = 0 57y = 121 121 121 , 23 12 57 57 y x = = - $\\times\\therefore$ 9$\\alpha$ - 6$\\beta$ + 60 = 9 × 23 - 121 121 108 6 60 57 57 $\\times - \\times$ + = 207 - 242 + 60 = 25",
+              "explanation": "Slope of $BC = \\frac{3}{5}$, so altitude from $A$: $y+7 = -\\frac{5}{3}(x-3) \\Rightarrow 5x+3y+6=0$. Slope of $AC = \\frac{5-(-7)}{4-3} = 12$, so altitude from $B$: $y-2 = -\\frac{1}{12}(x+1) \\Rightarrow x = 23-12y$. Solving: $115-57y+6=0 \\Rightarrow \\beta = \\frac{121}{57}$, $\\alpha = 23 - \\frac{1452}{57} = -\\frac{141}{57}$. Then $9\\alpha - 6\\beta + 60 = \\frac{-1269-726}{57} + 60 = -35+60 = 25$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -131,7 +131,7 @@
                   "isCorrect": true
                 }
               ],
-              "explanation": "Let position vector of A, B, C and D are , , and a b c d respectively $\\therefore$ Position vector of 2 2 OC OA c a E + + = = Position vector of 2 b d F + = Now, ( ) AB BC AD DC - + - ( ) ( ) b a c b d a c d \\implies - - - + - - - 2 2 2 2 b a c d \\implies - - + ( ) ( ) 2 2 b d a c \\implies + - + 4 4 2 2 b d a c OF OE [ ] + + [ ] \\implies - = - [ ] [ ] [ ] [ ] 4 4 EF FE \\implies = - $\\therefore$ k = -4",
+              "explanation": "Let $\\vec a,\\vec b,\\vec c,\\vec d$ be the position vectors of $A,B,C,D$. Then $E = \\frac{\\vec a+\\vec c}{2}$, $F = \\frac{\\vec b+\\vec d}{2}$. $(\\vec{AB}-\\vec{BC}) + (\\vec{AD}-\\vec{DC}) = (\\vec b-\\vec a)-(\\vec c-\\vec b)+(\\vec d-\\vec a)-(\\vec c-\\vec d) = 2(\\vec b+\\vec d) - 2(\\vec a+\\vec c) = 4(\\vec{OF}-\\vec{OE}) = 4\\vec{EF} = -4\\vec{FE}$. Hence $k=-4$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -162,7 +162,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "10 4 AC i k = + 10 5 7 AB i j k = + + 10 0 4 10 5 7 i j k AC AB $\\times$ = = -20i - 30j + 50k Equation of plane 2x + 3y - 5z = d Put (-1, -2, -3) -2 - 6 + 15 = d d = 7 $\\therefore$ 2x + 3y - 5z = 7 Foot of ⊥r 3 2 9 38 2 3 5 38 x y z - + + ( ) = = = -( ) - ( ) x = 1, y = -5, z = -4 Q(1, -5, -4) Distance from origin 1 25 16 = + + 42 =",
+              "explanation": "With $A(-1,-2,-3)$, $B(9,3,4)$, $C(9,-2,1)$: $\\vec{AB} = (10,5,7)$, $\\vec{AC} = (10,0,4)$, $\\vec{AC}\\times\\vec{AB} = (-20,-30,50)$, so the normal is $(2,3,-5)$ and the plane is $2x+3y-5z=7$. Foot from $P(3,-2,-9)$: $\\frac{x-3}{2} = \\frac{y+2}{3} = \\frac{z+9}{-5} = -\\frac{2(3)+3(-2)-5(-9)-7}{4+9+25} = -1$, so $Q = (1,-5,-4)$ and $OQ = \\sqrt{1+25+16} = \\sqrt{42}$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -175,7 +175,7 @@
                 {
                   "id": "A",
                   "text": "3",
-                  "isCorrect": false
+                  "isCorrect": true
                 },
                 {
                   "id": "B",
@@ -185,7 +185,7 @@
                 {
                   "id": "C",
                   "text": "4",
-                  "isCorrect": true
+                  "isCorrect": false
                 },
                 {
                   "id": "D",
@@ -193,7 +193,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "2 2 18 15 131 0 x y x y + - - + = 1 1 15 225 5 9, , 81 131 2 4 2 C r ( ) = + - = ( ) ( ) 2 2 6 6 7 0 x y x y + - - - = 2 2 (3, 3), 9 9 7 5 C r = + + = 2 2 1 2 15 81 15 (9 3) 3 36 2 4 2 d C C ( ) = = - + - = + = ( ) ( ) 1 2 5 15 5 2 2 r r + = + = 1 2 1 2 C C r r \\implies = + $\\therefore$ Circles touch each other externally, 3 common tangents. A B D C A(-1, -2, -3) B(9, 3, 4) C(9, -2, 1)",
+              "explanation": "$S_1$: centre $C_1\\left(9, \\frac{15}{2}\\right)$, $r_1 = \\sqrt{81 + \\frac{225}{4} - 131} = \\frac{5}{2}$. $S_2$: centre $C_2(3,3)$, $r_2 = \\sqrt{9+9+7} = 5$. $C_1C_2 = \\sqrt{36 + \\frac{81}{4}} = \\frac{15}{2} = r_1 + r_2$, so the circles touch externally and have exactly 3 common tangents.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -224,7 +224,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "Sum of digits 3 : (1, 1, 1) Sum of digits 9 : (1, 3, 5) or (3, 3, 3) Sum of digits 12 : (1, 3, 8) Sum of digits 15 : (5, 5, 5) Sum of digits 18 : (5, 5, 8) Sum of digits 21 : (5, 8, 8) Sum of digits 24 : (8, 8, 8) Possible numbers are 3! 3! 1 3! 1 3! 1 1 2! 2! = + + + + + + + = 22",
+              "explanation": "The digit sum must be a multiple of 3. Possible digit multisets: sum 3: $(1,1,1)$; sum 9: $(1,3,5)$, $(3,3,3)$; sum 12: $(1,3,8)$; sum 15: $(5,5,5)$; sum 18: $(5,5,8)$; sum 21: $(5,8,8)$; sum 24: $(8,8,8)$. Counting arrangements: $1 + 3! + 1 + 3! + 1 + \\frac{3!}{2!} + \\frac{3!}{2!} + 1 = 1+6+1+6+1+3+3+1 = 22$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -255,7 +255,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "Re 2 3 5 z z zz z z ( ) - + ( ) ( ) - + ( ) ( ) ( ) ( ) 2 2 Re 2 3 5 x iy x iy x y x iy x iy ( ) + - - + + ( ) ( ) - + + - ( ) ( ) 2 2 2 Re 2 2 8 x y i y x iy ( ) + + ( ) ( ) + - ( ) ( ) ( ) ( ) ( ) ( ) ( ) 2 2 2 2 2 2 1 8 Re 2 1 8 x y yi x iy x y ( ) + + + + ( ) ( ) ( ) + + ( ) ( )( ) ( ) ( ) 2 2 2 2 2 2 1 16 4 1 8 x y x y x y + + - = + + Put x = 3 ( ) 2 2 2 8 9 16 64 64 y y y + - = + ( ) ( ) 2 2 9 1 8 1 y f y y - = + Range of f(y) = (- 0.125, 1.125] $\\alpha$ = - 0.125 $\\beta$ = 1.125 $\\beta - \\alpha$ = 1.25 24($\\beta - \\alpha$) = 30",
+              "explanation": "Let $z = 3+iy$. Then $z\\bar z = 9+y^2$, $z-\\bar z = 2iy$, and $2-3z+5\\bar z = 8-8iy$. So $\\frac{z-\\bar z+z\\bar z}{2-3z+5\\bar z} = \\frac{(9+y^2+2iy)(1+iy)}{8(1+y^2)}$, whose real part is $f(y) = \\frac{9-y^2}{8(1+y^2)} = \\frac{1}{8}\\left(\\frac{10}{1+y^2} - 1\\right)$. As $\\frac{10}{1+y^2} \\in (0,10]$, $f(y) \\in \\left(-\\frac{1}{8}, \\frac{9}{8}\\right]$. So $\\beta-\\alpha = \\frac{5}{4}$ and $24(\\beta-\\alpha) = 30$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -286,7 +286,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "General term : ( ) ( ) ( ) 3 1 2 2 1 2 3 10! ! ! ! r r r a bx cx r r r For coeff. of x : r2 + 2r3 = 1 1 2 3 9 1 0 r r r $\\therefore$ coff of 9 1 10! 20 9! x a b = = \\implies a9 $\\cdot$ b = 2 ...(i) Coff of x2 : 8 2 9 10! 10! 210 8!2!0! 9!0!1! a b a c $\\cdot + \\cdot\\cdot$ = \\implies 45a8 $\\cdot$ b2 + 10 $\\cdot$ a9 $\\cdot$ c = 210 \\implies 9a8b2 + 2a9 $\\cdot$ c = 42 as a, b, c $\\in$ N $\\therefore$ a = 1, b = 2, c = 3 2(a + b + c) = 2(3 + 2 + 1) = 12",
+              "explanation": "$p_1 = 10a^9b = 20 \\Rightarrow a^9b = 2$, so with $a,b\\in\\mathbb N$: $a=1,\\ b=2$. $p_2 = \\binom{10}{2}a^8b^2 + 10a^9c = 45(4) + 10c = 210 \\Rightarrow c = 3$. Hence $2(a+b+c) = 2(1+2+3) = 12$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -317,7 +317,7 @@
                   "isCorrect": true
                 }
               ],
-              "explanation": "x|x| - 5|x + 2| + 6 = 0 Case-I : x < -2 -x2 + 5(x + 2) + 6 = 0 \\implies x2 - 5x - 16 = 0 \\implies 5 25 64 2 x $\\therefore$ 5 89 2 x is accepted Case-II : -2 $\\le$ x < 0 -x2 - 5(x + 2) + 6 = 0 \\implies x2 + 5x + 4 = 0 \\implies (x + 1) (x + 4) = 0 x = -1 is accepted Case-III : x $\\ge$ 0 x2 - 5(x + 2) + 6 = 0 \\implies x2 - 5x - 4 = 0 5 25 16 2 x 5 41 2 5 41 2 x is accepted $\\therefore$ 3 real roots are possible. Option (4) is correct.",
+              "explanation": "Case $x<-2$: $-x^2+5(x+2)+6=0 \\Rightarrow x^2-5x-16=0 \\Rightarrow x = \\frac{5-\\sqrt{89}}{2}$ (accepted, it is $<-2$). Case $-2\\le x<0$: $-x^2-5(x+2)+6=0 \\Rightarrow (x+1)(x+4)=0 \\Rightarrow x=-1$. Case $x\\ge 0$: $x^2-5(x+2)+6=0 \\Rightarrow x^2-5x-4=0 \\Rightarrow x = \\frac{5+\\sqrt{41}}{2}$. Hence 3 real roots.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -348,7 +348,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "Let the two numbers are a, b. 1 2 3 3 b a a b A a 2 2 2 3 3 b a a b A a 1 4 1 b G a a ( ) = ( ) ( ) 2 4 2 b G a a ( ) = ( ) ( ) 3 4 3 b G a a ( ) = ( ) ( ) ( ) ( ) ( ) ( ) ( ) 4 2 4 4 2 1 2 3 1 3 G G G G G + + + $\\cdot$ \\implies 2 3 2 4 4 4 4 2 3 2 b b b b a a a a a a a a $\\cdot + \\cdot + \\cdot + \\cdot$ = ba3 + b2a2 + b3a + a2b2 = ab(a2 + b2 + 2ab) = ab(a + b)2 ( ) ( ) 2 2 1 3 1 3 A A G G a b ab + $\\cdot$ = + $\\cdot\\therefore$ Option (1) is correct.",
+              "explanation": "Let the numbers be $a,b$ and $r = (b/a)^{1/4}$, so $G_k = ar^k$. Then $G_1^4 = a^3b$, $G_2^4 = a^2b^2$, $G_3^4 = ab^3$, $G_1^2G_3^2 = (ab)^2$. Sum $= a^3b + 2a^2b^2 + ab^3 = ab(a+b)^2$. Since $A_1+A_2 = a+b$ and $G_1G_3 = ab$, the expression equals $(A_1+A_2)^2G_1G_3$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -379,14 +379,14 @@
                   "isCorrect": true
                 }
               ],
-              "explanation": "( ) { } { } { } max 1, 2, 0 1 max 2, 2, 2 1 2 max 5, 4, 6 2 x x x x f x x x x x x < + + $\\le$ < $\\le$ = + + + $\\le$ < = $\\le$ = > \\implies ( ) 2 0 1 2 1 2 6 2 x x f x x x x + $\\le$ < < $\\le$ = + $\\le$ < = $\\le$ = > \\implies ( ) 2 0 2 6 2 x x f x x + $\\le$ < < = = = > f is not continuous at x = 2 f is differentiable in (0, 2) $\\therefore$ m = 1, n = 0 (m + n)2 + 2 = 1 + 2 = 3. Option (4) is correct",
+              "explanation": "For $0\\le x<1$: $f(x) = \\max\\{1+x,\\ 2+x,\\ x\\} = 2+x$. For $1\\le x<2$: $f(x) = \\max\\{2+x,\\ 2+x,\\ x+2\\} = 2+x$. At $x=2$: $f(2) = \\max\\{5,4,6\\} = 6$. So $f(x) = 2+x$ on $[0,2)$ and $f(2)=6$: discontinuous only at $x=2$ ($m=1$) and differentiable on $(0,2)$ ($n=0$). $(m+n)^2+2 = 3$.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "math_q13",
               "type": "single_correct",
-              "questionText": "Let $S$ be the set of all values of $\\lambda$ for which the shortest distance between the lines $\\frac{x}{1} = \\frac{y-4}{3} = \\frac{z+\\lambda}{6}$ and $\\frac{x-3}{1} = \\frac{y+\\lambda}{-4} = \\frac{z}{0}$ is $13$. Then $8\\sum_{\\lambda \\in S} |\\lambda|$ is equal to",
+              "questionText": "Let $S$ be the set of all values of $\\lambda$ for which the shortest distance between the lines $\\frac{x-\\lambda}{0} = \\frac{y-3}{4} = \\frac{z+6}{1}$ and $\\frac{x+\\lambda}{3} = \\frac{y}{-4} = \\frac{z-6}{0}$ is $13$. Then $8\\left|\\sum_{\\lambda \\in S} \\lambda\\right|$ is equal to",
               "hasImage": false,
               "options": [
                 {
@@ -410,14 +410,14 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "- - 3 6 0 4 1 x y z $\\lambda$ + = = - 6 3 -4 0 x y z + $\\lambda$= = ( ) ( ) 2 1 1 2 1 2 - 13 a a n n d n n $\\cdot\\times$ = = $\\times$ 1 2 ˆ ˆ ˆ 0 4 1 3 -4 0 i j k n n $\\times$ = ˆ ˆ ˆ 4 3 - 12 i j k = + ( ) ( ) ˆ ˆ ˆ ˆ ˆ ˆ 2 3 -12 4 3 -12 8 16 9 144 i j k i j k $\\cdot\\lambda$+ + = + + 104 8 9 144 = $\\lambda$+ + 104 8 153 = $\\lambda$+ 8$\\lambda$ = ±104 - 153 -49 -257 , 8 8 $\\lambda$= 49 257 8 8 306 8 8 s $\\lambda\\in$ [ ] $\\lambda$= = + [ ] [ ] $\\sum$",
+              "explanation": "$\\vec n = \\vec b_1\\times\\vec b_2 = (0,4,1)\\times(3,-4,0) = 4\\hat i + 3\\hat j - 12\\hat k$, $|\\vec n| = 13$. $\\vec a_2-\\vec a_1 = (-2\\lambda,-3,12)$, so the shortest distance is $\\frac{|-8\\lambda-9-144|}{13} = 13 \\Rightarrow |8\\lambda+153| = 169 \\Rightarrow \\lambda = 2$ or $\\lambda = -\\frac{161}{4}$. $\\sum\\lambda = -\\frac{153}{4}$, hence $8\\left|\\sum\\lambda\\right| = 306$.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "math_q14",
               "type": "single_correct",
-              "questionText": "Negation of $(p \\land q) \\land (\\sim p \\land q)$ is",
+              "questionText": "Negation of $(p \\land q) \\land \\sim(p \\land \\sim q)$ is",
               "hasImage": false,
               "options": [
                 {
@@ -441,7 +441,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "( ) ( )) p q p q [ ] $\\land\\land\\land$ [ ] ( ) ( ) p q p q [ ] $\\land\\land\\lor$ [ ] ( ) ( ) ( ) p q p q q [ ] $\\land\\lor\\land\\land$ [ ] ( ) p q p $\\land$ [ ] $\\land$ [ ] ( ) p q p $\\lor\\land$ ( ) p q p $\\lor\\lor$ ( ) p p p q $\\lor\\land$",
+              "explanation": "$\\sim[(p\\land q)\\land\\sim(p\\land\\sim q)] \\equiv \\sim[(p\\land q)\\land(\\sim p\\lor q)] \\equiv \\sim[(p\\land q\\land\\sim p)\\lor(p\\land q)] \\equiv \\sim(p\\land q) \\equiv \\sim p\\lor\\sim q$. Option (3): $\\sim(p\\land q)\\lor\\sim q \\equiv \\sim p\\lor\\sim q$, which matches.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -472,7 +472,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "-x + 2y - 9z = 7 ...(i) -x + 3y + 7z = 9 ...(ii) -2x + y + 5z = 8 ...(iii) -3x + y + 13z = $\\lambda$ ...(iv) From (i), (ii), (iii) x = -3, y = 2, z = 0 Substitute in (iv) 3 × 3 + 2 = $\\lambda\\lambda$= 11 Point: (-3, 2, 0) Plane: 2x - 2y + z = 11 2 2 -6 - 4 -11 21 7 3 2 2 1 d = = = + +",
+              "explanation": "Solving the first three equations gives $x=-3,\\ y=2,\\ z=0$. Substituting in the fourth: $\\lambda = 9+2+0 = 11$. Distance of $(-3,2,0)$ from $2x-2y+z=11$: $\\frac{|-6-4+0-11|}{\\sqrt{4+4+1}} = \\frac{21}{3} = 7$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -503,7 +503,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "Bag have 6 white and 4 black balls Probability all drawn balls are white 6 6 6 6 6 6 3 5 6 1 2 4 10 10 10 10 10 10 1 2 3 4 5 6 1 6 C C C C C C C C C C C C [ ] = + + + + + [ ] [ ] [ ] 504 1 2520 5 = =",
+              "explanation": "$P = \\frac{1}{6}\\sum_{k=1}^{6}\\frac{{}^6C_k}{{}^{10}C_k} = \\frac{1}{6}\\left(\\frac{6}{10}+\\frac{15}{45}+\\frac{20}{120}+\\frac{15}{210}+\\frac{6}{252}+\\frac{1}{210}\\right) = \\frac{1}{6}\\cdot\\frac{252}{210} = \\frac{1}{5}$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -534,7 +534,7 @@
                   "isCorrect": true
                 }
               ],
-              "explanation": "( ) 1 1 4 0 2 2 1 1 2 5 1 2 x I dx x x e ( ) - - ( ) ( ) = ( ) ( )( ) - - + ( )( ) ( )( ) $\\int$ 1 1 2 4 0 2 1 1 2 11 1 1 4 2 x dx x e ( ) - - ( ) ( ) = ( ) ( ) ( ) ( ) ( ) ( ) - - + ( ) ( ) ( )( ) ( ) ( ) ( )( ) $\\int$ Let 1 , 2 x t dx dt - = = ( ) 1 2 2 1 2 4 2 1 1 2 11 1 2 t dt t e - - = ( ) ( ) ( ) - + ( ) ( ) ( ) ( ) ( ) $\\int$ ( ) ( ) 1 2 2 2 0 2 4 2 4 1 1 1 2 11 11 1 1 2 2 t t t e t e - = + ( ) ( ) ( ) ( ) ( ) ( ) - + - + ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) ( ) $\\int$ 1 2 1 2 2 0 2 0 11 1 1 1 1 2 ln 2 2 11 11 11 2 2 2 2 t dt t t ] + ] ] = = $\\times$ ( ) ] ( ) - ( ) ] - ( ) ( ) ( ) ] ( ) ( ) $\\int$ ( ) 2 11 1 1 11 1 1 ln ln 10 2 11 11 1 2 11 ( ) + ( ) + ( ) = = ( ) ( ) ( ) - ( ) ( ) ( ) 1 11 1 ln 11 10 ( ) + = ( ) ( ) ( ) \\implies 4 4 11, 10 21 $\\alpha = \\beta$= \\implies $\\alpha - \\beta$ =",
+              "explanation": "Using $x\\to 1-x$, $5+2x-2x^2$ is unchanged and $e^{2-4x}\\to e^{4x-2}$; adding the two forms, $2I = \\int_0^1\\frac{dx}{5+2x-2x^2} = \\frac{1}{2}\\int_0^1\\frac{dx}{\\frac{11}{4}-\\left(x-\\frac12\\right)^2} = \\frac{1}{\\sqrt{11}}\\ln\\frac{\\sqrt{11}+1}{\\sqrt{11}-1}$. Since $\\frac{\\sqrt{11}+1}{\\sqrt{11}-1} = \\frac{(\\sqrt{11}+1)^2}{10}$, $I = \\frac{1}{\\sqrt{11}}\\ln\\left(\\frac{\\sqrt{11}+1}{\\sqrt{10}}\\right)$. So $\\alpha = \\sqrt{11}$, $\\beta = \\sqrt{10}$ and $\\alpha^4-\\beta^4 = 121-100 = 21$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -565,7 +565,7 @@
                   "isCorrect": true
                 }
               ],
-              "explanation": "( )( ) 2 4 11 6 0 4 3 2 0 x x x x + + > \\implies + + > \\implies ( ) 3 , 2 , 4 x - [ ) $\\in - \\infty - \\infty$ ) [[ ) ...(i) 1 4 3 1 4 4 2 x x -$\\le + \\le$ \\implies - $\\le\\le$ - 1 1 2 x -$\\le\\le$ - ...(ii) 10 6 1 1 3 10 6 3 3 x x + -$\\le\\le$ \\implies - $\\le + \\le$ \\implies 9 10 3 x - $\\le\\le$ - 9 3 10 10 x - - $\\le\\le$ ...(iii) (i), (ii), (iii) \\implies 3 1 4 2 x - - < $\\le$ 3 1 , 4 2 - - $\\alpha = \\beta$= 5 36 36 45 4 $\\alpha + \\beta = \\times$ =",
+              "explanation": "$4x^2+11x+6 = (4x+3)(x+2) > 0 \\Rightarrow x\\in(-\\infty,-2)\\cup\\left(-\\frac34,\\infty\\right)$. $-1\\le 4x+3\\le 1 \\Rightarrow -1\\le x\\le -\\frac12$. $-1\\le\\frac{10x+6}{3}\\le 1 \\Rightarrow -\\frac{9}{10}\\le x\\le -\\frac{3}{10}$. Intersection: $\\left(-\\frac34, -\\frac12\\right]$, so $36|\\alpha+\\beta| = 36\\cdot\\frac54 = 45$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -596,7 +596,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "Let x + 4 = u, y + 2 = v dx = du, dy = dv (2v lnv)du = -(u - 2 lnv)dv 2 ln 2ln du v v u v dv + = 1 1 2 ln du u dv v v v + $\\cdot$ = IF ( ) ( ) 1 1 1 1 ln ln 2 ln 2 2 ln v v v e e v $\\int$ = = = ( ) ( ) 1 1 2 2 1 ln ln u v v dv v $\\cdot = \\cdot\\int$ ( ) ( ) 1 3 2 2 2 ln ln 3 u v v c $\\cdot$ = + ...(i) y = e4 - 2 \\implies x = 1 $\\therefore$ v = e4 \\implies u = 5 ( ) 1 3 2 2 2 5 4 4 3 c ( ) ( ) $\\cdot = \\cdot$ + ( ) ( ) 16 10 3 c = + 14 3 c = y = e9 - 2 \\implies v = y + 2 = e9 (i) \\implies 2 14 14 3 27 18 3 3 3 u $\\cdot = \\times$ + = + 14 4 6 9 x u + = = + 14 32 2 9 9 x = + =",
+              "explanation": "Put $u = x+4$, $v = y+2$: $\\frac{du}{dv} + \\frac{u}{2v\\ln v} = \\frac{1}{v}$. I.F. $= (\\ln v)^{1/2}$, so $u\\sqrt{\\ln v} = \\int\\frac{\\sqrt{\\ln v}}{v}dv = \\frac23(\\ln v)^{3/2} + c$. At $v=e^4$, $u=5$: $10 = \\frac{16}{3}+c \\Rightarrow c = \\frac{14}{3}$. At $v = e^9$: $3u = 18+\\frac{14}{3} \\Rightarrow u = \\frac{68}{9}$, so $x = \\frac{68}{9}-4 = \\frac{32}{9}$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -614,7 +614,7 @@
                 {
                   "id": "B",
                   "text": "13",
-                  "isCorrect": false
+                  "isCorrect": true
                 },
                 {
                   "id": "C",
@@ -624,10 +624,10 @@
                 {
                   "id": "D",
                   "text": "14",
-                  "isCorrect": true
+                  "isCorrect": false
                 }
               ],
-              "explanation": "1 2 9 ... 50 20 10 x x x + + + + = x1 + x2 + ...+x9 = 150 2 2 2 1 2 9 ... 2500 64 400 10 x x x + + + + = - 2 2 2 1 2 9 ... 2140 x x x + + + = New mean 150 40 19 10 + = = New  ( )2 2140 1600 19 10 + = -  = 13 SECTION - B This section contains 10 questions. In Section B, attempt any five questions out of 10. The answer to each question is a NUMERICAL VALUE. For each question, enter the correct numerical value (in decimal notation, truncated/rounded-off to the second decimal place; e.g., 06.25, 07.00, -00.33, -00.30, 30.27, -27.30) using the mouse and the on-screen virtual numeric keypad in the place designated to enter the answer.",
+              "explanation": "$\\sum x_i = 200$, $\\sum x_i^2 = 10(64+400) = 4640$. Corrected: $\\sum x_i = 200-50+40 = 190$ (mean 19), $\\sum x_i^2 = 4640-2500+1600 = 3740$. Correct variance $= \\frac{3740}{10} - 19^2 = 374-361 = 13$.",
               "marks": 4,
               "negativeMarks": -1
             }
@@ -640,10 +640,10 @@
             {
               "id": "math_q21",
               "type": "numerical",
-              "questionText": "Let $f(x) = \\int \\frac{dx}{(3+4x)^{\\frac{3}{2}}(4-3x)^{\\frac{1}{2}}}$ for $x < \\frac{4}{3}$. If $f(0) = 0$ and $f(1) = \\tan^{-1}\\left(\\frac{\\alpha}{\\beta}\\right)$, where $\\alpha, \\beta > 0$, then $\\alpha^2 + \\beta^2$ is equal to _______.",
+              "questionText": "Let $f(x) = \\int \\frac{dx}{(3+4x^2)\\sqrt{4-3x^2}}$, $|x| < \\frac{2}{\\sqrt{3}}$. If $f(0) = 0$ and $f(1) = \\frac{1}{\\alpha\\beta}\\tan^{-1}\\left(\\frac{\\alpha}{\\beta}\\right)$, $\\alpha, \\beta > 0$, then $\\alpha^2 + \\beta^2$ is equal to _______.",
               "hasImage": false,
               "answer": 28,
-              "explanation": "2 2 ( ) (3 4 ) 4 3 dx f x x x = + - $\\int$ Put 2 1 1 , x dx dt t t = = - 2 2 2 ( ) 4 3 3 4 dt f x t t t - = ( ) + - ( ) ( ) $\\int$ 2 2 (3 4) 4 3 t dt t t - = + - $\\int$ 2 2 4 3 8 2 t t dt d - = $\\lambda$ \\implies = $\\lambda\\lambda$ 2 ( ) 3 4 · 3 4 · 4 d f x $\\lambda\\lambda$ = - ( ) ( ) $\\lambda$+ + $\\lambda$ ( ) ( ) ( ) ( ) ( ) ( ) $\\int$ 2 2 2 1 25 3 3 9 16 3 25 3 d d d $\\lambda\\lambda\\lambda$ = - = - = - $\\lambda$+ + $\\lambda + \\lambda + \\int\\int\\int$ -1 1 3 3 tan 3 5 5 c ( ) $\\lambda$ = - $\\times$ + ( ) ( ) ( ) 2 1 3 (4 3 ) 3 ( ) tan 15 5 x f x c x -( ) - ( ) = - + ( ) ( ) 3 (0) 0 30 f c $\\pi$ = \\implies = + 1 3 3 3 (1) tan 15 5 15 2 f -( ) - $\\pi$ = + $\\times$ ( ) ( ) ( ) -1 -1 -1 3 3 3 5 1 5 cot tan tan 15 5 15 3 5 3 3 ( ) ( ) ( ) = = = ( ) ( ) ( ) ( ) ( ) ( ) ( ) \\implies 2 2 28 $\\alpha + \\beta$=",
+              "explanation": "Put $x = \\frac1t$: $f = -\\int\\frac{t\\,dt}{(3t^2+4)\\sqrt{4t^2-3}}$. Let $4t^2-3 = \\lambda^2$: $f = -\\int\\frac{d\\lambda}{3\\lambda^2+25} = -\\frac{1}{5\\sqrt3}\\tan^{-1}\\left(\\frac{\\sqrt3\\,\\lambda}{5}\\right)+c$, with $\\lambda = \\frac{\\sqrt{4-3x^2}}{x}$. $f(0)=0$ (limit $x\\to0^+$) gives $c = \\frac{\\pi}{10\\sqrt3}$. Then $f(1) = \\frac{1}{5\\sqrt3}\\left(\\frac{\\pi}{2} - \\tan^{-1}\\frac{\\sqrt3}{5}\\right) = \\frac{1}{5\\sqrt3}\\tan^{-1}\\frac{5}{\\sqrt3}$, so $\\alpha = 5$, $\\beta = \\sqrt3$ and $\\alpha^2+\\beta^2 = 28$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -653,7 +653,7 @@
               "questionText": "Let an ellipse with center $(1, 0)$ and latus rectum of length $\\frac{1}{2}$ have its major axis along the $x$-axis. If its minor axis subtends an angle $60^\\circ$ at the foci, then the square of the sum of the lengths of its minor and major axes is equal to _______.",
               "hasImage": false,
               "answer": 9,
-              "explanation": "2 2 1, tan30 2 b b a ae = °= 2 2 2 2 2 2 2 2 2 1 , 3 4 3 4 a b a b a b b b a b = = \\implies - = \\implies = - \\implies 2 1 1 1, 4 2 a b b = = \\implies = \\implies (2a + 2b)2 = 9",
+              "explanation": "Latus rectum $\\frac{2b^2}{a} = \\frac12$. The minor axis subtends $60^\\circ$ at a focus, so $\\tan 30^\\circ = \\frac{b}{ae} \\Rightarrow a^2e^2 = 3b^2 \\Rightarrow a^2 - b^2 = 3b^2 \\Rightarrow a = 2b$. Then $\\frac{2b^2}{2b} = b = \\frac12$, $a = 1$, and $(2a+2b)^2 = 3^2 = 9$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -663,7 +663,7 @@
               "questionText": "A person forgets his 4-digit ATM pin code. But he remembers that in the code all the digits are different, the greatest digit is 7 and the sum of the first two digits is equal to the sum of the last two digits. Then the maximum number of trials necessary to obtain the correct code is _______.",
               "hasImage": false,
               "answer": 72,
-              "explanation": "abcd a + b = c + d 0, 1, 2, 3, 4, 5, 6, 7 Let a + b = c + d = $\\lambda$ There must be 7 \\implies a + b = c + d = $\\lambda\\ge$ 7 $\\lambda$= 7, (a, b)/(c, d) \\rightarrow (0, 7)/(1, 6) or (2, 5)(3, 4) \\rightarrow 24 numbers $\\lambda$= 8, (a, b)/(c, d) \\rightarrow (1, 7)/(2, 6) or (3, 5) \\rightarrow 16 numbers $\\lambda$= 9, (a, b)/(c, d) \\rightarrow (2, 7)/(3, 6) or (4, 5) \\rightarrow 16 numbers $\\lambda$= 10, (a, b)/(c, d) \\rightarrow (3, 7)/(4, 6) \\rightarrow 8 numbers $\\lambda$= 11, (a, b)/(c, d) \\rightarrow (4, 7)/(5, 6) \\rightarrow 8 numbers $\\lambda$= 12, (a, b)/(c, d) \\rightarrow (5, 7) Not possible $\\lambda$= 13, (a, b)/(c, d) \\rightarrow (6, 7) Not possible $\\lambda$= 14, (a, b)/(c, d) \\rightarrow (7, 7) Not possible \\implies Total numbers = 72",
+              "explanation": "Digits are from $\\{0,1,\\dots,7\\}$, all different, and 7 must appear. Let $a+b = c+d = s$ with the pair containing 7 on one side. $s=7$: $(0,7)$ with $(1,6),(2,5),(3,4)$: $3\\times 8 = 24$. $s=8$: $(1,7)$ with $(2,6),(3,5)$: 16. $s=9$: $(2,7)$ with $(3,6),(4,5)$: 16. $s=10$: $(3,7)$ with $(4,6)$: 8. $s=11$: $(4,7)$ with $(5,6)$: 8. $s\\ge 12$: impossible. Total $= 72$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -673,7 +673,7 @@
               "questionText": "The number of elements in the set $\\{n \\in \\mathbb{N} : 10 \\le n \\le 100 \\text{ and } 3^n - 3 \\text{ is a multiple of } 7\\}$ is _______.",
               "hasImage": false,
               "answer": 15,
-              "explanation": "3 3 7 n k - = 3 3(mod 7) $\\equiv$ 2 3 2(mod 7) $\\equiv$ 3 3 -1(mod 7) $\\equiv$ 6 3 1(mod 7) $\\equiv$ 7 3 3 (mod 7) $\\equiv$ 13 3 3 (mod 7) $\\equiv$ n can be 13, 19, 25, ... 97 Total 15 such n exist",
+              "explanation": "$3^n \\equiv 3 \\pmod 7 \\iff 3^{n-1}\\equiv 1 \\pmod 7$. The order of 3 mod 7 is 6, so $n\\equiv 1 \\pmod 6$. In $[10,100]$: $n = 13, 19, \\dots, 97$, i.e. $15$ values.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -683,7 +683,7 @@
               "questionText": "Let $A = \\{1, 2, 3, 4\\}$ and $R$ be a relation on the set $A \\times A$ defined by $R = \\{((a, b), (c, d)) : 2a + 3b = 4c + 5d\\}$. Then the number of elements in $R$ is _______.",
               "hasImage": false,
               "answer": 6,
-              "explanation": "2a + 3b = 4c + 5d Maximum value of 2a + 3b = 20 at (4, 4) Minimum value of 4c + 5d = 9 at (1, 1) So, 4c + 5d can be equal to 9, 13, 14, 17, 18, 19 2a + 3b can be 9 \\implies (a, b) = (3, 1) (c, d) = (1, 1) 2a + 3b can be 13 \\implies (a, b) = (2, 3) (c, d) = (2, 1) 2a + 3b can be 14 \\implies (a, b) = (4, 2) OR (1, 4) (c, d) = (1, 2) 2a + 3b can be 17 \\implies (a, b) = (4, 3) (c, d) = (3, 1) 2a + 3b can be 18 \\implies (a, b) = (3, 4) (c, d) = (2, 2)",
+              "explanation": "$4c+5d$ (with $c,d\\in A$) takes values $9,13,14,17,18,19,\\dots$ and $2a+3b\\le 20$. Matching: $9$: $(a,b)=(3,1)$, $(c,d)=(1,1)$; $13$: $(2,3)$, $(2,1)$; $14$: $(4,2)$ or $(1,4)$, $(1,2)$; $17$: $(4,3)$, $(3,1)$; $18$: $(3,4)$, $(2,2)$; $19$: no $(a,b)$. Total $1+1+2+1+1 = 6$ elements.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -693,7 +693,7 @@
               "questionText": "Consider the triangles with vertices $A(2, 1)$, $B(0, 0)$ and $C(t, 4)$, $t \\in [0, 4]$. If the maximum and the minimum perimeters of such triangles are obtained at $t = \\alpha$ and $t = \\beta$ respectively, then $6\\alpha + 21\\beta$ is equal to _______.",
               "hasImage": false,
               "answer": 48,
-              "explanation": "To minimize CA + CB, take image of B in y = 4 B = (0, 8) AB y - 8 = 7 ( 0) 2 x - - when y = 4 7 4 ( ) 2 x - - = 8 8 7 7 x = \\implies $\\beta$= Maximization will be possible if $\\alpha$ = 0 or 4 When compared $\\alpha$ = 4 6 21 48 $\\alpha + \\beta$=",
+              "explanation": "$C$ moves on $y=4$, $0\\le t\\le 4$. For the minimum of $CA+CB$, reflect $B$ in $y=4$: $B'(0,8)$. Line $AB'$: $y-8 = -\\frac72x$ meets $y=4$ at $x = \\frac87$, so $\\beta = \\frac87$. The maximum occurs at an end point: $t=0$ gives $\\sqrt{13}+4$, $t=4$ gives $\\sqrt{13}+4\\sqrt2$ (larger), so $\\alpha = 4$. $6\\alpha+21\\beta = 24+24 = 48$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -703,7 +703,7 @@
               "questionText": "If the area bounded by the curve $2y^2 = 3x$, lines $x + y = 3$, $y = 0$ and outside the circle $(x - 3)^2 + y^2 = 2$ is $A$, then $4(\\pi + 4A)$ is equal to _______.",
               "hasImage": false,
               "answer": 42,
-              "explanation": "( ) 2 2 3/2 0 2 1 (3 ) 2 3 8 y A y dy ( ) = - - -$\\pi\\cdot$ ( ) ( ) $\\int$ = 36 9 6 21 8 4 8 4 - - $\\pi\\pi$ - = -",
+              "explanation": "Parabola $x = \\frac{2y^2}{3}$ meets $x+y=3$ at $y=\\frac32$. Area between them for $0\\le y\\le\\frac32$: $\\int_0^{3/2}\\left(3-y-\\frac{2y^2}{3}\\right)dy = \\frac92-\\frac98-\\frac34 = \\frac{21}{8}$. The circle (centre $(3,0)$, radius $\\sqrt2$) cuts off a $45^\\circ$ sector of area $\\frac18\\pi(2) = \\frac{\\pi}{4}$. So $A = \\frac{21}{8}-\\frac{\\pi}{4}$ and $4(\\pi+4A) = 4\\left(\\pi+\\frac{21}{2}-\\pi\\right) = 42$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -713,7 +713,7 @@
               "questionText": "If the line $x = y = z$ intersects the line $x\\sin A + y\\sin B + z\\sin C - 18 = 0 = x\\sin 2A + y\\sin 2B + z\\sin 2C - 9$, where $A, B, C$ are the angles of a triangle $ABC$, then $80\\left(\\sin\\frac{A}{2}\\sin\\frac{B}{2}\\sin\\frac{C}{2}\\right)$ is equal to _______.",
               "hasImage": false,
               "answer": 5,
-              "explanation": "x = y = z = k (let) $\\therefore$ (sin sin sin ) 18 k A B C + + = \\implies 4cos cos cos 18 2 2 2 A B C k ( ) $\\cdot\\cdot$ = ( ) ( ) ...(i) (sin2 sin2 sin2 ) 9 k A B C + + = \\implies (4sin sin sin ) 9 k A B C $\\cdot\\cdot$ = ...(ii) (ii)/(i) 9 8sin sin sin 2 2 2 18 A B C $\\cdot\\cdot$ = \\implies 80sin sin sin 5 2 2 2 A B C $\\cdot\\cdot$ =",
+              "explanation": "Put $x=y=z=k$: $k(\\sin A+\\sin B+\\sin C) = 18 \\Rightarrow 4k\\cos\\frac A2\\cos\\frac B2\\cos\\frac C2 = 18$, and $k(\\sin2A+\\sin2B+\\sin2C) = 9 \\Rightarrow 4k\\sin A\\sin B\\sin C = 9$. Dividing: $8\\sin\\frac A2\\sin\\frac B2\\sin\\frac C2 = \\frac12$, so $80\\sin\\frac A2\\sin\\frac B2\\sin\\frac C2 = 5$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -723,7 +723,7 @@
               "questionText": "If the sum of the series $\\left(\\frac{1}{2} - \\frac{1}{3}\\right) + \\left(\\frac{1}{2^2} - \\frac{1}{2 \\cdot 3} + \\frac{1}{3^2}\\right) + \\left(\\frac{1}{2^3} - \\frac{1}{2^2 \\cdot 3} + \\frac{1}{2 \\cdot 3^2} - \\frac{1}{3^3}\\right) + \\dots$ is equal to $\\frac{\\alpha}{\\beta}$, where $\\alpha$ and $\\beta$ are co-prime, then $\\alpha + 3\\beta$ is equal to _______.",
               "hasImage": false,
               "answer": 7,
-              "explanation": "Let 1 1 , 2 3 a b = = Given: (a - b) + (a2 - ab + b2) + (a3 - a2b + ab2 - b3) +... \\implies ( ) ( ) ( ) ( ) 2 2 3 3 4 4 1 ... a b a b a b a b - + + + - + + \\implies ( ) ( ) 2 3 4 2 3 4 1 .... .... a a a b b b a b ( ) + + - - + ( ) + ( ) 2 2 1 1 1 a b a b a b ( ) ( ) = - ( ) ( )( ) + - + ( )( ) 1 1 1 9 4 1 1 1 1 1 1 2 3 2 3 ( ) ( ) = - ( ) ( ) + - + ( ) ( ) 6 1 1 5 2 12 ( ) = - ( ) ( ) 6 5 1 5 12 2 $\\alpha$ ( ) = = = ( ) $\\beta$ ( ) $\\alpha$ + 3$\\beta$ = 1 + 6 = 7",
+              "explanation": "Let $a=\\frac12$, $b=\\frac13$. The $n$-th bracket is $\\sum_{k=0}^{n}a^{n-k}(-b)^k = \\frac{a^{n+1}-(-b)^{n+1}}{a+b}$. Summing over $n\\ge1$: $S = \\frac{1}{a+b}\\left(\\frac{a^2}{1-a} - \\frac{b^2}{1+b}\\right) = \\frac65\\left(\\frac12-\\frac1{12}\\right) = \\frac12$. So $\\alpha=1$, $\\beta=2$, $\\alpha+3\\beta = 7$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -733,7 +733,7 @@
               "questionText": "Let the plane $P$ contain the line $2x + y - z - 3 = 0 = 5x - 3y + 4z + 9$ and be parallel to the line $\\frac{x+2}{2} = \\frac{3-y}{-4} = \\frac{z-7}{5}$. Then the distance of the point $A(8, -1, -19)$ from the plane $P$ measured parallel to the line $\\frac{x}{-3} = \\frac{y-5}{4} = \\frac{2-z}{-12}$ is equal to _______.",
               "hasImage": false,
               "answer": 26,
-              "explanation": "Plane containing the line 2x + y - 3 - 3 = 0 = 5x - 3y + 4z + 9 is 2x + y - z - 3 + $\\lambda$(5x - 3y + 4z + 9) = 0 \\implies x(2 + 5$\\lambda$) + y(1 - 3$\\lambda$) + z(4$\\lambda$ - 1) + 9$\\lambda$ - 3 = 0 This plane is parallel to the line 2 3 7 2 4 5 x y z + - - = = - $\\therefore$ (2 + 5$\\lambda$)(2) + (1 - 3$\\lambda$)(4) + (4$\\lambda$ - 1)5 = 0 \\implies 4 + 10$\\lambda$ + 4 - 12$\\lambda$ + 20$\\lambda$ - 5 = 0 \\implies 18$\\lambda$ = -3 \\implies 1 6 - $\\lambda = \\therefore$ Plane 7 3 5 9 : 0 6 2 3 2 P x y z + - - = \\implies 7x + 9y - 10z - 27 = 0 8 1 19 : 3 4 12 x y z AB k - + + = = = - B = (-3k + 8, 4k - 1, 12k - 19) B lies on plane P. 7(-3k + 8) + 9(4k - 1) -10(12k - 19) = 27 \\implies -21k + 56 + 36k - 9 -120k + 190 = 27 \\implies -105k = -210 \\implies k = 2 $\\therefore$ B = (2, 7, 5) 36 64 576 AB = + + 676 26 = = This section contains 20 multiple choice questions. Each question has 4 choices (1), (2), (3) and (4), out of which ONLY ONE is correct. Choose the correct answer:",
+              "explanation": "Plane: $(2x+y-z-3)+\\lambda(5x-3y+4z+9)=0$. Parallel to direction $(2,4,5)$: $2(2+5\\lambda)+4(1-3\\lambda)+5(4\\lambda-1) = 0 \\Rightarrow \\lambda = -\\frac16$, giving $P: 7x+9y-10z-27=0$. Line through $A(8,-1,-19)$ with direction $(-3,4,12)$: $B = (8-3k, -1+4k, -19+12k)$; on $P$: $237-105k = 27 \\Rightarrow k=2$, $B = (2,7,5)$. $AB = \\sqrt{36+64+576} = 26$.",
               "marks": 4,
               "negativeMarks": -1
             }
@@ -776,7 +776,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "2 avg 1 4 KE 2 RT mv = = π \\implies 2 H Ar KE 1 KE =",
+              "explanation": "Average kinetic energy per molecule is $\\frac32 k_BT$, which depends only on temperature. Both gases are at the same temperature, so $K_{\\text{argon}}/K_{\\text{hydrogen}} = 1$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -807,45 +807,45 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "V = 12 volt R = 6 \\ $\\Omega$ t = 1 ms d dI L dt dt φ = 3 2 20 10 L - = × L = 10 mH",
+              "explanation": "Initial current $I = \\frac{12}{6} = 2\\text{ A}$, falling to zero in $1\\text{ ms}$. $\\varepsilon = L\\frac{\\Delta I}{\\Delta t} \\Rightarrow 20 = L\\cdot\\frac{2}{10^{-3}} \\Rightarrow L = 10\\text{ mH}$.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "phys_q3",
               "type": "single_correct",
-              "questionText": "Two identical particles each of mass ‘m’ go round a circle of radius a under the action of their mutual gravitational attraction. The angular speed of each particle will be :",
+              "questionText": "Two identical particles each of mass $m$ go round a circle of radius $a$ under the action of their mutual gravitational attraction. The angular speed of each particle will be :",
               "hasImage": false,
               "options": [
                 {
                   "id": "1",
-                  "text": "3 Gm a",
+                  "text": "$\\sqrt{\\dfrac{Gm}{a^3}}$",
                   "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "3 8 Gm a",
+                  "text": "$\\sqrt{\\dfrac{Gm}{8a^3}}$",
                   "isCorrect": false
                 },
                 {
                   "id": "3",
-                  "text": "3 4 Gm a",
+                  "text": "$\\sqrt{\\dfrac{Gm}{4a^3}}$",
                   "isCorrect": true
                 },
                 {
                   "id": "4",
-                  "text": "3 2 Gm a",
+                  "text": "$\\sqrt{\\dfrac{Gm}{2a^3}}$",
                   "isCorrect": false
                 }
               ],
-              "explanation": "2 2 4 Gmm m a a ω = 3 4 Gm a ω =",
+              "explanation": "The particles are diametrically opposite, separation $2a$. $\\frac{Gm^2}{(2a)^2} = m\\omega^2a \\Rightarrow \\omega = \\sqrt{\\dfrac{Gm}{4a^3}}$.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "phys_q4",
               "type": "single_correct",
-              "questionText": "The position vector of a particle related to time t is given by ( ) 2 ˆ ˆ ˆ 10 15 7 m = + + \\rhor t i t j k The direction of net force experienced by the particle is :",
+              "questionText": "The position vector of a particle related to time t is given by $\\vec{r} = (10t\\,\\hat{i} + 15t^2\\,\\hat{j} + 7\\,\\hat{k})$ m. The direction of net force experienced by the particle is :",
               "hasImage": false,
               "options": [
                 {
@@ -869,7 +869,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "ˆ 30 F j = $\\rho$",
+              "explanation": "$\\vec{a} = \\dfrac{d^2\\vec{r}}{dt^2} = 30\\,\\hat{j}$ m/s², so $\\vec{F} = m\\vec{a} = 30m\\,\\hat{j}$: the net force is along the positive y-axis.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -881,33 +881,33 @@
               "options": [
                 {
                   "id": "1",
-                  "text": "1 8",
+                  "text": "$\\frac{1}{8}$",
                   "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "1 4",
+                  "text": "$\\frac{1}{4}$",
                   "isCorrect": false
                 },
                 {
                   "id": "3",
-                  "text": "7 8",
+                  "text": "$\\frac{7}{8}$",
                   "isCorrect": true
                 },
                 {
                   "id": "4",
-                  "text": "3 4",
+                  "text": "$\\frac{3}{4}$",
                   "isCorrect": false
                 }
               ],
-              "explanation": "1/2 / 02 t T N N - = \\implies 0 8 N N = \\implies Decayed amount 0 7 8 N =",
+              "explanation": "$15\\text{ years} = 3$ half-lives, so $N = N_0\\left(\\frac12\\right)^3 = \\frac{N_0}{8}$. Fraction decayed $= 1-\\frac18 = \\frac78$.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "phys_q6",
               "type": "single_correct",
-              "questionText": "Match List-I with List II of Electromagnetic waves with corresponding wavelength range: List I List II (A) Microwave (I) 400 nm to 1 nm (B) Ultraviolet (II) 1 nm to 10-3 nm (C) X-Ray (III) 1 mm to 700 nm (D) Infra-red (IV) 0.1 m to 1 mm Choose the correct answer from the options given below:",
+              "questionText": "Match List-I with List-II of electromagnetic waves with corresponding wavelength range. List-I: (A) Microwave, (B) Ultraviolet, (C) X-Ray, (D) Infra-red. List-II: (I) 400 nm to 1 nm, (II) 1 nm to $10^{-3}$ nm, (III) 1 mm to 700 nm, (IV) 0.1 m to 1 mm. Choose the correct answer from the options given below:",
               "hasImage": false,
               "options": [
                 {
@@ -931,7 +931,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "λX < λUV < λIR < λMW",
+              "explanation": "Microwave: 0.1 m to 1 mm (IV); Ultraviolet: 400 nm to 1 nm (I); X-rays: 1 nm to $10^{-3}$ nm (II); Infra-red: 1 mm to 700 nm (III). (Order: $\\lambda_{X} < \\lambda_{UV} < \\lambda_{IR} < \\lambda_{MW}$.)",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -962,45 +962,45 @@
                   "isCorrect": true
                 }
               ],
-              "explanation": "2 l F L r y σ = = π 2 2 2 4 l F l l L r y ′ ′ ′ σ = = \\implies = π",
+              "explanation": "$\\Delta l = \\frac{FL}{\\pi r^2Y}$. For the second wire: $\\Delta l' = \\frac{(2F)(2L)}{\\pi(2r)^2Y} = \\frac{FL}{\\pi r^2Y} = l$.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "phys_q8",
               "type": "single_correct",
-              "questionText": "The de Broglie wavelength of an electron having kinetic energy E is λ . If the kinetic energy of electron becomes 4 E , then its de-Broglie wavelength will be:",
+              "questionText": "The de Broglie wavelength of an electron having kinetic energy $E$ is $\\lambda$. If the kinetic energy of electron becomes $\\frac{E}{4}$, then its de-Broglie wavelength will be:",
               "hasImage": false,
               "options": [
                 {
                   "id": "1",
-                  "text": "2λ",
+                  "text": "$\\sqrt{2}\\lambda$",
                   "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "2 λ",
+                  "text": "$\\frac{\\lambda}{2}$",
                   "isCorrect": false
                 },
                 {
                   "id": "3",
-                  "text": "2 λ",
+                  "text": "$\\frac{\\lambda}{\\sqrt{2}}$",
                   "isCorrect": false
                 },
                 {
                   "id": "4",
-                  "text": "2λ",
+                  "text": "$2\\lambda$",
                   "isCorrect": true
                 }
               ],
-              "explanation": "2 h mKE λ =",
+              "explanation": "$\\lambda = \\frac{h}{\\sqrt{2mE}} \\propto \\frac{1}{\\sqrt{E}}$. When $E \\to \\frac{E}{4}$, $\\lambda' = \\lambda\\sqrt{4} = 2\\lambda$.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "phys_q9",
               "type": "single_correct",
-              "questionText": "For designing a voltmeter of range 50 V and an ammeter of range 10 mA using a galvanometer which has a coil of resistance 54 \\ $\\Omega$ showing a full scale deflection for 1 mA as in figure. (A) for voltmeter R ≈ 50 k\\ $\\Omega$ (B) for ammeter r ≈ 0.2 \\ $\\Omega$ (C) for ammeter r ≈ 6 \\ $\\Omega$ (D) for voltmeter R ≈ 5 k\\ $\\Omega$ (E) for voltmeter R ≈ 500 \\ $\\Omega$ Choose the correct answer from the options given below:",
+              "questionText": "For designing a voltmeter of range 50 V and an ammeter of range 10 mA using a galvanometer which has a coil of resistance $54\\ \\Omega$ showing a full scale deflection for 1 mA as in figure. (A) for voltmeter $R \\approx 50\\text{ k}\\Omega$ (B) for ammeter $r \\approx 0.2\\ \\Omega$ (C) for ammeter $r \\approx 6\\ \\Omega$ (D) for voltmeter $R \\approx 5\\text{ k}\\Omega$ (E) for voltmeter $R \\approx 500\\ \\Omega$. Choose the correct answer from the options given below:",
               "hasImage": true,
               "options": [
                 {
@@ -1024,7 +1024,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "50 = (RG + R)10-3 5000 = 54 + R R ≈ 50 k\\ $\\Omega$ 10-3 × 54 = r × 9 × 10-3 r = 6 \\ $\\Omega$",
+              "explanation": "Voltmeter: $50 = 10^{-3}(54+R) \\Rightarrow R = 49946\\ \\Omega \\approx 50\\text{ k}\\Omega$. Ammeter: $10^{-3}\\times 54 = r\\times(10-1)\\times10^{-3} \\Rightarrow r = 6\\ \\Omega$. So (A) and (C).",
               "marks": 4,
               "negativeMarks": -1,
               "imageName": "img/phys_q9.png"
@@ -1056,7 +1056,7 @@
                   "isCorrect": true
                 }
               ],
-              "explanation": "3 max 2 180 6400 10 R = × × × 3 2 245 6400 10 + × × × = 6 × 80 × 102 + 7 × 80 × 102 = 104 km",
+              "explanation": "$d_{\\max} = \\sqrt{2Rh_T}+\\sqrt{2Rh_R} = \\sqrt{2\\times6.4\\times10^6\\times180}+\\sqrt{2\\times6.4\\times10^6\\times245} = 48\\text{ km}+56\\text{ km} = 104\\text{ km}$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -1087,7 +1087,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "2 300 J 2 W × = = 300 J",
+              "explanation": "Work done in a cycle = area enclosed. Triangle CDE: $\\frac12\\times(4-2)\\times(400-100) = 300\\text{ J}$; the cycle C$\\to$D$\\to$E$\\to$C is clockwise on the P–V diagram, so $W = +300\\text{ J}$.",
               "marks": 4,
               "negativeMarks": -1,
               "imageName": "img/phys_q11.png"
@@ -1131,7 +1131,7 @@
               "options": [
                 {
                   "id": "1",
-                  "text": "1 3",
+                  "text": "$\\frac{1}{\\sqrt{3}}$",
                   "isCorrect": false
                 },
                 {
@@ -1157,31 +1157,31 @@
             {
               "id": "phys_q14",
               "type": "single_correct",
-              "questionText": "The position of a particle related to time is given by x = (5t2 - 4t + 5) m. The magnitude of velocity of the particle at t = 2 s will be :",
+              "questionText": "The position of a particle related to time is given by $x = (5t^2 - 4t + 5)$ m. The magnitude of velocity of the particle at $t = 2$ s will be :",
               "hasImage": false,
               "options": [
                 {
                   "id": "1",
-                  "text": "06 ms-1",
+                  "text": "$06\\ \\text{m s}^{-1}$",
                   "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "14 ms-1",
+                  "text": "$14\\ \\text{m s}^{-1}$",
                   "isCorrect": false
                 },
                 {
                   "id": "3",
-                  "text": "10 ms-1",
+                  "text": "$10\\ \\text{m s}^{-1}$",
                   "isCorrect": false
                 },
                 {
                   "id": "4",
-                  "text": "16 ms-1",
+                  "text": "$16\\ \\text{m s}^{-1}$",
                   "isCorrect": true
                 }
               ],
-              "explanation": "x = 5t2 - 4t + 5 \\implies v = 10t - 4 \\implies v = 16 m/s",
+              "explanation": "$v = \\frac{dx}{dt} = 10t-4$. At $t = 2$ s, $v = 16\\ \\text{m s}^{-1}$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -1193,26 +1193,26 @@
               "options": [
                 {
                   "id": "1",
-                  "text": "r",
+                  "text": "$r$",
                   "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "2 1 r",
+                  "text": "$\\frac{1}{r^2}$",
                   "isCorrect": false
                 },
                 {
                   "id": "3",
-                  "text": "3 1 r",
+                  "text": "$\\frac{1}{r^3}$",
                   "isCorrect": true
                 },
                 {
                   "id": "4",
-                  "text": "1 r",
+                  "text": "$\\frac{1}{r}$",
                   "isCorrect": false
                 }
               ],
-              "explanation": "3 2kp E r =",
+              "explanation": "On the equatorial line of a short dipole, $E = \\frac{kp}{r^3}$, so $E \\propto \\frac{1}{r^3}$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -1243,38 +1243,38 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "F = -kx a = -ω2x Velocity is maximum at mean position.",
+              "explanation": "In SHM $F = -kx$ and $a = -\\omega^2x$: force $\\propto$ displacement (A) and acceleration opposite to displacement (B). Velocity is maximum at the mean position (C). Acceleration is maximum (not minimum) at the extreme points, so (D) is false.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "phys_q17",
               "type": "single_correct",
-              "questionText": "The speed of a wave produced in water is given by ν = λagbρc. Where λ, g and ρ are wavelength of wave, acceleration due to gravity and density of water respectively. The values of a, b and c respectively, are",
+              "questionText": "The speed of a wave produced in water is given by $v = \\lambda^a g^b \\rho^c$, where $\\lambda$, $g$ and $\\rho$ are wavelength of wave, acceleration due to gravity and density of water respectively. The values of $a$, $b$ and $c$ respectively, are",
               "hasImage": false,
               "options": [
                 {
                   "id": "1",
-                  "text": "1, -1, 0",
+                  "text": "$1, -1, 0$",
                   "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "1 2 , 0, 1 2",
+                  "text": "$\\frac{1}{2}, 0, \\frac{1}{2}$",
                   "isCorrect": false
                 },
                 {
                   "id": "3",
-                  "text": "1, 1, 0",
+                  "text": "$1, 1, 0$",
                   "isCorrect": false
                 },
                 {
                   "id": "4",
-                  "text": "1 2 , 1 2 , 0",
+                  "text": "$\\frac{1}{2}, \\frac{1}{2}, 0$",
                   "isCorrect": true
                 }
               ],
-              "explanation": "[ν] = [λagbρc] \\implies [LT-1] = [L]a[LT-2]b[ML-3]c",
+              "explanation": "$[LT^{-1}] = [L]^a[LT^{-2}]^b[ML^{-3}]^c$. M: $c = 0$; T: $-2b = -1 \\Rightarrow b = \\frac12$; L: $a+b-3c = 1 \\Rightarrow a = \\frac12$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -1286,26 +1286,26 @@
               "options": [
                 {
                   "id": "1",
-                  "text": "2gR",
+                  "text": "$\\sqrt{2gR}$",
                   "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "gR",
+                  "text": "$\\sqrt{gR}$",
                   "isCorrect": true
                 },
                 {
                   "id": "3",
-                  "text": "4gR",
+                  "text": "$\\sqrt{4gR}$",
                   "isCorrect": false
                 },
                 {
                   "id": "4",
-                  "text": "2 gR",
+                  "text": "$\\sqrt{\\dfrac{gR}{2}}$",
                   "isCorrect": false
                 }
               ],
-              "explanation": "2 1 2 2 GMm GMm mv R R - = - + 2 1 2 2 GMm mv R \\implies = GM v gR R = =",
+              "explanation": "Energy conservation: $-\\frac{GMm}{2R} = -\\frac{GMm}{R} + \\frac12mv^2 \\Rightarrow v^2 = \\frac{GM}{R} = gR \\Rightarrow v = \\sqrt{gR}$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -1336,7 +1336,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "Rseries > R1 or R2 as Rseries = R1 + R2 ρ = ρ0 (1 + α∆T)",
+              "explanation": "Statement I is false: $R_{\\text{series}} = R_1+R_2+\\dots$ is larger than the largest resistance. Statement II is false: $\\rho = \\rho_0(1+\\alpha\\Delta T)$ depends on temperature.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -1367,7 +1367,7 @@
                   "isCorrect": true
                 }
               ],
-              "explanation": "eq 20 = 3 R \\implies \\ $\\Omega$ 30 A 1.5 A 20 I = = SECTION - B This section contains 10 questions. In Section B, attempt any five questions out of 10. The answer to each question is a NUMERICAL VALUE. For each question, enter the correct numerical value (in decimal notation, truncated/rounded-off to the second decimal place; e.g., 06.25, 07.00, -00.33, -00.30, 30.27, -27.30) using the mouse and the on-screen virtual numeric keypad in the place designated to enter the answer.",
+              "explanation": "With the battery's polarity, $D_3$ and $D_1$ are forward biased and $D_2$ is reverse biased. The circuit becomes $10\\ \\Omega$ (via $D_3$) in parallel with $(10+10)\\ \\Omega$ (via the right resistor and $D_1$): $R_{eq} = \\frac{10\\times20}{30} = \\frac{20}{3}\\ \\Omega$. $I = \\frac{10}{20/3} = 1.5\\text{ A}$.",
               "marks": 4,
               "negativeMarks": -1,
               "imageName": "img/phys_q20.png"
@@ -1381,10 +1381,10 @@
             {
               "id": "phys_q21",
               "type": "numerical",
-              "questionText": "The fundamental frequency of vibration of a string between two rigid support is 50 Hz. The mass of the string is 18 g and its linear mass density is 20 g/m. The speed of the transverse waves so produced in the string is _______ ms-1.",
+              "questionText": "The fundamental frequency of vibration of a string between two rigid support is 50 Hz. The mass of the string is 18 g and its linear mass density is 20 g/m. The speed of the transverse waves so produced in the string is _______ $\\text{m s}^{-1}$.",
               "hasImage": false,
               "answer": 90,
-              "explanation": "50 2 v l = 100 18 100 20 v l × = × = = 90 m/s",
+              "explanation": "Length $l = \\frac{18}{20} = 0.9$ m. Fundamental: $f = \\frac{v}{2l} \\Rightarrow v = 2\\times0.9\\times50 = 90\\ \\text{m s}^{-1}$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -1394,37 +1394,37 @@
               "questionText": "A block of mass 10 kg is moving along x-axis under the action of force F = 5x N. The work done by the force in moving the block from x = 2 m to 4 m will be _______ J.",
               "hasImage": false,
               "answer": 30,
-              "explanation": "F = 5x ( ) 2 2 5 5 12 2 2 f i W x x = - = × = 30 J",
+              "explanation": "$W = \\int_2^4 5x\\,dx = \\frac52(4^2-2^2) = 30\\text{ J}$.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "phys_q23",
               "type": "numerical",
-              "questionText": "A solid sphere and a solid cylinder of same mass and radius are rolling on a horizontal surface without slipping. The ratio of their radius of gyrations respectively (ksph : kcyl) is 2 : x . The value of x is _______.",
+              "questionText": "A solid sphere and a solid cylinder of same mass and radius are rolling on a horizontal surface without slipping. The ratio of their radius of gyrations respectively $(k_{\\text{sph}} : k_{\\text{cyl}})$ is $2 : \\sqrt{x}$. The value of $x$ is _______.",
               "hasImage": false,
               "answer": 5,
-              "explanation": "Considering rotational axis as the diametrical axis for sphere and axis of cylinder. Then 2 2 1 2 5 K R = and 2 2 2 1 2 K R = ∴ 1 2 2 / 5 4 1/ 2 5 K K = = \\implies 1 2 2 5 K K = ∴ x = 5",
+              "explanation": "$k_{\\text{sph}}^2 = \\frac25R^2$, $k_{\\text{cyl}}^2 = \\frac12R^2$. $\\frac{k_{\\text{sph}}}{k_{\\text{cyl}}} = \\sqrt{\\frac{2/5}{1/2}} = \\frac{2}{\\sqrt5}$, so $x = 5$.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "phys_q24",
               "type": "numerical",
-              "questionText": "An electron in a hydrogen atom revolves around its nucleus with a speed of 6.76 × 106 ms-1 in an orbit of radius 0.52 Å. The magnetic field produced at the nucleus of the hydrogen atom is _______ T.",
+              "questionText": "An electron in a hydrogen atom revolves around its nucleus with a speed of $6.76 \\times 10^6\\ \\text{m s}^{-1}$ in an orbit of radius $0.52$ Å. The magnetic field produced at the nucleus of the hydrogen atom is _______ T.",
               "hasImage": false,
               "answer": 40,
-              "explanation": "0 0 2 2 2 I e B r r $\\mu\\mu$ × ω = = π× × = 7 6 19 20 10 1.6 6.76 10 10 0.52 0.52 10 - - × × × × × × - = 40",
+              "explanation": "$I = \\frac{ev}{2\\pi r}$, $B = \\frac{\\mu_0I}{2r} = \\frac{\\mu_0ev}{4\\pi r^2} = \\frac{10^{-7}\\times1.6\\times10^{-19}\\times6.76\\times10^6}{(0.52\\times10^{-10})^2} = 40\\text{ T}$.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "phys_q25",
               "type": "numerical",
-              "questionText": "There is an air bubble of radius 1.0 mm in a liquid of surface tension 0.075 Nm-1 and density 1000 kg m-3 at a depth of 10 cm below the free surface. The amount by which the pressure inside the bubble is greater than the atmospheric pressure is _______ Pa (g = 10 ms-2)",
+              "questionText": "There is an air bubble of radius 1.0 mm in a liquid of surface tension $0.075\\ \\text{N m}^{-1}$ and density $1000\\ \\text{kg m}^{-3}$ at a depth of 10 cm below the free surface. The amount by which the pressure inside the bubble is greater than the atmospheric pressure is _______ Pa ($g = 10\\ \\text{m s}^{-2}$)",
               "hasImage": false,
               "answer": 1150,
-              "explanation": "2T P gh r ∆ = ρ + 3 2 0.075 1000 10- × = + = 1000 + 150 = 1150",
+              "explanation": "$\\Delta P = \\rho gh + \\frac{2T}{r} = 1000\\times10\\times0.1 + \\frac{2\\times0.075}{10^{-3}} = 1000+150 = 1150\\text{ Pa}$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -1434,7 +1434,7 @@
               "questionText": "In the given figure the total charge stored in the combination of capacitors is $100\\ \\mu\\text{C}$. The value of '$x$' is _______.",
               "hasImage": true,
               "answer": 5,
-              "explanation": "10(2 + x + 3) = 100 \\implies x = 5",
+              "explanation": "The three capacitors are in parallel across 10 V: $Q = (2+x+3)\\times10\\ \\mu\\text{C} = 100\\ \\mu\\text{C} \\Rightarrow x = 5$.",
               "marks": 4,
               "negativeMarks": -1,
               "imageName": "img/phys_q26.png"
@@ -1442,20 +1442,20 @@
             {
               "id": "phys_q27",
               "type": "numerical",
-              "questionText": "A $20\\text{ cm}$ long metallic rod is rotated with $210\\text{ rpm}$ about an axis normal to the rod passing through its one end. The other end of the rod is in contact with a circular metallic ring. A constant and uniform magnetic field of $0.5\\text{ T}$ parallel to the axis exists everywhere. The emf developed between the centre and the ring is _______ $\\text{mV}$. (Take $\\pi = \\frac{22}{7}$)",
+              "questionText": "A $20\\text{ cm}$ long metallic rod is rotated with $210\\text{ rpm}$ about an axis normal to the rod passing through its one end. The other end of the rod is in contact with a circular metallic ring. A constant and uniform magnetic field of $0.2\\text{ T}$ parallel to the axis exists everywhere. The emf developed between the centre and the ring is _______ $\\text{mV}$. (Take $\\pi = \\frac{22}{7}$)",
               "hasImage": false,
               "answer": 88,
-              "explanation": "2 2 B l ω ε = 2 210 2 (0.2) 0.2 60 2 × π = × × 0.2 210 22 0.04 7 60 × × × = × = 88 mV",
+              "explanation": "$\\omega = \\frac{2\\pi\\times210}{60} = 22\\text{ rad s}^{-1}$. $\\varepsilon = \\frac12B\\omega l^2 = \\frac12\\times0.2\\times22\\times(0.2)^2 = 0.088\\text{ V} = 88\\text{ mV}$.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "phys_q28",
               "type": "numerical",
-              "questionText": "As per given figure A, B and C are the first, second and third excited energy levels of hydrogen atom respectively. If the ratio of the two wavelengths 1 2 . . i e ( ) λ ( ) λ ( ) is 7 4n , then the value of n will be",
+              "questionText": "As per given figure A, B and C are the first, second and third excited energy levels of hydrogen atom respectively. If the ratio of the two wavelengths (i.e. $\\frac{\\lambda_1}{\\lambda_2}$) is $\\frac{7}{4n}$, then the value of $n$ will be",
               "hasImage": true,
               "answer": 5,
-              "explanation": "1 2 1 1 7 9 16 16 5 1 1 4 4 9 ( ) - ( ) λ ( ) = = λ ( ) - ( ) ( ) \\implies 1 2 7 20 λ = λ",
+              "explanation": "A, B, C correspond to $n = 2, 3, 4$. $\\frac{1}{\\lambda_1} \\propto \\frac14-\\frac19 = \\frac{5}{36}$, $\\frac{1}{\\lambda_2} \\propto \\frac19-\\frac1{16} = \\frac{7}{144}$. $\\frac{\\lambda_1}{\\lambda_2} = \\frac{7/144}{5/36} = \\frac{7}{20} = \\frac{7}{4n} \\Rightarrow n = 5$.",
               "marks": 4,
               "negativeMarks": -1,
               "imageName": "img/phys_q28.png"
@@ -1476,7 +1476,7 @@
               "questionText": "A network of four resistances is connected to 9 V battery, as shown in figure. The magnitude of voltage difference between the points A and B is __________ V.",
               "hasImage": true,
               "answer": 3,
-              "explanation": "IA = IB = 1.5 A VA - VB = 4 × 1.5 - 2 × 1.5 = 3 This section contains 20 multiple choice questions. Each question has 4 choices (1), (2), (3) and (4), out of which ONLY ONE is correct. Choose the correct answer:",
+              "explanation": "Each branch has $2+4 = 6\\ \\Omega$, so each carries $\\frac{9}{6} = 1.5$ A. From the common left node, the drop to A is $2\\times1.5 = 3$ V and to B is $4\\times1.5 = 6$ V, so $|V_A - V_B| = 3$ V.",
               "marks": 4,
               "negativeMarks": -1,
               "imageName": "img/phys_q30.png"
@@ -1496,31 +1496,31 @@
             {
               "id": "chem_q1",
               "type": "single_correct",
-              "questionText": "The product formed in the following multistep reaction is: 2 6 2 2 3 (i) B H (ii) H O , NaOH 3 2 (iii) PCC (iv) CH MgBr CH CH CH - = ⎯⎯⎯⎯⎯\\longrightarrow",
+              "questionText": "The product formed in the following multistep reaction is: $\\text{CH}_3-\\text{CH}=\\text{CH}_2 \\xrightarrow{\\text{(i) B}_2\\text{H}_6;\\ \\text{(ii) H}_2\\text{O}_2,\\ \\text{NaOH};\\ \\text{(iii) PCC};\\ \\text{(iv) CH}_3\\text{MgBr}}$ ?",
               "hasImage": false,
               "options": [
                 {
                   "id": "1",
-                  "text": "|| 3 2 3 O CH CH C OCH - - -",
+                  "text": "$\\text{CH}_3-\\text{CH}_2-\\overset{\\text{O}}{\\overset{\\|}{\\text{C}}}-\\text{OCH}_3$",
                   "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "3 | 3 3 | OH CH C CH CH - -",
+                  "text": "$\\text{CH}_3-\\underset{\\text{CH}_3}{\\underset{|}{\\overset{\\text{OH}}{\\overset{|}{\\text{C}}}}}-\\text{CH}_3$",
                   "isCorrect": false
                 },
                 {
                   "id": "3",
-                  "text": "| 3 2 3 OH CH CH CH CH - - -",
+                  "text": "$\\text{CH}_3-\\text{CH}_2-\\overset{\\text{OH}}{\\overset{|}{\\text{CH}}}-\\text{CH}_3$",
                   "isCorrect": true
                 },
                 {
                   "id": "4",
-                  "text": "3 2 2 2 CH CH CH CH OH - - - -",
+                  "text": "$\\text{CH}_3-\\text{CH}_2-\\text{CH}_2-\\text{CH}_2-\\text{OH}$",
                   "isCorrect": false
                 }
               ],
-              "explanation": "Detailed step-by-step solution provided.",
+              "explanation": "Hydroboration–oxidation gives anti-Markovnikov alcohol $\\text{CH}_3\\text{CH}_2\\text{CH}_2\\text{OH}$; PCC oxidises it to propanal $\\text{CH}_3\\text{CH}_2\\text{CHO}$; $\\text{CH}_3\\text{MgBr}$ followed by hydrolysis gives butan-2-ol, $\\text{CH}_3\\text{CH}_2\\text{CH(OH)CH}_3$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -1532,33 +1532,33 @@
               "options": [
                 {
                   "id": "1",
-                  "text": "Cl CH3 O CH3 O",
+                  "text": "Chlorobenzene carrying two acetyl ($-\\text{COCH}_3$) groups (diacetylated product)",
                   "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "Cl COCH 3 COCH3",
+                  "text": "Chlorobenzene carrying two $-\\text{COCH}_3$ groups (another diacetylated product)",
                   "isCorrect": false
                 },
                 {
                   "id": "3",
-                  "text": "Cl CH3 O",
+                  "text": "2-Chloroacetophenone ($o\\text{-ClC}_6\\text{H}_4\\text{COCH}_3$)",
                   "isCorrect": false
                 },
                 {
                   "id": "4",
-                  "text": "Cl O CH3",
+                  "text": "4-Chloroacetophenone ($p\\text{-ClC}_6\\text{H}_4\\text{COCH}_3$)",
                   "isCorrect": true
                 }
               ],
-              "explanation": "Detailed step-by-step solution provided.",
+              "explanation": "$-\\text{Cl}$ is an ortho/para director; in Friedel–Crafts acylation ($\\text{CH}_3\\text{COCl}/\\text{AlCl}_3$) the bulky acyl group goes mainly para (steric hindrance at ortho), and the deactivating $-\\text{COCH}_3$ prevents a second acylation. Major product: 4-chloroacetophenone.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "chem_q3",
               "type": "single_correct",
-              "questionText": "Which of the following statement(s) is/are correct? (A) The pH of 1 × 10-8 M HCl solution is 8. (B) The conjugate base of 2 4 H PO- is 2 4 HPO -. (C) Kw increases with increase in temperature. (D) When a solution of a weak monoprotic acid is titrated against a strong base at half neutralisation point, a 1 pH pK 2 = . Choose the correct answer from the options given below:",
+              "questionText": "Which of the following statement(s) is/are correct? (A) The pH of $1 \\times 10^{-8}$ M HCl solution is 8. (B) The conjugate base of $\\text{H}_2\\text{PO}_4^-$ is $\\text{HPO}_4^{2-}$. (C) $K_w$ increases with increase in temperature. (D) When a solution of a weak monoprotic acid is titrated against a strong base at half neutralisation point, $\\text{pH} = \\frac{1}{2}\\text{p}K_a$. Choose the correct answer from the options given below:",
               "hasImage": false,
               "options": [
                 {
@@ -1582,7 +1582,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "2 2 4 4 acid Conjugate base H PO HPo H - - + + Kw increase with increase in temperature as dissociation of water increases with increase in temperature. When weak monoprotic acid is titrated against strong base, at half neutralization point, the solution becomes acidic buffer and its pH is given by a [Salt] pH pK log[Acid] = + a pH pK 0 \\implies = + as [salt] = [acid]",
+              "explanation": "(A) False: an acid solution cannot have pH 8; counting water's $\\text{H}^+$, pH $\\approx 6.98$. (B) True: $\\text{H}_2\\text{PO}_4^- \\rightleftharpoons \\text{HPO}_4^{2-} + \\text{H}^+$. (C) True: water's dissociation is endothermic, so $K_w$ rises with temperature. (D) False: at half neutralisation $[\\text{salt}] = [\\text{acid}]$, so $\\text{pH} = \\text{p}K_a + \\log 1 = \\text{p}K_a$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -1620,7 +1620,7 @@
             {
               "id": "chem_q5",
               "type": "single_correct",
-              "questionText": "The number of P - O - P bonds in H4P2O7, (HPO3)3 and P4O10 are respectively",
+              "questionText": "The number of $\\text{P}-\\text{O}-\\text{P}$ bonds in $\\text{H}_4\\text{P}_2\\text{O}_7$, $(\\text{HPO}_3)_3$ and $\\text{P}_4\\text{O}_{10}$ are respectively",
               "hasImage": false,
               "options": [
                 {
@@ -1644,7 +1644,7 @@
                   "isCorrect": true
                 }
               ],
-              "explanation": "H4P2O7: (HPO3)3 P4O10",
+              "explanation": "Pyrophosphoric acid $\\text{H}_4\\text{P}_2\\text{O}_7$ has one P–O–P bridge; cyclic trimetaphosphoric acid $(\\text{HPO}_3)_3$ has three; $\\text{P}_4\\text{O}_{10}$ has six bridging oxygens (one along each edge of the $\\text{P}_4$ tetrahedron). Answer: 1, 3, 6.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -1682,31 +1682,31 @@
             {
               "id": "chem_q7",
               "type": "single_correct",
-              "questionText": "The complex with highest magnitude of crystal field splitting energy ($\\Delta$ 0) is",
+              "questionText": "The complex with highest magnitude of crystal field splitting energy ($\\Delta_0$) is",
               "hasImage": false,
               "options": [
                 {
                   "id": "1",
-                  "text": "[Ti(OH2)6]3+",
+                  "text": "$[\\text{Ti}(\\text{OH}_2)_6]^{3+}$",
                   "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "[Cr(OH2)6]3+",
+                  "text": "$[\\text{Cr}(\\text{OH}_2)_6]^{3+}$",
                   "isCorrect": true
                 },
                 {
                   "id": "3",
-                  "text": "[Mn(OH2)6]3+",
+                  "text": "$[\\text{Mn}(\\text{OH}_2)_6]^{3+}$",
                   "isCorrect": false
                 },
                 {
                   "id": "4",
-                  "text": "[Fe(OH2)6]3+",
+                  "text": "$[\\text{Fe}(\\text{OH}_2)_6]^{3+}$",
                   "isCorrect": false
                 }
               ],
-              "explanation": "Complex CFSE [Ti(OH2)6]3+ -0.4 $\\Delta$ 0 [Cr(H2O)6]3+ -1.2 $\\Delta$ 0 [Mn(H2O)6]3+ -0.6 $\\Delta$ 0 [Fe(H2O)6]3+ 0",
+              "explanation": "All are $\\text{M}^{3+}$ aqua (weak-field, high-spin) complexes. CFSE: $\\text{Ti}^{3+}$ ($d^1$, $t_{2g}^1$) $= -0.4\\Delta_0$; $\\text{Cr}^{3+}$ ($d^3$, $t_{2g}^3$) $= -1.2\\Delta_0$; $\\text{Mn}^{3+}$ ($d^4$, $t_{2g}^3e_g^1$) $= -0.6\\Delta_0$; $\\text{Fe}^{3+}$ ($d^5$, $t_{2g}^3e_g^2$) $= 0$. The highest magnitude is for $[\\text{Cr}(\\text{OH}_2)_6]^{3+}$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -1737,7 +1737,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "2 2 syn gas C H O CO H + \\longrightarrow + CO + H2O \\longrightarrow CO2 + H2O Water gas shift reaction",
+              "explanation": "Water-gas: $\\text{C} + \\text{H}_2\\text{O} \\to \\text{CO} + \\text{H}_2$. Water-gas shift reaction: $\\text{CO} + \\text{H}_2\\text{O} \\xrightarrow{\\text{catalyst}} \\text{CO}_2 + \\text{H}_2$, i.e. CO is oxidised to $\\text{CO}_2$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -1775,7 +1775,7 @@
             {
               "id": "chem_q10",
               "type": "single_correct",
-              "questionText": "‘A’ formed in the above reaction is (1) (2) (3) (4)",
+              "questionText": "‘A’ formed in the above reaction is",
               "hasImage": true,
               "options": [
                 {
@@ -1799,7 +1799,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "Detailed step-by-step solution provided.",
+              "explanation": "The central C=O of indane-1,2,3-trione is flanked by two electron-withdrawing carbonyls, so it is highly electrophilic and adds water to give a stable gem-diol: ninhydrin (2,2-dihydroxyindane-1,3-dione), option (1). The hydrate is stabilised by the adjacent C=O groups and intramolecular H-bonding.",
               "marks": 4,
               "negativeMarks": -1,
               "imageName": "img/chem_q10.png"
@@ -1807,7 +1807,7 @@
             {
               "id": "chem_q11",
               "type": "single_correct",
-              "questionText": "Consider the following sequence of reactions The product ‘B’ is (1) (2) (3) (4)",
+              "questionText": "Consider the following sequence of reactions (see figure). The product ‘B’ is",
               "hasImage": true,
               "options": [
                 {
@@ -1831,7 +1831,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "Detailed step-by-step solution provided.",
+              "explanation": "Aniline with $\\text{NaNO}_2$/HCl at 0–5 °C gives benzenediazonium chloride (A). A couples with N,N-dimethylaniline at the para position to give the azo dye $p$-(dimethylamino)azobenzene, $\\text{C}_6\\text{H}_5-\\text{N}=\\text{N}-\\text{C}_6\\text{H}_4-\\text{N(CH}_3)_2$ (butter yellow), option (3).",
               "marks": 4,
               "negativeMarks": -1,
               "imageName": "img/chem_q11.png"
@@ -1870,31 +1870,31 @@
             {
               "id": "chem_q13",
               "type": "single_correct",
-              "questionText": "NO2 CH3 COOH Cl Br In the above conversion the correct sequence of reagents to be added is",
+              "questionText": "In the conversion shown (4-nitrotoluene $\\to$ 2-bromo-4-chlorobenzoic acid), the correct sequence of reagents to be added is",
               "hasImage": true,
               "options": [
                 {
                   "id": "1",
-                  "text": "(i) KMnO4, (ii) Br2/Fe, (iii) Fe/H+, (iv) Cl2",
+                  "text": "(i) $\\text{KMnO}_4$, (ii) $\\text{Br}_2/\\text{Fe}$, (iii) $\\text{Fe/H}^+$, (iv) $\\text{Cl}_2$",
                   "isCorrect": false
                 },
                 {
                   "id": "2",
-                  "text": "(i) Br2/Fe, (ii) Fe/H+, (iii) KMnO4, (iv) Cl2",
+                  "text": "(i) $\\text{Br}_2/\\text{Fe}$, (ii) $\\text{Fe/H}^+$, (iii) $\\text{KMnO}_4$, (iv) $\\text{Cl}_2$",
                   "isCorrect": false
                 },
                 {
                   "id": "3",
-                  "text": "(i) Fe/H+, (ii) HONO, (iii) CuCl, (iv) KMnO4, (v) Br2",
+                  "text": "(i) $\\text{Fe/H}^+$, (ii) HONO, (iii) CuCl, (iv) $\\text{KMnO}_4$, (v) $\\text{Br}_2$",
                   "isCorrect": false
                 },
                 {
                   "id": "4",
-                  "text": "(i) Br2/Fe, (ii) Fe/H+, (iii) HONO, (iv) CuCl (v) KMnO4",
+                  "text": "(i) $\\text{Br}_2/\\text{Fe}$, (ii) $\\text{Fe/H}^+$, (iii) HONO, (iv) CuCl, (v) $\\text{KMnO}_4$",
                   "isCorrect": true
                 }
               ],
-              "explanation": "Detailed step-by-step solution provided.",
+              "explanation": "$\\text{Br}_2/\\text{Fe}$ brominates ortho to $-\\text{CH}_3$ (also meta to $-\\text{NO}_2$); $\\text{Fe/H}^+$ reduces $-\\text{NO}_2$ to $-\\text{NH}_2$; HONO forms the diazonium salt, which CuCl (Sandmeyer) converts to $-\\text{Cl}$; finally $\\text{KMnO}_4$ oxidises $-\\text{CH}_3$ to $-\\text{COOH}$, giving 2-bromo-4-chlorobenzoic acid.",
               "marks": 4,
               "negativeMarks": -1,
               "imageName": "img/chem_q13.png"
@@ -1926,14 +1926,14 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "2 2 2PbS 3O 2PbO 2SO $\\Delta$ + \\longrightarrow + The above reaction is an example of roasting",
+              "explanation": "$2\\text{PbS} + 3\\text{O}_2 \\xrightarrow{\\Delta} 2\\text{PbO} + 2\\text{SO}_2$ is roasting (heating a sulphide ore in excess air). The other three are calcination (heating in limited/no air to remove $\\text{CO}_2$ or water).",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "chem_q15",
               "type": "single_correct",
-              "questionText": "Consider the following statement (A) NF3 molecules has a trigonal planar structure. (B) Bond Length of N2 is shorter than O2. (C) Isoelectronic molecules or ions have identical bond order. (D) Dipole moment of H2S is higher than that of water molecule. Choose the correct answer from the options given below:",
+              "questionText": "Consider the following statements: (A) $\\text{NF}_3$ molecule has a trigonal planar structure. (B) Bond length of $\\text{N}_2$ is shorter than $\\text{O}_2$. (C) Isoelectronic molecules or ions have identical bond order. (D) Dipole moment of $\\text{H}_2\\text{S}$ is higher than that of water molecule. Choose the correct answer from the options given below:",
               "hasImage": false,
               "options": [
                 {
@@ -1957,14 +1957,14 @@
                   "isCorrect": true
                 }
               ],
-              "explanation": "NF3 is pyramidal B.O of N2 = 3, B.O of O2 = 4 Hence bond length of N2 is shorter than O2 Isoelectronic species have identical bond order Dipole moment of H2O is more than that of H2S due to higher electronegativity of O.",
+              "explanation": "(A) False: $\\text{NF}_3$ is pyramidal. (B) True: bond order of $\\text{N}_2$ is 3 and of $\\text{O}_2$ is 2, so $\\text{N}_2$ has the shorter bond. (C) True: isoelectronic species have the same MO configuration, hence the same bond order. (D) False: $\\text{H}_2\\text{O}$ has the larger dipole moment (O is more electronegative).",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "chem_q16",
               "type": "single_correct",
-              "questionText": "Given below are two statements: One is labelled as Assertion A and the other is labelled as Reason R: Assertion (A) : BeCl2 and MgCl2 produce characteristic flame Reason (R) : The excitation energy is high in BeCl2 and MgCl2 In the light of the above statements, choose the correct answer from the options given below:",
+              "questionText": "Given below are two statements: One is labelled as Assertion A and the other is labelled as Reason R. Assertion (A): $\\text{BeCl}_2$ and $\\text{MgCl}_2$ produce characteristic flame. Reason (R): The excitation energy is high in $\\text{BeCl}_2$ and $\\text{MgCl}_2$. In the light of the above statements, choose the correct answer from the options given below:",
               "hasImage": false,
               "options": [
                 {
@@ -1988,7 +1988,7 @@
                   "isCorrect": true
                 }
               ],
-              "explanation": "BeCl2 and MgCl2 do not produce characteristic flame because excitation energy is high in BeCl2 and MgCl2. Hence, the correct answer is option (4).",
+              "explanation": "Be and Mg atoms are small and their electrons are strongly bound, so the excitation energy is too high for flame energy; hence $\\text{BeCl}_2$ and $\\text{MgCl}_2$ do not impart a characteristic flame colour. (A) is false, (R) is true.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -2019,7 +2019,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "CsCl has body centered type structure in which Cs+ occupies at corner of a cube and Cl- occupies the centre of the cube. - Cs Cl 2r 2r 3a + + = (where a is the edge length of the cube) Cs Cl 3 r r a 2 + - + =",
+              "explanation": "In CsCl (bcc-type), $\\text{Cl}^-$ ions are at the corners and $\\text{Cs}^+$ at the body centre (or vice versa); they touch along the body diagonal: $2r_{\\text{Cs}^+} + 2r_{\\text{Cl}^-} = \\sqrt3a \\Rightarrow r_{\\text{Cs}^+} + r_{\\text{Cl}^-} = \\frac{\\sqrt3a}{2}$.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -2057,7 +2057,7 @@
             {
               "id": "chem_q19",
               "type": "single_correct",
-              "questionText": "Match List I with List II: List I (Monomer) List II (Polymer) (A) Tetrafluoroethene (I) Orlon (B) Acrylonitrile (II) Natural rubber (C) Caprolactam (III) Teflon (D) Isoprene (IV) Nylon-6 Choose the correct answer from the options given below:",
+              "questionText": "Match List I with List II. List I (Monomer): (A) Tetrafluoroethene, (B) Acrylonitrile, (C) Caprolactam, (D) Isoprene. List II (Polymer): (I) Orlon, (II) Natural rubber, (III) Teflon, (IV) Nylon-6. Choose the correct answer from the options given below:",
               "hasImage": false,
               "options": [
                 {
@@ -2081,14 +2081,14 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "(Monomer) (Polymer) (A) Tetrafluoroethene (I) Teflon (B) Acrylonitrile (II) Orlon (C) Caprolactam (III) Nylon-6 (D) Isoprene (IV) Natural rubber",
+              "explanation": "Tetrafluoroethene $\\to$ Teflon (III); Acrylonitrile $\\to$ Orlon (I); Caprolactam $\\to$ Nylon-6 (IV); Isoprene $\\to$ Natural rubber (II). So (A)-(III), (B)-(I), (C)-(IV), (D)-(II).",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "chem_q20",
               "type": "single_correct",
-              "questionText": "Decreasing order of reactivity towards electrophilic substitution for the following compounds is: CH3 CF3 OCH3 NMe2 ( ) a (b) (c) (d) (e)",
+              "questionText": "Decreasing order of reactivity towards electrophilic substitution for the following compounds is: (a) toluene ($\\text{C}_6\\text{H}_5\\text{CH}_3$), (b) benzene, (c) benzotrifluoride ($\\text{C}_6\\text{H}_5\\text{CF}_3$), (d) anisole ($\\text{C}_6\\text{H}_5\\text{OCH}_3$), (e) N,N-dimethylaniline ($\\text{C}_6\\text{H}_5\\text{NMe}_2$)",
               "hasImage": false,
               "options": [
                 {
@@ -2112,7 +2112,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "Reactivity of aromatic compounds towards electrophilic substitution depends on the electron density on benzene ring. Higher the electron density on benzene ring, more be the reactivity towards electrophilic substitution reaction. Hence, the correct decreasing order is SECTION - B This section contains 10 questions. In Section B, attempt any five questions out of 10. The answer to each question is a NUMERICAL VALUE. For each question, enter the correct numerical value (in decimal notation, truncated/rounded-off to the second decimal place; e.g., 06.25, 07.00, -00.33, -00.30, 30.27, -27.30) using the mouse and the on-screen virtual numeric keypad in the place designated to enter the answer.",
+              "explanation": "Reactivity increases with electron density on the ring. $-\\text{NMe}_2$ (strong +R) > $-\\text{OCH}_3$ (+R) > $-\\text{CH}_3$ (+I, hyperconjugation) > H > $-\\text{CF}_3$ (strong −I). Order: e > d > a > b > c.",
               "marks": 4,
               "negativeMarks": -1
             }
@@ -2128,47 +2128,47 @@
               "questionText": "In Chromyl chloride, the oxidation state of chromium is (+) ___________.",
               "hasImage": false,
               "answer": 6,
-              "explanation": "Chromyl chloride is Hence the O.S. of Cr is +6",
+              "explanation": "Chromyl chloride is $\\text{CrO}_2\\text{Cl}_2$: $x + 2(-2) + 2(-1) = 0 \\Rightarrow x = +6$.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "chem_q22",
               "type": "numerical",
-              "questionText": "The vapour pressure of 30% (w/v) aqueous solution of glucose is ________ mm Hg at 25^\\circC. [Given: The density of 30% (w/v), aqueous solution of glucose is 1.2 g cm-3 and vapour pressure of pure water is 24 mm Hg.] (Molar mass of glucose is 180 g mol-1)",
+              "questionText": "The vapour pressure of 30% (w/v) aqueous solution of glucose is ________ mm Hg at 25°C. [Given: The density of 30% (w/v) aqueous solution of glucose is $1.2\\text{ g cm}^{-3}$ and vapour pressure of pure water is 24 mm Hg.] (Molar mass of glucose is $180\\text{ g mol}^{-1}$)",
               "hasImage": false,
               "answer": 23,
-              "explanation": "Wt. of solution = 100 × 1.2 = 120 gm Wt. of water = 120 - 30 = 90 gm Now using formula 0 P P moles of glucose P moles of water - = 30 24 P 3 180 90 P 90 18 - = = 24 × 90 - P × 90 = 3 P \\implies P = 23.22",
+              "explanation": "100 mL solution has mass 120 g, containing 30 g glucose ($\\frac{1}{6}$ mol) and 90 g water (5 mol). $\\frac{P^0-P}{P} = \\frac{n_{\\text{glucose}}}{n_{\\text{water}}} = \\frac{1/6}{5} = \\frac{1}{30} \\Rightarrow P = \\frac{30}{31}\\times24 = 23.2 \\approx 23$ mm Hg.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "chem_q23",
               "type": "numerical",
-              "questionText": "The volume (in mL) of 0.1 M AgNO3 required for complete precipitation of chloride ions present in 20 mL of 0.01 M solution of [Cr(H2O)5Cl]Cl2 as silver chloride is_______",
+              "questionText": "The volume (in mL) of 0.1 M $\\text{AgNO}_3$ required for complete precipitation of chloride ions present in 20 mL of 0.01 M solution of $[\\text{Cr}(\\text{H}_2\\text{O})_5\\text{Cl}]\\text{Cl}_2$ as silver chloride is_______",
               "hasImage": false,
               "answer": 4,
-              "explanation": "2 5 2 2 5 (Cr(H O) Cl) Cl (Cr(H O) Cl) 2Cl- \\longrightarrow + Molarity of Cl- ions = 0.01 × 2 = 0.02 M $\\therefore$ Millimoles of Cl- ions in the given solution = 20 × 0.02 $\\therefore$ Millimoles of AgNO3 required = 20 × 0.2 V × 0.1 = 20 × 0.02 V = 4 mL",
+              "explanation": "$[\\text{Cr}(\\text{H}_2\\text{O})_5\\text{Cl}]\\text{Cl}_2 \\to [\\text{Cr}(\\text{H}_2\\text{O})_5\\text{Cl}]^{2+} + 2\\text{Cl}^-$, so only 2 ionisable $\\text{Cl}^-$. mmol $\\text{Cl}^- = 20\\times0.01\\times2 = 0.4$. $V\\times0.1 = 0.4 \\Rightarrow V = 4$ mL.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "chem_q24",
               "type": "numerical",
-              "questionText": "For a reversible reaction A B , the $\\Delta$ Hforward reaction = 20 kJ mol-1. The activation energy of the uncatalyzed forward reaction is 300 kJ mol-1. When the reaction is catalysed keeping the reactant concentration same, the rate of the catalysed forward reaction at 27^\\circC is found to be same as that of the uncatalyzed reaction at 327^\\circC. The activation energy of the catalysed backward reaction is _______ kJ mol-1.",
+              "questionText": "For a reversible reaction $\\text{A} \\rightleftharpoons \\text{B}$, the $\\Delta H_{\\text{forward reaction}} = 20\\text{ kJ mol}^{-1}$. The activation energy of the uncatalyzed forward reaction is $300\\text{ kJ mol}^{-1}$. When the reaction is catalysed keeping the reactant concentration same, the rate of the catalysed forward reaction at 27°C is found to be same as that of the uncatalyzed reaction at 327°C. The activation energy of the catalysed backward reaction is _______ $\\text{kJ mol}^{-1}$.",
               "hasImage": false,
               "answer": 130,
-              "explanation": "As per the question 3 300 10 Ea 600 R 300 R Ae Ae $\\times$ - - $\\times\\times$ = \\implies 3 10 Ea 2 300 = \\implies Ea = 150 × 103 J mol-1 \\implies Ea = 150 kJ mol-1 $\\therefore$ Activation energy of catalysed backward reaction = Ea - $\\Delta$ H = 150 - 20 = 130 kJ mol-1",
+              "explanation": "Equal rates: $\\frac{E_a^{c}}{R(300)} = \\frac{300}{R(600)} \\Rightarrow E_a^{c} = 150\\text{ kJ mol}^{-1}$ (catalysed forward). Backward: $E_{a,b} = E_{a,f} - \\Delta H = 150-20 = 130\\text{ kJ mol}^{-1}$.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "chem_q25",
               "type": "numerical",
-              "questionText": "The homoleptic and octahedral complex of Co2+ and H2O has ______ unpaired electron(s) in the t2g set of orbitals.",
+              "questionText": "The homoleptic and octahedral complex of $\\text{Co}^{2+}$ and $\\text{H}_2\\text{O}$ has ______ unpaired electron(s) in the $t_{2g}$ set of orbitals.",
               "hasImage": false,
               "answer": 1,
-              "explanation": "2 7 5 2 2 6 2g g [Co(H O) ] d (H.S.) t e + = =",
+              "explanation": "$[\\text{Co}(\\text{H}_2\\text{O})_6]^{2+}$: $\\text{Co}^{2+}$ is $d^7$; $\\text{H}_2\\text{O}$ is weak field, so high spin $t_{2g}^5e_g^2$. The $t_{2g}$ set has 1 unpaired electron.",
               "marks": 4,
               "negativeMarks": -1
             },
@@ -2178,47 +2178,47 @@
               "questionText": "The number of correct statements from the following is ___________ (A) Conductivity always decreases with decrease in concentration for both strong and weak electrolytes. (B) The number of ions per unit volume that carry current in a solution increases on dilution. (C) Molar conductivity increases with decrease in concentration. (D) The variation in molar conductivity is different for strong and weak electrolytes. (E) For weak electrolytes, the change in molar conductivity with dilution is due to decrease in degree of dissociation.",
               "hasImage": false,
               "answer": 3,
-              "explanation": "Except (B) and (E), all statements are correct.",
+              "explanation": "(A) True: conductivity (per unit volume) decreases on dilution. (B) False: ions per unit volume decrease on dilution. (C) True. (D) True: strong electrolytes show a small linear rise, weak electrolytes a steep rise. (E) False: for weak electrolytes the increase in $\\Lambda_m$ on dilution is due to an increase in degree of dissociation. Correct: (A), (C), (D) = 3.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "chem_q27",
               "type": "numerical",
-              "questionText": "The total change in the oxidation state of manganese involved in the reaction of KMnO4 and potassium iodide in the acidic medium is ________.",
+              "questionText": "The total change in the oxidation state of manganese involved in the reaction of $\\text{KMnO}_4$ and potassium iodide in the acidic medium is ________.",
               "hasImage": false,
               "answer": 5,
-              "explanation": "2 4 2 2 KMnO KI H Mn I H O + + + + \\longrightarrow + + Hence the change in O.S. of Mn is (5).",
+              "explanation": "$2\\text{MnO}_4^- + 10\\text{I}^- + 16\\text{H}^+ \\to 2\\text{Mn}^{2+} + 5\\text{I}_2 + 8\\text{H}_2\\text{O}$. Mn changes from +7 to +2, a change of 5.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "chem_q28",
               "type": "numerical",
-              "questionText": "The total number of isoelectronic species from the given set is ________. O2-, F-, Al, Mg2+, Na+, O+, Mg, Al3+, F",
+              "questionText": "The total number of isoelectronic species from the given set is ________. $\\text{O}^{2-}$, $\\text{F}^-$, Al, $\\text{Mg}^{2+}$, $\\text{Na}^+$, $\\text{O}^+$, Mg, $\\text{Al}^{3+}$, F",
               "hasImage": false,
               "answer": 5,
-              "explanation": "Species No. of electrons O-2 10 F- 10 Al 13 Mg2+ 10 Na+ 10 O+ 7 Mg 12 Al3+ 10 F 9 Hence five species among the given are isoelectronic species.",
+              "explanation": "Electrons: $\\text{O}^{2-}$ 10, $\\text{F}^-$ 10, Al 13, $\\text{Mg}^{2+}$ 10, $\\text{Na}^+$ 10, $\\text{O}^+$ 7, Mg 12, $\\text{Al}^{3+}$ 10, F 9. Five species ($\\text{O}^{2-}, \\text{F}^-, \\text{Mg}^{2+}, \\text{Na}^+, \\text{Al}^{3+}$) have 10 electrons.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "chem_q29",
               "type": "numerical",
-              "questionText": "20 mL of 0.5 M NaCl is required to coagulate 200 mL of As2S3 solution in 2 hours. The coagulating value of NaCl is ___________.",
+              "questionText": "20 mL of 0.5 M NaCl is required to coagulate 200 mL of $\\text{As}_2\\text{S}_3$ solution in 2 hours. The coagulating value of NaCl is ___________.",
               "hasImage": false,
               "answer": 50,
-              "explanation": "Coagulating value = 20 0.5 1000 50 200 $\\times\\times$ =",
+              "explanation": "Coagulating value = millimoles of electrolyte per litre of sol $= \\frac{20\\times0.5}{200}\\times1000 = 50$.",
               "marks": 4,
               "negativeMarks": -1
             },
             {
               "id": "chem_q30",
               "type": "numerical",
-              "questionText": "30.4 kJ of heat is required to melt one mole of sodium chloride and the entropy change at the melting point is 28.4 J K-1 mol-1 at 1 atm. The melting point of sodium chloride is _______ K (Nearest Integer)",
+              "questionText": "30.4 kJ of heat is required to melt one mole of sodium chloride and the entropy change at the melting point is $28.4\\text{ J K}^{-1}\\text{ mol}^{-1}$ at 1 atm. The melting point of sodium chloride is _______ K (Nearest Integer)",
               "hasImage": false,
               "answer": 1070,
-              "explanation": "Melting point = fus H S $\\Delta\\Delta$ 3 30.4 10 1070 K 28.4 $\\times$ = = ❑ ❑ ❑",
+              "explanation": "At the melting point $\\Delta G = 0$, so $T_m = \\frac{\\Delta H_{\\text{fus}}}{\\Delta S_{\\text{fus}}} = \\frac{30.4\\times10^3}{28.4} = 1070.4 \\approx 1070\\text{ K}$.",
               "marks": 4,
               "negativeMarks": -1
             }

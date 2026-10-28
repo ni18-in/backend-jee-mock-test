@@ -70,7 +70,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "$Y = \\frac{4FL}{\\pi d^2 l}$. The fractional error is $\\frac{\\Delta Y}{Y} = 2\\frac{\\Delta d}{d} + \\frac{\\Delta l}{l} = 2\\left(\\frac{0.01}{0.4}\\right) + \\frac{0.05}{0.8} = \\frac{9}{40}$. So $\\Delta Y = \\frac{9}{40} \\times 2 \\times 10^{11} = 0.2 \\times 10^{11}$ N/m$^2$.",
+              "explanation": "$Y=\\frac{4MgL}{\\pi d^2l}=\\frac{4\\times 9.8\\times 2}{\\pi\\times(0.4\\times 10^{-3})^2\\times 0.8\\times 10^{-3}}\\approx 2.0\\times 10^{11}$ N/m$^2$. $\\frac{\\Delta Y}{Y}=2\\frac{\\Delta d}{d}+\\frac{\\Delta l}{l}=0.05+0.0625=0.1125$, so $\\Delta Y\\approx 0.1125\\times 2.0\\times 10^{11}\\approx 0.2\\times 10^{11}$ N/m$^2$.",
               "marks": 3,
               "negativeMarks": -1
             },
@@ -768,7 +768,7 @@
                 }
               ],
               "explanation": "$2\\text{I}^- + \\text{Cl}_2 \\to \\text{I}_2 + 2\\text{Cl}^-$. $E^\\circ = -0.54 + 1.36 = 0.82$ V (positive), so the reaction is spontaneous.",
-              "marks": 3,
+              "marks": 4,
               "negativeMarks": -1
             },
             {
@@ -799,7 +799,7 @@
                 }
               ],
               "explanation": "$4\\text{Mn}^{3+} + 2\\text{H}_2\\text{O} \\to 4\\text{Mn}^{2+} + \\text{O}_2 + 4\\text{H}^+$. $E^\\circ = 1.50 + (-1.23) = 0.27$ V > 0, so the reaction is feasible. $\\text{Mn}^{3+}$ can oxidise water, making it unstable in acid solution.",
-              "marks": 3,
+              "marks": 4,
               "negativeMarks": -1
             },
             {
@@ -830,7 +830,7 @@
                 }
               ],
               "explanation": "Prussian blue is $\\text{Fe}_4[\\text{Fe}(\\text{CN})_6]_3$ — ferric ferrocyanide.",
-              "marks": 3,
+              "marks": 4,
               "negativeMarks": -1
             }
           ]
@@ -883,7 +883,7 @@
               "options": [
                 {
                   "id": "A",
-                  "text": "A-p,s; B-q; C-r,s; D-r",
+                  "text": "A-p,q,s; B-q,r; C-q,r,s; D-q,r",
                   "isCorrect": true
                 },
                 {
@@ -902,7 +902,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "$\\text{C}_6\\text{H}_5\\text{CHO}$: aldehyde gives 2,4-DNP test (p), undergoes cyanohydrin formation (s). $\\text{CH}_3\\text{C}\\equiv\\text{CH}$: terminal alkyne gives precipitate with $\\text{AgNO}_3$ (q). $\\text{CN}^-$: nucleophile (r), attacks carbonyl in cyanohydrin formation (s). $\\text{I}^-$: nucleophile (r).",
+              "explanation": "$\\text{C}_6\\text{H}_5\\text{CHO}$: 2,4-DNP precipitate (p), silver precipitate with ammoniacal $\\text{AgNO}_3$ (q), cyanohydrin formation (s). $\\text{CH}_3\\text{C}\\equiv\\text{CH}$: silver acetylide precipitate (q); acts as a nucleophile via its acetylide (r). $\\text{CN}^-$: AgCN precipitate (q), nucleophile (r), adds to C=O in cyanohydrin formation (s). $\\text{I}^-$: yellow AgI precipitate (q), nucleophile (r).",
               "marks": 6,
               "negativeMarks": 0
             },
@@ -1302,7 +1302,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "Statement-1 is true by the angle bisector theorem: $\\frac{PR}{RQ} = \\frac{OP}{OQ}$ where $O$ is the intersection of $L_1$ and $L_2$. $P = (-2, -2)$, $Q = (-1, -2)$, $OP = 2\\sqrt{2}$, $OQ = \\sqrt{5}$. Statement-2 is false — the angle bisector divides the opposite side in the ratio of adjacent sides, but does not create similar triangles in general.",
+              "explanation": "$P=(-2,-2)$ (from $y=x$) and $Q=(1,-2)$ (from $2x+y=0$). $\\vec{OP}\\cdot\\vec{OQ}=-2+4=2>0$, so $\\angle POQ$ is acute and its bisector divides $PQ$ in the ratio $OP:OQ=2\\sqrt{2}:\\sqrt{5}$. Statement-1 is true. Statement-2 is false: an angle bisector does not in general create similar triangles.",
               "marks": 3,
               "negativeMarks": -1
             },
@@ -1433,7 +1433,7 @@
                 }
               ],
               "explanation": "For $k \\leq 0$, $ke^x \\leq 0$ for all $x$, while $y = x$ is negative for $x < 0$ and positive for $x > 0$. The curves meet at exactly one point (at $x = 0$ when $k = 0$; for $k < 0$, $ke^x$ is strictly negative and decreasing, crossing $y = x$ exactly once for $x < 0$).",
-              "marks": 3,
+              "marks": 4,
               "negativeMarks": -1
             },
             {
@@ -1464,7 +1464,7 @@
                 }
               ],
               "explanation": "For $k > 0$ and exactly one root, $y = x$ must be tangent to $y = ke^x$. At the point of tangency: $ke^x = x$ and $\\frac{d}{dx}(ke^x) = 1$, so $ke^x = 1$. From these: $x = 1$ and $k = 1/e$.",
-              "marks": 3,
+              "marks": 4,
               "negativeMarks": -1
             },
             {
@@ -1495,7 +1495,7 @@
                 }
               ],
               "explanation": "$ke^x = x$ has two roots when $y = x$ is a secant to $y = ke^x$, which happens for $0 < k < 1/e$ (below the tangent value).",
-              "marks": 3,
+              "marks": 4,
               "negativeMarks": -1
             }
           ]
@@ -1532,7 +1532,7 @@
                 }
               ],
               "explanation": "$G_n = \\sqrt{A_{n-1} H_{n-1}}$. Since $A_1 H_1 = G_1^2$ (AM $\\times$ HM = GM$^2$ for the original numbers), $G_2 = \\sqrt{A_1 H_1} = G_1$. By induction, all $G_n$ are equal.",
-              "marks": 3,
+              "marks": 4,
               "negativeMarks": -1
             },
             {
@@ -1563,7 +1563,7 @@
                 }
               ],
               "explanation": "$A_2 = \\frac{A_1 + H_1}{2}$. Since $A_1 > H_1$ (AM > HM for distinct positive numbers), $A_1 - A_2 = \\frac{A_1 - H_1}{2} > 0$. The same argument applies at each step, giving a strictly decreasing sequence.",
-              "marks": 3,
+              "marks": 4,
               "negativeMarks": -1
             },
             {
@@ -1594,7 +1594,7 @@
                 }
               ],
               "explanation": "Since $G_n$ is constant and $A_n$ is decreasing, $H_n = G_n^2 / A_n$ is increasing.",
-              "marks": 3,
+              "marks": 4,
               "negativeMarks": -1
             }
           ]
@@ -1781,7 +1781,7 @@
               "options": [
                 {
                   "id": "A",
-                  "text": "A-p,r; B-q,s; C-q,s; D-p,r,s",
+                  "text": "A-p,r,s; B-q,s; C-q,s; D-p,r,s",
                   "isCorrect": true
                 },
                 {
@@ -1800,7 +1800,7 @@
                   "isCorrect": false
                 }
               ],
-              "explanation": "$f(x) = \\frac{(x-1)(x-5)}{(x-2)(x-3)}$. For $-1 < x < 1$: both factors in numerator are negative (product positive), denominator positive $\\Rightarrow f > 0$ (r), and checking values shows $0 < f < 1$ (p). For $1 < x < 2$: numerator negative, denominator positive $\\Rightarrow f < 0$ (q), hence $f < 1$ (s). For $3 < x < 5$: numerator has mixed signs giving negative product, denominator positive $\\Rightarrow f < 0$ (q), hence $f < 1$ (s). For $x > 5$: both positive, and the function approaches 1 from below, so $0 < f < 1$ (p), $f > 0$ (r), $f < 1$ (s).",
+              "explanation": "$f(x)=\\frac{(x-1)(x-5)}{(x-2)(x-3)}$ and $f(x)-1=\\frac{-(x+1)}{(x-2)(x-3)}$. For $-1<x<1$: $f>0$ and $f<1$: p, r, s. For $1<x<2$: numerator $<0$, denominator $>0$: $f<0$ (q), $f<1$ (s). For $3<x<5$: $f<0$ (q, s). For $x>5$: $0<f<1$: p, r, s.",
               "marks": 6,
               "negativeMarks": 0
             }

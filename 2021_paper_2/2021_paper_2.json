@@ -394,7 +394,7 @@
           "marks": 4,
           "negativeMarks": 0,
           "answer": 3.0,
-          "explanation": "At the null point $l = 72\\text{ cm}$, no current flows through the secondary cell $E/2$ and galvanometer branch.\nPrimary circuit consists of cell $E$ with internal resistance $r_1$, in series with the parallel combination of the upper resistor $R_0/2 = 25\\ \\Omega$ and meter bridge wire $R_0 = 50\\ \\Omega$.\nResistance of parallel combination:\n$$R_p = \\frac{50 \\times 25}{50 + 25} = \\frac{50}{3}\\ \\Omega$$\nTotal current $I = \\frac{E}{r_1 + 50/3}$.\nCurrent in the potentiometer wire branch of resistance $R_0 = 50\\ \\Omega$:\n$$I_{\\text{wire}} = I \\frac{25}{50 + 25} = \\frac{I}{3} = \\frac{E}{3(r_1 + 50/3)}$$\nPotential drop across length $l = 72\\text{ cm}$ of wire (having resistance $R_{72} = 0.72 \\times 50 = 36\\ \\Omega$):\n$$V_{72} = I_{\\text{wire}} R_{72} = \\frac{E}{3(r_1 + 50/3)} \\times 36 = \\frac{12E}{r_1 + 50/3}$$\nAt null point, this balances the emf of the secondary cell $E/2$:\n$$\\frac{12E}{r_1 + 50/3} = \\frac{E}{2} \\implies 24 = r_1 + \\frac{50}{3} \\implies r_1 = 3\\ \\Omega$$\n(Taking account of circuit topology where the tapping point balances $E/2$, $r_1 = 3\\ \\Omega$)."
+          "explanation": "In the figure, the cell $E$ (internal resistance $r_1$), the resistance $R_0/2 = 25\\ \\Omega$ and the whole bridge wire ($R_0 = 50\\ \\Omega$) are all in series. So\n$$I = \\frac{E}{r_1 + 75}$$\nThe $E/2$ branch connects the node between $r_1$ and $R_0/2$ to the jockey. The path between these two points runs through $R_0/2$ and the remaining $(100 - 72)\\text{ cm}$ of wire. Its resistance is $25 + 0.28 \\times 50 = 39\\ \\Omega$.\nAt balance:\n$$\\frac{E}{2} = 39I = \\frac{39E}{r_1 + 75} \\implies r_1 + 75 = 78 \\implies r_1 = 3\\ \\Omega$$"
         },
         {
           "id": "phy_q18",
@@ -484,7 +484,7 @@
               "isCorrect": true
             }
           ],
-          "explanation": "1. $\\text{PhCH}_3 \\xrightarrow{\\text{Br}_2, \\text{light}} P = \\text{PhCH}_2\\text{Br}$ (benzyl bromide).\n2. $P$ reacts with $Q$ to form a nitro compound which upon reduction with $\\text{H}_2, \\text{Pd/C}$ yields amine $R$. When $Q = \\text{AgNO}_2$, nucleophilic substitution of benzyl bromide gives $\\text{PhCH}_2\\text{NO}_2$ as major product, which on catalytic hydrogenation gives $R = \\text{PhCH}_2\\text{NH}_2$ (phenylmethanamine / benzylamine). Hence (C) is correct.\n3. $R$ on carbylamine reaction with $\\text{CHCl}_3/\\text{KOH}$ gives isocyanide $S = \\text{PhCH}_2\\text{NC}$ (foul smelling). Direct reaction of benzyl bromide $P$ with $V = \\text{AgCN}$ forms benzyl isocyanide $S$ through covalent ambush. Hence $V = \\text{AgCN}$.\n4. Oxidation of toluene with $\\text{KMnO}_4$ gives benzoic acid $T = \\text{PhCOOH}$. Reaction with $\\text{NH}_3$ followed by heating gives benzamide $U = \\text{PhCONH}_2$. Reduction of benzamide to phenylmethanamine $R$ requires $W = \\text{LiAlH}_4$. Hence (D) is correct.\n\nCorrect options: (C, D)."
+          "explanation": "$\\text{PhCH}_3 \\xrightarrow{\\text{Br}_2,\\ h\\nu} P = \\text{PhCH}_2\\text{Br}$.\nWith $Q = \\text{AgNO}_2$, $P$ gives mainly $\\text{PhCH}_2\\text{NO}_2$, which $\\text{H}_2/\\text{Pd-C}$ reduces to $R = \\text{PhCH}_2\\text{NH}_2$ (phenylmethanamine). $\\text{KNO}_2$ would instead give mainly the nitrite ester.\nThe carbylamine reaction of $R$ with $\\text{CHCl}_3/\\text{KOH}$ gives the foul-smelling isocyanide $S = \\text{PhCH}_2\\text{NC}$. $P$ gives the same isocyanide directly with $V = \\text{AgCN}$: the Ag$-$C bond is covalent, so the N end attacks.\n$T = \\text{PhCOOH}$, which with $\\text{NH}_3$ and heat gives $U = \\text{PhCONH}_2$. $W = \\text{LiAlH}_4$ reduces this amide to $R = \\text{PhCH}_2\\text{NH}_2$.\nCorrect options: (C, D)."
         },
         {
           "id": "chem_q3",
@@ -627,8 +627,14 @@
           "hasImage": false,
           "marks": 2,
           "negativeMarks": 0,
-          "answer": 0.88,
-          "explanation": "From Question 7, $\\alpha = \\frac{y}{4}$:\n$$y = 4\\alpha = 4 \\times \\frac{11}{51} = \\frac{44}{51} \\approx 0.8627 \\approx 0.88$$\n(Using rounded $\\alpha = 0.22$: $y = 4 \\times 0.22 = 0.88$).\n\nThus, $y = 0.88$."
+          "answer": 0.86,
+          "explanation": "From Q7, $\\alpha = \\frac{11}{51}$ and $\\alpha = \\frac{y}{4}$. Therefore\n$$y = 4\\alpha = \\frac{44}{51} \\approx 0.86$$\n(The official key accepts 0.80 to 0.90.)",
+          "acceptedAnswers": [
+            [
+              0.8,
+              0.9
+            ]
+          ]
         },
         {
           "id": "chem_q9",
@@ -1025,7 +1031,7 @@
           "marks": 2,
           "negativeMarks": 0,
           "answer": 1.5,
-          "explanation": "Let the center of circle $C$ be $(h, 0)$ and radius be $r$.\nEquation of circle: $(x - h)^2 + y^2 = r^2$.\nSince $C \\subset R$, $C$ must lie within $x \\ge 0$, which requires $h \\ge r$.\nAlso, $C$ must lie inside the parabola $y^2 \\le 4 - x$.\n\nFor $C$ to touch the parabola $y^2 = 4 - x$:\n$$(x - h)^2 + (4 - x) = r^2 \\implies x^2 + (1 - 2h)x + (h^2 + 4 - r^2) = 0$$\nFor tangency, discriminant $D = 0$:\n$$(1 - 2h)^2 - 4(h^2 + 4 - r^2) = 0$$\n$$1 - 4h + 4h^2 - 4h^2 - 16 + 4r^2 = 0 \\implies 4r^2 = 4h + 15 \\implies r^2 = h + \\frac{15}{4}$$\nThe point of tangency has $x$-coordinate:\n$$x = -\\frac{1 - 2h}{2} = h - \\frac{1}{2}$$\nSince $x \\ge 0$, we have $h \\ge 1/2$.\nAlso, the circle must not intersect $x < 0$, so at the boundary $h = r$ (touching the $y$-axis):\n$$r^2 = r + \\frac{15}{4} \\implies 4r^2 - 4r - 15 = 0 \\implies (2r - 5)(2r + 3) = 0 \\implies r = 2.5$$\nHowever, for $r = 2.5$, the circle touches $x = 0$ at the origin $(0, 0)$. But at the origin $y^2 = 0 \\le 4 - 0 = 4$.\nIn the parabola $y^2 = 4 - x$, the normal at $(\\alpha, \\beta)$ has center $(h, 0)$:\nNormal to $y^2 = 4 - x$: $2y \\frac{dy}{dx} = -1 \\implies m_{\\text{normal}} = 2y$.\nLine: $Y - \\beta = 2\\beta (X - \\alpha)$.\nAt $Y = 0$: $-\\beta = 2\\beta (h - \\alpha) \\implies h - \\alpha = -1/2 \\implies \\alpha = h + 1/2$.\nSince $C$ touches $x = 0$ at $(0, 0)$, $h = r = 1.5$, giving radius $r = 1.50$."
+          "explanation": "Let the circle have centre $(h, 0)$ and radius $r$. Substituting $y^2 = 4 - x$ into $(x - h)^2 + y^2 = r^2$ gives\n$$x^2 - (2h + 1)x + h^2 + 4 - r^2 = 0$$\nFor tangency the discriminant is zero: $(2h + 1)^2 = 4(h^2 + 4 - r^2)$. So $r^2 = \\frac{15}{4} - h$, and the point of contact is at $x = h + \\frac{1}{2}$.\nThe circle must also stay in $x \\ge 0$, so $r \\le h$. Since $r$ decreases as $h$ increases, the largest circle has $r = h$:\n$$h^2 = \\frac{15}{4} - h \\implies 4h^2 + 4h - 15 = 0 \\implies (2h - 3)(2h + 5) = 0 \\implies h = \\frac{3}{2}$$\nSo the radius is $r = 1.5$."
         },
         {
           "id": "math_q8",
@@ -1106,7 +1112,7 @@
               "isCorrect": true
             }
           ],
-          "explanation": "Progression $a_n = \\frac{1}{2^{n-1}}$.\nSum of first $n$ terms: $S_n = \\frac{1(1 - 1/2^n)}{1 - 1/2} = 2\\left(1 - \\frac{1}{2^n}\\right) = 2 - \\frac{1}{2^{n-1}}$.\nCircle $C_n$ has center $(S_{n-1}, 0)$ and radius $a_n = \\frac{1}{2^{n-1}}$.\nThe farthest point of $C_n$ from origin is on the positive $x$-axis at distance:\n$$d_n = S_{n-1} + a_n = \\left(2 - \\frac{1}{2^{n-2}}\\right) + \\frac{1}{2^{n-1}} = 2 - \\frac{1}{2^{n-1}}$$\n\nFor $C_n$ to be inside $M$ ($x^2 + y^2 \\le r^2$):\n$$2 - \\frac{1}{2^{n-1}} \\le r = \\frac{1025}{513} = 2 - \\frac{1}{513}$$\n$$\\frac{1}{2^{n-1}} \\ge \\frac{1}{513} \\implies 2^{n-1} \\le 513$$\nSince $2^9 = 512 \\le 513$ and $2^{10} = 1024 > 513$:\n$$n - 1 \\le 9 \\implies n \\le 10$$\nSo there are $k = 10$ circles: $C_1, C_2, \\ldots, C_{10}$.\n\nNotice that each circle $C_{n+1}$ touches $C_n$ internally at its rightmost point:\n$$S_n + a_{n+1} = \\left(2 - \\frac{1}{2^{n-1}}\\right) + \\frac{1}{2^n} = 2 - \\frac{1}{2^n} = S_{n-1} + a_n$$\nEvery pair of consecutive circles $C_n$ and $C_{n+1}$ touch, but non-consecutive alternate circles (e.g. $C_1, C_3, C_5, C_7, C_9$ or $C_2, C_4, C_6, C_8, C_{10}$) do not intersect!\nThus the maximum number of pairwise non-intersecting circles is $l = 5$.\n\nTesting the options with $k = 10$ and $l = 5$:\n- (A) $k + 2l = 10 + 10 = 20 \\ne 22$\n- (B) $2k + l = 20 + 5 = 25 \\ne 26$\n- (C) $2k + 3l = 20 + 15 = 35 \\ne 34$\n- (D) $3k + 2l = 3(10) + 2(5) = 30 + 10 = 40$\n\nHence, option (D) is correct."
+          "explanation": "$S_n = 2 - \\frac{1}{2^{n-1}}$. $C_n$ has centre $(S_{n-1}, 0)$ and radius $a_n$, so its farthest point from $O$ is at\n$$S_{n-1} + a_n = 2 - \\frac{1}{2^{n-1}}$$\nIt lies inside $M$ iff $2 - \\frac{1}{2^{n-1}} \\le 2 - \\frac{1}{513}$, i.e. $2^{n-1} \\le 513$, i.e. $n \\le 10$. So $k = 10$.\nThe centres of $C_n$ and $C_{n+1}$ are $a_n$ apart, which is less than $a_n + a_{n+1}$, so consecutive circles intersect.\nThe centres of $C_n$ and $C_{n+2}$ are $a_n + a_{n+1} = \\frac{3}{2}a_n$ apart, which is more than $a_n + a_{n+2} = \\frac{5}{4}a_n$, so alternate circles are disjoint.\nHence the maximum is $l = 5$ (for example $C_1, C_3, C_5, C_7, C_9$), and $3k + 2l = 30 + 10 = 40$. Option (D)."
         },
         {
           "id": "math_q14",

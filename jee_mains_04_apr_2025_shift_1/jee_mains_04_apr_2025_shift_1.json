@@ -140,7 +140,7 @@
                         {
                             "id": "math_q5",
                             "type": "single_correct",
-                            "questionText": "Let $S = \\left\\{ A = \\begin{bmatrix} a & b \\ c & d \\end{bmatrix} : a, b, c, d \\in \\{0, 1, 2, 3, 4\\} \\text{ and } A^2 - 4A + 3I = 0 \\right\\}$ be a set of $2 \\times 2$ matrices. Then the number of matrices in $S$, for which the sum of the diagonal elements is equal to $4$, is:",
+                            "questionText": "Let $S = \\left\\{ A = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix} : a, b, c, d \\in \\{0, 1, 2, 3, 4\\} \\text{ and } A^2 - 4A + 3I = 0 \\right\\}$ be a set of $2 \\times 2$ matrices. Then the number of matrices in $S$, for which the sum of the diagonal elements is equal to $4$, is:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -171,7 +171,7 @@
                         {
                             "id": "math_q6",
                             "type": "single_correct",
-                            "questionText": "Let $A = \\begin{bmatrix} 1 & 1 & 2 \\ -2 & 0 & 1 \\ 1 & 3 & 5 \\end{bmatrix}$. Then the sum of all elements of the matrix $\\text{adj}(\\text{adj}(2(\\text{adj} A)^{-1}))$ is equal to:",
+                            "questionText": "Let $A = \\begin{bmatrix} 1 & 1 & 2 \\\\ -2 & 0 & 1 \\\\ 1 & 3 & 5 \\end{bmatrix}$. Then the sum of all elements of the matrix $\\text{adj}(\\text{adj}(2(\\text{adj} A)^{-1}))$ is equal to:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1076,7 +1076,7 @@
                         {
                             "id": "phys_q13",
                             "type": "single_correct",
-                            "questionText": ".png?w=622&auto=format%2Ccompress&fmt=avif)\nTwo 4 bits binary numbers, $A = 1101$ and $B = 1010$ are given in the inputs of a logic circuit shown in figure below. The output $(Y)$ will be:",
+                            "questionText": "Two 4 bits binary numbers, $A = 1101$ and $B = 1010$ are given in the inputs of a logic circuit shown in figure below (A passes through a NOT gate and, together with B, feeds a NAND gate). The output $(Y)$ will be:",
                             "hasImage": true,
                             "options": [
                                 {
@@ -1100,7 +1100,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Based on the circuit schematic, the top input $A$ enters directly, and the bottom input $B$ goes through a NOT gate (denoted by a bubble) before entering the OR gate.\nThe logic equation is $Y = A \\lor \\bar{B}$.\nGiven inputs are:\n$A = 1101$\n$B = 1010 \\implies \\bar{B} = 0101$\nBitwise OR operation: $1101 \\lor 0101 = 1101$.\nThus, the output is $Y = 1101$.",
+                            "explanation": "$Y = \\overline{\\bar{A} \\cdot B} = A + \\bar{B}$. With $A = 1101$ and $\\bar{B} = 0101$: bitwise OR gives $Y = 1101$.",
                             "marks": 4,
                             "negativeMarks": -1,
                             "imageName": "img/phys_q13.png"
@@ -1258,7 +1258,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Based on interpreting the bridge and using the solution configuration:\nThe circuit is simplified using Millman's theorem. Between an intermediate node structure (let's say C and D), we identify four parallel branches forming a source.\nUsing $V_{\\text{average}} = \\frac{\\sum E_i/R_i}{\\sum 1/R_i}$, the equivalent voltage equates to $24 \\text{ V}$ when fully simplified across the terminals referenced as A and B.\nThe Thevenin equivalent resistance across these terminals resolves to $6 \\text{ } \\Omega$.\nThe short circuit current $I_{\\text{sc}}$ between the points is given by $V_{\\text{th}} / R_{\\text{th}} = \\frac{24}{6} = 4 \\text{ A}$.\nThus, the Open circuit Voltage and short circuit Current parameters correspond to $24 \\text{ V}$ and $4 \\text{ A}$ respectively.",
+                            "explanation": "Between A and B there are four branches, each a $27\\text{ V}$ source with $3\\ \\Omega$ (the $14\\text{ V} + 13\\text{ V}$ branch is also $27\\text{ V}$), all in parallel: Thevenin equivalent $27\\text{ V}$ with $\\frac{3}{4}\\ \\Omega$. The diagonal $3 + 3 = 6\\ \\Omega$ resistor is the load across A and B: $I = \\frac{27}{6 + 0.75} = 4\\text{ A}$, $V_{AB} = 4 \\times 6 = 24\\text{ V}$.",
                             "marks": 4,
                             "negativeMarks": -1,
                             "imageName": "img/phys_q18.png"
@@ -1800,7 +1800,7 @@
                         {
                             "id": "chem_q14",
                             "type": "single_correct",
-                            "questionText": "An alkene $(X)$ on ozonolysis followed by reduction gives following products: $H-CHO$ ($2$ moles), $H-CO-CO-CHO$, $CH_3-CO-CO-CH_3$. The alkene $(X)$ is expected to be a triene that undergoes cleavage.",
+                            "questionText": "An alkene $(X)$ on ozonolysis followed by reduction gives following products: $H-CHO$ ($2$ moles), $H-CO-CO-CHO$, $CH_3-CO-CO-CH_3$. The alkene $(X)$ is:",
                             "hasImage": true,
                             "options": [
                                 {
@@ -1824,7 +1824,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "When an alkene undergoes reductive ozonolysis, the $C=C$ double bonds are cleaved and replaced with $C=O$ bonds on the fragments.\nWe are given the pieces:\n1. $H_2C=O$ ($2$ moles) - This indicates the original molecule has two terminal $=CH_2$ groups.\n2. $O=CH-C(=O)-CH=O$ (Mesoxaldehyde) - This comes from a $C3$ fragment that was double bonded at two ends: $=CH-C(=C)-CH=$ ? Actually, an internal ketone must mean the central carbon was double-bonded to another fragment. So a cross-conjugated $=CH-C(=CH_2)-CH=$ structure fits when cleaved. Wait! An $O=C$ flanked by two aldehydes comes from $=CH-C(=CH_2)-CH=$.\n3. $CH_3-C(=O)-C(=O)-CH_3$ (Biacetyl) - This comes from a tetrasubstituted piece $=C(CH_3)-C(CH_3)=$.\nCombining these pieces visually to form a highly branched or cross-conjugated chain satisfies the molecular weight and connectivity, which corresponds to the compound presented in Option 3.",
+                            "explanation": "Reductive ozonolysis converts each $C=C$ into two $C=O$ groups. The two exocyclic $=CH_2$ groups give 2 HCHO; cleaving the two ring double bonds splits the six-membered ring into two carbonyl fragments. Rejoining the fragments at their carbonyl carbons (and the exocyclic carbons to $CH_2$) reconstructs the cross-conjugated triene (option 3 per the stored key).",
                             "marks": 4,
                             "negativeMarks": -1,
                             "imageName": "img/chem_q14.png"
@@ -1863,7 +1863,7 @@
                         {
                             "id": "chem_q16",
                             "type": "single_correct",
-                            "questionText": "Amongst a given set of organic compounds containing various substituted benzenes (such as phenols, anilines, ethers), the total number of compounds soluble in aqueous $NaOH$ at room temperature is $5$.",
+                            "questionText": "Amongst the following, the total number of compounds soluble in aqueous $NaOH$ at room temperature is:",
                             "hasImage": false,
                             "options": [
                                 {
@@ -1887,7 +1887,7 @@
                                     "isCorrect": false
                                 }
                             ],
-                            "explanation": "Compounds that are soluble in aqueous $NaOH$ are those that possess significantly acidic protons to undergo an acid-base reaction forming a water-soluble salt.\nIn general, organic compounds like carboxylic acids, sulfonic acids, and phenols are sufficiently acidic to dissolve in $NaOH$.\nConversely, neutral compounds (like aliphatic alcohols or ethers) and basic compounds (like amines/anilines) remain insoluble in aqueous $NaOH$. Out of the 9 structures provided in the source image, exactly 5 represent phenols or acids capable of reacting with $NaOH$.",
+                            "explanation": "Compounds with sufficiently acidic protons (carboxylic acids, sulfonic acids, phenols) form water-soluble sodium salts in aqueous NaOH; amines (e.g. aniline), alcohols and ethers do not. Counting the acidic compounds among the given structures gives the answer.",
                             "marks": 4,
                             "negativeMarks": -1
                         },

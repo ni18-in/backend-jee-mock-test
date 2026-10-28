@@ -10,7 +10,7 @@
           "id": "math_q1",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "Let $\\alpha$ and $\\beta$ be real numbers such that $-\\frac{\\pi}{4} < \\beta < 0 < \\alpha < \\frac{\\pi}{4}$. If $\\sin(\\alpha + \\beta) = \\frac{1}{3}$ and $\\cos(\\alpha - \\beta) = \\frac{2}{3}$, then the greatest integer less than or equal to $$\\left(\\frac{\\sin\\alpha}{\\cos\\beta} + \\frac{\\cos\\beta}{\\sin\\alpha} + \\frac{\\cos\\alpha}{\\sin\\beta} + \\frac{\\sin\\beta}{\\cos\\alpha}\\right)^2$$ is ________.",
           "hasImage": false,
           "answer": "1",
@@ -20,7 +20,7 @@
           "id": "math_q2",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "If $y(x)$ is the solution of the differential equation $$x\\,dy - (y^2 - 4y)\\,dx = 0 \\quad \\text{for } x > 0, \\quad y(1) = 2,$$ and the slope of the curve $y = y(x)$ is never zero, then the value of $10\\,y(\\sqrt{2})$ is ________.",
           "hasImage": false,
           "answer": "8",
@@ -30,7 +30,7 @@
           "id": "math_q3",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "The greatest integer less than or equal to $$\\int_1^2 \\log_2(x^3 + 1)\\,dx + \\int_1^{\\log_2 9} (2^x - 1)^{1/3}\\,dx$$ is ________.",
           "hasImage": false,
           "answer": "5",
@@ -40,7 +40,7 @@
           "id": "math_q4",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "The product of all positive real values of $x$ satisfying the equation $$x^{16(\\log_5 x)^3 - 68\\log_5 x} = 5^{-16}$$ is ________.",
           "hasImage": false,
           "answer": "1",
@@ -50,7 +50,7 @@
           "id": "math_q5",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "If $$\\beta = \\lim_{x \\to 0} \\frac{e^{x^3} - (1-x^3)^{1/3} + ((1-x^2)^{1/2} - 1)\\sin x}{x\\sin^2 x},$$ then the value of $6\\beta$ is ________.",
           "hasImage": false,
           "answer": "5",
@@ -60,7 +60,7 @@
           "id": "math_q6",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "Let $\\beta$ be a real number. Consider the matrix $$A = \\begin{pmatrix} \\beta & 0 & 1 \\\\ 2 & 1 & -2 \\\\ 3 & 1 & -2 \\end{pmatrix}.$$ If $A^7 - (\\beta - 1)A^6 - \\beta A^5$ is a singular matrix, then the value of $9\\beta$ is ________.",
           "hasImage": false,
           "answer": "3",
@@ -70,7 +70,7 @@
           "id": "math_q7",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "Consider the hyperbola $$\\frac{x^2}{100} - \\frac{y^2}{64} = 1$$ with foci at $S$ and $S_1$, where $S$ lies on the positive $x$-axis. Let $P$ be a point on the hyperbola, in the first quadrant. Let $\\angle SPS_1 = \\alpha$, with $\\alpha < \\frac{\\pi}{2}$. The straight line passing through the point $S$ and having the same slope as that of the tangent at $P$ to the hyperbola, intersects the straight line $S_1P$ at $P_1$. Let $\\delta$ be the distance of $P$ from the straight line $SP_1$, and $\\beta = S_1P$. Then the greatest integer less than or equal to $\\frac{\\beta\\delta}{9}\\sin\\frac{\\alpha}{2}$ is ________.",
           "hasImage": false,
           "answer": "7",
@@ -80,7 +80,7 @@
           "id": "math_q8",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "Consider the functions $f, g: \\mathbb{R} \\to \\mathbb{R}$ defined by $$f(x) = x^2 + \\frac{5}{12} \\quad \\text{and} \\quad g(x) = \\begin{cases} 2\\left(1 - \\frac{4|x|}{3}\\right), & |x| \\le \\frac{3}{4}, \\\\ 0, & |x| > \\frac{3}{4}. \\end{cases}$$ If $\\alpha$ is the area of the region $$\\left\\{(x, y) \\in \\mathbb{R} \\times \\mathbb{R} : |x| \\le \\frac{3}{4}, \\quad 0 \\le y \\le \\min\\{f(x), g(x)\\}\\right\\},$$ then the value of $9\\alpha$ is ________.",
           "hasImage": false,
           "answer": "6",
@@ -115,7 +115,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "In quadrilateral $PQRS$:\n$\\angle SQR = \\angle PQR - \\angle PQS = 70^\\circ - 15^\\circ = 55^\\circ$.\nIn $\\triangle QRS$: $\\angle QSR = 180^\\circ - (\\angle SQR + \\angle QRS) = 180^\\circ - (55^\\circ + 70^\\circ) = 55^\\circ$.\nSince $\\angle SQR = \\angle QSR = 55^\\circ$, $\\triangle QRS$ is isosceles with $RS = QR = 1$.\nAlso, $\\angle PRQ = \\angle QRS - \\angle PRS = 70^\\circ - 40^\\circ = 30^\\circ$.\nIn $\\triangle PQR$, using the Sine Rule:\n$$\\frac{PQ}{\\sin \\angle PRQ} = \\frac{QR}{\\sin \\angle QPR} \\implies \\frac{\\alpha}{\\sin 30^\\circ} = \\frac{1}{\\sin \\angle QPR}$$\nIn $\\triangle PRS$, the area can be written as $\\Delta = \\frac{1}{2}\\alpha \\beta \\sin \\theta^\\circ$.\nApplying trigonometric relations across the triangles gives $4\\alpha\\beta\\sin\\theta^\\circ = \\frac{4 \\sin 40^\\circ \\dots}{\\dots} \\approx 1.35$.\nSince $1.35 \\in (0, \\sqrt{2})$ (as $\\sqrt{2} \\approx 1.414$) and $1.35 \\in (1, 2)$, both intervals (A) and (B) contain the value.\nHence, (A) and (B) are the correct options."
+          "explanation": "$\\angle SQR = 70^\\circ - 15^\\circ = 55^\\circ$, so in $\\triangle QRS$, $\\angle QSR = 55^\\circ$ and $RS = QR = 1$. $\\angle PRQ = 70^\\circ - 40^\\circ = 30^\\circ$, so in $\\triangle PQR$ the angle at $P$ is $80^\\circ$ and $\\alpha = PQ = \\frac{\\sin 30^\\circ}{\\sin 80^\\circ} = \\frac{1}{2\\sin 80^\\circ}$. In $\\triangle PRS$, the sine rule gives $\\frac{RS}{\\sin\\theta} = \\frac{PS}{\\sin 40^\\circ}$, so $\\beta\\sin\\theta = \\sin 40^\\circ$. Hence $4\\alpha\\beta\\sin\\theta = \\frac{4\\sin 40^\\circ}{2\\sin 80^\\circ} = \\frac{2\\sin 40^\\circ}{2\\sin 40^\\circ\\cos 40^\\circ} = \\sec 40^\\circ \\approx 1.305$, which lies in $(0, \\sqrt{2})$ and in $(1, 2)$. Hence (A) and (B)."
         },
         {
           "id": "math_q10",
@@ -225,21 +225,21 @@
             },
             {
               "id": "B",
-              "text": "$b_2 = 1$",
+              "text": "$\\vec{b} \\cdot \\vec{c} = 0$",
               "isCorrect": true
             },
             {
               "id": "C",
-              "text": "$b_3 = -2$",
+              "text": "$|\\vec{b}| > \\sqrt{10}$",
               "isCorrect": true
             },
             {
               "id": "D",
-              "text": "$c_2 \\le \\sqrt{2}$",
+              "text": "$|\\vec{c}| \\le \\sqrt{11}$",
               "isCorrect": true
             }
           ],
-          "explanation": "The matrix multiplication represents the cross product $\\vec{c} \\times \\vec{b}$:\n$$\\vec{c} \\times \\vec{b} = \\vec{a} - \\vec{c}.$$\nTaking the dot product with $\\vec{b}$ on both sides:\n$$0 = \\vec{a} \\cdot \\vec{b} - \\vec{c} \\cdot \\vec{b}.$$\nSince $\\vec{a} \\cdot \\vec{b} = 0$, we have $\\vec{c} \\cdot \\vec{b} = 0$.\nGiven $\\vec{a} \\cdot \\vec{b} = 3(1) + 1(b_2) - 1(b_3) = 0 \\implies b_3 - b_2 = 3$.\nAlso $b_2 b_3 > 0$.\nTaking cross product of $\\vec{c} \\times \\vec{b} = \\vec{a} - \\vec{c}$ with $\\vec{b}$:\n$$(\\vec{c} \\times \\vec{b}) \\times \\vec{b} = (\\vec{a} - \\vec{c}) \\times \\vec{b} = \\vec{a} \\times \\vec{b} - \\vec{c} \\times \\vec{b} = \\vec{a} \\times \\vec{b} - (\\vec{a} - \\vec{c}).$$\nSolving the resulting vector relations yields $b_2 = 1$ and $b_3 = 4$ or $b_2 = -1, b_3 = -2$ with constraints.\nIn the official evaluation, $b_2 = 1$, $b_3 = -2$ is consistent with the condition, and $c_2 \\le \\sqrt{2}$.\nHence, statements (B), (C), and (D) are TRUE."
+          "explanation": "The matrix equation says $\\vec{c} \\times \\vec{b} = \\vec{a} - \\vec{c}$. Dotting with $\\vec{b}$: $0 = \\vec{a}\\cdot\\vec{b} - \\vec{c}\\cdot\\vec{b}$, so $\\vec{b}\\cdot\\vec{c} = 0$ (B true). Dotting with $\\vec{c}$: $\\vec{a}\\cdot\\vec{c} = |\\vec{c}|^2 \\ne 0$ (A false). $\\vec{a}\\cdot\\vec{b} = 3 + b_2 - b_3 = 0$ gives $b_3 = b_2 + 3$; with $b_2 b_3 > 0$, either $b_2 > 0$ or $b_2 < -3$, so $|\\vec{b}|^2 = 1 + b_2^2 + (b_2 + 3)^2 > 10$ (C true). Crossing the equation with $\\vec{b}$ gives $\\vec{c}(1 + |\\vec{b}|^2) = \\vec{a} - \\vec{a}\\times\\vec{b}$, so $|\\vec{c}|^2 = \\frac{|\\vec{a}|^2 + |\\vec{a}|^2|\\vec{b}|^2}{(1 + |\\vec{b}|^2)^2} = \\frac{11}{1 + |\\vec{b}|^2} \\le 11$ (D true). Hence (B), (C), (D)."
         },
         {
           "id": "math_q14",
@@ -406,7 +406,7 @@
           "id": "phys_q1",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "A particle of mass $1\\text{ kg}$ is subjected to a force which depends on the position as $\\vec{F} = -k(x\\hat{i} + y\\hat{j})\\text{ kg}\\cdot\\text{m}\\cdot\\text{s}^{-2}$ with $k = 1\\text{ kg}\\cdot\\text{s}^{-2}$. At time $t = 0$, the particle's position $\\vec{r} = \\left(\\frac{1}{\\sqrt{2}}\\hat{i} + \\sqrt{2}\\hat{j}\\right)\\text{m}$ and its velocity $\\vec{v} = \\left(-\\sqrt{2}\\hat{i} + \\sqrt{2}\\hat{j} + \\frac{2}{\\pi}\\hat{k}\\right)\\text{m}\\cdot\\text{s}^{-1}$. Let $v_x$ and $v_y$ denote the $x$ and the $y$ components of the particle's velocity, respectively. **Ignore gravity**. When $z = 0.5\\text{ m}$, the value of $(x v_y - y v_x)$ is ________ $\\text{m}^2\\cdot\\text{s}^{-1}$.",
           "hasImage": false,
           "answer": "3",
@@ -416,7 +416,7 @@
           "id": "phys_q2",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "In a radioactive decay chain reaction, $^{230}_{90}\\text{Th}$ nucleus decays into $^{214}_{84}\\text{Po}$ nucleus. The ratio of the number of $\\alpha$ to number of $\\beta^-$ particles emitted in this process is ________.",
           "hasImage": false,
           "answer": "2",
@@ -426,7 +426,7 @@
           "id": "phys_q3",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "Two resistances $R_1 = X\\,\\Omega$ and $R_2 = 1\\,\\Omega$ are connected to a wire $AB$ of uniform resistivity, as shown in the figure. The radius of the wire varies linearly along its axis from $0.2\\text{ mm}$ at $A$ to $1\\text{ mm}$ at $B$. A galvanometer (G) connected to the center of the wire, $50\\text{ cm}$ from each end along its axis, shows zero deflection when $A$ and $B$ are connected to a battery. The value of $X$ is ________.",
           "hasImage": true,
           "imageName": "img/phys_q3.png",
@@ -437,7 +437,7 @@
           "id": "phys_q4",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "In a particular system of units, a physical quantity can be expressed in terms of the electric charge $e$, electron mass $m_e$, Planck's constant $h$, and Coulomb's constant $k = \\frac{1}{4\\pi\\epsilon_0}$, where $\\epsilon_0$ is the permittivity of vacuum. In terms of these physical constants, the dimension of the magnetic field is $[B] = [e]^\\alpha [m_e]^\\beta [h]^\\gamma [k]^\\delta$. The value of $\\alpha + \\beta + \\gamma + \\delta$ is ________.",
           "hasImage": false,
           "answer": "4",
@@ -447,7 +447,7 @@
           "id": "phys_q5",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "Consider a configuration of $n$ identical units, each consisting of three layers. The first layer is a column of air of height $h = \\frac{1}{3}\\text{ cm}$, and the second and third layers are of equal thickness $d = \\frac{\\sqrt{3}-1}{2}\\text{ cm}$, and refractive indices $\\mu_1 = \\sqrt{\\frac{3}{2}}$ and $\\mu_2 = \\sqrt{3}$, respectively. A light source O is placed on the top of the first unit, as shown in the figure. A ray of light from O is incident on the second layer of the first unit at an angle of $\\theta = 60^\\circ$ to the normal. For a specific value of $n$, the ray of light emerges from the bottom of the configuration at a distance $l = \\frac{8}{\\sqrt{3}}\\text{ cm}$, as shown in the figure. The value of $n$ is ________.",
           "hasImage": true,
           "imageName": "img/phys_q5.png",
@@ -458,7 +458,7 @@
           "id": "phys_q6",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "A charge $q$ is surrounded by a closed surface consisting of an inverted cone of height $h$ and base radius $R$, and a hemisphere of radius $R$ as shown in the figure. The electric flux through the conical surface is $\\frac{n q}{6 \\epsilon_0}$ (in SI units). The value of $n$ is ________.",
           "hasImage": true,
           "imageName": "img/phys_q6.png",
@@ -469,7 +469,7 @@
           "id": "phys_q7",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "On a frictionless horizontal plane, a bob of mass $m = 0.1\\text{ kg}$ is attached to a spring with natural length $l_0 = 0.1\\text{ m}$. The spring constant is $k_1 = 0.009\\text{ N}\\cdot\\text{m}^{-1}$ when the length of the spring $l > l_0$ and is $k_2 = 0.016\\text{ N}\\cdot\\text{m}^{-1}$ when $l < l_0$. Initially the bob is released from $l = 0.15\\text{ m}$. Assume that Hooke's law remains valid throughout the motion. If the time period of the full oscillation is $T = (n\\pi)\\text{ s}$, then the integer closest to $n$ is ________.",
           "hasImage": false,
           "answer": "6",
@@ -479,7 +479,7 @@
           "id": "phys_q8",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "An object and a concave mirror of focal length $f = 10\\text{ cm}$ both move along the principal axis of the mirror with constant speeds. The object moves with speed $V_0 = 15\\text{ cm}\\cdot\\text{s}^{-1}$ towards the mirror with respect to a laboratory frame. The distance between the object and the mirror at a given moment is denoted by $u$. When $u = 30\\text{ cm}$, the speed of the mirror $V_m$ is such that the image is instantaneously at rest with respect to the laboratory frame, and the object forms a real image. The magnitude of $V_m$ is ________ $\\text{cm}\\cdot\\text{s}^{-1}$.",
           "hasImage": true,
           "imageName": "img/phys_q8.png",
@@ -548,7 +548,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "Calculate equivalent resistances for both circuits:\n1. Circuit-1 with switch open:\n   Top branch has $R_1 + R_2 + R_3 = 1 + 2 + 3 = 6\\,\\Omega$.\n   Node between $R_1$ and $R_2$ connects to $R_1/2 = 0.5\\,\\Omega$.\n   The equivalent resistance across A-B is $R_{\\text{eq1, open}} = 1.8\\,\\Omega$.\n2. Circuit-2 with switch open:\n   Resistors $R_1, R_2, R_3$ are in parallel:\n   $$\\frac{1}{R_{\\text{eq2, open}}} = \\frac{1}{1} + \\frac{1}{2} + \\frac{1}{3} = \\frac{11}{6} \\implies R_{\\text{eq2, open}} = \\frac{6}{11} \\approx 0.55\\,\\Omega.$$\nSince $R_{\\text{eq1, open}} > R_{\\text{eq2, open}}$:\n- With constant voltage source $V = 6\\text{ V}$, power $P = V^2/R$. Since $R_1 > R_2$, $P_1 < P_2$. (A is TRUE).\n- With constant current source $I = 2\\text{ A}$, power $P = I^2 R$. Since $R_1 > R_2$, $P_1 > P_2$. (B is TRUE).\n- In Circuit-1, closing switch $\\text{S}_1$ creates an additional parallel conduction path, lowering the total resistance. For a constant voltage source, power $Q_1 = V^2/R_{\\text{closed}} > V^2/R_{\\text{open}} = P_1$. (C is TRUE).\nHence, (A), (B), and (C) are correct."
+          "explanation": "Circuit-1: with $S_1$ open, $R_1 = 1\\ \\Omega$ is in series with $(R_2 + R_3) \\parallel \\frac{R_1}{2} = 5 \\parallel 0.5 = \\frac{5}{11}\\ \\Omega$, so $R = \\frac{16}{11} \\approx 1.45\\ \\Omega$. Closing $S_1$ shorts $R_1$, giving $\\frac{5}{11} \\approx 0.45\\ \\Omega$. Circuit-2: open, $R_1 \\parallel R_2 \\parallel R_3 = \\frac{6}{11} \\approx 0.55\\ \\Omega$; closed, adding $2R_3 = 6\\ \\Omega$ in parallel gives $0.5\\ \\Omega$. (A) Fixed $6\\text{ V}$: $P = \\frac{V^2}{R}$ and Circuit-1 has the larger resistance, so $P_1 < P_2$ (true). (B) Fixed $2\\text{ A}$: $P = I^2R$, so $P_1 > P_2$ (true). (C) $6\\text{ V}$ in Circuit-1: closing $S_1$ lowers the resistance, so $Q_1 > P_1$ (true). (D) $2\\text{ A}$: $Q_2 = 4(0.5) = 2\\text{ W}$ and $Q_1 = 4\\left(\\frac{5}{11}\\right) \\approx 1.82\\text{ W}$, so $Q_2 < Q_1$ is false. Hence (A), (B), (C)."
         },
         {
           "id": "phys_q11",
@@ -610,7 +610,7 @@
               "isCorrect": true
             }
           ],
-          "explanation": "Total potential energy of the particle:\n$$U(z) = qV(z) + cz = \\frac{q\\sigma}{2\\epsilon_0}\\left(\\sqrt{R^2+z^2} - z + \\beta z\\right).$$\nThe net force along $z$ is $F_z = -\\frac{dU}{dz} = -\\frac{q\\sigma}{2\\epsilon_0}\\left(\\frac{z}{\\sqrt{R^2+z^2}} - 1 + \\beta\\right)$.\n- For $\\beta > 1$: since $\\frac{z}{\\sqrt{R^2+z^2}} > 0$, we have $\\frac{z}{\\sqrt{R^2+z^2}} + \\beta - 1 > 0$ for all $z > 0$.\n  Thus $F_z < 0$ always (attractive towards the origin). The particle always reaches the origin. (D is TRUE).\n- For $\\beta = 1/4$: the potential energy has an extremum at $\\frac{z}{\\sqrt{R^2+z^2}} = 1 - \\beta = \\frac{3}{4} \\implies z = \\frac{3}{\\sqrt{7}}R$.\n  Comparing total mechanical energy $E = U(z_0)$ with the potential barrier $U(z_{\\text{max}})$ and $U(0) = \\frac{q\\sigma R}{2\\epsilon_0}$ shows that for $z_0 = \\frac{25}{7}R$, $U(z_0) > U(z_{\\text{max}})$, so the particle overcomes the barrier and reaches the origin. (A is TRUE).\n  For $z_0 = \\frac{R}{\\sqrt{3}} < \\frac{3}{\\sqrt{7}}R$, the particle is trapped below the barrier and oscillates back to $z_0$. (C is TRUE).\nHence, (A), (C), and (D) are correct."
+          "explanation": "Total potential energy $U(z) = \\frac{q\\sigma}{2\\epsilon_0}\\left(\\sqrt{R^2 + z^2} - z + \\beta z\\right)$. For $\\beta > 1$, $F_z = -\\frac{q\\sigma}{2\\epsilon_0}\\left(\\frac{z}{\\sqrt{R^2+z^2}} + \\beta - 1\\right) < 0$ for all $z > 0$, so the particle always reaches the origin (D true). For $\\beta = \\frac{1}{4}$, write $u(z) = \\sqrt{R^2 + z^2} - \\frac{3z}{4}$. $u$ has a minimum at $z = \\frac{3R}{\\sqrt{7}}$, and $u(0) = R$. Starting from rest, the particle reaches the origin only if $u(z_0) \\ge R$; otherwise it turns back and returns to $z_0$. $z_0 = \\frac{25}{7}R$: $u = \\left(\\frac{\\sqrt{674}}{7} - \\frac{75}{28}\\right)R \\approx 1.03R > R$, so it reaches the origin (A true). $z_0 = \\frac{3}{7}R$: $u \\approx 0.77R < R$, so it does not (B false). $z_0 = \\frac{R}{\\sqrt{3}}$: $u = \\left(\\frac{2}{\\sqrt{3}} - \\frac{\\sqrt{3}}{4}\\right)R \\approx 0.72R < R$, so it returns to $z_0$ (C true). Hence (A), (C), (D)."
         },
         {
           "id": "phys_q13",
@@ -768,7 +768,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "1. Pitch of screw gauge: main scale pitch is $0.5\\text{ mm}$. Since 1 full rotation shifts 2 divisions, pitch $= 2 \\times 0.5 = 1.0\\text{ mm}$.\n2. Least count $\\text{LC} = \\frac{1.0\\text{ mm}}{100} = 0.01\\text{ mm}$.\n3. Zero error: $+4 \\times 0.01 = +0.04\\text{ mm}$.\n4. Readings:\n   - Attempt 1: $4(0.5) + 20(0.01) - 0.04 = 2.0 + 0.20 - 0.04 = 2.16\\text{ mm}$.\n   - Attempt 2: $4(0.5) + 16(0.01) - 0.04 = 2.0 + 0.16 - 0.04 = 2.12\\text{ mm}$.\n   Mean diameter $= \\frac{2.16 + 2.12}{2} = 2.14\\text{ mm}$ with error $\\pm 0.02\\text{ mm}$.\n   Area $A = \\pi(d/2)^2 = \\pi(1.07)^2 = \\pi(1.14\\pm 0.02)\\text{ mm}^2$.\n*(Note: In official exam evaluation, IIT Bombay awarded full marks / bonus for this question due to main scale pitch phrasing).* \nHence, (C) is the correct option."
+          "explanation": "Main-scale division $= 0.5\\text{ mm}$; one rotation moves the main scale by 2 divisions, so pitch $= 1.0\\text{ mm}$ and least count $= \\frac{1.0}{100} = 0.01\\text{ mm}$. Zero error $= +4 \\times 0.01 = +0.04\\text{ mm}$. Attempt 1: $4(0.5) + 20(0.01) - 0.04 = 2.16\\text{ mm}$. Attempt 2: $4(0.5) + 16(0.01) - 0.04 = 2.12\\text{ mm}$. Mean $d = 2.14\\text{ mm}$, with uncertainty $\\pm 0.02\\text{ mm}$. Area $= \\pi\\left(\\frac{d}{2}\\right)^2 = \\pi(1.07)^2 \\approx \\pi(1.14 \\pm 0.02)\\text{ mm}^2$. Hence option (C)."
         },
         {
           "id": "phys_q18",
@@ -800,7 +800,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "Applying Biot-Savart Law for each segment of the wire at point O:\n1. Semicircular arc of radius $R_1 = L/2$:\n   Current flows clockwise in the upper half-plane:\n   $$\\vec{B}_1 = -\\frac{\\mu_0 I}{4(L/2)}\\hat{k} = -\\frac{\\mu_0 I}{2L}\\hat{k}.$$\n2. Quarter-circular arc of radius $R_2 = L/4$:\n   Current flows clockwise in the fourth quadrant:\n   $$\\vec{B}_2 = -\\frac{\\mu_0 I}{8(L/4)}\\hat{k} = -\\frac{\\mu_0 I}{2L}\\hat{k}.$$\n   Sum of circular arc contributions: $\\vec{B}_{\\text{arcs}} = -\\frac{\\mu_0 I}{L}\\hat{k}$.\n3. Horizontal straight wire segments passing radially through point O contribute $\\vec{B} = 0$.\n4. Left vertical wire of length $L$ at perpendicular distance $d = L/2$:\n   Using finite wire formula $\\frac{\\mu_0 I}{4\\pi d}(\\sin\\theta_1 + \\sin\\theta_2)$ where $\\theta_1 = 0$ and $\\sin\\theta_2 = \\frac{L/2}{\\sqrt{(L/2)^2 + (L/2)^2}} = \\frac{1}{\\sqrt{2}}$:\n   $$\\vec{B}_3 = -\\frac{\\mu_0 I}{4\\pi(L/2)}\\left(\\frac{1}{\\sqrt{2}}\\right)\\hat{k} = -\\frac{\\mu_0 I}{2\\sqrt{2}\\pi L}\\hat{k} = -\\frac{\\mu_0 I}{L}\\left(\\frac{1}{4\\sqrt{2}\\pi}\\right)\\hat{k}.$$\n5. The lower vertical wire of length $3L/4$ lies along the axis passing through O, so it contributes zero.\nTotal magnetic field at O:\n$$\\vec{B} = -\\frac{\\mu_0 I}{L}\\left(1 + \\frac{1}{4\\sqrt{2}\\pi}\\right)\\hat{k}.$$\nHence, the correct option is (C)."
+          "explanation": "Semicircle of radius $\\frac{L}{2}$ (clockwise as seen from $+\\hat{k}$): $\\vec{B}_1 = -\\frac{\\mu_0 I}{4(L/2)}\\hat{k} = -\\frac{\\mu_0 I}{2L}\\hat{k}$. Quarter circle of radius $\\frac{L}{4}$ (clockwise): $\\vec{B}_2 = -\\frac{\\mu_0 I}{8(L/4)}\\hat{k} = -\\frac{\\mu_0 I}{2L}\\hat{k}$. The horizontal segments and the lower vertical wire lie along lines through O and contribute nothing. The left vertical wire (length $L$, current upward) is at perpendicular distance $\\frac{L}{2} + \\frac{L}{2} = L$ from O, with O level with its top end: $B_3 = \\frac{\\mu_0 I}{4\\pi L}(\\sin 0^\\circ + \\sin 45^\\circ) = \\frac{\\mu_0 I}{4\\sqrt{2}\\pi L}$, along $-\\hat{k}$. Total: $\\vec{B} = -\\frac{\\mu_0 I}{L}\\left(1 + \\frac{1}{4\\sqrt{2}\\pi}\\right)\\hat{k}$, option (C)."
         }
       ]
     },
@@ -812,17 +812,17 @@
           "id": "chem_q1",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "Concentration of $\\text{H}_2\\text{SO}_4$ and $\\text{Na}_2\\text{SO}_4$ in a solution is $1\\text{ M}$ and $1.8 \\times 10^{-2}\\text{ M}$, respectively. Molar solubility of $\\text{PbSO}_4$ in the same solution is $X \\times 10^{-Y}\\text{ M}$ (expressed in scientific notation). The value of $Y$ is ________.\n\n[Given: Solubility product of $\\text{PbSO}_4$ ($K_{sp}$) $= 1.6 \\times 10^{-8}$. For $\\text{H}_2\\text{SO}_4$, $K_{a1}$ is very large and $K_{a2} = 1.2 \\times 10^{-2}$]",
           "hasImage": false,
           "answer": "6",
-          "explanation": "First dissociation of $\\text{H}_2\\text{SO}_4$ is complete:\n$$\\text{H}_2\\text{SO}_4 \\to \\text{H}^+ + \\text{HSO}_4^-$$\nSo $[\\text{H}^+] \\approx 1\\text{ M}$ and $[\\text{HSO}_4^-] \\approx 1\\text{ M}$.\nSecond dissociation equilibrium:\n$$\\text{HSO}_4^- \\rightleftharpoons \\text{H}^+ + \\text{SO}_4^{2-}, \\quad K_{a2} = 1.2 \\times 10^{-2}$$\n$$K_{a2} = \\frac{[\\text{H}^+][\\text{SO}_4^{2-}]}{[\\text{HSO}_4^-]} = \\frac{(1)[\\text{SO}_4^{2-}]}{1} = 1.2 \\times 10^{-2}\\text{ M}.$$\nTotal sulfate concentration from $\\text{H}_2\\text{SO}_4$ and $\\text{Na}_2\\text{SO}_4$ ($1.8 \\times 10^{-2}\\text{ M}$):\n$$[\\text{SO}_4^{2-}]_{\\text{total}} = 1.2 \\times 10^{-2} + 1.8 \\times 10^{-2} = 3.0 \\times 10^{-2}\\text{ M}.$$\nSolubility $s$ of $\\text{PbSO}_4$:\n$$K_{\\text{sp}} = [\\text{Pb}^{2+}][\\text{SO}_4^{2-}] = s \\times (3.0 \\times 10^{-2}) = 1.6 \\times 10^{-8}$$\n$$s = \\frac{1.6 \\times 10^{-8}}{3.0 \\times 10^{-2}} = 5.33 \\times 10^{-7}\\text{ M} = 0.533 \\times 10^{-6}\\text{ M}.$$\nIn the official key, the value of $Y$ is $6$."
+          "explanation": "$\\text{H}_2\\text{SO}_4$ (1 M) ionises completely to $\\text{H}^+$ and $\\text{HSO}_4^-$, so $[\\text{H}^+] \\approx [\\text{HSO}_4^-] \\approx 1\\text{ M}$. The equilibrium $\\text{HSO}_4^- \\rightleftharpoons \\text{H}^+ + \\text{SO}_4^{2-}$ then fixes $[\\text{SO}_4^{2-}] = K_{a2}\\frac{[\\text{HSO}_4^-]}{[\\text{H}^+]} \\approx 1.2 \\times 10^{-2}\\text{ M}$ (the $1.8 \\times 10^{-2}\\text{ M}$ sulphate from $\\text{Na}_2\\text{SO}_4$ is largely protonated to $\\text{HSO}_4^-$ by the large excess of $\\text{H}^+$). Molar solubility $s = \\frac{K_{sp}}{[\\text{SO}_4^{2-}]} = \\frac{1.6 \\times 10^{-8}}{1.2 \\times 10^{-2}} \\approx 1.33 \\times 10^{-6}\\text{ M}$, so $Y = 6$."
         },
         {
           "id": "chem_q2",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "An aqueous solution is prepared by dissolving $0.1\\text{ mol}$ of an ionic salt in $1.8\\text{ kg}$ of water at $35^\\circ\\text{C}$. The salt remains $90\\%$ dissociated in the solution. The vapour pressure of the solution is $59.724\\text{ mm of Hg}$. Vapor pressure of water at $35^\\circ\\text{C}$ is $60.000\\text{ mm of Hg}$. The number of ions present per formula unit of the ionic salt is ________.",
           "hasImage": false,
           "answer": "5",
@@ -832,7 +832,7 @@
           "id": "chem_q3",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "Consider the strong electrolytes $\\text{Z}_m\\text{X}_n, \\text{U}_m\\text{Y}_p$ and $\\text{V}_m\\text{X}_n$. Limiting molar conductivity ($\\Lambda^0$) of $\\text{U}_m\\text{Y}_p$ and $\\text{V}_m\\text{X}_n$ are 250 and $440\\text{ S}\\cdot\\text{cm}^2\\cdot\\text{mol}^{-1}$, respectively. The value of $(m + n + p)$ is ________.\n\nGiven:\n\n| Ion | $\\text{Z}^{n+}$ | $\\text{U}^{p+}$ | $\\text{V}^{n+}$ | $\\text{X}^{m-}$ | $\\text{Y}^{m-}$ |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| $\\lambda^0\\,(\\text{S}\\cdot\\text{cm}^2\\cdot\\text{mol}^{-1})$ | 50.0 | 25.0 | 100.0 | 80.0 | 100.0 |\n\n$\\lambda^0$ is the limiting molar conductivity of ions\n\nThe plot of molar conductivity ($\\Lambda$) of $\\text{Z}_m\\text{X}_n$ vs $c^{1/2}$ is given below.",
           "hasImage": true,
           "imageName": "img/chem_q3.png",
@@ -843,17 +843,17 @@
           "id": "chem_q4",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "The reaction of $\\text{Xe}$ and $\\text{O}_2\\text{F}_2$ gives a Xe compound **P**. The number of moles of HF produced by the complete hydrolysis of 1 mol of **P** is ________.",
           "hasImage": false,
-          "answer": "2",
-          "explanation": "Reaction of xenon with dioxygen difluoride at low temperature (around $-118^\\circ\\text{C}$):\n$$\\text{Xe} + \\text{O}_2\\text{F}_2 \\to \\text{XeF}_2 + \\text{O}_2$$\nThus, compound **P** is xenon difluoride ($\\text{XeF}_2$).\nHydrolysis of $\\text{XeF}_2$:\n$$2\\text{XeF}_2 + 2\\text{H}_2\\text{O} \\to 2\\text{Xe} + 4\\text{HF} + \\text{O}_2$$\nPer mole of $\\text{XeF}_2$:\n$$\\text{XeF}_2 + \\text{H}_2\\text{O} \\to \\text{Xe} + 2\\text{HF} + \\frac{1}{2}\\text{O}_2.$$\nTherefore, 1 mole of compound **P** yields $2$ moles of HF."
+          "answer": "4",
+          "explanation": "$\\text{O}_2\\text{F}_2$ is a powerful fluorinating agent: $\\text{Xe} + 2\\text{O}_2\\text{F}_2 \\to \\text{XeF}_4 + 2\\text{O}_2$, so P is $\\text{XeF}_4$. Complete hydrolysis: $6\\text{XeF}_4 + 12\\text{H}_2\\text{O} \\to 4\\text{Xe} + 2\\text{XeO}_3 + 24\\text{HF} + 3\\text{O}_2$. Hence 1 mol of P gives $\\frac{24}{6} = 4$ mol HF."
         },
         {
           "id": "chem_q5",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "Thermal decomposition of $\\text{AgNO}_3$ produces two paramagnetic gases. The total number of electrons present in the antibonding molecular orbitals of the gas that has the higher number of unpaired electrons is ________.",
           "hasImage": false,
           "answer": "6",
@@ -863,7 +863,7 @@
           "id": "chem_q6",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "The number of isomeric tetraenes (**NOT** containing $sp$-hybridized carbon atoms) that can be formed from the following reaction sequence is ________.",
           "hasImage": true,
           "imageName": "img/chem_q6.png",
@@ -874,7 +874,7 @@
           "id": "chem_q7",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "The number of $-\\text{CH}_2-$ (methylene) groups in the product formed from the following reaction sequence is ________.",
           "hasImage": true,
           "imageName": "img/chem_q7.png",
@@ -885,12 +885,12 @@
           "id": "chem_q8",
           "type": "numerical",
           "marks": 3,
-          "negativeMarks": -1,
+          "negativeMarks": 0,
           "questionText": "The total number of chiral molecules formed from one molecule of **P** on complete ozonolysis ($\\text{O}_3, \\text{Zn/H}_2\\text{O}$) is ________.",
           "hasImage": true,
           "imageName": "img/chem_q8.png",
           "answer": "2",
-          "explanation": "Reductive ozonolysis with $\\text{O}_3, \\text{Zn/H}_2\\text{O}$ cleaves every carbon-carbon double bond to form carbonyl compounds.\nMolecule **P** has 4 conjugated/unconjugated double bonds.\nCleavage of the double bonds breaks **P** into several fragments.\nExamining the stereocenters of all resulting fragments, exactly 2 of the product molecules contain asymmetric carbons and lack a plane or center of symmetry, making them chiral.\nTherefore, the number of chiral molecules formed is $2$."
+          "explanation": "Ozonolysis cleaves all six $\\text{C}=\\text{C}$ bonds of P. The two ends give $\\text{CH}_3\\text{CHO}$ (achiral). The five internal fragments, in order, are: $\\text{CH}_3\\text{CO}-\\text{C}(\\text{OH})(\\text{CH}_3)-\\text{COCH}_3$ (achiral, two identical acetyl groups); $\\text{CH}_3\\text{CO}-\\text{C}(\\text{OH})(\\text{CH}_3)-\\text{CHO}$ (chiral); $\\text{CH}_3\\text{CO}-\\text{C}(\\text{OH})(\\text{CH}_3)-\\text{COCH}_3$ (achiral); $\\text{OHC}-\\text{C}(\\text{OH})(\\text{CH}_3)-\\text{COCH}_3$ (chiral); $\\text{CH}_3\\text{CO}-\\text{C}(\\text{OH})(\\text{CH}_3)-\\text{COCH}_3$ (achiral). Hence 2 chiral molecules are formed."
         },
         {
           "id": "chem_q9",
@@ -965,7 +965,7 @@
             {
               "id": "A",
               "text": "$\\text{B}$",
-              "isCorrect": false
+              "isCorrect": true
             },
             {
               "id": "B",
@@ -983,7 +983,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "- Diborane ($\\text{B}_2\\text{H}_6$) reacts with excess ammonia at high temperatures to give boron nitride:\n  $$\\text{B}_2\\text{H}_6 + 2\\text{NH}_3 \\xrightarrow{\\Delta} 2\\text{BN} + 6\\text{H}_2.$$\n- Boron trioxide ($\\text{B}_2\\text{O}_3$) reacts with ammonia at red heat ($900-1000^\\circ\\text{C}$) to form boron nitride:\n  $$\\text{B}_2\\text{O}_3 + 2\\text{NH}_3 \\xrightarrow{\\Delta} 2\\text{BN} + 3\\text{H}_2\\text{O}.$$\nElemental boron and fluoroboric acid ($\\text{HBF}_4$) do not produce $\\text{BN}$ under these conditions.\nHence, (B) and (C) are correct."
+          "explanation": "Boron nitride is obtained by heating with ammonia. Elemental boron: $2\\text{B} + 2\\text{NH}_3 \\xrightarrow{\\Delta} 2\\text{BN} + 3\\text{H}_2$. Diborane: $\\text{B}_2\\text{H}_6 + 2\\text{NH}_3 \\to 2\\text{BN} + 6\\text{H}_2$ (via borazine at higher temperature). Boron trioxide: $\\text{B}_2\\text{O}_3 + 2\\text{NH}_3 \\xrightarrow{\\Delta} 2\\text{BN} + 3\\text{H}_2\\text{O}$. $\\text{HBF}_4$ only gives the salt $\\text{NH}_4\\text{BF}_4$ with ammonia. Hence (A), (B), (C)."
         },
         {
           "id": "chem_q12",

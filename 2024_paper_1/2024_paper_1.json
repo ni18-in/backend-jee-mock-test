@@ -218,10 +218,10 @@
             {
               "id": "D",
               "text": "There is a square of perimeter 48, two of whose vertices are from $S$ and the other two vertices are from $T$.",
-              "isCorrect": false
+              "isCorrect": true
             }
           ],
-          "explanation": "**Detailed Analysis:**\n\n1. **Determine the Loci $S$ and $T$:**\nLet $X = (x,y,z)$.\n$$(\\text{dist}(X,P))^2 - (\\text{dist}(X,Q))^2 = [(x-1)^2 + (y-2)^2 + (z-3)^2] - [(x-4)^2 + (y-2)^2 + (z-7)^2]$$\n$$= (x^2 - 2x + 1) - (x^2 - 8x + 16) + (z^2 - 6z + 9) - (z^2 - 14z + 49)$$\n$$= 6x - 15 + 8z - 40 = 6x + 8z - 55$$\n- For $S$: $6x + 8z - 55 = 50 \\implies 6x + 8z = 105$. This is a plane $\\Pi_1$.\n- For $T$: $-(6x + 8z - 55) = 50 \\implies 6x + 8z = 5$. This is a parallel plane $\\Pi_2$.\n\n2. **Distance Between the Planes:**\nThe planes $\\Pi_1: 6x + 8z = 105$ and $\\Pi_2: 6x + 8z = 5$ have the same normal vector $(6, 0, 8)$.\n$$d = \\frac{|105 - 5|}{\\sqrt{6^2 + 0^2 + 8^2}} = \\frac{100}{10} = 10$$\n\n3. **Evaluate the Statements:**\n- **(A):** Since $S$ is a 2D plane, any three non-collinear points in $S$ form a triangle. Points can be chosen to give any desired positive area, including 1. **(A is TRUE)**\n- **(B):** Since $T$ is a plane (a convex set), the entire line segment connecting any two points in $T$ lies in $T$. **(B is TRUE)**\n- **(C):** Consider a rectangle with two vertices $A, B \\in S$ and two vertices $C, D \\in T$. The opposite sides $AB$ and $CD$ are parallel line segments of length $L$ lying in the parallel planes $S$ and $T$, and the sides $BC$ and $AD$ connect the planes with length $W \\ge d = 10$. Perimeter $2(L + W) = 48 \\implies L + W = 24$. Since $W \\ge 10$, choosing any $W \\in [10, 24)$ gives a valid side length $L = 24 - W > 0$. Translating and rotating the rectangle provides infinitely many such rectangles. **(C is TRUE)**\n- **(D):** In the official JEE Advanced 2024 key, Statement (D) is not included among the correct options. **(D is FALSE)**\n\nCorrect statements are **(A), (B), and (C)**."
+          "explanation": "For $X=(x,y,z)$: $|XP|^2-|XQ|^2 = 6x+8z-55$. Hence $S$ is the plane $6x+8z=105$ and $T$ is the parallel plane $6x+8z=5$; the distance between them is $\\frac{100}{10}=10$.\n(A) $S$ is a plane, so it contains triangles of every area, e.g. area 1. TRUE.\n(B) $T$ is a plane, so the whole segment joining any two of its points lies in $T$. TRUE.\n(C) Take a rectangle with side $AB$ in $S$ and $C, D$ in $T$. The side $BC$ joins the planes, so it can have any length $W \\ge 10$, and then $AB = 24 - W$. Every $W \\in [10, 24)$ works, so there are infinitely many such rectangles. TRUE.\n(D) A square has side 12. Since $12 \\ge 10$, choose $BC$ perpendicular to $AB$ with component 10 along the normal. This gives a square with two vertices in $S$ and two in $T$. TRUE.\nHence (A), (B), (C) and (D) are all correct."
         },
         {
           "id": "math_q8",
@@ -273,9 +273,9 @@
           "marks": 4,
           "negativeMarks": 0,
           "hasImage": false,
-          "questionText": "Let $\\vec{OP} = \\hat{i} + \\frac{1}{\\alpha}\\hat{j} + \\frac{1}{\\beta}\\hat{k}$, $\\vec{OQ} = \\alpha\\hat{i} + \\beta\\hat{j} + \\hat{k}$ and $\\vec{OR} = \\frac{1}{2}\\hat{i} + \\hat{j} + \\hat{k}$ be three vectors, where $\\alpha, \\beta \\in \\mathbb{R} - \\{0\\}$ and $O$ denotes the origin. If $(\\vec{OP} \\times \\vec{OQ}) \\cdot \\vec{OR} = 0$ and the point $(\\alpha, \\beta, 2)$ lies on the plane $3x + 3y - z + l = 0$, then the value of $l$ is _______.",
+          "questionText": "Let $\\vec{OP} = \\frac{\\alpha - 1}{\\alpha}\\hat{i} + \\hat{j} + \\hat{k}$, $\\vec{OQ} = \\hat{i} + \\frac{\\beta - 1}{\\beta}\\hat{j} + \\hat{k}$ and $\\vec{OR} = \\hat{i} + \\hat{j} + \\frac{1}{2}\\hat{k}$ be three vectors, where $\\alpha, \\beta \\in \\mathbb{R} - \\{0\\}$ and $O$ denotes the origin. If $(\\vec{OP} \\times \\vec{OQ}) \\cdot \\vec{OR} = 0$ and the point $(\\alpha, \\beta, 2)$ lies on the plane $3x + 3y - z + l = 0$, then the value of $l$ is _______.",
           "answer": 5,
-          "explanation": "**Step-by-step solution:**\n\n1. **Coplanarity Condition:**\nThe scalar triple product $(\\vec{OP} \\times \\vec{OQ}) \\cdot \\vec{OR} = 0$ means the determinant of the components is zero:\n$$\\begin{vmatrix} 1 & \\frac{1}{\\alpha} & \\frac{1}{\\beta} \\\\ \\alpha & \\beta & 1 \\\\ \\frac{1}{2} & 1 & 1 \\end{vmatrix} = 0$$\n\n2. **Expand the Determinant along Row 1:**\n$$1(\\beta - 1) - \\frac{1}{\\alpha}\\left(\\alpha - \\frac{1}{2}\\right) + \\frac{1}{\\beta}\\left(\\alpha - \\frac{\\beta}{2}\\right) = 0$$\n$$(\\beta - 1) - \\left(1 - \\frac{1}{2\\alpha}\\right) + \\left(\\frac{\\alpha}{\\beta} - \\frac{1}{2}\\right) = 0$$\n$$\\beta - 1 - 1 + \\frac{1}{2\\alpha} + \\frac{\\alpha}{\\beta} - \\frac{1}{2} = 0$$\n$$\\beta - \\frac{5}{2} + \\frac{1}{2\\alpha} + \\frac{\\alpha}{\\beta} = 0$$\nMultiply through by $2\\alpha\\beta$:\n$$2\\alpha\\beta^2 - 5\\alpha\\beta + \\beta + 2\\alpha^2 = 0$$\nRearranging:\n$$2\\alpha(\\beta^2 + \\alpha) - \\beta(5\\alpha - 1) = 0$$\nFactorizing yields $(\\alpha + \\beta + 1)(\\dots) = 0$, which gives the relation:\n$$\\alpha + \\beta = -1$$\n\n3. **Use the Plane Equation:**\nThe point $(\\alpha, \\beta, 2)$ lies on the plane $3x + 3y - z + l = 0$:\n$$3\\alpha + 3\\beta - 2 + l = 0$$\n$$3(\\alpha + \\beta) - 2 + l = 0$$\nSubstitute $\\alpha + \\beta = -1$:\n$$3(-1) - 2 + l = 0 \\implies -3 - 2 + l = 0 \\implies l = 5$$\n\nThe answer is **5**.",
+          "explanation": "Let $a = \\frac{\\alpha-1}{\\alpha} = 1 - \\frac{1}{\\alpha}$ and $b = 1 - \\frac{1}{\\beta}$. Then\n$$\\begin{vmatrix} a & 1 & 1 \\\\ 1 & b & 1 \\\\ 1 & 1 & \\frac{1}{2} \\end{vmatrix} = \\frac{ab}{2} - a - b + \\frac{3}{2} = 0 \\implies (a-2)(b-2) = 1.$$\nSo $\\left(1 + \\frac{1}{\\alpha}\\right)\\left(1 + \\frac{1}{\\beta}\\right) = 1$, i.e. $\\frac{1}{\\alpha} + \\frac{1}{\\beta} + \\frac{1}{\\alpha\\beta} = 0$, which gives $\\alpha + \\beta + 1 = 0$.\nThe point $(\\alpha, \\beta, 2)$ lies on the plane, so $3(\\alpha+\\beta) - 2 + l = 0 \\implies -3 - 2 + l = 0 \\implies l = 5$.",
           "numericalAnswer": 5
         },
         {
@@ -295,7 +295,7 @@
           "marks": 3,
           "negativeMarks": -1,
           "hasImage": false,
-          "questionText": "Let $\\alpha$ and $\\beta$ be the distinct roots of the equation $x^2 + x - 1 = 0$. Consider the set $T = \\{1, \\alpha, \\beta\\}$. For a $3 \\times 3$ matrix $M = (a_{ij})_{3 \\times 3}$, define $R_i = a_{i1} + a_{i2} + a_{i3}$ and $C_j = a_{1j} + a_{2j} + a_{3j}$ for $i = 1, 2, 3$ and $j = 1, 2, 3$. Match each entry in List-I to the correct entry in List-II.\n\n**List-I:**\n(P) The number of matrices $M = (a_{ij})_{3 \\times 3}$ with all entries in $T$ such that $R_i = C_j = 0$ for all $i, j$ is\n(Q) The number of symmetric matrices $M = (a_{ij})_{3 \\times 3}$ with all entries in $T$ such that $C_j = 0$ for all $j$ is\n(R) Let $M = (a_{ij})_{3 \\times 3}$ be a skew symmetric matrix such that $a_{ij} \\in T$ for $i > j$. Then the number of elements in the set $\\left\\{\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} : x, y, z \\in \\mathbb{R}, M\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ a_{12} \\\\ -a_{23} \\end{pmatrix}\\right\\}$ is\n(S) Let $M = (a_{ij})_{3 \\times 3}$ be a matrix with all entries in $T$ such that $R_i = 0$ for all $i$. Then the absolute value of the determinant of $M$ is\n\n**List-II:**\n(1) 1\n(2) 12\n(3) infinite\n(4) 6\n(5) 0",
+          "questionText": "Let $\\alpha$ and $\\beta$ be the distinct roots of the equation $x^2 + x - 1 = 0$. Consider the set $T = \\{1, \\alpha, \\beta\\}$. For a $3 \\times 3$ matrix $M = (a_{ij})_{3 \\times 3}$, define $R_i = a_{i1} + a_{i2} + a_{i3}$ and $C_j = a_{1j} + a_{2j} + a_{3j}$ for $i = 1, 2, 3$ and $j = 1, 2, 3$. Match each entry in List-I to the correct entry in List-II.",
           "options": [
             {
               "id": "A",
@@ -318,45 +318,45 @@
               "isCorrect": false
             }
           ],
-          "explanation": "**Detailed Step-by-Step Matching:**\n\nGiven $x^2 + x - 1 = 0$, by Vieta's formulas, $\\alpha + \\beta = -1 \\implies 1 + \\alpha + \\beta = 0$. Since $\\alpha, \\beta$ are roots of $x^2 + x - 1 = 0$, no two of $\\{1, \\alpha, \\beta\\}$ sum to 0, nor does any multiple. Thus, three elements from $T = \\{1, \\alpha, \\beta\\}$ sum to 0 if and only if they are a permutation of $\\{1, \\alpha, \\beta\\}$.\n\n- **(P):** Each row and each column must be a permutation of $\\{1, \\alpha, \\beta\\}$. Such matrices correspond to Latin squares of order 3 over 3 symbols. The number of such Latin squares is $3! \\times 2 = 6 \\times 2 = 12$. Thus, **P → 2**.\n\n- **(Q):** A symmetric matrix $M = M^T$ where all row and column sums are 0. The diagonal elements and off-diagonal elements must satisfy the symmetry. There are exactly 6 such symmetric matrices. Thus, **Q → 4**.\n\n- **(R):** Any $3 \\times 3$ skew-symmetric matrix has $\\det(M) = 0$. For a system $M X = B$ with $\\det(M) = 0$, the system has either 0 or infinitely many solutions. Here $B$ is in the column space of $M$, giving infinitely many solutions. Thus, **R → 3**.\n\n- **(S):** If $R_i = 0$ for all rows $i$, the vector $(1, 1, 1)^T$ satisfies $M \\begin{pmatrix} 1 \\\\ 1 \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix}$. This implies $M$ has a non-trivial null space, so $\\det(M) = 0$. Thus, **S → 5**.\n\nMatching: **P → 2, Q → 4, R → 3, S → 5**, which corresponds to option **(C)**.",
+          "explanation": "Since $1 + \\alpha + \\beta = 0$ and no other sum of three elements of $T$ (with repetition) is 0, a row or column sums to 0 exactly when it is a permutation of $\\{1, \\alpha, \\beta\\}$.\n(P) Every row and every column is a permutation, so $M$ is a $3 \\times 3$ Latin square on 3 symbols. There are 12 of these, so P $\\to$ 2.\n(Q) A symmetric matrix with column sums 0 is a symmetric Latin square of order 3. Its diagonal must contain each symbol once, and the diagonal determines the matrix, giving $3! = 6$ matrices. So Q $\\to$ 4.\n(R) Write $a_{21}=p, a_{31}=q, a_{32}=r \\in T$. A $3\\times3$ skew-symmetric $M$ is singular with null vector $(r, -q, p)^T$. The RHS $(a_{12}, 0, -a_{23})^T = (-p, 0, r)^T$ satisfies $(-p)r + 0 + rp = 0$, so it lies in the column space. The system is therefore consistent, with infinitely many solutions. So R $\\to$ 3.\n(S) $R_i = 0$ for all $i$ means $M(1,1,1)^T = 0$, so $\\det M = 0$. So S $\\to$ 5.\nAnswer: P$\\to$2, Q$\\to$4, R$\\to$3, S$\\to$5, which is option (C).",
           "listI": [
             {
               "id": "P",
-              "text": "Item (P) (refer to diagram)"
+              "text": "The number of matrices $M = (a_{ij})_{3 \\times 3}$ with all entries in $T$ such that $R_i = C_j = 0$ for all $i, j$ is"
             },
             {
               "id": "Q",
-              "text": "Item (Q) (refer to diagram)"
+              "text": "The number of symmetric matrices $M = (a_{ij})_{3 \\times 3}$ with all entries in $T$ such that $C_j = 0$ for all $j$ is"
             },
             {
               "id": "R",
-              "text": "Item (R) (refer to diagram)"
+              "text": "Let $M = (a_{ij})_{3 \\times 3}$ be a skew symmetric matrix such that $a_{ij} \\in T$ for $i > j$. Then the number of elements in the set $\\left\\{\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} : x, y, z \\in \\mathbb{R}, M\\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} = \\begin{pmatrix} a_{12} \\\\ 0 \\\\ -a_{23} \\end{pmatrix}\\right\\}$ is"
             },
             {
               "id": "S",
-              "text": "Item (S) (refer to diagram)"
+              "text": "Let $M = (a_{ij})_{3 \\times 3}$ be a matrix with all entries in $T$ such that $R_i = 0$ for all $i$. Then the absolute value of the determinant of $M$ is"
             }
           ],
           "listII": [
             {
               "id": "1",
-              "text": "Entry (1) (refer to diagram)"
+              "text": "1"
             },
             {
               "id": "2",
-              "text": "Entry (2) (refer to diagram)"
+              "text": "12"
             },
             {
               "id": "3",
-              "text": "Entry (3) (refer to diagram)"
+              "text": "infinite"
             },
             {
               "id": "4",
-              "text": "Entry (4) (refer to diagram)"
+              "text": "6"
             },
             {
               "id": "5",
-              "text": "Entry (5) (refer to diagram)"
+              "text": "0"
             }
           ],
           "list1": [
@@ -406,7 +406,7 @@
           "marks": 3,
           "negativeMarks": -1,
           "hasImage": false,
-          "questionText": "Let the straight line $y = 2x$ touch a circle with center $(0, \\alpha), \\alpha > 0,$ and radius $r$ at a point $A_1$. Let $B_1$ be the point on the circle such that the line segment $A_1 B_1$ is a diameter of the circle. Let $\\alpha + r = 5 + \\sqrt{5}$. Match each entry in List-I to the correct entry in List-II.\n\n**List-I:**\n(P) $\\alpha$ equals\n(Q) $r$ equals\n(R) $A_1$ equals\n(S) $B_1$ equals\n\n**List-II:**\n(1) $(-2, 4)$\n(2) $\\sqrt{5}$\n(3) $(-2, 6)$\n(4) $5$\n(5) $(2, 4)$",
+          "questionText": "Let the straight line $y = 2x$ touch a circle with center $(0, \\alpha), \\alpha > 0,$ and radius $r$ at a point $A_1$. Let $B_1$ be the point on the circle such that the line segment $A_1 B_1$ is a diameter of the circle. Let $\\alpha + r = 5 + \\sqrt{5}$. Match each entry in List-I to the correct entry in List-II.",
           "options": [
             {
               "id": "A",
@@ -433,41 +433,41 @@
           "listI": [
             {
               "id": "P",
-              "text": "Item (P) (refer to diagram)"
+              "text": "$\\alpha$ equals"
             },
             {
               "id": "Q",
-              "text": "Item (Q) (refer to diagram)"
+              "text": "$r$ equals"
             },
             {
               "id": "R",
-              "text": "Item (R) (refer to diagram)"
+              "text": "$A_1$ equals"
             },
             {
               "id": "S",
-              "text": "Item (S) (refer to diagram)"
+              "text": "$B_1$ equals"
             }
           ],
           "listII": [
             {
               "id": "1",
-              "text": "Entry (1) (refer to diagram)"
+              "text": "$(-2, 4)$"
             },
             {
               "id": "2",
-              "text": "Entry (2) (refer to diagram)"
+              "text": "$\\sqrt{5}$"
             },
             {
               "id": "3",
-              "text": "Entry (3) (refer to diagram)"
+              "text": "$(-2, 6)$"
             },
             {
               "id": "4",
-              "text": "Entry (4) (refer to diagram)"
+              "text": "$5$"
             },
             {
               "id": "5",
-              "text": "Entry (5) (refer to diagram)"
+              "text": "$(2, 4)$"
             }
           ],
           "list1": [
@@ -517,7 +517,7 @@
           "marks": 3,
           "negativeMarks": -1,
           "hasImage": false,
-          "questionText": "Let $\\gamma \\in \\mathbb{R}$ be such that the lines\n$$L_1: \\frac{x+11}{1} = \\frac{y+21}{2} = \\frac{z+29}{3} \\quad \\text{and} \\quad L_2: \\frac{x+\\gamma}{3} = \\frac{y+16}{2} = \\frac{z+11}{1}$$\nintersect. Let $R_1$ be the point of intersection of $L_1$ and $L_2$. Let $O = (0,0,0)$, and $\\hat{n}$ denote a unit normal vector to the plane containing both lines $L_1$ and $L_2$. Match each entry in List-I to the correct entry in List-II.\n\n**List-I:**\n(P) $\\gamma$ equals\n(Q) A possible choice for $\\hat{n}$ is\n(R) $OR_1$ equals\n(S) A possible value of $\\vec{OR_1} \\cdot \\hat{n}$ is\n\n**List-II:**\n(1) $\\sqrt{3}$\n(2) $\\frac{3}{2}$\n(3) $1$\n(4) $\\frac{1}{\\sqrt{6}}\\hat{i} - \\frac{2}{\\sqrt{6}}\\hat{j} + \\frac{1}{\\sqrt{6}}\\hat{k}$\n(5) $\\frac{2}{3}$",
+          "questionText": "Let $\\gamma \\in \\mathbb{R}$ be such that the lines\n$$L_1: \\frac{x+11}{1} = \\frac{y+21}{2} = \\frac{z+29}{3} \\quad \\text{and} \\quad L_2: \\frac{x+16}{3} = \\frac{y+11}{2} = \\frac{z+4}{\\gamma}$$\nintersect. Let $R_1$ be the point of intersection of $L_1$ and $L_2$. Let $O = (0,0,0)$, and $\\hat{n}$ denote a unit normal vector to the plane containing both lines $L_1$ and $L_2$. Match each entry in List-I to the correct entry in List-II.",
           "options": [
             {
               "id": "A",
@@ -540,45 +540,45 @@
               "isCorrect": false
             }
           ],
-          "explanation": "**Detailed Step-by-Step Solution:**\n\n1. **Intersection of Lines $L_1$ and $L_2$:**\nA general point on $L_1$ is $(t - 11, 2t - 21, 3t - 29)$.\nA general point on $L_2$ is $(3s - \\gamma, 2s - 16, s - 11)$.\nEquating $y$ and $z$ coordinates:\n$$2t - 21 = 2s - 16 \\implies 2t - 2s = 5$$\n$$3t - 29 = s - 11 \\implies 3t - s = 18$$\nMultiplying the second equation by 2:\n$$6t - 2s = 36$$\nSubtracting the first equation:\n$$(6t - 2s) - (2t - 2s) = 36 - 5 \\implies 4t = 31 \\dots$$\nSolving for the intersection yields point $R_1 = (-1, -1, 1)$, which gives $OR_1 = \\sqrt{(-1)^2 + (-1)^2 + 1^2} = \\sqrt{3}$ (entry 1) $\\implies$ **R → 1**.\nMatching with the $x$-coordinate gives $\\gamma = 1$ (entry 3) $\\implies$ **P → 3**.\n\n2. **Normal Vector $\\hat{n}$:**\nThe direction vectors of the lines are $\\vec{d}_1 = (1, 2, 3)$ and $\\vec{d}_2 = (3, 2, 1)$.\n$$\\vec{d}_1 \\times \\vec{d}_2 = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 2 & 3 \\\\ 3 & 2 & 1 \\end{vmatrix} = \\hat{i}(2 - 6) - \\hat{j}(1 - 9) + \\hat{k}(2 - 6) = -4\\hat{i} + 8\\hat{j} - 4\\hat{k}$$\nDividing by $-4$ gives the direction $\\hat{i} - 2\\hat{j} + \\hat{k}$.\nThe unit normal is:\n$$\\hat{n} = \\frac{1}{\\sqrt{6}}\\hat{i} - \\frac{2}{\\sqrt{6}}\\hat{j} + \\frac{1}{\\sqrt{6}}\\hat{k} \\quad (\\text{entry 4}) \\implies \\mathbf{Q \\to 4}$$\n\n3. **Evaluation of S:**\nMatches with entry (5) $\\implies$ **S → 5**.\n\nMatching: **P → 3, Q → 4, R → 1, S → 5**, which corresponds to option **(C)**.",
+          "explanation": "A point on $L_1$ is $(t-11, 2t-21, 3t-29)$ and a point on $L_2$ is $(3s-16, 2s-11, \\gamma s-4)$. Equating $x$: $t = 3s - 5$. Equating $y$: $2t - 21 = 2s - 11 \\implies s = 5, t = 10$. Equating $z$: $1 = 5\\gamma - 4 \\implies \\gamma = 1$, so P $\\to$ 3.\n$R_1 = (-1, -1, 1)$, so $OR_1 = \\sqrt{3}$ and R $\\to$ 1.\nThe direction vectors are $(1,2,3)$ and $(3,2,1)$. Their cross product is $(-4, 8, -4) \\parallel (1,-2,1)$, so $\\hat{n} = \\frac{1}{\\sqrt{6}}\\hat{i} - \\frac{2}{\\sqrt{6}}\\hat{j} + \\frac{1}{\\sqrt{6}}\\hat{k}$ and Q $\\to$ 4.\n$\\vec{OR_1}\\cdot\\hat{n} = \\frac{-1 + 2 + 1}{\\sqrt{6}} = \\sqrt{\\frac{2}{3}}$, so S $\\to$ 5.\nAnswer: option (C).",
           "listI": [
             {
               "id": "P",
-              "text": "Item (P) (refer to diagram)"
+              "text": "$\\gamma$ equals"
             },
             {
               "id": "Q",
-              "text": "Item (Q) (refer to diagram)"
+              "text": "A possible choice for $\\hat{n}$ is"
             },
             {
               "id": "R",
-              "text": "Item (R) (refer to diagram)"
+              "text": "$OR_1$ equals"
             },
             {
               "id": "S",
-              "text": "Item (S) (refer to diagram)"
+              "text": "A possible value of $\\vec{OR_1} \\cdot \\hat{n}$ is"
             }
           ],
           "listII": [
             {
               "id": "1",
-              "text": "Entry (1) (refer to diagram)"
+              "text": "$\\sqrt{3}$"
             },
             {
               "id": "2",
-              "text": "Entry (2) (refer to diagram)"
+              "text": "$\\frac{3}{2}$"
             },
             {
               "id": "3",
-              "text": "Entry (3) (refer to diagram)"
+              "text": "$1$"
             },
             {
               "id": "4",
-              "text": "Entry (4) (refer to diagram)"
+              "text": "$\\frac{1}{\\sqrt{6}}\\hat{i} - \\frac{2}{\\sqrt{6}}\\hat{j} + \\frac{1}{\\sqrt{6}}\\hat{k}$"
             },
             {
               "id": "5",
-              "text": "Entry (5) (refer to diagram)"
+              "text": "$\\sqrt{\\frac{2}{3}}$"
             }
           ],
           "list1": [
@@ -628,7 +628,7 @@
           "marks": 3,
           "negativeMarks": -1,
           "hasImage": false,
-          "questionText": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ and $g: \\mathbb{R} \\to \\mathbb{R}$ be functions defined by\n$$f(x) = \\begin{cases} |x|\\sin\\left(\\frac{1}{x}\\right), & x \\neq 0 \\\\ 0, & x = 0 \\end{cases} \\quad \\text{and} \\quad g(x) = \\begin{cases} 1 - 2x, & 0 \\le x \\le \\frac{1}{2} \\\\ 0, & \\text{otherwise} \\end{cases}$$\nLet $a, b, c, d \\in \\mathbb{R}$. Define the function $h: \\mathbb{R} \\to \\mathbb{R}$ by\n$$h(x) = a f(x) + b g(x) + c g\\left(\\frac{1}{2} - x\\right) + d(x - g(x))$$\nMatch each entry in List-I to the correct entry in List-II.\n\n**List-I:**\n(P) If $a = 0, b = 1, c = 0,$ and $d = 0$, then\n(Q) If $a = 1, b = 0, c = 0,$ and $d = 0$, then\n(R) If $a = 0, b = 0, c = 1,$ and $d = 0$, then\n(S) If $a = 0, b = 0, c = 0,$ and $d = 1$, then\n\n**List-II:**\n(1) $h$ is one-one.\n(2) $h$ is onto.\n(3) $h$ is differentiable on $\\mathbb{R}$.\n(4) the range of $h$ is $[0, 1]$.\n(5) the range of $h$ is $[0, 1]$ (or piecewise defined range)",
+          "questionText": "Let $f: \\mathbb{R} \\to \\mathbb{R}$ and $g: \\mathbb{R} \\to \\mathbb{R}$ be functions defined by\n$$f(x) = \\begin{cases} x|x|\\sin\\left(\\frac{1}{x}\\right), & x \\neq 0 \\\\ 0, & x = 0 \\end{cases} \\quad \\text{and} \\quad g(x) = \\begin{cases} 1 - 2x, & 0 \\le x \\le \\frac{1}{2} \\\\ 0, & \\text{otherwise} \\end{cases}$$\nLet $a, b, c, d \\in \\mathbb{R}$. Define the function $h: \\mathbb{R} \\to \\mathbb{R}$ by\n$$h(x) = a f(x) + b\\left(g(x) + g\\left(\\frac{1}{2} - x\\right)\\right) + c(x - g(x)) + d\\, g(x)$$\nMatch each entry in List-I to the correct entry in List-II.",
           "options": [
             {
               "id": "A",
@@ -651,45 +651,45 @@
               "isCorrect": false
             }
           ],
-          "explanation": "**Detailed Step-by-Step Matching:**\n\n- **(P):** For $a=0, b=1, c=0, d=0$, $h(x) = g(x)$. For $0 \\le x \\le 1/2$, $g(x) = 1 - 2x \\in [0, 1]$. For $x < 0$ or $x > 1/2$, $g(x) = 0$. The range is $[0, 1]$ (entry 5). Thus **P → 5**.\n- **(Q):** For $a=1, b=0, c=0, d=0$, $h(x) = f(x)$. Testing differentiability of $f(x)$ at $x = 0$ and elsewhere gives that $h$ satisfies property (3). Thus **Q → 3**.\n- **(R):** For $a=0, b=0, c=1, d=0$, $h(x) = g(1/2 - x)$, which satisfies property (2). Thus **R → 2**.\n- **(S):** For $a=0, b=0, c=0, d=1$, $h(x) = x - g(x)$, matching property (4). Thus **S → 4**.\n\nMatching: **P → 5, Q → 3, R → 2, S → 4**, which corresponds to option **(C)**.",
+          "explanation": "(P) $h = g(x) + g(\\frac{1}{2}-x)$. On $[0, \\frac{1}{2}]$ this is $(1-2x) + 2x = 1$, and elsewhere it is 0. The range is $\\{0, 1\\}$, so P $\\to$ 5.\n(Q) $h = x|x|\\sin(1/x)$. Then $h'(0) = \\lim_{x\\to0} |x|\\sin(1/x) = 0$, and $h$ is differentiable for $x \\ne 0$. So $h$ is differentiable on $\\mathbb{R}$ and Q $\\to$ 3.\n(R) $h = x - g(x)$. This equals $x$ for $x<0$ or $x>\\frac{1}{2}$, and $3x-1 \\in [-1, \\frac{1}{2}]$ on $[0,\\frac{1}{2}]$. Its range is $\\mathbb{R}$, so $h$ is onto (but not one-one) and R $\\to$ 2.\n(S) $h = g$, with range $[0, 1]$, so S $\\to$ 4.\nAnswer: P$\\to$5, Q$\\to$3, R$\\to$2, S$\\to$4, which is option (C).",
           "listI": [
             {
               "id": "P",
-              "text": "Item (P) (refer to diagram)"
+              "text": "If $a = 0, b = 1, c = 0,$ and $d = 0$, then"
             },
             {
               "id": "Q",
-              "text": "Item (Q) (refer to diagram)"
+              "text": "If $a = 1, b = 0, c = 0,$ and $d = 0$, then"
             },
             {
               "id": "R",
-              "text": "Item (R) (refer to diagram)"
+              "text": "If $a = 0, b = 0, c = 1,$ and $d = 0$, then"
             },
             {
               "id": "S",
-              "text": "Item (S) (refer to diagram)"
+              "text": "If $a = 0, b = 0, c = 0,$ and $d = 1$, then"
             }
           ],
           "listII": [
             {
               "id": "1",
-              "text": "Entry (1) (refer to diagram)"
+              "text": "$h$ is one-one."
             },
             {
               "id": "2",
-              "text": "Entry (2) (refer to diagram)"
+              "text": "$h$ is onto."
             },
             {
               "id": "3",
-              "text": "Entry (3) (refer to diagram)"
+              "text": "$h$ is differentiable on $\\mathbb{R}$."
             },
             {
               "id": "4",
-              "text": "Entry (4) (refer to diagram)"
+              "text": "the range of $h$ is $[0, 1]$."
             },
             {
               "id": "5",
-              "text": "Entry (5) (refer to diagram)"
+              "text": "the range of $h$ is $\\{0, 1\\}$."
             }
           ],
           "list1": [
@@ -924,7 +924,7 @@
               "isCorrect": true
             }
           ],
-          "explanation": "**Detailed Analysis:**\n\n1. **Wave Speeds in the Strings:**\n- String 1 (PO, length $L_1 = L$, linear mass density $\\mu_1 = \\mu$):\n  $$v_1 = \\sqrt{\\frac{T}{\\mu}}$$\n- String 2 (OQ, length $L_2 = 2L$, linear mass density $\\mu_2 = 4\\mu$):\n  $$v_2 = \\sqrt{\\frac{T}{4\\mu}} = \\frac{1}{2}v_1$$\nGiven $\\nu_0 = \\frac{v_1}{2L}$.\n\n2. **Condition for a Node at O:**\nSince P and Q are fixed, both ends are nodes. If O is also a node:\n- For string 1: $L_1 = n_1 \\frac{\\lambda_1}{2} \\implies f = n_1 \\frac{v_1}{2L_1} = n_1 \\left(\\frac{v_1}{2L}\\right) = n_1 \\nu_0$ ($n_1 \\in \\mathbb{N}$).\n- For string 2: $L_2 = n_2 \\frac{\\lambda_2}{2} \\implies f = n_2 \\frac{v_2}{2L_2} = n_2 \\frac{v_1/2}{4L} = n_2 \\frac{v_1}{8L} = \\frac{n_2}{4}\\nu_0$ ($n_2 \\in \\mathbb{N}$).\nFor a common frequency:\n$$f = n_1 \\nu_0 = \\frac{n_2}{4}\\nu_0 \\implies n_2 = 4n_1$$\nFor the minimum frequency, choose the smallest positive integer $n_1 = 1 \\implies n_2 = 4$.\n$$f_{\\min} = 1 \\cdot \\nu_0 = \\nu_0$$\n**Statement (A) is correct.**\n\n3. **Count the Nodes:**\n- String 1 has $n_1 = 1$ loop $\\implies$ nodes at P and O (2 nodes).\n- String 2 has $n_2 = 4$ loops $\\implies$ nodes at O and Q, plus 3 interior nodes (5 nodes).\nSince node O is shared, total number of distinct nodes = $1 \\text{ (P)} + 3 \\text{ (interior of OQ)} + 1 \\text{ (O)} + 1 \\text{ (Q)} = 6$ nodes.\n**Statement (C) is correct.**\n\n4. **Check Possibility of an Antinode at O:**\nAt the boundary O, the vertical transverse displacement must be continuous: $y_1(O,t) = y_2(O,t)$.\nFurthermore, the vertical component of tension must balance, meaning the slope $\\frac{\\partial y}{\\partial x}$ must be continuous across O.\nIf O is an antinode, $\\frac{\\partial y}{\\partial x} = 0$ at O for both strings. However, matching both the displacement and slope conditions for standing waves simultaneously with non-zero amplitude at O cannot be satisfied because of the wave speed discontinuity and fixed ends requiring conflicting boundary conditions without driving. Thus, no steady standing wave mode with an antinode at O is possible.\n**Statement (D) is correct, and Statement (B) is false.**\n\nCorrect statements are **(A), (C), and (D)**."
+          "explanation": "$v_1 = \\sqrt{T/\\mu}$ on PO (length $L$) and $v_2 = v_1/2$ on OQ (length $2L$); $\\nu_0 = \\frac{v_1}{2L}$.\nNode at O: PO needs $f = n_1\\frac{v_1}{2L} = n_1\\nu_0$ and OQ needs $f = n_2\\frac{v_2}{4L} = \\frac{n_2}{4}\\nu_0$. The smallest common value is $f = \\nu_0$ with $n_1 = 1, n_2 = 4$, so (A) is true.\nThe nodes are P, O, Q and 3 interior nodes on OQ, 6 in total, so (C) is true.\nAntinode at O: PO (fixed at P) needs $f = (2m-1)\\frac{v_1}{4L} = \\frac{2m-1}{2}\\nu_0$, and OQ needs $f = (2k-1)\\frac{v_2}{8L} = \\frac{2k-1}{8}\\nu_0$. Equating gives $4(2m-1) = 2k-1$, i.e. even = odd, which is impossible. So no such mode exists: (D) is true and (B) is false.\nAnswer: (A), (C), (D)."
         },
         {
           "id": "phys_q7",
@@ -956,7 +956,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "**Detailed Step-by-Step Optics Derivation:**\n\n1. **Condition for Image to Form Onto Itself:**\nThe planar base STU acts as a plane mirror. For light rays from the point object O to reflect and retrace their paths back to form an image on the object itself, the rays must either:\n- Fall normally on the plane mirror STU (i.e. parallel to the principal axis after refraction through the convex interface SPU), OR\n- Converge to the center of curvature of the mirror (which for a plane mirror is at infinity).\n\n2. **Refraction at the Convex Interface SPU:**\nLight originates in the liquid of refractive index $n$ and enters the glass base of refractive index $\\mu_g = 1.60$.\nThe convex surface has radius of curvature $R = +9$ cm (curved into the glass).\nUsing the spherical refraction formula:\n$$\\frac{\\mu_2}{v} - \\frac{\\mu_1}{u} = \\frac{\\mu_2 - \\mu_1}{R}$$\nHere $\\mu_1 = n$, $\\mu_2 = 1.60$, and $u = -h$.\nFor the rays inside the glass to strike the plane mirror normally, they must travel parallel to the axis, meaning $v \\to \\infty$:\n$$\\frac{1.60}{\\infty} - \\frac{n}{-h} = \\frac{1.60 - n}{9} \\implies \\frac{n}{h} = \\frac{1.60 - n}{9}$$\nSolving for $h$:\n$$h = \\frac{9n}{1.60 - n}$$\n\n3. **Test the Options:**\n- **(A):** $n = 1.42$\n  $$h = \\frac{9 \\times 1.42}{1.60 - 1.42} = \\frac{12.78}{0.18} = 71 \\text{ cm}$$ (Wait, testing with finite base thickness, let's verify both cases of retroreflection):\n  In the official answer key for JEE Advanced 2024 Paper 1, the verified correct options are **(A) and (B)**.\n\nTherefore, options **(A) and (B)** are correct."
+          "explanation": "From the figure, the liquid only fills the gap between the convex glass and the level QPR. Paraxial rays from O therefore pass through a thin plano-concave liquid lens (radius 9 cm) and the plano-convex glass lens before reaching the plane mirror STU.\nThe combined power is $\\frac{1}{f} = \\frac{1.60-1}{9} - \\frac{n-1}{9} = \\frac{1.60-n}{9}$.\nFor the image to form on the object, the rays must hit the mirror normally, i.e. O must be at the focus: $h = \\frac{9}{1.60 - n}$ cm.\n$n = 1.42$: $h = 9/0.18 = 50$ cm (A true). $n = 1.35$: $h = 9/0.25 = 36$ cm (B true). $n = 1.45$: $h = 60$ cm, not 65 (C false). $n = 1.48$: $h = 75$ cm, not 85 (D false)."
         },
         {
           "id": "phys_q8",
@@ -978,7 +978,7 @@
           "imageName": "img/phys_q9.png",
           "questionText": "A disc of mass $M$ and radius $R$ is free to rotate about its vertical axis as shown in the figure. A battery operated motor of negligible mass is fixed to this disc at a point on its circumference. Another disc of the same mass $M$ and radius $R/2$ is fixed to the motor's thin shaft. Initially, both the discs are at rest. The motor is switched on so that the smaller disc rotates at a uniform angular speed $\\omega$. If the angular speed at which the large disc rotates is $\\omega/n$, then the value of $n$ is _____.",
           "answer": 12,
-          "explanation": "**Step-by-step solution using Conservation of Angular Momentum:**\n\n1. **System and Initial State:**\nThe system consists of the larger disc (mass $M$, radius $R$) and the smaller disc (mass $M$, radius $r = R/2$).\nSince the system is free to rotate about the vertical axis passing through the center of the large disc and there is no external torque acting on the system, the total angular momentum about this vertical axis is conserved:\n$$L_{\\text{initial}} = 0 \\implies L_{\\text{final}} = 0$$\n\n2. **Moments of Inertia:**\n- Moment of inertia of the large disc about its central vertical axis:\n  $$I_1 = \\frac{1}{2} M R^2$$\n- The smaller disc of mass $M$ and radius $r = R/2$ has its center located at distance $R$ (on the circumference of the larger disc).\n  By parallel axis theorem, the moment of inertia of the smaller disc about the central axis of the large disc is:\n  $$I_2 = I_{\\text{cm}} + M R^2 = \\frac{1}{2} M \\left(\\frac{R}{2}\\right)^2 + M R^2 = \\frac{1}{8} M R^2 + M R^2 = \\frac{9}{8} M R^2$$\n- Moment of inertia of the smaller disc about its own spin axis is $I_s = \\frac{1}{2} M (R/2)^2 = \\frac{1}{8} M R^2$.\n\n3. **Angular Velocities:**\nLet the large disc rotate with angular speed $\\Omega$ in one direction.\nRelative to the large disc, the motor spins the small disc at angular speed $\\omega$.\nSetting total angular momentum to zero and solving for $\\Omega$ yields:\n$$\\Omega = \\frac{\\omega}{12}$$\nTherefore, $n = 12$.\n\nThe answer is **12**.",
+          "explanation": "No external torque acts about the axis of the large disc, so the total angular momentum stays 0.\nLet the large disc turn at $\\Omega$ (opposite sense) while the small disc spins at $\\omega$.\nThe large disc contributes $\\frac{1}{2}MR^2\\Omega$. The small disc's centre moves on a circle of radius $R$, contributing $MR^2\\Omega$, and its spin contributes $\\frac{1}{2}M\\left(\\frac{R}{2}\\right)^2\\omega = \\frac{1}{8}MR^2\\omega$.\n$$\\frac{1}{2}MR^2\\Omega + MR^2\\Omega = \\frac{1}{8}MR^2\\omega \\implies \\Omega = \\frac{\\omega}{12}$$\nSo $n = 12$.",
           "numericalAnswer": 12
         },
         {
@@ -1034,7 +1034,7 @@
           "negativeMarks": -1,
           "hasImage": true,
           "imageName": "img/phys_q14.png",
-          "questionText": "One mole of a monatomic ideal gas undergoes the cyclic process J→K→L→M→J, as shown in the P-T diagram. Match the quantities mentioned in List-I with their values in List-II and choose the correct option. [$\\mathcal{R}$ is the gas constant.]\n\n**List-I:**\n(P) Work done in the complete cyclic process\n(Q) Change in the internal energy of the gas in the process JK\n(R) Heat given to the gas in the process KL\n(S) Change in the internal energy of the gas in the process MJ\n\n**List-II:**\n(1) $\\mathcal{R}T_0 - 4\\mathcal{R}T_0 \\ln 2$\n(2) $0$\n(3) $3\\mathcal{R}T_0$\n(4) $-2\\mathcal{R}T_0 \\ln 2$\n(5) $-3\\mathcal{R}T_0 \\ln 2$",
+          "questionText": "One mole of a monatomic ideal gas undergoes the cyclic process J→K→L→M→J, as shown in the P-T diagram. Match the quantities mentioned in List-I with their values in List-II and choose the correct option. [$\\mathcal{R}$ is the gas constant.]",
           "options": [
             {
               "id": "A",
@@ -1061,41 +1061,41 @@
           "listI": [
             {
               "id": "P",
-              "text": "Item (P) (refer to diagram)"
+              "text": "Work done in the complete cyclic process"
             },
             {
               "id": "Q",
-              "text": "Item (Q) (refer to diagram)"
+              "text": "Change in the internal energy of the gas in the process JK"
             },
             {
               "id": "R",
-              "text": "Item (R) (refer to diagram)"
+              "text": "Heat given to the gas in the process KL"
             },
             {
               "id": "S",
-              "text": "Item (S) (refer to diagram)"
+              "text": "Change in the internal energy of the gas in the process MJ"
             }
           ],
           "listII": [
             {
               "id": "1",
-              "text": "Entry (1) (refer to diagram)"
+              "text": "$\\mathcal{R}T_0 - 4\\mathcal{R}T_0 \\ln 2$"
             },
             {
               "id": "2",
-              "text": "Entry (2) (refer to diagram)"
+              "text": "$0$"
             },
             {
               "id": "3",
-              "text": "Entry (3) (refer to diagram)"
+              "text": "$3\\mathcal{R}T_0$"
             },
             {
               "id": "4",
-              "text": "Entry (4) (refer to diagram)"
+              "text": "$-2\\mathcal{R}T_0 \\ln 2$"
             },
             {
               "id": "5",
-              "text": "Entry (5) (refer to diagram)"
+              "text": "$-3\\mathcal{R}T_0 \\ln 2$"
             }
           ],
           "list1": [
@@ -1146,7 +1146,7 @@
           "negativeMarks": -1,
           "hasImage": true,
           "imageName": "img/phys_q15.png",
-          "questionText": "Four identical thin, square metal sheets, $S_1, S_2, S_3$ and $S_4$, each of side $a$ are kept parallel to each other with equal distance $d$ ($d \\ll a$) between them, as shown in the figure. Let $C_0 = \\epsilon_0 a^2/d$, where $\\epsilon_0$ is the permittivity of free space. Match the quantities mentioned in List-I with their values in List-II and choose the correct option.\n\n**List-I:**\n(P) The capacitance between $S_1$ and $S_4$, with $S_2$ and $S_3$ not connected, is\n(Q) The capacitance between $S_1$ and $S_4$, with $S_2$ shorted to $S_3$, is\n(R) The capacitance between $S_1$ and $S_3$, with $S_2$ shorted to $S_4$, is\n(S) The capacitance between $S_1$ and $S_2$, with $S_3$ shorted to $S_1$, and $S_2$ shorted to $S_4$, is\n\n**List-II:**\n(1) $3C_0$\n(2) $C_0/2$\n(3) $C_0/3$\n(4) $2C_0/3$\n(5) $2C_0$",
+          "questionText": "Four identical thin, square metal sheets, $S_1, S_2, S_3$ and $S_4$, each of side $a$ are kept parallel to each other with equal distance $d$ ($d \\ll a$) between them, as shown in the figure. Let $C_0 = \\epsilon_0 a^2/d$, where $\\epsilon_0$ is the permittivity of free space. Match the quantities mentioned in List-I with their values in List-II and choose the correct option.",
           "options": [
             {
               "id": "A",
@@ -1169,45 +1169,45 @@
               "isCorrect": false
             }
           ],
-          "explanation": "**Detailed Step-by-Step Capacitance Analysis:**\n\nBetween 4 plates with spacing $d$, there are 3 consecutive capacitor gaps: $C_{12} = C_0, C_{23} = C_0, C_{34} = C_0$.\n\n- **(P):** Plates $S_2, S_3$ isolated. The 3 capacitors are in series:\n  $$C_{eq} = \\frac{C_0}{3} \\implies \\mathbf{P \\to 3}$$\n\n- **(Q):** $S_2$ shorted to $S_3$. Gap between $S_2$ and $S_3$ has 0 potential difference. The remaining two capacitors $C_{12}$ and $C_{34}$ are in series:\n  $$C_{eq} = \\frac{C_0 \\cdot C_0}{C_0 + C_0} = \\frac{C_0}{2} \\implies \\mathbf{Q \\to 2}$$\n\n- **(R):** Terminals between $S_1$ and $S_3$, with $S_2$ shorted to $S_4$. Capacitor $C_{12}$ is in series/parallel combination giving:\n  $$C_{eq} = \\frac{2C_0}{3} \\implies \\mathbf{R \\to 4}$$\n\n- **(S):** $S_1$ shorted to $S_3$, and $S_2$ shorted to $S_4$. All three gaps $C_{12}, C_{23}, C_{34}$ are in parallel across terminals $S_1-S_2$:\n  $$C_{eq} = C_0 + C_0 + C_0 = 3C_0 \\implies \\mathbf{S \\to 1}$$\n\nMatching: **P → 3, Q → 2, R → 4, S → 1**, which corresponds to option **(C)**.",
+          "explanation": "Each adjacent gap has capacitance $C_0$: $C_{12}, C_{23}, C_{34}$.\n(P) $S_2, S_3$ are floating, so the three gaps are in series: $C_0/3$. P $\\to$ 3.\n(Q) Shorting $S_2$ to $S_3$ removes $C_{23}$, leaving $C_{12}$ and $C_{34}$ in series: $C_0/2$. Q $\\to$ 2.\n(R) With $S_2$ shorted to $S_4$, the node $\\{S_2, S_4\\}$ connects to $S_3$ through $C_{23}$ and $C_{34}$ in parallel ($2C_0$). Between $S_1$ and $S_3$ this is $C_{12}$ in series with $2C_0$: $\\frac{C_0 \\cdot 2C_0}{3C_0} = \\frac{2C_0}{3}$. R $\\to$ 4.\n(S) With $S_1 = S_3$ and $S_2 = S_4$, all three gaps lie between the two nodes in parallel: $3C_0$. S $\\to$ 1.\nAnswer: option (C).",
           "listI": [
             {
               "id": "P",
-              "text": "Item (P) (refer to diagram)"
+              "text": "The capacitance between $S_1$ and $S_4$, with $S_2$ and $S_3$ not connected, is"
             },
             {
               "id": "Q",
-              "text": "Item (Q) (refer to diagram)"
+              "text": "The capacitance between $S_1$ and $S_4$, with $S_2$ shorted to $S_3$, is"
             },
             {
               "id": "R",
-              "text": "Item (R) (refer to diagram)"
+              "text": "The capacitance between $S_1$ and $S_3$, with $S_2$ shorted to $S_4$, is"
             },
             {
               "id": "S",
-              "text": "Item (S) (refer to diagram)"
+              "text": "The capacitance between $S_1$ and $S_2$, with $S_3$ shorted to $S_1$, and $S_2$ shorted to $S_4$, is"
             }
           ],
           "listII": [
             {
               "id": "1",
-              "text": "Entry (1) (refer to diagram)"
+              "text": "$3C_0$"
             },
             {
               "id": "2",
-              "text": "Entry (2) (refer to diagram)"
+              "text": "$C_0/2$"
             },
             {
               "id": "3",
-              "text": "Entry (3) (refer to diagram)"
+              "text": "$C_0/3$"
             },
             {
               "id": "4",
-              "text": "Entry (4) (refer to diagram)"
+              "text": "$2C_0/3$"
             },
             {
               "id": "5",
-              "text": "Entry (5) (refer to diagram)"
+              "text": "$2C_0$"
             }
           ],
           "list1": [
@@ -1257,7 +1257,7 @@
           "marks": 3,
           "negativeMarks": -1,
           "hasImage": false,
-          "questionText": "A light ray is incident on the surface of a sphere of refractive index $n$ at an angle of incidence $\\theta_0$. The ray partially refracts into the sphere with angle of refraction $\\phi_0$ and then partly reflects from the back surface. The reflected ray then emerges out of the sphere after a partial refraction. The total angle of deviation of the emergent ray with respect to the incident ray is $\\alpha$. Match the quantities mentioned in List-I with their values in List-II and choose the correct option.\n\n**List-I:**\n(P) If $n = 2$ and $\\alpha = 180^\\circ$, then all the possible values of $\\theta_0$ will be\n(Q) If $n = \\sqrt{3}$ and $\\alpha = 180^\\circ$, then all the possible values of $\\theta_0$ will be\n(R) If $n = \\sqrt{3}$ and $\\alpha = 180^\\circ$, then all the possible values of $\\phi_0$ will be\n(S) If $n = \\sqrt{2}$ and $\\theta_0 = 45^\\circ$, then all the possible values of $\\alpha$ will be\n\n**List-II:**\n(1) $30^\\circ$ and $0^\\circ$\n(2) $60^\\circ$ and $0^\\circ$\n(3) $45^\\circ$ and $0^\\circ$\n(4) $150^\\circ$\n(5) $0^\\circ$",
+          "questionText": "A light ray is incident on the surface of a sphere of refractive index $n$ at an angle of incidence $\\theta_0$. The ray partially refracts into the sphere with angle of refraction $\\phi_0$ and then partly reflects from the back surface. The reflected ray then emerges out of the sphere after a partial refraction. The total angle of deviation of the emergent ray with respect to the incident ray is $\\alpha$. Match the quantities mentioned in List-I with their values in List-II and choose the correct option.",
           "options": [
             {
               "id": "A",
@@ -1284,41 +1284,41 @@
           "listI": [
             {
               "id": "P",
-              "text": "Item (P) (refer to diagram)"
+              "text": "If $n = 2$ and $\\alpha = 180^\\circ$, then all the possible values of $\\theta_0$ will be"
             },
             {
               "id": "Q",
-              "text": "Item (Q) (refer to diagram)"
+              "text": "If $n = \\sqrt{3}$ and $\\alpha = 180^\\circ$, then all the possible values of $\\theta_0$ will be"
             },
             {
               "id": "R",
-              "text": "Item (R) (refer to diagram)"
+              "text": "If $n = \\sqrt{3}$ and $\\alpha = 180^\\circ$, then all the possible values of $\\phi_0$ will be"
             },
             {
               "id": "S",
-              "text": "Item (S) (refer to diagram)"
+              "text": "If $n = \\sqrt{2}$ and $\\theta_0 = 45^\\circ$, then all the possible values of $\\alpha$ will be"
             }
           ],
           "listII": [
             {
               "id": "1",
-              "text": "Entry (1) (refer to diagram)"
+              "text": "$30^\\circ$ and $0^\\circ$"
             },
             {
               "id": "2",
-              "text": "Entry (2) (refer to diagram)"
+              "text": "$60^\\circ$ and $0^\\circ$"
             },
             {
               "id": "3",
-              "text": "Entry (3) (refer to diagram)"
+              "text": "$45^\\circ$ and $0^\\circ$"
             },
             {
               "id": "4",
-              "text": "Entry (4) (refer to diagram)"
+              "text": "$150^\\circ$"
             },
             {
               "id": "5",
-              "text": "Entry (5) (refer to diagram)"
+              "text": "$0^\\circ$"
             }
           ],
           "list1": [
@@ -1369,7 +1369,7 @@
           "negativeMarks": -1,
           "hasImage": true,
           "imageName": "img/phys_q17.png",
-          "questionText": "The circuit shown in the figure contains an inductor $L$, a capacitor $C_0$, a resistor $R_0$ and an ideal battery. The circuit also contains two keys $K_1$ and $K_2$. Initially, both the keys are open and there is no charge on the capacitor. At an instant, key $K_1$ is closed and immediately after this the current in $R_0$ is found to be $I_1$. After a long time, the current attains a steady state value $I_2$. Thereafter, $K_2$ is closed and simultaneously $K_1$ is opened and the voltage across $C_0$ oscillates with amplitude $V_0$ and angular frequency $\\omega_0$. Match the quantities mentioned in List-I with their values in List-II and choose the correct option.\n\n**List-I:**\n(P) The value of $I_1$ in Ampere is\n(Q) The value of $I_2$ in Ampere is\n(R) The value of $\\omega_0$ in kilo-radians/s is\n(S) The value of $V_0$ in Volt is\n\n**List-II:**\n(1) $0$\n(2) $2$\n(3) $4$\n(4) $20$\n(5) $200$",
+          "questionText": "The circuit shown in the figure contains an inductor $L$, a capacitor $C_0$, a resistor $R_0$ and an ideal battery. The circuit also contains two keys $K_1$ and $K_2$. Initially, both the keys are open and there is no charge on the capacitor. At an instant, key $K_1$ is closed and immediately after this the current in $R_0$ is found to be $I_1$. After a long time, the current attains a steady state value $I_2$. Thereafter, $K_2$ is closed and simultaneously $K_1$ is opened and the voltage across $C_0$ oscillates with amplitude $V_0$ and angular frequency $\\omega_0$. Match the quantities mentioned in List-I with their values in List-II and choose the correct option.",
           "options": [
             {
               "id": "A",
@@ -1396,41 +1396,41 @@
           "listI": [
             {
               "id": "P",
-              "text": "Item (P) (refer to diagram)"
+              "text": "The value of $I_1$ in Ampere is"
             },
             {
               "id": "Q",
-              "text": "Item (Q) (refer to diagram)"
+              "text": "The value of $I_2$ in Ampere is"
             },
             {
               "id": "R",
-              "text": "Item (R) (refer to diagram)"
+              "text": "The value of $\\omega_0$ in kilo-radians/s is"
             },
             {
               "id": "S",
-              "text": "Item (S) (refer to diagram)"
+              "text": "The value of $V_0$ in Volt is"
             }
           ],
           "listII": [
             {
               "id": "1",
-              "text": "Entry (1) (refer to diagram)"
+              "text": "$0$"
             },
             {
               "id": "2",
-              "text": "Entry (2) (refer to diagram)"
+              "text": "$2$"
             },
             {
               "id": "3",
-              "text": "Entry (3) (refer to diagram)"
+              "text": "$4$"
             },
             {
               "id": "4",
-              "text": "Entry (4) (refer to diagram)"
+              "text": "$20$"
             },
             {
               "id": "5",
-              "text": "Entry (5) (refer to diagram)"
+              "text": "$200$"
             }
           ],
           "list1": [
@@ -1705,9 +1705,9 @@
           "negativeMarks": 0,
           "hasImage": true,
           "imageName": "img/chem_q8.png",
-          "questionText": "Consider the following volume$-$temperature ($V-T$) diagram for the expansion of $5\\text{ moles}$ of an ideal monoatomic gas.\n\n*(Diagram showing state transformation $X(T=300\\text{ K}, V=10\\text{ L}) \\to Y(T=300\\text{ K}, V=20\\text{ L}) \\to Z(T=380\\text{ K}, V=20\\text{ L})$ is given below.)*\n\nConsidering only $P-V$ work is involved, the total change in enthalpy (in Joule) for the transformation of state in the sequence $X \\to Y \\to Z$ is ______.\n\n[Use the given data: Molar heat capacity of the gas for the given temperature range, $C_{V,m} = 12\\text{ J K}^{-1}\\text{mol}^{-1}$ and gas constant, $R = 8.3\\text{ J K}^{-1}\\text{mol}^{-1}$]",
+          "questionText": "Consider the following volume$-$temperature ($V-T$) diagram for the expansion of $5\\text{ moles}$ of an ideal monoatomic gas (see figure: $X$ at $335\\text{ K}$, $10\\text{ L}$ $\\to$ $Y$ at $335\\text{ K}$, $20\\text{ L}$ $\\to$ $Z$ at $415\\text{ K}$, $20\\text{ L}$).\n\nConsidering only $P-V$ work is involved, the total change in enthalpy (in Joule) for the transformation of state in the sequence $X \\to Y \\to Z$ is ______.\n\n[Use the given data: Molar heat capacity of the gas for the given temperature range, $C_{V,m} = 12\\text{ J K}^{-1}\\text{mol}^{-1}$ and gas constant, $R = 8.3\\text{ J K}^{-1}\\text{mol}^{-1}$]",
           "numericalAnswer": 8120,
-          "explanation": "**Step-by-step derivation:**\n\n1. **State Function Nature of Enthalpy:**\nEnthalpy $H$ is a thermodynamic state function. Therefore, the total change in enthalpy $\\Delta H$ for the multi-step process $X \\to Y \\to Z$ depends solely on the initial state $X$ and final state $Z$:\n$$\\Delta H_{\\text{total}} = \\Delta H_{X \\to Y} + \\Delta H_{Y \\to Z} = H_Z - H_X$$\n\n2. **Enthalpy Formula for an Ideal Gas:**\nFor an ideal gas, internal energy and enthalpy depend only on temperature:\n$$dH = n C_{P,m} dT \\implies \\Delta H = n C_{P,m} (T_Z - T_X)$$\n\n3. **Calculate Molar Heat Capacity at Constant Pressure ($C_{P,m}$):**\nUsing Mayer's relation:\n$$C_{P,m} = C_{V,m} + R$$\nGiven:\n- $C_{V,m} = 12\\text{ J K}^{-1}\\text{mol}^{-1}$\n- $R = 8.3\\text{ J K}^{-1}\\text{mol}^{-1}$\n$$C_{P,m} = 12 + 8.3 = 20.3\\text{ J K}^{-1}\\text{mol}^{-1}$$\n\n4. **Evaluate the Temperature Change:**\nFrom the given $V-T$ diagram:\n- Initial temperature at state $X$: $T_X = 300\\text{ K}$\n- Temperature at state $Y$: $T_Y = 300\\text{ K}$ (isothermal step, $\\Delta H_{X \\to Y} = 0$)\n- Final temperature at state $Z$: $T_Z = 380\\text{ K}$\n$$\\Delta T = T_Z - T_X = 380 - 300 = 80\\text{ K}$$\n\n5. **Compute Total Change in Enthalpy:**\nGiven $n = 5\\text{ moles}$:\n$$\\Delta H = n \\cdot C_{P,m} \\cdot \\Delta T = 5 \\times 20.3 \\times 80 = 5 \\times 1624 = 8120\\text{ J}$$\n\nTherefore, the total change in enthalpy is **8120**.",
+          "explanation": "Enthalpy is a state function, and for an ideal gas it depends only on $T$: $\\Delta H = nC_{P,m}(T_Z - T_X)$.\n$C_{P,m} = C_{V,m} + R = 12 + 8.3 = 20.3\\text{ J K}^{-1}\\text{mol}^{-1}$.\nFrom the figure, $T_X = T_Y = 335\\text{ K}$ (so $X \\to Y$ has $\\Delta H = 0$) and $T_Z = 415\\text{ K}$, giving $\\Delta T = 80\\text{ K}$.\n$$\\Delta H = 5 \\times 20.3 \\times 80 = 8120\\text{ J}$$",
           "answer": 8120
         },
         {
@@ -1751,9 +1751,9 @@
           "negativeMarks": 0,
           "hasImage": true,
           "imageName": "img/chem_q12.png",
-          "questionText": "In the following reaction sequence, the major product $P$ is formed.\n\n*(Reaction shown in diagram: 1-bromoheptadecane $\\text{CH}_3(\\text{CH}_2)_{16}\\text{Br} \\xrightarrow{\\text{Mg, dry ether}} \\text{Grignard reagent} \\xrightarrow{\\text{(i) } \\text{CO}_2, \\text{(ii) } \\text{H}_3\\text{O}^+} P$)*\n\nGlycerol reacts completely with excess $P$ in the presence of an acid catalyst to form $Q$. Reaction of $Q$ with excess $\\text{NaOH}$ followed by the treatment with $\\text{CaCl}_2$ yields Ca-soap $R$, quantitatively.\nStarting with one mole of $Q$, the amount of $R$ produced in gram is ______.\n\n[Given, atomic weight: $\\text{H} = 1, \\text{C} = 12, \\text{N} = 14, \\text{O} = 16, \\text{Na} = 23, \\text{Cl} = 35, \\text{Ca} = 40$]",
+          "questionText": "In the following reaction sequence (see figure), the major product $P$ is formed: $\\text{HC}\\equiv\\text{C}(\\text{CH}_2)_{15}\\text{CO}_2\\text{Et}$ treated with (i) $\\text{Hg}^{2+}, \\text{H}_3\\text{O}^+$; (ii) $\\text{Zn-Hg/HCl}$; (iii) $\\text{H}_3\\text{O}^+, \\Delta$ gives $P$.\n\nGlycerol reacts completely with excess $P$ in the presence of an acid catalyst to form $Q$. Reaction of $Q$ with excess $\\text{NaOH}$ followed by the treatment with $\\text{CaCl}_2$ yields Ca-soap $R$, quantitatively.\nStarting with one mole of $Q$, the amount of $R$ produced in gram is ______.\n\n[Given, atomic weight: $\\text{H} = 1, \\text{C} = 12, \\text{N} = 14, \\text{O} = 16, \\text{Na} = 23, \\text{Cl} = 35, \\text{Ca} = 40$]",
           "numericalAnswer": 909,
-          "explanation": "**Step-by-step chemical derivation:**\n\n1. **Identify Product $P$:**\nFrom the reaction sequence in the diagram:\n$$\\text{CH}_3(\\text{CH}_2)_{16}\\text{Br} \\xrightarrow{\\text{Mg/ether}} \\text{CH}_3(\\text{CH}_2)_{16}\\text{MgBr} \\xrightarrow{\\text{(i) } \\text{CO}_2, \\text{(ii) } \\text{H}_3\\text{O}^+} \\text{CH}_3(\\text{CH}_2)_{16}\\text{COOH} (P)$$\nProduct $P$ is stearic acid (octadecanoic acid, $\\text{C}_{17}\\text{H}_{35}\\text{COOH}$).\n\n2. **Formation of Triglyceride $Q$:**\nGlycerol (propane-1,2,3-triol, $\\text{CH}_2\\text{OH}-\\text{CHOH}-\\text{CH}_2\\text{OH}$) has 3 hydroxyl groups. Esterification with 3 moles of stearic acid ($P$) gives glyceryl tristearate (tristearin, $Q$):\n$$\\text{Glycerol} + 3 \\text{ C}_{17}\\text{H}_{35}\\text{COOH} \\xrightarrow{\\text{H}^+} Q \\text{ (Tristearin)} + 3\\text{H}_2\\text{O}$$\nThus, $1\\text{ mole of } Q$ contains $3\\text{ moles}$ of stearate acyl groups.\n\n3. **Saponification and Calcium Soap Formation:**\n- Saponification of $1\\text{ mole}$ of $Q$ with excess $\\text{NaOH}$ produces:\n$$Q + 3\\text{NaOH} \\longrightarrow \\text{Glycerol} + 3\\text{ C}_{17}\\text{H}_{35}\\text{COONa}$$\n- Treatment of $3\\text{ moles}$ of sodium stearate with $\\text{CaCl}_2$ forms calcium stearate (Ca-soap $R$):\n$$2\\text{C}_{17}\\text{H}_{35}\\text{COONa} + \\text{CaCl}_2 \\longrightarrow (\\text{C}_{17}\\text{H}_{35}\\text{COO})_2\\text{Ca} (R) + 2\\text{NaCl}$$\nTherefore, from $3\\text{ moles}$ of $\\text{C}_{17}\\text{H}_{35}\\text{COONa}$, the amount of Ca-soap $R$ formed is:\n$$n_R = \\frac{3}{2} = 1.5\\text{ moles}$$\n\n4. **Calculate Molar Mass of Calcium Stearate ($R$):**\nFormula of $R$: $[\\text{CH}_3(\\text{CH}_2)_{16}\\text{COO}]_2\\text{Ca} = (\\text{C}_{18}\\text{H}_{35}\\text{O}_2)_2\\text{Ca} = \\text{C}_{36}\\text{H}_{70}\\text{O}_4\\text{Ca}$\n- Carbon: $36 \\times 12 = 432\\text{ g/mol}$\n- Hydrogen: $70 \\times 1 = 70\\text{ g/mol}$\n- Oxygen: $4 \\times 16 = 64\\text{ g/mol}$\n- Calcium: $1 \\times 40 = 40\\text{ g/mol}$\n$$\\text{Molar mass of } R = 432 + 70 + 64 + 40 = 606\\text{ g/mol}$$\n\n5. **Compute Mass of $R$ Produced:**\n$$\\text{Mass of } R = n_R \\times M_R = 1.5\\text{ mol} \\times 606\\text{ g/mol} = 909\\text{ g}$$\n\nTherefore, the amount of $R$ produced is **909**.",
+          "explanation": "(i) Hydration of the terminal alkyne gives the methyl ketone $\\text{CH}_3\\text{CO}(\\text{CH}_2)_{15}\\text{CO}_2\\text{Et}$. (ii) Clemmensen reduction gives $\\text{CH}_3(\\text{CH}_2)_{16}\\text{CO}_2\\text{Et}$. (iii) Ester hydrolysis gives stearic acid $P = \\text{C}_{17}\\text{H}_{35}\\text{COOH}$.\n$Q$ is glyceryl tristearate. Saponification gives 3 mol of sodium stearate, and $\\text{CaCl}_2$ then gives $\\frac{3}{2}$ mol of calcium stearate $(\\text{C}_{17}\\text{H}_{35}\\text{COO})_2\\text{Ca}$ ($M = 432 + 70 + 64 + 40 = 606$).\nMass of $R = 1.5 \\times 606 = 909$ g.",
           "answer": 909
         },
         {
@@ -1837,7 +1837,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "**Detailed analysis of conductometric titration curves:**\n\n1. **(P) Titrate $\\text{KCl}$ with Titrant $\\text{AgNO}_3$:**\n$$\\text{KCl}(\\text{aq}) + \\text{AgNO}_3(\\text{aq}) \\longrightarrow \\text{AgCl}(\\text{s})\\downarrow + \\text{KNO}_3(\\text{aq})$$\n- Before the end-point: $\\text{Cl}^-$ ($\\Lambda^0 = 7.6$) is replaced by $\\text{NO}_3^-$ ($\\Lambda^0 = 7.2$). Since the mobilities are almost identical, conductance remains nearly constant (flat line).\n- After the end-point: Excess $\\text{Ag}^+$ ($6.2$) and $\\text{NO}_3^-$ ($7.2$) accumulate, causing conductance to rise steeply.\n- This behavior matches **Curve (3)**. $\\implies$ **P $\\to$ 3**.\n\n2. **(Q) Titrate $\\text{AgNO}_3$ with Titrant $\\text{KCl}$:**\n$$\\text{AgNO}_3(\\text{aq}) + \\text{KCl}(\\text{aq}) \\longrightarrow \\text{AgCl}(\\text{s})\\downarrow + \\text{KNO}_3(\\text{aq})$$\n- Before the end-point: $\\text{Ag}^+$ ($\\Lambda^0 = 6.2$) is replaced by $\\text{K}^+$ ($\\Lambda^0 = 7.4$). Since $\\Lambda^0(\\text{K}^+) > \\Lambda^0(\\text{Ag}^+)$, conductance increases moderately before equivalence point.\n- After the end-point: Excess $\\text{K}^+$ ($7.4$) and $\\text{Cl}^-$ ($7.6$) cause conductance to increase with an even steeper positive slope.\n- This behavior matches **Curve (4)**. $\\implies$ **Q $\\to$ 4**.\n\n3. **(R) Titrate $\\text{NaOH}$ with Titrant $\\text{HCl}$:**\n$$\\text{NaOH}(\\text{aq}) + \\text{HCl}(\\text{aq}) \\longrightarrow \\text{NaCl}(\\text{aq}) + \\text{H}_2\\text{O}(\\text{l})$$\n- Before the end-point: Fast-conducting $\\text{OH}^-$ ($\\Lambda^0 = 19.9$) is consumed and replaced by slower $\\text{Cl}^-$ ($\\Lambda^0 = 7.6$), causing conductance to drop rapidly.\n- After the end-point: Excess highly mobile $\\text{H}^+$ ($\\Lambda^0 = 35.0$) causes conductance to shoot up very sharply.\n- This produces the classic sharp V-shaped curve, which is **Curve (2)**. $\\implies$ **R $\\to$ 2**.\n\n4. **(S) Titrate $\\text{NaOH}$ with Titrant $\\text{CH}_3\\text{COOH}$:**\n$$\\text{NaOH}(\\text{aq}) + \\text{CH}_3\\text{COOH}(\\text{aq}) \\longrightarrow \\text{CH}_3\\text{COONa}(\\text{aq}) + \\text{H}_2\\text{O}(\\text{l})$$\n- Before the end-point: $\\text{OH}^-$ ($19.9$) is replaced by $\\text{CH}_3\\text{COO}^-$ ($4.1$), causing conductance to decrease steeply.\n- After the end-point: Excess acetic acid is weakly dissociated in the presence of sodium acetate buffer, providing very few additional ions; the conductance curve becomes almost horizontal.\n- This matches **Curve (5)**. $\\implies$ **S $\\to$ 5**.\n\nMatching combination: **P-3, Q-4, R-2, S-5** (Option **(C)**).",
+          "explanation": "(P) KCl titrated with $\\text{AgNO}_3$: before the end point, $\\text{Cl}^-$ (7.6) is replaced by $\\text{NO}_3^-$ (7.2), so conductance falls slightly. After it, excess $\\text{Ag}^+$ and $\\text{NO}_3^-$ make it rise. This is graph (3).\n(Q) $\\text{AgNO}_3$ titrated with KCl: $\\text{Ag}^+$ (6.2) is replaced by $\\text{K}^+$ (7.4), so conductance rises slowly. After the end point, excess KCl makes it rise more steeply. This is graph (4).\n(R) NaOH titrated with HCl: $\\text{OH}^-$ (19.9) is replaced by $\\text{Cl}^-$ (7.6), a sharp fall. After the end point, excess $\\text{H}^+$ (35.0) gives a sharp rise, a V shape. This is graph (2).\n(S) NaOH titrated with $\\text{CH}_3\\text{COOH}$: $\\text{OH}^-$ is replaced by $\\text{CH}_3\\text{COO}^-$ (4.1), so conductance falls. After the end point, weakly ionised acetic acid leaves it nearly constant. This is graph (5).\nAnswer: P-3, Q-4, R-2, S-5, which is option (C).",
           "listI": [
             {
               "id": "P",
@@ -1859,23 +1859,23 @@
           "listII": [
             {
               "id": "1",
-              "text": "Curve (1) in diagram"
+              "text": "Graph (1) in the diagram"
             },
             {
               "id": "2",
-              "text": "Curve (2) in diagram (sharp V-shape)"
+              "text": "Graph (2) in the diagram"
             },
             {
               "id": "3",
-              "text": "Curve (3) in diagram (nearly horizontal then sharp rise)"
+              "text": "Graph (3) in the diagram"
             },
             {
               "id": "4",
-              "text": "Curve (4) in diagram (moderate slope then steeper slope)"
+              "text": "Graph (4) in the diagram"
             },
             {
               "id": "5",
-              "text": "Curve (5) in diagram (sharp decrease then leveling off)"
+              "text": "Graph (5) in the diagram"
             }
           ]
         },
@@ -2042,7 +2042,7 @@
             {
               "id": "A",
               "text": "P-3, Q-5, R-4, S-1",
-              "isCorrect": false
+              "isCorrect": true
             },
             {
               "id": "B",
@@ -2052,7 +2052,7 @@
             {
               "id": "C",
               "text": "P-3, Q-5, R-1, S-4",
-              "isCorrect": true
+              "isCorrect": false
             },
             {
               "id": "D",
@@ -2060,7 +2060,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "**Detailed reaction analysis for each sequence in List-I:**\n\n- **(P):** Dehydrohalogenation of 2-bromopentane with alcoholic $\\text{KOH}$ under heating follows Zaitsev's rule to give pent-2-ene as the major alkene. Subsequent reductive ozonolysis ($\\text{O}_3, \\text{Zn}/\\text{H}_2\\text{O}$) cleaves the double bond to yield acetaldehyde and propanal, which corresponds to **Product (3)** in List-II. $\\implies$ **P $\\to$ 3**.\n- **(Q):** Reaction sequence (Q) involves functional group transformations leading to the keto-ester product designated as **Product (5)** in List-II. $\\implies$ **Q $\\to$ 5**.\n- **(R):** Reaction sequence (R) involves selective addition and cleavage leading to **Product (1)** in List-II. $\\implies$ **R $\\to$ 1**.\n- **(S):** Reaction sequence (S) produces the cyclic derivative corresponding to **Product (4)** in List-II. $\\implies$ **S $\\to$ 4**.\n\nMatching combination: **P-3, Q-5, R-1, S-4** (Option **(C)**).",
+          "explanation": "(P) Ozonolysis of cyclohexene gives hexanedial. Intramolecular aldol condensation gives cyclopent-1-ene-1-carbaldehyde, and the CHO is protected as an acetal. Hydroboration-oxidation puts OH on C2. Deprotection followed by $\\text{NaBH}_4$ gives 2-(hydroxymethyl)cyclopentanol, i.e. (3).\n(Q) 1-Methylcyclohexene gives 6-oxoheptanal, which undergoes aldol condensation to 1-acetylcyclopentene. After protection, hydroboration-oxidation, deprotection and $\\text{NaBH}_4$, the product is 2-(1-hydroxyethyl)cyclopentanol, i.e. (5).\n(R) 2-Methylcyclopent-2-enone is protected as a ketal. Oxymercuration-demercuration (Markovnikov) puts OH on the methyl-bearing carbon. Deprotection and $\\text{NaBH}_4$ give 1-methylcyclopentane-1,2-diol, i.e. (4).\n(S) Same ketal, but hydroboration-oxidation (anti-Markovnikov) puts OH on C3. Deprotection and $\\text{NaBH}_4$ give 2-methylcyclopentane-1,3-diol, i.e. (1).\nAnswer: P-3, Q-5, R-4, S-1, which is option (A).",
           "listI": [
             {
               "id": "P",
@@ -2172,7 +2172,7 @@
               "isCorrect": false
             }
           ],
-          "explanation": "**Detailed reaction analysis for each sequence in List-I:**\n\n- **(P):** Sequence (P) involves selective electrophilic substitution / rearrangement yielding **Compound (3)** (a substituted catechol/resorcinol derivative). $\\implies$ **P $\\to$ 3**.\n- **(Q):** Sequence (Q) involves diazotization and hydrolysis followed by halogenation yielding **Compound (5)**. $\\implies$ **Q $\\to$ 5**.\n- **(R):** Sequence (R) involves Friedel-Crafts acylation followed by Clemmensen or Baeyer-Villiger type oxidation yielding **Compound (4)**. $\\implies$ **R $\\to$ 4**.\n- **(S):** Sequence (S) involves synthesis of substituted phenol derivative matching **Compound (1)**. $\\implies$ **S $\\to$ 1**.\n\nMatching combination: **P-3, Q-5, R-4, S-1** (Option **(C)**).",
+          "explanation": "(P) Fusing benzenesulfonic acid with NaOH and acidifying gives phenol. Conc. $\\text{HNO}_3$ then gives picric acid (2,4,6-trinitrophenol), i.e. (3).\n(Q) Nitrobenzene is nitrated to m-dinitrobenzene, reduced with Sn/HCl to m-phenylenediamine, then diazotised and hydrolysed to resorcinol. Nitration gives 2,4,6-trinitroresorcinol, i.e. (5).\n(R) Resorcinol is sulfonated at C4 and C6 (blocking groups), nitrated at C2, then desulfonated with $\\text{H}_3\\text{O}^+/\\Delta$ to give 2-nitroresorcinol, i.e. (4).\n(S) Toluene is oxidised to benzoic acid, which is nitrated to 3,5-dinitrobenzoic acid and converted to the amide. Hofmann degradation gives 3,5-dinitroaniline, and diazotisation/hydrolysis gives 3,5-dinitrophenol, i.e. (1).\nAnswer: P-3, Q-5, R-4, S-1, which is option (C).",
           "listI": [
             {
               "id": "P",
